@@ -1,0 +1,31 @@
+name: MicroOS
+bg-color: microos
+fg-color: white
+logo: logos/microos.svg
+downloads:
+- name: Installation
+  arches:
+  - name: x86_64
+    types:
+    - name: Offline Image
+      desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem 
+      primary_link: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso
+      links:
+      - name: Metalink
+        url: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso?mirrorlist
+      - name: Checksum
+        url: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso.sha256
+  - name: aarch64
+    types:
+    - name: Offline Image
+      desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem 
+      primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso
+      links:
+      - name: Metalink
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso?mirrorlist
+      - name: Checksum
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso.sha256

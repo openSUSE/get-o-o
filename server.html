@@ -1,0 +1,89 @@
+---
+title: openSUSE Server Distributions
+permalink: /server/
+---
+<link rel="stylesheet" href="/assets/css/software.css">
+<div class="container text-center py-4">
+  <h1 class="display-3">openSUSE Server Distributions</h1>
+  <p class="lead">Four comfortably boring distributions, how it always should be</p>
+</div>
+<div class="container-fluid bg-wallpaper text-white">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 py-2 px-5 py-md-5 bg-tumbleweed-tint">
+        <div class="row h-100">
+          <div class="col-auto">
+            <div class="distribution-logo">
+            {% include logos/tumbleweed.svg %}
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="mb-md-auto">
+              <h2>Tumbleweed</h2>
+              <h6>For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts</h6>
+              <p>Rolling release with the latest packages provided by the openSUSE Project</p>
+            </div>
+            <a href="/tumbleweed" class="btn btn-light">View Tumbleweed</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-2 px-5 py-md-5 bg-leap-tint">
+        <div class="row h-100">
+          <div class="col-auto">
+            <div class="distribution-logo">
+            {% include logos/leap.svg %}
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="mb-md-auto">
+              <h2>Leap</h2>
+              <h6>For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users</h6>
+              <p>Regular release with the benefits of both enterprise-grade engineering and community-developed innovation</p>
+            </div>
+            <a href="/leap" class="btn btn-light">View Leap</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-2 px-5 py-md-5 bg-kubic-tint">
+        <div class="row h-100">
+          <div class="col-auto">
+            <div class="distribution-logo">
+            {% include logos/kubic.svg %}
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="mb-md-auto">
+              <h2>Kubic</h2>
+              <h6>For containerized server workflows</h6>
+              <p>Multi-purpose Standalone & Kubernetes Container Operating System based on openSUSE MicroOS</p>
+            </div>
+            <a href="/kubic" class="btn btn-light">View Kubic</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 py-2 px-5 py-md-5 bg-microos-tint">
+        <div class="row h-100">
+          <div class="col-auto">
+            <div class="distribution-logo">
+            {% include logos/microos.svg %}
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="mb-md-auto">
+              <h2>MicroOS</h2>
+              <h6>For single purpose server applications</h6>
+              <p>Designed to host container workloads with automated administration & patching</p>
+            </div>
+            <a href="/microos" class="btn btn-light">View MicroOS</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% include features/snapper.html %}
+{% include features/transactional.html %}
+{% include features/installation.html %}
+{% include features/zypper.html %}
+{% include features/points.html %}
+{% include features/yast.html %}

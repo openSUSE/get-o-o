@@ -1,0 +1,12 @@
+{% capture release %}{% labeltorelease %}{{ include.type }}{% endlabeltorelease %}{% endcapture %}
+
+{% assign currtype = release | split: ":" %}
+{% assign version = currtype[0] | replace: ".", "" %}
+{% assign state = currtype[1] %}
+
+{% if version != "" %}
+  {% include distribution.html distro=version state=state %}
+{% else %}
+<meta http-equiv="refresh" content="0; url=/leap/" />
+<p><a href="/leap/">Redirect</a></p>
+{% endif %}

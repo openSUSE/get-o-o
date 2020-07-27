@@ -1,0 +1,31 @@
+name: Kubic
+bg-color: kubic
+fg-color: white
+logo: logos/kubic.svg
+downloads:
+- name: Installation
+  arches:
+  - name: x86_64
+    types:
+    - name: Offline Image
+      desc: Container as a Service Platform based on Kubernetes atop openSUSE MicroOS.
+      primary_link: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso
+      links:
+      - name: Metalink
+        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso?mirrorlist
+      - name: Checksum
+        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso.sha256
+  - name: aarch64
+    types:
+    - name: Offline Image
+      desc: Container as a Service Platform based on Kubernetes atop openSUSE MicroOS.
+      primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso
+      links:
+      - name: Metalink
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso?mirrorlist
+      - name: Checksum
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso.sha256

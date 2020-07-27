@@ -1,0 +1,24 @@
+---
+permalink: "/api/v0/distributions/"
+---
+{
+  "Leap": [
+    {%- for release in site.data.releases %}
+    {
+      "name": "openSUSE Leap",
+      "version": "{{ release.version }}",
+      "upgrade-weight": {{ release.order }}
+    }{% if forloop.last != true %},{% endif %}
+    {% endfor -%}
+  ],
+  "Tumbleweed": [
+    {%- for release in site.data.snapshots %}
+    {
+      "name": "openSUSE Tumbleweed",
+      "version": "{% for v in release %}{{ v[0] }}{% endfor %}",
+      "upgrade-weight": {% for v in release %}{{ v[0] }}{% endfor %}
+    }{% if forloop.last != true %},{% endif %}
+    {% endfor -%}
+  ]
+}
+

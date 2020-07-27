@@ -1,0 +1,146 @@
+name: Leap
+version: 15.0
+bg-color: leap
+fg-color: black
+logo: logos/leap.svg
+downloads:
+- name: Installation
+  choosing-media: true
+  leap-switch: true
+  arches:
+  - name: x86_64
+    types:
+    - name: DVD Image
+      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      primary_link: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso.sha256
+      - name: Torrent File
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso.torrent
+    - name: Network Image
+      desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
+      primary_link: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso.sha256
+      - name: Torrent File
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-x86_64.iso.torrent
+- name: JeOS
+  arches:
+  - name: x86_64
+    types:
+    - name: KVM and XEN
+      short: For use in KVM or XEN HVM hypervisors
+      primary_link: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-kvm-and-xen-Current.qcow2
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-kvm-and-xen-Current.qcow2.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-kvm-and-xen-Current.qcow2?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-kvm-and-xen-Current.qcow2.sha256
+    - name: XEN
+      short: For use in XEN PV hypervisors
+      primary_link: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-XEN-Current.qcow2
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-XEN-Current.qcow2.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-XEN-Current.qcow2?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-XEN-Current.qcow2.sha256
+    - name: MS HyperV
+      short: For running virtual machines on MS HyperV
+      primary_link: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-MS-HyperV-Current.vhdx
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-MS-HyperV-Current.vhdx.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-MS-HyperV-Current.vhdx?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-MS-HyperV-Current.vhdx.sha256
+    - name: VMware
+      short: For running virtual machines in VMware
+      primary_link: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-VMware-Current.vmdk
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-VMware-Current.vmdk.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-VMware-Current.vmdk?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-VMware-Current.vmdk.sha256
+    - name: OpenStack-Cloud
+      short: For running virtual machines in OpenStack
+      primary_link: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-OpenStack-Cloud-Current.qcow2
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-OpenStack-Cloud-Current.qcow2.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-OpenStack-Cloud-Current.qcow2?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/jeos/openSUSE-Leap-15.0-JeOS.x86_64-15.0.1-OpenStack-Cloud-Current.qcow2.sha256
+- name: Live
+  arches:
+  - name: x86_64
+    types:
+    - name: Gnome
+      primary_link: /distribution/leap/15.0/live/openSUSE-Leap-15.0-GNOME-Live-x86_64-Current.iso
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-GNOME-Live-x86_64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-x86_64.iso?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-GNOME-Live-x86_64-Current.iso.sha256
+    - name: KDE
+      primary_link: /distribution/leap/15.0/live/openSUSE-Leap-15.0-KDE-Live-x86_64-Current.iso
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-KDE-Live-x86_64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-KDE-Live-x86_64-Current.iso?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-KDE-Live-x86_64-Current.iso.sha256
+    - name: Rescue LiveCD
+      primary_link: /distribution/leap/15.0/live/openSUSE-Leap-15.0-Rescue-CD-x86_64-Current.iso
+      links:
+      - name: Metalink
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-Rescue-CD-x86_64-Current.iso.meta4
+      - name: Pick Mirror
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-Rescue-CD-x86_64-Current.iso?mirrorlist
+      - name: Checksum
+        url: /distribution/leap/15.0/live/openSUSE-Leap-15.0-Rescue-CD-x86_64-Current.iso.sha256
+- name: Ports
+  info: Ports of openSUSE Leap to architectures other than the PC are maintained by separate community teams, with limited resources.
+  arches:
+  - name: aarch64
+    types:
+    - name: DVD Image
+      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      primary_link: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-aarch64-Build124.1-Media.iso
+      links:
+      - name: Metalink
+        url: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-aarch64-Build124.1-Media.iso.meta4
+      - name: Pick Mirror
+        url: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-aarch64-Build124.1-Media.iso?mirrorlist
+      - name: Checksum
+        url: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-DVD-aarch64-Build124.1-Media.iso.sha256
+    - name: Network Image
+      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      primary_link: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-aarch64-Build124.1-Media.iso
+      links:
+      - name: Metalink
+        url: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-aarch64-Build124.1-Media.meta4
+      - name: Pick Mirror
+        url: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-aarch64-Build124.1-Media.iso?mirrorlist
+      - name: Checksum
+        url: /ports/aarch64/distribution/leap/15.0/iso/openSUSE-Leap-15.0-NET-aarch64-Build124.1-Media.iso.sha256

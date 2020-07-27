@@ -1,0 +1,59 @@
+lang: en
+title: Get openSUSE
+title_short: Get
+description: Learn about the openSUSE distributions and download them for free
+email: admin@opensuse.org
+copyright: '© 2020 openSUSE contributors'
+baseurl: ""
+url: "https://get.opensuse.org"
+github_url: "https://github.com/openSUSE/get-o-o"
+
+navbar_links:
+  -
+    link: /leap/
+    text: Leap
+  -
+    link: /tumbleweed/
+    text: Tumbleweed
+  -
+    link: /kubic/
+    text: Kubic
+  -
+    link: /microos/
+    text: MicroOS
+
+footer_links:
+  -
+    text: Source Code
+    link: https://github.com/openSUSE/get-o-o
+  -
+    text: License
+    link: https://github.com/openSUSE/get-o-o/blob/master/COPYING
+
+# Only edit below if you know what you are doing!
+
+defaults:
+  -
+    scope:
+      path: "*.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "*.md"
+    values:
+      layout: "markdown"
+  -
+    scope:
+      path: "*.markdown"
+    values:
+      layout: "markdown"
+
+disable_search: true
+
+plugins:
+  - jekyll-redirect-from
+theme: jekyll-theme-opensuse
+markdown: kramdown
+
+exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor, Rakefile]
