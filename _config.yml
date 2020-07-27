@@ -10,16 +10,16 @@ weblate_url: https://l10n.opensuse.org/projects/get-o-o/
 
 navbar_links:
   -
-    link: /leap/
+    link: leap/
     text: Leap
   -
-    link: /tumbleweed/
+    link: tumbleweed/
     text: Tumbleweed
   -
-    link: /kubic/
+    link: kubic/
     text: Kubic
   -
-    link: /microos/
+    link: microos/
     text: MicroOS
   - locales
 

@@ -72,6 +72,7 @@ documentation: Documentation
 documentation_startup_guide : openSUSE Startup Guide
 documentation_release_notes: Release Notes
 documentation_license: License
+documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Full Documentation
 
 leap_switch: Easy Ways to Switch to openSUSE Leap
