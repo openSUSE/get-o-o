@@ -1,12 +1,12 @@
-lang: en
 title: Get openSUSE
 title_short: Get
 description: Learn about the openSUSE distributions and download them for free
 email: admin@opensuse.org
-copyright: '© 2020 openSUSE contributors'
+copyright: © 2020 openSUSE contributors
 baseurl: ""
-url: "https://get.opensuse.org"
-github_url: "https://github.com/openSUSE/get-o-o"
+url: https://get.opensuse.org
+github_url: https://github.com/openSUSE/get-o-o
+weblate_url: https://l10n.opensuse.org/projects/get-o-o/
 
 navbar_links:
   -
@@ -21,13 +21,14 @@ navbar_links:
   -
     link: /microos/
     text: MicroOS
+  - locales
 
 footer_links:
   -
-    text: Source Code
+    text: source_code
     link: https://github.com/openSUSE/get-o-o
   -
-    text: License
+    text: license
     link: https://github.com/openSUSE/get-o-o/blob/master/COPYING
 
 # Only edit below if you know what you are doing!
@@ -49,11 +50,61 @@ defaults:
     values:
       layout: "markdown"
 
-disable_search: true
+navbar_class: navbar-expand-md sticky-top
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-locale
 theme: jekyll-theme-opensuse
 markdown: kramdown
+
+localization:
+  mode       : auto
+  locale     : en
+  locales_set:
+    ar:
+      name: العربية
+    cs:
+      name: Čeština
+    de:
+      name: Deutsch
+    el:
+      name: Ελληνικά
+    en:
+      name: English
+    es:
+      name: Español
+    fi:
+      name: Suomi
+    fr:
+      name: Français
+    hu:
+      name: Magyar
+    is:
+      name: Íslenska
+    it:
+      name: Italiano
+    ja:
+      name: 日本語
+    ko:
+      name: 한국어
+    nl:
+      name: Nederlands
+    pl:
+      name: Polski
+    pt:
+      name: Português
+    ru:
+      name: Русский
+    sv:
+      name: Svenska
+    tr:
+      name: Türkçe
+    vi:
+      name: Tiếng Việt
+    zh-CN:
+      name: 简体中文
+    zh-TW:
+      name: 繁體中文
 
 exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor, Rakefile]
