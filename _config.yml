@@ -21,6 +21,7 @@ navbar_links:
   -
     link: /microos/
     text: MicroOS
+  - locales
 
 footer_links:
   -
