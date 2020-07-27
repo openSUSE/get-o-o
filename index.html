@@ -2,27 +2,27 @@
 ---
 <link rel="stylesheet" href="/assets/css/software.css">
 <div class="container text-center py-4">
-  <h1 class="display-3">openSUSE Distributions</h1>
-  <p class="lead">For desktop, server, and everything in between</p>
+  <h1 class="display-3">{{ locale.index }}</h1>
+  <p class="lead">{{ locale.index_p1 }}</p>
 </div>
 <div class="bg-light">
   <div class="container">
     <div class="row">
       <a href="/desktop" class="col bg-wallpaper text-white text-center p-5">
         <div class="p-4 w-25 m-auto">{% include icons/desktop.svg %}</div>
-        <h2>Desktop</h2>
-        <h6>Selection of distributions for desktop use</h6>
+        <h2>{{ locale.index_desktop }}</h2>
+        <h6>{{ locale.index_desktop_p1 }}</h6>
       </a>
       <a href="/server" class="col bg-server text-white text-center p-5">
         <div class="p-4 w-25 m-auto">{% include icons/server.svg %}</div>
-        <h2>Server</h2>
-        <h6>Selection of distributions for server use</h6>
+        <h2>{{ locale.index_server }}</h2>
+        <h6>{{ locale.index_server_p1 }}</h6>
       </a>
     </div>
   </div>
 </div>
 <div class="container text-center py-4">
-  <h2 class="m-0">Or go straight to the download pages for the distributions</h2>
+  <h2 class="m-0">{{ locale.index_full }}</h2>
 </div>
 <div class="bg-wallpaper">
   <div class="container">

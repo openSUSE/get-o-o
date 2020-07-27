@@ -17,8 +17,8 @@
     <ul class="container nav nav-tabs nav-justified border-0">
       {% for tab in distro.downloads %}
       <li class="nav-item">
-        <a class="nav-link h-100{% if forloop.first == true %} active{% endif %}" data-toggle="tab" href="#{{ tab.name }}-ports" role="tab">
-          {{ tab.name }}
+        <a class="nav-link h-100{% if forloop.first == true %} active{% endif %}" data-toggle="tab" href="#{{ tab.name }}" role="tab">
+          {{ locale[tab.name] }}
           <div class="text-nowrap">
             {% for arch in tab.arches %}
               <span class="badge badge-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ arch.name }}</span>
@@ -35,10 +35,10 @@
   <div class="container">
     <div class="tab-content">
       {% for tab in distro.downloads %}
-      <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="{{ tab.name }}-ports" role="tabpanel">
+      <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="{{ tab.name }}" role="tabpanel">
         {% if tab.info %}
-          <div class="alert alert-{{ tab.info-colour || distro.bg-color }}">
-            {{ tab.info | markdownify }}
+          <div class="alert alert-{{ distro.bg-color }}">
+            {{ locale[tab.info] | markdownify }}
           </div>
         {% endif %}
         {% for arch in tab.arches %}
@@ -48,16 +48,17 @@
           <div class="col text-center">
             <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-lg btn-block btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">
             <span class="typcn typcn-download-outline"></span>
-            {{ type.name }}
+            {{ locale[type.name] }}
             </a>
             <div class="p-2">
               {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
               <h5 class="mb-2 text-muted">{% humansize %}{{ size }}{% endhumansize %}</h5>
-              <h6 class="mb-2 text-muted">{% sizedescription %}{{ size }}{% endsizedescription %}</h6>
-              <p class="text-muted">{{ type.desc }}</p>
+              {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
+              <h6 class="mb-2 text-muted">{% if type.short %}{{ locale[type.short] }}{% else %}{{ locale[short] }}{% endif %}</h6>
+              <p class="text-muted">{{ locale[type.desc] }}</p>
 
               {% for link in type.links %}
-              <a href="https://download.opensuse.org{{link.url}}" class="btn btn-link">{{ link.name }}</a>
+              <a href="https://download.opensuse.org{{link.url}}" class="btn btn-link">{{ locale[link.name] }}</a>
               {% endfor %}
             </div>
           </div>

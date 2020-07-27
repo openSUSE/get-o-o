@@ -3,250 +3,236 @@ bg-color: tumbleweed
 fg-color: black
 logo: logos/tumbleweed.svg
 downloads:
-- name: Installation
+- name: installation_images
   choosing-media: true
   arches:
   - name: x86_64
     types:
-    - name: Offline Image
+    - name: offline_image
       desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso.sha256
-    - name: Network Image
+    - name: network_image
       desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso.sha256
   - name: i586
     types:
-    - name: Offline Image
+    - name: offline_image
       desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso.sha256
-    - name: Network Image
+    - name: network_image
       desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso.sha256
   - name: aarch64
     types:
-    - name: Offline Image
+    - name: offline_image
       desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.sha256
-    - name: Network Image
+    - name: network_image
       desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso.sha256
   - name: ppc64le
     types:
-    - name: Offline Image
+    - name: offline_image
       desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
       primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.sha256
-    - name: Network Image
+    - name: network_image
       desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
       primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso.meta
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso.sha256
-- name: JeOS
+- name: jeos_images
   arches:
   - name: x86_64
     types:
-    - name: KVM and XEN
-      short: For use in KVM or XEN HVM hypervisors
+    - name: kvm_image
+      short: kvm_desc
       image_size: 250MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-kvm-and-xen.qcow2
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-kvm-and-xen.qcow2.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-kvm-and-xen.qcow2?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-kvm-and-xen.qcow2.sha256
-    - name: XEN
-      short: For use in XEN PV hypervisors
-      image_size: 250MB
-      primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-XEN.qcow2
-      links:
-      - name: Metalink
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-XEN.qcow2.meta4
-      - name: Pick Mirror
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-XEN.qcow2?mirrorlist
-      - name: Checksum
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-XEN.qcow2.sha256
-    - name: MS HyperV
-      short: For running virtual machines on MS HyperV
+    - name: hyperv_image
+      short: hyperv_desc
       image_size: 900MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-MS-HyperV.vhdx.xz
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-MS-HyperV.vhdx.xz.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-MS-HyperV.vhdx.xz.sha256
-    - name: VMware
-      short: For running virtual machines in VMware
+    - name: vmware_image
+      short: vmware_desc
       image_size: 800MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-VMware.vmdk.xz
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-VMware.vmdk.xz.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-VMware.vmdk.xz?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-VMware.vmdk.xz.sha256
-    - name: OpenStack-Cloud
-      short: For running virtual machines in OpenStack
+    - name: openstack_image
+      short: openstack_desc
       image_size: 250MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2.meta4
-      - name: Pick Mirror
+      - name: pick_mirror
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2?mirrorlist
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
-- name: Live
+- name: live_images
   choosing-media: true
-  info: >-
-    Please be aware of the following limitations of the live images:
-      * They should not be used to install or upgrade Tumbleweed. Please use the [Tumbleweed media](/tumbleweed) instead
-      * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether Tumbleweed will work on your hardware or not
+  info: tumbleweed_live_info
   arches:
   - name: x86_64
     types:
-    - name: GNOME LiveCD
+    - name: gnome_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso.sha256
-    - name: KDE LiveCD
+    - name: kde_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso.sha256
-    - name: XFCE LiveCD
+    - name: xfce_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso.sha256
-    - name: Rescue LiveCD
+    - name: rescue_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso.sha256
   - name: i686
     types:
-    - name: GNOME LiveCD
+    - name: gnome_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-i686-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-i686-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-i686-Current.iso.sha256
-    - name: KDE LiveCD
+    - name: kde_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-i686-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-i686-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-i686-Current.iso.sha256
-    - name: XFCE LiveCD
+    - name: xfce_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-i686-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-i686-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-i686-Current.iso.sha256
-    - name: Rescue LiveCD
+    - name: rescue_cd
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-i686-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-i686-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-i686-Current.iso.sha256
   - name: aarch64
     types:
-    - name: GNOME LiveCD
+    - name: gnome_cd
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso.sha256
-    - name: KDE LiveCD
+    - name: kde_cd
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso.sha256
-    - name: XFCE LiveCD
+    - name: xfce_cd
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso.sha256
-    - name: Rescue LiveCD
+    - name: rescue_cd
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso
       links:
-      - name: Metalink
+      - name: metalink
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.meta4
-      - name: Checksum
+      - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.sha256

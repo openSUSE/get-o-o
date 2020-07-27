@@ -5,11 +5,11 @@ module Jekyll
       case text.to_i
       when 0 then ''
       when 1..700_000_000
-        'For CD and USB stick'
+        'cd_desc'
       when 700_000_001..5_000_000_000
-        'For DVD and USB stick'
+        'dvd_desc'
       else
-        'For USB stick'
+        'usb_desc'
       end
     end
   end

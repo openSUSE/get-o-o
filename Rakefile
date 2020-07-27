@@ -10,7 +10,7 @@ task :build do
   end
   File.open('_data/sizes.yml', 'w') do |f|
     output = {}
-    [423, 150, 151, 152, 'tumbleweed', 'kubic', 'microos'].each do |filename|
+    [151, 152, 'tumbleweed', 'kubic', 'microos'].each do |filename|
       YAML.load_file("_data/#{filename}.yml")['downloads'].each do |i|
         i['arches'].each do |j|
           j['types'].each do |k|

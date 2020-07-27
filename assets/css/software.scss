@@ -60,6 +60,11 @@
   border-color: darken(rgb(53, 185, 171), 7);
 }
 
+.alert-tumbleweed {
+  border-color: rgb(53, 185, 171);
+  background-color: rgba(53, 185, 171, 0.2);
+}
+
 .bg-leap {
   background: rgb(251, 199, 93)
 }
@@ -76,6 +81,11 @@
 .btn-leap:hover {
   background-color: darken(rgb(251, 199, 93), 5);
   border-color: darken(rgb(251, 199, 93), 7);
+}
+
+.alert-leap {
+  border-color: rgb(251, 199, 93);
+  background-color: rgba(251, 199, 93, 0.2);
 }
 
 .bg-kubic {
