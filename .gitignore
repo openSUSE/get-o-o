@@ -3,4 +3,5 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 _data/snapshots.csv
+_data/sizes.yml
 vendor/
