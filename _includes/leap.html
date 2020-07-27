@@ -7,11 +7,6 @@
 {% if version != "" %}
   {% include distribution.html distro=version state=state %}
 {% else %}
-  {% assign redirect = '/' %}
-  {% if page.locale.id != 'en' %}
-    {% assign redirect = redirect | append: page.locale.id | append: '/' %}
-  {% endif %}
-  {% assign redirect = redirect | append: 'leap/' %}
-  <meta http-equiv="refresh" content="0; url={{ redirect }}" />
-  <p><a href="{{ redirect }}">Redirect</a></p>
+  <meta http-equiv="refresh" content="0; url={{ '/leap/' | prefix_locale }}" />
+  <p><a href="{{ '/leap/' | prefix_locale }}">Redirect</a></p>
 {% endif %}
