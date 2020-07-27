@@ -1,0 +1,12 @@
+site_title: openSUSE Foobar
+site_title_short: Foobar
+site_description: Foobar is foobar service of openSUSE community
+site_copyright: © 2020 openSUSE contributors
+
+absolute_link: Absolute Link
+relative_link: Relative Link
+search: Search
+translate: Translate
+
+source_code: Source Code
+license: License

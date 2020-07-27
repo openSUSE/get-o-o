@@ -1,6 +1,15 @@
 GIT
+  remote: https://github.com/ashmaroli/jekyll-locale.git
+  revision: dc5c46cadd09e3f13fb4c71b43aa082d90cca6a1
+  branch: master
+  specs:
+    jekyll-locale (0.5.1)
+      jekyll (>= 3.8, < 5.0)
+
+GIT
   remote: https://github.com/opensuse/jekyll-theme.git
-  revision: 418a6b4f822b90cdabcdf6a26a9d26f9861f0323
+  revision: d65cfc4db8dd1252e71095d23ac1ffcfe43c6576
+  branch: l10n-feat
   specs:
     jekyll-theme-opensuse (0.7.1)
       jekyll
@@ -86,6 +95,7 @@ DEPENDENCIES
   faraday_middleware
   human_size
   jekyll
+  jekyll-locale!
   jekyll-redirect-from
   jekyll-theme-opensuse!
   rake
