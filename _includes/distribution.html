@@ -51,7 +51,7 @@
             {{ type.name }}
             </a>
             <div class="p-2">
-              {% capture size %}{% filesize %}https://download.opensuse.org{{type.primary_link}}{% endfilesize %}{% endcapture %}
+              {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
               <h5 class="mb-2 text-muted">{% humansize %}{{ size }}{% endhumansize %}</h5>
               <h6 class="mb-2 text-muted">{% sizedescription %}{{ size }}{% endsizedescription %}</h6>
               <p class="text-muted">{{ type.desc }}</p>
