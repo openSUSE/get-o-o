@@ -6,3 +6,82 @@ source_code: Kod źródłowy
 license: Licencja
 learn_more: Dowiedz się więcej
 metalink: Metalink
+offline_desc: "Zawiera dużą ilość oprogramowania do użytku na komputerach domowych\
+  \ i serwerach.\nDobry wybór przy instalacji lub aktualizacji.\n"
+network_image: Obraz Sieciowy
+network_desc: "Pobiera system instalacyjny i wszystkie paczki z repozytoriów.\nDobry\
+  \ wybór przy instalacji lub aktualizacji.\n"
+kvm_image: KVM i XEN
+kvm_desc: Do użytku w hiperwizorach KVM lub XEN HVM
+xen_image: XEN
+xen_desc: Do użytku w hiperwizorach XEN PV
+hyperv_image: MS HyperV
+hyperv_desc: Do użytku w maszynach wirtualnych na MS HyperV
+vmware_image: VMware
+vmware_desc: Do użytku w maszynach wirtualnych na VMware
+openstack_image: OpenStack-Cloud
+openstack_desc: Do użytku w maszynach wirtualnych na OpenStack
+installation_images: Instalacja
+ports_images: Porty
+ports_info: "Porty openSUSE Leap na architektury inne niż Komputery Personalne są\n\
+  wspierane przez oddzielne zespoły społeczności, z mniejszymi zasobami\n"
+jeos_images: JeOS
+live_images: Live
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+rescue_cd: Ratunkowe LiveCD
+tumbleweed_live_info: "Weź pod uwagę wymienione limitacje obrazów live:\n* Nie powinny\
+  \ być używane do instalowania i aktualizowania Tumbleweeda. Proszę użyj [instalator\
+  \ Tumbleweeda](/tumbleweed)\n* Mają okrojoną selekcję paczek i sterowników, więc\
+  \ nie są dokładnym odzwierciedleniem tego czy Tumbleweed będzie działał na twoim\
+  \ sprzęcie\n"
+kubic_desc: Platforma kontenerów jako serwis oparta na Kubernetes na openSUSE MicroOS.
+microos_desc: System operacyjny oparty o openSUSE Tumbleweed dostarczający Transakcyjne
+  (Atomiczne) aktualizacje na bazowym systemie plików btrfs w trybie tylko do odczytu
+choosing_media: Wybierz medium do pobrania
+documentation: Dokumentacja
+documentation_startup_guide: Przewodnik startowy openSUSE
+documentation_release_notes: Informacje o wydaniu
+documentation_license: Licencja
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: Pełna Dokumentacja
+leap_switch: Łatwe sposoby by przerzucić się na openSUSE Leap
+leap_switch_instructions: Instrukcje aktualizacji sieciowej.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: Rekomendowane wymagania sprzętowe
+requirements_cpu: 2 GHz dwurdzeniowy procesor lub lepszy
+requirements_mem: 2 GB pamięci systemowej
+requirements_hd: Ponad 40GB wolnego miejsca na dysku twardym
+requirements_dvd: Napęd DVD lub port USB na medium instalacyjne
+requirements_net: Połączenie sieciowe jest przydatne, ale wymagane do Instalacji Sieciowej
+tw_switch: Łatwe sposoby by przerzucić się na openSUSE Tumbleweed
+tw_switch_instructions: Instrukcje aktualizacji.
+tw_switch_instructions_link: https://pl.opensuse.org/openSUSE:Aktualizacja_do_Tumbleweed
+upgrade_table_linux: Ze starszej wersji lub z innej dystrybucji
+upgrade_table_windows: Z Windowsa
+upgrade_table_mac: Z OS X
+upgrade_table_linux_dvd: Jak wypalić obraz DVD na Linuksie.
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: Jak wypalić obraz DVD na Windowsie.
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: Jak wypalić obraz DVD na OS X.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Zweryfikuj pobrany obraz zanim go użyjesz
+verify_download_p1: "Wiele aplikacji może zweryfikować sumy kontrolne pobranych plików.\
+  \ Weryfikacja\npliku może być ważna, gdyż weryfikuje ona czy naprawdę pobrano\n\
+  prawidłowy plik ISO, a nie jakąś zepsutą wersję. Możesz równiesz\nzweryfikować plik\
+  \ w trakcie pobierania. Na przykład suma kontrolna\n(SHA256) będzie użyta automatycznie\
+  \ jeśli wybierzesz Metalink w\nliście powyżej i użyj wtyczki DownThemAll! w Firefoksie.\n"
+verify_download_p2: "Do każdego ISO, oferujemy plik sumy kontrolnej z odpowiadającą\
+  \ sumą SHA256.\n"
+verify_download_p3: "Dla dodatkowego bezpieczeństwa, możesz użyć GPG by zweryfikować\
+  \ kto podpisał te pliki .sha256.\n"
+verify_download_pubkey: Powinna być
+verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczytaj
+verify_download_checksums_help: pomoc z sumami kontrolnymi
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: Wiele pulpitów, trzy domyślnie
