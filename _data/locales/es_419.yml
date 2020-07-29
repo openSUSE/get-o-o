@@ -1,2 +1,20 @@
 site_title: Obtener openSUSE
 site_title_short: Obtener
+site_description: Aprende más acerca de las distribuciones de openSUSE y descárgalas
+  gratis
+site_copyright: © 2020 Contribuyentes de openSUSE
+search: Buscar
+translate: Traducir
+source_code: Código fuente
+license: Licencia
+learn_more: Aprende más
+cd_desc: Para CD y llave USB (flash)
+dvd_desc: Para DVD y llave USB (flash)
+usb_desc: Para llave USB (flash)
+metalink: Enlace Meta
+pick_mirror: Elige el centro de descargas
+torrent_file: Archivo Torrent
+offline_image: Imagen sin conexión
+offline_desc: "Contiene una larga colección de software para escritorio y servidores.\n\
+  Adecuado para instalaciones o grandes actualizaciones del sistema.\n"
+network_image: Imagen de red
