@@ -18,3 +18,5 @@ offline_image: Imagen sin conexión
 offline_desc: "Contiene una larga colección de software para escritorio y servidores.\n\
   Adecuado para instalaciones o grandes actualizaciones del sistema.\n"
 network_image: Imagen de red
+network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde\
+  \ repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
