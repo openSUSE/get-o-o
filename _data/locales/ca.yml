@@ -1,1 +1,38 @@
-{}
+site_title: Obtingueu l'openSUSE
+site_description: Informa't sobre les distribucions d'openSUSE i descarrega-les gratuïtament
+site_copyright: © 2020 col·laboradors de l'openSUSE
+search: Cerca
+translate: Tradueix
+source_code: Codi Font
+license: Llicència
+learn_more: Saber Més
+torrent_file: Arxiu de torrent
+offline_desc: "Conté una àmplia col·lecció de programari per a ús domèstic o en servidors.\n\
+  Adequada per a fer una instal·lació o actualització.\n"
+network_image: ''
+network_desc: "El sistema d'instal·lació i tots els paquets es descarregaràn des de\n\
+  dipòsits a la xarxa. Adequada per a fer una instal·lació o actualització.\n"
+kvm_image: KVM i XEN
+kvm_desc: Per a l'ús amb hipervisors KVM o XEN HVM
+xen_image: XEN
+xen_desc: Per a l'ús amb hipervisors XEN PV
+hyperv_image: MS HyperV
+hyperv_desc: Per a executar màquines virtuals amb MS HyperV
+vmware_image: VMware
+vmware_desc: Per a executar màquines virtuals amb VMware
+openstack_desc: Per a executar màquines virtuals amb OpenStack
+installation_images: Instal·lació
+ports_images: Ports
+ports_info: "Els ports d'openSUSE Leap a altres arquitectures a part del PC\nestàn\
+  \ mantinguts per equips comunitaris independents amb\nrecursos limitats.\n"
+jeos_images: JeOS
+tumbleweed_live_info: "Sigueu conscients de les següents limitacions de les imatges\
+  \ Live:\n* No s'han d'utilitzar per a instal·lar o actualitzar la Tumbleweed. En\
+  \ lloc, utilitzeu el [mitjà Tumbleweed](/tumbleweed).\n* Tenen una selecció de paquets\
+  \ i drivers limitada, per tant no poden ser considerades una indicació precisa de\
+  \ si la Tumbleweed funcionarà amb el teu maquinari o no.\n"
+choosing_media: Com triar el mitjà per baixar
+choosing_media_p1: "Normalment recomanem la imatge DVD / mitjà USB ja que conté la\
+  \ majoria de\npaquets disponibles i no necessita una connexió a internet durant\
+  \ la instal·lació.\n"
+documentation_startup_guide: Guia d'inici de l'openSUSE (en englès)
