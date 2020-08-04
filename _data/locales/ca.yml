@@ -1,15 +1,16 @@
 site_title: Obtingueu l'openSUSE
-site_description: Informa't sobre les distribucions d'openSUSE i descarrega-les gratuïtament
+site_description: Informeu-vos sobre les distribucions de l’openSUSE i baixeu-les
+  gratuïtament
 site_copyright: © 2020 col·laboradors de l'openSUSE
 search: Cerca
 translate: Tradueix
-source_code: Codi Font
+source_code: Codi font
 license: Llicència
-learn_more: Saber Més
+learn_more: Per a conèixer-ne més
 torrent_file: Arxiu de torrent
 offline_desc: "Conté una àmplia col·lecció de programari per a ús domèstic o en servidors.\n\
   Adequada per a fer una instal·lació o actualització.\n"
-network_image: ''
+network_image: Imatge de xarxa
 network_desc: "El sistema d'instal·lació i tots els paquets es descarregaràn des de\n\
   dipòsits a la xarxa. Adequada per a fer una instal·lació o actualització.\n"
 kvm_image: KVM i XEN
@@ -35,6 +36,19 @@ choosing_media: Com triar el mitjà per baixar
 choosing_media_p1: "Normalment recomanem la imatge DVD / mitjà USB ja que conté la\
   \ majoria de\npaquets disponibles i no necessita una connexió a internet durant\
   \ la instal·lació.\n"
-documentation_startup_guide: Guia d'inici de l'openSUSE (en englès)
+documentation_startup_guide: Guia d'inici de l'openSUSE (en anglès)
 documentation: Documentació
 documentation_release_notes: Notes de la versió
+metalink: Metaenllaç
+pick_mirror: Trieu un servidor rèplica
+offline_image: Imatge per a ús sense connexió
+documentation_license: Llicència
+documentation_full_documentation: Documentació completa
+leap_switch_instructions: Instruccions d’actualització en línia
+requirements: Requisits del sistema recomanats
+requirements_cpu: Processador de doble nucli o millor, de 2 GHz
+requirements_mem: 2 GB de memòria del sistema
+requirements_hd: Més de 40 GB d’espai lliure al disc dur
+tw_switch_instructions: Instruccions d’actualització.
+upgrade_table_windows: Des del Windows
+upgrade_table_mac: Des del macOS
