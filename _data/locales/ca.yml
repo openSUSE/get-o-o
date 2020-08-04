@@ -36,3 +36,5 @@ choosing_media_p1: "Normalment recomanem la imatge DVD / mitjà USB ja que cont�
   \ majoria de\npaquets disponibles i no necessita una connexió a internet durant\
   \ la instal·lació.\n"
 documentation_startup_guide: Guia d'inici de l'openSUSE (en englès)
+documentation: Documentació
+documentation_release_notes: Notes de la versió
