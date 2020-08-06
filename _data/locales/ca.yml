@@ -57,3 +57,4 @@ cd_desc: Per a CD i memòria d'USB
 dvd_desc: Per a DVD i memòria d'USB
 usb_desc: Per a memòria d'USB
 checksum: Suma de comprovació
+openstack_image: Núvol OpenStack
