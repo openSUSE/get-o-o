@@ -52,3 +52,8 @@ requirements_hd: Més de 40 GB d’espai lliure al disc dur
 tw_switch_instructions: Instruccions d’actualització.
 upgrade_table_windows: Des del Windows
 upgrade_table_mac: Des del macOS
+site_title_short: Obtingueu-lo
+cd_desc: Per a CD i memòria d'USB
+dvd_desc: Per a DVD i memòria d'USB
+usb_desc: Per a memòria d'USB
+checksum: Suma de comprovació
