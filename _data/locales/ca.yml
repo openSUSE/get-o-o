@@ -7,7 +7,7 @@ translate: Tradueix
 source_code: Codi font
 license: Llicència
 learn_more: Per a conèixer-ne més
-torrent_file: Arxiu de torrent
+torrent_file: Fitxer torrent
 offline_desc: "Conté una àmplia col·lecció de programari per a ús domèstic o en servidors.\n\
   Adequada per a fer una instal·lació o actualització.\n"
 network_image: Imatge de xarxa
@@ -53,9 +53,9 @@ tw_switch_instructions: Instruccions d’actualització.
 upgrade_table_windows: Des del Windows
 upgrade_table_mac: Des del macOS
 site_title_short: Obtingueu-lo
-cd_desc: Per a CD i memòria d'USB
-dvd_desc: Per a DVD i memòria d'USB
-usb_desc: Per a memòria d'USB
+cd_desc: Per a CD i memòria USB
+dvd_desc: Per a DVD i memòria USB
+usb_desc: Per a memòria USB
 checksum: Suma de comprovació
 openstack_image: Núvol d'OpenStack
 live_images: Autònom
@@ -86,11 +86,11 @@ tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinado
   \ línia amb\npoques ordres.\n"
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Des d'una versió antiga o d'una altra distribució de Linux
-upgrade_table_linux_dvd: Com gravar un DVD en Linux
+upgrade_table_linux_dvd: Com enregistrar un DVD al Linux.
 upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd: Com gravar un DVD en Windows
+upgrade_table_windows_dvd: Com enregistrar un DVD al Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Com gravar un DVD en OS X
+upgrade_table_mac_dvd: Com enregistrar un DVD al macOS.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Com crear una memòria d'USB arrencable en Linux
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
