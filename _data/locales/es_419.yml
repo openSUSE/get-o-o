@@ -27,25 +27,25 @@ xen_image: XEN
 xen_desc: Para uso en supervisores XEN PV
 hyperv_image: Microsoft HyperV
 hyperv_desc: Para correr máquinas virtuales en Microsoft HyperV
-vmware_image: ''
+vmware_image: VMware
 vmware_desc: Para correr máquinas virtuales en VMware
 openstack_desc: Para correr máquinas virtuales en OpenStack
 installation_images: Instalación
-ports_images: Portages
-ports_info: "Portages de openSUSE Leap hacia otras arquitecturas son mantenidas por\
-  \ comunidades separadas, con recursos limitados.\n"
+ports_images: Adaptaciones
+ports_info: "Adaptaciones de openSUSE Leap hacia otras arquitecturas son mantenidas\
+  \ por comunidades separadas, con recursos limitados.\n"
 jeos_images: ''
-live_images: En vivo
+live_images: Live
 gnome_cd: LiveCD de GNOME
 kde_cd: LiveCD de KDE
 xfce_cd: LiveCD de XFCE
 rescue_cd: LiveCD de rescate
 tumbleweed_live_info: "Por favor, sea consciente de las siguientes limitaciones de\
-  \ las imágenes CD/DVD/USB en vivo :\n* No deberían ser usadas para instalaciones\
-  \ o actualizaciones de Tumbleweed. Por favor, use [Tumbleweed media](/tumbleweed)\
-  \ en vez de esto.\n* Tienen una selección de pilotos y paquetes limitados, así que\
-  \ no pueden ser considerados como un reflejo exacto de que si Tumbleweed funcionará\
-  \ en su hardware o no.\n"
+  \ las imágenes autoarrancables:\n* No deberían ser usadas para instalaciones o actualizaciones\
+  \ de Tumbleweed. Por favor, use [Tumbleweed media](/tumbleweed) en su lugar.\n*\
+  \ Contienen una selección limitada de paquetes y controladores, por lo que no pueden\
+  \ considerarse una referencia precisa en cuanto a si Tumbleweed funcionará o no\
+  \ en su hardware.\n"
 kubic_desc: Contenedor como Plataforma de Servicio, basado en Kubernetes encima de
   openSUSE MicroOS.
 microos_desc: S.O basado openSUSE Tumbleweed proporcionando (Atómicas)  actualizaciones
@@ -133,3 +133,4 @@ points_welcoming_p1: "Intentamos nuestro mejor para complacer a la comunidad, y 
   \ podemos hacer eso cuando la comunidad es vocal acerca de lo que necesita. Es por\
   \ eso que contribuir es tan fácil como posible.\n"
 snapper: Su sistema se ha corrupto? Ya no es un problema
+openstack_image: OpenStack-Cloud
