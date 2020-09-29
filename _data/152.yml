@@ -105,6 +105,35 @@ downloads:
         url: /distribution/leap/15.2/live/openSUSE-Leap-15.2-Rescue-CD-x86_64-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.2/live/openSUSE-Leap-15.2-Rescue-CD-x86_64-Media.iso.sha256
+  - name: aarch64
+    types:
+    - name: gnome_cd
+      primary_link: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-GNOME-Live-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-GNOME-Live-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-GNOME-Live-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-GNOME-Live-aarch64-Media.iso.sha256
+    - name: kde_cd
+      primary_link: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-KDE-Live-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-KDE-Live-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-KDE-Live-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-KDE-Live-aarch64-Media.iso.sha256
+    - name: rescue_cd
+      primary_link: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-Rescue-CD-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-Rescue-CD-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-Rescue-CD-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/distribution/leap/15.2/live/openSUSE-Leap-15.2-Rescue-CD-aarch64-Media.iso.sha256
 - name: ports_images
   info: ports_info
   arches:
