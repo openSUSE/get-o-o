@@ -1,1 +1,138 @@
-{}
+site_title: Obtenir openSUSE
+site_title_short: Obtenir
+site_description: En apprendre plus sur les distributions openSUSE et les télécharger
+  gratuitement
+site_copyright: © 2020 Contributeurs openSUSE
+search: Recherche
+translate: Traduire
+source_code: Code source
+license: Licence
+learn_more: En apprendre plus
+cd_desc: Pour CD et clef USB
+dvd_desc: Pour DVD et clef USB
+usb_desc: Pour clef USB
+metalink: Metalink
+pick_mirror: Sélectionner un miroir
+checksum: Somme de contrôle
+torrent_file: Fichier Torrent
+offline_image: Image hors-ligne
+offline_desc: "Contient une large collection de logiciels pour une utilisation bureautique\
+  \ ou serveur.\nConvient pour l'installation comme pour la mise à niveau.\n"
+network_image: Image réseau
+network_desc: "Télécharge le système d'installation et tous les paquets depuis\nles\
+  \ dépôts en ligne. Convient pour l'installation comme pour la\nmise à niveau.\n"
+kvm_image: KVM et XEN
+kvm_desc: Pour une utilisation dans des hyperviseurs KVM ou XEN
+xen_image: XEN
+xen_desc: Pour une utilisation dans des hyperviseurs XEN PV
+hyperv_image: MS HyperV
+hyperv_desc: Pour lancer des machines virtuelles dans MS HyperV
+vmware_image: VMware
+vmware_desc: Pour lancer des machines virtuelles dans VMware
+openstack_image: OpenStack-Cloud
+openstack_desc: Pour lancer des machines virtuelles dans OpenStack
+installation_images: Installation
+ports_images: Portages
+ports_info: "Les portages d'openSUSE Leap sur des architectures autres que\nPC sont\
+  \ maintenus par des équipes communautaires séparées,\navec des ressources limitées.\n"
+jeos_images: JeOS
+live_images: Live
+gnome_cd: LiveCD GNOME
+kde_cd: LiveCD KDE
+xfce_cd: LiveCD Xfce
+rescue_cd: LiveCD de secours
+tumbleweed_live_info: "Veuillez noter les limites suivantes des images live :\n* Elles\
+  \ ne devraient pas être utilisées pour installer ou mettre à niveau Tumbleweed.\
+  \ Veuillez utiliser les [supports Tumbleweed](/tumbleweed) à la place.\n* Elles\
+  \ ont un nombre limité de paquets et de pilotes donc ne peuvent pas être considérées\
+  \ comme un moyen fiable de déterminer si Tumbleweed fonctionnera sur votre matériel\
+  \ ou non\n"
+microos_desc: Système d'exploitation basé sur openSUSE Tumbleweed permettant des mises
+  à jour transactionnelles (atomiques) à partir d'un système de fichiers btrfs en
+  lecture-seule
+choosing_media: Choisir quel support télécharger
+choosing_media_p1: "L'image DVD/clé USB est généralement recommandée car elle contient\n\
+  la plupart des paquets disponibles dans la distribution et ne requiert\npas une\
+  \ connexion au réseau durant l'installation.\n"
+choosing_media_p2: "L'image CD/clé USB réseau est recommandée pour les utilisateurs\
+  \ ayant\nune bande passante limitée sur leur connexion internet, étant donné\nqu'elle\
+  \ ne téléchargera que les paquets qu'ils sélectionnent, ce qui\nreprésente généralement\
+  \ bien moins que 4.7Go.\n"
+documentation: Documentation
+documentation_startup_guide: Guide de démarrage openSUSE
+documentation_release_notes: Notes de version
+documentation_license: Licence
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: Documentation complète
+leap_switch: Façons faciles de migrer vers openSUSE Leap
+leap_switch_instructions: Instructions de mise à niveau en ligne.
+leap_switch_instructions_link: https://fr.opensuse.org/SDB:System_upgrade
+requirements: Configuration système recommandée
+requirements_cpu: Processeur double cœur 2GHz ou plus
+requirements_mem: 2 Go de mémoire vive
+requirements_hd: Plus de 40Go d'espace disque libre
+requirements_dvd: Un lecteur DVD ou un port USB pour le support d'installation
+requirements_net: Un accès à Internet est utile et est indispensable pour l'installateur
+  par le réseau
+tw_switch: Façons faciles de migrer vers openSUSE Tumbleweed
+tw_switch_instructions: Instructions de mise à niveau.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: Depuis une version plus ancienne ou une autre distribution Linux
+upgrade_table_windows: Depuis Windows
+upgrade_table_mac: Depuis OS X
+upgrade_table_linux_dvd: Comment graver un DVD sur Linux.
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: Comment graver un DVD sur Windows.
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: Comment graver un DVD sur OS X.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Comment créer une clé USB amorçable sur Linux.
+upgrade_table_linux_usb_link: https://fr.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: Comment créer un clé USB amorçable sur Windows.
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: Comment créer un clé USB amorçable sur OS X.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Vérifier votre téléchargement avant utilisation
+verify_download_p2: "Pour chaque ISO, nous fournissons un fichier contenant la somme\
+  \ de contrôle SHA256 correspondante.\n"
+verify_download_p3: "Pour encore plus de sécurité, vous pouvez utiliser GPG pour vérifier\
+  \ qui a signé ces fichiers .sha256.\n"
+verify_download_pubkey: Ce devrait être
+verify_download_help: Pour plus d'aide sur la vérification de votre téléchargement,
+  veuillez lire
+verify_download_checksums_help: Aide sur les sommes de contrôle
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: Plusieurs bureaux, trois par défaut
+points_transparent: Tout est transparent
+points_transparent_p1: "Du début à la fin, chaque paquet qui entre dans les distributions\
+  \ a\ntoutes ses sources et ses scripts de compilation visibles par chacun.\nUn doute\
+  \ sur une source ? Accédez-y simplement sur le build service.\n"
+points_free: Logiciels libres ? Votre choix
+points_free_p1: "Les paquets des distributions sont divisés en un dépôt libre (free)\n\
+  et un dépôt non-libre (non-free). Vous ne voulez pas de paquets\nnon-libres ? Vous\
+  \ pouvez facilement désactiver le dépôt\ncorrespondant. C'est votre choix, pas le\
+  \ nôtre.\n"
+transactional: Serveur transactionnel
+yast_firewall: Pare-feu
+yast_fonts: Polices
+yast_hardware: Matériel
+yast_partitioner: Partitionneur
+yast_printer: Imprimante
+yast_scanner: Scanneur
+yast_sound: Son
+yast_software: Logiciels
+zypper: Zypper, votre nouveau gestionnaire de paquets favori
+zypper_p1: "Facile et rapide à apprendre, il fournit zypper-apt, une couche de\ncompatibilité\
+  \ pour une utilisation via les commandes apt et apt-get.\nIl est basé sur libsolv,\
+  \ qui garantit des résolutions de dépendances\nà la fois rapides et reproductibles.\
+  \ L'interface est claire et colorée\npour plus de confort de lecture. Il est parfait,\
+  \ que dire d'autre ?\n"
+index: Les distributions openSUSE
+index_server: Serveur
+index_server_p1: Sélection de distributions pour un usage serveur
+desktop_tumbleweed_view: Voir Tumbleweed
+desktop_leap_view: Voir Leap
+server_tumbleweed_view: Voir Tumbleweed
+server_leap_view: Voir Leap
+server_kubic_view: Voir Kubic
+server_microos_view: Voir MicroOS
