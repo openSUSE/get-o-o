@@ -8,16 +8,16 @@ translate: Traduire
 source_code: Code source
 license: Licence
 learn_more: En apprendre plus
-cd_desc: Pour CD et clef USB
-dvd_desc: Pour DVD et clef USB
-usb_desc: Pour clef USB
+cd_desc: Pour CD et clé USB
+dvd_desc: Pour DVD et clé USB
+usb_desc: Pour clé USB
 metalink: Metalink
 pick_mirror: Sélectionner un miroir
 checksum: Somme de contrôle
 torrent_file: Fichier Torrent
 offline_image: Image hors-ligne
-offline_desc: "Contient une large collection de logiciels pour une utilisation bureautique\
-  \ ou serveur.\nConvient pour l'installation comme pour la mise à niveau.\n"
+offline_desc: "Contient une large collection de logiciels pour un usage bureau ou\
+  \ serveur.\nConvient pour l'installation comme pour la mise à niveau.\n"
 network_image: Image réseau
 network_desc: "Télécharge le système d'installation et tous les paquets depuis\nles\
   \ dépôts en ligne. Convient pour l'installation comme pour la\nmise à niveau.\n"
@@ -136,3 +136,84 @@ server_tumbleweed_view: Voir Tumbleweed
 server_leap_view: Voir Leap
 server_kubic_view: Voir Kubic
 server_microos_view: Voir MicroOS
+kubic_desc: Plateforme Container as a Service basée sur Kubernetes et openSUSE MicroOS.
+leap_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau votre\n\
+  installation en démarrant sur l'image DVD/clé USB et en choisissant la\nl'option\
+  \ de mise à niveau, ou bien effectuer une mise à niveau en ligne\nen quelques commandes.\n"
+tw_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau votre\n\
+  installation en démarrant sur l'image DVD/clé USB et en choisissant la\nl'option\
+  \ de mise à niveau, ou bien effectuer une mise à niveau en ligne\nen quelques commandes.\n"
+verify_download_p1: "Beaucoup d'applications permettent de vérifier la somme de contrôle\n\
+  d'un téléchargement. Vérifier votre téléchargement est important car\ncela permet\
+  \ de s'assurer que vous avez obtenu réellement le fichier ISO\nque vous vouliez\
+  \ et pas une version corrompue. Vous pouvez aussi\nvérifier le fichier pendant le\
+  \ processus de téléchargement. Par exemple,\nune somme de contrôle (SHA256) sera\
+  \ utilisée automatiquement si vous\nchoisissez Metalink dans le champ ci-dessus\
+  \ et si vous utilisez\nl'extension DownThemAll! dans Firefox.\n"
+desktops_p1: "Le processus de contribution à openSUSE favorise le développement\n\
+  des environnements de bureau. Ainsi vous pouvez choisir celui que\nvous préférez\
+  \ dans l'installateur. Nous mettons en valeur trois\nbureaux et en offrons encore\
+  \ plus dans la vue « logiciels » détaillée\nde l'installateur.\n"
+installation: Installez-la comme vous le voulez
+installation_p1: "Le processus d'installation d'openSUSE vous offre toutes les options\n\
+  dont vous pourriez avoir besoin. Envie d'installer votre système avec\nune souris\
+  \ et un clavier ? Chargez l'installateur en mode graphique.\nPas de souris à portée\
+  \ de main ? Activez le client en mode terminal\net installez la distribution ainsi.\
+  \ Pas d'accès physique à la machine ?\nConnectez l'installateur à distance et lancez\
+  \ l'installation. C'est\naussi simple que cela.\n"
+points_welcoming: Accueillir les contributions
+points_welcoming_p1: "Nous faisons de notre mieux pour satisfaire la communauté et\
+  \ cela n'est\npossible que quand la communauté peut exprimer ce dont elle a besoin.\n\
+  C'est pour cela que nous faisons en sorte que contribuer soit aussi facile\nque\
+  \ possible.\n"
+snapper: Le système est corrompu ? Ce n'est plus un problème
+snapper_p1: "La fonctionnalité d'instantanés du système de fichiers garde votre\n\
+  système de fichiers d'équerre en permettant d'effectuer des\nsauvegardes automatiquement\
+  \ lors de l'installation et la mise à jour\nde logiciels. Démarrer sur un instantané\
+  \ précédent et remettre\nvotre système dans un état fonctionnel n'est l'affaire\
+  \ que de\nquelques minutes.\n"
+software: Obtenir des logiciels ne pourrait pas être plus simple
+software_p1: "Entre nous, avoir à parcourir tous les sites web pour récupérer\ntous\
+  \ les logiciels dont on a besoin est un gros travail. Le centre\nlogiciel en ligne\
+  \ rend cela plus facile, en regroupant en un seul\nendroit les logiciels venant\
+  \ d'une multitude de sources.\n"
+software_get: Obtenir des logiciels
+transactional_p1: "L'installateur supporte maintenant un nouveau rôle système de\n\
+  « serveur transactionnel », qui est le résultat des efforts d'openSUSE\nKubic. Ce\
+  \ rôle système fournit un nouvel système de mise à jour qui\napplique les mises\
+  \ à jour de façon atomique (c'est-à-dire en une seule\nopération) et qui permet\
+  \ de facilement les annuler si le besoin s'en fait\nsentir. Ces fonctionnalités\
+  \ sont basées sur les outils de gestion de\npaquets dont toutes les autres distributions\
+  \ SUSE et openSUSE\ndépendent. Cela signifie que la vaste majorité des paquets RPM\
+  \ qui\nfonctionnent avec d'autres rôles système des distributions openSUSE\nmarcheront\
+  \ aussi avec le rôle système serveur transactionnel.\n"
+yast: YaST, le meilleur choix pour le ~~power~~ user
+yast_p1: "Un des meilleurs outils de configuration système vous aide, vous\nl'utilisateur,\
+  \ à régler chaque aspect de votre système. Plus besoin de\npasser par une multitude\
+  \ de scripts de configuration ni de saisir des\ncommandes obscures pour adapter\
+  \ votre système à vos besoins.\n"
+index_p1: Pour un usage bureau, serveur, et tout ce qu'il y a entre les deux
+index_desktop: Bureau
+index_desktop_p1: Sélection de distributions pour un usage bureau
+index_full: Ou rendez-vous directement sur les pages de téléchargement des distributions
+desktop: Les distributions openSUSE pour le bureau
+desktop_p1: "Les deux distributions pour les gouverner toutes\n"
+desktop_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE et tous
+  les enthousiastes de Linux et du logiciel libre
+desktop_tumbleweed_p2: Publication en continu (rolling release) avec les derniers
+  paquets fournis par le projet openSUSE.
+desktop_leap_p1: Pour les administrateurs système, les développeurs en entreprise
+  et les utilisateurs « classiques »
+desktop_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
+  qualité professionnelle et d'une innovation cultivée par la communauté.
+server: Les distributions openSUSE pour le serveur
+server_p1: "Quatre distributions confortablement ennuyeuses, comme cela devrait toujours\
+  \ l'être\n"
+server_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE et tous
+  les enthousiastes de Linux et du logiciel libre
+server_tumbleweed_p2: Publication en continu (rolling release) avec les derniers paquets
+  fournis par le projet openSUSE.
+server_leap_p1: Pour les administrateurs système, les développeurs en entreprise et
+  les utilisateurs de serveurs « classiques »
+server_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
+  qualité professionnelle et d'une innovation cultivée par la communauté.
