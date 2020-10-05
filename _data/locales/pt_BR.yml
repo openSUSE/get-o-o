@@ -10,7 +10,7 @@ learn_more: Aprenda Mais
 cd_desc: Para CD e Pendrive USB
 dvd_desc: Para DVD e memória USB
 usb_desc: Para memória USB
-metalink: Metalink
+metalink: Enlace Meta
 pick_mirror: Escolha espelho
 checksum: Soma de comprovação
 torrent_file: Arquivo de Torrent
@@ -164,7 +164,7 @@ yast_fonts: Fontes
 yast_hardware: Hardware
 yast_partitioner: Particionador
 yast_printer: Impressora
-yast_scanner: Scanner
+yast_scanner: Escaner
 yast_sound: Som
 yast_software: Aplicação
 zypper: Zypper, seu novo gerenciador de pacotes favorito
