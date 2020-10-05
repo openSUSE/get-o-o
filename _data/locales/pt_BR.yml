@@ -27,7 +27,7 @@ xen_desc: Para usar em hipervisores XEN PV
 hyperv_image: MS Hyper-V
 hyperv_desc: Para executar máquinas virtuais em MS HyperV
 vmware_image: VMware
-vmware_desc: Para executar máquinas virtuais em VMWare
+vmware_desc: Para executar máquinas virtuais no VMWare
 openstack_image: Nuvem Openstack
 openstack_desc: Para executar máquinas virtuais em OpenStack
 installation_images: Instalação
