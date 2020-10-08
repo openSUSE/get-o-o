@@ -217,3 +217,9 @@ server_leap_p1: Pour les administrateurs système, les développeurs en entrepri
   les utilisateurs de serveurs « classiques »
 server_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
   qualité professionnelle et d'une innovation cultivée par la communauté.
+server_kubic_p1: Pour tous vos travaux avec les conteneurs
+server_kubic_p2: Un système d'exploitation multi-usage pour Kubernetes et les conteneurs,
+  basé sur openSUSE MicroOS
+server_microos_p1: Un serveur pour applications mono tâche
+server_microos_p2: Conçu pour vos travaux avec les conteneurs et disposant d'une administration
+  et de mise à jour automatisées
