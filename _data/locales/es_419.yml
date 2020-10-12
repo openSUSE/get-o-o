@@ -1,44 +1,44 @@
 site_title: Obtener openSUSE
 site_title_short: Obtener
-site_description: Aprende más acerca de las distribuciones de openSUSE y descárgalas
+site_description: Aprenda acerca de las distribuciones de openSUSE y descárguelas
   gratis
-site_copyright: © 2020 Contribuyentes de openSUSE
+site_copyright: © 2020 Colaboradores de openSUSE
 search: Buscar
 translate: Traducir
 source_code: Código fuente
 license: Licencia
-learn_more: Aprende más
-cd_desc: Para CD y llave USB (flash)
-dvd_desc: Para DVD y llave USB (flash)
-usb_desc: Para llave USB (flash)
-metalink: Enlace Meta
-pick_mirror: Elige el centro de descargas
+learn_more: Aprenda más
+cd_desc: Para CD y llave USB
+dvd_desc: Para DVD y llave USB
+usb_desc: Para llave USB
+metalink: Enlace Metalink
+pick_mirror: Escoger el centro de descargas
 torrent_file: Archivo Torrent
 offline_image: Imagen sin conexión
-offline_desc: "Contiene una larga colección de software para escritorio y servidores.\n\
+offline_desc: "Contiene una larga colección de software para uso de escritorio o servidores.\n\
   Adecuado para instalaciones o actualizaciones del sistema.\n"
 network_image: Imagen de red
 network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde\
   \ repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
-checksum: Checksum
+checksum: Suma de comprobación
 kvm_image: KVM y XEN
 kvm_desc: Para uso en los supervisores KVM o XEN HVM
 xen_image: XEN
 xen_desc: Para uso en supervisores XEN PV
 hyperv_image: Microsoft HyperV
-hyperv_desc: Para correr máquinas virtuales en Microsoft HyperV
+hyperv_desc: Para ejecutar máquinas virtuales en Microsoft HyperV
 vmware_image: VMware
-vmware_desc: Para correr máquinas virtuales en VMware
-openstack_desc: Para correr máquinas virtuales en OpenStack
+vmware_desc: Para ejecutar máquinas virtuales en VMware
+openstack_desc: Para ejecutar máquinas virtuales en OpenStack
 installation_images: Instalación
 ports_images: Adaptaciones
-ports_info: "Adaptaciones de openSUSE Leap hacia otras arquitecturas son mantenidas\
+ports_info: "Las adaptaciones de openSUSE Leap hacia otras arquitecturas son mantenidas\
   \ por comunidades separadas, con recursos limitados.\n"
-jeos_images: ''
+jeos_images: JeOS
 live_images: Live
 gnome_cd: LiveCD de GNOME
 kde_cd: LiveCD de KDE
-xfce_cd: LiveCD de XFCE
+xfce_cd: LiveCD de Xfce
 rescue_cd: LiveCD de rescate
 tumbleweed_live_info: "Por favor, sea consciente de las siguientes limitaciones de\
   \ las imágenes autoarrancables:\n* No deberían ser usadas para instalaciones o actualizaciones\
@@ -48,89 +48,173 @@ tumbleweed_live_info: "Por favor, sea consciente de las siguientes limitaciones 
   \ en su hardware.\n"
 kubic_desc: Contenedor como Plataforma de Servicio, basado en Kubernetes encima de
   openSUSE MicroOS.
-microos_desc: S.O basado openSUSE Tumbleweed proporcionando (Atómicas)  actualizaciones
-  transaccionales encima de un sistema de archivos raíz de lectura-sola BTRFS
-choosing_media_p1: "DVD y USB (flash) son típicamente recomendados puesto que contienen\
-  \ la mayor parte de \npaquetes disponibles en la distribución y no requiere una\
-  \ conexión a Internet.\n"
-choosing_media_p2: "La imágenes CD/USB (flash) En Línea son recomendadas para los/las\
-  \ usuarios/usuarias que tienen un ancho de banda limitado en su Internet, puesto\
-  \ que sólo descargará los paquetes que ellos/ellas deseen instalar, que serían de\
-  \ un tamaño significativamente más pequeño que 4.7 GB.\n"
+microos_desc: Sistema operativo openSUSE Tumbleweed que proporciona actualizaciones
+  transaccionales (Atomic) en un sistema de archivos raíz btrfs de solo lectura
+choosing_media_p1: "El DVD y USB son típicamente recomendados puesto que contienen\
+  \ la mayor parte de \npaquetes disponibles en la distribución y no requieren una\
+  \ conexión de red\ndurante la instalación.\n"
+choosing_media_p2: "Las imágenes CD/USB en línea son recomendadas para los/las usuarios/usuarias\
+  \ que tienen un ancho de banda limitado de Internet, puesto que sólo descargará\
+  \ los paquetes que ellos/ellas deseen instalar, que serían de un tamaño significativamente\
+  \ más pequeño que 4.7 GB.\n"
 documentation: Documentación
 documentation_startup_guide: Guía de comienzo de openSUSE
 documentation_release_notes: Notas de lanzamiento
 documentation_license: Licencia
 documentation_full_documentation: Toda la documentación
-leap_switch: Maneras fáciles para migrar a openSUSE Leap
+leap_switch: Formas sencillas para migrar a openSUSE Leap
 leap_switch_p1: "Si usted ya usa openSUSE en su PC/portátil entonces puede actualizar\
-  \ iniciando el sistema desde su DVD/USB (flash), o haciendo una \"Actualización\
-  \ en Línea\" con unos cuantos comandos.\n"
-leap_switch_instructions: Instrucciones para actualizar En Línea.
+  \ iniciando el sistema desde su DVD/USB, o haciendo una \"Actualización en Línea\"\
+  \ con unos cuantos comandos.\n"
+leap_switch_instructions: Instrucciones para actualizar en línea.
 requirements: Especificaciones recomendadas para el sistema
 requirements_cpu: Procesador doble núcleo de 2 GHz o superior
 requirements_mem: 2 GB de memoria RAM
 requirements_hd: 40 GB de espacio de almacenamiento disponible
-requirements_net: Acceso a Internet es recomendable, y requerido por Network Installer
-tw_switch: Maneras fáciles de migrar hacia openSUSE Tumbleweed
+requirements_net: El acceso a Internet es recomendable, y necesario en el caso de
+  Network Installer
+tw_switch: Formas sencillas de migrar a openSUSE Tumbleweed
 tw_switch_p1: "Si ya usa openSUSE en su PC/portátil, puede actualizar a través de\
-  \ su DVD/USB (flash) y elegir \"actualizar\", o hacer una \"Actualización en Línea\"\
-  \ con unos cuantos comandos.\n"
+  \ su DVD/USB  y elegir \"actualizar\", o hacer una \"Actualización en Línea\" con\
+  \ unos cuantos comandos.\n"
 tw_switch_instructions: Instrucciones para actualizar.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Desde una versión anterior u otra distribución de Linux
 upgrade_table_windows: Desde Windows
 upgrade_table_mac: Desde OS X
-upgrade_table_linux_dvd: Como "quemar" un DVD en Linux y poner un SO.
+upgrade_table_linux_dvd: Como grabar un DVD en Linux.
 upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd: Como "quemar" un DVD en Windows.
+upgrade_table_windows_dvd: Como grabar un DVD en Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Como "quemar" un DVD en OS X.
+upgrade_table_mac_dvd: Como grabar un DVD en OS X.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_linux_usb: Como crear una llave USB (flash) "arrancable" en Linux.
+upgrade_table_linux_usb: Como crear una llave USB "arrancable" en Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb: Como crear una llave USB (flash) "arrancable" en Windows.
+upgrade_table_windows_usb: Como crear una llave USB "arrancable" en Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Como crear una llave USB (flash) "arrancable" en OS X.
+upgrade_table__mac_usb: Como crear una llave USB "arrancable" en OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-verify_download: Antes de comenzar, verifique su archivo descargado
-verify_download_p1: "Varias aplicaciones pueden chequear el \"checksum\" de una descarga.\
-  \ Verificar su descarga es importante puesto a que verifica que usted descargó el\
-  \ archivo ISO deseado y no una versión rota o corrupta. Puede chequear el archivo\
-  \ en el proceso de descarga. Por ejemplo : un \"checksum\" (SHA256) será usado automáticamente\
-  \ si elige Enlace Meta en la descripción más abajo y usa la extensión \"DownThemAll!\"\
-  \ de Firefox.\n"
-verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo \"checksum\" con\
-  \ la suma correspondiente de SHA256.\n"
-verify_download_p3: "Para seguridad adicional, puede usar GPG para verificar quién\
+verify_download: Antes de utilizar, verifique su archivo descargado
+verify_download_p1: "Muchas aplicaciones pueden comprobar la firma de verificación\
+  \ (checksum) de una descarga. Verificar su descarga es importante ya que verifica\
+  \ que descargó el archivo ISO deseado y no una versión rota o corrupta. Puede comprobar\
+  \ el archivo en el proceso de descarga. Por ejemplo : una suma de verificación (SHA256)\
+  \ será utilizada automáticamente si escoge Metalink en la descripción más abajo\
+  \ y usa la extensión \"DownThemAll!\" de Firefox.\n"
+verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo de suma de verificación\
+  \ (checksum) con la suma correspondiente de SHA256.\n"
+verify_download_p3: "Como seguridad adicional, puede usar GPG para verificar quién\
   \ firmó esos archivos .sha256.\n"
 verify_download_pubkey: Debería ser
 verify_download_help: Para más ayuda verificando su descarga por favor lea
-verify_download_checksums_help: Ayudas "checksum"
+verify_download_checksums_help: Ayuda de sumas de verificación
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
-desktops: Varios escritorios, tres por defecto
-desktops_p1: "El proceso de contribución de openSUSE faculta el ambiente de escritorio\
-  \ para todos, de esta manera usted tiene que elegir su escritorio favorito durante\
-  \ la instalación. Activamente incluimos tres ambientes de escritorio, y ofrecemos\
-  \ hasta más en la vista expandida de software en el instalador.\n"
+desktops: Varios escritorios, tres de manera predeterminada
+desktops_p1: "El proceso de contribución de openSUSE potencia el desarrollo de escritorio\
+  \ para\ntodo el mundo, por lo que tiene la opción de elegir su favorito en el\n\
+  instalador. Contamos con tres entornos de escritorio de forma activa, y ofrecemos\n\
+  aún más en la vista de software expandida dentro del instalador.\n"
 installation: Instale como usted prefiera
-installation_p1: "El proceso de instalación de openSUSE le provee todas las opciones\
-  \ que necesite ; quiere instalar su sistema sólo con ratón y teclado? Cargue el\
-  \ instalador en modo gráfico. No dispone de un ratón? Active el cliente del terminal\
-  \ e instale el sistema de ese modo. Tiene solo acceso físico a la máquina? Conéctese\
-  \ al instalador remotamente y siga con la instalación. Así de fácil.\n"
+installation_p1: "El proceso de instalación de openSUSE le proporciona todas las opciones\n\
+  que posiblemente necesite. ¿Quiere instalar su sistema con el ratón y\nteclado?\
+  \ Cargue el instalador en modo gráfico. ¿No tiene un raton\na mano? Habilite el\
+  \ cliente de terminal e instálelo de esa manera. ¿Solo tiene\nacceso físico a la\
+  \ máquina? Conéctese al instalador de forma remota y\ncontinue con la instalación.\
+  \ Es así de simple.\n"
 points_transparent: Todo es transparente
-points_transparent_p1: "Desde el principio al fin, cada paquete que va hacia la distribución\
-  \ tiene todas sus fuentes y guiones de su construcción visible para todos/todas\
-  \ sus usuarios/usuarias. Duda de una fuente? Sólo revíselo con en el servicio de\
-  \ construcción de openSUSE.\n"
-points_free: Software gratuito? Su decisión
+points_transparent_p1: "De principio al fin, cada paquete que se incluye las distribuciones\n\
+  tienen todas sus fuentes y \"scripts\" de compilado visible para todas las personas.\n\
+  ¿Duda de una fuente? Simplemente revíselo con en el servicio de compilado de openSUSE.\n"
+points_free: ¿Software libre? Su decisión
 points_free_p1: "Los paquetes en nuestras distribuciones están divididos en libre\
-  \ y no libre. No quiere usar paquetes no libres? Puede desactivar fácilmente el\
-  \ repositorio no libre. Es su desición, no la nuestra.\n"
+  \ y no libre. \n¿No quiere usar paquetes no libres? Puede desactivar fácilmente\n\
+  el repositorio no libre. Es su decisión, no la nuestra.\n"
 points_welcoming: Acogiendo contribuciones
-points_welcoming_p1: "Intentamos nuestro mejor para complacer a la comunidad, y solo\
-  \ podemos hacer eso cuando la comunidad es vocal acerca de lo que necesita. Es por\
-  \ eso que contribuir es tan fácil como posible.\n"
-snapper: Su sistema se ha corrupto? Ya no es un problema
+points_welcoming_p1: "Intentamos dar lo mejor para complacer a la comunidad, y solo\
+  \ podemos hacer eso \ncuando la comunidad expresa lo que necesita. Por eso \nnos\
+  \ aseguramos de que contribuir sea lo más fácil posible.\n"
+snapper: ¿Su sistema se ha corrupto? No es un problema nunca más
 openstack_image: OpenStack-Cloud
+choosing_media: Escoger que medio descargar
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_dvd: Una unidad DVD o puerto USB para la instalación del medio
+snapper_p1: "La función Instantáneas del sistema de archivos (Filesystem Snapshots)\
+  \ mantiene su sistema de archivos bajo control\nteniendo copias de seguridad continuas\
+  \ realizadas automáticamente al instalar\nsoftware y actualizaciones. Simplemente\
+  \ inicie desde una instantánea (snapshot) anterior y traiga\nsu sistema a un estado\
+  \ de funcionamiento en cuestión de minutos.\n"
+software: Obtener el software no puede ser más sencillo
+software_p1: "Entre nosotros, tener que pasar por todos los sitios web para obtener\
+  \ todo\nel software que pueda necesitar es mucho trabajo. El centro de software\
+  \ en línea\nhace esto más sencillo, incorporando software de una plétora de\nfuentes\
+  \ en un solo lugar.\n"
+software_get: Obtener software
+transactional: Servidor transaccional
+transactional_p1: "El instalador ahora admite un nuevo rol de sistema de Servidor\
+  \ Transaccional,\nque es un resultado de los esfuerzos de openSUSE Kubic. Esta función\
+  \ del sistema\npresenta un nuevo sistema de actualización que aplica actualizaciones\
+  \ de forma atómica (como un\noperación único) y los hace fáciles de revertir en\
+  \ caso de que sea\nnecesario. Estas características se basan en las herramientas\
+  \ de administración de paquetes.\nen el que se basan todas las demás distribuciones\
+  \ de SUSE y openSUSE. Esto significa\nque la gran mayoría de los paquetes RPM que\
+  \ funcionan con otros roles del sistema\nde distribuciones de openSUSE también funcionan\
+  \ con el rol del sistema Servidor Transaccional.\n"
+yast: YaST, la mejor opción para el usuario ~~avanzado~~
+yast_p1: "Una de las grandes herramientas de configuración del sistema le ayudará,\
+  \ el usuario, a\nconfigurar cada aspecto de su sistema. Ya no necesitará ejecutar\
+  \ un montón\nde \"scripts\" de configuración o introducir comandos dudosos\npara\
+  \ tener el sistema configurado como lo necesita.\n"
+yast_firewall: Firewall
+yast_fonts: Fuentes
+yast_hardware: Hardware
+yast_partitioner: Particionador
+yast_printer: Impresora
+yast_scanner: Scaner
+yast_sound: Sonido
+yast_software: Software
+zypper: Zypper, su nuevo gestor de paquetes favorito
+zypper_p1: "Es rápido y fácil de aprender. Proporciona zypper-apt, una capa\nde compatibilidad\
+  \ para su uso con los comandos apt y apt-get. Está basado en libsolv,\nque garantiza\
+  \ tanto la velocidad como la resolución\nreproducible de las dependencias. La interfaz\
+  \ es clara y con los colores adecuados\npara facilitar la lectura. Es perfecto,\
+  \ ¿qué más se puede decir?\n"
+index: Distribuciones openSUSE
+index_p1: Para equipos de sobremesa, servidores y todo lo demás
+index_desktop: Escritorio
+index_desktop_p1: Selección de distribuciones para uso de escritorio
+index_server: Servidor
+index_server_p1: Selección de distribuciones para uso de servidor
+index_full: O vaya directamente a las páginas de descarga de las distribuciones
+desktop: Distribuciones de openSUSE para escritorio
+desktop_p1: "Las dos distribuciones para gobernarlas a todas.\n"
+desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE y entusiastas
+  de Linux y el software libre y de código abierto
+desktop_tumbleweed_p2: Desarrollo continuo con los paquetes de software más recientes
+  ofrecidos por el proyecto openSUSE.
+desktop_tumbleweed_view: Ver Tumbleweed
+desktop_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
+  usuarios medios de equipos de escritorio
+desktop_leap_p2: Publicaciones regulares  con los beneficios tanto de la ingeniería
+  de nivel empresarial y la innovación desarrollada por la comunidad.
+desktop_leap_view: Ver Leap
+server: Distribuciones de servidor de openSUSE
+server_p1: "Cuatro distribuciones cómodamente aburridas, como siempre debería ser\n"
+server_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE y entusiastas
+  de Linux y el software libre y de código abierto
+server_tumbleweed_p2: Desarrollo continuo con los paquetes de software más recientes
+  ofrecidos por el proyecto openSUSE.
+server_tumbleweed_view: Ver Tumbleweed
+server_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
+  usuarios medios de equipos de escritorio
+server_leap_p2: Publicaciones regulares  con los beneficios tanto de la ingeniería
+  de nivel empresarial y la innovación desarrollada por la comunidad.
+server_leap_view: Ver Leap
+server_kubic_p1: Para trabajos de servidores de contenedores
+server_kubic_p2: Sistema operativo multiuso autónomo y contenedor de Kubernetes basado
+  en openSUSE MicroOS
+server_kubic_view: Ver Kubic
+server_microos_p1: Para aplicaciones de servidor de uso único
+server_microos_p2: Diseñado para alojar cargas de trabajo de contenedores con administración
+  y parches automatizados
+server_microos_view: Ver MicroOS
