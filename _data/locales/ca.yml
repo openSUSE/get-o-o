@@ -100,11 +100,8 @@ upgrade_table__mac_usb: Com crear una memòria d'USB arrencable en OS X
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifiqueu la baixada abans d'usar-la
 verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació d’una\
-  \ baixada. \nVerificar la baixada pot ser important, ja que comprova que teniu realment\n\
-  el fitxer ISO que volíeu baixar i no alguna versió trencada. Podríeu\nverificar\
-  \ el fitxer durant el procés de baixada. Per exemple, una comprovació\n(SHA256)\
-  \ s'usarà automàticament si trieu el metaenllaç de la llista\nanterior i useu el\
-  \ complement Baixa'lsTots! del Firefox.\n"
+  \ baixada. \nVerificar la baixada pot ser important, ja que comprova que tingueu\
+  \ realment\nel fitxer ISO que volíeu baixar i no alguna versió trencada.\n"
 verify_download_p2: "Per a cada ISO, oferim un fitxer de comprovació amb la suma SHA256\
   \ corresponent.\n"
 verify_download_p3: "Per a més seguretat, podeu usar GPG per verificar qui va signar\
