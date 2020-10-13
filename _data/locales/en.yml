@@ -2,19 +2,14 @@ site_title: Get openSUSE
 site_title_short: Get
 site_description: Learn about the openSUSE distributions and download them for free
 site_copyright: © 2020 openSUSE contributors
-
 search: Search
 translate: Translate
-
 source_code: Source Code
 license: License
-
 learn_more: Learn More
-
 cd_desc: For CD and USB stick
 dvd_desc: For DVD and USB stick
 usb_desc: For USB stick
-
 metalink: Metalink
 pick_mirror: Pick Mirror
 checksum: Checksum
@@ -48,15 +43,13 @@ gnome_cd: GNOME LiveCD
 kde_cd: KDE LiveCD
 xfce_cd: Xfce LiveCD
 rescue_cd: Rescue LiveCD
-
 tumbleweed_live_info: |
   Please be aware of the following limitations of the live images:
   * They should not be used to install or upgrade Tumbleweed. Please use the [Tumbleweed media](/tumbleweed) instead
   * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether Tumbleweed will work on your hardware or not
-
 kubic_desc: Container as a Service Platform based on Kubernetes atop openSUSE MicroOS.
-microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem 
-
+microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
+  upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
 choosing_media_p1: |
   The DVD/USB Stick is typically recommended as it contains most of the
@@ -67,14 +60,12 @@ choosing_media_p2: |
   bandwidth on their internet connections, as it will only download the
   packages they choose to install, which is likely to be significantly
   less than 4.7GB.
-
 documentation: Documentation
-documentation_startup_guide : openSUSE Startup Guide
+documentation_startup_guide: openSUSE Startup Guide
 documentation_release_notes: Release Notes
 documentation_license: License
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Full Documentation
-
 leap_switch: Easy Ways to Switch to openSUSE Leap
 leap_switch_p1: |
   If you’re already running openSUSE you can upgrade by booting from the
@@ -82,14 +73,12 @@ leap_switch_p1: |
   commands.
 leap_switch_instructions: Online Upgrade Instructions.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-
 requirements: Recommended System Requirements
 requirements_cpu: 2 Ghz dual core processor or better
 requirements_mem: 2 GB system memory
 requirements_hd: Over 40GB of free hard drive space
 requirements_dvd: Either a DVD drive or USB port for the installation media
 requirements_net: Internet access is helpful, and required for the Network Installer
-
 tw_switch: Easy Ways to Switch to openSUSE Tumbleweed
 tw_switch_p1: |
   If you’re already running openSUSE you can upgrade by booting from the
@@ -97,7 +86,6 @@ tw_switch_p1: |
   commands.
 tw_switch_instructions: Upgrade Instructions.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-
 upgrade_table_linux: From an older version or other Linux distro
 upgrade_table_windows: From Windows
 upgrade_table_mac: From OS X
@@ -113,15 +101,10 @@ upgrade_table_windows_usb: How to create a Bootable USB stick on Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: How to create a bootable USB stick on OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-
 verify_download: Verify Your Download Before Use
-verify_download_p1: |
-  Many applications can verify the checksum of a download. To verify
-  your download can be important as it verifies you really have got the
-  ISO file you wanted to download and not some broken version. You could
-  verify the file in the process of downloading. For example a checksum
-  (SHA256) will be used automatically if you choose Metalink in the
-  field above and use the add-on DownThemAll! in Firefox.
+verify_download_p1: "Many applications can verify the checksum of a download. To verify\n\
+  your download can be important as it verifies you really have got the\nISO file\
+  \ you wanted to download and not some broken version.\n"
 verify_download_p2: |
   For each ISO, we offer a checksum file with the corresponding SHA256 sum.
 verify_download_p3: |
@@ -130,14 +113,12 @@ verify_download_pubkey: It should be
 verify_download_help: For more help verifying your download please read
 verify_download_checksums_help: Checksums Help
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
-
 desktops: Many desktops, three by default
 desktops_p1: |
   The openSUSE contribution process empowers desktop development for
   everybody, so you have the choice to pick your favourite one in the
   installer. We actively feature three desktop environments, and offer
   even more in the expanded software view within the installer.
-
 installation: Install it how you want it
 installation_p1: |
   The openSUSE Installation process provides you with all the options
@@ -146,7 +127,6 @@ installation_p1: |
   on hand? Enable the terminal client and install it that way. Only have
   physical access to the machine? Connect to the installer remotely and
   get on with the installation. It's that simple.
-
 points_transparent: Everything is transparent
 points_transparent_p1: |
   From start to finish, every package which goes into the distributions
@@ -162,14 +142,12 @@ points_welcoming_p1: |
   We try our best to please the community, and we can only make this
   happen when the community is vocal about what they need. That's why we
   ensure contributing is as easy as possible.
-
 snapper: System got corrupted? Not a problem anymore
 snapper_p1: |
   The Filesystem Snapshots feature keeps your filesystem in check by
   having continuous backups performed automatically when installing
   software and updates. Just boot form an earlier snapshot and bring
   your system to a working state in the matter of minutes.
-
 software: Getting software couldn't be easier
 software_p1: |
   Between us, having to go through every website to get all the
@@ -177,7 +155,6 @@ software_p1: |
   makes this way easier, by incorporating software from a plethora of
   sources in one place.
 software_get: Get Software
-
 transactional: Transactional server
 transactional_p1: |
   The installer now supports a new system role Transactional Server,
@@ -189,7 +166,6 @@ transactional_p1: |
   that the vast majority of RPM packages that work with other system
   roles of openSUSE distributions also work with the system role
   Transactional Server.
-
 yast: YaST, the best choice for the ~~power~~ user
 yast_p1: |
   One of the greatest system configuration tools helps you, the user, to
@@ -204,7 +180,6 @@ yast_printer: Printer
 yast_scanner: Scanner
 yast_sound: Sound
 yast_software: Software
-
 zypper: Zypper, your new favourite package manager
 zypper_p1: |
   It's quick and easy to learn. Provides zypper-apt, a compatibilty
@@ -212,7 +187,6 @@ zypper_p1: |
   which guarantees both speed and reproducable resolving of
   dependencies. The interface is clear and appropriately coloured, for
   ease of reading. It's perfect, what else could be said?
-
 index: openSUSE Distributions
 index_p1: For desktop, server, and everything in between
 index_desktop: Desktop
@@ -220,30 +194,33 @@ index_desktop_p1: Selection of distributions for desktop use
 index_server: Server
 index_server_p1: Selection of distributions for server use
 index_full: Or go straight to the download pages for the distributions
-
 desktop: openSUSE Desktop Distributions
 desktop_p1: |
   The two distributions to rule them all (now in green!)
 desktop_tumbleweed_p1: For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts
-desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE Project.
+desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
+  Project.
 desktop_tumbleweed_view: View Tumbleweed
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
-desktop_leap_p2: Regular release with the benefits of both enterprise-grade engineering and community-developed innovation.
+desktop_leap_p2: Regular release with the benefits of both enterprise-grade engineering
+  and community-developed innovation.
 desktop_leap_view: View Leap
-
 server: openSUSE Server Distributions
 server_p1: |
   Four comfortably boring distributions, how it always should be
 server_tumbleweed_p1: For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts
-server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE Project.
+server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
+  Project.
 server_tumbleweed_view: View Tumbleweed
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
-server_leap_p2: Regular release with the benefits of both enterprise-grade engineering and community-developed innovation.
+server_leap_p2: Regular release with the benefits of both enterprise-grade engineering
+  and community-developed innovation.
 server_leap_view: View Leap
 server_kubic_p1: For containerized server workflows
-server_kubic_p2: Multi-purpose Standalone & Kubernetes Container Operating System based on openSUSE MicroOS
+server_kubic_p2: Multi-purpose Standalone & Kubernetes Container Operating System
+  based on openSUSE MicroOS
 server_kubic_view: View Kubic
 server_microos_p1: For single purpose server applications
-server_microos_p2: Designed to host container workloads with automated administration & patching
+server_microos_p2: Designed to host container workloads with automated administration
+  & patching
 server_microos_view: View MicroOS
-
