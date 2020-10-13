@@ -1,1 +1,145 @@
-{}
+search: Suchen
+translate: Übersetzen
+source_code: Quellcode
+license: Lizenz
+learn_more: Lerne Mehr
+cd_desc: Für CD und USB-Stick
+dvd_desc: Für DVD und USB-Stick
+usb_desc: Für USB-Stick
+pick_mirror: Spiegelserver auswählen
+checksum: Checksumme
+torrent_file: Torrent Datei
+offline_image: Offline-Image
+offline_desc: "Enthält eine große Anzahl an Software für Desktop- oder Server-Benutzung.\n\
+  Zur Installation oder Aktualisierung geeignet.\n"
+network_image: Netzwerk-Image
+network_desc: "Lädt das Installationssystem und alle Pakete aus Online-Repositories\
+  \ herunter.\nGeeignet zur Installation oder Aktualisierung.\n"
+kvm_image: KVM und XEN
+xen_image: XEN
+hyperv_image: MS HyperV
+hyperv_desc: Um virtuelle Maschinen in MS HyperV laufen zu lassen
+vmware_image: VMware
+vmware_desc: Um virtuelle Maschinen in VMware laufen zu lassen
+openstack_image: OpenStack-Cloud
+openstack_desc: Um virtuelle Maschinen in OpenStack laufen zu lassen
+installation_images: Installation
+jeos_images: JeOS
+live_images: Live
+gnome_cd: GNOME Live-CD
+kde_cd: KDE Live-CD
+xfce_cd: Xfce Live-CD
+tumbleweed_live_info: "Bitte beachten Sie die folgenden Einschränkungen der Live-Images:\n\
+  * Sie können nicht zum Installieren oder Upgraden von Tumbleweed verwendet werden.\
+  \ Bitte verwenden Sie stattdessen [Tumbleweed Medien](/tumbleweed)\n* Sie haben\
+  \ eine begrenzte Paket- und Treiber-Auswahl, weshalb keine genaue Aussage getroffen\
+  \ werden kann, ob Tumbleweed auf Ihrer Hardware laufen wird oder nicht\n"
+microos_desc: Auf openSUSE Tumbleweed basierendes OS, das Transaktionale (Atomare)
+  Updates auf einem nur lesbarem btrfs Wurzeldateisystem bereitstellt
+choosing_media: Auswahl des Mediums zum Herunterladen
+choosing_media_p1: "DVD bzw. USB Stick werden normalerweise empfohlen, da sie die\
+  \ meisten\nder Pakete, die in der Distribution verfügbar sind enthalten und keine\n\
+  Netzwerkverbindung während der Installation benötigen.\n"
+choosing_media_p2: "Die Netzwerk-CD / USB-Stick wird für Benutzer empfohlen, die nur\
+  \ begrenzte\nInternet-Bandbreite zur Verfügung haben, da nur die Pakete heruntergeladen\
+  \ werden\ndie zuvor ausgewählt wurden, was wahrscheinlich weniger als 4.7GB sein\
+  \ wird.\n"
+documentation: Dokumentation
+documentation_startup_guide: openSUSE Startup-Anleitung
+documentation_release_notes: Versionshinweise
+documentation_license: Lizenz
+documentation_full_documentation: Komplette Dokumentation
+leap_switch: Einfache Wege um zu openSUSE Leap zu wechseln
+leap_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie\
+  \ im DVD/USB-Bootmenü Upgrade auswählen, oder ein 'Online Upgrade'\nmit einigen\
+  \ wenigen Kommandos durchführen.\n"
+leap_switch_instructions: Online Upgrade Anweisungen.
+leap_switch_instructions_link: https://de.opensuse.org/SDB:Distribution-Upgrade
+requirements: Empfohlene Systemanforderungen
+requirements_cpu: 2 GHz Dual-Core-Prozessor oder besser
+requirements_mem: 2 GB Arbeitsspeicher
+requirements_hd: Mehr als 40GB freier Festplattenspeicher
+requirements_dvd: Entweder ein DVD-Laufwerk oder USB-Port für das Installationsmedium
+requirements_net: Ein Internetzugang ist hilfreich, und für den Netzwerk-Installer
+  erforderlich
+tw_switch: Einfache Wege um zu openSUSE Tumbleweed zu wechseln
+tw_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie im\
+  \ DVD/USB-Bootmenü Upgrade auswählen, oder ein 'Online Upgrade'\nmit einigen wenigen\
+  \ Kommandos durchführen.\n"
+tw_switch_instructions: Upgrade Anweisungen.
+tw_switch_instructions_link: https://de.opensuse.org/openSUSE:Tumbleweed-Upgrade
+upgrade_table_linux: Von einer älteren Version oder einer anderen Linux Distribution
+upgrade_table_windows: Von Windows
+upgrade_table_mac: Von OS X
+upgrade_table_linux_dvd: Wie man eine DVD unter Linux brennt.
+upgrade_table_linux_dvd_link: https://de.opensuse.org/SDB:Download-Hilfe#Unter_Linux_2
+upgrade_table_windows_dvd: Wie man eine DVD unter Windows brennt.
+upgrade_table_windows_dvd_link: https://de.opensuse.org/SDB:Download-Hilfe#Unter_Microsoft.C2.AE_Windows.C2.AE_2
+upgrade_table_mac_dvd: Wie man eine DVD unter OS X brennt.
+upgrade_table_mac_dvd_link: https://de.opensuse.org/SDB:Download-Hilfe#Unter_MacOS_X_10.3_und_neuer
+upgrade_table_linux_usb: Wie man einen bootbaren USB Stick unter Linux erstellt.
+upgrade_table_linux_usb_link: https://de.opensuse.org/SDB:Live_USB_Stick
+upgrade_table_windows_usb: Wie man einen bootbaren USB Stick unter Windows erstellt.
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: Wie man einen bootbaren USB Stick unter OS X erstellt.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Überprüfen Sie vor der Benutzung Ihre heruntergeladenen Dateien
+verify_download_p1: "Viele Anwendungen können die Checksumme eines Downloads überprüfen.\n\
+  Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas Medium\
+  \ nicht beschädigt heruntergeladen wurde. Sie können die Datei\nbeim Herunterladen\
+  \ überprüfen.\n"
+verify_download_p2: "Für jedes ISO bieten wir eine Datei mit der dazugehörigen SHA256\
+  \ Prüfsumme an.\n"
+verify_download_p3: "Zur zusätzlichen Sicherheit können Sie GPG verwenden, um zu überprüfen,\
+  \ wer diese .sha256-Dateien signiert hat.\n"
+verify_download_pubkey: Es sollte
+verify_download_help: Weitere Hilfe um Ihren Download zu überprüfen erhalten Sie in
+  der
+verify_download_checksums_help: Checksummen-Hilfe
+verify_download_checksums_help_link: https://de.opensuse.org/SDB:Download-Hilfe#Pr.C3.BCfsummen
+installation: Installieren Sie es so, wie Sie es wünschen
+points_transparent: Alles ist transparent
+points_transparent_p1: "Vom Anfang bis zum Ende. Für jedes Paket, das in die Distributionen\
+  \ geht,\nsind die Quellen und Buildskripte offen für jeden einsehbar. Zweifel an\
+  \ der Quelle?\nÜberprüfen Sie es im \"Build Service\".\n"
+points_free: Freie Software? Ihre Entscheidung
+points_free_p1: "Pakete in den Distributionen sind in freie und unfreie Repositorys\
+  \ eingeteilt.\nSie wollen keine unfreien Pakete verwenden? Unfreie Repositorys können\
+  \ einfach\nvon Ihnen deaktiviert werden. Es ist Ihre Entscheidung, nicht unsere.\n"
+points_welcoming: Mitarbeit willkommen
+points_welcoming_p1: "Wir versuchen unser Bestes, um die Community zufriedenzustellen\
+  \ und wir\nkönnen dies nur möglich machen, wenn die Community sich dazu äußert,\
+  \ was\nsie benötigt. Das ist der Grund, warum wir sicherstellen, dass das Mitwirken\n\
+  so einfach wie möglich ist.\n"
+snapper: Das System ist fehlerhaft? Kein Problem mehr
+snapper_p1: "Das Dateisystem Snapshots Feature erhält Ihr Dateisystem, indem es regelmäßig\n\
+  Backups automatisch erstellt, sobald neue Software oder Updates installiert werden.\n\
+  Booten Sie einfach von einem früheren Snapshot, um Ihr System innerhalb weniger\n\
+  Minuten wieder in einen arbeitsfähigen Zustand zu bringen.\n"
+software: Software beschaffen könnte nicht einfacher sein
+software_p1: "Zwischen uns, jede Webseite zu durchforsten um all die Software zu beschaffen,\n\
+  die Sie brauchen könnten, ist eine Menge Arbeit. Das Online Software Center\nvereinfacht\
+  \ dies, indem Software aus einer Menge an Quellen an einem Ort vereinigt werden.\n"
+software_get: Software beschaffen
+transactional: Transaktionaler Server
+transactional_p1: "Das Installationsprogramm unterstützt nun eine neue Systemrolle\
+  \ Transaktionaler Server,\ndie ein Resultat aus den openSUSE Kubic Arbeiten ist.\
+  \ Diese Systemrolle beinhaltet ein\nneues Update-System, das Updates atomar (in\
+  \ einer einzelnen Operation) ausführt und\nes vereinfacht, diese rückgängig zu machen,\
+  \ sollte dies notwendig werden. Diese Features\nbasieren auf den Paketverwaltungstools,\
+  \ auf denen alle SUSE und openSUSE Distributionen\nbauen. Dies bedeutet, dass die\
+  \ große Mehrheit an RPM Paketen, die mit anderen Systemrollen\nder openSUSE Distributionen\
+  \ funktionieren, auch mit der Systemrolle Transaktionaler Server\nfunktionieren.\n"
+yast_p1: "Eines der besten Systemkonfigurationswerkzeuge hilft Ihnen, dem Benutzer,\n\
+  jeden einzelnen Aspekt Ihres Systems einzurichten. Sie brauchen nicht mehr\neine\
+  \ Menge an Konfigurationsskripten oder dubiosen Kommandos, um das\nSystem so einzurichten,\
+  \ wie Sie es brauchen.\n"
+yast_firewall: Firewall
+yast_fonts: Schriftarten
+yast_hardware: Hardware
+yast_partitioner: Partitionierer
+yast_printer: Drucker
+yast_scanner: Scanner
+yast_sound: Audio
+yast_software: Software
+zypper: Zypper, Ihr neuer favorisierter Paketmanager
