@@ -1,1 +1,114 @@
-{}
+site_title: تنزيل أوبن سوزى
+site_title_short: تنزيل
+site_description: تعرف على توزيغات أوبن سوزى المختلفة ونزل مجانا
+site_copyright: © 2020 المساهمين فى أوبن سوزى
+search: بحث
+translate: ترجمة
+source_code: الكود المصدري
+license: الرخصة
+learn_more: تعرف على المزيد
+cd_desc: لعمل CD و USB
+dvd_desc: لعمل DVD و USB
+usb_desc: لعمل USB
+metalink: وصلة وصفية
+pick_mirror: اختار موقع التحميل
+checksum: التحقق الجمعي
+torrent_file: تورنت
+offline_image: صورة غير متصلة بالانترنت
+offline_desc: "يحتوى على مجموعة كبيرة من البرامج للاستخدام على الحاسوب المكتبى أو\
+  \ الخادم.\nمناسب للتثبيت أو الترقية.\n"
+network_image: صورة للاستخام على شبكة الانترنت
+network_desc: "تحميل نظام التثبيت وجميع البرامج من الانترنت. مناسب لعملية التثبيت\
+  \ أو الترقية.\n"
+kvm_image: KVM أو XEN
+kvm_desc: للعمل كألات إفتراضية من خلال KVM أو XEN HVM
+xen_image: XEN
+xen_desc: للعمل كألات إفتراضية من خلال XEN PV
+hyperv_image: ميكروسوفت Hyper-V
+hyperv_desc: للعمل كألات إفتراضية من خلال Hyper-V
+vmware_image: VMware
+vmware_desc: للعمل كألات إفتراضية من خلال VMware
+openstack_image: OpenStack-Cloud
+openstack_desc: للعمل كألات إقتراضية من خلال OpenStack
+installation_images: تثبيت
+ports_images: التحميلات
+ports_info: "تقوم فرق منفصلة من المجتمع ذات موارد محدودة بصيانة تحميلات أوبن سوز لنظم\
+  \ الحاسوب الأخرى غير نظام ال PC.\n"
+jeos_images: JeOS
+live_images: حى
+gnome_cd: سي دى حى GNOME
+kde_cd: سي دى حى KDE
+xfce_cd: سي دى حى Xfce
+rescue_cd: سي دى حى لإنقاذ النظام
+kubic_desc: منصة الحاويات كخدمة مبنية على ميكرو أو أس و كوبيرنيتيس.
+choosing_media: إختار الوسيط للتنزيل
+documentation: التوثيق
+documentation_startup_guide: دليل بدء التشغيل لأوبن سوز
+documentation_release_notes: ملاحظات الإصدار
+documentation_license: الرخصة
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: الوثائق الكاملة
+leap_switch: طرق سهلة للإنتقال الى أوبن سوز
+leap_switch_instructions: تعليمات ترقية النظام على الإنترنت.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: متطلبات النظام المستحسنة
+requirements_mem: 2 جيجابايت ذاكرة الجهاز
+requirements_hd: أكثر من 40 جيجابايت ماساحة خالية على وحدة التخزين
+requirements_dvd: الإختيار بين دى فى دى (DVD) أو وحدة الذاكرة الفلاشية (USB) لوسيط
+  التثبيت
+requirements_net: الإتصال بالإنترنت عامل مساعد، وعامل اساسي للمثبت عن طريق الإنترنت
+tw_switch: طرق سهلة للتحويل الى أوبن سوز تمبلويد
+tw_switch_instructions: تعليمات ترقية النظام.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: من إصدار قديم أو توزيع لينكس أخر
+upgrade_table_windows: من ويندوز
+upgrade_table_mac: من أو أس أكس
+upgrade_table_linux_dvd: كيف تجهز قرص دى فى دى على نظام لينكس.
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: كيف تجهز قرص دى فى دى على نظام ويندوز.
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: كيف تجهز قرص دى فى دى على نظام أو أس أكس.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: كيف تجهز وحدة الذاكرة الفلاشية (USB) قابلة للتمهيد على نظام
+  لينكس.
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: كيف تجهز وحدة الذاكرة الفلاشية (USB) قابلة للتمهيد على
+  نظام ويندوز.
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: كيف تجهز وحدة الذاكرة الفلاشية (USB) قابلة للتمهيد على نظام
+  أو أس أكس.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: تحقق من الملف المنزل قبل الإستخدام
+verify_download_p2: "نوفر بيان التحقيق جمعى (Checksum) و دالة هاش تشفيرية (SHA256)\
+  \ لكل ملف أيزو (ISO).\n"
+verify_download_pubkey: يجب أن يكون
+verify_download_help: للمساعدة على التحقق من الملف المنزل رجاء قراءه
+verify_download_checksums_help: مساعدة لبيان التحقيق جمعى (Checksum)
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: العديد من بيئات سطح المكتب، ثلاث معينين جاهزين للاستخدام
+installation: قم بالتثبيت كما تريد
+points_transparent: كل شئ صريح
+points_free: برمجيات حرة؟ الإختيار لك
+points_welcoming: مرحب بالمساهمين
+snapper: هل تلف النظام؟ ليست مشكلة بعد الآن
+software: لن يكون الحصول على البرامج أسهل من هذا
+software_get: إحصل على البرامج
+yast: ياست (YaST)، الإختيار اﻷفضل للمستخدم ~~المحترف~~
+yast_firewall: جدار حماية (Firewall)
+yast_fonts: طقم الحروف
+yast_hardware: مكونات الجهاز
+yast_partitioner: برنامج تقسيم القرص
+yast_printer: الطابعة
+yast_scanner: ماسح ضوئي
+yast_sound: صوت
+yast_software: برنامج
+zypper: زيبر (Zypper)، برنامج إدارة الحزم مفضلك الجديد
+index: توزيع أوبن سوز
+index_p1: للاستخدام على الحاسوب المكتبى وعلى الحاسوب الخادم وعلى كل شئ بينهما
+index_desktop: حاسوب مكتبى
+index_desktop_p1: التوزيعات المختلفة للإستخدام على الحاسوب المكتبى
+index_server: حاسوب خادم
+index_server_p1: التوزيعات المختلفة للإستخدام على الحاسوب الخادم
+index_full: أو إذهب مباشرتاً لصفحة تنزيل التوزيعات
+desktop: توزيعات أوبن سوز للحاسوب المكتبى
+desktop_p1: "التوزيعتان لحكمهم جميعًا\n"
