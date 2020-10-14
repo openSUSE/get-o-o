@@ -99,10 +99,7 @@ upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick
 verify_download: Verifique seu download antes de usar
 verify_download_p1: "Muitos aplicativos podem verificar a soma de verificação de um\
   \ download. Verificar\nseu download pode ser importante, pois verifica se você realmente\
-  \ tem o\nArquivo ISO que você queria baixar e não alguma versão quebrada. Você poderia\n\
-  verifique o arquivo no processo de download. Por exemplo, uma soma de verificação\n\
-  (SHA256) será usado automaticamente se você escolher Metalink no\nacima e use o\
-  \ add-on DownThemAll! no Firefox.\n"
+  \ tem o\nArquivo ISO que você queria baixar e não alguma versão quebrada.\n"
 verify_download_p2: "Para cada ISO, oferecemos um arquivo de checksum com a soma SHA256\
   \ correspondente.\n"
 verify_download_p3: "Para segurança extra, você pode usar o GPG para verificar quem\
