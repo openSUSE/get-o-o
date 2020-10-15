@@ -29,7 +29,7 @@ footer_links:
     link: https://github.com/openSUSE/get-o-o
   -
     text: license
-    link: https://github.com/openSUSE/get-o-o/blob/master/COPYING
+    link: https://raw.githubusercontent.com/openSUSE/get-o-o/main/LICENSE
 
 # Only edit below if you know what you are doing!
 
