@@ -143,3 +143,46 @@ yast_scanner: Scanner
 yast_sound: Audio
 yast_software: Software
 zypper: Zypper, Ihr neuer favorisierter Paketmanager
+site_description: Lerne die openSUSE Distributionen kennen und lade sie kostenlos
+  herunter
+site_copyright: © 2020 openSUSE Mitwirkende
+zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n\
+  mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n\
+  das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n\
+  Das Interface ist klar und angemessen koloriert, für eine einfache Lesbarkeit. Es\
+  \ ist\nperfekt, was könnte man sonst sagen?\n"
+index: openSUSE Distributionen
+index_p1: Für Desktop, Server, und alles dazwischen
+index_desktop: Desktop
+index_desktop_p1: Auswahl an Distributionen für die Verwendung als Desktop
+index_server: Server
+index_server_p1: Auswahl an Distributionen für die Verwendung als Server
+index_full: Oder gehe direkt zu den Download Seiten für die Distributionen
+desktop: openSUSE Desktop Distributionen
+desktop_p1: "Die zwei Distributionen, um alles zu beherrschen (jetzt in grün!)\n"
+desktop_tumbleweed_p1: Für Entwickler, openSUSE Mitwirkende und Linux/FOSS Enthusiasten
+desktop_tumbleweed_p2: Rolling Release mit den neuesten Paketen, bereitgestellt vom
+  openSUSE Projekt.
+desktop_tumbleweed_view: Tumbleweed anschauen
+desktop_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale" Desktop-Anwender
+desktop_leap_p2: Reguläres Release mit den Vorteilen von Technik auf Enterprise-Niveau
+  und von der Community entwickelten Innovationen.
+desktop_leap_view: Leap anschauen
+server: openSUSE Server Distributionen
+server_p1: "Vier komfortabel langweilige Distributionen, so wie es immer sein sollte\n"
+server_tumbleweed_p1: Für Entwickler, openSUSE Mitwirkende und Linux/FOSS Enthusiasten
+server_tumbleweed_p2: Rolling Release mit den neuesten Paketen, bereitgestellt vom
+  openSUSE Projekt.
+server_tumbleweed_view: Tumbleweed anschauen
+server_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale" Desktop-Anwender
+server_leap_p2: Reguläres Release mit den Vorteilen von Technik auf Enterprise-Niveau
+  und von der Community entwickelten Innovationen.
+server_leap_view: Leap anschauen
+server_kubic_p1: Für containerisierte Server Workflows
+server_kubic_p2: Multifunktionales Standalone & Kubernetes Container Betriebssystem,
+  basierend auf openSUSE MicroOS
+server_kubic_view: Kubic anschauen
+server_microos_p1: Für Einzweck-Serveranwendungen
+server_microos_p2: Entwickelt, um Container-Arbeitslasten mit automatisierter Administration
+  und Patching zu betreiben
+server_microos_view: MicroOS anschauen
