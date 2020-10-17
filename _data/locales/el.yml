@@ -1,1 +1,31 @@
-{}
+site_title: Αποκτήστε το openSUSE
+site_title_short: Απόκτησε το
+site_description: Μάθετε για τις διανομές openSUSE και κατεβάστε τις δωρεάν
+site_copyright: © 2020 συνεργάτες του openSUSE
+search: Αναζήτηση
+translate: Μετάφρασε
+source_code: Πηγαίος Κώδικας
+license: Άδεια
+learn_more: Μάθε Περισσότερα
+cd_desc: Για CD και USB στικ
+dvd_desc: Για DVD και USB στικ
+usb_desc: Για USB στικ
+pick_mirror: Διάλεξε Mirror
+checksum: Άθροισμα Ελέγχου
+torrent_file: Αρχείο Torrent
+offline_image: Εικόνα Εκτός Σύνδεσης
+offline_desc: "Περιέχει μια μεγάλη συλλογή απο λογισμικό για χρήση σε desktop ή server.\n\
+  Κατάλληλη για εγκατάσταση ή αναβάθμιση.\n"
+network_image: Εικόνα Δικτύου
+network_desc: "Κατεβάζει το σύστημα εγκατάστασης και όλα τα πακέτα από τα online\n\
+  αποθετήρια. Κατάλληλο για εγκατάσταση ή αναβάθμιση.\n"
+kvm_image: KVM και XEN
+kvm_desc: Για χρήση σε KVM ή XEN HVM hypervisors
+xen_image: XEN
+xen_desc: Για χρήση σε XEN PV hypervisors
+hyperv_image: MS HyperV
+hyperv_desc: Για να εκτελέσετε virtual machines σε MS HyperV
+vmware_desc: Για να εκτελέσετε virtual machines σε VMware
+openstack_desc: Για να εκτελέσετε virtual machines σε OpenStack
+installation_images: Εγκατάσταση
+ports_images: ''
