@@ -143,11 +143,10 @@ points_welcoming_p1: |
   happen when the community is vocal about what they need. That's why we
   ensure contributing is as easy as possible.
 snapper: System got corrupted? Not a problem anymore
-snapper_p1: |
-  The Filesystem Snapshots feature keeps your filesystem in check by
-  having continuous backups performed automatically when installing
-  software and updates. Just boot form an earlier snapshot and bring
-  your system to a working state in the matter of minutes.
+snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\
+  having continuous backups performed automatically when installing\nsoftware and\
+  \ updates. Just boot from an earlier snapshot and bring\nyour system to a working\
+  \ state in the matter of minutes.\n"
 software: Getting software couldn't be easier
 software_p1: |
   Between us, having to go through every website to get all the
