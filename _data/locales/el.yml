@@ -1,7 +1,7 @@
 site_title: Αποκτήστε το openSUSE
-site_title_short: Απόκτησε το
+site_title_short: Get
 site_description: Μάθετε για τις διανομές openSUSE και κατεβάστε τις δωρεάν
-site_copyright: © 2020 συνεργάτες του openSUSE
+site_copyright: © 2020 openSUSE συνεισφέροντες
 search: Αναζήτηση
 translate: Μετάφρασε
 source_code: Πηγαίος Κώδικας
@@ -29,3 +29,5 @@ vmware_desc: Για να εκτελέσετε virtual machines σε VMware
 openstack_desc: Για να εκτελέσετε virtual machines σε OpenStack
 installation_images: Εγκατάσταση
 ports_images: ''
+metalink: Metalink
+vmware_image: VMware
