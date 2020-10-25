@@ -146,10 +146,7 @@ tw_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau vo
 verify_download_p1: "Beaucoup d'applications permettent de vérifier la somme de contrôle\n\
   d'un téléchargement. Vérifier votre téléchargement est important car\ncela permet\
   \ de s'assurer que vous avez obtenu réellement le fichier ISO\nque vous vouliez\
-  \ et pas une version corrompue. Vous pouvez aussi\nvérifier le fichier pendant le\
-  \ processus de téléchargement. Par exemple,\nune somme de contrôle (SHA256) sera\
-  \ utilisée automatiquement si vous\nchoisissez Metalink dans le champ ci-dessus\
-  \ et si vous utilisez\nl'extension DownThemAll! dans Firefox.\n"
+  \ et pas une version corrompue.\n"
 desktops_p1: "Le processus de contribution à openSUSE favorise le développement\n\
   des environnements de bureau. Ainsi vous pouvez choisir celui que\nvous préférez\
   \ dans l'installateur. Nous mettons en valeur trois\nbureaux et en offrons encore\
@@ -169,8 +166,8 @@ points_welcoming_p1: "Nous faisons de notre mieux pour satisfaire la communauté
 snapper: Le système est corrompu ? Ce n'est plus un problème
 snapper_p1: "La fonctionnalité d'instantanés du système de fichiers garde votre\n\
   système de fichiers d'équerre en permettant d'effectuer des\nsauvegardes automatiquement\
-  \ lors de l'installation et la mise à jour\nde logiciels. Démarrer sur un instantané\
-  \ précédent et remettre\nvotre système dans un état fonctionnel n'est l'affaire\
+  \ lors de l'installation et la mise à jour\nde logiciels. Démarrer sur une instantanée\
+  \ précédente et remettre\nvotre système dans un état fonctionnel n'est l'affaire\
   \ que de\nquelques minutes.\n"
 software: Obtenir des logiciels ne pourrait pas être plus simple
 software_p1: "Entre nous, avoir à parcourir tous les sites web pour récupérer\ntous\
@@ -217,9 +214,9 @@ server_leap_p1: Pour les administrateurs système, les développeurs en entrepri
   les utilisateurs de serveurs « classiques »
 server_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
   qualité professionnelle et d'une innovation cultivée par la communauté.
-server_kubic_p1: Pour tous vos travaux avec les conteneurs
-server_kubic_p2: Un système d'exploitation multi-usage pour Kubernetes et les conteneurs,
-  basé sur openSUSE MicroOS
-server_microos_p1: Un serveur pour applications mono tâche
-server_microos_p2: Conçu pour vos travaux avec les conteneurs et disposant d'une administration
-  et de mise à jour automatisées
+server_kubic_p1: Pour tous les travaux avec des conteneurs
+server_kubic_p2: Un système d'exploitation multi-usage et conteneur de Kubernetes.
+  Basé sur openSUSE MicroOS
+server_microos_p1: Pour des applications serveur mono-tâche
+server_microos_p2: Conçu pour héberger vos travaux avec des conteneurs, disposant
+  d'une administration et de mises à jour automatisées
