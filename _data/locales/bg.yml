@@ -1,1 +1,23 @@
-{}
+search: Сваляне
+translate: Превод
+source_code: Софтуерен Код
+license: Лиценз
+learn_more: Научи повече
+cd_desc: За CD и USB памет
+dvd_desc: За DVD и USB памет
+usb_desc: За USB памет
+metalink: Мета-връзка
+pick_mirror: Избор на огледало
+torrent_file: Торент файл
+offline_desc: "Съдържа голяма колекция от проложения за използване на компютър или\
+  \ сървър.\nПодходящ за инсталиране и обновяване.\n"
+kvm_image: KVM и XEN
+kvm_desc: За използване с KVM или XEN HVM хипервайзори
+xen_image: XEN
+xen_desc: За използване с XEN PV хипервайзори
+hyperv_image: MS HyperV
+hyperv_desc: За ползване на виртуални машини с MS HyperV
+vmware_image: VMware
+vmware_desc: За използване с витруални машини с VMware
+openstack_desc: За използване с виртуални машини с OpenStack
+installation_images: Инсталиране
