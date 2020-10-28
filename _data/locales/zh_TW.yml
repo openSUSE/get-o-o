@@ -1,1 +1,28 @@
-{}
+site_title: 取得 openSUSE
+site_title_short: 取得
+site_description: 了解 openSUSE 發行版並且免費下載
+site_copyright: © 2020 openSUSE 貢獻者
+search: 搜尋
+translate: 翻譯
+source_code: 原始碼
+license: 授權
+learn_more: 了解更多
+cd_desc: 供 CD 與 USB 隨身碟使用
+dvd_desc: 供 DVD 與 USB 隨身碟使用
+usb_desc: 供 USB 隨身碟使用
+metalink: Metalink
+pick_mirror: 選擇鏡像
+checksum: 校驗碼
+torrent_file: Torrent 種子檔案
+offline_image: 離線安裝用映像檔
+offline_desc: "包含了大批的軟體供桌面或伺服器使用。適用於安裝或升級。\n"
+network_image: 網路安裝映像檔
+network_desc: "從線上套件庫下載安裝系統與所有套件。適用於安裝或升級。\n"
+kvm_image: KVM 與 XEN
+kvm_desc: 供 KVM 或是 XEM HVM 的 hypervisor 使用
+xen_image: XEN
+xen_desc: 供 XEN PV hypervisor 使用
+hyperv_image: MS HyperV
+hyperv_desc: 供在微軟 HyperV 運作的虛擬機器使用
+vmware_image: VMware
+vmware_desc: 供在 VMware 運作的虛擬機器使用
