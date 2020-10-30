@@ -1,11 +1,11 @@
 site_title: 取得 openSUSE
-site_title_short: 取得
+site_title_short: Get
 site_description: 了解 openSUSE 發行版並且免費下載
 site_copyright: © 2020 openSUSE 貢獻者
 search: 搜尋
 translate: 翻譯
 source_code: 原始碼
-license: 授權
+license: 授權條款
 learn_more: 了解更多
 cd_desc: 供 CD 與 USB 隨身碟使用
 dvd_desc: 供 DVD 與 USB 隨身碟使用
@@ -14,7 +14,7 @@ metalink: Metalink
 pick_mirror: 選擇鏡像
 checksum: 校驗碼
 torrent_file: Torrent 種子檔案
-offline_image: 離線安裝用映像檔
+offline_image: 離線安裝映像檔
 offline_desc: "包含了大批的軟體供桌面或伺服器使用。適用於安裝或升級。\n"
 network_image: 網路安裝映像檔
 network_desc: "從線上套件庫下載安裝系統與所有套件。適用於安裝或升級。\n"
@@ -23,6 +23,123 @@ kvm_desc: 供 KVM 或是 XEM HVM 的 hypervisor 使用
 xen_image: XEN
 xen_desc: 供 XEN PV hypervisor 使用
 hyperv_image: MS HyperV
-hyperv_desc: 供在微軟 HyperV 運作的虛擬機器使用
+hyperv_desc: 供運作於微軟 HyperV 的虛擬機器使用
 vmware_image: VMware
-vmware_desc: 供在 VMware 運作的虛擬機器使用
+vmware_desc: 供運作於 VMware 的虛擬機器使用
+openstack_image: OpenStack-Cloud
+openstack_desc: 供運作於 OpenStack 的虛擬機器使用
+installation_images: 安裝
+ports_images: 移植
+ports_info: "openSUSE Leap 移植跟其他 PC 不同，這些移植由資源有限的獨立社群團隊維護。\n"
+jeos_images: 最小安裝系統 (JeOS)
+live_images: 體驗
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+rescue_cd: Rescue LiveCD
+tumbleweed_live_info: "請注意體驗映像檔案的以下限制：\n* 它們不能用於安裝或升級 Tumbleweed。請改使用 [Tumbleweed\
+  \  安裝媒體](/tumbleweed)\n* 它們只具備有限的套件與驅動程式選擇，故不能夠當作 Tumbleweed 能否在您的硬體運作的精確指標\n"
+kubic_desc: 基於 Kubernetes (運作於 openSUSE MicroOS) 的容器即服務 (CaaS) 平台。
+microos_desc: 以 openSUSE Tumbleweed 為基礎，提供在唯讀 btrfs root 檔案系統上進行原子交易更新的作業系統
+choosing_media: 選擇要下載的媒體
+choosing_media_p1: "DVD/USB 隨身碟是建議使用的安裝媒體，因為它們包含大部分發行版本的套件，且不需要網路即可安裝。\n"
+choosing_media_p2: "網路 CD/USB 隨身碟建議給網路頻寬有限的使用者使用，因為它們只會下載使用者選擇要安裝的套件，是故可能會比 4.7GB\
+  \ 要小得多。\n"
+documentation: 文件
+documentation_startup_guide: openSUSE 入門指南
+documentation_release_notes: 發行紀事
+documentation_license: 授權條款
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: 完整文件
+leap_switch: 切換到 openSUSE Leap 的簡易方法
+leap_switch_p1: "如果您已經正在執行 openSUSE，您可以藉由從 DVD/USB 開機並選擇更新來升級系統，或是下幾個指令來執行線上更新。\n"
+leap_switch_instructions: 線上升級說明。
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: 建議系統需求
+requirements_cpu: 2 Ghz 雙核或更好的處理器
+requirements_mem: 2 GB 系統記憶體
+requirements_hd: 超過 40GB 的可用硬碟空間
+requirements_dvd: 用於安裝媒體的 DVD 光碟機或是 USB 插槽
+requirements_net: 具備網路連線是有幫助的，且對於網路安裝程式而言是必要的
+tw_switch: 切換到 openSUSE Tumbleweed 的簡易方法
+tw_switch_p1: "如果您已經正在執行 openSUSE，您可以藉由從 DVD/USB 開機並選擇更新來升級系統，或是下幾個指令來執行線上更新。\n"
+tw_switch_instructions: 升級說明。
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: 從更舊版本或其他 Linux 發行版
+upgrade_table_windows: 從 Windows
+upgrade_table_mac: 從 OS X
+upgrade_table_linux_dvd: 如何在 Linux 上燒錄 DVD。
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: 如何在 Windows 上燒錄 DVD。
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: 如何在 OS X 上燒錄 DVD。
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: 如何在 Linux 上建立一個可開機的 USB 隨身碟。
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: 如何在 Windows 上建立一個可開機的 USB 隨身碟。
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: 如何在 OS X 上建立一個可開機的 USB 隨身碟。
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: 在使用前驗證您的下載
+verify_download_p1: "很多應用程式可以驗證下載的正確性。驗證您的下載可以確保您得到所需的 ISO 檔案而非損壞的版本。\n"
+verify_download_p2: "針對每一個 ISO ，我們提供了一個含有對應 SHA256 的校驗碼檔案。\n"
+verify_download_p3: "為額外的安全性考量，您可以使用 GPG 來驗證誰簽署了這些 .sha256 檔案。\n"
+verify_download_pubkey: 它應該是
+verify_download_help: 需要有關驗證您的下載檔案的說明，請閱讀
+verify_download_checksums_help: 校驗碼說明文件
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: 多種桌面，三種推薦
+installation: 用您想要的方式安裝
+installation_p1: "openSUSE 安裝程序提供所有您可能需要的選項。想要用滑鼠和鍵盤來安裝您的系統？就用圖形模式啟動安裝程式。手邊沒有滑鼠？啟用終端機客戶端，然後就用這個方式安裝。無法碰到實體機器？那就遠端連線到安裝程式，然後繼續安裝。一切就是這麼簡單。\n"
+points_transparent: 一切透明
+points_transparent_p1: "從開始到結束，每個收錄進發行版的套件，其原始碼及建構腳本皆開放給所有人檢視。對原始碼有疑問？只需到建構服務 (build\
+  \ service) 中檢查即可。\n"
+points_free: 自由軟體？您的選擇
+points_free_p1: "發行版中的套件會分離存放在自由與非自由套件庫中。不想要用非自由套件？您可以簡單地將非自由套件庫禁用即可。這是由您，而非由我們來做決定。\n"
+points_welcoming: 歡迎貢獻
+points_welcoming_p1: "我們盡其所能地取悅我們的社群，並且只有當社群直言不諱地表達他們想要什麼的時候，我們才能做到這件事。這就是為什麼我們要確保貢獻可以儘可能愈簡單愈好。\n"
+snapper: 系統壞掉？不再是問題了
+snapper_p1: "檔案系統快照功能藉由在軟體安裝及更新時期進行自動化的連續備份，以確保您的檔案系統處於可控狀態。只需要從之前的快照開機，即可在幾分鐘內將您的系統回復至可用狀態。\n"
+software: 取得軟體不能再更簡單了
+software_p1: "為了取得所有您需要的軟體而跑遍各個網站是個大工程。線上軟體中心藉由將軟體從一大堆來源集中到一個地方，讓軟體取得過程更容易。\n"
+software_get: 取得軟體
+transactional: 交易型伺服器
+yast: YaST，~~超級~~使用者的最佳選擇
+yast_firewall: 防火牆
+yast_fonts: 字型
+yast_hardware: 硬體
+yast_partitioner: 磁碟分割程式
+yast_printer: 印表機
+yast_scanner: 掃描器
+yast_sound: 音效
+yast_software: 軟體
+zypper: Zypper，您最愛的新套件管理員
+index: openSUSE 發行版
+index_p1: 給桌面、伺服器，或是其他應用
+index_desktop: 桌面
+index_desktop_p1: 選擇供桌面使用的發行版
+index_server: 伺服器
+index_server_p1: 選擇供伺服器使用的發行版
+index_full: 或是直接到發行版的下載頁面
+desktop: openSUSE 桌面發行版
+desktop_p1: "二種發行版，統御所有系統\n"
+desktop_tumbleweed_p1: 適用於開發者、openSUSE 貢獻者和 Linux/FOSS 發燒友
+desktop_tumbleweed_p2: 滾動式發行版，使用 openSUSE 專案所提供的最新軟體套件。
+desktop_tumbleweed_view: 檢視 Tumbleweed
+desktop_leap_p1: 適用於系統管理員、企業開發者和「一般」桌面使用者
+desktop_leap_p2: 定期發行版，享受企業級工程設計和社群開發創新的好處。
+desktop_leap_view: 檢視 Leap
+server: openSUSE 伺服器發行版
+server_p1: "四種令人感到自在、沒事做的發行版 (如果它總是如此，多好)\n"
+server_tumbleweed_p1: 適用於開發者、openSUSE 貢獻者和 Linux/FOSS 發燒友
+server_tumbleweed_p2: 滾動式發行版，使用 openSUSE 專案所提供的最新軟體套件。
+server_tumbleweed_view: 檢視 Tumbleweed
+server_leap_p1: 適用於系統管理員、企業開發者和「一般」桌面使用者
+server_leap_p2: 定期發行版，享受企業級工程設計和社群開發創新的好處。
+server_leap_view: 檢視 Leap
+server_kubic_p1: 適用於容器化的伺服器負載
+server_kubic_p2: 基於 openSUSE MicroOS 的多用途獨立 Kubernetes 容器作業系統
+server_kubic_view: 檢視 Kubic
+server_microos_p1: 適用於單一用途的伺服器應用
+server_microos_p2: 設計用於執行容器負載，並提供自動化管理與修補更新
+server_microos_view: 檢視 MicroOS
