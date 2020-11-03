@@ -29,8 +29,8 @@ offline_image: Офлайн изображение
 network_image: Изображение за мрежа
 network_desc: "Сваля системата за инсталация и всички пакети от интернет \nрепозиторий.\
   \ Подходящо за инсталация и обновяване.\n"
-ports_info: "Разработката на openSUSE на архитектури различни от PC, са подържанни\
-  \ от други обществени екипи, с ограничени средства.\n"
+ports_info: "Разработката на openSUSE на архитектури различни от PC, са поддържани\
+  \ от други екипи, с ограничени средства.\n"
 rescue_cd: Спасително LiveCD
 tumbleweed_live_info: "Моля, внимавайте за следните ограничения на живите изображения:\n\
   * Те не би трябвало да се ползват за инсталация и обновяване на Tumbleweed. Моля,\
@@ -149,3 +149,34 @@ server_leap_view: Виж Leap
 server_kubic_view: Виж Kubic
 server_microos_p1: За сървърни приложения с едно единствено предназначение
 server_microos_view: Виж MicroOS
+checksum: Контролна сума
+openstack_image: OpenStack-Cloud
+jeos_images: JeOS
+live_images: Живо
+gnome_cd: GNOME LiveCD
+xfce_cd: Xfce LiveCD
+kubic_desc: Платформа за контейнери на базата на Kubernetes и openSUSE MicroOS.
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops_p1: "Процесът за сътрудничество на openSUSE подкрепя разработки за всички,\
+  \ \nтака че имате избор да изберете любимия си разработка по време на \nинсталацията.\
+  \ Ние предлагаме три основни работни среди и предлагаме \nняколко допълнителни в\
+  \ разширения софтуерен изглед по време на инсталацията .\n"
+installation_p1: "По време на инсталацията openSUSE ви предоставя всички възможности\
+  \ от които бихте \nимали нужда. Искате на инсталирате вашата система с помощта на\
+  \ мишка и клавиатура? \nИскате за заредите инсталацията в графична среда? Нямате\
+  \ мишка под ръка? Изберете \nтерминала и завършете инсталацията по този начин. \
+  \ Имате единствено физически достъп \nдо компютъра. Свържете се към инсталацията\
+  \ по мрежата и завършете инсталацията по този начин. \nТолкова е лесно.\n"
+snapper_p1: "Способността да правите снимки осигурява вашата файлова система като\
+  \ \nавтоматично прави непрекъснати резервни копия когато инсталирате програми \n\
+  или актуализации. Просто стартирайте от по-ранно резервно копие и възстановете \n\
+  вашата система в работно състояние само за няколко минути.\n"
