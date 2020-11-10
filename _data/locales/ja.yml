@@ -22,11 +22,83 @@ kvm_image: KVM および XEN
 kvm_desc: KVM もしくは XEN の HVM ハイパーバイザ向け
 xen_image: XEN
 xen_desc: XEN 準仮想化ハイパーバイザ向け
-hyperv_image: Microsoft Hyper-V
-hyperv_desc: Microsoft Hyper-V 内で動作する仮想マシン向け
+hyperv_image: MS Hyper-V
+hyperv_desc: MS Hyper-V 内で動作する仮想マシン向け
 vmware_image: VMware
 vmware_desc: VMware 内で動作する仮想マシン向け
 openstack_image: OpenStack-Cloud
 openstack_desc: OpenStack 内で動作する仮想マシン向け
 installation_images: インストール
 ports_images: 移植版
+ports_info: "PC 以外のアーキテクチャへの openSUSE 移植版です。\nPC 向けアーキテクチャとは異なる少人数のコミュニティチームで管理されています。\n"
+jeos_images: JeOS
+live_images: ライブ
+gnome_cd: GNOME ライブ CD
+kde_cd: KDE ライブ CD
+xfce_cd: Xfce ライブ CD
+rescue_cd: レスキューライブ CD
+tumbleweed_live_info: "ライブイメージをご利用になる場合は、下記の制限事項に注意してください:\n* Tumbleweed のインストールやアップグレードにはお使いいただけません。\
+  \ Tumbleweed をインストールもしくはアップグレードしたい場合は、 [Tumbleweed メディア](/tumbleweed) をお使いください。\n\
+  * ライブイメージには含まれていないパッケージやドライバ類があります。そのため、お使いのハードウエアで Tumbleweed が動作するかどうかを確認する目的には不向きです。\n"
+kubic_desc: openSUSE MicroOS を利用して構築された Kubernetes ベースの Container as a Service プラットフォームです。
+microos_desc: 読み込み専用の btrfs ルートファイルシステムを利用してトランザクション型 (アトミック) 更新を行なう、 openSUSE Tumbleweed
+  ベースの OS
+choosing_media: ダウンロードするメディアの選択
+choosing_media_p1: "DVD/USB メモリ向けメディアにはディストリビューション内の多くのパッケージが\n含まれているため、インストール時にネットワークを使用する必要がありません。\n\
+  通常はこちらをダウンロードしてください。\n"
+choosing_media_p2: "ネットワークイメージは、インターネットへの接続が遅い場合にお勧めです。\n一般的な環境を構成する場合、ダウンロードすべきパッケージは\
+  \ 4.7GB よりも\n少ないことが多いので、こちらのほうがダウンロード量を減らすことに繋がるためです。\n"
+documentation: ドキュメンテーション
+documentation_startup_guide: openSUSE スタートアップガイド
+documentation_release_notes: リリースノート
+documentation_license: ライセンス
+documentation_license_link: https://ja.opensuse.org/openSUSE:%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9
+documentation_full_documentation: 完全なドキュメンテーション
+leap_switch: openSUSE Leap に切り替えるための簡単な方法
+leap_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行なうことができます。それ以外にも、\n\
+  コマンドをいくつか入力する 'オンラインアップグレード' にも対応しています。\n"
+leap_switch_instructions: オンラインアップグレードの手順はこちらに書かれています。
+leap_switch_instructions_link: https://ja.opensuse.org/SDB:%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89
+requirements: 推奨システム要件
+requirements_cpu: 2GHz デュアルコアプロセッサ以上
+requirements_mem: 2 GB のメモリもしくはそれ以上
+requirements_hd: 40GB 以上の空きディスク容量
+requirements_dvd: インストールメディアを挿入するための DVD ドライブもしくは USB ポート
+requirements_net: ネットワークイメージの場合はインターネット接続が必須となります。それ以外は任意です
+tw_switch: openSUSE Tumbleweed に切り替えるための簡単な方法
+tw_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行なうことができます。それ以外にも、\n\
+  コマンドをいくつか入力する 'オンラインアップグレード' にも対応しています。\n"
+tw_switch_instructions: アップグレードの手順はこちらに書かれています。
+tw_switch_instructions_link: https://ja.opensuse.org/openSUSE:Tumbleweed_%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89
+upgrade_table_linux: 古いバージョンや他の Linux ディストリビューションから
+upgrade_table_windows: Windows から
+upgrade_table_mac: OS X から
+upgrade_table_linux_dvd: Linux での DVD 書き込み方法。
+upgrade_table_linux_dvd_link: https://ja.opensuse.org/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%98%E3%83%AB%E3%83%97#Linux_.E3.81.A7.E3.81.AE.E6.9B.B8.E3.81.8D.E8.BE.BC.E3.81.BF
+upgrade_table_windows_dvd: Windows での DVD 書き込み方法。
+upgrade_table_windows_dvd_link: https://ja.opensuse.org/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%98%E3%83%AB%E3%83%97#Microsoft_Windows_.E3.81.A7.E3.81.AE.E6.9B.B8.E3.81.8D.E8.BE.BC.E3.81.BF
+upgrade_table_mac_dvd: OS X での DVD 書き込み方法。
+upgrade_table_mac_dvd_link: https://ja.opensuse.org/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%98%E3%83%AB%E3%83%97#MacOS_X_10.3_.E3.81.BE.E3.81.9F.E3.81.AF.E3.81.9D.E3.82.8C.E4.BB.A5.E9.99.8D.E3.81.A7.E3.81.AE.E6.9B.B8.E3.81.8D.E8.BE.BC.E3.81.BF
+upgrade_table_linux_usb: Linux で起動可能な USB メモリを作成する方法。
+upgrade_table_linux_usb_link: https://ja.opensuse.org/SDB:%E3%83%A9%E3%82%A4%E3%83%96_USB_%E3%83%A1%E3%83%A2%E3%83%AA
+upgrade_table_windows_usb: Windows で起動可能な USB メモリを作成する方法。
+upgrade_table_windows_usb_link: https://ja.opensuse.org/SDB:Windows_%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%83%A9%E3%82%A4%E3%83%96_USB_%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AE%E4%BD%9C%E6%88%90
+upgrade_table__mac_usb: OS X で起動可能な USB メモリを作成する方法。
+upgrade_table__mac_usb_link: https://ja.opensuse.org/SDB:Mac_OSX_%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%83%A9%E3%82%A4%E3%83%96_USB_%E3%83%A1%E3%83%A2%E3%83%AA%E3%81%AE%E4%BD%9C%E6%88%90
+verify_download: 使用する前に正しくダウンロードできたかどうかをご確認ください
+verify_download_p1: "アプリケーションによっては、ダウンロードしたファイルを検証する機能が提供されて\nいる場合があります。この機能を利用して正しくダウンロードできたことを確認する\n\
+  ことで、インストール時の無駄なトラブルを事前に回避することができます。\n"
+verify_download_p2: "公開されている ISO ファイルに対して SHA256 チェックサムを提供しています。\n"
+verify_download_p3: "不正な改ざんを防ぐため、 .sha256 ファイルに対して GPG による署名も提供されています。\n"
+verify_download_pubkey: '下記の電子指紋で署名しています:'
+verify_download_help: 'ダウンロードの検証方法についてさらに詳しく知りたい場合は、下記をお読みください:'
+verify_download_checksums_help: チェックサムのヘルプ
+verify_download_checksums_help_link: https://ja.opensuse.org/%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89%E3%81%AB%E9%96%A2%E3%81%99%E3%82%8B%E3%83%98%E3%83%AB%E3%83%97#.E3.83.81.E3.82.A7.E3.83.83.E3.82.AF.E3.82.B5.E3.83.A0
+desktops: 既定では 3 種類、それ以外にも多数のデスクトップが提供されています
+desktops_p1: "openSUSE ディストリビューションは誰にでも使用できるデスクトップの開発を推し進めて\nいます。そのため、インストーラではデスクトップを自由に選択できるようになっています。\n\
+  既定では 3 種類のデスクトップ環境から選択できるほか、インストーラ内のソフトウエア\n選択を利用することで、その他のデスクトップ環境も使用することができます。\n"
+installation: 必要なものだけをインストールすることができます
+installation_p1: "openSUSE のインストール処理ではいくつかの選択肢を表示しますが、そこから\n必要なパッケージを自動的に判断してインストールを行ないます。マウスとキーボード\n\
+  の接続されたシステムであればインストーラはグラフィカル (GUI) モードで動作しますが、\nマウスが接続されていなければテキスト (端末) モードでインストールすることもできます。\n\
+  マシンを直接触れないような環境であっても、インストールをリモート (離れた場所) から\n行なうこともできます。いずれも簡単にできます。\n"
+points_transparent: 全てが公開されています
