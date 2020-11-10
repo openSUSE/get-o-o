@@ -1,1 +1,32 @@
-{}
+site_title: openSUSE のダウンロード
+site_title_short: ダウンロード
+site_description: openSUSE ディストリビューションに関する情報の取得とダウンロードを行なうことができます
+site_copyright: © 2020 openSUSE コミュニティ
+search: 検索
+translate: 翻訳
+source_code: ソースコード
+license: ライセンス
+learn_more: さらに詳しく
+cd_desc: CD および USB メモリ向け
+dvd_desc: DVD および USB メモリ向け
+usb_desc: USB メモリ向け
+metalink: メタリンク
+pick_mirror: ミラーの選択
+checksum: チェックサム
+torrent_file: torrent ファイル
+offline_image: オフラインイメージ
+offline_desc: "デスクトップ用途とサーバ用途の両方に使用することのできる、巨大なソフトウエアコレクションが含まれています。\nインストールやアップグレードにお使いいただけます。\n"
+network_image: ネットワークイメージ
+network_desc: "インストールシステムそれ自身と全てのパッケージをオンラインのリポジトリから\nダウンロードします。インストールやアップグレードにお使いいただけます。\n"
+kvm_image: KVM および XEN
+kvm_desc: KVM もしくは XEN の HVM ハイパーバイザ向け
+xen_image: XEN
+xen_desc: XEN 準仮想化ハイパーバイザ向け
+hyperv_image: Microsoft Hyper-V
+hyperv_desc: Microsoft Hyper-V 内で動作する仮想マシン向け
+vmware_image: VMware
+vmware_desc: VMware 内で動作する仮想マシン向け
+openstack_image: OpenStack-Cloud
+openstack_desc: OpenStack 内で動作する仮想マシン向け
+installation_images: インストール
+ports_images: 移植版
