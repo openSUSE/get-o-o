@@ -186,3 +186,19 @@ server_microos_p1: Für Einzweck-Serveranwendungen
 server_microos_p2: Entwickelt, um Container-Arbeitslasten mit automatisierter Administration
   und Patching zu betreiben
 server_microos_view: MicroOS anschauen
+metalink: Metalink
+kvm_desc: Zur Verwendung in KVM oder XEN HVM Hypervisoren
+xen_desc: Zur Verwendung in XEN PV Hypervisoren
+ports_images: Portierungen
+ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n\
+  von separaten Community Teams gepflegt, mit limitierten Resourcen.\n"
+rescue_cd: Rettungs Live-CD
+kubic_desc: Container as a Service Plattform basierend auf Kubernetes auf openSUSE
+  MicroOS.
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+desktops: Viele Desktops, drei im Standard
+desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklung für\
+  \ jeden,\ndamit Sie Ihren favorisierten Desktop während der Installation auswählen\
+  \ können.\nWir heben aktiv drei Desktopumgebungen hervor und bieten noch mehr in\
+  \ der erweiterten\nSoftwareliste im Installationsprogramm an.\n"
+yast: YaST, die beste Wahl für den ~~erfahrenen~~ Benutzer
