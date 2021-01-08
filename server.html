@@ -23,7 +23,7 @@ permalink: /server/
               <h6>{{ locale.server_tumbleweed_p1 }}</h6>
               <p>{{ locale.server_tumbleweed_p2 }}</p>
             </div>
-            <a href="{{ '/tumbleweed/' | prefix_locale }}" class="btn btn-light">{{ locale.server_tumbleweed_view }}</a>
+            <a href="{{ '/tumbleweed/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'Tumbleweed' }}</a>
           </div>
         </div>
       </div>
@@ -40,7 +40,9 @@ permalink: /server/
               <h6>{{ locale.server_leap_p1 }}</h6>
               <p>{{ locale.server_leap_p2 }}</p>
             </div>
-            <a href="{{ '/leap/' | prefix_locale }}" class="btn btn-light">{{ locale.server_leap_view }}</a>
+            {% capture distro_name %}Leap {% include leap_release %}{% endcapture %}
+            <a href="{{ '/leap/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.view_distro | replace: '$distro_name', distro_name }}</a>
+            {% include leap_testing_link.html class="btn btn-light" %}
           </div>
         </div>
       </div>
@@ -57,7 +59,7 @@ permalink: /server/
               <h6>{{ locale.server_kubic_p1 }}</h6>
               <p>{{ locale.server_kubic_p2 }}</p>
             </div>
-            <a href="{{ '/kubic/' | prefix_locale }}" class="btn btn-light">{{ locale.server_kubic_view }}</a>
+            <a href="{{ '/kubic/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'Kubic' }}</a>
           </div>
         </div>
       </div>
@@ -74,7 +76,7 @@ permalink: /server/
               <h6>{{ locale.server_microos_p1 }}</h6>
               <p>{{ locale.server_microos_p2 }}</p>
             </div>
-            <a href="{{ '/microos/' | prefix_locale }}" class="btn btn-light">{{ locale.server_microos_view }}</a>
+            <a href="{{ '/microos/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'MicroOS' }}</a>
           </div>
         </div>
       </div>

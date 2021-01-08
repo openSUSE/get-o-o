@@ -2,6 +2,22 @@
 <link rel="stylesheet" href="/assets/css/software.css">
 <header class="jumbotron jumbotron-fluid bg-{{ distro.bg-color }} text-center pb-0">
   <div class="container text-{{ distro.fg-color }}">
+    {% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
+    {% assign testing_version = testing_version | normalize_whitespace %}
+    {% if testing_version != "" and include.type == "current" %}
+      <div class="alert alert-info d-flex justify-content-between align-items-center">
+      {% capture distro_name %}Leap {% include leap_testing_release %} <sup>{% include leap_testing_status %}</sup>{% endcapture %}
+      <span>{{ locale.new_version_testing | replace: '$distro_name', distro_name }}</span>
+      <a class="btn btn-info" href="{{ '/testing/' | prefix_locale }}">{{ locale.learn_more }}</a>
+      </div>
+    {% endif %}
+    {% if include.type == "legacy" %}
+      <div class="alert alert-danger d-flex justify-content-between align-items-center">
+      {% capture distro_name %}Leap {% include leap_release %}{% endcapture %}
+      <span>{{ locale.new_version_available | replace: '$distro_name', distro_name }}</span>
+      <a class="btn btn-danger" href="{{ '/leap/' | prefix_locale }}">{{ locale.learn_more }}</a>
+      </div>
+    {% endif %}
     <div class="page-heading pb-5">
         <div class="m-auto distribution-logo">
         {% include {{ distro.logo }} %}
@@ -9,7 +25,7 @@
       <h1 class="display-3">
         openSUSE {{ distro.name }}
         {% if distro.version %}{{ distro.version }}{% endif %}
-        {% if include.status %}<sup>{{ include.status }}</sup>{% endif %}
+        {% if include.state and include.state != "Stable" %}<sup>{{ include.state }}</sup>{% endif %}
       </h1>
     </div>
   </div>
@@ -42,7 +58,7 @@
           </div>
         {% endif %}
         {% for arch in tab.arches %}
-        <h3 class="my-3 text-center">{{ arch.name }}</h3>
+        <h3 class="my-3 text-center">{{ locale[arch.name] }}</h3>
         <div class="row">
           {% for type in arch.types %}
           <div class="col text-center">

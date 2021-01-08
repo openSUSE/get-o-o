@@ -1,7 +1,7 @@
 GIT
-  remote: https://github.com/ashmaroli/jekyll-locale.git
-  revision: dc5c46cadd09e3f13fb4c71b43aa082d90cca6a1
-  branch: master
+  remote: https://github.com/hellcp/jekyll-locale.git
+  revision: 1a9ba57cfc11d2ee1abadab2bb2b30601317a2c1
+  ref: 1a9ba57
   specs:
     jekyll-locale (0.5.1)
       jekyll (>= 3.8, < 5.0)
@@ -99,3 +99,6 @@ DEPENDENCIES
   jekyll-redirect-from
   jekyll-theme-opensuse!
   rake
+
+BUNDLED WITH
+   2.1.4

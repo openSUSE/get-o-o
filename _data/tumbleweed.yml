@@ -9,7 +9,7 @@ downloads:
   - name: x86_64
     types:
     - name: offline_image
-      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      desc: offline_desc
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso
       links:
       - name: metalink
@@ -19,7 +19,7 @@ downloads:
       - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso.sha256
     - name: network_image
-      desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
+      desc: network_desc
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso
       links:
       - name: metalink
@@ -28,10 +28,10 @@ downloads:
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso?mirrorlist
       - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso.sha256
-  - name: i586
+  - name: i686
     types:
     - name: offline_image
-      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      desc: offline_desc
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso
       links:
       - name: metalink
@@ -41,7 +41,7 @@ downloads:
       - name: checksum
         url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso.sha256
     - name: network_image
-      desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
+      desc: network_desc
       primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso
       links:
       - name: metalink
@@ -53,7 +53,7 @@ downloads:
   - name: aarch64
     types:
     - name: offline_image
-      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      desc: offline_desc
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso
       links:
       - name: metalink
@@ -63,7 +63,7 @@ downloads:
       - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.sha256
     - name: network_image
-      desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
+      desc: network_desc
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso
       links:
       - name: metalink
@@ -75,7 +75,7 @@ downloads:
   - name: ppc64le
     types:
     - name: offline_image
-      desc: Contains a large collection of software for desktop or server use. Suitable for installation or upgrade.
+      desc: offline_desc
       primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso
       links:
       - name: metalink
@@ -85,7 +85,7 @@ downloads:
       - name: checksum
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.sha256
     - name: network_image
-      desc: Downloads the installation system and all packages from online repositories. Suitable for installation or upgrade.
+      desc: network_desc
       primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso
       links:
       - name: metalink

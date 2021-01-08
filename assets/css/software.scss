@@ -1,14 +1,14 @@
 ---
 ---
 .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
-    background: rgba(255, 255, 255, 0.2);
-    color: rgba(0, 0, 0, 0.8);
-    transition: 0.3s;
+  background: rgba(255, 255, 255, 0.2);
+  color: rgba(0, 0, 0, 0.8)!important;
+  transition: 0.3s;
 }
 
 .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
-    background: rgba(255, 255, 255, 0.4);
-    border-color: transparent transparent white transparent;
+  background: rgba(255, 255, 255, 0.4);
+  border-color: transparent transparent white transparent;
 }
 
 .distribution-logo {
@@ -124,6 +124,22 @@
   border-color: darken(rgb(151, 58, 132), 7);
 }
 
-.text-black:hover {
-  color: black;
+.text-black, .text-black:hover {
+  color: black!important;
+}
+@media (prefers-color-scheme: dark) {
+  .border-bottom {
+    border-color: black!important;
+  }
+  .bg-light {
+    background-color: #272b30!important;
+  }
+  .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
+    background: rgba(0, 0, 0, 0.4);
+    border-color: transparent transparent black transparent;
+  }
 }
