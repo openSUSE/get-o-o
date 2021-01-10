@@ -211,3 +211,13 @@ server_microos_p1: Per a aplicacions de servidor d’un sol propòsit
 server_microos_p2: Dissenyat per allotjar càrregues de treball de contenidors amb
   administració i pedaços automatitzats
 server_microos_view: Vegeu el Micro SO
+new_version_available: $distro_name ara està disponible per descarregar.
+new_version_testing: $distro_name ara està disponible per descarregar i provar.
+view_distro: Vegeu $distro_name
+x86_64: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 64 bits
+  (x86_64)
+i686: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 32 bits (i686)
+aarch64: Servidors, ordinadors de sobretaula, portàtils i tauletes de 64 bits amb
+  UEFI Arm (aarch64)
+ppc64le: Servidors PowerPC, no ordre dels bytes gran-petit (ppc64le)
+s390x: IBM Z i LinuxONE (s390x)
