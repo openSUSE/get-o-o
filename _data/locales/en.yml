@@ -199,27 +199,29 @@ desktop_p1: |
 desktop_tumbleweed_p1: For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts
 desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
   Project.
-desktop_tumbleweed_view: View Tumbleweed
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
 desktop_leap_p2: Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
-desktop_leap_view: View Leap
 server: openSUSE Server Distributions
 server_p1: |
   Four comfortably boring distributions, how it always should be
 server_tumbleweed_p1: For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts
 server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
   Project.
-server_tumbleweed_view: View Tumbleweed
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
 server_leap_p2: Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
-server_leap_view: View Leap
 server_kubic_p1: For containerized server workflows
 server_kubic_p2: Multi-purpose Standalone & Kubernetes Container Operating System
   based on openSUSE MicroOS
-server_kubic_view: View Kubic
 server_microos_p1: For single purpose server applications
 server_microos_p2: Designed to host container workloads with automated administration
   & patching
-server_microos_view: View MicroOS
+new_version_available: $distro_name is now available for download
+new_version_testing: $distro_name is now available for download and testing
+view_distro: View $distro_name
+x86_64: Intel or AMD 64-bit desktops, laptops, and servers (x86_64)
+i686: Intel or AMD 32-bit desktops, laptops, and servers (i686)
+aarch64: UEFI Arm 64-bit servers, desktops, laptops and boards (aarch64)
+ppc64le: PowerPC servers, not big-endian (ppc64le)
+s390x: IBM Z and LinuxONE (s390x)

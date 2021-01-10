@@ -23,7 +23,7 @@ permalink: /desktop/
               <h6>{{ locale.desktop_tumbleweed_p1 }}</h6>
               <p>{{ locale.desktop_tumbleweed_p2 }}</p>
             </div>
-            <a href="{{ '/tumbleweed/' | prefix_locale }}" class="btn btn-light">{{ locale.desktop_tumbleweed_view }}</a>
+            <a href="{{ '/tumbleweed/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'Tumbleweed' }}</a>
           </div>
         </div>
       </div>
@@ -40,7 +40,9 @@ permalink: /desktop/
               <h6>{{ locale.desktop_leap_p1 }}</h6>
               <p>{{ locale.desktop_leap_p2 }}</p>
             </div>
-            <a href="{{ '/leap/' | prefix_locale }}" class="btn btn-light">{{ locale.desktop_leap_view }}</a>
+            {% capture distro_name %}Leap {% include leap_release %}{% endcapture %}
+            <a href="{{ '/leap/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.view_distro | replace: '$distro_name', distro_name }}</a>
+            {% include leap_testing_link.html class="btn btn-light" %}
           </div>
         </div>
       </div>

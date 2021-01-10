@@ -1,5 +1,10 @@
 ---
 ---
+{% capture testing %}{% labeltorelease %}testing{% endlabeltorelease %}{% endcapture %}
+
+{% assign testing_type = testing | split: ":" %}
+{% assign testing_version = testing_type[0] %}
+{% assign testing_release = testing_type[1] %}
 <link rel="stylesheet" href="/assets/css/software.css">
 <div class="container text-center py-4">
   <h1 class="display-3">{{ locale.index }}</h1>
@@ -33,8 +38,16 @@
       </a>
       <a href="{{ '/leap/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
         <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-        <h4>Leap</h4>
+        <h4>Leap {% include leap_release %}</h4>
       </a>
+      {% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
+      {% assign testing_version = testing_version | normalize_whitespace %}
+      {% if testing_version != "" %}
+        <a href="{{ '/testing/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
+          <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
+          <h4>Leap {% include leap_testing_release %} <sup>{% include leap_testing_status %}</sup></h4>
+        </a>
+      {% endif %}
       <a href="{{ '/kubic/' | prefix_locale }}" class="col bg-kubic-tint text-white text-center">
         <div class="w-50 m-auto">{% include logos/kubic.svg %}</div>
         <h4>Kubic</h4>

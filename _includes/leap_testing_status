@@ -1,0 +1,4 @@
+{% capture current %}{% labeltorelease %}testing{% endlabeltorelease %}{% endcapture %}
+
+{% assign current_type = current | split: ":" %}
+{{ current_type[1] }}

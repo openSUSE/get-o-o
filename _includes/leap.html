@@ -5,7 +5,7 @@
 {% assign state = currtype[1] %}
 
 {% if version != "" %}
-  {% include distribution.html distro=version state=state %}
+  {% include distribution.html distro=version state=state type=include.type %}
 {% else %}
   <meta http-equiv="refresh" content="0; url={{ '/leap/' | prefix_locale }}" />
   <p><a href="{{ '/leap/' | prefix_locale }}">Redirect</a></p>
