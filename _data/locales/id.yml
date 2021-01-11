@@ -1,1 +1,211 @@
-{}
+site_title: Dapatkan openSUSE
+site_title_short: Dapatkan
+site_description: Pelajari tentang distribusi openSUSE dan unduh secara gratis
+site_copyright: © 2020 kontributor openSUSE
+search: Cari
+translate: Terjemahkan
+source_code: Kode Sumber
+license: Lisensi
+learn_more: Pelajari Lebih Lanjut
+cd_desc: Untuk CD dan stik USB
+dvd_desc: Untuk DVD dan stik USB
+usb_desc: Untuk stik USB
+metalink: Metalink
+pick_mirror: Pilih Cermin
+checksum: Ceksum
+torrent_file: Berkas Torrent
+offline_image: Citra Luring
+offline_desc: "Berisi koleksi besar perangkat lunak untuk penggunaan destop atau peladen.\
+  \ \nCocok untuk pemasangan atau peningkatan.\n"
+network_image: Citra Jaringan
+network_desc: "Unduh sistem pemasangan dan semua paket dari repositori daring.\nCocok\
+  \ untuk pemasangan atau peningkatan.\n"
+kvm_image: KVM dan XEN
+kvm_desc: Untuk digunakan dalam hipervisor KVM atau XEN HVM
+xen_image: XEN
+xen_desc: Untuk digunakan dalam hypervisor XEN PV
+hyperv_image: MS HyperV
+hyperv_desc: Untuk menjalankan mesin virtual di MS HyperV
+vmware_image: VMWare
+vmware_desc: Untuk menjalankan mesin virtual di VMware
+openstack_image: OpenStack-Cloud
+openstack_desc: Untuk menjalankan mesin virtual di OpenStack
+installation_images: Pemasangan
+ports_images: Port
+ports_info: "Port openSUSE Leap untuk arsitektur selain PC dikelola\noleh tim komunitas\
+  \ terpisah, dengan sumber daya terbatas.\n"
+jeos_images: JeOS
+live_images: Live
+gnome_cd: LiveCD GNOME
+kde_cd: LiveCD KDE
+xfce_cd: LiveCD XFCE
+rescue_cd: LiveCD Penyelamatan
+tumbleweed_live_info: "Harap diperhatikan tentang keterbatasan citra live berikut:\n\
+  * Tidak boleh digunakan untuk memasang atau meningkatkan Tumbleweed. Silakan gunakan\
+  \ [media Tumbleweed](/tumbleweed) sebagai gantinya\n* Memiliki paket terbatas dan\
+  \ pemilihan penggerak, jadi tidak dapat dianggap sebagai refleksi yang akurat apakah\
+  \ Tumbleweed akan bekerja pada perangkat keras Anda atau tidak\n"
+kubic_desc: Platform Container as a Service berdasarkan pada Kubernetes di atas openSUSE
+  MicroOS.
+microos_desc: OS berbasis openSUSE Tumbleweed yang menyediakan Pemutakhiran Transaksional
+  (Atomic) pada sistem berkas root btrfs baca-saja
+choosing_media: Memilih Media yang Akan Diunduh
+choosing_media_p1: "DVD/Stik USB biasanya direkomendasikan karena berisi sebagian\
+  \ besar\npaket yang tersedia dalam distribusi dan tidak memerlukan\nkoneksi jaringan\
+  \ selama pemasangan.\n"
+choosing_media_p2: "CD jaringan/Stik USB dianjurkan untuk pengguna yang memiliki\n\
+  keterbatasan bandwidth pada koneksi internet mereka, karena hanya\nakan mengunduh\
+  \ paket yang mereka pilih untuk dipasang, yang \nkemungkinan besar akan sangat signifikan\
+  \ kurang dari 4.7GB.\n"
+documentation: Dokumentasi
+documentation_startup_guide: Panduan Memulai openSUSE
+documentation_release_notes: Catatan Rilis
+documentation_license: Lisensi
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: Dokumentasi Lengkap
+leap_switch: Cara Mudah untuk Beralih ke openSUSE Leap
+leap_switch_p1: "Jika Anda sudah menjalankan openSUSE, Anda bisa meningkatkan dengan\
+  \ mem-boot dari\nDVD/USB dan memilih peningkatan, atau melakukan ‘Peningkatan Daring’\
+  \ dengan beberapa\nperintah.\n"
+leap_switch_instructions: Instruksi Peningkatan Daring.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: Persyaratan Sistem yang Disarankan
+requirements_cpu: Prosesor dua inti 2 Ghz atau lebih bagus
+requirements_mem: Memori sistem 2 GB
+requirements_hd: Lebih dari 40GB ruang diska bebas
+requirements_dvd: Baik drive DVD atau port USB untuk media pemasangan
+requirements_net: Akses internet sangat membantu, dan diperlukan untuk pemasangan
+  Jaringan
+tw_switch: Cara Mudah untuk Beralih ke openSUSE Tumbleweed
+tw_switch_p1: "Jika Anda sudah menjalankan openSUSE, Anda bisa meningkatkan dengan\
+  \ boot dari\nDVD/USB dan memilih peningkatan, atau melakukan ‘Peningkatan Daring’\
+  \ dengan beberapa\nperintah.\n"
+tw_switch_instructions: Instruksi Pemutakhiran.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: Dari versi yang lebih lama atau distro Linux lainnya
+upgrade_table_windows: Dari Windows
+upgrade_table_mac: Dari OS X
+upgrade_table_linux_dvd: Cara membakar DVD pada Linux.
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: Cara membakar DVD pada Windows.
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: Cara membakar DVD pada OS X.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Cara membuat stik USB Bootable pada Linux.
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: Cara membuat stik USB Bootable pada Windows.
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: Cara membuat stik USB Bootable pada OS X.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Verifikasi Unduhan Anda Sebelum Digunakan
+verify_download_p1: "Banyak aplikasi dapat memverifikasi checksum unduhan. Memverifikasi\n\
+  unduhan Anda bisa menjadi penting karena memverifikasi bahwa Anda benar-benar telah\
+  \ mendapatkan\nberkas ISO yang ingin Anda unduh dan bukan beberapa versi yang rusak.\n"
+verify_download_p2: "Untuk setiap ISO, kami menawarkan berkas checksum dengan jumlah\
+  \ SHA256 yang sesuai.\n"
+verify_download_p3: "Untuk keamanan ekstra, Anda dapat menggunakan GPG untuk memverifikasi\
+  \ siapa yang menandatangani berkas .sha256 tersebut.\n"
+verify_download_pubkey: seharusnya
+verify_download_help: Untuk bantuan lebih lanjut tentang memverifikasi unduhan Anda,
+  silakan baca
+verify_download_checksums_help: Bantuan Ceksum
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: Banyak destop, tiga bawaan
+desktops_p1: "Proses kontribusi openSUSE memberdayakan pengembangan destop untuk\n\
+  semua orang, sehingga Anda memiliki pilihan untuk memilih favorit Anda di\nPemasang.\
+  \ Kami secara aktif memiliki tiga lingkungan destop, dan menawarkan\nbahkan lebih\
+  \ dalam tampilan perangkat lunak yang diperluas dalam pemasang.\n"
+installation: Instal seperti yang Anda inginkan
+installation_p1: "Proses Pemasangan openSUSE memberi Anda semua opsi yang\nAnda mungkin\
+  \ akan membutuhkannya. Ingin memasang sistem Anda dengan tetikus dan\npapan tik?\
+  \ Muat pemasang dalam mode grafis. Tidak memiliki tetikus\ndi tangan? Aktifkan klien\
+  \ terminal dan pasang seperti itu. Hanya memiliki\nakses fisik ke mesin? Sambungkan\
+  \ ke pemasang dari jarak jauh dan\nlanjutkan pemasangan. Sesederhana itu.\n"
+points_transparent: Semuanya transparan
+points_transparent_p1: "Dari awal hingga akhir, setiap paket yang masuk ke distribusi\n\
+  memiliki semua sumber dan skrip bangun yang terlihat secara terbuka untuk semua\
+  \ orang\nuntuk melihat. Meragukan sumber? Periksa hanya pada layanan bangun.\n"
+points_free: Perangkat lunak gratis? Pilihan Anda
+points_free_p1: "Paket dalam distribusi dibagi menjadi repositori gratis dan\ntidak\
+  \ gratis. Tidak ingin menggunakan paket non-gratis? Anda dapat dengan mudah\nnonaktifkan\
+  \ repositori yang tidak gratis. Itu pilihanmu, bukan pilihan kita.\n"
+points_welcoming: Menyambut kontribusi
+points_welcoming_p1: "Kami mencoba yang terbaik untuk menyenangkan komunitas, dan\
+  \ kami hanya bisa membuat ini\nterjadi ketika komunitas vokal tentang apa yang mereka\
+  \ butuhkan. Itu sebabnya kami\nmemastikan berkontribusi semudah mungkin.\n"
+snapper: Sistemnya rusak? Tidak masalah lagi
+snapper_p1: "Fitur Sistem Berkas Snapshot membuat sistem berkas Anda tetap terkendali\n\
+  memiliki pencadangan berkelanjutan yang dilakukan secara otomatis saat memasang\n\
+  perangkat lunak dan pemutakhiran. Cukup boot dari snapshot sebelumnya dan bawa\n\
+  sistem Anda ke keadaan kerja dalam hitungan menit.\n"
+software: Mendapatkan perangkat lunak tidak bisa lebih mudah
+software_p1: "Di antara kita, harus melalui setiap situs web untuk mendapatkan semua\n\
+  perangkat lunak yang mungkin Anda butuhkan adalah banyak pekerjaan. Pusat perangkat\
+  \ lunak daring\nmembuat cara ini lebih mudah, dengan menggabungkan perangkat lunak\
+  \ dari sejumlah besar\nsumber di satu tempat.\n"
+software_get: Dapatkan Perangkat Lunak
+transactional: Peladen Transaksional (Transactional Server)
+transactional_p1: "Pemasang sekarang mendukung peran sistem baru Peladen Transaksional,\n\
+  yang merupakan hasil dari upaya openSUSE Kubic. Peran sistem ini memiliki\nfitur\
+  \ sistem pemutakhiran baru yang menerapkan pemutakhiran secara atomik (sebagai\n\
+  operasi tunggal) dan membuatnya mudah untuk kembali jika \ndiperlukan. Fitur-fitur\
+  \ ini didasarkan pada perkakas manajemen paket\nbahwa semua distribusi SUSE dan\
+  \ openSUSE lainnya bergantung. Ini berarti\nbahwa sebagian besar paket RPM yang\
+  \ bekerja dengan peran sistem\ndistribusi openSUSE lain juga bekerja dengan peran\
+  \ sistem\nServer Transaksional.\n"
+yast: YaST, pilihan terbaik untuk pengguna ~~bertenaga~~
+yast_p1: "Salah satu perkakas konfigurasi sistem terbesar membantu Anda, pengguna,\
+  \ untuk\nmengatur setiap aspek sistem Anda. Anda tidak perlu lagi pergi\nmelalui\
+  \ sejumlah besar skrip konfigurasi atau masukkan perintah yang meragukan\nuntuk\
+  \ mendapatkan pengaturan sistem sesuai kebutuhan Anda.\n"
+yast_firewall: Tembok Api
+yast_fonts: Fonta
+yast_hardware: Perangkat Keras
+yast_partitioner: Pemartisi
+yast_printer: Pencetak
+yast_scanner: Pemindai
+yast_sound: Suara
+yast_software: Perangkat Lunak
+zypper: Zypper, manajer paket favorit baru Anda
+zypper_p1: "Ini cepat dan mudah dipelajari. Menyediakan zypper-apt, sebuah lapisan\n\
+  kompatibilitas untuk penggunaan dengan perintah apt dan apt-get. Hal ini didasarkan\
+  \ pada libsolv,\nyang menjamin kecepatan dan penyelesaian\ndependensi. Antarmukanya\
+  \ jelas dan berwarna tepat, untuk\nkemudahan membaca. Ini sempurna, apa lagi yang\
+  \ bisa dikatakan?\n"
+index: Distribusi openSUSE
+index_p1: Untuk desktop, peladen, dan segala sesuatu di antaranya
+index_desktop: Destop
+index_desktop_p1: Pilihan distribusi untuk penggunaan destop
+index_server: Peladen
+index_server_p1: Pemilihan distribusi untuk penggunaan peladen
+index_full: Atau langsung masuk ke halaman unduhan untuk distribusi
+desktop: Distribusi destop openSUSE
+desktop_p1: "Dua distribusi untuk semua (sekarang dalam warna hijau!)\n"
+desktop_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, dan Penggemar Linux/FOSS
+desktop_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh Proyek
+  openSUSE.
+desktop_leap_p1: Untuk Sysadmin, Pengembang Perusahaan, dan Pengguna Destop 'Biasa'
+desktop_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan inovasi
+  yang dikembangkan komunitas.
+server: Distribusi Peladen openSUSE
+server_p1: "Empat distribusi yang membosankan dengan nyaman, bagaimana seharusnya\n"
+server_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, dan Penggemar Linux/FOSS
+server_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh Proyek
+  openSUSE.
+server_leap_p1: Untuk Sysadmins, Pengembang Perusahaan, dan Pengguna peladen 'Reguler'
+server_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan inovasi
+  yang dikembangkan komunitas.
+server_kubic_p1: Untuk alur kerja peladen kontainer
+server_kubic_p2: Sistem Operasi Kontainer Mandiri & Kubernetes multi-tujuan berdasarkan
+  openSUSE MicroOS
+server_microos_p1: Untuk aplikasi peladen tujuan tunggal
+server_microos_p2: Dirancang untuk meng-host beban kerja kontainer dengan administrasi
+  otomatis & penambalan
+new_version_available: $distro_name sekarang tersedia untuk diunduh
+new_version_testing: $distro_name sekarang tersedia untuk diunduh dan diuji
+view_distro: Lihat $distro_name
+x86_64: Destop, laptop, dan peladen Intel atau AMD 64-bit (x86_64)
+i686: Destop, laptop, dan peladen Intel atau AMD 32-bit (i686)
+aarch64: Peladen, desktop, laptop dan papan UEFI Arm 64-bit (aarch64)
+ppc64le: Peladen PowerPC, bukan big-endian (ppc64le)
+s390x: IBM Z dan LinuxONE (s390x)
