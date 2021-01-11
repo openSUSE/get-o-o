@@ -166,3 +166,11 @@ server_kubic_view: Kubic の表示
 server_microos_p1: 単一用途のサーバアプリケーション向け
 server_microos_p2: 自動的な管理およびパッチ適用を使用する、コンテナワークロード向けに設計されたディストリビューションです
 server_microos_view: MicroOS の表示
+new_version_available: $distro_name をダウンロードできます
+new_version_testing: $distro_name をテスト用にダウンロードできます
+view_distro: $distro_name の表示
+x86_64: Intel/AMD 64 ビットプロセッサ (x86_64, デスクトップ／ラップトップ／サーバ)
+i686: Intel/AMD 32 ビットプロセッサ (i686, デスクトップ／ラップトップ／サーバ)
+aarch64: UEFI ARM 64 ビットプロセッサ (aarch64, サーバ／デスクトップ／ラップトップ／シングルボードコンピュータ)
+ppc64le: PowerPC プロセッサ (ppc64le, 非ビッグエンディアンサーバ)
+s390x: IBM Z および LinuxONE (s390x)
