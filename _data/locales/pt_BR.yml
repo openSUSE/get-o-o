@@ -210,3 +210,11 @@ server_microos_p1: Para aplicativos de servidor de propósito único
 server_microos_p2: Projetado para hospedar cargas de trabalho de contêiner com administração
   automatizada e patching
 server_microos_view: Ver MicroOS
+new_version_available: $distro_name está disponível para baixar
+new_version_testing: $distro_name está disponível para baixar e testar
+view_distro: Ver $distro_name
+x86_64: PCs, laptops e servidores Intel ou AMD 64-bits (x86_64)
+i686: PCs, laptops e servidores Intel ou AMD 32-bits (i686)
+aarch64: PCs, laptops e placas UEFI ARM 64-bits (aarch64)
+ppc64le: Servidores PowerPC, não big-endian (ppc64le)
+s390x: IBM Z e LinuxONE (s390x)
