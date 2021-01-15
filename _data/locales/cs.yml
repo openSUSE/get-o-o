@@ -1,1 +1,78 @@
-{}
+site_title: Získat openSUSE
+site_title_short: Získat
+site_description: Zjistěte více o distribucích openSUSE a stáhněte si je zdarma
+site_copyright: © 2020 přispěvatelé openSUSE
+search: Hledat
+translate: Přeložit
+source_code: Zdrojový kód
+license: Licence
+learn_more: Zjistit více
+cd_desc: Pro CD a USB paměť
+dvd_desc: Pro DVD a USB paměť
+usb_desc: Pro USB paměť
+metalink: Metalink
+pick_mirror: Zvolit zrcadlo
+checksum: Kontrolní součet
+torrent_file: Soubor Torrent
+offline_image: Offline obraz
+offline_desc: "Obsahuje velkou sbírku softwaru pro použití na ploše nebo serveru.\n\
+  Vhodné pro instalaci nebo upgrade.\n"
+network_image: Síťový obraz
+network_desc: "Stáhne instalační systém a všechny balíčky z online\núložiště. Vhodné\
+  \ pro instalaci nebo upgrade.\n"
+kvm_image: KVM a XEN
+kvm_desc: Pro použití v hypervizorech KVM nebo XEN HVM
+xen_image: XEN
+xen_desc: Pro použití v hypervizorech XEN PV
+hyperv_image: MS HyperV
+hyperv_desc: Pro běh virtuálních strojů na MS HyperV
+vmware_image: VMware
+vmware_desc: Pro běh virtuálních strojů ve VMware
+openstack_image: OpenStack-Cloud
+openstack_desc: Pro běh virtuálních strojů v OpenStack
+installation_images: Instalace
+ports_images: Přenosy
+ports_info: "Přenosy openSUSE Leap do jiných architektur než PC jsou\nudržovány samostatnými\
+  \ komunitními týmy s omezenými zdroji.\n"
+jeos_images: JeOS
+live_images: Live (živé)
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+rescue_cd: Rescue (záchranný) LiveCD
+tumbleweed_live_info: "Uvědomte si prosím následující omezení živých obrazů:\n* Neměly\
+  \ by se používat k instalaci nebo upgradu Tumbleweed. Místo toho použijte [Tumbleweed\
+  \ médium](/tumbleweed)\n* Mají omezený výběr balíčků a ovladačů, takže je nelze\
+  \ považovat za přesný odraz toho, zda Tumbleweed bude na vašem\nhardwaru fungovat\
+  \ nebo ne\n"
+kubic_desc: Kontejner jako platforma služeb založený na Kubernetes nad openSUSE MicroOS.
+microos_desc: OS založený na openSUSE Tumbleweed poskytující transakční (nedělitelné)
+  aktualizace na kořenovém souborovém systému btrfs jen pro čtení
+choosing_media: Výběr média ke stažení
+choosing_media_p1: "Typicky se doporučuje DVD / USB Stick, protože obsahuje většinu\n\
+  balíčků dostupných v distribuci a nevyžaduje při instalaci síťové připojení.\n"
+choosing_media_p2: "Síťové CD/USB paměť se doporučuje uživatelům, kteří mají omezenou\n\
+  šířku pásma připojení k internetu, protože pouze stáhne balíčky,\nkteré se rozhodnou\
+  \ nainstalovat, což pravděpodobně bude výrazně\nméně než 4,7 GB.\n"
+documentation: Dokumentace
+documentation_startup_guide: Průvodce spuštěním openSUSE
+documentation_release_notes: Poznámky k vydání
+documentation_license: Licence
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: Úplná dokumentace
+leap_switch: Snadné způsoby přechodu na openSUSE Leap
+leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n\
+  a výběrem upgrade, nebo proveďte 'Online upgrade\" několika málo příkazy.\n"
+leap_switch_instructions: Pokyny k upgradu online.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: Doporučené požadavky na systém
+requirements_cpu: 2 GHz dvoujádrový procesor nebo lepší
+requirements_mem: 2 GB systémové paměti
+requirements_hd: Více než 40 GB volného místa na pevném disku
+requirements_dvd: Jednotka DVD nebo USB port pro instalační médium
+requirements_net: Přístup k internetu je užitečný a vyžaduje jej i síťový instalátor
+tw_switch: Snadné způsoby přechodu na openSUSE Tumbleweed
+tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n\
+  a výběrem upgrade, nebo proveďte „online upgrade“ několika málo příkazy.\n"
+tw_switch_instructions: Pokyny k upgradu.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
