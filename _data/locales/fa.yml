@@ -32,4 +32,22 @@ vmware_desc: برای اجرای ماشین‌های مجازی در VMware
 openstack_image: OpenStack-Cloud
 openstack_desc: برای اجرای ماشین‌های مجازی در OpenStack
 installation_images: نصب
-ports_images: درگاه‌ها
+ports_images: پورت‌ها
+ports_info: "پورت‌هایی از openSUSE Leap به معماری‌هایی غیر از رایانه‌ی شخصی\nتوسط\
+  \  تیم‌های جامعه جداگانه، با منابع محدود نگهداری می‌شود.\n"
+jeos_images: JeOS
+live_images: زنده
+gnome_cd: دیسک زنده‌ی Gnome
+kde_cd: دیسک زنده‌ی KDE
+xfce_cd: دیسک زنده‌ی Xfce
+rescue_cd: دیسک زنده‌ی نجات
+tumbleweed_live_info: "لطفا از محدودیت‌های ذیل برای ایمیج‌ها زنده آگاه باشید:\n* انها\
+  \ نباید برای نصب و یا ارتقای Tumbleweed استفاده شوند. لطفا از [رسانه‌ی Tumbleweed](/tumbleweed)\
+  \ به جای آن استفاده کنید.\n* آنها انتخاب‌های محدودی برای بسته‌ها و راه‌اندازها دارند،\
+  \ لذا نمی‌توانند برای بازتاب دقیق برای اینکه آیا Tumbleweed بر روی سخت‌افزار شما\
+  \ کار میکند یا نه، باشند.\n"
+kubic_desc: پلتفرم Container as a Service بر پایه‌ی Kubernetes بر روی openSUSe MicroOS
+  است.
+microos_desc: سیستم‌عامل بر پایه‌ی openSUSE Tumbleweed بروزرسانی‌های معاملاتی (اتمیک)
+  بر روی سیستم فایل ریشه‌ی btrfs فقط-خواندنی را مهیا می‌کند
+choosing_media: انتخاب رسانه برای دریافت
