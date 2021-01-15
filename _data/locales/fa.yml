@@ -19,3 +19,17 @@ offline_image: ایمیج آفلاین
 offline_desc: "شامل یک مجموعه‌ی بزرگ از نرم‌افزار برای استفاده‌ی دسکتاپ یا سرور است.\n\
   مناسب برای نصب یا ارتقا.\n"
 network_image: ایمیج شبکه
+network_desc: "سیستم نصب و تمامی بسته‌ها را از مخازن برخط\nدریافت می‌کند. مناسب برای\
+  \ نصب یا بروزرسانی.\n"
+kvm_image: KVM و XEN
+kvm_desc: برای استفاده در هایپروایزر KVM یا XEN HVM
+xen_image: XEN
+xen_desc: برای استفاده در هایپروایزهای XEN PV
+hyperv_image: MS HyperV
+hyperv_desc: برای اجرای ماشین‌های مجازی در MS HyperV
+vmware_image: VMware
+vmware_desc: برای اجرای ماشین‌های مجازی در VMware
+openstack_image: OpenStack-Cloud
+openstack_desc: برای اجرای ماشین‌های مجازی در OpenStack
+installation_images: نصب
+ports_images: درگاه‌ها
