@@ -76,3 +76,126 @@ tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštění
   a výběrem upgrade, nebo proveďte „online upgrade“ několika málo příkazy.\n"
 tw_switch_instructions: Pokyny k upgradu.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: Ze starší verze nebo jiné distribuce Linuxu
+upgrade_table_windows: Z Windows
+upgrade_table_mac: Z MacOS X
+upgrade_table_linux_dvd: Jak vypálit DVD na Linuxu.
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: Jak vypálit DVD na Windows.
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: Jak vypálit DVD na MacOS X.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Jak vytvořit zaváděcí USB paměť v systému Linux.
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: Jak vytvořit zaváděcí USB paměť v systému Windows.
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: Jak vytvořit zaváděcí USB paměť v OS X.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Před použitím ověřte ssprávnost staženého obrazu
+verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n\
+  si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a správný\
+  \ soubor ISO, který jste chtěli stáhnout.\n"
+verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256.\n"
+verify_download_p3: "Pro větší zabezpečení můžete pomocí GPG ověřit, kdo tyto soubory\
+  \ .sha256 podepsal.\n"
+verify_download_pubkey: Mělo by to být
+verify_download_help: Další pomoc s ověřením správnosti stahování viz
+verify_download_checksums_help: Nápověda pro kontrolní součty
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: Mnoho stolních počítačů, ve výchozím nastavení tři
+desktops_p1: "Příspěvkový systém openSUSE umožňuje vývoj desktopových systémů\npro\
+  \ každého, takže si v instalátoru můžete vybrat svůj oblíbený. Aktivně\nnabízíme\
+  \ tři desktopová prostředí a ještě více v rozšířeném zobrazení\nsoftwaru v instalátoru.\n"
+installation: Instalujte ho, jak ho chcete mít
+installation_p1: "Proces instalace openSUSE Vám poskytuje všechny možnosti, které\n\
+  byste mohli potřebovat. Chcete nainstalovat systém pomocí myši a\nklávesnice? Načtěte\
+  \ instalační program v grafickém režimu. Nemáte myš\npo ruce? Aktivujte terminálový\
+  \ klient a instalujte systém pomocí příkazů.\nNemáte fyzický přístup ke stroji?\
+  \ Připojte se k instalačnímu programu\nna dálku a instalujte systém vzdáleně. Tak\
+  \ jednoduché to je.\n"
+points_transparent: Vše je transparentní
+points_transparent_p1: "Od začátku do konce: každý balíček, který jde do distribucí,\
+  \ má\nvšechny své zdroje a sestavovací skripty otevřeně viditelné všem.\nPochybujete\
+  \ o zdroji? Stačí zkontrolovat službu sestavení.\n"
+points_free: Svobodný software? Vaše volba
+points_free_p1: "Balíčky v distribucích jsou ukládány buď do úložišť bezplatných,\n\
+  nebo nesvobodných balíčků. Nechcete použít nesvobodné balíčky?\nMůžete snadno deaktivovat\
+  \ nesvobodné úložiště. Je to Vaše volba.\n"
+points_welcoming: Vítáme příspěvky
+points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,\
+  \ jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n\
+  bylo co nejjednodušší.\n"
+snapper: Systém se poškodil? Už žádný problém
+snapper_p1: "Funkce Snímky souborového systému udržuje váš souborový systém\npod kontrolou\
+  \ automatickým průběžným zálohováním při instalaci\nsoftwaru a aktualizacích. Stačí\
+  \ spustit systém z dřívějšího snímku\na uvést váš systém do funkčního stavu během\
+  \ několika minut.\n"
+software: Získání softwaru nemůže být snazší
+software_p1: "Mezi námi, muset projít všechny webové stránky a získat všechen\nsoftware,\
+  \ který možná budete potřebovat, dá hodně práce.\nSoftwarové centrum online velmi\
+  \ usnadňuje tento způsob\nzařazením softwaru z mnoha zdrojů na jediné místo.\n"
+software_get: Získejte software
+transactional: Transakční server
+transactional_p1: "Instalační program nyní podporuje novou systémovou roli Transakční\n\
+  server, která je výsledkem úsilí openSUSE Kubic. Tato role představuje\nnový aktualizační\
+  \ systém, který pracuje atomicky (jako jediná operace)\na usnadňuje vrácení změn\
+  \ v případě neúspěchu. Funkce jsou založeny na\nnástrojích správy balíčků, na které\
+  \ se spoléhají všechny ostatní distribuce\nSUSE a openSUSE. To znamená, že drtivá\
+  \ většina RPM balíčků, které\nfungují s jiným systémem rolí distribucí openSUSE,\
+  \ také pracují se\nsystémovou rolí Transakční server.\n"
+yast: YaST, nejlepší volba pro pokročilého uživatele ~~power user~~
+yast_p1: "Jeden z nejlepších nástrojů pro konfiguraci systému vám, uživateli,\npomůže\
+  \ nastavit každou vlastnost vašeho systému. Už nemusíte\nprocházet množstvím konfiguračních\
+  \ skriptů nebo zadávat pochybné\npříkazy, abyste nastavili systém, jak potřebujete.\n"
+yast_firewall: Firewall
+yast_fonts: Fonty
+yast_hardware: Hardware
+yast_partitioner: Partitioner (program pro práci s oddíly úložiště)
+yast_printer: Tiskárna
+yast_scanner: Skener
+yast_sound: Zvuk
+yast_software: Software
+zypper: Zypper, váš nový a oblíbený správce balíčků
+zypper_p1: "Je rychlé a snadné se ho naučit. Poskytuje zypper-apt, kompatibilní\n\
+  vrstvu pro použití s příkazy apt a apt-get. Je založen na libsolv,\ncož zaručuje\
+  \ jak rychlost, tak reprodukovatelné řešení závislostí.\nRozhraní je jasné a vhodně\
+  \ barevné, například pro snadné čtení.\nJe perfektní, co dodat?\n"
+index: Distribuce openSUSE
+index_p1: Pro stolní počítač, server a vše mezi tím
+index_desktop: Stolní počítač
+index_desktop_p1: Výběr distribucí pro použití na stolním PC
+index_server: Server
+index_server_p1: Výběr distribucí pro použití na serveru
+index_full: Nebo přejděte přímo na stránky pro stahování distribucí
+desktop: Distribuce openSUSE pro stolní PC
+desktop_p1: "Dvě distribuce vládnou všem (nyní zeleně!)\n"
+desktop_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE a nadšence pro Linux/FOSS
+desktop_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými projektem
+  openSUSE.
+desktop_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele stolních
+  PC
+desktop_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství i komunitou
+  vyvinutých inovací.
+server: Distribuce Serveru openSUSE
+server_p1: "Čtyři pohodlně nudné distribuce, jak by to vždy mělo být\n"
+server_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE a nadšence pro Linux/FOSS
+server_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými projektem
+  openSUSE.
+server_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele serverů
+server_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství a komunitou
+  vyvinutých inovací.
+server_kubic_p1: Pro (týmové) pracovní postupy na kontejnerovém serveru
+server_kubic_p2: Víceúčelový samostatný a kontejnerový operační systém Kubernetes
+  založený na openSUSE MicroOS
+server_microos_p1: Pro jednoúčelové serverové aplikace
+server_microos_p2: Navrženo pro hostování kontejnerovaných úloh s automatizovanou
+  správou a opravou
+new_version_available: $distro_name je nyní k dispozici ke stažení
+new_version_testing: $distro_name je nyní k dispozici ke stažení a testování
+view_distro: Zobrazit $distro_name
+x86_64: 64bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD (x86_64)
+i686: 32bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD (i686)
+aarch64: 64bitové servery, stolní počítače, notebooky a jednodeskové počítače UEFI
+  Arm (aarch64)
+ppc64le: Servery PowerPC, nepracující v uložení big-endian (ppc64le)
+s390x: IBM Z a LinuxONE (s390x)
