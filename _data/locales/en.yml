@@ -196,7 +196,7 @@ index_full: Or go straight to the download pages for the distributions
 desktop: openSUSE Desktop Distributions
 desktop_p1: |
   The two distributions to rule them all (now in green!)
-desktop_tumbleweed_p1: For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts
+desktop_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS Enthusiasts
 desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
   Project.
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
@@ -205,7 +205,7 @@ desktop_leap_p2: Regular release with the benefits of both enterprise-grade engi
 server: openSUSE Server Distributions
 server_p1: |
   Four comfortably boring distributions, how it always should be
-server_tumbleweed_p1: For Developers, openSUSE Contributors, and Linux/FOSS Enthusiasts
+server_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS Enthusiasts
 server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
   Project.
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
