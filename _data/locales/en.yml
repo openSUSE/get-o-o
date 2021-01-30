@@ -150,7 +150,7 @@ snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\
 software: Getting software couldn't be easier
 software_p1: |
   Between us, having to go through every website to get all the
-  software you might need is a lot of work. Online software center
+  software you might need is a lot of work. The online software center
   makes this way easier, by incorporating software from a plethora of
   sources in one place.
 software_get: Get Software
