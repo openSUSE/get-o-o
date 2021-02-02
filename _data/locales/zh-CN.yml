@@ -9,3 +9,149 @@ translate: 翻译
 source_code: 源码
 license: 许可
 learn_more: 了解更多
+cd_desc: 用于 CD 和 USB 闪存盘
+dvd_desc: 用于 DVD 和 USB 闪存盘
+usb_desc: 用于 USB 闪存盘
+metalink: Metalink
+pick_mirror: 选择镜像站
+checksum: 校验码
+torrent_file: 种子文件
+offline_image: 离线映像
+offline_desc: "包含桌面或服务器使用的众多软件。\n适用于安装或升级。\n"
+network_image: 网络映像
+network_desc: "从在线软件源下载安装系统和全部软件包。\n适用于安装或升级。\n"
+kvm_image: KVM 和 XEN
+kvm_desc: 适用于 KVM 和 XEN HVM 虚拟机监控程序
+xen_image: XEN
+xen_desc: 适用于 XEN PV 虚拟机监控程序
+hyperv_image: 微软 HyperV
+hyperv_desc: 适用于运行在微软 HyperV 上的虚拟机
+vmware_image: VMware
+vmware_desc: 适用于运行在 VMware 内的虚拟机
+openstack_image: OpenStack 云
+openstack_desc: 适用于运行在 OpenStack 内的虚拟机
+installation_images: 安装
+ports_images: 移植
+ports_info: "openSUSE 其他 PC 外的架构移植由单独的社区团队维护，资源有限。\n"
+jeos_images: JeOS
+live_images: 自生
+gnome_cd: GNOME 体验 CD
+kde_cd: KDE 体验 CD
+xfce_cd: Xfce 体验 CD
+rescue_cd: 救援自生 CD
+tumbleweed_live_info: "请注意自生映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed\
+  \ media](/tumbleweed)\n* 它们的软件包和驱动选择都有限，因此不能认为它能够准确反映 Tumbleweed 在你的硬件上能否运行\n"
+kubic_desc: 容器即服务平台，基于 openSUSE MicroOS 上的 Kubernetes。
+microos_desc: 基于 openSUSE Tumbleweed 的系统，提供在只读 btrfs 根文件系统上的事务性（原子）更新
+choosing_media: 选择要下载的媒体
+choosing_media_p1: "通常推荐使用 DVD/U 盘，因为它包含最多发行版中的可用软件包并且在安装\n过程中不需要网络链接。\n"
+choosing_media_p2: "推荐互联网连接带宽受限的用户使用 CD/U 盘，因为它只下载他们选择安装的\n软件包，大小可能远远小于 4.7GB。\n"
+documentation: 文档
+documentation_startup_guide: openSUSE 入门指南
+documentation_release_notes: 发行注记
+documentation_license: 授权许可
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: 完整文档
+leap_switch: 切换至 openSUSE Leap 的简单方法
+leap_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
+leap_switch_instructions: 在线升级说明。
+leap_switch_instructions_link: https://zh.opensuse.org/SDB:系统升级
+requirements: 推荐的系统需求
+requirements_cpu: 2 Ghz 双核或更好的处理器
+requirements_mem: 2 GB 系统内存
+requirements_hd: 超过 40 GB 的可用硬盘空间
+requirements_dvd: 用于安装媒介的 DVD 驱动器或 USB 端口
+requirements_net: 互联网接入有所帮助，同时对于“网络安装”是必需的
+tw_switch: 切换至 openSUSE Tumbleweed 的简单方法
+tw_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
+tw_switch_instructions: 升级说明。
+tw_switch_instructions_link: https://zh.opensuse.org/openSUSE:升级_Tumbleweed
+upgrade_table_linux: 从更旧的版本或其他 Linux 发行版
+upgrade_table_windows: 从 Windows
+upgrade_table_mac: 从 OS X
+upgrade_table_linux_dvd: 如何在 Linux 上烧录 DVD。
+upgrade_table_linux_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8_Linux_2
+upgrade_table_windows_dvd: 如何在 WIndows 上烧录 DVD。
+upgrade_table_windows_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E5.BE.AE.E8.BD.AF.E8.A7.86.E7.AA.97_2
+upgrade_table_mac_dvd: 如何在 OS X 上烧录 DVD。
+upgrade_table_mac_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E8.8B.B9.E6.9E.9C_MacOS_X.EF.BC.8810.3_.E5.8F.8A.E4.BB.A5.E4.B8.8A.EF.BC.89
+upgrade_table_linux_usb: 如何在 Linux 上创建可启动的 U 盘。
+upgrade_table_linux_usb_link: https://zh.opensuse.org/SDB:Live_USB_U盘安装
+upgrade_table_windows_usb: 如何在 Windows 上创建可启动的 U 盘。
+upgrade_table_windows_usb_link: https://zh.opensuse.org/SDB:使用_Windows_创建一个_Live_U_盘
+upgrade_table__mac_usb: 如何在 OS X 上创建可启动的 U 盘。
+upgrade_table__mac_usb_link: https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建一个_Live_U_盘
+verify_download: 请在使用前验证你下载的文件
+verify_download_p1: "许多程序都可以验证下载文件的校验码。验证你下载的文件挺重要的，\n因为它可以验证你是否真的撷取到了你想要下载的 ISO 文件而不是\n\
+  一些损坏的版本。\n"
+verify_download_p2: "针对每个 ISO，我们都提供了一个带有相应 SHA256 和的校验码文件。\n"
+verify_download_p3: "出于额外的安全考虑，你可以使用 GPG 验证谁签发了这些 .sha256 文件。\n"
+verify_download_pubkey: 它应为
+verify_download_help: 更多验证下载的帮助请参阅
+verify_download_checksums_help: 校验码帮助
+verify_download_checksums_help_link: https://zh.opensuse.org/SDB:下载帮助#.E6.A0.A1.E9.AA.8C.E5.93.88.E5.B8.8C.E5.80.BC
+desktops: 各式桌面，首推其三
+desktops_p1: "openSUSE 的贡献流程允许每个人参与进桌面开发，所以你可以在安装程序中\n挑选你最喜欢的桌面环境。我们在安装程序中摆上了三个主要的桌面环境，\n\
+  并在展开的软件视图中提供更多选择。\n"
+installation: 安装方式，随心所欲
+installation_p1: "openSUSE 安装过程为你提供了所有可能需要的选项。想用鼠标和键盘安装\n你的系统？以图形模式加载安装程序吧。手边没有鼠标？启用终端模式来\n\
+  完成安装。只能接触到机器而没有安装媒介？远程连接到安装程序并继续\n安装。就是这么简单。\n"
+points_transparent: 全部透明
+points_transparent_p1: "从开始到完成，每一个进入发行版的软件包都公开它的源码和构建脚本，\n所有人都可以查看。对源码有疑虑吗？只需要到构建服务上检查即可。\n"
+points_free: 自由软件？你的选择
+points_free_p1: "发行版里的软件包分在自由和非自由仓库。如果不想使用非自由软件，\n你可以轻松地禁用掉非自由仓库。选择由你。\n"
+points_welcoming: 欢迎贡献
+points_welcoming_p1: "我们会尽力取悦社区，只有社区尽情表达需求，我们才能继续这一项目。\n这就是为什么我们要确保贡献尽可能的容易。\n"
+snapper: 系统损坏？不再难解
+snapper_p1: "文件系统快照功能通过在安装软件和更新时自动执行连续备份，确保文件\n系统可控。只需从之前的快照引导，几分钟内就可以使系统进入工作状态。\n"
+software: 软件获取，简单便捷
+software_p1: "对于我们每一个人，访问每个网站来获取全部需要的软件都是件很\n麻烦的工作。而有了在线软件中心，能够将众多来源的软件整合到\n一块，事情就变得容易多了。\n"
+software_get: 获取软件
+transactional: 事务性服务器
+transactional_p1: "安装程序现在支持新的系统角色——事务性服务器，这是 openSUSE Kubic\n努力的结果。这个系统角色搭载新的更新系统，（当作单个操作）原子化\n\
+  地应用更新，并使其在需要时易于还原。这些功能基于所有其他 SUSE 和\nopenSUSE 发行版都依赖的软件包管理工具。这表示 openSUSE 发行版的其\n\
+  他系统角色上的绝大多数 RPM 软件包，都能在事务性服务器上工作。\n"
+yast: YaST，~~超级~~用户的最佳选择
+yast_p1: "最棒的系统配置工具之一，可以帮助作为用户的你，设置系统的方方面面。\n你不用再执行过多的配置脚本或者输入可疑的命令，来设置系统成为你需\n要的样子。\n"
+yast_firewall: 防火墙
+yast_fonts: 字体
+yast_hardware: 硬件
+yast_partitioner: 磁盘分区
+yast_printer: 打印机
+yast_scanner: 扫描仪
+yast_sound: 声音
+yast_software: 软件
+zypper: Zypper，你的包管理器新宠
+zypper_p1: "它快速且易学。提供 zypper-apt，用于 apt 和 apt-get 命令的兼容层。\n基于 libsolv，同时保证依赖关系解决的速度和可重复性。\n\
+  接口清晰，颜色适当，便于阅读。这么完美，还能用什么形容？\n"
+index: openSUSE 发行版
+index_p1: 适用于桌机、服务器和介于两者之间的所有设备
+index_desktop: 桌面
+index_desktop_p1: 选择桌面使用的发行版
+index_server: 服务器
+index_server_p1: 选择服务器使用的发行版
+index_full: 或者直接进入发行版的下载页
+desktop: openSUSE 桌面发行版
+desktop_p1: "双发行版，满足一切（绿起来！）\n"
+desktop_tumbleweed_p1: 适用于开发者、openSUSE 共享者和 Linux/FOSS 发烧友
+desktop_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
+desktop_leap_p1: 适用于系统管理员、企业开发者和“常规”桌面用户
+desktop_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
+server: openSUSE 服务器发行版
+server_p1: "四种发行版，舒适且平常\n"
+server_tumbleweed_p1: 适用于开发者、openSUSE 共享者和 Linux/FOSS 发烧友
+server_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
+server_leap_p1: 适用于系统管理员、企业开发者和“常规”服务器用户
+server_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
+server_kubic_p1: 适用于容器化服务器工作流程
+server_kubic_p2: 基于 openSUSE MicroOS 的多用途独立以及 Kubernetes 容器操作系统
+server_microos_p1: 适用于单用途服务器应用程序
+server_microos_p2: 设计为通过自动管理和修补来托管容器工作负载
+new_version_available: $distro_name 已经可以下载
+new_version_testing: $distro_name 已经可以下载和测试
+view_distro: 查看 $distro_name
+x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（i686）
+i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
+aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
+ppc64le: PowerPC 服务器，非大端（ppc64le）
+s390x: IBM Z 和 LinuxONE（s390x）
