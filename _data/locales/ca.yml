@@ -141,9 +141,9 @@ snapper_p1: "La funció d’instantànies del sistema de fitxers manté el siste
   i torneu el sistema a un estat de funcionament en qüestió de minuts.\n"
 software: Obtenir programari no podria ser més fàcil
 software_p1: "Entre nosaltres, haver de passar per cada lloc web per obtenir tot el\n\
-  el programari que necessiteu és molta feina. El Centre de programari\nen línia ho\
-  \ fa més fàcil ja que incorpora programari d'una gran quantitat\nde fonts en un\
-  \ mateix lloc.\n"
+  el programari que es necessita és molta feina. El Centre de programari\nen línia\
+  \ ho fa més fàcil ja que incorpora programari d'una gran quantitat\nde fonts en\
+  \ un mateix lloc.\n"
 software_get: Obtingueu programari
 transactional: Servidor transaccional
 transactional_p1: "L’instal·lador ara admet un rol de sistema nou de Servidor transaccional,\n\
@@ -181,8 +181,8 @@ index_server_p1: Selecció de distribucions per a ús de servidor
 index_full: O bé aneu directament a les pàgines de descàrrega de les distribucions
 desktop: Distribucions d'escriptori d'openSUSE
 desktop_p1: "Les dues distribucions per governar-les totes (ara en verd!)\n"
-desktop_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE i entusiastes
-  de Linux / FOSS
+desktop_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE, jugadors
+  i entusiastes de Linux / FOSS
 desktop_tumbleweed_p2: Versió contínua amb els darrers paquets proporcionats pel Projecte
   openSUSE.
 desktop_tumbleweed_view: Vegeu el Tumbleweed
@@ -193,8 +193,8 @@ desktop_leap_p2: Versió regular amb els avantatges de l'enginyeria de nivell em
 desktop_leap_view: Vegeu el Leap
 server: Distribucions de servidor d'openSUSE
 server_p1: "Quatre distribucions còmodament avorrides, com hauria de ser sempre\n"
-server_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE i entusiastes
-  de Linux / FOSS
+server_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE, jugadors
+  i entusiastes de Linux / FOSS
 server_tumbleweed_p2: Versió contínua amb els darrers paquets proporcionats pel Projecte
   openSUSE.
 server_tumbleweed_view: Vegeu el Tumbleweed
