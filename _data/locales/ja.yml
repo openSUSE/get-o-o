@@ -146,7 +146,7 @@ index_server_p1: サーバ用途向けのディストリビューションの選
 index_full: ディストリビューションの直接選択
 desktop: openSUSE デスクトップディストリビューション
 desktop_p1: "2 種類のディストリビューションから選んでください\n"
-desktop_tumbleweed_p1: 開発者, openSUSE 貢献者, Linux/FOSS 愛好家向け
+desktop_tumbleweed_p1: 開発者, openSUSE 貢献者, ゲーマー, Linux/FOSS 愛好家向け
 desktop_tumbleweed_p2: ローリングリリースモデルを採用したディストリビューションで、 openSUSE プロジェクトが提供する最新のパッケージをお使いいただけます。
 desktop_tumbleweed_view: Tumbleweed の表示
 desktop_leap_p1: システム管理者, 企業内開発者, '一般的な' デスクトップユーザ向け
@@ -154,7 +154,7 @@ desktop_leap_p2: 定期リリースモデルを採用したディストリビュ
 desktop_leap_view: Leap の表示
 server: openSUSE サーバディストリビューション
 server_p1: "4 種類の快適なディストリビューションから選択してください\n"
-server_tumbleweed_p1: 開発者, openSUSE 貢献者, Linux/FOSS 愛好家向け
+server_tumbleweed_p1: 開発者, openSUSE 貢献者, ゲーマー, Linux/FOSS 愛好家向け
 server_tumbleweed_p2: ローリングリリースモデルを採用したディストリビューションで、 openSUSE プロジェクトが提供する最新のパッケージをお使いいただけます。
 server_tumbleweed_view: Tumbleweed の表示
 server_leap_p1: システム管理者, 企業内開発者, '一般的な' サーバユーザ向け
