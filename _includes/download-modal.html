@@ -1,0 +1,61 @@
+<div class="modal fade" id="downloadModal" tabindex="-1" role="dialog" aria-labelledby="downloadModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="downloadModalLabel">{{ locale.alternative_downloads }}</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="accordion" id="accordion">
+        <div class="list-group list-group-flush">
+        {% for tab in distro.downloads %}
+          <div class="list-group-item">
+            <a class="d-flex align-items-center justify-content-between text-decoration-none" data-toggle="collapse" href="#" data-target="#{{ tab.name }}" aria-controls="{{ tab.name }}">
+              <h5 class="m-0 font-weight-bold text-dark">{{ locale[tab.name] }}</h5>
+              <span>
+            {% for arch in tab.arches %}
+              <span class="badge badge-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ arch.name }}</span>
+            {% endfor %}
+              </span>
+            </a>
+          </div>
+          <div id="{{ tab.name }}" class="collapse{% if forloop.first == true %} show{% endif %}" data-parent="#accordion">
+            <div class="card-body border-bottom">
+            {% if tab.info %}
+              <div class="alert alert-{{ distro.bg-color }}">
+                {{ locale[tab.info] | markdownify }}
+              </div>
+            {% endif %}
+            {% for arch in tab.arches %}
+              <h5>{{ locale[arch.name] }}</h5>
+                {% for type in arch.types %}
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <div>
+                    {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
+                    {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
+                    <h6>{{ locale[type.name] }} (<span{% if type.short %} title="{{ locale[type.short] }}"{% elsif short %} title="{{ locale[short] }}"{% endif %}>{% humansize %}{{ size }}{% endhumansize %}</span>)</h6>
+                    <p class="text-muted">{{ locale[type.desc] }}</p>
+                  </div>
+                  <div class="btn-group">
+                    <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
+                    <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      {% for link in type.links %}
+                      <a href="https://download.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+            {% endfor %}
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

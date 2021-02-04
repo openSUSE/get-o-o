@@ -2,9 +2,9 @@ name: Tumbleweed
 bg-color: tumbleweed
 fg-color: black
 logo: logos/tumbleweed.svg
+choosing-media: true
 downloads:
 - name: installation_images
-  choosing-media: true
   arches:
   - name: x86_64
     types:
@@ -165,7 +165,6 @@ downloads:
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
 - name: live_images
-  choosing-media: true
   info: tumbleweed_live_info
   arches:
   - name: x86_64

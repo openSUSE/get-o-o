@@ -15,6 +15,7 @@ pick_mirror: Pick Mirror
 checksum: Checksum
 torrent_file: Torrent File
 offline_image: Offline Image
+iso_image: ISO image
 offline_desc: |
   Contains a large collection of software for desktop or server use.
   Suitable for installation or upgrade.
@@ -23,15 +24,28 @@ network_desc: |
   Downloads the installation system and all packages from online
   repositories. Suitable for installation or upgrade.
 kvm_image: KVM and XEN
+kvm_ch_image: KVM and XEN Container Host
 kvm_desc: For use in KVM or XEN HVM hypervisors
 xen_image: XEN
 xen_desc: For use in XEN PV hypervisors
 hyperv_image: MS HyperV
+hyperv_ch_image: MS HyperV Container Host
 hyperv_desc: For running virtual machines on MS HyperV
 vmware_image: VMware
+vmware_ch_image: VMware Container Host
 vmware_desc: For running virtual machines in VMware
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX Container Host
+vagrant_image: Vagrant
+vagrant_ch_image: Vagrant Container Host
+rpi_image: RaspberryPi
+rpi_ch_image: RaspberryPi Container Host
+pine_image: Pine64
+pine_ch_image: Pine64 Container Host
 openstack_image: OpenStack-Cloud
+openstack_ch_image: OpenStack-Cloud Container Host
 openstack_desc: For running virtual machines in OpenStack
+virtualbox_image: VirtualBox
 installation_images: Installation
 ports_images: Ports
 ports_info: |
@@ -73,12 +87,26 @@ leap_switch_p1: |
   commands.
 leap_switch_instructions: Online Upgrade Instructions.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Recommended System Requirements
-requirements_cpu: 2 Ghz dual core processor or better
-requirements_mem: 2 GB system memory
-requirements_hd: Over 40GB of free hard drive space
-requirements_dvd: Either a DVD drive or USB port for the installation media
-requirements_net: Internet access is helpful, and required for the Network Installer
+requirements: System Requirements
+requirements_min: Minimum
+requirements_rec: Recommended
+requirements_cpu: CPU
+requirements_cpu_desc: 2 Ghz dual core processor or better
+requirements_mem: Memory
+requirements_mem_desc: $value physical RAM + additional memory for your workload
+requirements_hdd: Storage
+requirements_hdd_desc: Over 40GB of free hard drive space
+requirements_hdd_root: / (root) partition
+requirements_hdd_var: /var partition
+requirements_hdd_size_desc: $value available disk space
+requirements_hdd_swap_info: swap space disabled in order for kubernetes to work properly
+requirements_hdd_ssd_info: high write speed rate SSD
+requirements_dvd_desc: Either a DVD drive or USB port for the installation media
+requirements_net: Network
+requirements_net_desc: Internet access is helpful, and required for the Network Installer
+requirements_net_conn: Full connectivity between all machines in the cluster
+requirements_net_mac: Unique hostname and MAC address for every node
+
 tw_switch: Easy Ways to Switch to openSUSE Tumbleweed
 tw_switch_p1: |
   If you’re already running openSUSE you can upgrade by booting from the
@@ -223,6 +251,7 @@ view_distro: View $distro_name
 x86_64: Intel or AMD 64-bit desktops, laptops, and servers (x86_64)
 i686: Intel or AMD 32-bit desktops, laptops, and servers (i686)
 aarch64: UEFI Arm 64-bit servers, desktops, laptops and boards (aarch64)
+armv7l: UEFI Arm 32-bit servers, desktops, laptops and boards (armv7l)
 ppc64le: PowerPC servers, not big-endian (ppc64le)
 s390x: IBM Z and LinuxONE (s390x)
 chrome_warning: |
@@ -231,3 +260,105 @@ chrome_warning: |
   button and click "Save link as..." to save the image. The reason for this bug is tracked in
   $bug on GitHub, please let the maintainers know this affects you.
 chrome_warning_policy: a change in policy
+overview: Overview
+download: Download
+alternative_downloads: Alternative Downloads
+alternative_downloads_desc: Can't find what you are looking for? Check out $alternative_downloads for the full list of download options.
+MicroOS_features:
+  idea:
+    name: Philosophy
+    description: |
+      ### Is predictable
+      * Is not altered during runtime
+      * Will run the same artifacts consistently on every boot
+      
+      ### Is scalable
+      * Eliminates efforts in configuring individual instances during runtime
+      * Can be rolled out easily repeatedly with predictable outcome
+      
+      ### Is reliable
+      * Automated recovery from faulty updates
+  update:
+    name: Atomic Updates
+    description: |
+      ###  Transactional Updates
+      
+      #### Unique
+      By using btrfs with snapshots MicroOS uses a very space
+      efficient way to store the file system's history. All the configuration
+      files in `/etc` are part of the snapshot and the rollback.
+      
+      #### Flexible
+      * No new package format is needed, use standard openSUSE RPMs
+      * No size limitation, neither for partitions nor the operating system
+      * Easy to enhance
+  shield:
+    name: Rollback
+    description: |
+      ### MicroOS is an Immutable OS, rollback is simple
+      * Immutable: No changes on disk
+      * Rollback by rebooting to an old BTRFS snapshot
+  key:
+    name: Secure Updates
+    description: |
+      * Get your updates via HTTPS
+      * Packages and repositories are signed by our build system
+      * Packages are verified
+      * No updates are done in case of dependency conflicts
+      * No waste of space: Filesystem snapshots get deleted in case of unsuccessful updates
+  work:
+    name: Workloads
+    description: |
+      Applications are installed in containers rather than the root filesystem:
+      * Isolated from the core filesystem
+      * Reduced ability for malicious applications to compromise the system
+      * New installation without reboot
+      * Update in atomic way possible (create new, kill old)
+      * Easy rollback
+  tool:
+    name: Debugging
+    description: |
+      ### Debugging Toolbox Container
+      * Launches privileged container
+      * Root filesystem available below `/media/root`
+      * zypper to install the necessary tools, available without reboot
+      * Persistent between usages
+Kubic_features:
+Leap_features:
+Tumbleweed_features:
+  update:
+    name: Continuously Updated
+    description: |
+      You install it once and enjoy it forever. No longer do you have to worry every six months about massive system upgrades that risk bricking your system.
+  knife:
+    name: Leading-Edge
+    description: |
+      You get frequent updates that not only address vulnerabilities or squash bugs, but reflect latest features and developments, such as fresh kernels, fresh drivers and recent desktop environment versions.
+  home:
+    name: Stable
+    description: |
+      Updates are thoroughly tested against industry-grade quality standards, taking advantage of a build service other Linux distributions envy us. Not only is each new version of a package individually tested, but different clusters of versions are are tested against each other, making sure your system is internally consistent.
+  user:
+    name: Simple to Use
+    description: |
+      With a single command you can update thousands of packages, rollback to last week's snapshot, fast-forward again, and even preview upcoming releases.
+  cpu:
+    name: Plays Nice with Your Hardware
+    description: |
+      Thanks to its leading-edge and thoroughly tested nature, Tumbleweed serves your hardware and devices like few other Linux distributions, making it a superb installment for workstations, laptops and notebooks alike.
+  key:
+    name: Safe
+    description: |
+      Should anything unwanted occur you can always rollback to a previous state and find your files and programs just as they were before a bumpy update.
+  shield:
+    name: Secure
+    description: |
+      Built from latest kernel releases, compiled with the latest Spectre / Meltdown mitigation patches, with firewall and strong security policies turned on by default, your security is covered out-of-the-box.
+  power:
+    name: Powerful
+    description: |
+      Harnessing technologies openSUSE is renown for, such as the `Btrfs` file-system, the `snapper` command-line utility as well as the battle-proven `YaST` "control panel", Tumbleweed empowers you with full control over your system, letting you define the settings you want and be done with it. No longer do you have to worry about a system interfering with your workflow.
+  plant:
+    name: Stands on Firm Ground
+    description: |
+      Tumbleweed builds on decades of usage, testing and debugging by hundreds of power-users, developers, system administrators and demanding doers that cannot afford to jeopardize their workflow. Tumbleweed's solidity is embodied in many core packages whose DNA stems from the venerable SUSE Linux Enterprise Server.

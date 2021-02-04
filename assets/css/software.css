@@ -1,5 +1,12 @@
----
----
+@media all {
+  :root {
+    --tumbleweed: 53, 185, 171;
+    --leap: 251, 199, 93;
+    --microos: 151, 58, 132;
+    --kubic: 33, 164, 223;
+   }
+}
+
 .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
   background: rgba(255, 255, 255, 0.2);
   color: rgba(0, 0, 0, 0.8)!important;
@@ -27,101 +34,85 @@
 }
 
 .bg-tumbleweed-tint {
-  background: rgba(53, 185, 171, 0.3)
+  background: rgba(var(--tumbleweed), 0.3)
 }
 
 .bg-leap-tint {
-  background: rgba(251, 199, 93, 0.3)
+  background: rgba(var(--leap), 0.3)
 }
 
 .bg-kubic-tint {
-  background: rgba(33, 164, 223, 0.3)
+  background: rgba(var(--kubic), 0.3)
 }
 
 .bg-microos-tint {
-  background: rgba(151, 58, 132, 0.3)
+  background: rgba(var(--microos), 0.3)
 }
 
 .bg-tumbleweed {
-  background: rgb(53, 185, 171)
+  background: rgb(var(--tumbleweed))
 }
 
 .badge-tumbleweed {
-  background: rgb(53, 185, 171);
+  background: rgb(var(--tumbleweed));
 }
 
 .btn-tumbleweed {
-  background-color: rgb(53, 185, 171);
-  border-color: rgb(53, 185, 171);
+  background-color: rgb(var(--tumbleweed));
+  border-color: rgb(var(--tumbleweed));
 }
 
-.btn-tumbleweed:hover {
-  background-color: darken(rgb(53, 185, 171), 5);
-  border-color: darken(rgb(53, 185, 171), 7);
+.btn-tumbleweed:hover, .btn-leap:hover, .btn-kubic:hover, .btn-microos:hover {
+  filter: brightness(0.9);
 }
 
 .alert-tumbleweed {
-  border-color: rgb(53, 185, 171);
-  background-color: rgba(53, 185, 171, 0.2);
+  border-color: rgb(var(--tumbleweed));
+  background-color: rgba(var(--tumbleweed), 0.2);
 }
 
 .bg-leap {
-  background: rgb(251, 199, 93)
+  background: rgb(var(--leap))
 }
 
 .badge-leap {
-  background: rgb(251, 199, 93);
+  background: rgb(var(--leap));
 }
 
 .btn-leap {
-  background-color: rgb(251, 199, 93);
-  border-color: rgb(251, 199, 93);
-}
-
-.btn-leap:hover {
-  background-color: darken(rgb(251, 199, 93), 5);
-  border-color: darken(rgb(251, 199, 93), 7);
+  background-color: rgb(var(--leap));
+  border-color: rgb(var(--leap));
 }
 
 .alert-leap {
-  border-color: rgb(251, 199, 93);
-  background-color: rgba(251, 199, 93, 0.2);
+  border-color: rgb(var(--leap));
+  background-color: rgba(var(--leap), 0.2);
 }
 
 .bg-kubic {
-  background: rgb(33, 164, 223)
+  background: rgb(var(--kubic))
 }
 
 .badge-kubic {
-  background: rgb(33, 164, 223);
+  background: rgb(var(--kubic));
 }
 
 .btn-kubic {
-  background-color: rgb(33, 164, 223);
-  border-color: rgb(33, 164, 223);
-}
-
-.btn-kubic:hover {
-  background-color: darken(rgb(33, 164, 223), 5);
-  border-color: darken(rgb(33, 164, 223), 7);
+  background-color: rgb(var(--kubic));
+  border-color: rgb(var(--kubic));
 }
 
 .bg-microos {
-  background: rgb(151, 58, 132)
+  background: rgb(var(--microos))
 }
 
 .badge-microos {
-  background: rgb(151, 58, 132);
+  background: rgb(var(--microos));
 }
 
 .btn-microos {
-  background-color: rgb(151, 58, 132);
-  border-color: rgb(151, 58, 132);
-}
-
-.btn-microos:hover {
-  background-color: darken(rgb(151, 58, 132), 5);
-  border-color: darken(rgb(151, 58, 132), 7);
+  background-color: rgb(var(--microos));
+  border-color: rgb(var(--microos));
 }
 
 .text-black, .text-black:hover {

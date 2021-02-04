@@ -1,5 +1,6 @@
 {% assign distro = site.data[include.distro] %}
 <link rel="stylesheet" href="/assets/css/software.css">
+<script defer src="/assets/js/app.js"></script>
 <header class="jumbotron jumbotron-fluid bg-{{ distro.bg-color }} text-center pb-0">
   <div class="container text-{{ distro.fg-color }}">
     {% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
@@ -30,107 +31,117 @@
     </div>
   </div>
   <div class="border-bottom" role="tablist">
-    <ul class="container nav nav-tabs nav-justified border-0">
-      {% for tab in distro.downloads %}
+    <ul class="container nav nav-tabs nav-justified border-0 p-0">
       <li class="nav-item">
-        <a class="nav-link h-100{% if forloop.first == true %} active{% endif %}" data-toggle="tab" href="#{{ tab.name }}" role="tab">
-          {{ locale[tab.name] }}
-          <div class="text-nowrap">
-            {% for arch in tab.arches %}
-              <span class="badge badge-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ arch.name }}</span>
-            {% endfor %}
-          </div>
+        <a class="nav-link h-100 font-weight-bold active" data-toggle="tab" href="#overview" role="tab">
+          {{ locale.overview }}
         </a>
       </li>
-      {% endfor %}
+      <li class="nav-item">
+        <a class="nav-link font-weight-bold h-100" data-toggle="tab" href="#download" role="tab">
+          {{ locale.download }}
+        </a>
+      </li>
     </ul>
   </div>
 </header>
 
-<section class="mb-5">
-  <div class="container">
-    {% capture chrome_warning_link %}<a href="https://blog.chromium.org/2020/02/protecting-users-from-insecure.html" target="_blank">{{ locale.chrome_warning_policy }}</a>{% endcapture %}
-    {% capture chrome_warning_bug %}<a href="https://github.com/openSUSE/mirrorbrain/issues/3" target="_blank">openSUSE/mirrorbrain#3</a>{% endcapture %}
-    <p class="alert alert-danger">{{ locale.chrome_warning | replace: '$change_in_policy', chrome_warning_link | replace: '$bug', chrome_warning_bug }}</p>
-    <div class="tab-content">
-      {% for tab in distro.downloads %}
-      <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="{{ tab.name }}" role="tabpanel">
-        {% if tab.info %}
-          <div class="alert alert-{{ distro.bg-color }}">
-            {{ locale[tab.info] | markdownify }}
-          </div>
-        {% endif %}
-        {% for arch in tab.arches %}
-        <h3 class="my-3 text-center">{{ locale[arch.name] }}</h3>
-        <div class="row">
-          {% for type in arch.types %}
-          <div class="col text-center">
-            <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-lg btn-block btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">
-            <span class="typcn typcn-download-outline"></span>
-            {{ locale[type.name] }}
-            </a>
-            <div class="p-2">
-              {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
-              <h5 class="mb-2 text-muted">{% humansize %}{{ size }}{% endhumansize %}</h5>
-              {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
-              <h6 class="mb-2 text-muted">{% if type.short %}{{ locale[type.short] }}{% else %}{{ locale[short] }}{% endif %}</h6>
-              <p class="text-muted">{{ locale[type.desc] }}</p>
+<div class="tab-content">
+  <div class="tab-pane active" id="overview" role="tabpanel">
 
-              {% for link in type.links %}
-              <a href="https://download.opensuse.org{{link.url}}" class="btn btn-link">{{ locale[link.name] }}</a>
-              {% endfor %}
-            </div>
+    {% include overview/{{ distro.name }}.html %}
+    {% if distro.name == "Leap" %}
+      {% include overview/{{ include.distro }}.html %}
+    {% endif %}
+    <section class="py-3">
+      <div class="container">
+        <div class="row">
+          {% capture distro_hash %}{{ distro.name }}_features{% endcapture %}
+          {% for hash in locale[distro_hash] %}
+          {% assign feature = hash[1] %}
+          {% capture icon %}icons/{{ hash[0] }}.svg{% endcapture %}
+          {{ feature.rundown }}
+          <div class="col-md-6 py-3 mb-auto">
+            <h2 class="d-flex align-items-center">
+              {% include {{ icon }} %}
+              <span class="ml-1">{{ feature.name }}</span>
+            </h2>
+            <p class="lead font-weight-normal">
+              {{ feature.rundown }}
+            </p>
+            {{ feature.description | markdownify }}
+            {% for link in feature.links %}
+            <a class="btn btn-{{ link.color }} mb-2" href="{{ link.link }}">
+              {% include icons/{{ link.icon }}.svg %}
+              <span class="hidden-xs-down" lang="en">{{ link.name }}</span>
+            </a>
+            {% endfor %}
           </div>
           {% endfor %}
         </div>
+      </div>
+    </section>
+  </div>
+  <div class="tab-pane" id="download" role="tabpanel">
+    <section class="py-3">
+      <div class="container" role="main">
+        {% capture chrome_warning_link %}<a href="https://blog.chromium.org/2020/02/protecting-users-from-insecure.html" target="_blank">{{ locale.chrome_warning_policy }}</a>{% endcapture %}
+        {% capture chrome_warning_bug %}<a href="https://github.com/openSUSE/mirrorbrain/issues/3" target="_blank">openSUSE/mirrorbrain#3</a>{% endcapture %}
+        <p class="alert alert-danger">{{ locale.chrome_warning | replace: '$change_in_policy', chrome_warning_link | replace: '$bug', chrome_warning_bug }}</p>
+        {% assign default = distro.downloads | where: "name", "installation_images" | first %}
+        <div class="row">
+        {% for arch in default.arches %}
+            <div class="col-md-6 mb-3">
+              <h5>{{ locale[arch.name] }}</h5>
+              <div class="list-group">
+                {% for type in arch.types %}
+                <div class="list-group-item d-flex align-items-center justify-content-between">
+                  {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
+                  {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
+                  <h6 class="m-0 d-flex align-items-center">
+                    {% capture icon_name %}icons/{{ type.name | split: '_' | first }}.svg{% endcapture %}
+                    {% include {{ icon_name }} %}
+                    <span class="ml-1">
+                    {{ locale[type.name] }}
+                    {% if size %}
+                      <span class="text-muted"{% if type.short %} title="{{ locale[type.short] }}"{% elsif short %} title="{{ locale[short] }}"{% endif %}>
+                        ({% humansize %}{{ size }}{% endhumansize %})
+                      </span>
+                    </span>
+                    {% endif %}
+                  </h6>
+                  <div class="btn-group">
+                    <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
+                    <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <span class="sr-only">Toggle Dropdown</span>
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      {% for link in type.links %}
+                      <a href="https://download.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
+                      {% endfor %}
+                    </div>
+                  </div>
+                </div>
+                {% endfor %}
+              </div>
+            </div>
         {% endfor %}
+        </div>
+        {% capture alternative_downloads %}<a href="#" data-toggle="modal" data-target="#downloadModal">{{ locale.alternative_downloads }}</a>{% endcapture %}
+        <span>{{ locale.alternative_downloads_desc | replace: '$alternative_downloads', alternative_downloads }}</span>
+      </div>
+    </section>
+    {% include download/{{ distro.name }}.html %}
+    {% if distro.name == "Leap" %}
+      {% include download/{{ include.distro }}.html %}
+    {% endif %}
 
-        {% if tab.choosing-media %}
-        <section class="my-3">
-          <div class="container" role="main">
-            {% include choosing_media.html %}
-          </div>
-        </section>
-        {% endif %}
-        {% if tab.leap-switch %}
-        <section class="my-3">
-          <div class="container" role="main">
-            {% include leap_switch.html %}
-          </div>
-        </section>
-        {% endif %}
-        {% if tab.tumbleweed-switch %}
-        <section class="my-3">
-          <div class="container" role="main">
-            {% include tumbleweed_switch.html %}
-          </div>
-        </section>
-        {% endif %}
-
-      </div><!-- /.tab-pane -->
-      {% endfor %}
-    </div><!-- /.tab-content -->
-  </div><!-- /.container -->
-</section>
-
-<section class="my-3">
-  <div class="container" role="main">
-  {% if distro.name == "Leap" %}
-    {% include documentation.html distro="Leap" version="@version" %}
-  {% else %}
-    {% include documentation.html distro="Tumbleweed" %}
-  {% endif %}
+    <section class="py-3">
+      <div class="container" role="main">
+        {% include verify_download.html %}
+      </div>
+    </section>
   </div>
-</section>
+</div>
 
-<section class="my-3">
-  <div class="container" role="main">
-    {% include verify_download.html %}
-  </div>
-</section>
-
-<section class="my-3">
-  <div class="container" role="main">
-    {% include requirements.html %}
-  </div>
-</section>
+{% include download-modal.html %}

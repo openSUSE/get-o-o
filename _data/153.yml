@@ -3,10 +3,10 @@ version: 15.3
 bg-color: leap
 fg-color: black
 logo: logos/leap.svg
+choosing-media: true
+leap-switch: true
 downloads:
 - name: installation_images
-  choosing-media: true
-  leap-switch: true
   arches:
   - name: x86_64
     types:

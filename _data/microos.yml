@@ -7,7 +7,7 @@ downloads:
   arches:
   - name: x86_64
     types:
-    - name: offline_image
+    - name: iso_image
       desc: microos_desc
       primary_link: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso
       links:
@@ -17,9 +17,139 @@ downloads:
         url: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso?mirrorlist
       - name: checksum
         url: /tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso.sha256
+    - name: kvm_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2.sha256
+    - name: kvm_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2.sha256
+    - name: virtualbox_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz.sha256
+    - name: vmware_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz.sha256
+    - name: vmware_vmx_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.sha256
+    - name: vmware_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz.sha256
+    - name: vmware_vmx_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.sha256
+    - name: vagrant_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box.sha256
+    - name: vagrant_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box.sha256
+    - name: openstack_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2.sha256
+    - name: openstack_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2.sha256
+    - name: hyperv_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz.sha256
+    - name: hyperv_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz.sha256
   - name: aarch64
     types:
-    - name: offline_image
+    - name: iso_image
       desc: microos_desc
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso
       links:
@@ -29,3 +159,107 @@ downloads:
         url: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso?mirrorlist
       - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso.sha256
+    - name: rpi_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz.sha256
+    - name: rpi_ch_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz.sha256
+    - name: pine_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz.sha256
+    - name: pine_ch_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz.sha256
+    - name: kvm_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2.sha256
+    - name: kvm_ch_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2.sha256
+    - name: vagrant_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box.sha256
+    - name: vagrant_ch_image
+      desc: microos_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box.sha256
+  - name: ppc64le
+    types:
+    - name: iso_image
+      desc: microos_desc
+      primary_link: /ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso
+      links:
+      - name: metalink
+        url: /ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso.sha256
+  - name: armv7l
+    types:
+    - name: rpi_image
+      desc: microos_desc
+      primary_link: /ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz
+      links:
+      - name: metalink
+        url: /ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz.meta4
+      - name: pick_mirror
+        url: /ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz?mirrorlist
+      - name: checksum
+        url: /ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz.sha256
