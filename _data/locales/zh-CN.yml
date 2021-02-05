@@ -133,13 +133,13 @@ index_server_p1: 选择服务器使用的发行版
 index_full: 或者直接进入发行版的下载页
 desktop: openSUSE 桌面发行版
 desktop_p1: "双发行版，满足一切（绿起来！）\n"
-desktop_tumbleweed_p1: 适用于开发者、openSUSE 共享者和 Linux/FOSS 发烧友
+desktop_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
 desktop_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
 desktop_leap_p1: 适用于系统管理员、企业开发者和“常规”桌面用户
 desktop_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
 server: openSUSE 服务器发行版
 server_p1: "四种发行版，舒适且平常\n"
-server_tumbleweed_p1: 适用于开发者、openSUSE 共享者和 Linux/FOSS 发烧友
+server_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
 server_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
 server_leap_p1: 适用于系统管理员、企业开发者和“常规”服务器用户
 server_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
