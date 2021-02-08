@@ -6,6 +6,7 @@ task :build do
   require 'faraday'
   require 'faraday_middleware'
   File.open('_data/snapshots.csv', 'w') do |f|
+    f.write("snapshot\n")
     f.write(Net::HTTP.get(URI('http://download.opensuse.org/history/list')))
   end
   File.open('_data/sizes.yml', 'w') do |f|
