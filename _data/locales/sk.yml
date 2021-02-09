@@ -1,0 +1,45 @@
+---
+site_title: Získať openSUSE
+search: Hľadať
+license: Licencia
+cd_desc: Pre CD a USB kľúče
+dvd_desc: Pre DVD a USB kľúče
+pick_mirror: Vybrať zrkadlo
+checksum: Kontrolný súčet
+torrent_file: Súbor torrent
+network_image: Sieťový obraz
+kvm_desc: Pre použitie v hypervisoroch KVM alebo XEN HVM
+xen_desc: Pre použitie v hypervisoroch XEN PV
+hyperv_desc: Pre beh virtuálnych strojov na MS HyperV
+vmware_desc: Pre beh virtuálnych strojov vo VMware
+openstack_desc: Pre beh virtuálnych strojov v OpenStack
+installation_images: Inštalácia
+ports_images: Porty
+rescue_cd: Záchranné LiveCD
+kubic_desc: Kontajner ako platforma služieb založená na Kubernetes nad openSUSE MicroOS.
+choosing_media: Výber médií, ktoré sa stiahnu
+documentation: Dokumentácia
+documentation_startup_guide: Sprievodca spustením openSUSE
+documentation_release_notes: Poznámky k vydaniu
+documentation_license: Licencia
+documentation_full_documentation: Úplná dokumentácia
+leap_switch: Jednoduché spôsoby, ako prejsť na openSUSE Leap
+requirements: Odporúčané systémové požiadavky
+requirements_cpu: 2 Ghz dual core procesor alebo lepší
+requirements_mem: 2 GB systémovej pamäte
+requirements_hd: Viac ako 40 GB voľného miesta na pevnom disku
+requirements_dvd: Buď DVD jednotka alebo USB port pre inštalačné médiá
+requirements_net: Prístup k internetu je užitočný a potrebný pre sieťovú inštaláciu
+tw_switch: Jednoduché spôsoby, ako prejsť na openSUSE Tumbleweed
+upgrade_table_linux: Zo staršej verzie alebo inej linuxovej distribúcie
+upgrade_table_windows: Zo systému Windows
+upgrade_table_mac: Z OS X
+upgrade_table_linux_dvd: Ako napáliť DVD na Linuxe.
+upgrade_table_windows_dvd: Ako napáliť DVD na systéme Windows.
+upgrade_table_mac_dvd: Ako napáliť DVD na OS X.
+upgrade_table_linux_usb: Ako vytvoriť spustiteľný USB kľúč na Linuxe.
+upgrade_table_windows_usb: Ako vytvoriť spustiteľný USB kľúč na systéme Windows.
+upgrade_table__mac_usb: Ako vytvoriť spustiteľný USB kľúč na OS X.
+verify_download: Pred použitím si skontrolujte, čo ste stiahli
+verify_download_checksums_help: Pomocník pre kontrolný súčet
+yast_software: Softvér

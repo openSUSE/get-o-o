@@ -1,0 +1,26 @@
+---
+site_title: Awè openSUSE
+search: Trover
+pick_mirror: Tchoezi on muroe
+checksum: verifiaedje del some md5
+torrent_file: BitTorrent
+network_image: Rantoele
+installation_images: Media d' astalaedje
+live_images: Vicante KDE
+rescue_cd: Sistinme di houplaedje
+choosing_media: Clitchî pos aberweter
+documentation: Documintåcion
+documentation_startup_guide: Awè des programes
+documentation_release_notes: Modêye rexhowe
+documentation_full_documentation: Documintåcion
+leap_switch_instructions_link: http://en.opensuse.org/Derivatives
+tw_switch_instructions_link: http://en.opensuse.org/Buy_openSUSE
+upgrade_table_linux_dvd_link: http://en.opensuse.org/INSTALL_Internet
+upgrade_table_windows_dvd_link: http://en.opensuse.org/INSTALL_Internet
+upgrade_table_mac_dvd_link: http://en.opensuse.org/INSTALL_Internet
+upgrade_table_linux_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table_windows_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table__mac_usb_link: http://en.opensuse.org/Derivatives
+verify_download: Verifyîz vost aberwetaedje (nén rekis, po les spepieus)
+verify_download_checksums_help_link: http://en.opensuse.org/INSTALL_Internet
+yast_software: Programe

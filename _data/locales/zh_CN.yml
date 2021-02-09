@@ -1,0 +1,56 @@
+---
+site_title: 获取 openSUSE
+search: 搜索
+license: 许可证
+cd_desc: 用于 CD 和 U 盘
+dvd_desc: 用于 DVD 和 U 盘
+pick_mirror: 选择镜像站点
+checksum: 校验码
+torrent_file: 种子文件
+network_image: 网络映像
+kvm_desc: 推荐在 KVM 或 XEN HVM 虚拟机中使用
+xen_desc: 推荐在 XEN PV 虚拟机中使用
+hyperv_desc: 推荐在 MS HyperV 虚拟机中使用
+vmware_desc: 推荐在 VMware 虚拟机中使用
+openstack_desc: 推荐在 OpenStack 虚拟机中使用
+installation_images: 安装
+ports_images: 移植
+live_images: 体验
+rescue_cd: 救援 LiveCD
+kubic_desc: 容器既服务（CaaS）平台基于 openSUSE 微系统（MicroOS）之上的 Kubernetes。
+choosing_media: 选择要下载的媒体
+documentation: 文档
+documentation_startup_guide: openSUSE 入门指南
+documentation_release_notes: 发行注记
+documentation_license: 许可证
+documentation_full_documentation: 完整文档
+leap_switch: 切换至 openSUSE Leap 的简单方法
+leap_switch_instructions_link: https://zh.opensuse.org/SDB:系统升级
+requirements: 建议的系统需求
+requirements_cpu: 2 Ghz 双核或更好的处理器
+requirements_mem: 2 GB 系统内存
+requirements_hd: 超过 40 GB 的可用硬盘空间
+requirements_dvd: 用作安装介质的 DVD 驱动器或 USB 端口
+requirements_net: 互联网接入有所帮助，同时对于“网络安装”是必需的
+tw_switch: 切换至 openSUSE Tumbleweed 的简单方法
+tw_switch_instructions_link: https://zh.opensuse.org/openSUSE:升级_Tumbleweed
+upgrade_table_linux: 从更旧的版本或其他 Linux 发行版
+upgrade_table_windows: 从 Windows
+upgrade_table_mac: 从 OS X
+upgrade_table_linux_dvd: 如何在 Linux 上烧录 DVD。
+upgrade_table_linux_dvd_link: https://zh.opensuse.org/SDB:下载帮助#使用 Linux
+upgrade_table_windows_dvd: 如何在 WIndows 上烧录 DVD。
+upgrade_table_windows_dvd_link: https://zh.opensuse.org/SDB:下载帮助#使用微软视窗
+upgrade_table_mac_dvd: 如何在 OS X 上烧录 DVD。
+upgrade_table_mac_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E8.8B.B9.E6.9E.9C_MacOS_X.EF.BC.8810.3_.E5.8F.8A.E4.BB.A5.E4.B8.8A.EF.BC.89
+upgrade_table_linux_usb: 如何在 Linux 上创建可启动的 U 盘。
+upgrade_table_linux_usb_link: https://zh.opensuse.org/SDB:Live_USB_U盘安装
+upgrade_table_windows_usb: 如何在 Windows 上创建可启动的 U 盘。
+upgrade_table_windows_usb_link: https://zh.opensuse.org/SDB:使用_Windows_创建一个_Live_U_盘
+upgrade_table__mac_usb: 如何在 OS X 上创建可启动的 U 盘。
+upgrade_table__mac_usb_link: https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建一个_Live_U_盘
+verify_download: 请在使用前验证您下载的文件
+verify_download_checksums_help: 校验码帮助
+verify_download_checksums_help_link: https://zh.opensuse.org/SDB:下载帮助#校验哈希值
+yast_software: 软件
+index_desktop: 桌面

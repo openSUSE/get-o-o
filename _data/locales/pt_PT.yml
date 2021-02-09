@@ -1,0 +1,57 @@
+---
+site_title: Obter openSUSE
+search: Procurar
+license: Licença
+cd_desc: Para CD e pen USB
+dvd_desc: Para DVD e pen USB
+pick_mirror: Escolher Servidor (Mirror)
+checksum: Soma de Verificação (Checksum)
+torrent_file: Ficheiro Torrent
+network_image: Imagem de Rede
+kvm_desc: Para uso em KVM ou hypervisors XEN HVM
+xen_desc: Para uso em hypervisors XEN PV
+hyperv_desc: Para correr máquinas virtuais no MS HyperV
+vmware_desc: Para correr máquinas virtuais no VMware
+openstack_desc: Para correr máquinas virtuais no OpenStack
+installation_images: Instalação
+ports_images: Ports (Importações)
+gnome_cd: LiveCD GNOME
+kde_cd: LiveCD KDE
+rescue_cd: LiveCD Rescue
+kubic_desc: Contentor como Plataforma de Serviço baseado no atop openSUSE MicroOS
+  para Kubernetes.
+choosing_media: Escolher o Média a Descarregar
+documentation: Documentação
+documentation_startup_guide: openSUSE Guia de Inicialização
+documentation_release_notes: Notas de Lançamento
+documentation_license: Licença
+documentation_full_documentation: Documentação completa
+leap_switch: Maneiras Fáceis de Mudar para o openSUSE Leap
+leap_switch_instructions_link: https://pt.opensuse.org/SDB:System_upgrade
+requirements: Requisitos de Sistema Recomendados
+requirements_cpu: Processador de dois núcleos de 2 Ghz ou melhor
+requirements_mem: 2 GB de memória de sistema (RAM)
+requirements_hd: Mais de 40GB de espaço livre em disco rígido
+requirements_dvd: Ou um leitor de DVD ou uma porta USB necessário para o media de
+  instalação
+requirements_net: Acesso à Internet é útil, e obrigatório para o Instalador de Rede
+tw_switch: Maneiras Fáceis de Mudar para o openSUSE Tumbleweed
+upgrade_table_linux: De uma versão antiga ou de outra distribuição Linux
+upgrade_table_windows: Do Windows
+upgrade_table_mac: Do OS X
+upgrade_table_linux_dvd: Como gravar um DVD no Linux.
+upgrade_table_linux_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Linux_2
+upgrade_table_windows_dvd: Como gravar um DVD no Windows.
+upgrade_table_windows_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Microsoft_Windows
+upgrade_table_mac_dvd: Como gravar um DVD no OS X.
+upgrade_table_mac_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_OS_Mac_X_.2810.3_e_mais_recentes.29
+upgrade_table_linux_usb: Como criar uma pen USB de arranque no Linux.
+upgrade_table_linux_usb_link: https://pt.opensuse.org/SDB:Live_USB
+upgrade_table_windows_usb: Como criar uma pen USB de arranque no Windows.
+upgrade_table_windows_usb_link: https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
+upgrade_table__mac_usb: Como criar uma pen USB de arranque no OS X.
+upgrade_table__mac_usb_link: https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Mac_OS_X
+verify_download: Verifique a Sua Descarga Antes de Usar
+verify_download_checksums_help: Ajuda Checksums
+verify_download_checksums_help_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Verifica.C3.A7.C3.A3o_de_somas
+index_desktop: Computador

@@ -1,0 +1,27 @@
+---
+site_title: ទិញ​អូផឹន​ស៊ូស៊ី
+search: ស្វែងរក
+metalink: តំណ​មេតា
+pick_mirror: យក​​កញ្ចក់
+checksum: md5 checksum
+torrent_file: BitTorrent
+network_image: បណ្ដាញ​
+installation_images: ឧបករណ៍​ផ្ទុក​ដំឡើង
+live_images: KDE បន្ត​ផ្ទាល់
+rescue_cd: សង្គ្រោះ​ប្រព័ន្ធ
+choosing_media: ចុច ​ដើម្បី​ទាញ​យក
+documentation: ឯកសារ​
+documentation_startup_guide: ការ​រាប់​ថយ​ក្រោយ​របស់​អូផឹនស៊ូស៊ី​
+documentation_release_notes: កំណែ​ចេញ​ផ្សាយ
+documentation_full_documentation: ឯកសារ​
+leap_switch_instructions_link: http://en.opensuse.org/Derivatives
+tw_switch_instructions_link: http://en.opensuse.org/openSUSE:Submitting_bug_reports
+upgrade_table_linux_dvd_link: http://en.opensuse.org/SDB:Download_help
+upgrade_table_windows_dvd_link: http://en.opensuse.org/SDB:Download_help
+upgrade_table_mac_dvd_link: http://en.opensuse.org/SDB:Download_help#Burn_the_ISO_image.28s.29
+upgrade_table_linux_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table_windows_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table__mac_usb_link: http://en.opensuse.org/Derivatives
+verify_download: ផ្ទៀងផ្ទាត់​ការ​ទាញ​យក​របស់​អ្នក (ជា​ជម្រើស សម្រាប់​អ្នក​ជំនាញ)
+verify_download_checksums_help_link: http://en.opensuse.org/SDB:Download_help
+yast_software: កម្មវិធី​ដែល​គេ​និយម​

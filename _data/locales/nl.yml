@@ -1,0 +1,54 @@
+---
+site_title: openSUSE verkrijgen
+search: Zoeken
+license: Licentie
+cd_desc: Voor cd en USB-stick
+dvd_desc: Voor dvd en USB-stick
+pick_mirror: Mirror selecteren
+checksum: Controlesom
+torrent_file: Torrent-bestand
+network_image: Netwerk-image
+kvm_desc: Voor gebruik in KVM of XEN HVM hypervisors
+xen_desc: Voor gebruik in XEN PV hypervisors
+hyperv_desc: Voor werken met virtuele machines in MS HyperV
+vmware_desc: Voor werken met virtuele machines in VMware
+openstack_desc: Voor werken met virtuele machines in VMware
+installation_images: Installatie
+rescue_cd: Reddingssysteem LiveCD
+kubic_desc: Container als een serviceplatform gebaseerd op Kubernetes bovenop openSUSE
+  MicroOS.
+choosing_media: Kiezen welk medium te downloaden
+documentation: Documentatie
+documentation_startup_guide: openSUSE opstarthandleiding
+documentation_release_notes: Uitgavenotities
+documentation_license: Licentie
+documentation_full_documentation: Volledige documentatie
+leap_switch: Gemakkelijke manieren om om te schakelen naar openSUSE Leap
+leap_switch_instructions_link: https://nl.opensuse.org/SDB:Systeem_opwaarderen
+requirements: Aanbevolen systeemvereisten
+requirements_cpu: 2 Ghz dubbelkernprocessor of beter
+requirements_mem: 2 GB systeemgeheugen
+requirements_hd: Meer dan 40GB vrije ruimte op de vaste schijf
+requirements_dvd: Een dvd-station of een USB-poort voor het installatiemedium
+requirements_net: Toegang tot internet is handig, en vereist voor de netwerkinstallatie
+tw_switch: Gemakkelijke manieren om om te schakelen naar openSUSE Tumbleweed
+tw_switch_instructions_link: https://nl.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: Uit een oudere versie of andere Linux-distributie
+upgrade_table_windows: Uit Windows
+upgrade_table_mac: Uit OS X
+upgrade_table_linux_dvd: Hoe een DVD op Linux te branden.
+upgrade_table_linux_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Using_Linux
+upgrade_table_windows_dvd: Hoe een DVD op Windows te branden.
+upgrade_table_windows_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_Microsoft_Windows
+upgrade_table_mac_dvd: Hoe een DVD op OS X te branden.
+upgrade_table_mac_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_MacOS_X_.2810.3_en_hoger.29
+upgrade_table_linux_usb: Hoe een opstartbare USB-stick op Linux aan te maken.
+upgrade_table_linux_usb_link: https://nl.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: Hoe een opstartbare USB-stick op Windows aan te maken.
+upgrade_table_windows_usb_link: https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: Hoe een opstartbare USB-stick op OS X aan te maken.
+upgrade_table__mac_usb_link: https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Verifieer uw download alvorens deze te gebruiken
+verify_download_checksums_help: Hulp bij controlesommen
+verify_download_checksums_help_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Controlesommen_.28Checksums.29
+index_desktop: Bureaublad

@@ -1,0 +1,57 @@
+---
+site_title: Получить openSUSE
+search: Искать
+license: Лицензия
+cd_desc: Для CD и USB-накопителей
+dvd_desc: Для DVD и USB-накопителей
+metalink: Металинк
+pick_mirror: Выбрать зеркало
+checksum: Контрольная сумма
+torrent_file: Torrent-файл
+network_image: Образ для установки по сети
+kvm_desc: Для использования в гипервизорах KVM или XEN HVM
+xen_desc: Для использования в гипервизорах XEN PV
+hyperv_desc: Для запуска виртуальных машин в MS HyperV
+vmware_desc: Для запуска виртуальных машин в VMware
+openstack_desc: Для запуска виртуальных машин в OpenStack
+installation_images: Установка
+ports_images: Порты
+live_images: Live-образ
+gnome_cd: LiveCD GNOME
+kde_cd: LiveCD KDE
+rescue_cd: LiveCD восстановления
+kubic_desc: Платформа Container as a Service основана на Kubernetes поверх openSUSE
+  MicroOS.
+choosing_media: Выбор носителя для загрузки
+documentation: Документация
+documentation_startup_guide: Руководство openSUSE для начинающих
+documentation_release_notes: Примечания к выпуску
+documentation_license: Лицензия
+documentation_full_documentation: Полная документация
+leap_switch: Как перейти на openSUSE Leap
+leap_switch_instructions_link: http://ru.opensuse.org/SDB:%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B
+requirements: Рекомендуемые системные требования
+requirements_cpu: двухъядерный процессор 2 ГГц или лучше
+requirements_mem: 2 ГБ системной памяти
+requirements_hd: Более 40 ГБ свободного места на жёстком диске
+requirements_dvd: DVD-привод или USB-порт для установочного носителя
+requirements_net: Доступ в интернет не повредит, а для установки по сети необходим
+tw_switch: Как перейти на openSUSE Tumbleweed
+upgrade_table_linux: С более старой версии или другого дистрибутива Linux
+upgrade_table_windows: С Windows
+upgrade_table_mac: С OS X
+upgrade_table_linux_dvd: Как записать DVD в Linux.
+upgrade_table_linux_dvd_link: https://ru.opensuse.org/SDB:%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D0%BE_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5#.D0.92_Linux
+upgrade_table_windows_dvd: Как записать DVD в Windows.
+upgrade_table_windows_dvd_link: https://ru.opensuse.org/SDB:%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D0%BE_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5#.D0.9F.D0.BE.D0.BB.D1.8C.D0.B7.D0.BE.D0.B2.D0.B0.D1.82.D0.B5.D0.BB.D1.8F.D0.BC_Microsoft_Windows
+upgrade_table_mac_dvd: Как записать DVD в OS X.
+upgrade_table_mac_dvd_link: https://ru.opensuse.org/SDB:%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D0%BE_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5#.D0.9F.D0.BE.D0.BB.D1.8C.D0.B7.D0.BE.D0.B2.D0.B0.D1.82.D0.B5.D0.BB.D1.8F.D0.BC_MacOS_X_.2810.3_.D0.B8_.D0.B2.D1.8B.D1.88.D0.B5.29
+upgrade_table_linux_usb: Как создать загружаемый USB-носитель в Linux.
+upgrade_table_linux_usb_link: http://ru.opensuse.org/SDB:Live_USB_%D0%B1%D1%80%D0%B5%D0%BB%D0%BE%D0%BA
+upgrade_table_windows_usb: Как создать загружаемый USB-носитель в Windows.
+upgrade_table__mac_usb: Как создать загружаемый USB-носитель в OS X.
+verify_download: Проверка загруженного образа перед использованием
+verify_download_checksums_help: Справка по контрольным суммам
+verify_download_checksums_help_link: https://ru.opensuse.org/SDB:%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D0%BE_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5#.D0.9F.D1.80.D0.BE.D0.B2.D0.B5.D1.80.D0.BA.D0.B0_.D0.BA.D0.BE.D0.BD.D1.82.D1.80.D0.BE.D0.BB.D1.8C.D0.BD.D0.BE.D0.B9_.D1.81.D1.83.D0.BC.D0.BC.D1.8B
+yast_software: Программы
+index_desktop: Рабочий стол

@@ -1,0 +1,51 @@
+---
+site_title: Baixar openSUSE
+search: Buscar
+license: Licenza
+cd_desc: Para CD e memoria USB
+dvd_desc: Para DVD e memoria USB
+pick_mirror: Escolla un servidor de réplica
+checksum: Suma de comprobación
+torrent_file: Ficheiro Torrent
+network_image: Imaxe vía rede
+kvm_desc: Para uso nos hipervisores KVM ou XEN KVM
+xen_desc: Para uso en hipervisores XEN PV
+hyperv_desc: Para executar máquinas virtuais en MS HyperV
+vmware_desc: Para executar máquinas virtuais en VMware
+openstack_desc: Para executar máquinas virtuais OpenStack
+installation_images: Instalación
+ports_images: Portos
+gnome_cd: Live CD de Gnome
+kde_cd: Live CD de KDE
+rescue_cd: Live CD de rescate
+kubic_desc: Contedor como plataforma de servizos baseada en Kubernetes sobre openSUSE
+  MicroOS.
+choosing_media: Escoller que medio descargar
+documentation: Documentación
+documentation_startup_guide: Guía de inicio de openSUSE
+documentation_release_notes: Notas da versión
+documentation_license: Licenza
+documentation_full_documentation: Documentación completa
+leap_switch: Modo sinxelo de cambiar a openSUSE Leap
+requirements: Requisitos recomendados do sistema
+requirements_cpu: Procesador  de 2 Ghz dual ou superior
+requirements_mem: 2 GB de memoria no sistema
+requirements_hd: Máis de 40 GB de espazo libre en disco
+requirements_dvd: Ou unha unidade DVD ou un porto USB para o medio de instalación
+requirements_net: O acceso a Internet é útil e necesario para facer unha instalación
+  mediante a rede
+tw_switch: Modo sinxelo de cambiar a openSUSE Tumbleweed
+upgrade_table_linux: Desde unha versión máis antiga doutra distribución de Linux
+upgrade_table_windows: Desde Windows
+upgrade_table_mac: Desde OS X
+upgrade_table_linux_dvd: Como gravar un DVD en Linux.
+upgrade_table_windows_dvd: Como gravar un DVD en Windows.
+upgrade_table_mac_dvd: Como gravar un DVD en OS X.
+upgrade_table_mac_dvd_link: http://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Como crear en Linux unha memoria USB capaz de arrancar openSUSE.
+upgrade_table_windows_usb: Como crear en Windows unha memoria USB capaz de arrancar
+  openSUSE.
+upgrade_table__mac_usb: Como crear en OS X unha memoria USB capaz de arrancar openSUSE.
+verify_download: Comprobe a súa descarga antes de usar
+verify_download_checksums_help: Axuda sobre as sumas de comprobación
+index_desktop: Escritorio

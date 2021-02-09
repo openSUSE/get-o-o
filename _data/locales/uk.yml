@@ -1,0 +1,40 @@
+---
+site_title: Завантажити openSUSE
+search: Пошук
+license: Ліцензія
+cd_desc: Для КД та USB-носія
+dvd_desc: Для DVD та USB-носія
+metalink: Meta-посилання
+pick_mirror: Виберіть дзеркало
+checksum: Контрольна сума
+torrent_file: BitTorrent
+network_image: Мережний образ
+installation_images: Носій встановлення
+live_images: "„Живий“ KDE"
+rescue_cd: Відновлення
+choosing_media: Вибір носія для завантаження
+documentation: Документація
+documentation_startup_guide: Програми в openSUSE
+documentation_release_notes: Примітки до випуску
+documentation_license: Ліцензія
+documentation_full_documentation: Повна документація
+leap_switch: Як перейти на openSUSE Leap
+requirements: Рекомендовані системні вимоги
+requirements_cpu: двоядерний процесор на 2 ГГц або кращий
+requirements_mem: 2 ГБ системної пам'яті
+requirements_hd: Понад 40 ГБ вільного місця на жорсткому диску
+requirements_dvd: DVD-привід або USB-порт для інсталяційного носія
+requirements_net: Доступ в інтернет не завадить, а для установки по мережі необхідний
+tw_switch: Як перейти на openSUSE Tumbleweed
+upgrade_table_linux: Із старішої версії або іншого дистрибутиву Linux
+upgrade_table_windows: Із Windows
+upgrade_table_mac: Із OS X
+upgrade_table_linux_dvd: Як записати DVD в Linux.
+upgrade_table_windows_dvd: Як записати DVD в Windows.
+upgrade_table_mac_dvd: Як записати DVD в OS X.
+upgrade_table_linux_usb: Як створити завантажувальний USB-носій в Linux.
+upgrade_table_windows_usb: Як створити завантажувальний USB-носій в Windows.
+upgrade_table__mac_usb: Як створити завантажувальний USB-носій в OS X.
+verify_download: Перевірка вашого звантаження перед використанням
+verify_download_checksums_help: Довідка з контрольних сум
+yast_software: Програми

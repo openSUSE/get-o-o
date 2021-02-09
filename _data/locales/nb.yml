@@ -1,0 +1,44 @@
+---
+site_title: Hent openSUSE
+search: Søk
+license: Lisens
+pick_mirror: Velg en speilserver
+checksum: Kontrollsum
+torrent_file: BitTorrent
+network_image: Nettverk
+installation_images: Installasjonsmedier
+live_images: Live KDE
+rescue_cd: Redningssystem
+choosing_media: Velg medie som skal lastes ned
+documentation: Dokumentasjon
+documentation_startup_guide: Hent programvare
+documentation_release_notes: Utgitt versjon
+documentation_license: Lisens
+documentation_full_documentation: Full dokumentasjon
+leap_switch: Lette måter å bytte til openSUSE Leap
+leap_switch_instructions_link: http://en.opensuse.org/Derivatives
+requirements_cpu: 2 Ghz dobbeltkjernet prosessor eller bedre
+requirements_mem: 2 GB systemminne
+requirements_dvd: Enten et DVD-drev eller USB-port til installasjonsmediet
+requirements_net: Internett-tilgang er nyttig, og det kreves for nettverksinstallasjon
+tw_switch: Lette måter å skifte til openSUSE Tumbleweed
+tw_switch_instructions_link: http://en.opensuse.org/openSUSE:Submitting_bug_reports
+upgrade_table_linux: Fra en eldre versjon eller annen versjon av Linux
+upgrade_table_windows: Fra Windows
+upgrade_table_mac: Fra OS X
+upgrade_table_linux_dvd: Brenn en DVD i Linux.
+upgrade_table_linux_dvd_link: http://en.opensuse.org/SDB:Download_help
+upgrade_table_windows_dvd: Brenn en DVD i Windows.
+upgrade_table_windows_dvd_link: http://en.opensuse.org/SDB:Download_help
+upgrade_table_mac_dvd: Brenn en DVD i OS X.
+upgrade_table_mac_dvd_link: http://en.opensuse.org/SDB:Download_help#Burn_the_ISO_image.28s.29
+upgrade_table_linux_usb: Oprett en oppstartsbar USB-penn på Linux.
+upgrade_table_linux_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table_windows_usb: Opprett en oppstartsbar USB-penn på Windows.
+upgrade_table_windows_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table__mac_usb: Opprett en oppstartsbar USB-penn på OS X.
+upgrade_table__mac_usb_link: http://en.opensuse.org/Derivatives
+verify_download: Verifiser nedlastingen før bruk
+verify_download_checksums_help: Hjelp med Kontrollsummer
+verify_download_checksums_help_link: http://en.opensuse.org/SDB:Download_help
+yast_software: Programvare

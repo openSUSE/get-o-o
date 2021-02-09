@@ -1,0 +1,23 @@
+---
+site_title: Awi
+search: Rechercher
+license: Turagt
+cd_desc: Err amagrad-agi ɣer sdat deg usebter agejdan
+dvd_desc: DVD
+pick_mirror: Mirroir
+checksum: Siḍen adisemdayen
+network_image: "&Réseau"
+installation_images: Asbeddi n %s inezri
+documentation: Tasemlit
+documentation_startup_guide: A&mnir...
+documentation_release_notes: Tizmilin n leqqem
+documentation_license: Turagt
+documentation_full_documentation: Tase&mlit
+requirements: Yettuwelleh
+requirements_mem: "%1$.2f GAṬ / %2$.2f GAṬ"
+upgrade_table_windows: Isfuyla
+upgrade_table_mac: Interface Mac OS X minimale
+verify_download: G leɛnaya-k, pre-ẓer ibeddlen inek uqbel ad tesmektiḍ!
+verify_download_checksums_help: "&Tallalt..."
+yast_software: Aseɣẓan
+index_desktop: Bureau

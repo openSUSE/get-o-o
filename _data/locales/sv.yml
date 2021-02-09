@@ -1,0 +1,36 @@
+---
+site_title: Skaffa openSUSE
+search: Sök
+license: Licens
+cd_desc: För CD och USB minne
+dvd_desc: För DVD och USB minne
+metalink: Metalänk
+pick_mirror: Välj Spegel
+checksum: Kontrollsumma
+torrent_file: Torrent fil
+hyperv_desc: För körande av virtuella maskiner i MS Hyper-V
+vmware_desc: För körande av virtuella maskiner i VMware
+openstack_desc: För körande av virtuella maskiner i OpenStack
+kubic_desc: Container som en tjänstplattform baserad på Kubernetes i openSUSE MicroOS.
+choosing_media: Välj vilket media som ska laddas ner
+documentation: Dokumentation
+documentation_license: Licens
+documentation_full_documentation: Full Dokumentation
+leap_switch: Enkla sätt att byta till openSUSE Leap
+requirements: Rekommenderade systemkrav
+requirements_cpu: 2 GHz dual core-processor eller bättre
+requirements_mem: 2 GB systemminne
+requirements_dvd: Antingen en DVD-spelare eller en USB-kontakt för installationsmediat
+tw_switch: Enkla sätt att byta till openSUSE Tumbleweed
+upgrade_table_linux: Från en äldre version eller annan Linux distro
+upgrade_table_windows: Från Windows
+upgrade_table_mac: Från OS X
+upgrade_table_linux_dvd: Hur man bränner en DVD med Linux.
+upgrade_table_windows_dvd: Hur man bränner en DVD med Windows.
+upgrade_table_mac_dvd: Hur man bränner en DVD med OS X.
+upgrade_table_linux_usb: Hur man skapar ett bootbart USB minne med Linux.
+upgrade_table_windows_usb: Hur man skapar ett bootbart USB minne med Windows.
+upgrade_table__mac_usb: Hur man skapar ett bootbart USB minne med OS X.
+verify_download_checksums_help: Hjälp för kontrollsummor
+yast_software: Programvara
+index_desktop: Skrivbord

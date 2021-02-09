@@ -1,0 +1,47 @@
+---
+site_title: Hanki openSUSE
+search: Etsi
+license: Lisenssi
+cd_desc: CD:lle tai USB-tikulle
+dvd_desc: DVD:lle tai USB-tikulle
+metalink: Metalinkki
+pick_mirror: Valitse peilipalvelin
+checksum: Tarkistussumma
+torrent_file: Torrent-tiedosto
+network_image: Verkkolevykuva
+kvm_desc: KVM- tai XEN HVM -hypervisiirien käyttöön
+xen_desc: XEN PV -hypervisiirien käyttöön
+hyperv_desc: Virtuaalikoneiden ajamiseksi MS HyperV:ssä
+vmware_desc: Virtuaalikoneiden ajamiseksi VMwaressa
+openstack_desc: Virtuaalikoneiden ajamiseksi OpenStackissä
+installation_images: Asennus
+ports_images: Siirrokset
+kubic_desc: Container on Kubernetesiin perustuva palvelualusta openSUSE MicroOSin
+  yllä.
+choosing_media: Miten valita ladattava tietoväline
+documentation: Dokumentaatio
+documentation_startup_guide: openSUSE-aloitusopas
+documentation_release_notes: Julkaisutiedot
+documentation_license: Lisenssi
+documentation_full_documentation: Kaikki ohjeet
+leap_switch: Helppoja tapoja vaihtaa openSUSE Leapiin
+requirements: Suositellut järjestelmävaatimukset
+requirements_cpu: 2 GHz kaksiytiminen tai parempi suoritin
+requirements_mem: 2 Gt järjestelmämuistia
+requirements_hd: Yli 40 Gt vapaata kiintolevytilaa
+requirements_dvd: Joko DVD-asema tai USB-portti asennustietovälineelle
+requirements_net: Internet-yhteydestä on apua, ja verkkoasennus vaatii sitä
+tw_switch: Helppoja tapoja vaihtaa openSUSE Tumbleweediin
+upgrade_table_linux: Aiemmasta versiosta tai toisesta Linux-jakelusta
+upgrade_table_windows: Windowsista
+upgrade_table_mac: OS X:stä
+upgrade_table_linux_dvd: Miten polttaa DVD Linuxissa.
+upgrade_table_windows_dvd: Miten polttaa DVD Windowsissa.
+upgrade_table_mac_dvd: Miten polttaa DVD OS X:ssä.
+upgrade_table_linux_usb: Kuinka luoda käynnistettävä USB-tikku Linuxissa.
+upgrade_table_windows_usb: Kuinka luoda käynnistettävä USB-tikku Windowsissa.
+upgrade_table__mac_usb: Kuinka luoda käynnistettävä USB-tikku OS X:ssä.
+verify_download: Tarkista latauksesi ennen käyttöä
+verify_download_checksums_help: Tarkistussummien ohje
+yast_software: Ohjelmat
+index_desktop: Työpöytä

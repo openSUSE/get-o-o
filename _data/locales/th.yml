@@ -1,0 +1,26 @@
+---
+site_title: openSUSE.org
+search: ค้นหา
+metalink: เมตาลิงก์
+pick_mirror: เลือกแม่ข่ายสำรอง
+checksum: ผลรวมตรวจสอบแบบ md5
+torrent_file: บิททอร์เรนท์
+network_image: ระบบเครือข่าย
+installation_images: สื่อสำหรับติดตั้ง
+live_images: แผ่นซีดีระบบ KDE ในรูปแบบ Live
+choosing_media: คลิกเพื่อดาวน์โหลด
+documentation: ส่วนต่อขยายเชื่อมแล็ปท็อป
+documentation_startup_guide: เลือกซอฟต์แวร์
+documentation_release_notes: รุ่นที่ออกเผยแพร่แล้ว
+documentation_full_documentation: ส่วนต่อขยายเชื่อมแล็ปท็อป
+leap_switch_instructions_link: http://en.opensuse.org/Derivatives
+tw_switch_instructions_link: http://en.opensuse.org/Buy_openSUSE
+upgrade_table_linux_dvd_link: http://en.opensuse.org/Derivatives
+upgrade_table_windows_dvd_link: http://en.opensuse.org/Derivatives
+upgrade_table_mac_dvd_link: http://en.opensuse.org/Derivatives
+upgrade_table_linux_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table_windows_usb_link: http://en.opensuse.org/Derivatives
+upgrade_table__mac_usb_link: http://en.opensuse.org/Derivatives
+verify_download: ตรวจความถูกต้องของการดาวน์โหลดของคุณ (เป็นตัวเลือก สำหรับผู้ใช้ที่ชำนาญ)
+verify_download_checksums_help_link: http://en.opensuse.org/Derivatives
+yast_software: ซอฟต์แวร์

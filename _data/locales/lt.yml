@@ -1,0 +1,49 @@
+---
+site_title: Parsisiųsti openSUSE
+search: Ieškoti
+license: Licencija
+cd_desc: CD ir atmintukui
+dvd_desc: DVD ir atmintukui
+metalink: Meta nuoroda
+pick_mirror: Išsirinkti veidrodį
+checksum: Kontrolinė suma
+torrent_file: Torrent rinkmena
+network_image: Atvaizdis diegimui per tinklą
+kvm_desc: Naudoti KVM arba XEN HVM prižiūryklėje
+xen_desc: Naudoti XEN PV prižiūryklėse
+hyperv_desc: Naudoti MS HyperV virtualioje mašinoje
+vmware_desc: Naudoti VMware virtualioje mašinoje
+openstack_desc: OpenStack virtualioms mašinoms
+installation_images: Diegimas
+ports_images: Kitos architektūros
+live_images: Demonstracinis
+rescue_cd: Avarinė sistema
+kubic_desc: Konteineris kaip paslaugos platforma, paremta Kubernetes ir openSUSE MicroOS.
+choosing_media: Laikmenos pasirinkimas
+documentation: Dokumentacija
+documentation_startup_guide: openSUSE pradžiamokslis
+documentation_release_notes: Pastabos apie laidą
+documentation_license: Licencija
+documentation_full_documentation: Visa dokumentacija
+leap_switch: Paprastas perėjimas prie „openSUSE Leap“
+requirements: Rekomenduojami sistemos parametrai
+requirements_cpu: 2 GHz bent dviejų branduolių procesorius
+requirements_mem: 2 GB laisvosios prieigos atminties
+requirements_hd: Bent 40 GB laisvos vietos diske
+requirements_dvd: DVD skaitytuvo ar USB lizdo diegimo laikmenai įdėti
+requirements_net: Interneto ryšys, jei diegiama internetu
+tw_switch: Paprastas perėjimas prie „openSUSE Tumbleweed“
+upgrade_table_linux: iš senesnės Linux sistemos ar kito Linux platinamojo paketo
+upgrade_table_windows: iš Windows
+upgrade_table_mac: iš OS X
+upgrade_table_linux_dvd: Kaip Linux sistemoje įrašyti į DVD.
+upgrade_table_windows_dvd: Kaip Windows sistemoje įrašyti į DVD.
+upgrade_table_mac_dvd: Kaip OS X sistemoje įrašyti į DVD.
+upgrade_table_linux_usb: Kaip Linux sistemoje sukurti iš atmintuko paleidžiamą sistemą.
+upgrade_table_windows_usb: Kaip Windows sistemoje sukurti iš atmintuko paleidžiamą
+  sistemą.
+upgrade_table__mac_usb: Kaip OS X sistemoje sukurti iš atmintuko paleidžiamą sistemą.
+verify_download: Parsisiųstųjų rinkmenų tikrinimas
+verify_download_checksums_help: apie kontrolines sumas
+yast_software: Programinė įranga
+index_desktop: Darbalaukis

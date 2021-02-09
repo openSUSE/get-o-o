@@ -1,0 +1,49 @@
+---
+site_title: Võtke openSUSE
+search: Otsing
+license: Litsents
+cd_desc: CD ja USB mälupulga jaoks
+dvd_desc: DVD ja USB mälupulga jaoks
+pick_mirror: Valige peegel
+checksum: Kontrollsumma
+torrent_file: Torrenti fail
+network_image: Võrgupaigalduse tõmmis
+kvm_desc: Kasutamiseks KVM või XEN HVM hüperviisorites
+xen_desc: Kasutamiseks XEN PV hüperviisorites
+hyperv_desc: Virtuaalsete masinate käitamiseks MS HyperV-s
+vmware_desc: Virtuaalsete masinate käitamiseks VMware's
+openstack_desc: Virtuaalsete masinate käitamiseks OpenStackis
+installation_images: Paigaldamine
+ports_images: Pordid
+live_images: Live - otse plaadilt
+gnome_cd: GNOME Live CD
+kde_cd: KDE Live CD
+rescue_cd: Päästmise LiveCD
+kubic_desc: Konteiner Kubernetesil põhineva teenusplatvormina avab OpenSUSE MicroOSi.
+choosing_media: Allalaaditava andmekandja valimine
+documentation: Dokumentatsioon
+documentation_startup_guide: openSUSE Alustamise juhend
+documentation_release_notes: Väljalaske Info
+documentation_license: Litsents
+documentation_full_documentation: Kogu dokumentatsioon
+leap_switch: Lihtsad viisid OpenSUSE Leapi üleminekuks
+requirements: Soovitatavad süsteeminõuded
+requirements_cpu: 2 GHz kahetuumaline protsessor või parem
+requirements_mem: 2 GB süsteemimälu RAM
+requirements_hd: Üle 40 GB vaba kõvakettaruumi
+requirements_dvd: Kas DVD-seade või USB-port paigaldustarkvara jaoks
+requirements_net: Interneti-juurdepääs on kasulik ja võrgupaigalduse jaoks vajalik
+tw_switch: Lihtsad viisid OpenSUSE Tumbleweedi üleminekuks
+upgrade_table_linux: Vanemast versioonist või muust Linuxi distrost tulemine
+upgrade_table_windows: Windows'st tulemine
+upgrade_table_mac: OS X-ist tulemine
+upgrade_table_linux_dvd: Kuidas toimub DVD kirjutamine Linuxis.
+upgrade_table_windows_dvd: Kuidas toimub DVD kirjutamine Windowsis.
+upgrade_table_mac_dvd: Kuidas toimub DVD kirjutamine OS X-s.
+upgrade_table_linux_usb: Kuidas luua alglaaditav USB-mälupulk Linuxis.
+upgrade_table_windows_usb: Kuidas luua Windowsis alglaaditav USB-mälupulk.
+upgrade_table__mac_usb: Kuidas luua alglaaditav USB-mälupulk OS X-s.
+verify_download: Enne kasutamist kontrollige allalaaditut
+verify_download_checksums_help: Kontrollsummade abi
+yast_software: Tarkvara
+index_desktop: Töölaud
