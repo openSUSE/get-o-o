@@ -64,8 +64,14 @@ localization:
   locales_set:
     ar:
       name: العربية
+    bg:
+      name: Български
+    ca:
+      name: Català
     cs:
       name: Čeština
+    da:
+      name: Dansk
     de:
       name: Deutsch
     el:
@@ -74,37 +80,81 @@ localization:
       name: English
     es:
       name: Español
+    es_419:
+      name: Español latinoamericano
+    et:
+      name: Eesti
+    fa:
+      name: فارسی
     fi:
       name: Suomi
     fr:
       name: Français
+    gl:
+      name: Galego
+    hi:
+      name: हिन्दी
     hu:
       name: Magyar
+    id:
+      name: Indonesia
     is:
       name: Íslenska
     it:
       name: Italiano
     ja:
       name: 日本語
+    kab:
+      name: Kabyle
+    km:
+      name: ខ្មែរ
     ko:
       name: 한국어
+    lt:
+      name: Lietuvių
+    nb:
+      name: Norsk bokmål
     nl:
       name: Nederlands
+    nn:
+      name: Norwegian nynorsk
     pl:
       name: Polski
     pt:
       name: Português
+    pt_BR:
+      name: Português
+    pt_PT:
+      name: Português europeu
+    ro:
+      name: Română
     ru:
       name: Русский
+    sk:
+      name: Slovenčina
     sv:
       name: Svenska
     tr:
       name: Türkçe
     vi:
       name: Tiếng Việt
+    th:
+      name: ไทย
+    tzm:
+      name: Central atlas tamazight
+    uk:
+      name: Українська
+    wa:
+      name: Walloon
     zh-CN:
       name: 简体中文
+    zh_CN:
+      name: 简体中文
+    zh_HK:
+      name: 繁體中文
     zh-TW:
+      name: 繁體中文
+    zh_TW:
       name: 繁體中文
 
 exclude: [README.md, LICENSE, Gemfile, Gemfile.lock, vendor, Rakefile]
