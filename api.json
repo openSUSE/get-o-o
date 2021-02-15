@@ -7,6 +7,7 @@ permalink: "/api/v0/distributions"
     {
       "name": "openSUSE Leap",
       "version": "{{ release.version }}",
+      "state": "{% currentstate {{ release.version }} %}",
       "upgrade-weight": {{ release.order }}
     }{% if forloop.last != true %},{% endif %}
     {%- endfor %}
