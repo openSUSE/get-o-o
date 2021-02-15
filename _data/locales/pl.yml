@@ -73,9 +73,7 @@ upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick
 verify_download: Zweryfikuj pobrany obraz zanim go użyjesz
 verify_download_p1: "Wiele aplikacji może zweryfikować sumy kontrolne pobranych plików.\
   \ Weryfikacja\npliku może być ważna, gdyż weryfikuje ona czy naprawdę pobrano\n\
-  prawidłowy plik ISO, a nie jakąś zepsutą wersję. Możesz równiesz\nzweryfikować plik\
-  \ w trakcie pobierania. Na przykład suma kontrolna\n(SHA256) będzie użyta automatycznie\
-  \ jeśli wybierzesz Metalink w\nliście powyżej i użyj wtyczki DownThemAll! w Firefoksie.\n"
+  prawidłowy plik ISO, a nie jakąś zepsutą wersję.\n"
 verify_download_p2: "Do każdego ISO, oferujemy plik sumy kontrolnej z odpowiadającą\
   \ sumą SHA256.\n"
 verify_download_p3: "Dla dodatkowego bezpieczeństwa, możesz użyć GPG by zweryfikować\
@@ -85,3 +83,126 @@ verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczyt
 verify_download_checksums_help: pomoc z sumami kontrolnymi
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Wiele pulpitów, trzy domyślnie
+site_title: Złap openSUSE
+site_title_short: Złap
+cd_desc: Na płyty CD i pamięć USB
+dvd_desc: Na płyty DVD i pamięć USB
+usb_desc: Na pamięć USB
+pick_mirror: Wybierz serwer lustrzany
+checksum: Suma kontrolna
+torrent_file: Plik torrent
+offline_image: Obraz offline
+choosing_media_p1: "Obraz na płytę DVD/pamięć USB jest zwykle rekomendowany, ponieważ\
+  \ zawiera on większość\npaczek dostępnych w dystrybucji i nie wymaga połączenia\
+  \ z siecią w czasie instalacji.\n"
+choosing_media_p2: "Obraz sieciowy na płytę CD/pamięć USB jest rekomendowany dla użytkowników,\
+  \ którzy mają ograniczoną\nprzepustowość łącza internetowego, ponieważ pobiera on\
+  \ tylko paczki wybrane w czasie instalacji, co w\nwiększości wypadków będzie zdecydowanie\
+  \ mniej niż 4.7GB\n"
+leap_switch_p1: "Jeśli już korzystasz z openSUSE, możesz zaaktualizować poprzez uruchomienie\n\
+  wypalonego obrazu na płycie DVD/pamięci USB i wybranie opcji aktualizacji,\nlub\
+  \ przeprowadzenie 'Aktualizacji przez Internet' w kilku komendach.\n"
+tw_switch_p1: "Jeśli już korzystasz z openSUSE, możesz zaaktualizować poprzez uruchomienie\n\
+  wypalonego obrazu na płycie DVD/pamięci USB i wybranie opcji aktualizacji,\nlub\
+  \ przeprowadzenie 'Aktualizacji przez Internet' w kilku komendach.\n"
+upgrade_table_linux_usb: Jak stworzyć uruchamialną pamięć USB na Linuksie.
+upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB na Windowsie.
+upgrade_table__mac_usb: Jak stworzyć uruchamialną pamięć USB na OS X.
+desktops_p1: "Proces udziału w openSUSE wspiera rozwój pulpitów dla wszystkich, więc\
+  \ masz możliwość wyboru swojego ulubionego w instalatorze. My aktywnie wspieramy\
+  \ trzy z nich i oferujemy więcej w rozszerzonym widoku oprogramowania w instalatorze.\n"
+installation: Pobierz tak jak chcesz
+installation_p1: "Proces instalacji openSUSE daje Ci wszystkie opcje jakie tylko potrzebujesz.\
+  \ Chcesz zainstalować system za pomocą myszki i klawiatury? Załaduj instalator w\
+  \ trybie graficznym. Nie masz myszki pod ręką? Uruchom tryb tekstowy i zainstaluj\
+  \ w ten sposób. Masz tylko fizyczny dostęp do maszyny? Połącz się z instalatorem\
+  \ sieciowo i rozpocznij instalację. To takie proste.\n"
+points_transparent: Wszystko jest przeźroczyste
+points_transparent_p1: "Od początku do końca, każda paczka która trafia do dystrybucji\
+  \ ma wszystkie swoje źródła i skrypty widoczne dla każdego do zobaczenia. Wątpisz\
+  \ w źródło? Sprawdź je w systemie budowania paczek.\n"
+points_free: Wolne oprogramowanie? Twój wybór
+points_free_p1: "Paczki w dystrybucji podzielone są w wolne i nie wolne repozytoria.\
+  \ Nie chcesz używać nie wolnych paczek? Możesz łatwo wyłączyć nie wolne repozytorium.\
+  \ To Twój wybór, nie nasz.\n"
+points_welcoming: Witanie brania udziału
+points_welcoming_p1: "Staramy się najlepiej by zadowolić społeczność i jesteśmy to\
+  \ w stanie zrobić tylko gdy społeczność jest wokalna o tym czego potrzebują. Z tego\
+  \ powodu zapewniamy branie udziału jest tak proste jak to tylko możliwe.\n"
+snapper: System się zepsuł? To już nie problem
+snapper_p1: "Funkcja Migawek dysku zachowuje twój system plików pod kontrolą poprzez\
+  \ przeprowadzanie automatycznych kopii zapasowych podczas instalacji oprogramowania\
+  \ i aktualizacji. Po prostu uruchom system z poprzeniej migawki i przywróć swój\
+  \ system na nogi w kilka minut.\n"
+software: Znajdowanie oprogramowania nie mogło być łatwiejsze
+software_p1: "Mówiąc między nami, konieczność wchodzenia na każdą stronę żeby znaleźć\
+  \ całe oprogramowanie którego potrzebujesz to dużo pracy. Internetowe centrum oprogramowania\
+  \ powoduje, że jest to dużo prostsze, poprzez zebranie oprogramowania z dużej ilości\
+  \ źródeł w jednym miejscu.\n"
+software_get: Złap oprogramowanie
+transactional: Serwer tranzakcjonalny
+transactional_p1: "Instaler wspiera teraz nową rolę systemu, Serwer Tranzakcjonalny,\
+  \ który powstał poprzez openSUSE Kubic. Ta rola pozwala posiada funkcję aktualizacji\
+  \ systemu atomicznie (w jednej operacji) i pozwala na łatwe powrócenie do poprzedniego\
+  \ stanu jeśli potrzeba. Te funkcje oparte są na tych samych menadżerach paczek jak\
+  \ i reszta dystrybucji od SUSE i openSUSE. To znaczy że zdecydowana większość paczek\
+  \ RPM które działają z innymi rolami na dystrybucjach openSUSE będzie działała również\
+  \ z rolą Serwera Tranzakcjonalnego.\n"
+yast: YaST, nalepszy wybór dla ~~zaawansowanego~~ użytkownika
+yast_p1: "Jedno z najlepszych narzędzi do konfiguracji systemu pomaga tobie, użytkownikowi,\
+  \ ustawić każdy aspekt twojego systemu. Nie musisz już przechodzić przez wiele skryptów\
+  \ konfiguracyjnych przez wątpliwe komendy by ustawić swój system tak jak go potrzebujesz.\n"
+yast_firewall: Zapora Sieciowa
+yast_fonts: Czcionki
+yast_hardware: Sprzęt
+yast_partitioner: Partycjoner
+yast_printer: Drukarka
+yast_scanner: Skaner
+yast_sound: Dźwięk
+yast_software: Oprogramowanie
+zypper: Zypper, Twój nowy ulubiony menadżer paczek
+zypper_p1: "Jest szybki i prosty w obsłudze. Dostarcza zypper-apt, powłokę kompatybilności\
+  \ do użytku z komendami apt i apt-get. Jest oparty o libsolv, który gwarantuje szybkość\
+  \ i powtarzalność tranzakcji zależności. Interfejs jest przejrzysty i odpowiednio\
+  \ pokolorowany, dla najlepszej czytelności. Jest perfekcyjny, co więcej można powiedzieć.\n"
+index: Dystrybucje openSUSE
+index_p1: Na komputery stacjonarne, serwery i wszystko pomiędzy
+index_desktop: Komputer Stacjonarny
+index_desktop_p1: Wybór dystrybucji do użytku na komputerach stacjonarnych
+index_server: Serwer
+index_server_p1: Wybór dystrybucji do użytku na serwerach
+index_full: Lub idź bezpośrednio na strony do pobrania dystrybucji
+desktop: Dystrybucje openSUSE na komputery stacjonarne
+desktop_p1: "Dwie dystrybucje by rządzić nimi wszystkimi (teraz również w zieleni!)\n"
+desktop_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
+  Linuksa/wolnego oprogramowania
+desktop_tumbleweed_p2: Tocząca dystrybucja z najnoszymi paczkami dostarczonymi przez
+  projekt openSUSE.
+desktop_leap_p1: Dla sysadminów, deweloperów przedsiębiorczych i 'zwykłych' użytkowników
+  komputerów stacjonarnych
+desktop_leap_p2: Zwykłe wydanie z zaletami zarówno profesjonalnej inżynierii jak i
+  innowacji społeczności.
+server: Dystrybucje openSUSE dla serwerów
+server_p1: "Cztery wygodnie nudne dystrybucje, tak jak to powinno być\n"
+server_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
+  Linuksa/wolnego oprogramowania
+server_tumbleweed_p2: Tocząca dystrybucja z najnoszymi paczkami dostarczonymi przez
+  projekt openSUSE.
+server_leap_p1: Dla sysadminów, deweloperów przedsiębiorczych i 'zwykłych' użytkowników
+  komputerów stacjonarnych
+server_leap_p2: Zwykłe wydanie z zaletami zarówno profesjonalnej inżynierii jak i
+  innowacji społeczności.
+server_kubic_p1: Dla serwerowych trybów pracy w kontenerach
+server_kubic_p2: Wielo-zadaniowy wolnostojący i oparty na Kubernetes system operacyjny
+  do pracy z kontenerami, oparty o openSUSE MicroOS
+server_microos_p1: Dla jednozadaniowych aplikacji serwerowych
+server_microos_p2: Zaprojektowany do hostowania kontenerowych trybów zadań z automatyczną
+  administracją i aktualizacjami
+new_version_available: $distro_name jest dostępne do pobrania
+new_version_testing: $distro_name jest teraz dostępne do pobrania i testowania
+view_distro: Zobacz $distro_name
+x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit (x86_64)
+i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit (i686)
+aarch64: Komputery stacjonarne, laptopy i płyty oparte o UEFI Arm 64-bit (aarch64)
+ppc64le: Serwery oparte o PowerPC, nie duży endian (ppc64le)
+s390x: IBM Z i LinuxONE (s390x)
