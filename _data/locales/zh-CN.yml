@@ -34,12 +34,12 @@ installation_images: 安装
 ports_images: 移植
 ports_info: "openSUSE 其他 PC 外的架构移植由单独的社区团队维护，资源有限。\n"
 jeos_images: JeOS
-live_images: 自生
+live_images: Live
 gnome_cd: GNOME 体验 CD
 kde_cd: KDE 体验 CD
 xfce_cd: Xfce 体验 CD
-rescue_cd: 救援自生 CD
-tumbleweed_live_info: "请注意自生映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed\
+rescue_cd: 救援 LiveCD
+tumbleweed_live_info: "请注意体验映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed\
   \ media](/tumbleweed)\n* 它们的软件包和驱动选择都有限，因此不能认为它能够准确反映 Tumbleweed 在你的硬件上能否运行\n"
 kubic_desc: 容器即服务平台，基于 openSUSE MicroOS 上的 Kubernetes。
 microos_desc: 基于 openSUSE Tumbleweed 的系统，提供在只读 btrfs 根文件系统上的事务性（原子）更新
