@@ -1,17 +1,17 @@
 site_title: 获取 openSUSE
 site_title_short: 获取
-site_description: 了解和下载 openSUSE 发行版
+site_description: 免费了解和下载 openSUSE 发行版
 site_copyright: © 2020 openSUSE 贡献者
 absolute_link: 绝对链接
 relative_link: 相对链接
 search: 搜索
 translate: 翻译
 source_code: 源码
-license: 许可
+license: 许可证
 learn_more: 了解更多
-cd_desc: 用于 CD 和 USB 闪存盘
-dvd_desc: 用于 DVD 和 USB 闪存盘
-usb_desc: 用于 USB 闪存盘
+cd_desc: 用于 CD 和 U 盘
+dvd_desc: 用于 DVD 和 U 盘
+usb_desc: 用于 USB 盘
 metalink: Metalink
 pick_mirror: 选择镜像站
 checksum: 校验码
