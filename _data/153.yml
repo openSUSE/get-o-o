@@ -20,8 +20,6 @@ downloads:
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso.torrent
     - name: network_image
       desc: network_desc
       primary_link: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso
@@ -32,8 +30,6 @@ downloads:
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso.torrent
   - name: aarch64
     types:
     - name: offline_image
