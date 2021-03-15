@@ -120,13 +120,11 @@ desktops_p1: |
   installer. We actively feature three desktop environments, and offer
   even more in the expanded software view within the installer.
 installation: Install it how you want it
-installation_p1: |
-  The openSUSE Installation process provides you with all the options
-  you would possibly need. Want to install your system with mouse and
-  keyboard? Load up the installer in graphical mode. Don't have a mouse
-  on hand? Enable the terminal client and install it that way. Only have
-  physical access to the machine? Connect to the installer remotely and
-  get on with the installation. It's that simple.
+installation_p1: "The openSUSE Installation process provides you with all the options\n\
+  you would possibly need. Want to install your system with mouse and\nkeyboard? Load\
+  \ up the installer in graphical mode. Don't have a mouse\non hand? Enable the terminal\
+  \ client and install it that way. Don't have\nphysical access to the machine? Connect\
+  \ to the installer remotely and\nget on with the installation. It's that simple.\n"
 points_transparent: Everything is transparent
 points_transparent_p1: |
   From start to finish, every package which goes into the distributions
@@ -196,7 +194,8 @@ index_full: Or go straight to the download pages for the distributions
 desktop: openSUSE Desktop Distributions
 desktop_p1: |
   The two distributions to rule them all (now in green!)
-desktop_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS Enthusiasts
+desktop_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
+  Enthusiasts
 desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
   Project.
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
@@ -205,7 +204,8 @@ desktop_leap_p2: Regular release with the benefits of both enterprise-grade engi
 server: openSUSE Server Distributions
 server_p1: |
   Four comfortably boring distributions, how it always should be
-server_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS Enthusiasts
+server_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
+  Enthusiasts
 server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
   Project.
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
