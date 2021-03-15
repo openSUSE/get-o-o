@@ -119,9 +119,9 @@ installation: Instal·leu-lo com vulgueu
 installation_p1: "El procés d'instal·lació de l'openSUSE us ofereix totes les opcions\
   \ que\npossiblement necessitaríeu. Voleu instal·lar el sistema amb el ratolí i\n\
   teclat? Carregueu l’instal·lador en mode gràfic. No teniu un ratolí\na mà? Habiliteu\
-  \ el client del terminal i instal·leu-lo així. Només en teniu\naccés físic a la\
-  \ màquina? Connecteu-vos a l'instal·lador de forma remota i\ncontinueu la instal·lació.\
-  \ És així de senzill.\n"
+  \ el client del terminal i instal·leu-lo així. No teniu\naccés físic a la màquina?\
+  \ Connecteu-vos a l'instal·lador de forma remota i\ncontinueu la instal·lació. És\
+  \ així de senzill.\n"
 points_transparent: Tot és transparent
 points_transparent_p1: "De principi a final, cada paquet que entra a les distribucions\
   \ té totes\nles seves fonts i scripts de construcció oberts i visibles per a tothom.\n\
