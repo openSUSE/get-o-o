@@ -138,7 +138,7 @@ snapper_p1: "O recurso Filesystem Snapshots mantém seu sistema de arquivos sob 
   \ trazer\nseu sistema a um estado de funcionamento em questão de minutos.\n"
 software: Obter software não poderia ser mais fácil
 software_p1: "Entre nós, ter que passar por todos os sites para obter todos os\no\
-  \ software de que você pode precisar dá muito trabalho. Centro de software online\n\
+  \ software de que você pode precisar dá muito trabalho. O centro de software online\n\
   torna isso mais fácil, incorporando software de uma infinidade de\nfontes em um\
   \ só lugar.\n"
 software_get: Obter Software
@@ -179,8 +179,8 @@ index_server_p1: Seleção de distribuições para uso em servidor
 index_full: Ou vá direto para as páginas de download das distribuições
 desktop: Distribuições openSUSE Desktop
 desktop_p1: "As duas distribuições para governar todos eles (agora em verde!)\n"
-desktop_tumbleweed_p1: Para desenvolvedores, contribuidores do openSUSE e entusiastas
-  do Linux/FOSS
+desktop_tumbleweed_p1: Para desenvolvedores, colaboradores do openSUSE, jogadores
+  e entusiastas de Linux/FOSS
 desktop_tumbleweed_p2: Lançamento contínuo com os pacotes mais recentes fornecidos
   pelo Projeto openSUSE.
 desktop_tumbleweed_view: Ver Tumbleweed
@@ -192,8 +192,8 @@ desktop_leap_view: Ver Leap
 server: Distribuições do servidor openSUSE
 server_p1: "Quatro distribuições confortavelmente enfadonhas, como sempre deveria\
   \ ser\n"
-server_tumbleweed_p1: Para desenvolvedores, contribuidores do openSUSE e entusiastas
-  do Linux/FOSS
+server_tumbleweed_p1: Para desenvolvedores, colaboradores do openSUSE, jogadores e
+  entusiastas de Linux/FOSS
 server_tumbleweed_p2: Lançamento contínuo com os pacotes mais recentes fornecidos
   pelo Projeto openSUSE.
 server_tumbleweed_view: Ver Tumbleweed

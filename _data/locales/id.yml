@@ -1,7 +1,7 @@
 site_title: Dapatkan openSUSE
 site_title_short: Dapatkan
 site_description: Pelajari tentang distribusi openSUSE dan unduh secara gratis
-site_copyright: © 2020 kontributor openSUSE
+site_copyright: © 2020 Kontributor openSUSE
 search: Cari
 translate: Terjemahkan
 source_code: Kode Sumber
@@ -173,15 +173,16 @@ zypper_p1: "Ini cepat dan mudah dipelajari. Menyediakan zypper-apt, sebuah lapis
   \ jelas dan berwarna tepat, untuk\nkemudahan membaca. Ini sempurna, apa lagi yang\
   \ bisa dikatakan?\n"
 index: Distribusi openSUSE
-index_p1: Untuk desktop, peladen, dan segala sesuatu di antaranya
+index_p1: Untuk destop, peladen, dan segala sesuatu di antaranya
 index_desktop: Destop
-index_desktop_p1: Pilihan distribusi untuk penggunaan destop
+index_desktop_p1: Pemilihan distribusi untuk penggunaan destop
 index_server: Peladen
 index_server_p1: Pemilihan distribusi untuk penggunaan peladen
 index_full: Atau langsung masuk ke halaman unduhan untuk distribusi
 desktop: Distribusi destop openSUSE
 desktop_p1: "Dua distribusi untuk semua (sekarang dalam warna hijau!)\n"
-desktop_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, dan Penggemar Linux/FOSS
+desktop_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan dan
+  Penggemar Linux/FOSS
 desktop_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh Proyek
   openSUSE.
 desktop_leap_p1: Untuk Sysadmin, Pengembang Perusahaan, dan Pengguna Destop 'Biasa'
@@ -189,7 +190,8 @@ desktop_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan inov
   yang dikembangkan komunitas.
 server: Distribusi Peladen openSUSE
 server_p1: "Empat distribusi yang membosankan dengan nyaman, bagaimana seharusnya\n"
-server_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, dan Penggemar Linux/FOSS
+server_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan dan
+  Penggemar Linux/FOSS
 server_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh Proyek
   openSUSE.
 server_leap_p1: Untuk Sysadmins, Pengembang Perusahaan, dan Pengguna peladen 'Reguler'
@@ -206,6 +208,6 @@ new_version_testing: $distro_name sekarang tersedia untuk diunduh dan diuji
 view_distro: Lihat $distro_name
 x86_64: Destop, laptop, dan peladen Intel atau AMD 64-bit (x86_64)
 i686: Destop, laptop, dan peladen Intel atau AMD 32-bit (i686)
-aarch64: Peladen, desktop, laptop dan papan UEFI Arm 64-bit (aarch64)
+aarch64: Peladen, destop, laptop dan papan UEFI Arm 64-bit (aarch64)
 ppc64le: Peladen PowerPC, bukan big-endian (ppc64le)
 s390x: IBM Z dan LinuxONE (s390x)

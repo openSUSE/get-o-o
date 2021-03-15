@@ -1,17 +1,17 @@
 site_title: 获取 openSUSE
 site_title_short: 获取
-site_description: 了解和下载 openSUSE 发行版
+site_description: 免费了解和下载 openSUSE 发行版
 site_copyright: © 2020 openSUSE 贡献者
 absolute_link: 绝对链接
 relative_link: 相对链接
 search: 搜索
 translate: 翻译
 source_code: 源码
-license: 许可
+license: 许可证
 learn_more: 了解更多
-cd_desc: 用于 CD 和 USB 闪存盘
-dvd_desc: 用于 DVD 和 USB 闪存盘
-usb_desc: 用于 USB 闪存盘
+cd_desc: 用于 CD 和 U 盘
+dvd_desc: 用于 DVD 和 U 盘
+usb_desc: 用于 USB 盘
 metalink: Metalink
 pick_mirror: 选择镜像站
 checksum: 校验码
@@ -34,12 +34,12 @@ installation_images: 安装
 ports_images: 移植
 ports_info: "openSUSE 其他 PC 外的架构移植由单独的社区团队维护，资源有限。\n"
 jeos_images: JeOS
-live_images: 自生
+live_images: Live
 gnome_cd: GNOME 体验 CD
 kde_cd: KDE 体验 CD
 xfce_cd: Xfce 体验 CD
-rescue_cd: 救援自生 CD
-tumbleweed_live_info: "请注意自生映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed\
+rescue_cd: 救援 LiveCD
+tumbleweed_live_info: "请注意体验映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed\
   \ media](/tumbleweed)\n* 它们的软件包和驱动选择都有限，因此不能认为它能够准确反映 Tumbleweed 在你的硬件上能否运行\n"
 kubic_desc: 容器即服务平台，基于 openSUSE MicroOS 上的 Kubernetes。
 microos_desc: 基于 openSUSE Tumbleweed 的系统，提供在只读 btrfs 根文件系统上的事务性（原子）更新
@@ -133,13 +133,13 @@ index_server_p1: 选择服务器使用的发行版
 index_full: 或者直接进入发行版的下载页
 desktop: openSUSE 桌面发行版
 desktop_p1: "双发行版，满足一切（绿起来！）\n"
-desktop_tumbleweed_p1: 适用于开发者、openSUSE 共享者和 Linux/FOSS 发烧友
+desktop_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
 desktop_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
 desktop_leap_p1: 适用于系统管理员、企业开发者和“常规”桌面用户
 desktop_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
 server: openSUSE 服务器发行版
 server_p1: "四种发行版，舒适且平常\n"
-server_tumbleweed_p1: 适用于开发者、openSUSE 共享者和 Linux/FOSS 发烧友
+server_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
 server_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
 server_leap_p1: 适用于系统管理员、企业开发者和“常规”服务器用户
 server_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
@@ -150,7 +150,7 @@ server_microos_p2: 设计为通过自动管理和修补来托管容器工作负�
 new_version_available: $distro_name 已经可以下载
 new_version_testing: $distro_name 已经可以下载和测试
 view_distro: 查看 $distro_name
-x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（i686）
+x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（x86_64）
 i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
 aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
 ppc64le: PowerPC 服务器，非大端（ppc64le）

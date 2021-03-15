@@ -169,7 +169,7 @@ index_server_p1: Výběr distribucí pro použití na serveru
 index_full: Nebo přejděte přímo na stránky pro stahování distribucí
 desktop: Distribuce openSUSE pro stolní PC
 desktop_p1: "Dvě distribuce vládnou všem (nyní zeleně!)\n"
-desktop_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE a nadšence pro Linux/FOSS
+desktop_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE, hráče a nadšence pro Linux/FOSS
 desktop_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými projektem
   openSUSE.
 desktop_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele stolních
@@ -178,7 +178,7 @@ desktop_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství 
   vyvinutých inovací.
 server: Distribuce Serveru openSUSE
 server_p1: "Čtyři pohodlně nudné distribuce, jak by to vždy mělo být\n"
-server_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE a nadšence pro Linux/FOSS
+server_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE, hráče a nadšence pro Linux/FOSS
 server_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými projektem
   openSUSE.
 server_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele serverů

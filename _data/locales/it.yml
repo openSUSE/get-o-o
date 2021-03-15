@@ -1,56 +1,58 @@
----
-site_title: Ottieni openSUSE
 search: Cerca
+translate: Traduci
+source_code: Codice sorgente
 license: Licenza
-cd_desc: Per CD e chiavetta USB
-dvd_desc: Per DVD e chiavetta USB
-pick_mirror: Scegli mirror
-checksum: Codice di controllo
+cd_desc: Per CD e chiavette USB
+dvd_desc: Per DVD e chiavette USB
+usb_desc: Per chiavette USB
 torrent_file: File torrent
-network_image: Immagine di rete
-kvm_desc: Per utilizzo tramite gli ipervisori KVM o XEN HVM
-xen_desc: Per utilizzo tramite gli ipervisori XEN PV
-hyperv_desc: Per eseguire macchine virtuali su MS HyperV
-vmware_desc: Per eseguire macchine virtuali in VMware
-openstack_desc: Per eseguire macchine virtuali in OpenStack
+kvm_image: KVM e XEN
+vmware_image: VMware
+vmware_desc: Per eseguire macchine virtuali con VMware
 installation_images: Installazione
-ports_images: Trasposizioni
-gnome_cd: LiveCD GNOME
-kde_cd: LiveCD KDE
-rescue_cd: LiceCD di ripristino
-kubic_desc: Piattaforma "Container as a Service" basata su Kubernetes e facente leva
-  su openSUSE MicroOS.
-choosing_media: Scelta del supporto da scaricare
+ports_images: Port
+ports_info: "I port di openSUSE Leap su architetture diverse dal PC sono gestiti\n\
+  da squadre di comunità separate, con risorse limitate.\n"
+jeos_images: JeOS
+gnome_cd: CD Live con GNOME
+kde_cd: CD Live con KDE
+xfce_cd: CD Live con Xfce
+rescue_cd: CD Live di salvataggio
+tumbleweed_live_info: "Si prega di tener presente delle seguenti limitazioni delle\
+  \ immagini live:\n* non devono essere utilizzate per installare o per aggiornare\
+  \ Tumbleweed. Utilizzare invece [i supporti per Tumbleweed](/tumbleweed)\n* hanno\
+  \ una selezione limitata di pacchetti e di driver, quindi non possono essere considerati\
+  \ una certezza del fatto che Tumbleweed funzionerà o meno sull'hardware in questione\n"
 documentation: Documentazione
-documentation_startup_guide: Guida di avvio di openSUSE
-documentation_release_notes: Note di rilascio
 documentation_license: Licenza
+documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentazione completa
-leap_switch: Soluzioni semplici per passare ad openSUSE Leap
-leap_switch_instructions_link: https://it.opensuse.org/SDB:System_upgrade
 requirements: Requisiti di sistema raccomandati
-requirements_cpu: Processore 2 Ghz dual core o superiore
+requirements_cpu: Processore dual core a 2 GHz o superiore
 requirements_mem: 2 GB di memoria di sistema
-requirements_hd: Oltre 40GB di spazio libero sul disco fisso
-requirements_dvd: O un lettore DVD o una porta USB per il supporto di installazione
-requirements_net: L'accesso a internet è utile ed è necessario per l'installatore
-  via rete
-tw_switch: Soluzioni semplici per passare ad openSUSE Tumbleweed
-upgrade_table_linux: Da una versione più vecchia o da un'altra distrubuzione Linux
+requirements_hd: Più di 40 GB di spazio libero su disco
+requirements_dvd: Lettore DVD o posta USB per il supporto d'installazione
+requirements_net: L'accesso a Internet è utile, oltre che richiesto per l'installazione
+  da rete
+tw_switch: Modi semplici per passare a openSUSE Tumbleweed
+tw_switch_p1: "Se si sta già eseguendo openSUSE è possibile aggiornare avviando da\n\
+  DVD o da USB scegliendo di aggiornare, oppure si può effettuare un\n'Aggiornamento\
+  \ Online' con pochi comandi.\n"
+tw_switch_instructions: Istruzione per l'aggiornamento.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: Da una versione più vecchia o da un'altra distro Linux
 upgrade_table_windows: Da Windows
 upgrade_table_mac: Da OS X
-upgrade_table_linux_dvd: Come masterizzare un DVD su Linux.
-upgrade_table_linux_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_Linux
-upgrade_table_windows_dvd: Come masterizzare un DVD su Windows.
-upgrade_table_windows_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_Microsoft_Windows
-upgrade_table_mac_dvd: Come masterizzare un DVD su OS X.
-upgrade_table_mac_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_MacOS_X_.2810.3_e_superiori.29
-upgrade_table_linux_usb: Come creare una chiavetta USB di avvio su Linux.
-upgrade_table_linux_usb_link: https://it.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb: Come creare una chiavetta USB di avvio su Windows.
-upgrade_table_windows_usb_link: https://it.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Come creare una chiavetta USB di avvio su OS X.
-upgrade_table__mac_usb_link: https://it.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-verify_download: Verificare quanto scaricato prima dell'uso
-verify_download_checksums_help: Aiuto sui codici di controllo
-verify_download_checksums_help_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Codice_di_controllo
+upgrade_table_linux_dvd: Come masterizzare un DVD in Linux.
+upgrade_table_linux_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento
+upgrade_table_windows_dvd: Come masterizzare un DVD in Windows.
+upgrade_table_mac_dvd: Come masterizzare un DVD in OS X.
+upgrade_table_linux_usb: Come creare una chiavetta avviabile in Linux.
+upgrade_table_windows_usb: Come creare una chiavetta avviabile in Windows.
+upgrade_table__mac_usb: Come creare una chiavetta avviabile in OS X.
+verify_download: Verifica lo scaricamento prima di utilizzarlo
+verify_download_pubkey: Dovrebbe essere
+desktops: Molti desktop, tre come predefiniti
+points_transparent: Tutto è trasparente
+points_welcoming: I contributi sono benvenuti
+software: Ottenere il software non potrebbe essere più semplice

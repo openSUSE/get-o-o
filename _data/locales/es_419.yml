@@ -218,3 +218,6 @@ server_microos_p1: Para aplicaciones de servidor de uso único
 server_microos_p2: Diseñado para alojar cargas de trabajo de contenedores con administración
   y parches automatizados
 server_microos_view: Ver MicroOS
+new_version_available: $distro_name está disponible para descarga
+new_version_testing: $distro_name está disponible para descarga y testing
+view_distro: Ver $distro_name
