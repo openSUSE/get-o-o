@@ -157,3 +157,5 @@ x86_64: Desktop Intel o AMD a 64-bit, computer portatili e server (x86_64)
 i686: Desktop Intel o AMD a 32-bit, computer portatili e server (i686)
 ppc64le: Server PowerPC, non big-endian (ppc64le)
 s390x: IBM Z e LinuxONE (s390x)
+site_description: Scopri le distribuzioni di openSUSE e scaricale gratuitamente
+metalink: Metalink
