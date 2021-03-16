@@ -150,3 +150,10 @@ server_leap_p1: Per amministratori di sistema, sviluppatori professionisti e 'no
   utenti desktop
 server_leap_p2: Versione a rilascio regolare, coi benefici di una soluzione tecnica
   di qualità professionale e dell'innovazione sviluppata dalla comunità.
+new_version_available: $distro_name è ora disponibile per lo scaricamento
+new_version_testing: $distro_name è ora disponibile per lo scaricamento e per il test
+view_distro: Vedi $distro_name
+x86_64: Desktop Intel o AMD a 64-bit, computer portatili e server (x86_64)
+i686: Desktop Intel o AMD a 32-bit, computer portatili e server (i686)
+ppc64le: Server PowerPC, non big-endian (ppc64le)
+s390x: IBM Z e LinuxONE (s390x)
