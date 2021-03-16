@@ -56,3 +56,97 @@ desktops: Molti desktop, tre come predefiniti
 points_transparent: Tutto è trasparente
 points_welcoming: I contributi sono benvenuti
 software: Ottenere il software non potrebbe essere più semplice
+site_title: Ottieni openSUSE
+site_title_short: Ottieni
+site_copyright: © 2020 dei contributori di openSUSE
+learn_more: Per saperne di più
+pick_mirror: Scegli mirror
+checksum: Codice di controllo
+offline_desc: "Contiene un'ampia collezione di programmi per uso desktop o server.\n\
+  Appropriato per installazione e aggiornamento.\n"
+network_image: Immagine di rete
+network_desc: "Scarica il sistema di installazione e tutti i pacchetti dai repository\
+  \ in internet.\nIdoneo per l'installazione o l'aggiornamento.\n"
+kvm_desc: Per utilizzo tramite gli ipervisori KVM o XEN HVM
+xen_image: XEN
+xen_desc: Per utilizzo tramite gli ipervisori XEN PV
+hyperv_desc: Per eseguire macchine virtuali su MS HyperV
+openstack_image: OpenStack-Cloud
+openstack_desc: Per eseguire macchine virtuali in OpenStack
+live_images: Live
+kubic_desc: Piattaforma "Container as a Service" basata su Kubernetes e facente leva
+  su openSUSE MicroOS.
+choosing_media: Scelta del supporto da scaricare
+choosing_media_p1: "Tipicamente si raccomandano il DVD o la chiavetta USB in quanto\
+  \ contengono la\nmaggior parte dei pacchetti disponibili nella distribuzione e non\
+  \ richiedono una\nconnessione di rete durante l'installazione.\n"
+choosing_media_p2: "Il CD o la chiavetta USB di rete sono raccomandati per gli utenti\
+  \ che hanno\nconnessioni internet con banda limitata, in quanto scaricheranno solo\
+  \ i pacchetti\nper cui viene richiesta l'installazione, con una dimensione probabilmente\n\
+  significativamente minore di 4.7GB.\n"
+documentation_startup_guide: Guida di avvio di openSUSE
+documentation_release_notes: Note di rilascio
+leap_switch: Soluzioni semplici per passare ad openSUSE Leap
+leap_switch_p1: "Se si sta già eseguendo openSUSE è possibile aggiornare avviando\
+  \ da\nDVD o da USB scegliendo di aggiornare, oppure si può effettuare un\n'Aggiornamento\
+  \ Online' con pochi comandi.\n"
+leap_switch_instructions: Istruzioni per l'aggiornamento in linea.
+verify_download_p1: "Molte applicazioni possono verificare il codice di controllo\
+  \ di uno scaricamento.\nQuesta verifica può essere importante come la certezza di\
+  \ avere avuto\nil file ISO che si voleva scaricare, e non una sua versione non funzionante.\n"
+verify_download_p2: "Per ciascuna ISO è fornito un file di controllo con il codice\
+  \ SHA256 corrispondente.\n"
+verify_download_p3: "Per ulteriore sicurezza, può essere usato GPG per verificare\
+  \ chi ha firmato quei file .sha256.\n"
+verify_download_help: Come ulteriore aiuto sulla verifica dello scaricamento, leggere
+verify_download_checksums_help: Aiuto sui codici di controllo
+desktops_p1: "Il processo di contribuzione a openSUSE autorizza lo sviluppo del desktop\
+  \ per\ntutti, quindi è possibile scegliere il preferito nel programma d'installazione.\n\
+  Disponiamo attivamente di tre ambienti desktop, e offriamo ancora di più nella \n\
+  visualizzazione estesa del software all'interno del programma di installazione.\n"
+installation: Installalo come vuoi
+points_free_p1: "I pacchetti nella distribuzione sono divisi in repository liberi\
+  \ e in altri\nnon liberi. Non si vogliono usare i pacchetti non liberi? Si può disabilitare\n\
+  facilmente i repository non liberi. È una scelta dell'utente, non la nostra.\n"
+snapper: Il sistema è danneggiato? Non è più un problema
+snapper_p1: "La funzionalità di istantanee del file system tiene sotto controollo\
+  \ il file system,\ncreando automaticamente dei backup quando si installa del software\
+  \ o gli\naggiornamenti. È sufficiente avviare da un'istantanea precedente per portare\
+  \ il\nsistema in uno stato funzionante in pochi minuti.\n"
+software_get: Ottieni il software
+transactional: Server transazionale
+yast_firewall: Firewall
+yast_fonts: Tipi di carattere
+yast_hardware: Hardware
+yast_partitioner: Partizionatore
+yast_printer: Stampante
+yast_scanner: Scanner
+yast_sound: Audio
+yast_software: Software
+zypper: Zypper, il tuo nuovo gestore di pacchetti preferito
+index: Distribuzioni di openSUSE
+index_p1: Per i destop, i server e per tutto quello che c'è in mezzo
+index_desktop: Desktop
+index_desktop_p1: Selezione di distribuzioni per uso come desktop
+index_server: Server
+index_server_p1: Selezione di distribuzioni per uso come server
+index_full: O vai direttamente alle pagine di scaricamento delle distribuzioni
+desktop: Distribuzioni desktop di openSUSE
+desktop_tumbleweed_p1: Per sviluppatori, contributori di openSUSE, giocatori e appassionati
+  di Linux/FOSS
+desktop_tumbleweed_p2: Versione a rilascio continuo con gli ultimi pacchetti forniti
+  dal progetto openSUSE.
+desktop_leap_p1: Per amministratori di sistema, sviluppatori professionisti e 'normali'
+  utenti desktop
+desktop_leap_p2: Versione a rilascio regolare, coi benefici di una soluzione tecnica
+  di qualità professionale e dell'innovazione sviluppata dalla comunità.
+server: Distribuzioni server di openSUSE
+server_p1: "Quattro distribuzioni comodamente noiose, come dovrebbero sempre essere\n"
+server_tumbleweed_p1: Per sviluppatori, contributori di openSUSE, giocatori e appassionati
+  di Linux/FOSS
+server_tumbleweed_p2: Versione a rilascio continuo con gli ultimi pacchetti forniti
+  dal progetto openSUSE.
+server_leap_p1: Per amministratori di sistema, sviluppatori professionisti e 'normali'
+  utenti desktop
+server_leap_p2: Versione a rilascio regolare, coi benefici di una soluzione tecnica
+  di qualità professionale e dell'innovazione sviluppata dalla comunità.
