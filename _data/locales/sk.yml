@@ -1,5 +1,4 @@
----
-site_title: Získať openSUSE
+site_title: Získajte openSUSE
 search: Hľadať
 license: Licencia
 cd_desc: Pre CD a USB kľúče
@@ -8,8 +7,8 @@ pick_mirror: Vybrať zrkadlo
 checksum: Kontrolný súčet
 torrent_file: Súbor torrent
 network_image: Sieťový obraz
-kvm_desc: Pre použitie v hypervisoroch KVM alebo XEN HVM
-xen_desc: Pre použitie v hypervisoroch XEN PV
+kvm_desc: Pre použitie v hypervizoroch KVM alebo XEN HVM
+xen_desc: Pre použitie v hypervizoroch XEN PV
 hyperv_desc: Pre beh virtuálnych strojov na MS HyperV
 vmware_desc: Pre beh virtuálnych strojov vo VMware
 openstack_desc: Pre beh virtuálnych strojov v OpenStack
@@ -32,7 +31,7 @@ requirements_dvd: Buď DVD jednotka alebo USB port pre inštalačné médiá
 requirements_net: Prístup k internetu je užitočný a potrebný pre sieťovú inštaláciu
 tw_switch: Jednoduché spôsoby, ako prejsť na openSUSE Tumbleweed
 upgrade_table_linux: Zo staršej verzie alebo inej linuxovej distribúcie
-upgrade_table_windows: Zo systému Windows
+upgrade_table_windows: Z Windows
 upgrade_table_mac: Z OS X
 upgrade_table_linux_dvd: Ako napáliť DVD na Linuxe.
 upgrade_table_windows_dvd: Ako napáliť DVD na systéme Windows.
@@ -40,6 +39,63 @@ upgrade_table_mac_dvd: Ako napáliť DVD na OS X.
 upgrade_table_linux_usb: Ako vytvoriť spustiteľný USB kľúč na Linuxe.
 upgrade_table_windows_usb: Ako vytvoriť spustiteľný USB kľúč na systéme Windows.
 upgrade_table__mac_usb: Ako vytvoriť spustiteľný USB kľúč na OS X.
-verify_download: Pred použitím si skontrolujte, čo ste stiahli
+verify_download: Pred použitím si overte, čo ste stiahli
 verify_download_checksums_help: Pomocník pre kontrolný súčet
 yast_software: Softvér
+site_title_short: Získať
+site_description: Získajte informácie o distribúciách openSUSE a stiahnite si ich
+  zadarmo
+site_copyright: © 2020 prispievatelia openSUSE
+translate: Preložiť
+source_code: Zdrojový kód
+learn_more: Zistite viac
+usb_desc: Pre USB kľúče
+metalink: Metalink
+offline_image: Offline obraz
+offline_desc: "Obsahuje veľkú zbierku softvéru pre desktopy alebo servery.\nVhodné\
+  \ na inštaláciu alebo zvýšenie verzie.\n"
+network_desc: "Stiahne inštalačný systém a všetky balíčky z online repozitárov.\n\
+  Vhodné pre inštaláciu alebo zvýšenie verzie.\n"
+kvm_image: KVM a XEN
+xen_image: XEN
+hyperv_image: MS HyperV
+vmware_image: VMware
+openstack_image: OpenStack-Cloud
+ports_info: "Porty openSUSE Leap do architektúr iných ako PC sú udržiavané \nsamostatnými\
+  \ komunitnými tímami s obmedzenými zdrojmi.\n"
+jeos_images: JeOS
+live_images: Live
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+tumbleweed_live_info: "Uvedomte si, prosím, nasledujúce obmedzenia live obrazov:\n\
+  * Nemali by byť použité na inštaláciu alebo zvýšenie verzie Tumbleweed. Použite,\
+  \ prosím, namiesto toho [Tumbleweed media](/tumbleweed)\n* Majú obmedzený výber\
+  \ balíkov a ovládačov, takže ich nemožno považovať za korektný obraz toho, či Tumbleweed\
+  \ bude fungovať na vašom hardvéri alebo nie\n"
+microos_desc: OS založený na openSUSE Tumbleweed poskytujúci transakčné (atomické)
+  aktualizácie na koreňovom súborovom systéme btrfs iba na čítanie
+choosing_media_p1: "Odporúča sa zvyčajne DVD/USB kľúč, pretože obsahuje väčšinu\n\
+  balíkov dostupných v distribúcii a počas inštalácie nevyžaduje\nsieťové pripojenie.\n"
+choosing_media_p2: "Sieťové CD/USB kľúč sa odporúča pre používateľov, ktorí majú \n\
+  na internetových pripojeniach obmedzenú šírku pásma, pretože\nsi stiahnu len balíky,\
+  \ ktoré si zvolili pre nainštalovanie, čo je\npravdepodobne podstatne menej ako\
+  \ 4,7 GB.\n"
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n\
+  z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých\
+  \ príkazoch.\n"
+leap_switch_instructions: Pokyny pre zvýšenie verzie online.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+tw_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n\
+  z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých\
+  \ príkazoch.\n"
+tw_switch_instructions: Pokyny pre zvýšenie verzie.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
