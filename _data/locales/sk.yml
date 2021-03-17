@@ -99,3 +99,26 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_p1: "Kontrolný súčet sťahovania môže overiť veľa aplikácií. Overenie\n\
+  stiahnutia môže byť dôležité, pretože overuje, že skutočne máte súbor\nISO, ktorý\
+  \ ste chceli stiahnuť, a nie nejakú poškodenú verziu.\n"
+verify_download_p2: "Pre každý ISO ponúkame súbor kontrolného súčtu so zodpovedajúcim\
+  \ SHA256 súčtom.\n"
+verify_download_p3: "Pre zvýšenú bezpečnosť môžete pomocou GPG overiť, kto podpísal\
+  \ tieto .sha256 súbory.\n"
+verify_download_pubkey: Malo by to byť
+verify_download_help: Ak potrebujete ďalšiu pomoc pri overovaní vášho stiahnutia,
+  prečítajte si, prosím,
+desktops: Mnoho desktopov, tri v predvolenom nastavení
+desktops_p1: "Proces prispievania do openSUSE umožňuje vývoj desktopov\npre všetkých,\
+  \ takže v inštalátore máte možnosť zvoliť si ten svoj\nobľúbený. Aktívne ponúkame\
+  \ tri desktopové prostredia a ponúkame\nešte viac v rozšírenom zobrazení softvéru\
+  \ v inštalátore.\n"
+installation: Nainštalujte si ho, ako ho potrebujete
+installation_p1: "Proces inštalácie openSUSE vám poskytuje všetky možnosti, ktoré\
+  \ by ste \npravdepodobne potrebovali. Chcete si nainštalovať váš systém pomocou\n\
+  myši a klávesnice? Načítajte inštalačný program v grafickom režime.\nNemáte po ruke\
+  \ myš? Povoľte terminálového klienta a nainštalujte ho týmto\nspôsobom. Nemáte fyzický\
+  \ prístup k počítaču? Pripojte sa k inštalátoru\nna diaľku a pokračujte v inštalácii.\
+  \ Je to také jednoduché.\n"
+points_transparent: Všetko je transparentné
