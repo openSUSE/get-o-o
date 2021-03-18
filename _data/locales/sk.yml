@@ -122,3 +122,25 @@ installation_p1: "Proces inštalácie openSUSE vám poskytuje všetky možnosti,
   \ prístup k počítaču? Pripojte sa k inštalátoru\nna diaľku a pokračujte v inštalácii.\
   \ Je to také jednoduché.\n"
 points_transparent: Všetko je transparentné
+points_transparent_p1: "Od začiatku do konca má každý balík, ktorý ide do distribúcií,\
+  \ všetky\nsvoje zdroje a zostavovacie skripty otvorene viditeľné pre všetkých.\n\
+  Pochybujete o zdroji? Stačí si to preveriť na službe zostavenia.\n"
+points_free: Slobodný softvér? Vaša voľba
+points_free_p1: "Balíky v distribúciách sú rozdelené do slobodných a neslobodných\n\
+  repozitárov. Nechcete používať neslobodné balíčky? Neslobodný\nrepozitár môžete\
+  \ ľahko zakázať. Je to vaša voľba, nie naša.\n"
+points_welcoming: Vítané prispievanie
+points_welcoming_p1: "Snažíme sa čo najviac vyhovieť komunite a dosiahnuť to môžeme,\n\
+  iba keď komunita hovorí o tom, čo potrebuje. Preto zabezpečujeme,\naby bolo prispievanie\
+  \ čo najjednoduchšie.\n"
+snapper: Systém je poškodený? Už nie je problém
+snapper_p1: "Vďaka funkcii snímok súborového systému je váš súborový systém\npod kontrolou,\
+  \ pretože pri inštalácii softvéru a aktualizácií sa automaticky\nvykonáva nepretržité\
+  \ zálohovanie. Stačí spustiť systém z predchádzajúcej\nsnímky a uviesť váš systém\
+  \ do funkčného stavu v priebehu niekoľkých minút.\n"
+software: Získanie softvéru už nemôže byť jednoduchšie
+software_p1: "Medzi nami, dá to veľa práce, keď musíte prejsť každú webovú stránku,\n\
+  aby ste získali všetok softvér, ktorý by ste mohli potrebovať. Online\nsoftvérové\
+  \ centrum to uľahčuje, pretože na jednom mieste obsahuje\nsoftvér z množstva zdrojov.\n"
+software_get: Získajte softvér
+transactional: Transakčný server
