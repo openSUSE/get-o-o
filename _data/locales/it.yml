@@ -169,3 +169,24 @@ installation_p1: "Il processo di installazione di openSUSE fornisce tutte le opz
   \ Ci si può connettere al programma \nd'installazione da remoto e procedere con\
   \ l'installazione. È così semplice.\n"
 points_free: Software libero? La tua scelta
+points_transparent_p1: "Dall'inizio alla fine, tutti i suoi sorgenti e gli script\
+  \ di compilazione di ogni\npacchetto che entra nelle distribuzioni sono liberamente\
+  \ visibili a tutti.\nDubbioso su una fonte? Dai un'occhiata al servizio di compilazione.\n"
+points_welcoming_p1: "Facciamo del nostro meglio per accontentare la comunità, ma\
+  \ questo\naccade se la comunità dice di cosa ha bisogno. Ecco perché\ngarantiamo\
+  \ che contribuire sia il più semplice possibile.\n"
+software_p1: "Detto fra di noi, dover andare in ogni sito per ottenere tutto il software\n\
+  di cui si potrebbe aver bisogno richiede un gran lavoro. Il centro\nsoftware online\
+  \ rende tutto questo molto più semplice, incorporando\nin un unico posto il software\
+  \ da una gran varietà di sorgenti.\n"
+yast: Yast, la scelta migliore per gli utenti ~~esperti~~
+yast_p1: "Uno dei migliori strumenti di configurazione del sistema aiuta te,\nl'utente,\
+  \ a configurare ogni singolo aspetto del tuo sistema. Non\nè più necessario passare\
+  \ attraverso una pletora di script di\nconfigurazione, oppure immettere degli equivoci\
+  \ comandi per\nottenere la configurazione di sistema desiderata.\n"
+zypper_p1: "È veloce e semplice da imparare. Fornisce zypper-apt, un livello di\n\
+  compatibilità per l'uso con i comandi apt e apt-get. È basato su libsolv,\nche garantisce\
+  \ velocità e risoluzione riproducibile delle dipendenze.\nL'interfaccia è chiara\
+  \ e opportunamente colorata, per facilitarne\nla lettura. È perfetto, cos'altro\
+  \ si potrebbe dire?\n"
+desktop_p1: "Le due distribuzioni per dominarle tutte (ora in verde!)\n"
