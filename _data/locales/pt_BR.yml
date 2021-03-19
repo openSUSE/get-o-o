@@ -117,7 +117,7 @@ installation: Instale como quiser
 installation_p1: "O processo de instalação do openSUSE oferece todas as opções\nvocê\
   \ possivelmente precisaria. Deseja instalar seu sistema com mouse e\nteclado? Carregue\
   \ o instalador em modo gráfico. Não tem mouse\nna mão? Habilite o cliente de terminal\
-  \ e instale-o dessa forma. Só tem\nacesso físico à máquina? Conecte-se ao instalador\
+  \ e instale-o dessa forma. Não tem\nacesso físico à máquina? Conecte-se ao instalador\
   \ remotamente e\ncontinue com a instalação. É simples assim.\n"
 points_transparent: Tudo é transparente
 points_transparent_p1: "Do início ao fim, cada pacote que vai para as distribuições\n\
