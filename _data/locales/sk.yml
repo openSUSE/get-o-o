@@ -144,3 +144,25 @@ software_p1: "Medzi nami, dá to veľa práce, keď musíte prejsť každú webo
   \ centrum to uľahčuje, pretože na jednom mieste obsahuje\nsoftvér z množstva zdrojov.\n"
 software_get: Získajte softvér
 transactional: Transakčný server
+transactional_p1: "Inštalátor teraz podporuje novú systémovú rolu Transakčný server,\n\
+  ktorý je výsledkom úsilia openSUSE Kubic. Táto systémová rola\nobsahuje nový aktualizačný\
+  \ systém, ktorý aplikuje aktualizácie\natomicky (ako jedinú operáciu) a uľahčuje\
+  \ ich návrat, ak je to\npotrebné. Tieto funkcie sú založené na nástrojoch na správu\
+  \ balíkov,\nna ktoré sa spoliehajú všetky ostatné distribúcie SUSE a openSUSE.\n\
+  To znamená to, že drvivá väčšina RPM balíkov, ktoré pracujú s inými\nsystémovými\
+  \ rolami distribúcií openSUSE, pracuje aj so systémovou\nrolou Transakčný server.\n"
+yast: YaST, najlepšia voľba pre ~~náročného~~ používateľa
+yast_p1: "Jeden z najlepších nástrojov na konfiguráciu systému pomáha vám,\npoužívateľovi,\
+  \ nastaviť všetky aspekty vášho systému. Už nemusíte\nprejsť množstvom konfiguračných\
+  \ skriptov alebo zadávať pochybné\npríkazy, aby ste nastavili systém podľa svojich\
+  \ potrieb.\n"
+yast_firewall: Firewall
+yast_fonts: Písma
+yast_hardware: Hardvér
+yast_partitioner: Rozdelenie disku
+yast_printer: Tlačiareň
+yast_scanner: Skener
+yast_sound: Zvuk
+zypper: Zypper, váš nový obľúbený správca balíkov
+index: Distribúcie openSUSE
+index_desktop: Desktop
