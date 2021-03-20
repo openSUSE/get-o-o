@@ -166,3 +166,20 @@ yast_sound: Zvuk
 zypper: Zypper, váš nový obľúbený správca balíkov
 index: Distribúcie openSUSE
 index_desktop: Desktop
+zypper_p1: "Je to rýchle a ľahké sa naučiť. Poskytuje zypper-apt, kompatibilnú\nvrstvu\
+  \ pre použitie s príkazmi apt a apt-get. Je založený na libsolv,\nčo zaručuje zároveň\
+  \ rýchlosť aj reprodukovateľné riešenie závislostí.\nRozhranie je jasné a primerane\
+  \ farbené, aby bolo jeho čítanie\njednoduchšie. Je to perfektné, čo dodať?\n"
+index_p1: Pre desktop, server a všetko medzi tým
+index_desktop_p1: Výber distribúcií pre desktopové použitie
+index_server: Server
+index_server_p1: Výber distribúcií pre serverové použitie
+index_full: Alebo choďte priamo na stránky sťahovania pre distribúcie
+desktop: Desktopové distribúcie openSUSE
+desktop_p1: "Dve distribúcie vládnu všetkým (teraz v zelenom!)\n"
+desktop_tumbleweed_p1: Pre vývojárov, prispievateľov openSUSE, hráčov a nadšencov
+  pre Linux/FOSS
+desktop_tumbleweed_p2: Rolujúce vydanie s najnovšími balíkmi poskytovanými projektom
+  openSUSE.
+desktop_leap_p1: Pre administrátorov, podnikových vývojárov a 'bežných' používateľov
+  počítačov
