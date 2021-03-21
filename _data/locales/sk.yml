@@ -183,3 +183,30 @@ desktop_tumbleweed_p2: Rolujúce vydanie s najnovšími balíkmi poskytovanými 
   openSUSE.
 desktop_leap_p1: Pre administrátorov, podnikových vývojárov a 'bežných' používateľov
   počítačov
+desktop_leap_p2: Normálne vydanie openSUSE s výhodami inžinieringu podnikovej akosti
+  a inovácií vyvinutých komunitou.
+server: Serverové distribúcie openSUSE
+server_p1: "Štyri pohodlne nudné distribúcie, ako by to vždy malo byť\n"
+server_tumbleweed_p1: Pre vývojárov, prispievateľov openSUSE, hráčov a nadšencov pre
+  Linux/FOSS
+server_tumbleweed_p2: Rolujúce vydanie s najnovšími balíkmi poskytovanými projektom
+  openSUSE.
+server_leap_p1: Pre administrátorov, podnikových vývojárov a 'bežných' používateľov
+  serverov
+server_leap_p2: Normálne vydanie openSUSE s výhodami inžinieringu podnikovej akosti
+  a inovácií vyvinutých komunitou.
+server_kubic_p1: Pre pracovné toky na kontajnerových serveroch
+server_kubic_p2: Viacúčelový samostatný a kontajnerový operačný systém Kubernetes
+  založený na openSUSE MicroOS
+server_microos_p1: Pre jednoúčelové serverové aplikácie
+server_microos_p2: Navrhnuté na hosťovanie kontajnerových pracovných úloh s automatizovanou
+  správou a opravami
+new_version_available: $distro_name je teraz k dispozícii na stiahnutie
+new_version_testing: $distro_name je teraz k dispozícii na stiahnutie a testovanie
+view_distro: Zobraziť $distro_name
+x86_64: 64-bitové stolné a prenosné počítače a servery s Intel or AMD (x86_64)
+i686: 32-bitové stolné a prenosné počítače a servery s Intel or AMD (i686)
+aarch64: 64-bitové servery, stolné a prenosné počítače a jednodoskové počítače UEFI
+  Arm (aarch64)
+ppc64le: Servery PowerPC, nie big-endian (ppc64le)
+s390x: IBM Z a LinuxONE (s390x)
