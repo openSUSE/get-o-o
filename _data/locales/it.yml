@@ -44,7 +44,7 @@ upgrade_table_linux: Da una versione più vecchia o da un'altra distro Linux
 upgrade_table_windows: Da Windows
 upgrade_table_mac: Da OS X
 upgrade_table_linux_dvd: Come masterizzare un DVD in Linux.
-upgrade_table_linux_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento
+upgrade_table_linux_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_Linux
 upgrade_table_windows_dvd: Come masterizzare un DVD in Windows.
 upgrade_table_mac_dvd: Come masterizzare un DVD in OS X.
 upgrade_table_linux_usb: Come creare una chiavetta avviabile in Linux.
@@ -190,3 +190,9 @@ zypper_p1: "È veloce e semplice da imparare. Fornisce zypper-apt, un livello di
   \ e opportunamente colorata, per facilitarne\nla lettura. È perfetto, cos'altro\
   \ si potrebbe dire?\n"
 desktop_p1: "Le due distribuzioni per dominarle tutte (ora in verde!)\n"
+leap_switch_instructions_link: https://it.opensuse.org/SDB:Aggiornamento_del_sistema_ad_una_nuova_versione
+upgrade_table_windows_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_Microsoft_Windows
+upgrade_table_mac_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_MacOS_X_.2810.3_e_superiori.29
+upgrade_table_linux_usb_link: https://it.opensuse.org/SDB:Chiavetta_USB_Live
+upgrade_table_windows_usb_link: https://it.opensuse.org/SDB:Creare_una_chiavetta_USB_Live_utilizzando_Windows
+upgrade_table__mac_usb_link: https://it.opensuse.org/SDB:Creare_una_chiavetta_USB_Live_utilizzando_Mac_OS_x
