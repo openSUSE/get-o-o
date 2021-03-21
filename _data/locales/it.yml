@@ -39,7 +39,7 @@ tw_switch_p1: "Se si sta già eseguendo openSUSE è possibile aggiornare avviand
   DVD o da USB scegliendo di aggiornare, oppure si può effettuare un\n'Aggiornamento\
   \ Online' con pochi comandi.\n"
 tw_switch_instructions: Istruzione per l'aggiornamento.
-tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+tw_switch_instructions_link: https://it.opensuse.org/openSUSE:Passaggio_a_Tumbleweed
 upgrade_table_linux: Da una versione più vecchia o da un'altra distro Linux
 upgrade_table_windows: Da Windows
 upgrade_table_mac: Da OS X
