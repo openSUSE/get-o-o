@@ -11,8 +11,8 @@ task :build do
   end
   File.open('_data/sizes.yml', 'w') do |f|
     output = {}
-    [151, 152, 153, 'tumbleweed', 'kubic', 'microos'].each do |filename|
-      YAML.load_file("_data/#{filename}.yml")['downloads'].each do |i|
+    Dir['_data/*.yml'].select { |f| !f.include? 'releases.yml' }.each do |filename|
+      YAML.load_file(filename)['downloads'].each do |i|
         i['arches'].each do |j|
           j['types'].each do |k|
             conn = ::Faraday.new(url: URI("http://download.opensuse.org#{k['primary_link']}")) do |r|
