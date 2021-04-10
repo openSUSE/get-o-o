@@ -225,3 +225,9 @@ i686: Intel or AMD 32-bit desktops, laptops, and servers (i686)
 aarch64: UEFI Arm 64-bit servers, desktops, laptops and boards (aarch64)
 ppc64le: PowerPC servers, not big-endian (ppc64le)
 s390x: IBM Z and LinuxONE (s390x)
+chrome_warning: |
+  Due to $change_in_policy in Google Chrome and Chromium, downloading images by clicking the
+  download buttons is currently broken. To circumvent this issue, right click the download
+  button and click "Save link as..." to save the image. The reason for this bug is tracked in
+  $bug on GitHub, please let the maintainers know this affects you.
+chrome_warning_policy: a change in policy
