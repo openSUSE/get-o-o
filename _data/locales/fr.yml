@@ -195,8 +195,8 @@ index_desktop_p1: Sélection de distributions pour un usage bureau
 index_full: Ou rendez-vous directement sur les pages de téléchargement des distributions
 desktop: Les distributions openSUSE pour le bureau
 desktop_p1: "Les deux distributions pour les gouverner toutes\n"
-desktop_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE et tous
-  les enthousiastes de Linux et du logiciel libre
+desktop_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE, les joueurs
+  et tous les enthousiastes de Linux et du logiciel libre
 desktop_tumbleweed_p2: Publication en continu (rolling release) avec les derniers
   paquets fournis par le projet openSUSE.
 desktop_leap_p1: Pour les administrateurs système, les développeurs en entreprise
@@ -206,8 +206,8 @@ desktop_leap_p2: Publication périodique combinant les bénéfices d'une ingéni
 server: Les distributions openSUSE pour le serveur
 server_p1: "Quatre distributions confortablement ennuyeuses, comme cela devrait toujours\
   \ l'être\n"
-server_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE et tous
-  les enthousiastes de Linux et du logiciel libre
+server_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE, les joueurs
+  et tous les enthousiastes de Linux et du logiciel libre
 server_tumbleweed_p2: Publication en continu (rolling release) avec les derniers paquets
   fournis par le projet openSUSE.
 server_leap_p1: Pour les administrateurs système, les développeurs en entreprise et
