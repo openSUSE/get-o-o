@@ -49,6 +49,9 @@
 
 <section class="mb-5">
   <div class="container">
+    {% capture chrome_warning_link %}<a href="https://blog.chromium.org/2020/02/protecting-users-from-insecure.html" target="_blank">{{ locale.chrome_warning_policy }}</a>{% encapture %}
+    {% capture chrome_warning_bug %}<a href="https://github.com/openSUSE/mirrorbrain/issues/3" target="_blank">openSUSE/mirrorbrain#3</a>{% encapture %}
+    <p class="alert alert-danger">{{ locale.chrome_warning | replace: '$change_in_policy', chrome_warning_link | replace: '$bug', chrome_warning_bug }}</p>
     <div class="tab-content">
       {% for tab in distro.downloads %}
       <div class="tab-pane {% if forloop.first == true %}active{% endif %}" id="{{ tab.name }}" role="tabpanel">
