@@ -221,3 +221,9 @@ aarch64: Servidors, ordinadors de sobretaula, portàtils i tauletes de 64 bits a
   UEFI Arm (aarch64)
 ppc64le: Servidors PowerPC, no ordre dels bytes gran-petit (ppc64le)
 s390x: IBM Z i LinuxONE (s390x)
+chrome_warning: "Degut a $change_in_policy a Google Chrome i Chromium, actualment\
+  \ no funciona baixar imatges\nclicant als botons de baixada. Per evitar aquest problema,\
+  \ cliqueu amb el botó dret al botó de baixada\ni feu clic a \"Desa l'enllaç com\
+  \ a...\" per desar la imatge. Es fa un seguiment del motiu d’aquest error\na $bug\
+  \ a GitHub. Si us plau, feu saber als mantenidors que això us afecta.\n"
+chrome_warning_policy: un canvi de política
