@@ -233,7 +233,6 @@ chrome_warning: "En raison de $change_in_policy dans Google Chrome et Chromium, 
   \ téléchargement des images en cliquant sur les boutons de téléchargement\nne fonctionne\
   \ pas actuellement. Pour contourner ce problème, faites un clic droit sur le bouton\
   \ de téléchargement et cliquez sur \"Enregistrer le lien sous...\" pour enregistrer\
-  \ l'image.\net cliquez sur \"Enregistrer le lien sous...\" pour enregistrer l'image.\
-  \ La raison de ce bogue est suivie dans\n$bug sur GitHub, veuillez faire savoir\
-  \ aux mainteneurs que cela vous affecte.\n"
+  \ l'image. La raison de ce bogue est suivie dans\n$bug sur GitHub, veuillez faire\
+  \ savoir aux mainteneurs que cela vous affecte.\n"
 chrome_warning_policy: un changement de politique
