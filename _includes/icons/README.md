@@ -9,6 +9,7 @@ network.svg
 offline.svg
 plant.svg
 power.svg
+rescue.svg
 server.svg
 shield.svg
 tool.svg

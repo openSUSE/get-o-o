@@ -120,7 +120,7 @@
 }
 @media (prefers-color-scheme: dark) {
   .border-bottom {
-    border-color: black!important;
+    border-color: #495057!important;
   }
   .bg-light {
     background-color: #272b30!important;
@@ -132,5 +132,11 @@
   .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
     background: rgba(0, 0, 0, 0.4);
     border-color: transparent transparent black transparent;
+  }
+  .list-group-item a .text-dark {
+    color: white!important;
+  }
+  .modal-header {
+    border-color: #495057;
   }
 }

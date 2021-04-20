@@ -127,8 +127,11 @@
             </div>
         {% endfor %}
         </div>
-        {% capture alternative_downloads %}<a href="#" data-toggle="modal" data-target="#downloadModal">{{ locale.alternative_downloads }}</a>{% endcapture %}
-        <span>{{ locale.alternative_downloads_desc | replace: '$alternative_downloads', alternative_downloads }}</span>
+        {% if distro.downloads.size > 1 %}
+          {% capture alternative_downloads %}<a href="#" data-toggle="modal" data-target="#downloadModal">{{ locale.alternative_downloads }}</a>{% endcapture %}
+          {% capture options %}{% for tab in distro.downloads offset: 1 %}{{ locale[tab.name] }}{% if forloop.last == false %}, {% endif %}{% endfor %}{% endcapture %}
+          <b>{{ locale.alternative_downloads_desc | replace: '$alternative_downloads', alternative_downloads | replace: '$options', options }}</b>
+        {% endif %}
       </div>
     </section>
     {% include download/{{ distro.name }}.html %}
@@ -143,5 +146,6 @@
     </section>
   </div>
 </div>
-
+{% if distro.downloads.size > 1 %}
 {% include download-modal.html %}
+{% endif %}

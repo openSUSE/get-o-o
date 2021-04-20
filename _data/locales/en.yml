@@ -53,6 +53,9 @@ ports_info: |
   maintained by separate community teams, with limited resources.
 jeos_images: JeOS
 live_images: Live
+vm_images: Virtual Machine
+cloud_images: Cloud
+hardware_images: Hardware
 gnome_cd: GNOME LiveCD
 kde_cd: KDE LiveCD
 xfce_cd: Xfce LiveCD
@@ -66,11 +69,11 @@ microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Upda
   upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
 choosing_media_p1: |
-  The DVD/USB Stick is typically recommended as it contains most of the
+  The Offline Image is typically recommended as it contains most of the
   packages available in the distribution and does not require a network
   connection during the installation.
 choosing_media_p2: |
-  The Network CD/USB Stick is recommended for users who have limited
+  The Network Image is recommended for users who have limited
   bandwidth on their internet connections, as it will only download the
   packages they choose to install, which is likely to be significantly
   less than 4.7GB.
@@ -263,7 +266,7 @@ chrome_warning_policy: a change in policy
 overview: Overview
 download: Download
 alternative_downloads: Alternative Downloads
-alternative_downloads_desc: Can't find what you are looking for? Check out $alternative_downloads for the full list of download options.
+alternative_downloads_desc: Can't find what you are looking for? Check out $alternative_downloads for the $options image download options.
 MicroOS_features:
   idea:
     name: Philosophy
