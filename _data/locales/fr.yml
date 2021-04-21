@@ -227,7 +227,7 @@ view_distro: Voir $distro_name
 x86_64: Serveurs, ordinateurs fixes et portables Intel ou AMD 64-bit (x86_64)
 i686: Serveurs, ordinateurs fixes et portables Intel ou AMD 32-bit (i686)
 aarch64: Serveurs, ordinateurs fixes et portables, cartes UEFI Arm 64-bit (aarch64)
-ppc64le: Serveurs PowerPC « little-endian » (ppoc64le)
+ppc64le: Serveurs PowerPC « little-endian » (ppc64le)
 s390x: IBM Z et LinuxONE (s390x)
 chrome_warning: "En raison de $change_in_policy dans Google Chrome et Chromium, le\
   \ téléchargement des images en cliquant sur les boutons de téléchargement\nne fonctionne\
