@@ -202,3 +202,18 @@ desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklun
   \ können.\nWir heben aktiv drei Desktopumgebungen hervor und bieten noch mehr in\
   \ der erweiterten\nSoftwareliste im Installationsprogramm an.\n"
 yast: YaST, die beste Wahl für den ~~erfahrenen~~ Benutzer
+chrome_warning_policy: einer Änderung einer Richtlinie
+chrome_warning: "Aufgrund einer $change_in_policy in Google Chrome and Chromium, können\
+  \ Images derzeit nicht mit den Download-Schaltflächen heruntergeladen werden.\n\
+  Um dieses Problem zu umgehen, machen Sie einen Rechtsklick auf die Download-Schaltflächte\
+  \ und klicken Sie \"Link speichern unter...\", um das Image zu speichern.\nDie Ursache\
+  \ für dieses Problem wird in $bug auf GitHub getrackt, bitte lassen Sie die Maintainer\
+  \ wissen, wenn Sie betroffen sind.\n"
+s390x: IBM Z und LinuxONE (s390x)
+ppc64le: Server mit PowerPC, nicht big-endian (ppc64le)
+aarch64: Desktops, Laptops und Server mit Arm-64-bit und UEFI (aarch64)
+i686: Desktops, Laptops und Server mit Intel- oder AMD-32-bit (i686)
+x86_64: Desktops, Laptops und Server mit Intel- oder AMD-64-bit (x86_64)
+view_distro: $distro_name ansehen
+new_version_testing: $distro_name ist jetzt zum Herunterladen und Testen verfügbar
+new_version_available: $distro_name ist jetzt zum Herunterladen verfügbar
