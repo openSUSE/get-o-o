@@ -1,1 +1,56 @@
---- {}
+index_server: सर्वर
+index_desktop: डेस्कटॉप
+server: ओपनSUSE सर्वर वितरण
+view_distro: $distro_name देखें
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+tw_switch_instructions: अपग्रेड दिशानिर्देश।
+requirements: अनुशंसित सिस्टम आवश्यकताएँ
+leap_switch_instructions: ऑनलाइन अपग्रेड दिशानिर्देश।
+documentation_full_documentation: पूर्ण प्रलेखन
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_license: लाइसेंस
+documentation_release_notes: प्रकाशन नोट्स
+documentation_startup_guide: ओपनSUSE आरंभ गाइड
+documentation: प्रलेखन
+rescue_cd: निवारण लाइव सीडी
+xfce_cd: एक्सएफसीई लाइव सीडी
+kde_cd: केडीई लाइव सीडी
+gnome_cd: गनोम लाइव सीडी
+live_images: लाइव
+jeos_images: जेईओएस
+ports_images: पोर्ट
+installation_images: इंस्टॉल
+openstack_desc: ओपनस्टैक में वर्चुअल मशीन निष्पादन हेतु
+openstack_image: ओपनस्टैक-क्लाउड
+vmware_desc: वीएमवेयर में वर्चुअल मशीन निष्पादन हेतु
+vmware_image: वीएमवेयर
+hyperv_desc: एमएस हाइपरवी पर वर्चुअल मशीन निष्पादन हेतु
+hyperv_image: एमएस हाइपरवी
+xen_desc: XEN पीवी हाइपरवाइज़र में उपयोग हेतु
+xen_image: XEN
+kvm_desc: केवीएम व XEN एचवीएम हाइपरवाइज़र में उपयोग हेतु
+kvm_image: केवीएम व XEN
+network_desc: "इंस्टॉल सिस्टम व सभी पैकेज ऑनलाइन पैकेज-संग्रह से डाउनलोड होंगें।\n\
+  इंस्टॉल या अपग्रेड हेतु उपयुक्त।\n"
+network_image: नेटवर्क फाइल
+offline_desc: "डेस्कटॉप या सर्वर उपयोग हेतु सॉफ्टवेयर का विशाल संग्रह सम्मिलित है।\n\
+  इंस्टॉल या अपग्रेड हेतु उपयुक्त।\n"
+offline_image: ऑफलाइन फाइल
+torrent_file: टोरेंट फाइल
+checksum: चेकसम
+pick_mirror: सर्वर-मिरर चयन
+metalink: मेटालिंक
+usb_desc: यूएसबी हेतु
+dvd_desc: डीवीडी व यूएसबी हेतु
+cd_desc: सीडी व यूएसबी हेतु
+learn_more: और जानें
+license: लाइसेंस
+source_code: स्रोत कोड
+translate: अनुवाद
+search: खोज
+site_copyright: © 2020 ओपनSUSE योगदानकर्ता
+site_description: ओपनSUSE वितरणों के बारे में जानें व उन्हें निःशुल्क रूप से डाउनलोड
+  करें
+site_title_short: प्राप्त करें
+site_title: ओपनSUSE प्राप्त करें
