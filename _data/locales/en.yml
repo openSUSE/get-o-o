@@ -61,11 +61,12 @@ choosing_media_p2: |
   packages they choose to install, which is likely to be significantly
   less than 4.7GB.
 documentation: Documentation
-documentation_startup_guide: openSUSE Startup Guide
-documentation_release_notes: Release Notes
-documentation_license: License
-documentation_license_link: https://en.opensuse.org/openSUSE:License
-documentation_full_documentation: Full Documentation
+documentation_tumbleweed_community_docs: openSUSE Tumbleweed Community Documentation (beta)
+documentation_leap_startup_guide: openSUSE Leap Startup Guide
+documentation_leap_release_notes: Release Notes
+documentation_leap_license: License
+documentation_leap_license_link: https://en.opensuse.org/openSUSE:License
+documentation_leap_reference_documentation: Leap Reference Documentation
 leap_switch: Easy Ways to Switch to openSUSE Leap
 leap_switch_p1: |
   If you’re already running openSUSE you can upgrade by booting from the
@@ -111,8 +112,8 @@ verify_download_p3: |
   For extra security, you can use GPG to verify who signed those .sha256 files.
 verify_download_pubkey: It should be
 verify_download_help: For more help verifying your download please read
-verify_download_checksums_help: Checksums Help
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help: Authenticity and Integrity Checks
+verify_download_checksums_help_link: https://opensuse.github.io/openSUSE-docs-revamped/image_choice/#authenticity-integrity-checks
 desktops: Many desktops, three by default
 desktops_p1: |
   The openSUSE contribution process empowers desktop development for
