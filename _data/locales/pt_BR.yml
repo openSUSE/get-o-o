@@ -218,3 +218,9 @@ i686: PCs, laptops e servidores Intel ou AMD 32-bits (i686)
 aarch64: PCs, laptops e placas UEFI ARM 64-bits (aarch64)
 ppc64le: Servidores PowerPC, não big-endian (ppc64le)
 s390x: IBM Z e LinuxONE (s390x)
+chrome_warning: "Devido a uma $change_in_policy do Google Chrome e do Chromium, baixar\
+  \ imagens clicando nos\nbotões de download está com problemas atualmente. Para contornar\
+  \ este problema, clique com o\nbotão direito no botão de download e clique em \"\
+  Salvar link como...\" para salvar a imagem. O motivo\ndeste erro está rastreado\
+  \ como $bug no GitHub, deixe os mantenedores saber que isto afeta você.\n"
+chrome_warning_policy: uma mudança na política
