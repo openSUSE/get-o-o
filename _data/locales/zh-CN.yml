@@ -155,3 +155,6 @@ i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
 aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
 ppc64le: PowerPC 服务器，非大端（ppc64le）
 s390x: IBM Z 和 LinuxONE（s390x）
+chrome_warning: "由于 Google Chrome 和 Chromium 里的 $change_in_policy，当前不能通过点击下载按钮来下载映像。\n\
+  要解决这个问题，右键点击下载按钮然后点击“链接另存为…”来保存映像。此 $bug 可在\n GitHub 上追踪，请让维护者知悉你是否受到问题影响。\n"
+chrome_warning_policy: 政策更改
