@@ -44,7 +44,7 @@ tumbleweed_live_info: "请注意体验映像有下列限制：\n* 不应该使�
 kubic_desc: 容器即服务平台，基于 openSUSE MicroOS 上的 Kubernetes。
 microos_desc: 基于 openSUSE Tumbleweed 的系统，提供在只读 btrfs 根文件系统上的事务性（原子）更新
 choosing_media: 选择要下载的媒体
-choosing_media_p1: "通常推荐使用 DVD/U 盘，因为它包含最多发行版中的可用软件包并且在安装\n过程中不需要网络链接。\n"
+choosing_media_p1: "通常推荐使用 DVD/U 盘，因为它包含最多发行版中的可用软件包并且在安装\n过程中不需要网络连接。\n"
 choosing_media_p2: "推荐互联网连接带宽受限的用户使用 CD/U 盘，因为它只下载他们选择安装的\n软件包，大小可能远远小于 4.7GB。\n"
 documentation: 文档
 documentation_startup_guide: openSUSE 入门指南
@@ -155,6 +155,6 @@ i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
 aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
 ppc64le: PowerPC 服务器，非大端（ppc64le）
 s390x: IBM Z 和 LinuxONE（s390x）
-chrome_warning: "由于 Google Chrome 和 Chromium 里的 $change_in_policy，当前不能通过点击下载按钮来下载映像。\n\
-  要解决这个问题，右键点击下载按钮然后点击“链接另存为…”来保存映像。此 $bug 可在\n GitHub 上追踪，请让维护者知悉你是否受到问题影响。\n"
+chrome_warning: "由于 Google Chrome 和 Chromium 的 $change_in_policy，当前无法用点击下载按钮的方式来下载映像。\n\
+  要解决这个问题，右键点击下载按钮然后点击“链接另存为…”来保存映像。可以在\n GitHub 上的 $bug 追踪该问题，请让维护者知悉你是否受到问题影响。\n"
 chrome_warning_policy: 政策更改
