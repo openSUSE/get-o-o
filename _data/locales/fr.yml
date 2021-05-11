@@ -51,13 +51,13 @@ microos_desc: Système d'exploitation basé sur openSUSE Tumbleweed permettant d
   à jour transactionnelles (atomiques) à partir d'un système de fichiers btrfs en
   lecture-seule
 choosing_media: Choisir quel support télécharger
-choosing_media_p1: "L'image DVD/clé USB est généralement recommandée car elle contient\n\
+choosing_media_p1: "L'image hors ligne est généralement recommandée car elle contient\n\
   la plupart des paquets disponibles dans la distribution et ne requiert\npas une\
   \ connexion au réseau durant l'installation.\n"
-choosing_media_p2: "L'image CD/clé USB réseau est recommandée pour les utilisateurs\
-  \ ayant\nune bande passante limitée sur leur connexion internet, étant donné\nqu'elle\
-  \ ne téléchargera que les paquets qu'ils sélectionnent, ce qui\nreprésente généralement\
-  \ bien moins que 4.7Go.\n"
+choosing_media_p2: "L'image réseau est recommandée pour les utilisateurs ayant\nune\
+  \ bande passante limitée sur leur connexion internet, étant donné\nqu'elle ne téléchargera\
+  \ que les paquets qu'ils sélectionnent, ce qui\nreprésente généralement bien moins\
+  \ que 4.7Go.\n"
 documentation: Documentation
 documentation_startup_guide: Guide de démarrage openSUSE
 documentation_release_notes: Notes de version
@@ -67,13 +67,12 @@ documentation_full_documentation: Documentation complète
 leap_switch: Façons faciles de migrer vers openSUSE Leap
 leap_switch_instructions: Instructions de mise à niveau en ligne.
 leap_switch_instructions_link: https://fr.opensuse.org/SDB:System_upgrade
-requirements: Configuration système recommandée
-requirements_cpu: Processeur double cœur 2GHz ou plus
-requirements_mem: 2 Go de mémoire vive
+requirements: Configuration système
+requirements_cpu: CPU
+requirements_mem: Mémoire
 requirements_hd: Plus de 40Go d'espace disque libre
 requirements_dvd: Un lecteur DVD ou un port USB pour le support d'installation
-requirements_net: Un accès à Internet est utile et est indispensable pour l'installateur
-  par le réseau
+requirements_net: Réseau
 tw_switch: Façons faciles de migrer vers openSUSE Tumbleweed
 tw_switch_instructions: Instructions de mise à niveau.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
@@ -236,3 +235,24 @@ chrome_warning: "En raison de $change_in_policy dans Google Chrome et Chromium, 
   \ l'image. La raison de ce bogue est suivie dans\n$bug sur GitHub, veuillez faire\
   \ savoir aux mainteneurs que cela vous affecte.\n"
 chrome_warning_policy: un changement de politique
+download: Télécharger
+overview: Aperçu
+requirements_net_desc: Un accès à Internet est utile, et est indispensable pour l'installateur
+  réseau
+requirements_dvd_desc: Soit un lecteur DVD, soit un port USB pour le media d'installation
+requirements_hdd_size_desc: $value d'espace disque disponible
+requirements_hdd_desc: Plus de 40 Go d'espace libre sur le disque
+requirements_hdd: Stockage
+requirements_mem_desc: $value de RAM physique + de la mémoire supplémentaire pour
+  votre charge
+requirements_cpu_desc: Double coeur 2 GHz ou mieux
+requirements_rec: Recommandé
+requirements_min: Minimum
+hardware_images: Matériel
+cloud_images: Cloud
+vm_images: Machine virtuelle
+virtualbox_image: VirtualBox
+pine_image: Pine64
+rpi_image: Raspberry Pi
+vagrant_image: Vagrant
+iso_image: Image ISO
