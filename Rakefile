@@ -11,7 +11,7 @@ task :build do
   end
   File.open('_data/sizes.yml', 'w') do |f|
     output = {}
-    Dir['_data/*.yml'].select { |f| !f.include? 'releases.yml' }.each do |filename|
+    (Dir['_data/*.yml'] - ['_data/releases.yml', '_data/sizes.yml']).each do |filename|
       YAML.load_file(filename)['downloads'].each do |i|
         i['arches'].each do |j|
           j['types'].each do |k|

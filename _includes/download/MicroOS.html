@@ -1,0 +1,31 @@
+<section class="py-3">
+  <div class="container">
+    <h3 id="recommended-system-requirements">{{ locale.requirements }}</h3>
+    <div class="row">
+      <div class="col">
+        <h4>{{ locale.requirements_min }}</h4>
+        <ul class="list-unstyled">
+          <li><b>{{ locale.requirements_mem }}</b>: {{ locale.requirements_mem_desc | replace: '$value', '1GB' }}</li>
+          <li><b>{{ locale.requirements_hdd }}</b>:
+            <ul>
+              <li><b>{{ locale.requirements_hdd_root }}</b>: {{ locale.requirements_hdd_size_desc | replace: '$value', '5GB' }}</li>
+              <li><b>{{ locale.requirements_hdd_var }}</b>: {{ locale.requirements_hdd_size_desc | replace: '$value', '5GB' }}</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="col">
+        <h4>{{ locale.requirements_rec }}</h4>
+        <ul class="list-unstyled">
+          <li><b>{{ locale.requirements_mem }}</b>: {{ locale.requirements_mem_desc | replace: '$value', '2GB' }}</li>
+          <li><b>{{ locale.requirements_hdd }}</b>:
+            <ul>
+              <li><b>{{ locale.requirements_hdd_root }}</b>: {{ locale.requirements_hdd_size_desc | replace: '$value', '20GB' }}</li>
+              <li><b>{{ locale.requirements_hdd_var }}</b>: {{ locale.requirements_hdd_size_desc | replace: '$value', '40GB' }}</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
