@@ -1,6 +1,6 @@
 site_title: openSUSE のダウンロード
 site_title_short: ダウンロード
-site_description: openSUSE ディストリビューションに関する情報の取得とダウンロードを行なうことができます
+site_description: openSUSE ディストリビューションに関する情報の取得とダウンロードを行うことができます
 site_copyright: © 2020 openSUSE コミュニティ
 search: 検索
 translate: 翻訳
@@ -41,13 +41,13 @@ tumbleweed_live_info: "ライブイメージをご利用になる場合は、下
   \ Tumbleweed をインストールもしくはアップグレードしたい場合は、 [Tumbleweed メディア](/tumbleweed) をお使いください。\n\
   * ライブイメージには含まれていないパッケージやドライバ類があります。そのため、お使いのハードウエアで Tumbleweed が動作するかどうかを確認する目的には不向きです。\n"
 kubic_desc: openSUSE MicroOS を利用して構築された Kubernetes ベースの Container as a Service プラットフォームです。
-microos_desc: 読み込み専用の btrfs ルートファイルシステムを利用してトランザクション型 (アトミック) 更新を行なう、 openSUSE Tumbleweed
+microos_desc: 読み込み専用の btrfs ルートファイルシステムを利用してトランザクション型 (アトミック) 更新を行う、 openSUSE Tumbleweed
   ベースの OS
 choosing_media: ダウンロードするメディアの選択
-choosing_media_p1: "DVD/USB メモリ向けメディアにはディストリビューション内の多くのパッケージが\n含まれているため、インストール時にネットワークを使用する必要がありません。\n\
+choosing_media_p1: "オフラインイメージにはディストリビューション内の多くのパッケージが\n含まれているため、インストール時にネットワークを使用する必要がありません。\n\
   通常はこちらをダウンロードしてください。\n"
 choosing_media_p2: "ネットワークイメージは、インターネットへの接続が遅い場合にお勧めです。\n一般的な環境を構成する場合、ダウンロードすべきパッケージは\
-  \ 4.7GB よりも\n少ないことが多いので、こちらのほうがダウンロード量を減らすことに繋がるためです。\n"
+  \ 4.7GB よりも\n少ないことが多いので、こちらのほうがダウンロード量を減らすことに\n繋がるためです。\n"
 documentation: ドキュメンテーション
 documentation_startup_guide: openSUSE スタートアップガイド
 documentation_release_notes: リリースノート
@@ -55,18 +55,18 @@ documentation_license: ライセンス
 documentation_license_link: https://ja.opensuse.org/openSUSE:%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9
 documentation_full_documentation: 完全なドキュメンテーション
 leap_switch: openSUSE Leap に切り替えるための簡単な方法
-leap_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行なうことができます。それ以外にも、\n\
+leap_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行うことができます。それ以外にも、\n\
   コマンドをいくつか入力する 'オンラインアップグレード' にも対応しています。\n"
 leap_switch_instructions: オンラインアップグレードの手順はこちらに書かれています。
 leap_switch_instructions_link: https://ja.opensuse.org/SDB:%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89
-requirements: 推奨システム要件
-requirements_cpu: 2GHz デュアルコアプロセッサ以上
-requirements_mem: 2 GB のメモリもしくはそれ以上
+requirements: システム要件
+requirements_cpu: CPU
+requirements_mem: メモリ
 requirements_hd: 40GB 以上の空きディスク容量
 requirements_dvd: インストールメディアを挿入するための DVD ドライブもしくは USB ポート
-requirements_net: ネットワークイメージの場合はインターネット接続が必須となります。それ以外は任意です
+requirements_net: ネットワーク
 tw_switch: openSUSE Tumbleweed に切り替えるための簡単な方法
-tw_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行なうことができます。それ以外にも、\n\
+tw_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行うことができます。それ以外にも、\n\
   コマンドをいくつか入力する 'オンラインアップグレード' にも対応しています。\n"
 tw_switch_instructions: アップグレードの手順はこちらに書かれています。
 tw_switch_instructions_link: https://ja.opensuse.org/openSUSE:Tumbleweed_%E3%82%A2%E3%83%83%E3%83%97%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%89
@@ -101,7 +101,7 @@ desktops_p1: "openSUSE プロジェクトは特定のデスクトップ環境の
 installation: 必要なものだけをインストールすることができます
 installation_p1: "openSUSE のインストール処理ではいくつかの選択肢を表示しますが、そこから\n必要なパッケージを自動的に判断してインストールを行ないます。マウスとキーボード\n\
   の接続されたシステムであればインストーラはグラフィカル (GUI) モードで動作しますが、\nマウスが接続されていなければテキスト (端末) モードでインストールすることもできます。\n\
-  マシンを直接触れないような環境であっても、インストールをリモート (離れた場所) から\n行なうこともできます。いずれも簡単にできます。\n"
+  マシンを直接触れないような環境であっても、インストールをリモート (離れた場所) から\n行うこともできます。いずれも簡単にできます。\n"
 points_transparent: 全てが公開されています
 points_transparent_p1: "ディストリビューションに含まれる各パッケージには、対応するソースコードが\n公開されています。構築時に使用されるスクリプトも同様です。ソースコードに\n\
   疑念をお持ちの場合は、ビルドサービスをご覧になるとよいでしょう。\n"
@@ -109,10 +109,10 @@ points_free: フリーソフトウエアという選択
 points_free_p1: "ディストリビューション内のパッケージはフリーと非フリーの 2 種類に分類され、\nそれぞれ別々のリポジトリ内で公開されています。非フリーのパッケージを使用したく\n\
   ない場合は、リポジトリを無効化することもできます。\nつまり、選択の自由も提供されているというわけです。\n"
 points_welcoming: 貢献を歓迎します
-points_welcoming_p1: "私たちはコミュニティを支援するために最善を尽くしていますが、支援を行なうには\nコミュニティ側からの要望として声を上げる必要があるのも実情です。このような\n\
+points_welcoming_p1: "私たちはコミュニティを支援するために最善を尽くしていますが、支援を行うには\nコミュニティ側からの要望として声を上げる必要があるのも実情です。このような\n\
   事情から、貢献はできる限り簡単に実現できるようにしています。\n"
 snapper: システムの破壊からの回避
-snapper_p1: "ファイルシステムのスナップショット機能を使用することで、これを定期的なバック\nアップとして使用することができます。ソフトウエアのインストールや更新を行なった\n\
+snapper_p1: "ファイルシステムのスナップショット機能を使用することで、これを定期的なバック\nアップとして使用することができます。ソフトウエアのインストールや更新を行った\n\
   際に自動的に動作しますので、いつでもその時点に戻すことができるようになります。\nこれはつまり、常に適切に動作する環境を維持できるということになります。\n"
 software: 最も簡単なソフトウエア入手
 software_p1: "必要なソフトウエアを入手するのにさまざまな Web サイトを巡回しなければ\nならない状況では、手間ばかりがかかってしまいます。オンラインのソフトウエア\n\
@@ -135,8 +135,8 @@ yast_sound: サウンド
 yast_software: ソフトウエア
 zypper: 便利なパッケージマネージャ zypper
 zypper_p1: "学びやすく使いやすいツールです。 apt や apt-get コマンドと併用できるよう、\nzypper-apt という互換レイヤも用意されています。このツールは\
-  \ libsolv と\n呼ばれる、依存関係を高速に処理して一貫性の高いライブラリをベースに\nしています。インターフェイスは非常に明快で、色付きの出力も行なうことが\n\
-  できますので、読みやすさの点でも問題はありません。これ以上便利なツールは\nあるでしょうか？\n"
+  \ libsolv と\n呼ばれる、依存関係を高速に処理して一貫性の高いライブラリをベースに\nしています。インターフェイスは非常に明快で、色付きの出力も行うことが\n\
+  できますので、読みやすさの点でも問題はありません。これ以上便利なツールはあるでしょうか？\n"
 index: openSUSE ディストリビューション
 index_p1: デスクトップ用／サーバ用
 index_desktop: デスクトップ
@@ -178,3 +178,73 @@ chrome_warning: "Google Chrome および Chromium 内の $change_in_policy に�
   ボタンを押してもイメージをダウンロードできない問題が発生しております。この問題を回避するには、\nそれぞれのダウンロードボタンの上でマウスの右ボタンを押して、\
   \ \"名前を付けてリンク先を保存\" を\n選択してください。この不具合は GitHub 内の $bug で対応を検討中ですので、詳しくはこちらをお読みください。\n"
 chrome_warning_policy: ポリシー変更
+Tumbleweed_features:
+  update:
+    name: 継続的な更新
+MicroOS_features:
+  tool:
+    description: "### デバッグツールボックスコンテナ\n* 特権コンテナを起動します\n* ルートファイルシステムは `/media/root`\
+      \ 内に現れます\n* zypper で必要なツールをインストールできます。再起動せずに利用できます\n*環境を維持することができます\n"
+    name: デバッグ
+  work:
+    description: "アプリケーションはルートファイルシステムではなく、コンテナ内にインストールされます:\n* ファイルシステムが中枢部とは分離されます\n\
+      * システムに被害を与えるような悪意のあるアプリケーションの動作できる範囲を狭めることができます\n* 再起動することなく新しいインストールを実施できます\n\
+      * 更新も簡単です (新しいバージョンのコンテナを作成して、古いコンテナを削除するだけです)\n* 巻き戻しも容易です\n"
+    name: ワークロード
+  key:
+    description: "* 更新は HTTPS で取得します\n* パッケージにもリポジトリにも、ビルドシステムによる署名が付与されます\n* パッケージの内容も検証対象となります\n\
+      * 依存関係に問題がある場合には更新が行われないようになっています\n* 容量の無駄使いもありません。更新失敗時には、該当するファイルシステムのスナップショットは削除されます\n"
+    name: 更新時の機密保持
+  shield:
+    description: "### MicroOS は不変の OS です。巻き戻しも簡単です\n* 巻き戻しの際にディスクに書き込む必要はありません\n*\
+      \ 巻き戻しは単純に古い btrfs スナップショットを参照することによって行われます\n"
+    name: 巻き戻し (ロールバック)
+  update:
+    description: "###  トランザクション型更新\n\n#### 唯一性\nスナップショット機能の搭載された btrfs を使用する MicroOS\
+      \ では、ファイルシステムの\n履歴を保持するのに非常に効率的な手法を使用しています。システムの設定を保存して\nいる `/etc` ディレクトリについてもスナップショットの対象となっていますので、設定も巻き戻し\
+      \ (ロールバック) が可能です。\n\n#### 柔軟性\n* パッケージ形式を変える必要はありません。標準的な openSUSE RPM をそのまま使用できます\n\
+      * サイズの制限はありません。パーティションについても、オペレーティングシステムについても制限はありません\n* 拡張も簡単です\n"
+    name: アトミック更新
+  idea:
+    description: "### 予測可能性\n* 動作中には一切変更が発生しません\n* 起動後の処理によってシステムが変化してしまうこともありません\n\
+      \n### 拡張性\n* 動作中に個別のインスタンスを設定する手間がありません\n* 結果が容易に予測できるため、インスタンスの追加も容易です\n\n\
+      ### 信頼性\n* 更新が失敗しても自動的に復元することができます\n"
+    name: 哲学
+alternative_downloads_desc: お探しの者が見つかりませんか？ $options イメージのダウンロードオプションについては、 $alternative_downloads
+  をご覧ください。
+alternative_downloads: 代替ダウンロード
+download: ダウンロード
+overview: 概要
+armv7l: UEFI ARM 32 ビットサーバ／デスクトップ／ラップトップ／ボード (armv7l)
+requirements_net_mac: 各ノードに対して、それぞれ別々のホスト名と MAC アドレスが必要です
+requirements_net_conn: クラスタ内の全マシンに対する完全な接続が必要です
+requirements_net_desc: インターネットアクセスがあることが望ましいです (ネットワークインストールの場合は必須となります)
+requirements_dvd_desc: インストールメディアを挿入するための DVD ドライブもしくは USB ポート
+requirements_hdd_ssd_info: 高速に書き込みできる SSD
+requirements_hdd_swap_info: kubernetes を正しく動作させるため、スワップ領域は無効化する必要があります
+requirements_hdd_size_desc: $value の利用可能なディスク領域
+requirements_hdd_var: /var パーティション
+requirements_hdd_root: / (ルート) パーティション
+requirements_hdd_desc: 40GB 以上の空き領域があるハードディスク
+requirements_hdd: ストレージ
+requirements_mem_desc: $value の物理メモリに加え、ご利用の環境に合わせた容量分
+requirements_cpu_desc: 2 GHz デュアルコアプロセッサもしくはそれ以上
+requirements_rec: 推奨
+requirements_min: 最小
+hardware_images: ハードウエア
+cloud_images: クラウド
+vm_images: 仮想マシン
+virtualbox_image: VirtualBox
+openstack_ch_image: OpenStack-Cloud コンテナホスト
+pine_ch_image: Pine64 コンテナホスト
+pine_image: Pine64
+rpi_ch_image: RaspberryPi コンテナホスト
+rpi_image: RaspberryPi
+vagrant_ch_image: Vagrant コンテナホスト
+vagrant_image: Vagrant
+vmware_vmx_ch_image: VMware VMX コンテナホスト
+vmware_vmx_image: VMware VMX
+vmware_ch_image: VMware コンテナホスト
+hyperv_ch_image: MS HyperV コンテナホスト
+kvm_ch_image: KVM および XEN コンテナホスト
+iso_image: ISO イメージ
