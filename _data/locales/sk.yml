@@ -23,12 +23,12 @@ documentation_release_notes: Poznámky k vydaniu
 documentation_license: Licencia
 documentation_full_documentation: Úplná dokumentácia
 leap_switch: Jednoduché spôsoby, ako prejsť na openSUSE Leap
-requirements: Odporúčané systémové požiadavky
-requirements_cpu: 2 Ghz dual core procesor alebo lepší
-requirements_mem: 2 GB systémovej pamäte
+requirements: Systémové požiadavky
+requirements_cpu: CPU
+requirements_mem: Pamäť
 requirements_hd: Viac ako 40 GB voľného miesta na pevnom disku
 requirements_dvd: Buď DVD jednotka alebo USB port pre inštalačné médiá
-requirements_net: Prístup k internetu je užitočný a potrebný pre sieťovú inštaláciu
+requirements_net: Sieť
 tw_switch: Jednoduché spôsoby, ako prejsť na openSUSE Tumbleweed
 upgrade_table_linux: Zo staršej verzie alebo inej linuxovej distribúcie
 upgrade_table_windows: Z Windows
@@ -75,12 +75,11 @@ tumbleweed_live_info: "Uvedomte si, prosím, nasledujúce obmedzenia live obrazo
   \ bude fungovať na vašom hardvéri alebo nie\n"
 microos_desc: OS založený na openSUSE Tumbleweed poskytujúci transakčné (atomické)
   aktualizácie na koreňovom súborovom systéme btrfs iba na čítanie
-choosing_media_p1: "Odporúča sa zvyčajne DVD/USB kľúč, pretože obsahuje väčšinu\n\
+choosing_media_p1: "Odporúča sa zvyčajne Offline obraz, pretože obsahuje väčšinu\n\
   balíkov dostupných v distribúcii a počas inštalácie nevyžaduje\nsieťové pripojenie.\n"
-choosing_media_p2: "Sieťové CD/USB kľúč sa odporúča pre používateľov, ktorí majú \n\
-  na internetových pripojeniach obmedzenú šírku pásma, pretože\nsi stiahnu len balíky,\
-  \ ktoré si zvolili pre nainštalovanie, čo je\npravdepodobne podstatne menej ako\
-  \ 4,7 GB.\n"
+choosing_media_p2: "Sieťový obraz sa odporúča pre používateľov, ktorí majú \nna internetových\
+  \ pripojeniach obmedzenú šírku pásma, pretože\nsi stiahnu len balíky, ktoré si zvolili\
+  \ pre nainštalovanie, čo je\npravdepodobne podstatne menej ako 4,7 GB.\n"
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n\
   z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých\
@@ -216,3 +215,12 @@ chrome_warning: "Sťahovanie obrázov kliknutím na tlačidlá sťahovania je mo
   \ a kliknutím \"Uložiť odkaz ako...\" obraz uložte. Dôvod\ntejto chyby je sledovaný\
   \ v $ bug na GitHub, prosím, informujte správcov, že sa vás to týka.\n"
 chrome_warning_policy: zmena politiky
+openstack_ch_image: Hostiteľ kontajnera OpenStack-Cloud
+pine_ch_image: Hostiteľ kontajnera Pine64
+rpi_ch_image: Hostiteľ kontajnera RaspberryPi
+vagrant_ch_image: Hostiteľ kontajnera Vagrant
+vmware_vmx_ch_image: Hostiteľ kontajnera VMware VMX
+vmware_ch_image: Hostiteľ kontajnera VMware
+hyperv_ch_image: Hostiteľ kontajnera MS HyperV
+kvm_ch_image: Hostiteľ kontajnera KVM a XEN
+iso_image: ISO obraz
