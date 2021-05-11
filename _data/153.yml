@@ -119,7 +119,7 @@ downloads:
       - name: pick_mirror
         url: /distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist
       - name: checksum
-        url: /distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.zx.sha256
+        url: /distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.xz.sha256
     - name: vmware_image
       short: vmware_desc
       primary_link: /distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-VMware.vmdk.xz
