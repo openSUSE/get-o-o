@@ -50,13 +50,13 @@ kubic_desc: Plataforma de contêiner como serviço baseada em Kubernetes no open
 microos_desc: SO openSUSE Tumbleweed que fornece atualizações transacionais (atômicas)
   em um sistema de arquivos raiz btrfs somente leitura
 choosing_media: Escolhendo qual mídia baixar
-choosing_media_p1: "O DVD/USB Stick é normalmente recomendado, pois contém a maioria\
-  \ dos\npacotes disponíveis na distribuição e não requer uma rede\nconexão durante\
+choosing_media_p1: "A imagem offline é normalmente recomendada, pois contém a maioria\
+  \ dos\npacotes disponíveis na distribuição e não requer uma conexão de rede\ndurante\
   \ a instalação.\n"
-choosing_media_p2: "O CD de rede/stick USB é recomendado para usuários que têm limitações\n\
-  largura de banda em suas conexões de internet, já que só vai baixar o\npacotes que\
-  \ eles escolhem instalar, o que provavelmente será significativamente\nmenos de\
-  \ 4,7 GB.\n"
+choosing_media_p2: "A imagem de rede é recomendada para usuários que têm limitações\n\
+  largura de banda em suas conexões de internet, pois só irá baixar os\npacotes que\
+  \ escolher instalar, o que provavelmente será significativamente\nmenos do que 4,7\
+  \ GB.\n"
 documentation: Documentação
 documentation_startup_guide: Guia Inicial do openSUSE
 documentation_release_notes: Notas de lançamento
@@ -69,12 +69,12 @@ leap_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inic
   \ em alguns\ncomandos.\n"
 leap_switch_instructions: Instruções para atualização Online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Requisitos de sistema recomendados
-requirements_cpu: Processador dual core de 2 Ghz ou melhor
-requirements_mem: 2 GB de memória do sistema
+requirements: Requisitos do sistema
+requirements_cpu: CPU
+requirements_mem: Memória
 requirements_hd: Mais de 40 GB de espaço livre no disco rígido
 requirements_dvd: Uma unidade de DVD ou porta USB para a mídia de instalação
-requirements_net: O acesso à Internet é útil e necessário para o instalador de rede
+requirements_net: Rede
 tw_switch: Maneiras fáceis de mudar para openSUSE Tumbleweed
 tw_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando\
   \ a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’\
@@ -215,7 +215,7 @@ new_version_testing: $distro_name está disponível para baixar e testar
 view_distro: Ver $distro_name
 x86_64: PCs, laptops e servidores Intel ou AMD 64-bits (x86_64)
 i686: PCs, laptops e servidores Intel ou AMD 32-bits (i686)
-aarch64: PCs, laptops e placas UEFI ARM 64-bits (aarch64)
+aarch64: PCs, laptops, placas e servidores UEFI ARM 64-bits (aarch64)
 ppc64le: Servidores PowerPC, não big-endian (ppc64le)
 s390x: IBM Z e LinuxONE (s390x)
 chrome_warning: "Devido a uma $change_in_policy do Google Chrome e do Chromium, baixar\
@@ -224,3 +224,70 @@ chrome_warning: "Devido a uma $change_in_policy do Google Chrome e do Chromium, 
   Salvar link como...\" para salvar a imagem. O motivo\ndeste erro está rastreado\
   \ como $bug no GitHub, deixe os mantenedores saber que isto afeta você.\n"
 chrome_warning_policy: uma mudança na política
+Tumbleweed_features:
+  user:
+    name: Simples de usar
+  home:
+    name: Estável
+  update:
+    description: "Você instala uma vez e aproveita para sempre. Você não precisa mais\
+      \ se preocupar a cada seis meses com atualizações massivas do sistema que correm\
+      \ o risco de bloquear seu sistema.\n"
+    name: Atualizado continuamente
+MicroOS_features:
+  tool:
+    name: Depuração
+  work:
+    name: Cargas de trabalho
+  key:
+    description: "* Baixe suas atualizações via HTTPS\n* Os pacotes e repositórios\
+      \ são assinados pelo nosso sistema de compilação\n* Os pacotes são verificados\n\
+      * Nenhuma atualização é feita em caso de conflitos de dependência\n* Sem desperdício\
+      \ de espaço: Os instantâneos do sistema de arquivos são excluídos no caso de\
+      \ atualizações mal sucedidas\n"
+    name: Atualizações seguras
+  update:
+    name: Atualizações atômicas
+  idea:
+    name: Filosofia
+alternative_downloads_desc: Não encontrou o que estava procurando? Veja os $alternative_downloads
+  para as opções de download de imagens $options.
+alternative_downloads: Downloads alternativos
+download: Baixar
+armv7l: PCs, laptops, placas e servidores UEFI ARM 32-bits (armv7l)
+overview: Visão geral
+requirements_net_mac: Nome de máquina e endereço MAC únicos para cada nó
+requirements_net_conn: Conectividade completa entre todas as máquinas do cluster
+requirements_net_desc: O acesso à Internet é útil e necessário para o instalador de
+  rede
+requirements_dvd_desc: Uma unidade de DVD ou porta USB para a mídia de instalação
+requirements_hdd_ssd_info: SSD de alta velocidade de gravação
+requirements_hdd_swap_info: Espaço swap desabilitado para os kubernetes poderem trabalhar
+  adequadamente
+requirements_hdd_size_desc: $value de espaço em disco livre
+requirements_hdd_var: Partição /var
+requirements_hdd_root: Partição / (raiz)
+requirements_hdd_desc: Mais de 40 GB de espaço em disco livre
+requirements_hdd: Armazenamento
+requirements_mem_desc: $value de memória RAM + memória adicional para sua carga de
+  trabalho
+requirements_cpu_desc: Processador dual core de 2 GHz ou melhor
+requirements_rec: Recomendado
+requirements_min: Mínimo
+hardware_images: Hardware
+cloud_images: Nuvem
+vm_images: Máquina virtual
+virtualbox_image: VirtualBox
+openstack_ch_image: Host de contêiner OpenStack-Cloud
+pine_ch_image: Host de contêiner Pine64
+pine_image: Pine64
+rpi_ch_image: Host de contêiner RaspberryPi
+rpi_image: RaspberryPi
+vagrant_ch_image: Host de contêiner Vagrant
+vagrant_image: Vagrant
+vmware_vmx_ch_image: Host de contêiner VMware VMX
+vmware_vmx_image: VMware VMX
+vmware_ch_image: Host de contêiner VMware
+hyperv_ch_image: Host de contêiner MS HyperV
+kvm_ch_image: Host de contêiner KVM e XEN
+iso_image: Imagem ISO
