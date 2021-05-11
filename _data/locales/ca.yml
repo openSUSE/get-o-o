@@ -33,9 +33,9 @@ tumbleweed_live_info: "Sigueu conscients de les següents limitacions de les ima
   \ i drivers limitada, per tant no poden ser considerades una indicació precisa de\
   \ si la Tumbleweed funcionarà amb el teu maquinari o no.\n"
 choosing_media: Com triar el mitjà per baixar
-choosing_media_p1: "Normalment recomanem la imatge DVD / mitjà USB ja que conté la\
-  \ majoria de\npaquets disponibles i no necessita una connexió a internet durant\
-  \ la instal·lació.\n"
+choosing_media_p1: "Normalment recomanem la imatge de fora de línia ja que conté la\
+  \ majoria\nde paquets disponibles i no necessita una connexió a Internet durant\n\
+  la instal·lació.\n"
 documentation_startup_guide: Guia d'inici de l'openSUSE (en anglès)
 documentation: Documentació
 documentation_release_notes: Notes de la versió
@@ -45,9 +45,9 @@ offline_image: Imatge per a ús sense connexió
 documentation_license: Llicència
 documentation_full_documentation: Documentació completa
 leap_switch_instructions: Instruccions d’actualització en línia
-requirements: Requisits del sistema recomanats
-requirements_cpu: Processador de doble nucli o millor, de 2 GHz
-requirements_mem: 2 GB de memòria del sistema
+requirements: Requisits del sistema
+requirements_cpu: Processador
+requirements_mem: Memòria
 requirements_hd: Més de 40 GB d’espai lliure al disc dur
 tw_switch_instructions: Instruccions d’actualització.
 upgrade_table_windows: Des del Windows
@@ -67,10 +67,10 @@ kubic_desc: Contenidor com a plataforma de serveis basada en Kubernetes sobre Op
   Micro SO.
 microos_desc: SO d'openSUSE basat en Tumbleweed que proporciona actualitzacions transaccionals
   (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
-choosing_media_p2: "El CD o memòria d'USB de xarxa es recomana als usuaris que tenen\n\
-  limitada l'amplada de banda a les connexions a Internet, ja que només\nbaixarà els\
-  \ paquets que es triïn instal·lar, conjunt que probablement\nsigui significativament\
-  \ menor de 4,7 GB.\n"
+choosing_media_p2: "La imatge de xarxa es recomana als usuaris que tenen limitada\n\
+  l'amplada de banda a les connexions a Internet, ja que només\nbaixarà els paquets\
+  \ que es triïn instal·lar, un pes que probablement\nsigui significativament menor\
+  \ de 4,7 GB.\n"
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch: Maneres fàcils de canviar a l'openSUSE Leap
 leap_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador\
@@ -78,8 +78,7 @@ leap_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordina
   \ línia amb\npoques ordres.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_dvd: O bé una unitat de DVD o bé un port d'USB per al mitjà d'instal·lació
-requirements_net: L'accés a Internet ajuda, i és necessari per a la instal·lació per
-  xarxa.
+requirements_net: Xarxa
 tw_switch: Maneres fàcils de canviar a l'openSUSE Tumbleweed
 tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador\
   \ des d'un\nDVD / USB i triar l'opció d'actualització o feu una actualització en\
@@ -227,3 +226,140 @@ chrome_warning: "Degut a $change_in_policy a Google Chrome i Chromium, actualmen
   \ a...\" per desar la imatge. Es fa un seguiment del motiu d’aquest error\na $bug\
   \ a GitHub. Si us plau, feu saber als mantenidors que això us afecta.\n"
 chrome_warning_policy: un canvi de política
+Tumbleweed_features:
+  plant:
+    description: "El Tumbleweed es basa en dècades d’ús, proves i depuració de centenars\
+      \ d’usuaris avançats, desenvolupadors, administradors de sistemes i treballadors\
+      \ exigents que no es poden permetre posar en perill del seu flux de treball.\
+      \ La solidesa del Tumbleweed es concreta en molts paquets bàsics l’ADN dels\
+      \ quals es deriva del venerable SUSE Linux Enterprise Server.\n"
+    name: En terra ferma
+  power:
+    description: "Aprofitant les tecnologies per les quals l'openSUSE és conegut,\
+      \ com ara el sistema de fitxers Btrfs, la utilitat de línia d’ordres snapper,\
+      \ així com el tauler de control del YaST, provat per a la batalla, el Tumbleweed\
+      \ us empodera amb tot el control sobre el sistema i us permet definir la configuració\
+      \ que desitgeu i no preocupar-vos-en més. Ja no us heu d'amoïnar que un sistema\
+      \ interfereixi amb el vostre flux de treball.\n"
+    name: Potent
+  shield:
+    description: "Construït a partir de les darreres versions del nucli, compilades\
+      \ amb els últims pedaços de mitigació de Spectre / Meltdown, amb tallafoc i\
+      \ polítiques de seguretat activades per defecte, la vostra seguretat està coberta\
+      \ de manera immediata.\n"
+    name: Protegit
+  key:
+    description: "En cas que es produeixi qualsevol fet no desitjat, sempre podeu\
+      \ tornar a un estat anterior i trobar els vostres fitxers i programes tal com\
+      \ eren abans d'una actualització accidentada.\n"
+    name: Segur
+  cpu:
+    description: "Gràcies a la seva naturalesa d'avantguarda i de comprovació exhaustiva,\
+      \ el Tumbleweed serveix el vostre maquinari i dispositius com poques altres\
+      \ distribucions de Linux, cosa que el converteix en un sistema excel·lent per\
+      \ a estacions de treball i tot tipus de portàtils.\n"
+    name: Va bé amb el vostre maquinari
+  user:
+    description: "Amb una sola ordre podeu actualitzar milers de paquets, tornar a\
+      \ la instantània de la setmana passada, tornar a avançar ràpidament i fins i\
+      \ tot previsualitzar les properes versions.\n"
+    name: Fàcil d'usar
+  home:
+    description: "Les actualitzacions es comproven a fons amb els estàndards de qualitat\
+      \ d'indústria, aprofitant un servei de construcció que ens envegen altres distribucions\
+      \ de Linux. No només es prova individualment cada nova versió d’un paquet, sinó\
+      \ que es proven diferents clústers de versions, i s'assegura que el sistema\
+      \ sigui coherent internament.\n"
+    name: Estable
+  knife:
+    description: "Rebeu actualitzacions freqüents que no només aborden les vulnerabilitats\
+      \ o els errors, sinó que reflecteixen les darreres funcions i desenvolupaments,\
+      \ com ara nuclis nous, controladors nous i versions recents de l'entorn d'escriptori.\n"
+    name: A l'última
+  update:
+    description: "L’instal·leu un cop i en gaudiu per sempre. Ja no us heu de preocupar\
+      \ cada sis mesos per les actualitzacions massives de sistema que tenen el risc\
+      \ de blocar-lo.\n"
+    name: Actualitzat contínuament
+MicroOS_features:
+  tool:
+    description: "### Contenidor d'eines de depuració\n* Llança un contenidor privilegiat.\n\
+      * Sistema de fitxers d'arrel disponible a /media/root\n* zypper per instal·lar\
+      \ les eines necessàries, disponibles sense reiniciar\n* Persistent entre usos\n"
+    name: Depuració
+  work:
+    description: "Les aplicacions s’instal·len als contenidors en lloc del sistema\
+      \ de fitxers d'arrel:\n* Aïllat del sistema de fitxers principal\n* Reducció\
+      \ de la capacitat d'aplicacions malicioses per comprometre el sistema\n* Instal·lació\
+      \ nova sense reiniciar\n* Actualització de forma atòmica possible (crear-ne\
+      \ de nous, matar-ne de vells)\n* Fàcil retrocés\n"
+    name: Càrregues de feina
+  key:
+    description: "* Obteniu les actualitzacions mitjançant HTTPS.\n* El nostre sistema\
+      \ de construcció signa els paquets i els repositoris.\n* Els paquets estan verificats.\n\
+      * No es fan actualitzacions en cas de conflictes de dependències.\n* Sense malbaratament\
+      \ d’espai: les instantànies del sistema de fitxers s’esborren en cas d’actualitzacions\
+      \ fallides.\n"
+    name: Actualitzacions de seguretat
+  shield:
+    description: "### El MicroSO és un sistema operatiu immutable, de recuperació\
+      \ senzilla.\n* Immutable: no hi ha canvis al disc.\n* Feu-ne un retrocés o recuperació\
+      \ reiniciant una instantània antiga de BTRFS.\n"
+    name: Retrocés
+  update:
+    description: "### Actualitzacions transaccionals\n\n#### Únic\nEn usar btrfs amb\
+      \ instantànies, el MicroSO usa l'espai de manera molt\neficient per emmagatzemar\
+      \ l’historial del sistema de fitxers. Tots els fitxers\nde configuració de /etc\
+      \ formen part de la instantània i de la recuperació.\n\n#### Flexible\n* No\
+      \ cal un format de paquet nou, s'usen els RPM estàndards d'openSUSE.\n* No hi\
+      \ ha limitació de mida, ni per a particions ni per al sistema operatiu.\n* Fàcil\
+      \ de millorar\n"
+    name: Actualitzacions atòmiques
+  idea:
+    description: "### És predictible.\n* No s'altera durant l'execució.\n* Executarà\
+      \ els mateixos artefactes de manera constant a cada arrencada.\n\n### És escalable.\n\
+      * Elimina els esforços per configurar instàncies individuals durant el temps\
+      \ d'execució.\n* Es pot desplegar fàcilment i repetidament amb resultats previsibles.\n\
+      \n### És fiable.\n* Recuperació automàtica d’actualitzacions defectuoses\n"
+    name: Filosofia
+alternative_downloads_desc: No trobeu el que busqueu? Consulteu $alternative_downloads
+  per a les opcions de descàrrega d'imatges de $options.
+alternative_downloads: Descàrregues alternatives
+download: Descàrrega
+overview: Resum
+armv7l: Servidors, escriptoris, portàtils i tauletes de 32 bits Arm UEFI (armv7l)
+requirements_net_mac: Nom d'amfitrió i adreça MAC exclusius per a cada node
+requirements_net_conn: Connectivitat completa entre totes les màquines del clúster
+requirements_net_desc: L'accés a Internet és útil, però necessari per a l'instal·lador
+  per xarxa.
+requirements_dvd_desc: Una unitat de DVD o un port USB per al suport d’instal·lació
+requirements_hdd_ssd_info: SSD d'alta velocitat d'escriptura
+requirements_hdd_swap_info: espai d'intercanvi inhabilitat per tal que kubernetes
+  funcioni correctament
+requirements_hdd_size_desc: $value d'espai disponible al disc
+requirements_hdd_var: Partició /var
+requirements_hdd_root: 'Partició / (root: arrel)'
+requirements_hdd_desc: Més de 40 GB d’espai lliure al disc dur
+requirements_hdd: Emmagatzematge
+requirements_mem_desc: $value de RAM física + memòria addicional per a la vostra càrrega
+  de feina
+requirements_cpu_desc: Processador de doble nucli de 2 Ghz o superior
+requirements_rec: Recomanat
+requirements_min: Mínim
+hardware_images: Maquinari
+cloud_images: Núvol
+vm_images: Màquina virtual
+virtualbox_image: VirtualBox
+openstack_ch_image: Amfitrió de contenidor d'OpenStack-Cloud
+pine_ch_image: Amfitrió de contenidor Pine64
+pine_image: Pine64
+rpi_ch_image: Amfitrió de contenidor RaspberryPi
+rpi_image: RaspberryPi
+vmware_vmx_ch_image: Amfitrió de contenidor VMware VMX
+vagrant_ch_image: Amfitrió de contenidor de Vagrant
+vagrant_image: Vagrant
+vmware_vmx_image: VMware VMX
+vmware_ch_image: Amfitrió de contenidors VMware
+hyperv_ch_image: Amfitrió de contenidors MS HyperV
+kvm_ch_image: Amfitrió de contenidors KVM i XEN
+iso_image: Imatge ISO
