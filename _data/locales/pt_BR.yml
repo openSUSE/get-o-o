@@ -250,6 +250,11 @@ MicroOS_features:
     name: Atualizações atômicas
   idea:
     name: Filosofia
+    description: "### É previsível\n* Não é alterado durante o uso\n* Irá executar\
+      \ os mesmos artefatos de forma consistente em cada boot\n\n### É escalável\n\
+      * Elimina os esforços de configurar instâncias individuais durante o uso\n*\
+      \ Pode ser implementado facilmente repetidas vezes com resultados previsíveis\n\
+      \n### É confiável\n* Recuperação automática de atualizações com falhas\n"
 alternative_downloads_desc: Não encontrou o que estava procurando? Veja os $alternative_downloads
   para as opções de download de imagens $options.
 alternative_downloads: Downloads alternativos
