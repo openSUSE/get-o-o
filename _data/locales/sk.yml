@@ -224,3 +224,11 @@ vmware_ch_image: Hostiteľ kontajnera VMware
 hyperv_ch_image: Hostiteľ kontajnera MS HyperV
 kvm_ch_image: Hostiteľ kontajnera KVM a XEN
 iso_image: ISO obraz
+hardware_images: Hardvér
+cloud_images: Cloud
+vm_images: Virtuálny stroj
+virtualbox_image: VirtualBox
+pine_image: Pine64
+rpi_image: Vagrant
+vagrant_image: Vagrant
+vmware_vmx_image: VMware VMX
