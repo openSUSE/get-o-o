@@ -46,8 +46,8 @@ microos_desc: 読み込み専用の btrfs ルートファイルシステムを�
 choosing_media: ダウンロードするメディアの選択
 choosing_media_p1: "オフラインイメージにはディストリビューション内の多くのパッケージが\n含まれているため、インストール時にネットワークを使用する必要がありません。\n\
   通常はこちらをダウンロードしてください。\n"
-choosing_media_p2: "ネットワークイメージは、インターネットへの接続が遅い場合にお勧めです。\n一般的な環境を構成する場合、ダウンロードすべきパッケージは\
-  \ 4.7GB よりも\n少ないことが多いので、こちらのほうがダウンロード量を減らすことに\n繋がるためです。\n"
+choosing_media_p2: "ネットワークイメージは、インターネットへの接続が遅い場合にお勧めです。\n一般的な環境を構築するにあたっては、ダウンロードすべきパッケージは\n\
+  4.7GB よりも少ないことが多いので、こちらのほうがダウンロード量が\n少なくなるためです。\n"
 documentation: ドキュメンテーション
 documentation_startup_guide: openSUSE スタートアップガイド
 documentation_release_notes: リリースノート
@@ -254,7 +254,7 @@ requirements_hdd_var: /var パーティション
 requirements_hdd_root: / (ルート) パーティション
 requirements_hdd_desc: 40GB 以上の空き領域があるハードディスク
 requirements_hdd: ストレージ
-requirements_mem_desc: $value の物理メモリに加え、ご利用の環境に合わせた容量分
+requirements_mem_desc: $value の物理メモリ + ご利用の用途に合わせた容量
 requirements_cpu_desc: 2 GHz デュアルコアプロセッサもしくはそれ以上
 requirements_rec: 推奨
 requirements_min: 最小
