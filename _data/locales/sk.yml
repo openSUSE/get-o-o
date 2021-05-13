@@ -232,3 +232,14 @@ pine_image: Pine64
 rpi_image: Vagrant
 vagrant_image: Vagrant
 vmware_vmx_image: VMware VMX
+requirements_hdd_swap_info: Odkladací priestor je zakázaný, aby kubernetes fungoval
+  správne
+requirements_hdd_size_desc: $value dostupného miesta na disku
+requirements_hdd_var: /var oddiel
+requirements_hdd_root: / (koreňový) oddiel
+requirements_hdd_desc: Viac ako 40 GB voľného miesta na pevnom disku
+requirements_hdd: Úložisko
+requirements_mem_desc: $value fyzickej RAM + ďalšia pamäť pre vaše pracovné zaťaženie
+requirements_cpu_desc: 2 GHz dvojjadrový procesor alebo lepší
+requirements_rec: Odporúčané
+requirements_min: Minimálne
