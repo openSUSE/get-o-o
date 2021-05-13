@@ -149,3 +149,15 @@ transactional_p1: "安裝程式現在可支援新的系統角色交易型伺服�
 yast_p1: "這是最棒的系統組態工具之一。它能幫助身為使用者的您設定系統中的任何一個面向。您再也不需要跳進一堆組態腳本中，或是輸入您也不怎麼確定的指令才能夠照您的需求設定系統。\n"
 zypper_p1: "它很快速且容易學習。它提供 zypper-apt，一個相容於 apt 及 apt-get 指令的中介層。它基於 libsolv，以保證解析相依套件時的速度與可重製性。其介面簡潔，並且適度地加入色彩以方便閱讀。它是如此完美，還有什麼可說的呢？\n"
 desktops_p1: "openSUSE 的貢獻流程讓每個人都能加入桌面環境的開發，也因此您能夠在安裝程式中選擇您喜愛的桌面環境。我們強烈推薦三種桌面環境，並且在安裝程式的進階軟體檢視頁面中提供更多的選項。\n"
+pine_ch_image: Pine64 容器主機
+pine_image: Pine64
+rpi_ch_image: 樹莓派容器主機
+rpi_image: 樹莓派
+vagrant_ch_image: Vagrant 容器主機
+vagrant_image: Vagrant
+vmware_vmx_ch_image: VMware VMX 容器主機
+vmware_vmx_image: VMware VMX
+vmware_ch_image: VMware 容器主機
+hyperv_ch_image: MS HyperV 容器主機
+kvm_ch_image: KVM 與 XEN 容器主機
+iso_image: ISO 映像檔
