@@ -227,18 +227,57 @@ chrome_warning_policy: uma mudança na política
 Tumbleweed_features:
   user:
     name: Simples de usar
+    description: "Com um único comando, você pode atualizar milhares de pacotes, reverter\
+      \ para o instantâneo da última semana, avançar novamente e até mesmo visualizar\
+      \ os próximos lançamentos.\n"
   home:
     name: Estável
+    description: "As atualizações são testadas exaustivamente em relação aos padrões\
+      \ de qualidade do nível da indústria, aproveitando um serviço de compilação\
+      \ que outras distribuições Linux nos invejam. Não apenas cada nova versão de\
+      \ um pacote é testada individualmente, mas diferentes grupos de versões são\
+      \ testados entre si, garantindo que seu sistema seja internamente consistente.\n"
   update:
     description: "Você instala uma vez e aproveita para sempre. Você não precisa mais\
       \ se preocupar a cada seis meses com atualizações massivas do sistema que correm\
       \ o risco de bloquear seu sistema.\n"
     name: Atualizado continuamente
+  power:
+    name: Poderoso
+  shield:
+    description: "Feito a partir de versões do kernel mais recentes, compilado com\
+      \ as correções de mitigação Spectre/Meltdown mais recentes, com firewall e políticas\
+      \ de segurança fortes ativadas por padrão, sua proteção é coberta imediatamente.\n"
+    name: Protegido
+  key:
+    description: "Se algo indesejado ocorrer, você sempre pode reverter para um estado\
+      \ anterior e encontrar seus arquivos e programas como estavam antes da atualização\
+      \ problemática.\n"
+    name: Seguro
+  cpu:
+    description: "Graças à sua natureza de ponta e testado exaustivamente, o Tumbleweed\
+      \ atende ao seu hardware e dispositivos como poucas outras distribuições Linux,\
+      \ tornando-o uma instalação excelente para estações de trabalho e notebooks.\n"
+    name: Funciona bem com o seu hardware
+  knife:
+    description: "Você obtém atualizações frequentes que não apenas abordam vulnerabilidades\
+      \ ou corrigem erros, mas refletem os recursos e desenvolvimentos mais recentes,\
+      \ como kerneis novos, drivers novos e versões recentes da área de trabalho.\n"
+    name: Vanguarda
 MicroOS_features:
   tool:
     name: Depuração
+    description: "### Ferramentas para depuração do container\n* Inicia um container\
+      \ com privilégios\n* Sistema de arquivos raiz em '/media/root'\n* zypper para\
+      \ instalar as ferramentas necessárias, disponível sem reinicializar\n* Persistente\
+      \ entre os usos\n"
   work:
     name: Cargas de trabalho
+    description: "Os aplicativos são instalados em containers ao invés do sistema\
+      \ de arquivos:\n* Isolados o sistema de arquivos central\n* Capacidade reduzida\
+      \ para aplicativos maliciosos comprometerem o sistema\n* Nova instalação sem\
+      \ reiniciar\n* A atualização de forma atômica é possível (cria novo, mata o\
+      \ antigo)\n* Fácil reversão\n"
   key:
     description: "* Baixe suas atualizações via HTTPS\n* Os pacotes e repositórios\
       \ são assinados pelo nosso sistema de compilação\n* Os pacotes são verificados\n\
@@ -248,6 +287,13 @@ MicroOS_features:
     name: Atualizações seguras
   update:
     name: Atualizações atômicas
+    description: "###  Atualizações transacionais\n\n#### Único\nAo usar btrfs com\
+      \ instantâneos, o MicroOS usa o espaço de maneira\nmuito eficiente para armazenar\
+      \ o histórico do sistema de arquivos.\nTodos os arquivos de configuração no\
+      \ '/etc' são parte do instantâneo\ne da reversão.\n\n#### Flexível\n* Nenhum\
+      \ formato de pacotes novo é necessário, são utilizados os RPMs\npadrão do openSUSE\n\
+      * Sem limite de tamanho, nem para partições nem para o sistema operacional\n\
+      * Fácil de aprimorar\n"
   idea:
     name: Filosofia
     description: "### É previsível\n* Não é alterado durante o uso\n* Irá executar\
@@ -255,6 +301,11 @@ MicroOS_features:
       * Elimina os esforços de configurar instâncias individuais durante o uso\n*\
       \ Pode ser implementado facilmente repetidas vezes com resultados previsíveis\n\
       \n### É confiável\n* Recuperação automática de atualizações com falhas\n"
+  shield:
+    description: "### O MicroOS é um SO imutável, a reversão é simples\n* Imutável:\
+      \ nenhuma alteração no disco\n* Reversão reiniciando em um instantâneo BTRFS\
+      \ antigo\n"
+    name: Reversão
 alternative_downloads_desc: Não encontrou o que estava procurando? Veja os $alternative_downloads
   para as opções de download de imagens $options.
 alternative_downloads: Downloads alternativos
