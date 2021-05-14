@@ -243,3 +243,16 @@ requirements_mem_desc: $value fyzickej RAM + ďalšia pamäť pre vaše pracovn�
 requirements_cpu_desc: 2 GHz dvojjadrový procesor alebo lepší
 requirements_rec: Odporúčané
 requirements_min: Minimálne
+alternative_downloads_desc: Nemôžete nájsť, čo hľadáte? Pozrite sa na $ alternative_downloads,
+  kde nájdete možnosti sťahovania obrazov $ options.
+alternative_downloads: Alternatívne stiahnutia
+download: Stiahnuť
+overview: Prehľad
+armv7l: 32-bitové servery, stolné a prenosné počítače a jednodoskové počítače UEFI
+  Arm (armv7l)
+requirements_net_mac: Jedinečný názov hostiteľa a adresa MAC pre každý uzol
+requirements_net_conn: Úplné prepojenie medzi všetkými strojmi v klastri
+requirements_net_desc: Prístup na internet je užitočný a vyžaduje sa v prípade sieťového
+  inštalátora
+requirements_dvd_desc: Buď DVD mechanika alebo USB port pre inštalačné médiá
+requirements_hdd_ssd_info: SSD s vysokou rýchlosťou zápisu
