@@ -256,3 +256,19 @@ requirements_net_desc: Prístup na internet je užitočný a vyžaduje sa v prí
   inštalátora
 requirements_dvd_desc: Buď DVD mechanika alebo USB port pre inštalačné médiá
 requirements_hdd_ssd_info: SSD s vysokou rýchlosťou zápisu
+MicroOS_features:
+  update:
+    description: "### Transakčné aktualizácie\n\n#### Jedinečné\nPoužitím btrfs so\
+      \ snímkami MicroOS využíva vysoko priestorovo efektívny\nspôsob ukladania histórie\
+      \ súborového systému. Všetky konfiguračné\nsúbory v `/etc`sú súčasťou snímky\
+      \ a vrátenie sa späť.\n\n#### Flexibilné\n* Nie je potrebný žiadny nový formát\
+      \ balíka, používa štandardné RPM openSUSE\n* Žiadne obmedzenie veľkosti, ani\
+      \ pre oddiely, ani pre operačný systém\n* Ľahko sa vylepšuje\n"
+    name: Atomické aktualizácie
+  idea:
+    description: "###Je predvídateľný\n* Počas behu sa nezmení\n* Pri každom štarte\
+      \ systému bude konzistentne spúšťať rovnaké artefakty\n\n### Je škálovateľný\n\
+      * Odstraňuje úsilie pri konfigurácii jednotlivých inštancií počas behu\n* Dá\
+      \ sa ľahko a opakovane uviesť s predvídateľným výsledkom\n\n### Je spoľahlivý\n\
+      * Automatická obnova z chybných aktualizácií\n"
+    name: Filozofia
