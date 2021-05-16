@@ -272,3 +272,22 @@ MicroOS_features:
       \ sa ľahko a opakovane uviesť s predvídateľným výsledkom\n\n### Je spoľahlivý\n\
       * Automatická obnova z chybných aktualizácií\n"
     name: Filozofia
+  work:
+    description: "Aplikácie sa inštalujú skôr v kontajneroch ako na koreňovom súborovom\
+      \ systéme:\n* Izolované od základného súborového systému\n* Znížená schopnosť\
+      \ škodlivých aplikácií ohroziť systém\n* Nová inštalácia bez reštartu\n* Aktualizácia\
+      \ je možná atomickým spôsobom (vytvoriť nové, ukončiť staré)\n* Jednoduché vrátenie\
+      \ sa späť\n"
+    name: Pracovné zaťaženia
+  key:
+    description: "* Dostávate svoje aktualizácie cez HTTPS\n* Balíky a repozitáre\
+      \ sú podpísané naším zostavovacím systémom\n* Balíky sú overené\n* V prípade\
+      \ konfliktov závislostí sa nevykonávajú žiadne aktualizácie\n* Žiadne plytvanie\
+      \ priestorom: V prípade neúspešných aktualizácií sa snímky súborového systému\
+      \ vymažú\n"
+    name: Bezpečené aktualizácie
+  shield:
+    description: "### MicroOS je nezmeniteľný OS, vrátenie sa späť je jednoduché\n\
+      * Nezmeniteľný: Žiadne zmeny na disku\n* Vrátenie sa späť reštartovaním na starú\
+      \ snímku BTRFS\n"
+    name: Vrátenie sa späť
