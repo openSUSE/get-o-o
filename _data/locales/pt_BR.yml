@@ -244,6 +244,12 @@ Tumbleweed_features:
     name: Atualizado continuamente
   power:
     name: Poderoso
+    description: "Aproveitando as tecnologias pelas quais o openSUSE é reconhecido,\
+      \ como o sistema de arquivos 'Btrfs', o utilitário em linha de comando 'snapper',\
+      \ bem como o painel de controle 'YaST', o Tumbleweed dá a você controle total\
+      \ sobre o seu sistema, permitindo a você definir as configurações que deseja\
+      \ e pronto. Você não precisa mais se preocupar com a interferência do sistema\
+      \ em seu fluxo de trabalho.\n"
   shield:
     description: "Feito a partir de versões do kernel mais recentes, compilado com\
       \ as correções de mitigação Spectre/Meltdown mais recentes, com firewall e políticas\
@@ -264,6 +270,13 @@ Tumbleweed_features:
       \ ou corrigem erros, mas refletem os recursos e desenvolvimentos mais recentes,\
       \ como kerneis novos, drivers novos e versões recentes da área de trabalho.\n"
     name: Vanguarda
+  plant:
+    description: "O Tumbleweed se baseia em décadas de uso, testes e depurações por\
+      \ centenas de usuários avançados, desenvolvedores, administradores de sistemas\
+      \ e executores exigentes que não podem comprometer seu fluxo de trabalho. A\
+      \ solidez do Tumbleweed está incorporada nos muitos pacotes cujo DNA deriva\
+      \ do venerável SUSE Linux Enterprise Server.\n"
+    name: Plantado em solo firme
 MicroOS_features:
   tool:
     name: Depuração
