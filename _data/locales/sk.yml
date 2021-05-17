@@ -291,3 +291,19 @@ MicroOS_features:
       * Nezmeniteľný: Žiadne zmeny na disku\n* Vrátenie sa späť reštartovaním na starú\
       \ snímku BTRFS\n"
     name: Vrátenie sa späť
+  tool:
+    description: "### Kontajner ladiacich nástrojov\n* Spustí privilegovaný kontajner\n\
+      * Koreňový súborový systém je dostupný pod `/media/root`\n* zypper na inštaláciu\
+      \ potrebných nástrojov, ktoré sú k dispozícii bez reštartu\n* Trvalý medzi použitiami\n"
+    name: Ladenie
+Tumbleweed_features:
+  knife:
+    description: "Dostávate časté aktualizácie, ktoré sa netýkajú iba zraniteľností\
+      \ alebo opravených chýb, ale odrážajú najnovšie funkcie a vývoj, ako napríklad\
+      \ nové jadrá, čerstvé ovládače a posledné verzie desktopových prostredí.\n"
+    name: Najpokročilejší
+  update:
+    description: "Nainštalujete si ho raz a užívate si ho navždy. Už sa nemusíte obávať\
+      \ každých šesť mesiacov o masívnych zvýšení verzií systému, ktoré riskujú zablokovanie\
+      \ vášho systému.\n"
+    name: Priebežne aktualizovaný
