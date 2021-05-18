@@ -307,3 +307,17 @@ Tumbleweed_features:
       \ každých šesť mesiacov o masívnych zvýšení verzií systému, ktoré riskujú zablokovanie\
       \ vášho systému.\n"
     name: Priebežne aktualizovaný
+  cpu:
+    name: Hrá pekne s vašim hardvérom
+  user:
+    description: "Jediným príkazom môžete aktualizovať tisíce balíkov, vrátiť sa späť\
+      \ k snímke z minulého týždňa, znova sa rýchlo posunúť dopredu a dokonca zobraziť\
+      \ náhľad nadchádzajúcich vydaní.\n"
+    name: Jednoduché použitie
+  home:
+    description: "Aktualizácie sú dôkladne testované podľa štandardov kvality priemyselnej\
+      \ úrovne, využívajúc výhody služby zostavenia, ktorú nám iné linuxové distribúcie\
+      \ závidia. Nielenže sa každá nová verzia balíka testuje individuálne, ale aj\
+      \ rôzne klastre verzií sa testujú navzájom pre uistenie sa, že je váš systém\
+      \ vnútorne konzistentný.\n"
+    name: Stabilný
