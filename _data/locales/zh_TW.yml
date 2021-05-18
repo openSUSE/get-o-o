@@ -42,9 +42,8 @@ tumbleweed_live_info: "請注意體驗映像檔案的以下限制：\n* 它們�
 kubic_desc: 基於 Kubernetes (運作於 openSUSE MicroOS) 的容器即服務 (CaaS) 平台。
 microos_desc: 以 openSUSE Tumbleweed 為基礎，提供在唯讀 btrfs root 檔案系統上進行原子交易更新的作業系統
 choosing_media: 選擇要下載的媒體
-choosing_media_p1: "DVD/USB 隨身碟是建議使用的安裝媒體，因為它們包含大部分發行版本的套件，且不需要網路即可安裝。\n"
-choosing_media_p2: "網路 CD/USB 隨身碟建議給網路頻寬有限的使用者使用，因為它們只會下載使用者選擇要安裝的套件，是故可能會比 4.7GB\
-  \ 要小得多。\n"
+choosing_media_p1: "建議使用離線安裝映像檔，因為它們包含大部分發行版本的套件，且不需要網路即可安裝。\n"
+choosing_media_p2: "網路安裝映像檔建議給網路頻寬有限的使用者使用，因為它們只會下載使用者選擇要安裝的套件，是故可能會比 4.7GB 要小得多。\n"
 documentation: 文件
 documentation_startup_guide: openSUSE 入門指南
 documentation_release_notes: 發行紀事
@@ -55,12 +54,12 @@ leap_switch: 切換到 openSUSE Leap 的簡易方法
 leap_switch_p1: "如果您已經正在執行 openSUSE，您可以藉由從 DVD/USB 開機並選擇更新來升級系統，或是下幾個指令來執行線上更新。\n"
 leap_switch_instructions: 線上升級說明。
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: 建議系統需求
-requirements_cpu: 2 Ghz 雙核或更好的處理器
-requirements_mem: 2 GB 系統記憶體
+requirements: 系統需求
+requirements_cpu: 處理器
+requirements_mem: 記憶體
 requirements_hd: 超過 40GB 的可用硬碟空間
 requirements_dvd: 用於安裝媒體的 DVD 光碟機或是 USB 插槽
-requirements_net: 具備網路連線是有幫助的，且對於網路安裝程式而言是必要的
+requirements_net: 網路
 tw_switch: 切換到 openSUSE Tumbleweed 的簡易方法
 tw_switch_p1: "如果您已經正在執行 openSUSE，您可以藉由從 DVD/USB 開機並選擇更新來升級系統，或是下幾個指令來執行線上更新。\n"
 tw_switch_instructions: 升級說明。
@@ -123,7 +122,7 @@ index_server_p1: 選擇供伺服器使用的發行版
 index_full: 或是直接到發行版的下載頁面
 desktop: openSUSE 桌面發行版
 desktop_p1: "二種發行版，統御所有系統\n"
-desktop_tumbleweed_p1: 適用於開發者、openSUSE 貢獻者和 Linux/FOSS 發燒友
+desktop_tumbleweed_p1: 適用於開發者、openSUSE 貢獻者、遊戲玩家和 Linux/FOSS 發燒友
 desktop_tumbleweed_p2: 滾動式發行版，使用 openSUSE 專案所提供的最新軟體套件。
 desktop_tumbleweed_view: 檢視 Tumbleweed
 desktop_leap_p1: 適用於系統管理員、企業開發者和「一般」桌面使用者
@@ -131,7 +130,7 @@ desktop_leap_p2: 定期發行版，享受企業級工程設計和社群開發創
 desktop_leap_view: 檢視 Leap
 server: openSUSE 伺服器發行版
 server_p1: "四種令人感到自在、沒事做的發行版 (如果它總是如此，多好)\n"
-server_tumbleweed_p1: 適用於開發者、openSUSE 貢獻者和 Linux/FOSS 發燒友
+server_tumbleweed_p1: 適用於開發者、openSUSE 貢獻者、遊戲玩家和 Linux/FOSS 發燒友
 server_tumbleweed_p2: 滾動式發行版，使用 openSUSE 專案所提供的最新軟體套件。
 server_tumbleweed_view: 檢視 Tumbleweed
 server_leap_p1: 適用於系統管理員、企業開發者和「一般」桌面使用者
@@ -161,3 +160,46 @@ vmware_ch_image: VMware 容器主機
 hyperv_ch_image: MS HyperV 容器主機
 kvm_ch_image: KVM 與 XEN 容器主機
 iso_image: ISO 映像檔
+MicroOS_features:
+  update:
+    name: 原子更新
+  idea:
+    description: "### 可預測的\n* 在執行時期不會更改\n* 每次開機都會執行相同的組合\n\n### 可擴展的\n* 在執行時期，不需花費精力設定每個實體\n\
+      * 能夠容易地重覆佈署，並產出可預測的結果\n\n### 可靠的\n* 當更新失敗時，能夠自動回復\n"
+    name: 哲學
+alternative_downloads_desc: 無法找到您要的？請查看 $alternative_downloads 以了解 $options 映像檔下載選項。
+alternative_downloads: 其他下載
+download: 下載
+overview: 概觀
+chrome_warning_policy: 政策修改
+chrome_warning: "由於 Google Chrome 與 Chromium 的 $change_in_policy，目前無法通過點擊下載按鈕來下載映像檔。要繞過這個問題，請以滑鼠右鍵點擊下載按鈕並點擊\
+  \ \"另存新檔...\" 來儲存映像檔。這個臭蟲的原因正在 GitHub 上追蹤 ($bug)，請讓維護者知道該問題已影響到您。\n"
+s390x: IBM Z 以及 LinuxONE (s390x)
+ppc64le: PowerPC 伺服器，非 big-endian (ppc64le)
+armv7l: UEFI Arm 32 位元伺服器、桌上型電腦、筆記型電腦以及單板電腦 (armv7l)
+aarch64: UEFI Arm 64 位元伺服器、桌上型電腦、筆記型電腦以及單板電腦 (aarch64)
+i686: Intel 或 AMD 32 位元桌上型電腦、筆記型電腦，以及伺服器 (i686)
+x86_64: Intel 或 AMD 64 位元桌上型電腦、筆記型電腦，以及伺服器 (x86_64)
+view_distro: 查看 $distro_name
+new_version_testing: $distro_name 已可供下載及測試
+new_version_available: $distro_name 已可供下載
+requirements_net_mac: 每個節點需要有唯一的主機名稱與 MAC 位址
+requirements_net_conn: 群集中的所有機器需要有完整的連線能力
+requirements_net_desc: 具備網路連線是有幫助的，對於網路安裝程式而言則是必要的
+requirements_dvd_desc: 使用 DVD 或是 USB 隨身碟作為安裝媒體
+requirements_hdd_ssd_info: 高寫入速度的固態硬碟
+requirements_hdd_swap_info: 關閉 swap 空間讓 kubernetes 能夠正常運作
+requirements_hdd_size_desc: $value 可用磁碟空間
+requirements_hdd_var: /var 分割區
+requirements_hdd_root: / (root) 分割區
+requirements_hdd_desc: 至少 40GB 的可用硬碟空間
+requirements_hdd: 儲存空間
+requirements_mem_desc: $value 實體記憶體 + 額外記憶體 (供您的負載使用)
+requirements_cpu_desc: 2 Ghz 雙核心或以上的處理器
+requirements_rec: 建議
+requirements_min: 最小
+hardware_images: 硬體
+cloud_images: 雲端
+vm_images: 虛擬機器
+virtualbox_image: VirtualBox
+openstack_ch_image: OpenStack-Cloud 容器主機
