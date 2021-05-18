@@ -309,6 +309,10 @@ Tumbleweed_features:
     name: Priebežne aktualizovaný
   cpu:
     name: Hrá pekne s vašim hardvérom
+    description: "Vďaka svojej špičkovej a dôkladne testovanej povahe, Tumbleweed\
+      \ slúži vášmu hardvéru a zariadeniam ako niekoľko iných linuxových distribúcií,\
+      \ čo z neho robí vynikajúcu inštaláciu pre pracovné stanice, laptopy a notebooky\
+      \ rovnako.\n"
   user:
     description: "Jediným príkazom môžete aktualizovať tisíce balíkov, vrátiť sa späť\
       \ k snímke z minulého týždňa, znova sa rýchlo posunúť dopredu a dokonca zobraziť\
