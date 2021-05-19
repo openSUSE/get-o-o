@@ -334,7 +334,7 @@ Tumbleweed_features:
     description: "En cas de problème, vous pouvez toujours revenir à un état antérieur\
       \ et retrouver vos fichiers et programmes tels qu'ils étaient avant la mise\
       \ à jour.\n"
-    name: Sécurité
+    name: Sûr
   cpu:
     description: "Grâce à sa nature avant-gardiste et à ses tests approfondis, Tumbleweed\
       \ convient à votre matériel et à vos périphériques comme peu d'autres distributions\
@@ -359,7 +359,7 @@ Tumbleweed_features:
       \ les vulnérabilités ou éliminent les bogues, mais reflètent également les dernières\
       \ fonctionnalités et évolutions, telles que les nouveaux noyaux, les nouveaux\
       \ pilotes et les versions récentes des environnements de bureau.\n"
-    name: À la pointe de la technologie
+    name: À l'avant-garde
   update:
     description: "Vous l'installez une fois et en profitez pour toujours. Vous n'avez\
       \ plus à vous préoccuper tous les six mois des mises à jour massives qui risquent\
