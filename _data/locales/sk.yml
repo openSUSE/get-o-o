@@ -325,3 +325,28 @@ Tumbleweed_features:
       \ rôzne klastre verzií sa testujú navzájom pre uistenie sa, že je váš systém\
       \ vnútorne konzistentný.\n"
     name: Stabilný
+  plant:
+    description: "Tumbleweed stavia na dekádach používania, testovania a ladenia stovkami\
+      \ skúsených používateľov, vývojárov, správcov systémov a náročných mužoch činu,\
+      \ ktorí si nemôžu dovoliť ohroziť svoj pracovný proces. Pevnosť Tumbleweed je\
+      \ obsiahnutá v mnohých základných balíkoch, ktorých DNA pochádza z uznávaného\
+      \ SUSE Linux Enterprise Server.\n"
+    name: Stojí na pevných základoch
+  power:
+    description: "openSUSE je známe využívaním technológií ako napríklad súborový\
+      \ systém `Btrfs`, nástroj program príkazového riadku`snapper`, ako aj osvedčený\
+      \ \"ovládací panel\"`YaST`, Tumbleweed vám dáva úplnú kontrolu nad vašim systémom,\
+      \ umožňuje vám definovať požadované nastavenia a vykonať ich. Už sa nemusíte\
+      \ obávať zasahovania systému do vášho pracovného procesu.\n"
+    name: Výkonný
+  shield:
+    description: "Zostavený z najnovších vydaní jadra, ktoré sú skompilované s najnovšími\
+      \ zmierňovacími opravami pre Spectre / Meltdown, so zapnutým rozhraním firewall\
+      \ a silnými bezpečnostnými politikami v predvolenom nastavení, vaša bezpečnosť\
+      \ je zastrešená hneď od začiatku.\n"
+    name: Zabezpečený
+  key:
+    description: "Ak by sa vyskytlo niečo nežiaduce, môžete sa kedykoľvek vrátiť do\
+      \ predchádzajúceho stavu a nájdete svoje súbory a programy rovnako ako pred\
+      \ problémovou aktualizáciou.\n"
+    name: Spoľahlivý
