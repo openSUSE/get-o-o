@@ -211,3 +211,8 @@ i686: Destop, laptop, dan peladen Intel atau AMD 32-bit (i686)
 aarch64: Peladen, destop, laptop dan papan UEFI Arm 64-bit (aarch64)
 ppc64le: Peladen PowerPC, bukan big-endian (ppc64le)
 s390x: IBM Z dan LinuxONE (s390x)
+vmware_vmx_image: VMware VMX
+vmware_ch_image: Host Kontainer VMware
+hyperv_ch_image: Host Kontainer MS HyperV
+kvm_ch_image: Host Kontainer KVM dan XEN
+iso_image: citra ISO
