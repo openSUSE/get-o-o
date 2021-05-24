@@ -163,10 +163,19 @@ iso_image: ISO 映像檔
 MicroOS_features:
   update:
     name: 原子更新
+    description: "### 交易型更新\n\n#### 獨一無二的\n藉由 btrfs 的快照功能，MicroOS 能夠以非常省空間的方式儲存檔案系統的修改歷史。在\
+      \ `/etc` 下的所有組態檔都是快照與回復的一部分。\n\n#### 具彈性的\n* 不需要新的套件格式，只要使用標準的 openSUSE RPM\
+      \ 即可\n* 沒有大小的限制，不論對分割區或是作業系統皆然\n* 容易改進\n"
   idea:
     description: "### 可預測的\n* 在執行時期不會更改\n* 每次開機都會執行相同的組合\n\n### 可擴展的\n* 在執行時期，不需花費精力設定每個實體\n\
       * 能夠容易地重覆佈署，並產出可預測的結果\n\n### 可靠的\n* 當更新失敗時，能夠自動回復\n"
     name: 哲學
+  key:
+    name: 安全地更新
+  shield:
+    description: "### MicroOS 是一個不可變更的作業系統，且回復相當容易\n* 不可變更：沒有修改會寫入磁碟\n* 從舊的 BTRFS\
+      \ 快照開機來進行回復\n"
+    name: 回復
 alternative_downloads_desc: 無法找到您要的？請查看 $alternative_downloads 以了解 $options 映像檔下載選項。
 alternative_downloads: 其他下載
 download: 下載
