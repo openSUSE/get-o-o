@@ -1,4 +1,3 @@
----
 site_title: Получить openSUSE
 search: Искать
 license: Лицензия
@@ -55,3 +54,41 @@ verify_download_checksums_help: Справка по контрольным су�
 verify_download_checksums_help_link: https://ru.opensuse.org/SDB:%D0%9F%D0%BE%D0%BC%D0%BE%D1%89%D1%8C_%D0%BF%D0%BE_%D0%B7%D0%B0%D0%B3%D1%80%D1%83%D0%B7%D0%BA%D0%B5#.D0.9F.D1.80.D0.BE.D0.B2.D0.B5.D1.80.D0.BA.D0.B0_.D0.BA.D0.BE.D0.BD.D1.82.D1.80.D0.BE.D0.BB.D1.8C.D0.BD.D0.BE.D0.B9_.D1.81.D1.83.D0.BC.D0.BC.D1.8B
 yast_software: Программы
 index_desktop: Рабочий стол
+xfce_cd: LiveCD Xfce
+hardware_images: Оборудование
+cloud_images: Облако
+vm_images: Виртуальная машина
+jeos_images: JeOS
+ports_info: "Портирование openSUSE Leap на отличные от PC архитектуры осуществляется\n\
+  \ отдельными ограниченными в ресурсах командами сообщества.\n"
+virtualbox_image: VirtualBox
+openstack_ch_image: Хост-контейнер OpenStack-Cloud
+openstack_image: OpenStack-Cloud
+pine_ch_image: Хост-контейнер Pine64
+pine_image: Pine64
+rpi_ch_image: Хост-контейнер RaspberryPi
+rpi_image: RaspberryPi
+vagrant_ch_image: Хост-контейнер Vagrant
+vagrant_image: Vagrant
+vmware_vmx_ch_image: Хост-контейнер VMware VMX
+vmware_vmx_image: VMware VMX
+vmware_ch_image: Хост-контейнер VMware
+vmware_image: VMware
+hyperv_ch_image: Хост-контейнер MS HyperV
+hyperv_image: MS HyperV
+xen_image: XEN
+kvm_ch_image: Хост-контейнер KVM и XEN
+kvm_image: KVM и XEN
+network_desc: "Загружает установщик и все пакеты из сетевых репозиториев.\nПодходит\
+  \ для установки или обновления.\n"
+offline_desc: "Содержит большой набор программ для настольного либо серверного использования.\n\
+  Подходит для установки или обновления.\n"
+iso_image: ISO-образ
+offline_image: Образ без сети
+usb_desc: Для USB-накопителей
+learn_more: Узнать больше
+source_code: Исходники
+translate: Перевод
+site_copyright: ©2021 Сообщество openSUSE
+site_description: Узнайте о дистрибутивах openSUSE и скачайте их бесплатно
+site_title_short: Получить
