@@ -23,7 +23,8 @@ permalink: /server/
               <h6>{{ locale.server_tumbleweed_p1 }}</h6>
               <p>{{ locale.server_tumbleweed_p2 }}</p>
             </div>
-            <a href="{{ '/tumbleweed/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'Tumbleweed' }}</a>
+            <a href="{{ '/tumbleweed/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
+            <a href="{{ '/tumbleweed/#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>
         </div>
       </div>
@@ -41,8 +42,8 @@ permalink: /server/
               <p>{{ locale.server_leap_p2 }}</p>
             </div>
             {% capture distro_name %}Leap {% include leap_release %}{% endcapture %}
-            <a href="{{ '/leap/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.view_distro | replace: '$distro_name', distro_name }}</a>
-            {% include leap_testing_link.html class="btn btn-light" %}
+            <a href="{{ '/leap/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
+            <a href="{{ '/leap/#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>
         </div>
       </div>
@@ -59,7 +60,8 @@ permalink: /server/
               <h6>{{ locale.server_kubic_p1 }}</h6>
               <p>{{ locale.server_kubic_p2 }}</p>
             </div>
-            <a href="{{ '/kubic/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'Kubic' }}</a>
+            <a href="{{ '/kubic/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
+            <a href="{{ '/kubic/#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>
         </div>
       </div>
@@ -76,7 +78,8 @@ permalink: /server/
               <h6>{{ locale.server_microos_p1 }}</h6>
               <p>{{ locale.server_microos_p2 }}</p>
             </div>
-            <a href="{{ '/microos/' | prefix_locale }}" class="btn btn-light">{{ locale.view_distro | replace: '$distro_name', 'MicroOS' }}</a>
+            <a href="{{ '/microos/' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
+            <a href="{{ '/microos/#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>
         </div>
       </div>
