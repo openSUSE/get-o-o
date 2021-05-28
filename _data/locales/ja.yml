@@ -237,8 +237,7 @@ MicroOS_features:
       \n### 拡張性\n* 動作中に個別のインスタンスを設定する手間がありません\n* 結果が容易に予測できるため、インスタンスの追加も容易です\n\n\
       ### 信頼性\n* 更新が失敗しても自動的に復元することができます\n"
     name: 哲学
-alternative_downloads_desc: お探しのものが見つかりませんか？ $options イメージのダウンロードオプションについては、 $alternative_downloads
-  をご覧ください。
+alternative_downloads_desc: $options イメージも提供中です。 $alternative_downloads をご覧ください！
 alternative_downloads: 代替ダウンロード
 download: ダウンロード
 overview: 概要
