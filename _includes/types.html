@@ -1,0 +1,29 @@
+{% for type in include.types %}
+<div class="list-group-item d-flex align-items-center justify-content-between">
+  {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
+  {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
+  <h6 class="m-0 d-flex align-items-center">
+    {% capture icon_name %}icons/{{ type.name | split: '_' | first }}.svg{% endcapture %}
+    {% include {{ icon_name }} %}
+    <span class="ml-1">
+    {{ locale[type.name] }}
+    {% if size %}
+      <span class="text-muted"{% if type.short %} title="{{ locale[type.short] }}"{% elsif short %} title="{{ locale[short] }}"{% endif %}>
+        ({% humansize %}{{ size }}{% endhumansize %})
+      </span>
+    </span>
+    {% endif %}
+  </h6>
+  <div class="btn-group">
+    <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
+    <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      <span class="sr-only">Toggle Dropdown</span>
+    </button>
+    <div class="dropdown-menu dropdown-menu-right">
+      {% for link in type.links %}
+      <a href="https://download.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endfor %}

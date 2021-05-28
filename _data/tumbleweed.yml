@@ -5,6 +5,7 @@ logo: logos/tumbleweed.svg
 choosing-media: true
 downloads:
 - name: installation_images
+  display: all
   arches:
   - name: x86_64
     types:
@@ -117,6 +118,7 @@ downloads:
       - name: checksum
         url: /ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256
 - name: jeos_images
+  display: server
   arches:
   - name: x86_64
     types:
@@ -165,6 +167,7 @@ downloads:
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
 - name: live_images
+  display: desktop
   info: tumbleweed_live_info
   arches:
   - name: x86_64

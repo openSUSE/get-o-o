@@ -4,6 +4,7 @@ fg-color: white
 logo: logos/microos.svg
 downloads:
 - name: installation_images
+  display: all
   arches:
   - name: x86_64
     types:

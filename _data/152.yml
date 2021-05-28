@@ -7,6 +7,7 @@ choosing-media: true
 leap-switch: true
 downloads:
 - name: installation_images
+  display: all
   arches:
   - name: x86_64
     types:
@@ -31,6 +32,7 @@ downloads:
       - name: checksum
         url: /distribution/leap/15.2/iso/openSUSE-Leap-15.2-NET-x86_64.iso.sha256
 - name: jeos_images
+  display: server
   arches:
   - name: x86_64
     types:
@@ -75,6 +77,7 @@ downloads:
       - name: checksum
         url: /distribution/leap/15.2/appliances/openSUSE-Leap-15.2-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
 - name: live_images
+  display: desktop
   arches:
   - name: x86_64
     types:

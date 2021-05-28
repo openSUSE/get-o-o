@@ -88,48 +88,25 @@
         {% capture chrome_warning_link %}<a href="https://blog.chromium.org/2020/02/protecting-users-from-insecure.html" target="_blank">{{ locale.chrome_warning_policy }}</a>{% endcapture %}
         {% capture chrome_warning_bug %}<a href="https://github.com/openSUSE/mirrorbrain/issues/3" target="_blank">openSUSE/mirrorbrain#3</a>{% endcapture %}
         <p class="alert alert-danger">{{ locale.chrome_warning | replace: '$change_in_policy', chrome_warning_link | replace: '$bug', chrome_warning_bug }}</p>
-        {% assign default = distro.downloads | where: "name", "installation_images" | first %}
-        <div class="row">
-        {% for arch in default.arches %}
-            <div class="col-md-6 mb-3">
-              <h5>{{ locale[arch.name] }}</h5>
-              <div class="list-group">
-                {% for type in arch.types %}
-                <div class="list-group-item d-flex align-items-center justify-content-between">
-                  {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
-                  {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
-                  <h6 class="m-0 d-flex align-items-center">
-                    {% capture icon_name %}icons/{{ type.name | split: '_' | first }}.svg{% endcapture %}
-                    {% include {{ icon_name }} %}
-                    <span class="ml-1">
-                    {{ locale[type.name] }}
-                    {% if size %}
-                      <span class="text-muted"{% if type.short %} title="{{ locale[type.short] }}"{% elsif short %} title="{{ locale[short] }}"{% endif %}>
-                        ({% humansize %}{{ size }}{% endhumansize %})
-                      </span>
-                    </span>
-                    {% endif %}
-                  </h6>
-                  <div class="btn-group">
-                    <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
-                    <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      <span class="sr-only">Toggle Dropdown</span>
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right">
-                      {% for link in type.links %}
-                      <a href="https://download.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
-                      {% endfor %}
-                    </div>
+        {% assign default = distro.downloads | where_exp: "item", "item.display" %}
+        {% for tab in default %}
+          <div {% if tab.display == 'all' %}{% elsif tab.display %}class="only-{{ tab.display }}" style="display: none"{% endif %}>
+            {% if forloop.first == false %}<h1 class="display-4">{{ locale[tab.name] }}</h1>{% endif %}
+            <div class="row">
+              {% for arch in tab.arches %}
+                <div class="col-md-6 mb-3">
+                  <h5>{{ locale[arch.name] }}</h5>
+                  <div class="list-group">
+                    {% include types.html types=arch.types %}
                   </div>
                 </div>
-                {% endfor %}
-              </div>
+              {% endfor %}
             </div>
+          </div>
         {% endfor %}
-        </div>
         {% if distro.downloads.size > 1 %}
           {% capture alternative_downloads %}<a href="#" data-toggle="modal" data-target="#downloadModal">{{ locale.alternative_downloads }}</a>{% endcapture %}
-          {% capture options %}<b>{% for tab in distro.downloads offset: 1 %}{{ locale[tab.name] }}{% if forloop.last == false %}, {% endif %}{% endfor %}</b>{% endcapture %}
+          {% capture options %}<b>{% for tab in distro.downloads offset: 1 %}<span {% if tab.display %}class="not-{{ tab.display }}"{% endif %}>{{ locale[tab.name] }}{% if forloop.last == false %}, {% endif %}</span>{% endfor %}</b>{% endcapture %}
           <div class="lead">{{ locale.alternative_downloads_desc | replace: '$alternative_downloads', alternative_downloads | replace: '$options', options }}</div>
         {% endif %}
       </div>

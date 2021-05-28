@@ -10,60 +10,34 @@
       <div>
         <div class="list-group list-group-flush">
         {% for tab in distro.downloads offset: 1 %}
-          <div class="list-group-item">
-            <span class="d-flex align-items-center justify-content-between text-decoration-none">
-              <h5 class="m-0 font-weight-bold">{{ locale[tab.name] }}</h5>
-              <span>
-            {% for arch in tab.arches %}
-              <span class="badge badge-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ arch.name }}</span>
-            {% endfor %}
-              </span>
-            </span>
-          </div>
-          <div>
-            <div class="card-body{% if forloop.last == false %} border-bottom{% endif %}">
-            {% if tab.info %}
-              <div class="alert alert-{{ distro.bg-color }}">
-                {{ locale[tab.info] | markdownify }}
-              </div>
-            {% endif %}
-              <div class="row">
+          <div {% if tab.display %}class="not-{{ tab.display }}"{% endif %}>
+            <div class="list-group-item">
+              <span class="d-flex align-items-center justify-content-between text-decoration-none">
+                <h5 class="m-0 font-weight-bold">{{ locale[tab.name] }}</h5>
+                <span>
               {% for arch in tab.arches %}
-                  <div class="col-lg-6 mb-3">
-                    <h5>{{ locale[arch.name] }}</h5>
-                    <div class="list-group">
-                      {% for type in arch.types %}
-                      <div class="list-group-item d-flex align-items-center justify-content-between">
-                        {% capture size %}{{ site.data.sizes[type.primary_link] }}{% endcapture %}
-                        {% capture short %}{% sizedescription %}{{ size }}{% endsizedescription %}{% endcapture %}
-                        <h6 class="m-0 d-flex align-items-center">
-                          {% capture icon_name %}icons/{{ type.name | split: '_' | first }}.svg{% endcapture %}
-                          {% include {{ icon_name }} %}
-                          <span class="ml-1">
-                          {{ locale[type.name] }}
-                          {% if size %}
-                            <span class="text-muted"{% if type.short %} title="{{ locale[type.short] }}"{% elsif short %} title="{{ locale[short] }}"{% endif %}>
-                              ({% humansize %}{{ size }}{% endhumansize %})
-                            </span>
-                          </span>
-                          {% endif %}
-                        </h6>
-                        <div class="btn-group">
-                          <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
-                          <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            <span class="sr-only">Toggle Dropdown</span>
-                          </button>
-                          <div class="dropdown-menu dropdown-menu-right">
-                            {% for link in type.links %}
-                            <a href="https://download.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
-                            {% endfor %}
-                          </div>
-                        </div>
-                      </div>
-                      {% endfor %}
-                    </div>
-                  </div>
+                <span class="badge badge-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ arch.name }}</span>
               {% endfor %}
+                </span>
+              </span>
+            </div>
+            <div>
+              <div class="card-body{% if forloop.last == false %} border-bottom{% endif %}">
+              {% if tab.info %}
+                <div class="alert alert-{{ distro.bg-color }}">
+                  {{ locale[tab.info] | markdownify }}
+                </div>
+              {% endif %}
+                <div class="row">
+                {% for arch in tab.arches %}
+                    <div class="col-lg-6 mb-3">
+                      <h5>{{ locale[arch.name] }}</h5>
+                      <div class="list-group">
+                        {% include types.html types=arch.types %}
+                      </div>
+                    </div>
+                {% endfor %}
+                </div>
               </div>
             </div>
           </div>
