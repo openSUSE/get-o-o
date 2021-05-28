@@ -243,8 +243,7 @@ requirements_mem_desc: $value fyzickej RAM + ďalšia pamäť pre vaše pracovn�
 requirements_cpu_desc: 2 GHz dvojjadrový procesor alebo lepší
 requirements_rec: Odporúčané
 requirements_min: Minimálne
-alternative_downloads_desc: Nemôžete nájsť, čo hľadáte? Pozrite sa na $ alternative_downloads,
-  kde nájdete možnosti sťahovania obrazov $ options.
+alternative_downloads_desc: Máme tiež $options obrazov. Pozrite sa na $ alternative_downloads!
 alternative_downloads: Alternatívne stiahnutia
 download: Stiahnuť
 overview: Prehľad
