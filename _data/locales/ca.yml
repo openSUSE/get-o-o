@@ -24,8 +24,9 @@ vmware_desc: Per a executar màquines virtuals amb VMware
 openstack_desc: Per a executar màquines virtuals amb OpenStack
 installation_images: Instal·lació
 ports_images: Ports
-ports_info: "Els ports d'openSUSE Leap a altres arquitectures a part del PC\nestàn\
-  \ mantinguts per equips comunitaris independents amb\nrecursos limitats.\n"
+ports_info: "Les versions d'openSUSE Leap per a altres arquitectures diferents de\
+  \ les de PC\ntenen el manteniment d'equips comunitaris independents, amb recursos\
+  \ limitats.\n"
 jeos_images: JeOS
 tumbleweed_live_info: "Sigueu conscients de les següents limitacions de les imatges\
   \ Live:\n* No s'han d'utilitzar per a instal·lar o actualitzar la Tumbleweed. En\
@@ -140,9 +141,9 @@ snapper_p1: "La funció d’instantànies del sistema de fitxers manté el siste
   i torneu el sistema a un estat de funcionament en qüestió de minuts.\n"
 software: Obtenir programari no podria ser més fàcil
 software_p1: "Entre nosaltres, haver de passar per cada lloc web per obtenir tot el\n\
-  el programari que es necessita és molta feina. El Centre de programari\nen línia\
-  \ ho fa més fàcil ja que incorpora programari d'una gran quantitat\nde fonts en\
-  \ un mateix lloc.\n"
+  programari que es necessita és molta feina. El Centre de programari\nen línia ho\
+  \ fa més fàcil ja que incorpora programari d'una gran quantitat\nde fonts en un\
+  \ mateix lloc.\n"
 software_get: Obtingueu programari
 transactional: Servidor transaccional
 transactional_p1: "L’instal·lador ara admet un rol de sistema nou de Servidor transaccional,\n\
@@ -322,8 +323,7 @@ MicroOS_features:
       \ d'execució.\n* Es pot desplegar fàcilment i repetidament amb resultats previsibles.\n\
       \n### És fiable.\n* Recuperació automàtica d’actualitzacions defectuoses\n"
     name: Filosofia
-alternative_downloads_desc: No trobeu el que busqueu? Consulteu $alternative_downloads
-  per a les opcions de descàrrega d'imatges de $options.
+alternative_downloads_desc: També tenim imatges $options. Consulteu les $alternative_downloads!
 alternative_downloads: Descàrregues alternatives
 download: Descàrrega
 overview: Resum
