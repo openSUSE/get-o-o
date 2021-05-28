@@ -266,7 +266,7 @@ chrome_warning_policy: a change in policy
 overview: Overview
 download: Download
 alternative_downloads: Alternative Downloads
-alternative_downloads_desc: Can't find what you are looking for? Check out $alternative_downloads for the $options image download options.
+alternative_downloads_desc: We also have $options images. Check out $alternative_downloads!
 MicroOS_features:
   idea:
     name: Philosophy
