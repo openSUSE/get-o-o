@@ -365,8 +365,8 @@ Tumbleweed_features:
       \ plus à vous préoccuper tous les six mois des mises à jour massives qui risquent\
       \ de bloquer votre système.\n"
     name: Mise à jour continue
-alternative_downloads_desc: Vous ne trouvez pas ce que vous cherchez ? Consultez la
-  section $alternative_downloads pour les options de téléchargement d'images $options.
+alternative_downloads_desc: Nous avons aussi des images $options. Consultez les $alternative_downloads
+  !
 alternative_downloads: Téléchargements alternatifs
 armv7l: Serveurs, ordinateurs de bureau, ordinateurs portables et cartes UEFI Arm
   32 bits (armv7l)
