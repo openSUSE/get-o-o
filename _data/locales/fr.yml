@@ -19,8 +19,8 @@ offline_image: Image hors-ligne
 offline_desc: "Contient une large collection de logiciels pour un usage bureau ou\
   \ serveur.\nConvient pour l'installation comme pour la mise à niveau.\n"
 network_image: Image réseau
-network_desc: "Télécharge le système d'installation et tous les paquets depuis\nles\
-  \ dépôts en ligne. Convient pour l'installation comme pour la\nmise à niveau.\n"
+network_desc: "Télécharge le système d'installation et tous les paquets depuis les\
+  \ \ndépôts en ligne. Convient pour l'installation comme pour la mise à niveau.\n"
 kvm_image: KVM et XEN
 kvm_desc: Pour une utilisation dans des hyperviseurs KVM ou XEN
 xen_image: XEN
