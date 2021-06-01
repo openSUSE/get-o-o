@@ -44,8 +44,8 @@ tumbleweed_live_info: "请注意体验映像有下列限制：\n* 不应该使�
 kubic_desc: 容器即服务平台，基于 openSUSE MicroOS 上的 Kubernetes。
 microos_desc: 基于 openSUSE Tumbleweed 的系统，提供在只读 btrfs 根文件系统上的事务性（原子）更新
 choosing_media: 选择要下载的媒体
-choosing_media_p1: "通常推荐使用 DVD/U 盘，因为它包含最多发行版中的可用软件包并且在安装\n过程中不需要网络连接。\n"
-choosing_media_p2: "推荐互联网连接带宽受限的用户使用 CD/U 盘，因为它只下载他们选择安装的\n软件包，大小可能远远小于 4.7GB。\n"
+choosing_media_p1: "通常推荐使用离线映像，因为它包含最多发行版中的可用软件包并且在安装\n过程中不需要网络连接。\n"
+choosing_media_p2: "推荐互联网连接带宽受限的用户使用网络映像，因为它只下载用户选择安装\n的软件包，大小可能远远小于 4.7GB。\n"
 documentation: 文档
 documentation_startup_guide: openSUSE 入门指南
 documentation_release_notes: 发行注记
@@ -56,12 +56,12 @@ leap_switch: 切换至 openSUSE Leap 的简单方法
 leap_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
 leap_switch_instructions: 在线升级说明。
 leap_switch_instructions_link: https://zh.opensuse.org/SDB:系统升级
-requirements: 推荐的系统需求
-requirements_cpu: 2 Ghz 双核或更好的处理器
-requirements_mem: 2 GB 系统内存
+requirements: 系统需求
+requirements_cpu: 处理器
+requirements_mem: 内存
 requirements_hd: 超过 40 GB 的可用硬盘空间
 requirements_dvd: 用于安装媒介的 DVD 驱动器或 USB 端口
-requirements_net: 互联网接入有所帮助，同时对于“网络安装”是必需的
+requirements_net: 网络
 tw_switch: 切换至 openSUSE Tumbleweed 的简单方法
 tw_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
 tw_switch_instructions: 升级说明。
@@ -158,3 +158,94 @@ s390x: IBM Z 和 LinuxONE（s390x）
 chrome_warning: "由于 Google Chrome 和 Chromium 的 $change_in_policy，当前无法用点击下载按钮的方式来下载映像。\n\
   要解决这个问题，右键点击下载按钮然后点击“链接另存为…”来保存映像。可以在\n GitHub 上的 $bug 追踪该问题，请让维护者知悉你是否受到问题影响。\n"
 chrome_warning_policy: 政策更改
+Tumbleweed_features:
+  plant:
+    description: "Tumbleweed 的建立，基于不想破坏自己工作流程的高级用户、开发者、系统管理员和苛刻的执行者数十年的使用、测试和调试。Tumbleweed\
+      \ 的稳定性体现在众多核心软件包，其 DNA 源自久负盛名的 SUSE Linux Enterprise Server。\n"
+    name: 基础稳固
+  shield:
+    description: "构建自最新的内核版本，编译进最新的幽灵/熔断（Spectre / Meltdown）环境补丁，默认启用防火墙和强力的安全策略，你的安全性开箱即有。\n"
+    name: 安全性
+  key:
+    description: "如果发生任何不想要的情况，你可以随时向之前的状态回滚，找到更新前的文件和程序。\n"
+    name: 安全
+  cpu:
+    description: "由于 Tumblweed 的前沿更新和彻底测试的性质，它可以像少数几个其他 Linux 发行版一样服务你的硬件和设备，使它能完美安装进工作站、笔记本和类上网本。\n"
+    name: 与你的硬件良好适配
+  user:
+    description: "一条命令就可以更新数以千计的软件包，回滚到上周的快照，用回更新的快照，甚至预览接下来的版本。\n"
+    name: 易于使用
+  home:
+    description: "更新以工业级的质量标准进行彻底测试，使用其他 Linux 发行版都羡慕的构建系统。不只每个软件包的新版本都被单独测试，而且不同的版本集合也会相对彼此测试，以确保你的系统内部能够一致。\n"
+    name: 稳定
+  power:
+    description: "采用 openSUSE 特色的技术，比如 `Btrfs` 文件系统、`snapper` 命令行工具以及久经历练的 `YaST`“控制面板”，Tumbleweed\
+      \ 赋予你控制系统的完整能力，让你能够定制你想要的设置并完成它。你不用再担心系统会干扰你的工作流程。\n"
+    name: 功能强大
+  knife:
+    description: "你获取的很多更新不仅能解决漏洞或改善缺陷，也包含了最新的功能和开发成果，比如新内核、新驱动和最近的桌面环境版本。\n"
+    name: 领先
+  update:
+    description: "一次安装，永久享受。你不用再担心每 6 个月进行一次大规模系统升级，然后可能把系统搞坏。\n"
+    name: 持续更新
+MicroOS_features:
+  tool:
+    description: "### 调试工具箱容器\n* 启动特权容器\n* 根文件系统位于 `/media/root` 目录下\n* zypper 安装所需工具无需重启\n\
+      * 使用时不用暂停容器\n"
+    name: 调试功能
+  update:
+    description: "###  事务性更新\n\n#### 独特\n通过 Btrfs 和快照，MicroOS 可以非常高效的方式存储文件系统的历史。\n\
+      所有在 `/etc` 中的配置文件都包含在快照和回滚内。\n\n#### 灵活\n* 无需新的包格式，使用标准的 openSUSE RPM 包\n* 无空间大小限制，不论分区或操作系统\n\
+      * 易于提升\n"
+    name: 原子更新
+  work:
+    description: "应用程序将安装在容器内，而不是根文件系统：\n* 与核心文件系统隔离\n* 降低恶意程序危害系统的能力\n* 安装新容器无需重启\n\
+      * 可以原子方式更新（新建容器后再结束旧容器）\n* 易于回滚\n"
+    name: 工作负载
+  key:
+    description: "* 通过 HTTPS 获取更新\n* 软件包和仓库由我们的构建系统签名\n* 软件包已验证\n* 依赖冲突时不进行更新\n* 不浪费空间：更新不成功时将删掉文件系统快照\n"
+    name: 安全更新
+  shield:
+    description: "### MicroOS 是个不可变的操作系统，可轻松回滚\n* 不可变：磁盘上不会有更改\n* 可重启到旧的 BTRFS 快照来回滚\n"
+    name: 回滚
+  idea:
+    description: "### 可预测\n* 运行期间不会更改\n* 每次启动运行的项目都将一致\n\n### 可扩展Is scalable\n* 运行期间无需费力配置每个实例\n\
+      * 可以轻松地重复部署并可预测效果\n\n### 可靠\n* 可从错误更新中自动恢复\n"
+    name: 哲学
+alternative_downloads_desc: 我们也提供 $options 映像。请查看 $alternative_downloads！
+alternative_downloads: 其他下载
+download: 下载
+overview: 概览
+armv7l: UEFI Arm 32 位服务器、桌机、笔记本和单板机（armv7l）
+requirements_net_mac: 每个节点需要具有唯一的注记名和 MAC 地址
+requirements_net_conn: 集群中的所有机器之间需要完整的连接功能
+requirements_net_desc: 互联网接入有所帮助，同时对于网络安装是必需的
+requirements_dvd_desc: 安装媒介所需的 DVD 光驱或 USB 端口
+requirements_hdd_ssd_info: 高写入速率的固态硬盘
+requirements_hdd_swap_info: 禁用交换空间以让 kubernetes 正常工作
+requirements_hdd_size_desc: $value 可用的磁盘空间
+requirements_hdd_root: / 根分区
+requirements_hdd_var: /var 分区
+requirements_hdd_desc: 至少 40GB 可用的硬盘空间
+requirements_hdd: 存储
+requirements_mem_desc: $value 物理内存 + 依负载决定的额外内存
+requirements_cpu_desc: 2 Ghz 双核处理器或更好
+requirements_rec: 推荐
+requirements_min: 最低
+hardware_images: 硬件
+cloud_images: 云端
+vm_images: 虚拟机
+virtualbox_image: VirtualBox
+openstack_ch_image: OpenStack 云容器主机
+pine_ch_image: Pine64 容器主机
+pine_image: Pine64
+rpi_ch_image: 树莓派容器主机
+rpi_image: 树莓派
+vagrant_ch_image: Vagrant 容器主机
+vagrant_image: Vagrant
+vmware_vmx_ch_image: VMware VMX 容器主机
+vmware_vmx_image: VMware VMX
+vmware_ch_image: VMware 容器主机
+hyperv_ch_image: MS HyperV 容器主机
+kvm_ch_image: KVM 和 XEN 容器主机
+iso_image: ISO 映像
