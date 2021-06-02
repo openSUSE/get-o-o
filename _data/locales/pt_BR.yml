@@ -319,8 +319,7 @@ MicroOS_features:
       \ nenhuma alteração no disco\n* Reversão reiniciando em um instantâneo BTRFS\
       \ antigo\n"
     name: Reversão
-alternative_downloads_desc: Não encontrou o que estava procurando? Veja os $alternative_downloads
-  para as opções de download de imagens $options.
+alternative_downloads_desc: Também temos imagens $options. Verifique os $alternative_downloads!
 alternative_downloads: Downloads alternativos
 download: Baixar
 armv7l: PCs, laptops, placas e servidores UEFI ARM 32-bits (armv7l)
