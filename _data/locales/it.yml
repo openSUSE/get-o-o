@@ -161,12 +161,12 @@ metalink: Metalink
 offline_image: Immagine offline
 verify_download_checksums_help_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Codice_di_controllo
 installation_p1: "Il processo di installazione di openSUSE fornisce tutte le opzioni\
-  \ di cui\nsi potrebbe aver bisogno. Si vuole installare un sistema con mouse e\n\
-  tastiera? È possibile caricare il programma di installazione in modalità\ngrafica.\
-  \ Non si ha invece un mouse a portata di mano? Si può abilitare il\nclient dal terminale\
-  \ e installarlo in questo modo. Non si dispone di un \naccesso fisico alla macchina?\
-  \ Ci si può connettere al programma \nd'installazione da remoto e procedere con\
-  \ l'installazione. È così semplice.\n"
+  \ di cui si potrebbe aver\nbisogno. Si vuole installare un sistema con mouse e tastiera?\
+  \ È possibile caricare\nil programma di installazione in modalità grafica. Non si\
+  \ ha invece un mouse a portata\ndi mano? Si può abilitare il client dal terminale\
+  \ e installarlo in questo modo. Non si\ndispone di un accesso fisico alla macchina?\
+  \ Ci si può connettere al programma\nd'installazioneda remoto e procedere con l'installazione.\
+  \ È così semplice.\n"
 points_free: Software libero? La tua scelta
 points_transparent_p1: "Dall'inizio alla fine, tutti i suoi sorgenti e gli script\
   \ di compilazione di ogni\npacchetto che entra nelle distribuzioni sono liberamente\
@@ -179,10 +179,10 @@ software_p1: "Detto fra di noi, dover andare in ogni sito per ottenere tutto il 
   \ rende tutto questo molto più semplice, incorporando\nin un unico posto il software\
   \ da una gran varietà di sorgenti.\n"
 yast: Yast, la scelta migliore per gli utenti ~~esperti~~
-yast_p1: "Uno dei migliori strumenti di configurazione del sistema aiuta te,\nl'utente,\
-  \ a configurare ogni singolo aspetto del tuo sistema. Non\nè più necessario passare\
-  \ attraverso una pletora di script di\nconfigurazione, oppure immettere degli equivoci\
-  \ comandi per\nottenere la configurazione di sistema desiderata.\n"
+yast_p1: "Uno dei migliori strumenti di configurazione del sistema aiuta te, l'utente,\
+  \ a\nconfigurare ogni singolo aspetto del tuo sistema. Non è più necessario passare\n\
+  attraverso una pletora di script di configurazione, oppure immettere degli\nequivoci\
+  \ comandi per ottenere la configurazione di sistema desiderata.\n"
 zypper_p1: "È veloce e semplice da imparare. Fornisce zypper-apt, un livello di\n\
   compatibilità per l'uso con i comandi apt e apt-get. È basato su libsolv,\nche garantisce\
   \ velocità e risoluzione riproducibile delle dipendenze.\nL'interfaccia è chiara\
@@ -223,3 +223,81 @@ pine_image: Pine64
 rpi_image: RaspberryPi
 vagrant_image: Vagrant
 iso_image: Immagine ISO
+Tumbleweed_features:
+  plant:
+    name: Si erge su un terreno solido
+  knife:
+    name: All'avanguardia
+    description: "Si ottengono aggiornamenti frequenti, che non solo risolvono vulnerabilità\
+      \ o bug, ma riflettono le ultime funzionalità e gli ultimi sviluppi: nuovi kernel,\
+      \ nuovi driver e versioni recenti dell'ambiente desktop.\n"
+  power:
+    name: Potente
+  shield:
+    name: Sicuro
+  key:
+    description: "Se qualcosa dovesse andare storto è sempre possibile eseguire il\
+      \ rollback allo stato precedente, in modo da trovare i file e i programmi esattamente\
+      \ come lo erano prima di un aggiornamento non riuscito.\n"
+    name: Sicuro
+  cpu:
+    description: "Grazie alla sua natura all'avanguardia e accuratamente testata,\
+      \ Tumbleweed serve l'hardware e i dispositivi come poche altre distribuzioni\
+      \ Linux, rendendolo un'ottima soluzione per workstation, laptop, notebook e\
+      \ simili.\n"
+    name: Funziona bene con il tuo hardware
+  user:
+    description: "Con un singolo comando si possono aggiornare migliaia di pacchetti,\
+      \ eseguire il rollback all'istantanea della scorsa settimana, eseguire di nuovo\
+      \ l'avanzamento rapido e persino visualizzare in anteprima le versioni imminenti.\n"
+    name: Semplice da usare
+  home:
+    description: "Gli aggiornamenti vengono accuratamente testati rispetto agli standard\
+      \ di qualità di livello industriale sfruttando un servizio di compilazione che\
+      \ altre distribuzioni Linux ci invidiano. Non solo ogni nuova versione di un\
+      \ pacchetto viene testata individualmente, ma vengono testati diversi cluster\
+      \ di versioni l'uno rispetto all'altro: in questo modi si è sicuri che il sistema\
+      \ sia internamente coerente.\n"
+    name: Stabile
+  update:
+    description: "Lo si installa una volta e ce lo si gode per sempre. Non ci si deve\
+      \ più preoccupare ogni sei mesi di massicci aggiornamenti di sistema che rischiano\
+      \ di corrompere il sistema.\n"
+    name: Aggiornato continuamente
+MicroOS_features:
+  shield:
+    name: Rollback
+  idea:
+    name: Filosofia
+  tool:
+    name: Debug
+  key:
+    description: "* Ottieni gli aggiornamenti tramite HTTPS\n* I pacchetti e i repository\
+      \ sono firmati dal nostro sistema di build\n* I pacchetti sono verificati\n\
+      * Nessun aggiornamento viene eseguito in caso di conflitto di dipendenze\n*\
+      \ Nessuno spreco di spazio: le istantanee del filesystem vengono eliminate in\
+      \ caso di fallimento degli aggiornamenti\n"
+    name: Aggiornamenti sicuri
+  update:
+    name: Aggiornamenti atomici
+armv7l: Server, desktop, portatili e schede UEFI Arm a 32 bit (armv7l)
+aarch64: Server, desktop, portatili e schede UEFI Arm a 64 bit (aarch64)
+transactional_p1: "Il programma d'installazione adesso supporta un nuovo ruolo di\
+  \ Transactional\nServer, che è il risultato degli sforzi per openSUSE Kubic. Questo\
+  \ ruolo di\nsistema presenta un nuovo sistema di aggiornamento, che applica gli\n\
+  aggiornamenti in modo atomico (come una singola operazione) e li rende semplici\n\
+  da ripristinare in caso di necessità. Queste funzionalità sono basate sugli\nstrumenti\
+  \ di gestione dei pacchetti su cui fanno affidamento tutte le altre\ndistribuzioni\
+  \ di SUSE e di openSUSE. Questo significa che la maggior parte\ndei pacchetti RPM\
+  \ che funzionano con gli altri ruoli di sistema delle\ndistribuzioni di openSUSE\
+  \ funziona anche col ruolo di Transactional Server.\n"
+alternative_downloads_desc: Ci sono anche le immagini di $options. Controlla gli $alternative_downloads!
+alternative_downloads: Scaricamenti alternativi
+download: Scarica
+overview: Panoramica
+chrome_warning_policy: un cambio nella politica
+chrome_warning: "A causa di un $change_in_policy in Google Chrome and Chromium, non\
+  \ è attualmente possibile\nscaricare le immagini facendo clic sul pulsante di scaricamento.\
+  \ Per aggirare questo problema è\nsufficiente fare clic col tasto destro e scegliere\
+  \ \"Salva collegamento come...\" per salvare l'immagine.\nIl motivo di questo bug\
+  \ è tracciato in $bug on GitHub, fai sapere ai mantenitori che rigurda anche te.\n"
