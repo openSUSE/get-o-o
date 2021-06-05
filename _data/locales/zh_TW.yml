@@ -229,10 +229,10 @@ Tumbleweed_features:
     name: 堅實基礎
   power:
     description: "採用了 openSUSE 著名的技術如 `Btrfs` 檔案系統、`snapper` 命令列工具，以及經戰場驗證的 `YaST`\
-      \ 控制台，Tumbleweed 賦予您對您的系統的完整控制，讓您定義您想要的組態並使用它來完成。您再也不需擔心系統會干擾您的工作流程。\n"
+      \ 控制中心，Tumbleweed 賦予您對系統的完整控制，讓您定義您想要的組態並使用它來完成。您再也不需擔心系統會干擾您的工作流程。\n"
     name: 功能強大
   shield:
-    description: "從最新的作業系統核心版本建構，包含最新緩和 Spectre / Meltdown 問題的修補程式，與預設開啟防火牆及強固的安全策略，從一開始您的安全即受到保障。\n"
+    description: "從最新版本的作業系統核心建構，包含最新緩和 Spectre / Meltdown 問題的修補程式，與預設開啟防火牆及強固的安全策略，從一開始您的安全即受到保障。\n"
     name: 保全
   key:
     description: "若任何不預期的事情發生，您總是可以回復到前一個狀態，並找到您在顛簸的更新之前的檔案與程式。\n"
