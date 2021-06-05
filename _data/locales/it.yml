@@ -27,13 +27,12 @@ documentation: Documentazione
 documentation_license: Licenza
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentazione completa
-requirements: Requisiti di sistema raccomandati
-requirements_cpu: Processore dual core a 2 GHz o superiore
-requirements_mem: 2 GB di memoria di sistema
+requirements: Requisiti di sistema
+requirements_cpu: Processore
+requirements_mem: Memoria
 requirements_hd: Più di 40 GB di spazio libero su disco
 requirements_dvd: Lettore DVD o porta USB per il supporto d'installazione
-requirements_net: L'accesso a Internet è utile, oltre che richiesto per l'installazione
-  da rete
+requirements_net: Rete
 tw_switch: Modi semplici per passare a openSUSE Tumbleweed
 tw_switch_p1: "Se si sta già eseguendo openSUSE è possibile aggiornare avviando da\n\
   DVD o da USB scegliendo di aggiornare, oppure si può effettuare un\n'Aggiornamento\
@@ -77,13 +76,13 @@ live_images: Live
 kubic_desc: Piattaforma "Container as a Service" basata su Kubernetes e facente leva
   su openSUSE MicroOS.
 choosing_media: Scelta del supporto da scaricare
-choosing_media_p1: "Tipicamente si raccomandano il DVD o la chiavetta USB in quanto\
-  \ contengono la\nmaggior parte dei pacchetti disponibili nella distribuzione e non\
-  \ richiedono una\nconnessione di rete durante l'installazione.\n"
-choosing_media_p2: "Il CD o la chiavetta USB di rete sono raccomandati per gli utenti\
-  \ che hanno\nconnessioni internet con banda limitata, in quanto scaricheranno solo\
-  \ i pacchetti\nper cui viene richiesta l'installazione, con una dimensione probabilmente\n\
-  significativamente minore di 4.7GB.\n"
+choosing_media_p1: "Tipicamente si raccomanda l'immagine offline, in quanto contiene\
+  \ la maggior parte\ndei pacchetti disponibili nella distribuzione e non richiede\
+  \ una\nconnessione di rete durante l'installazione.\n"
+choosing_media_p2: "L'immagine di rete è raccomandata per gli utenti che hanno connessioni\
+  \ internet\na banda limitata, in quanto verranno scaricati solo i pacchetti per\
+  \ cui viene\nrichiesta l'installazione, con una dimensione probabilmente molto\n\
+  minore di 4.7GB.\n"
 documentation_startup_guide: Guida di avvio di openSUSE
 documentation_release_notes: Note di rilascio
 leap_switch: Soluzioni semplici per passare ad openSUSE Leap
@@ -196,3 +195,31 @@ upgrade_table_mac_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricament
 upgrade_table_linux_usb_link: https://it.opensuse.org/SDB:Chiavetta_USB_Live
 upgrade_table_windows_usb_link: https://it.opensuse.org/SDB:Creare_una_chiavetta_USB_Live_utilizzando_Windows
 upgrade_table__mac_usb_link: https://it.opensuse.org/SDB:Creare_una_chiavetta_USB_Live_utilizzando_Mac_OS_x
+requirements_net_mac: Nome host e indirizzo MAC unico per ogni nodo
+requirements_net_conn: Connettività completa tra tutti i computer del cluster
+requirements_net_desc: L'accesso a Internet è utile, oltre che richiesto per l'installazione
+  da rete
+requirements_dvd_desc: Lettore DVD o porta USB per il supporto di installazione
+requirements_hdd_ssd_info: SSD ad alta velocità di scrittura
+requirements_hdd_swap_info: Spazio di swap disabilitato per far funzionare correttamente
+  kubernetes
+requirements_hdd_size_desc: $value di spazio disponibile
+requirements_hdd_var: Partizione /var
+requirements_hdd_root: Partizione / (root)
+requirements_hdd_desc: Più di 40GB di spazio libero sul disco
+requirements_hdd: Spazio su disco
+requirements_mem_desc: $value di RAM fisica + altra memoria aggiuntiva in base al
+  carico di lavoro
+requirements_cpu_desc: Dual core a 2 GHz o superiore
+requirements_rec: Raccomandati
+requirements_min: Minimi
+microos_desc: SO basato su openSUSE Tumbleweed che fornisce aggiornamenti transazionali
+  (atomici) su un filesystem btrfs di root di sola lettura
+hardware_images: Hardware
+cloud_images: Cloud
+vm_images: Macchina virtuale
+virtualbox_image: VirtualBox
+pine_image: Pine64
+rpi_image: RaspberryPi
+vagrant_image: Vagrant
+iso_image: Immagine ISO
