@@ -34,7 +34,7 @@ openstack_desc: Pour lancer des machines virtuelles dans OpenStack
 installation_images: Installation
 ports_images: Portages
 ports_info: "Les portages d'openSUSE Leap sur des architectures autres que\nPC sont\
-  \ maintenus par des équipes communautaires séparées,\navec des ressources limitées.\n"
+  \ maintenus par des équipes communautaires séparées, avec des ressources limitées.\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: LiveCD GNOME
