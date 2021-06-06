@@ -208,8 +208,8 @@ requirements_hdd_var: Partizione /var
 requirements_hdd_root: Partizione / (root)
 requirements_hdd_desc: Più di 40GB di spazio libero sul disco
 requirements_hdd: Spazio su disco
-requirements_mem_desc: $value di RAM fisica + altra memoria aggiuntiva in base al
-  carico di lavoro
+requirements_mem_desc: $value di RAM fisica, più altra memoria aggiuntiva per il carico
+  di lavoro
 requirements_cpu_desc: Dual core a 2 GHz o superiore
 requirements_rec: Raccomandati
 requirements_min: Minimi
@@ -230,7 +230,7 @@ Tumbleweed_features:
     name: All'avanguardia
     description: "Si ottengono aggiornamenti frequenti, che non solo risolvono vulnerabilità\
       \ o bug, ma riflettono le ultime funzionalità e gli ultimi sviluppi: nuovi kernel,\
-      \ nuovi driver e versioni recenti dell'ambiente desktop.\n"
+      \ nuovi driver, oltre alle versioni più recenti dell'ambiente desktop.\n"
   power:
     name: Potente
   shield:
@@ -245,23 +245,23 @@ Tumbleweed_features:
       \ Tumbleweed serve l'hardware e i dispositivi come poche altre distribuzioni\
       \ Linux, rendendolo un'ottima soluzione per workstation, laptop, notebook e\
       \ simili.\n"
-    name: Funziona bene con il tuo hardware
+    name: Funziona bene con qualsiasi hardware
   user:
     description: "Con un singolo comando si possono aggiornare migliaia di pacchetti,\
       \ eseguire il rollback all'istantanea della scorsa settimana, eseguire di nuovo\
       \ l'avanzamento rapido e persino visualizzare in anteprima le versioni imminenti.\n"
     name: Semplice da usare
   home:
-    description: "Gli aggiornamenti vengono accuratamente testati rispetto agli standard\
-      \ di qualità di livello industriale sfruttando un servizio di compilazione che\
-      \ altre distribuzioni Linux ci invidiano. Non solo ogni nuova versione di un\
-      \ pacchetto viene testata individualmente, ma vengono testati diversi cluster\
+    description: "Gli aggiornamenti vengono accuratamente testati con standard di\
+      \ qualità di livello industriale, sfruttando un servizio di compilazione che\
+      \ le altre distribuzioni Linux ci invidiano. Non solo ogni nuova versione di\
+      \ un pacchetto viene testata individualmente, ma vengono testati diversi cluster\
       \ di versioni l'uno rispetto all'altro: in questo modi si è sicuri che il sistema\
       \ sia internamente coerente.\n"
     name: Stabile
   update:
     description: "Lo si installa una volta e ce lo si gode per sempre. Non ci si deve\
-      \ più preoccupare ogni sei mesi di massicci aggiornamenti di sistema che rischiano\
+      \ più preoccupare di massicci aggiornamenti di sistema ogni sei mesi, che rischiano\
       \ di corrompere il sistema.\n"
     name: Aggiornato continuamente
 MicroOS_features:
@@ -296,8 +296,9 @@ alternative_downloads: Scaricamenti alternativi
 download: Scarica
 overview: Panoramica
 chrome_warning_policy: un cambio nella politica
-chrome_warning: "A causa di un $change_in_policy in Google Chrome and Chromium, non\
+chrome_warning: "A causa di un $change_in_policy in Google Chrome e in Chromium, non\
   \ è attualmente possibile\nscaricare le immagini facendo clic sul pulsante di scaricamento.\
-  \ Per aggirare questo problema è\nsufficiente fare clic col tasto destro e scegliere\
-  \ \"Salva collegamento come...\" per salvare l'immagine.\nIl motivo di questo bug\
-  \ è tracciato in $bug on GitHub, fai sapere ai mantenitori che rigurda anche te.\n"
+  \ Per aggirare questo problema,\nper salvare l'immagine è sufficiente fare clic\
+  \ col tasto destro, scegliendo poi \"Salva collegamento come...\"\nIl motivo di\
+  \ questo bug è tracciato in $bug su GitHub: fai sapere ai mantenitori che rigurda\
+  \ anche te.\n"
