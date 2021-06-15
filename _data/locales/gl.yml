@@ -93,3 +93,57 @@ translate: Traducir
 site_copyright: © 2020 contribuidores openSUSE
 site_description: Aprende sobor das distribucións openSUSE e descárgaas gratis
 site_title_short: Obter
+documentation_license_link: https://es.opensuse.org/openSUSE:Licencia
+leap_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o\
+  \ DVD/USB\ne elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\"\
+  \ cuns\npoucos comandos.\n"
+leap_switch_instructions: Instrucións para a Actualización Online.
+leap_switch_instructions_link: https://es.opensuse.org/SDB:Actualizaci%C3%B3n_de_la_distribuci%C3%B3n
+requirements_min: Mínimo
+requirements_rec: Recomendado
+requirements_cpu_desc: Procesador Dual-core de 2Ghz ou millor
+requirements_mem_desc: $value RAM física + memoria adicional para a túa carga de traballo
+requirements_hdd: Almaceamento
+requirements_hdd_desc: Sobre dos 40GB de espacio libre no disco duro
+requirements_hdd_root: Partición / (root)
+requirements_hdd_var: Partición /var
+verify_download_pubkey: Debera
+requirements_hdd_ssd_info: ratio alta de velocidade de escritura en SSD
+requirements_dvd_desc: Dispositivo DVD ou ben porto USB para o medio de instalación
+requirements_net_desc: O acceso a internet é útil, e é requirido no caso do instalador
+  en rede
+requirements_net_mac: Nome de host e dirección MAC únicas para cada nodo
+tw_switch_instructions_link: https://es.opensuse.org/SDB:Migraci%C3%B3n_de_openSUSE_Leap_a_Tumbleweed
+upgrade_table_linux_dvd_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Linux
+upgrade_table_linux_usb_link: https://es.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: https://es.opensuse.org/SDB:Live_USB_stick#Instrucciones_para_Windows
+upgrade_table__mac_usb_link: https://es.opensuse.org/SDB:Live_USB_stick#Instrucciones_para_OS_X
+verify_download_p1: "Moitas aplicacións poden verificar a suma de comprobación dunha\
+  \ descarga.\nPara verificar a túa descarga pode ser importante xa que verifica que\
+  \ realmente\nobtiveches o ficheiro ISO que querías descargar e non unha versión\
+  \ corrupta.\n"
+verify_download_p2: "Para cada ISO, ofrecemos un ficheiro de suma de comprobación\
+  \ coa súa correspondente suma SHA256.\n"
+desktops: Moitos escritorios, tres por defecto
+requirements_hdd_size_desc: $value de espacio dispoñible en disco
+requirements_net_conn: Completa conectividade entre todas as máquinas do cluster
+microos_desc: SO baseado en openSUSE Tumbleweed que proporciona Actualizacións Transaccionais
+  (Atómicas) sobre dun sistema de ficheiros btrfs de só-lectura
+choosing_media_p1: "A imaxe Offline é a recomentada habitualmente xa que contén a\
+  \ maioría dos\npaquetes dispoñibles na distribución e non require de conexión de\
+  \ rede\ndurante a instalación.\n"
+choosing_media_p2: "A Imaxe de Rede recoméndase para usuarios que teñen limitacións\n\
+  no espacio de banda das súas conexións a internet, xa que só descargará\nos paquetes\
+  \ que se seleccionen para instalar, o que será seguramente\nmoito menos de 4,7 GB.\n"
+requirements_hdd_swap_info: espacio de intercambio inhabilitado para permitir que
+  kubernetes traballe adecuadamente
+verify_download_checksums_help_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Sumas_de_verificaci.C3.B3n
+tw_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o DVD/USB\n\
+  e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cuns\n\
+  poucos comandos\n"
+tw_switch_instructions: Instrucións da Actualización.
+upgrade_table_windows_dvd_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Microsoft_Windows_2
+verify_download_p3: "Para máis seguridade, podes usar GPG para verificar quen firmou\
+  \ estes ficheiros .sha256.\n"
+verify_download_help: Para ter máis axuda de como verificar a túa descarga, por favor
+  le
