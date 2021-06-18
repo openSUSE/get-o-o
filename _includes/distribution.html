@@ -85,9 +85,6 @@
   <div class="tab-pane" id="download" role="tabpanel">
     <section class="py-3">
       <div class="container" role="main">
-        {% capture chrome_warning_link %}<a href="https://blog.chromium.org/2020/02/protecting-users-from-insecure.html" target="_blank">{{ locale.chrome_warning_policy }}</a>{% endcapture %}
-        {% capture chrome_warning_bug %}<a href="https://github.com/openSUSE/mirrorbrain/issues/3" target="_blank">openSUSE/mirrorbrain#3</a>{% endcapture %}
-        <p class="alert alert-danger">{{ locale.chrome_warning | replace: '$change_in_policy', chrome_warning_link | replace: '$bug', chrome_warning_bug }}</p>
         {% assign default = distro.downloads | where_exp: "item", "item.display" %}
         {% for tab in default %}
           <div {% if tab.display == 'all' %}{% elsif tab.display %}class="only-{{ tab.display }}" style="display: none"{% endif %}>

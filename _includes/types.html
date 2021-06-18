@@ -15,13 +15,13 @@
     {% endif %}
   </h6>
   <div class="btn-group">
-    <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
+    <a href="https://mirrorcache.opensuse.org{{type.primary_link}}?PEDANTIC=1" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
     <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <span class="sr-only">Toggle Dropdown</span>
     </button>
     <div class="dropdown-menu dropdown-menu-right">
       {% for link in type.links %}
-      <a href="https://download.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
+      <a href="https://mirrorcache.opensuse.org{{link.url}}" class="dropdown-item">{{ locale[link.name] }}</a>
       {% endfor %}
     </div>
   </div>

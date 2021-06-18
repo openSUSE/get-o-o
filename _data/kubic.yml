@@ -13,9 +13,9 @@ downloads:
       primary_link: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso
       links:
       - name: metalink
-        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso.meta4
+        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso.metalink
       - name: pick_mirror
-        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso?mirrorlist
+        url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso.metalink
       - name: checksum
         url: /tumbleweed/iso/openSUSE-Kubic-DVD-x86_64-Current.iso.sha256
   - name: aarch64
@@ -25,9 +25,9 @@ downloads:
       primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso
       links:
       - name: metalink
-        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso.meta4
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso.metalink
       - name: pick_mirror
-        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso?mirrorlist
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso.metalink
       - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Kubic-DVD-aarch64-Current.iso.sha256
   - name: ppc64le
@@ -37,9 +37,9 @@ downloads:
       primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Kubic-DVD-ppc64le-Current.iso
       links:
       - name: metalink
-        url: /ports/ppc/tumbleweed/iso/openSUSE-Kubic-DVD-ppc64le-Current.iso.meta4
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Kubic-DVD-ppc64le-Current.iso.metalink
       - name: pick_mirror
-        url: /ports/ppc/tumbleweed/iso/openSUSE-Kubic-DVD-ppc64le-Current.iso?mirrorlist
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Kubic-DVD-ppc64le-Current.iso.metalink
       - name: checksum
         url: /ports/ppc/tumbleweed/iso/openSUSE-Kubic-DVD-ppc64le-Current.iso.sha256
 - name: vm_images
@@ -51,9 +51,9 @@ downloads:
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-kvm-and-xen.qcow2
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-kvm-and-xen.qcow2.meta4
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-kvm-and-xen.qcow2.metalink
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-kvm-and-xen.qcow2?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-kvm-and-xen.qcow2.metalink
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-kvm-and-xen.qcow2.sha256
     - name: vmware_image
@@ -61,9 +61,9 @@ downloads:
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmdk.xz
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmdk.xz.meta4
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmdk.xz.metalink
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmdk.xz?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmdk.xz.metalink
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmdk.xz.sha256
     - name: vmware_vmx_image
@@ -71,9 +71,9 @@ downloads:
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmx
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmx.meta4
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmx.metalink
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmx?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmx.metalink
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-VMware.vmx.sha256
     - name: vagrant_image
@@ -81,9 +81,9 @@ downloads:
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-Vagrant.box
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-Vagrant.box.meta4
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-Vagrant.box.metalink
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-Vagrant.box?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-Vagrant.box.metalink
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-Vagrant.box.sha256
     - name: hyperv_image
@@ -91,9 +91,9 @@ downloads:
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-MS-HyperV.vhdx.xz
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-MS-HyperV.vhdx.xz.meta4
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-MS-HyperV.vhdx.xz.metalink
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-MS-HyperV.vhdx.xz?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-MS-HyperV.vhdx.xz.metalink
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-MS-HyperV.vhdx.xz.sha256
   - name: aarch64
@@ -103,9 +103,9 @@ downloads:
       primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-kvm-and-xen.qcow2
       links:
       - name: metalink
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-kvm-and-xen.qcow2.meta4
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-kvm-and-xen.qcow2.metalink
       - name: pick_mirror
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-kvm-and-xen.qcow2?mirrorlist
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-kvm-and-xen.qcow2.metalink
       - name: checksum
         url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-kvm-and-xen.qcow2.sha256
     - name: vagrant_image
@@ -113,9 +113,9 @@ downloads:
       primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Vagrant.box
       links:
       - name: metalink
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Vagrant.box.meta4
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Vagrant.box.metalink
       - name: pick_mirror
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Vagrant.box?mirrorlist
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Vagrant.box.metalink
       - name: checksum
         url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Vagrant.box.sha256
 - name: cloud_images
@@ -127,9 +127,9 @@ downloads:
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-OpenStack-Cloud.qcow2
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-OpenStack-Cloud.qcow2.meta4
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-OpenStack-Cloud.qcow2.metalink
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-OpenStack-Cloud.qcow2?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-OpenStack-Cloud.qcow2.metalink
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-Kubic-kubeadm-OpenStack-Cloud.qcow2.sha256
 - name: hardware_images
@@ -141,9 +141,9 @@ downloads:
       primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-RaspberryPi.raw.xz
       links:
       - name: metalink
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-RaspberryPi.raw.xz.meta4
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-RaspberryPi.raw.xz.metalink
       - name: pick_mirror
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-RaspberryPi.raw.xz?mirrorlist
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-RaspberryPi.raw.xz.metalink
       - name: checksum
         url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-RaspberryPi.raw.xz.sha256
     - name: pine_image
@@ -151,8 +151,8 @@ downloads:
       primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Pine64.raw.xz
       links:
       - name: metalink
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Pine64.raw.xz.meta4
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Pine64.raw.xz.metalink
       - name: pick_mirror
-        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Pine64.raw.xz?mirrorlist
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Pine64.raw.xz.metalink
       - name: checksum
         url: /ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Kubic-kubeadm-Pine64.raw.xz.sha256

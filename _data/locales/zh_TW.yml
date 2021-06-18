@@ -190,9 +190,6 @@ alternative_downloads_desc: 我們也提供 $options 映像檔。請查看 $alte
 alternative_downloads: 其他下載
 download: 下載
 overview: 概觀
-chrome_warning_policy: 政策修改
-chrome_warning: "由於 Google Chrome 與 Chromium 的 $change_in_policy，目前無法通過點擊下載按鈕來下載映像檔。要繞過這個問題，請以滑鼠右鍵點擊下載按鈕並點擊\
-  \ \"另存新檔...\" 來儲存映像檔。這個臭蟲的原因正在 GitHub 上追蹤 ($bug)，請讓維護者知道該問題已影響到您。\n"
 s390x: IBM Z 以及 LinuxONE (s390x)
 ppc64le: PowerPC 伺服器，非 big-endian (ppc64le)
 armv7l: UEFI Arm 32 位元伺服器、桌上型電腦、筆記型電腦以及單板電腦 (armv7l)
