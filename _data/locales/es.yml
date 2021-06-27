@@ -2,7 +2,7 @@ site_title: Consigue openSUSE
 site_title_short: Obtener
 site_description: Aprenda acerca de las distribuciones de openSUSE y descárguelas
   libremente
-site_copyright: © 2020 colaboradores de openSUSE
+site_copyright: © 2021 colaboradores de openSUSE
 search: Buscar
 translate: Traducir
 source_code: Código fuente
@@ -15,7 +15,7 @@ metalink: Metalink
 pick_mirror: Escoger un servidor de réplica
 checksum: Suma de verificación
 torrent_file: Archivo torrent
-offline_image: Imágen fuera de línea
+offline_image: Imagen fuera de línea
 offline_desc: "Contiene una amplia colección de software para uso en equipos de escritorio\
   \ o servidores.\nIndicado para instalación o actualización.\n"
 network_image: Imagen de red
@@ -36,7 +36,7 @@ ports_images: Adaptaciones
 ports_info: "Las adaptaciones de openSUSE Leap a otras arquitecturas diferentes a\
   \ PC\nson mantenidas por equipos comunitarios separados, con recursos limitados.\n"
 jeos_images: JeOS
-live_images: Live
+live_images: Vivo
 gnome_cd: LiveCD con GNOME
 kde_cd: LiveCD con KDE
 xfce_cd: LiveCD con Xfce
@@ -51,14 +51,15 @@ kubic_desc: Contenedor como Plataforma de Servicio basado en Kubernetes sobre op
 microos_desc: Sistema operativo basado en openSUSE Tumbleweed que ofrece actualizaciones
   transaccionales (Atomic) sobre un sistema de archivos raíz brtfs de solo lectura
 choosing_media: Escoger qué medio descargar
-choosing_media_p1: "Los DVD y memorias USB son las recomendadas normalmente ya que\
-  \ contienen la mayoría de\npaquetes disponibles en la distribución y no requieren\
-  \ de una conexión a la red\ndurante la instalación\n"
-choosing_media_p2: "La imagen de CD/USB está recomendada para los usuarios que tienen\
+choosing_media_p1: "La imagen fuera de línea es recomendada normalmente ya que contiene\
+  \ la mayoría de\npaquetes disponibles en la distribución y no requiere de una conexión\
+  \ a la red\ndurante la instalación.\n"
+choosing_media_p2: "La imagen de red está recomendada para los usuarios que tienen\
   \ un ancho de banda limitado \nen sus conexiones de internet, ya que sólo descarga\
-  \ los \npaquetes que escogen instalar, que probablemente sea \nmucho menos de 4,7GB.\n"
+  \ los \npaquetes que eligen instalar, y que probablemente sean \nmucho menores a\
+  \ 4,7GB.\n"
 documentation: Documentación
-documentation_startup_guide: Guía de comienzo de openSUSE
+documentation_startup_guide: Guía de inicio de openSUSE
 documentation_release_notes: Notas de la publicación
 documentation_license: Licencia
 documentation_license_link: https://en.opensuse.org/openSUSE:License
@@ -69,13 +70,12 @@ leap_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando \
   \ actualización en línea \ncon unos pocos comandos.\n"
 leap_switch_instructions: Instrucciones para actualizar en línea.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Requisitos recomendados del sistema
-requirements_cpu: un procesador de doble núcleo de 2 Ghz o superior
-requirements_mem: 2 GB de memoria en el sistema
+requirements: Requisitos del sistema
+requirements_cpu: Procesador
+requirements_mem: Memoria
 requirements_hd: Más de 40Gb de espacio libre en el disco
 requirements_dvd: Tanto una unidad de DVD o puerto USB para el medio de instalación
-requirements_net: El acceso a internet es útil, y es necesario para hacer una instalación
-  mediante la red (Network Installer)
+requirements_net: Red
 tw_switch: Maneras sencillas de cambiar a openSUSE Tumbleweed
 tw_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando desde\
   \ la \nunidad de DVD/USB y escogiendo la opción de actualizar, o realizar una actualización\
@@ -117,12 +117,12 @@ desktops_p1: "El proceso de contribución de openSUSE permite el desarrollo de e
   \ de instalación. Ofrecemos tres entornos de escritorio y ofrecemos\naún más en\
   \ la vista de software expandida dentro del instalador.\n"
 installation: Puedes instalarlo como tu quieras
-installation_p1: "El proceso de instalación de openSUSE te ofrece todas las opciones\n\
-  que probablemente necesitas. ¿Quieres instalar tu sistema usando el ratón y\nel\
-  \ teclado? Carga el instalador en modo gráfico. ¿No tienes un ratón\na mano? Utiliza\
-  \ el cliente para la terminal e instala de esa manera. ¿No tienes\nacceso físico\
-  \ al equipo? Conecta con el instalador de manera remota y\ncontinua con la instalación.\
-  \ Es así de simple.\n"
+installation_p1: "El proceso de instalación de openSUSE le ofrece todas las opciones\n\
+  que probablemente necesita. ¿Quiere instalar su sistema usando el ratón y\nel teclado?\
+  \ Cargue el instalador en modo gráfico. ¿No tiene un ratón\na mano? Utilice el cliente\
+  \ para la terminal e instale de esa manera. ¿No tiene\nacceso físico al equipo?\
+  \ Conecte con el instalador de manera remota y\ncontinúe con la instalación. Es\
+  \ así de simple.\n"
 points_transparent: Todo es transparente
 points_transparent_p1: "Desde el comienzo hasta el final, cada paquete que se integra\
   \ en las distribuciones\ntiene todo su código fuente y hay scripts que los compilan\
@@ -143,7 +143,7 @@ snapper_p1: "El funcionalidad del instantáneas del sistema de archivos mantiene
   \ realizadas de manera automática cuando instalas\nnuevo software o realizas actualizaciones.\
   \ Simplemente arranca desde una instantánea anterior y lleva\ntu sistema a un estado\
   \ en el que todo funcionaba en cuestión de minutos.\n"
-software: Obtener software no puede se más sencillo
+software: Obtener software no puede ser más sencillo
 software_p1: "Entre nosotros, tener que pasar por cada sitio web para conseguir todo\
   \ el\nsoftware que necesitas es mucho trabajo. El centro de software en línea\n\
   hace esto más fácil, incorporando software de una plétora de\nfuentes en un solo\
@@ -192,9 +192,9 @@ desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, aficiona
 desktop_tumbleweed_p2: Actualización continua con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 desktop_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios de escritorio "normales"
-desktop_leap_p2: Publicaciones periódicas con los beneficios tanto de la parte de
-  la ingeniería de nivel profesional como de la innovación desarrollada por la comunidad.
+  usuarios de escritorio comunes.
+desktop_leap_p2: Publicaciones periódicas con los beneficios de la ingeniería de nivel
+  profesional como de la innovación desarrollada por la comunidad.
 server: Distribuciones para servidor de openSUSE
 server_p1: "Cuatro distribuciones cómodamente aburridas, cómo siempre debería ser\n"
 server_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, aficionados
@@ -202,9 +202,9 @@ server_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, aficionad
 server_tumbleweed_p2: Actualización continua con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 server_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios de servidores "normales"
-server_leap_p2: Publicaciones periódicas con los beneficios tanto de la parte de la
-  ingeniería de nivel profesional como de la innovación desarrollada por la comunidad.
+  usuarios de servidores regulares.
+server_leap_p2: Publicaciones periódicas con los beneficios de la ingeniería de nivel
+  profesional como de la innovación desarrollada por la comunidad.
 server_kubic_p1: Para flujos de trabajo de servidor en contenedores
 server_kubic_p2: Sistema operativo multiuso autónomo y contenedor de Kubernetes basado
   en openSUSE MicroOS
@@ -220,3 +220,145 @@ aarch64: Servidores UEFI Arm 64-bit, equipos de escritorio, portátiles y tarjet
   (aarch64)
 ppc64le: Servidores PowerPC, no big-endian (ppc64le)
 s390x: IBM Z y LinuxONE (s390x)
+iso_image: Imagen ISO
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: Sistema anfitrión de contenedor VMware VMX
+vagrant_image: Vagrant
+vagrant_ch_image: Sistema anfitrión de contenedor Vagrant
+rpi_image: RaspberryPi
+virtualbox_image: VirtualBox
+vm_images: Máquina virtual
+cloud_images: Nube
+kvm_ch_image: Sistema anfitrión de contenedores KVM y XEN
+rpi_ch_image: Sistema anfitrión de contenedor RaspberryPi
+pine_image: Pine64
+pine_ch_image: Sistema anfitrión de contenedor Pine64
+openstack_ch_image: Sistema anfitrión de contenedor OpenStack-Cloud
+hardware_images: Hardware
+requirements_hdd_desc: Más de 40 GB de espacio libre en disco
+requirements_hdd_root: Partición / (raíz)
+requirements_hdd_size_desc: $value de espacio disponible en disco
+requirements_min: Mínimo
+requirements_rec: Recomendado
+requirements_cpu_desc: Procesador Dual Core de 2 GHz o superior
+requirements_mem_desc: $value de RAM física + memoria adicional para su carga de trabajo
+requirements_hdd: Almacenamiento
+requirements_hdd_var: Partición /var
+requirements_hdd_swap_info: Espacio de intercambio deshabilitado para que los kubernetes
+  funcionen correctamente
+requirements_hdd_ssd_info: SSD de alta velocidad de escritura
+armv7l: Servidores UEFI Arm 32-bit, escritorios, portátiles y placas (armv7l)
+requirements_dvd_desc: Una unidad DVD o puerto USB para el medio de instalación
+chrome_warning: "Debido a un $change_in_policy de Google Chrome y Chromium, la descarga\
+  \ de imágenes al hacer clic en los \nbotones de descarga no funciona actualmente.\
+  \ Para evitar este problema, haga clic con el botón derecho \nen el botón de descarga\
+  \ y seleccione «Guardar enlace como...» para guardar la imagen. El motivo de este\
+  \ error \nse rastrea en $bug en GitHub. Por favor, informe a los mantenedores que\
+  \ esto le afecta.\n"
+alternative_downloads_desc: También tenemos imágenes $options. ¡Consulte las $alternative_downloads!
+MicroOS_features:
+  idea:
+    description: "### Es previsible\n* No se altera durante la ejecución.\n* Ejecutará\
+      \ los mismos artefactos de manera consistente en cada arranque.\n\n### Es escalable\n\
+      * Elimina los esfuerzos por configurar instancias individuales durante el tiempo\
+      \ de ejecución.\n* Puede ser implementado fácil y repetidamente con resultados\
+      \ previsibles.\n\n### Es fiable\n*Recuperación automatizada de actualizaciones\
+      \ defectuosas.\n"
+    name: Filosofía
+  work:
+    name: Cargas de trabajo
+    description: "Las aplicaciones se instalan en contenedores en lugar del sistema\
+      \ de archivos raíz:\n* Aisladas del sistema de archivos central.\n* Reducción\
+      \ de capacidad para aplicaciones maliciosas comprometedoras.\n* Instalaciones\
+      \ nuevas sin reiniciar.\n* Actualización atómica posible (crea lo nuevo, mata\
+      \ lo antiguo).\n* Fácil reversión.\n"
+  tool:
+    description: "### Contenedor de herramientas de depuración\n* Ejecuta contenedor\
+      \ privilegiado.\n* Sistema de archivos raíz disponible en `/media/root`.\n*\
+      \ Zypper, para instalación de herramientas necesarias; disponibles sin reiniciar.\n\
+      * Persistente entre usos.\n"
+    name: Depuración
+  update:
+    description: "### Actualizaciones transaccionales\n\n#### Único\nAl usar Btrfs\
+      \ con instantáneas, MicroOS usa el espacio eficientemente \npara almacenar el\
+      \ historial del sistema de archivos. Todos los archivos \nde configuración de\
+      \ `/etc` forman parte de la instantánea y de la reversión.\n\n#### Flexible\n\
+      * No es necesario un nuevo formato de paquete, use el RPM estándar de \nopenSUSE.\n\
+      * No existe límite de tamaño, ni para las particiones ni para el sistema\noperativo.\n\
+      * Fácil de mejorar.\n"
+    name: Actualizaciones atómicas
+  shield:
+    name: Retroceso
+    description: "### MicroOS es un sistema operativo inmutable, de recuperación simple.\n\
+      * Inmutable: sin cambios en el disco.\n* Reversible, reiniciándolo a una instantánea\
+      \ anterior de BTRFS.\n"
+  key:
+    name: Actualizaciones seguras
+    description: "* Obtenga actualizaciones vía HTTPS.\n* Paquetes y repositorios\
+      \ firmados por nuestro sistema de compilación.\n* Paquetes verificados.\n* Sin\
+      \ actualizaciones en caso de conflictos por dependencias.\n* Sin pérdida de\
+      \ espacio: las instantáneas se eliminan en caso de actualizaciones fallidas.\n"
+Tumbleweed_features:
+  update:
+    name: Continuamente actualizado
+    description: "Lo instala una vez y lo disfruta para siempre. No se preocupe más\
+      \ por actualizaciones masivas semestrales que comprometan su sistema.\n"
+  knife:
+    description: "Reciba actualizaciones frecuentes que no solo aborden vulnerabilidades\
+      \ o errores sino que reflejen las últimas características y desarrollos como\
+      \ núcleos, controladores y versiones de entornos de escritorio recientes.\n"
+    name: A la vanguardia
+  user:
+    name: Simple de usar
+    description: "Con solo un comando, puede actualizar miles de paquetes, retroceder\
+      \ a la instantánea de la semana pasada, volver a avanzar rápidamente e, incluso,\
+      \ obtener una vista previa de las próximas versiones.\n"
+  cpu:
+    description: "Gracias a su naturaleza vanguardista y de comprobación exhaustiva,\
+      \ Tumbleweed sirve a su hardware y dispositivos como otras pocas distribuciones\
+      \ Linux; conviertiéndolo en una excelente instalación para estaciones de trabajo,\
+      \ portátiles y similares.\n"
+    name: Funciona con su equipo
+  key:
+    description: "Si ocurre algo no deseado, siempre podrá retroceder a un estado\
+      \ anterior y encontrar sus archivos y programas tal como estaban antes de una\
+      \ actualización irregular.\n"
+    name: Seguro
+  shield:
+    name: Seguro
+    description: "Construido a partir de las últimas versiones del kernel, compilado\
+      \ con los últimos parches de mitigación de Spectre/Meltdown, con cortafuegos\
+      \ y fuertes políticas de seguridad activadas de forma predeterminada, su seguridad\
+      \ está cubierta de inmediato.\n"
+  power:
+    name: Potente
+    description: "Aprovechando las tecnologías por las que openSUSE es reconocido\
+      \ —como el sistema de archivos `Btrfs`, la utilidad de línea de comandos `snapper`,\
+      \ así como por el panel de control `YaST`—, Tumbleweed le otorga control total\
+      \ sobre su sistema, permitiéndole definir la configuración y acabado de su preferencia.\
+      \ ¡Ya no tiene que preocuparse más de que un sistema interfiera con su flujo\
+      \ de trabajo!\n"
+  plant:
+    description: "Tumbleweed se basa en décadas de uso, pruebas y depuración por parte\
+      \ de cientos de usuarios avanzados, desarrolladores, administradores de sistemas\
+      \ y personas exigentes que no pueden permitirse poner en peligro su flujo de\
+      \ trabajo. La solidez de Tumbleweed está incorporada en muchos paquetes centrales\
+      \ cuyo ADN proviene del venerable SUSE Linux Enterprise Server.\n"
+    name: Plantado en tierra firme
+  home:
+    name: Estable
+    description: "Actualizaciones probadas exhaustivamente con los más altos estándares\
+      \ de calidad de la industria, aprovechando un servicio de compilación que otras\
+      \ distribuciones Linux envidian. No solo se prueba cada nueva versión de un\
+      \ paquete de manera individual, sino que se prueban diferentes grupos de versiones\
+      \ entre sí, asegurando que su sistema sea internamente consistente.\n"
+hyperv_ch_image: Sistema anfitrión de contenedores MS HyperV
+vmware_ch_image: Sistema anfitrión de contenedores VMware
+requirements_net_desc: El acceso a internet es útil y necesario para el instalador
+  por red
+requirements_net_conn: Conectividad absoluta entre todas las máquinas del clúster
+requirements_net_mac: Nombre de anfitrión y dirección MAC únicos para cada nodo
+chrome_warning_policy: un cambio en la política
+download: Descargar
+alternative_downloads: Descargas alternativas
+overview: Descripción
