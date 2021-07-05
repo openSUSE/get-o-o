@@ -192,7 +192,7 @@ desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, aficiona
 desktop_tumbleweed_p2: Actualización continua con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 desktop_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios de escritorio comunes.
+  usuarios comunes de escritorio.
 desktop_leap_p2: Publicaciones periódicas con los beneficios de la ingeniería de nivel
   profesional como de la innovación desarrollada por la comunidad.
 server: Distribuciones para servidor de openSUSE
@@ -315,15 +315,15 @@ Tumbleweed_features:
       \ obtener una vista previa de las próximas versiones.\n"
   cpu:
     description: "Gracias a su naturaleza vanguardista y de comprobación exhaustiva,\
-      \ Tumbleweed sirve a su hardware y dispositivos como otras pocas distribuciones\
-      \ Linux; conviertiéndolo en una excelente instalación para estaciones de trabajo,\
+      \ Tumbleweed sirve a su hardware y dispositivos como pocas distribuciones Linux\
+      \ lo hacen; convirtiéndolo en una excelente instalación para estaciones de trabajo,\
       \ portátiles y similares.\n"
     name: Funciona con su equipo
   key:
     description: "Si ocurre algo no deseado, siempre podrá retroceder a un estado\
       \ anterior y encontrar sus archivos y programas tal como estaban antes de una\
       \ actualización irregular.\n"
-    name: Seguro
+    name: Fiable
   shield:
     name: Seguro
     description: "Construido a partir de las últimas versiones del kernel, compilado\
@@ -336,7 +336,7 @@ Tumbleweed_features:
       \ —como el sistema de archivos `Btrfs`, la utilidad de línea de comandos `snapper`,\
       \ así como por el panel de control `YaST`—, Tumbleweed le otorga control total\
       \ sobre su sistema, permitiéndole definir la configuración y acabado de su preferencia.\
-      \ ¡Ya no tiene que preocuparse más de que un sistema interfiera con su flujo\
+      \ ¡Ya no tiene que preocuparse más por un sistema que interfiera con su flujo\
       \ de trabajo!\n"
   plant:
     description: "Tumbleweed se basa en décadas de uso, pruebas y depuración por parte\
@@ -348,10 +348,10 @@ Tumbleweed_features:
   home:
     name: Estable
     description: "Actualizaciones probadas exhaustivamente con los más altos estándares\
-      \ de calidad de la industria, aprovechando un servicio de compilación que otras\
-      \ distribuciones Linux envidian. No solo se prueba cada nueva versión de un\
-      \ paquete de manera individual, sino que se prueban diferentes grupos de versiones\
-      \ entre sí, asegurando que su sistema sea internamente consistente.\n"
+      \ de calidad en la industria, aprovechando un servicio de compilación que otras\
+      \ distribuciones Linux envidian. No solamente se prueba cada nueva versión de\
+      \ un paquete de manera individual, sino que se prueban diferentes grupos de\
+      \ versiones entre sí, asegurándonos que su sistema sea internamente consistente.\n"
 hyperv_ch_image: Sistema anfitrión de contenedores MS HyperV
 vmware_ch_image: Sistema anfitrión de contenedores VMware
 requirements_net_desc: El acceso a internet es útil y necesario para el instalador
