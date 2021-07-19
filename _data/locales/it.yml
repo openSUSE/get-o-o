@@ -295,10 +295,3 @@ alternative_downloads_desc: Ci sono anche le immagini di $options. Controlla gli
 alternative_downloads: Scaricamenti alternativi
 download: Scarica
 overview: Panoramica
-chrome_warning_policy: un cambio nella politica
-chrome_warning: "A causa di un $change_in_policy in Google Chrome e in Chromium, non\
-  \ è attualmente possibile\nscaricare le immagini facendo clic sul pulsante di scaricamento.\
-  \ Per aggirare questo problema,\nper salvare l'immagine è sufficiente fare clic\
-  \ col tasto destro, scegliendo poi \"Salva collegamento come...\"\nIl motivo di\
-  \ questo bug è tracciato in $bug su GitHub: fai sapere ai mantenitori che rigurda\
-  \ anche te.\n"

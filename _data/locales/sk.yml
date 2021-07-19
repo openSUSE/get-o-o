@@ -209,12 +209,6 @@ aarch64: 64-bitové servery, stolné a prenosné počítače a jednodoskové po�
   Arm (aarch64)
 ppc64le: Servery PowerPC, nie big-endian (ppc64le)
 s390x: IBM Z a LinuxONE (s390x)
-chrome_warning: "Sťahovanie obrázov kliknutím na tlačidlá sťahovania je momentálne\
-  \ z dôvodu $ change_in_policy\nv prehliadačoch Google Chrome a Chromium nefunkčné.\
-  \ Ak chcete tento problém obísť, kliknite\npravým tlačidlom myši na tlačidlo stiahnutia\
-  \ a kliknutím \"Uložiť odkaz ako...\" obraz uložte. Dôvod\ntejto chyby je sledovaný\
-  \ v $ bug na GitHub, prosím, informujte správcov, že sa vás to týka.\n"
-chrome_warning_policy: zmena politiky
 openstack_ch_image: Hostiteľ kontajnera OpenStack-Cloud
 pine_ch_image: Hostiteľ kontajnera Pine64
 rpi_ch_image: Hostiteľ kontajnera RaspberryPi
