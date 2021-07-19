@@ -249,12 +249,6 @@ requirements_hdd_swap_info: Espacio de intercambio deshabilitado para que los ku
 requirements_hdd_ssd_info: SSD de alta velocidad de escritura
 armv7l: Servidores UEFI Arm 32-bit, escritorios, portátiles y placas (armv7l)
 requirements_dvd_desc: Una unidad DVD o puerto USB para el medio de instalación
-chrome_warning: "Debido a un $change_in_policy de Google Chrome y Chromium, la descarga\
-  \ de imágenes al hacer clic en los \nbotones de descarga no funciona actualmente.\
-  \ Para evitar este problema, haga clic con el botón derecho \nen el botón de descarga\
-  \ y seleccione «Guardar enlace como...» para guardar la imagen. El motivo de este\
-  \ error \nse rastrea en $bug en GitHub. Por favor, informe a los mantenedores que\
-  \ esto le afecta.\n"
 alternative_downloads_desc: También tenemos imágenes $options. ¡Consulte las $alternative_downloads!
 MicroOS_features:
   idea:
@@ -358,7 +352,6 @@ requirements_net_desc: El acceso a internet es útil y necesario para el instala
   por red
 requirements_net_conn: Conectividad absoluta entre todas las máquinas del clúster
 requirements_net_mac: Nombre de anfitrión y dirección MAC únicos para cada nodo
-chrome_warning_policy: un cambio en la política
 download: Descargar
 alternative_downloads: Descargas alternativas
 overview: Descripción
