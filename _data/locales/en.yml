@@ -52,6 +52,7 @@ ports_info: |
   Ports of openSUSE Leap to architectures other than the PC are
   maintained by separate community teams, with limited resources.
 jeos_images: JeOS
+jeos_info: For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 live_images: Live
 vm_images: Virtual Machine
 cloud_images: Cloud
@@ -268,23 +269,23 @@ MicroOS_features:
       ### Is predictable
       * Is not altered during runtime
       * Will run the same artifacts consistently on every boot
-      
+
       ### Is scalable
       * Eliminates efforts in configuring individual instances during runtime
       * Can be rolled out easily repeatedly with predictable outcome
-      
+
       ### Is reliable
       * Automated recovery from faulty updates
   update:
     name: Atomic Updates
     description: |
       ###  Transactional Updates
-      
+
       #### Unique
       By using btrfs with snapshots MicroOS uses a very space
       efficient way to store the file system's history. All the configuration
       files in `/etc` are part of the snapshot and the rollback.
-      
+
       #### Flexible
       * No new package format is needed, use standard openSUSE RPMs
       * No size limitation, neither for partitions nor the operating system
