@@ -357,3 +357,5 @@ vmware_ch_image: Amfitrió de contenidors VMware
 hyperv_ch_image: Amfitrió de contenidors MS HyperV
 kvm_ch_image: Amfitrió de contenidors KVM i XEN
 iso_image: Imatge ISO
+jeos_info: Per a les imatges Arm JeOS, si us plau, visiteu <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
+  pàgina wiki d'Arm</a>
