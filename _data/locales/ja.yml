@@ -270,3 +270,5 @@ vmware_ch_image: VMware コンテナホスト
 hyperv_ch_image: MS HyperV コンテナホスト
 kvm_ch_image: KVM および XEN コンテナホスト
 iso_image: ISO イメージ
+jeos_info: Arm JeOS イメージに関しては、 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  Wiki ページ</a> をご覧ください
