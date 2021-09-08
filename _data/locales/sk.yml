@@ -343,3 +343,5 @@ Tumbleweed_features:
       \ predchádzajúceho stavu a nájdete svoje súbory a programy rovnako ako pred\
       \ problémovou aktualizáciou.\n"
     name: Spoľahlivý
+jeos_info: Pre obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+  stránku Arm</a>
