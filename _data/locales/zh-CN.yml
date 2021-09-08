@@ -105,7 +105,7 @@ points_welcoming_p1: "我们会尽力取悦社区，只有社区尽情表达需�
 snapper: 系统损坏？不再难解
 snapper_p1: "文件系统快照功能通过在安装软件和更新时自动执行连续备份，确保文件\n系统可控。只需从之前的快照引导，几分钟内就可以使系统进入工作状态。\n"
 software: 软件获取，简单便捷
-software_p1: "对于我们每一个人，访问每个网站来获取全部需要的软件都是件很\n麻烦的工作。而有了在线软件中心，能够将众多来源的软件整合到\n一块，事情就变得容易多了。\n"
+software_p1: "对于我们每一个人，访问各种网站来获取全部需要的软件都是件很\n麻烦的工作。而有了在线软件中心，能够将众多来源的软件整合到\n一块，事情就变得容易多了。\n"
 software_get: 获取软件
 transactional: 事务性服务器
 transactional_p1: "安装程序现在支持新的系统角色——事务性服务器，这是 openSUSE Kubic\n努力的结果。这个系统角色搭载新的更新系统，（当作单个操作）原子化\n\
@@ -135,7 +135,7 @@ desktop: openSUSE 桌面发行版
 desktop_p1: "双发行版，满足一切（绿起来！）\n"
 desktop_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
 desktop_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
-desktop_leap_p1: 适用于系统管理员、企业开发者和“常规”桌面用户
+desktop_leap_p1: 适用于系统管理员、企业开发者和“普通”桌面用户
 desktop_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
 server: openSUSE 服务器发行版
 server_p1: "四种发行版，舒适且平常\n"
