@@ -119,6 +119,7 @@ downloads:
         url: /ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256
 - name: jeos_images
   display: server
+  info: jeos_info
   arches:
   - name: x86_64
     types:

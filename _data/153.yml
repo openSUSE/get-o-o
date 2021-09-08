@@ -98,6 +98,7 @@ downloads:
       - name: checksum
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x-Current.iso.sha256
 - name: jeos_images
+  info: jeos_info
   display: server
   arches:
   - name: x86_64
