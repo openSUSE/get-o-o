@@ -216,3 +216,9 @@ vmware_ch_image: Host Kontainer VMware
 hyperv_ch_image: Host Kontainer MS HyperV
 kvm_ch_image: Host Kontainer KVM dan XEN
 iso_image: citra ISO
+jeos_info: Untuk citra JeOS Arm, kunjungi <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
+  wiki Arm</a>
+vmware_vmx_ch_image: VMware VMX Container Host
+vm_images: Mesin Virtual
+cloud_images: Awan
+hardware_images: Perangkat Keras
