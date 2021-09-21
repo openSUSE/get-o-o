@@ -269,6 +269,11 @@ MicroOS_features:
     name: Rollback
   idea:
     name: Filosofia
+    description: "### È prevedibile\n* Non viene alterato durante l'esecuzione\n*\
+      \ Eseguirà gli stessi artefatti in modo coerente ad ogni avvio\n\n### È scalabile\n\
+      * Elimina gli sforzi di configurazione delle singole istanze durante il runtime\n\
+      * Può essere facilmente implementato ripetutamente con risultati prevedibili\n\
+      \n### È affidabile\n* Recupero automatico da aggiornamenti difettosi\n"
   tool:
     name: Debug
   key:
@@ -295,3 +300,21 @@ alternative_downloads_desc: Ci sono anche le immagini di $options. Controlla gli
 alternative_downloads: Scaricamenti alternativi
 download: Scarica
 overview: Panoramica
+kvm_ch_image: KVM e XEN Container Host
+hyperv_image: MS HyperV
+vmware_ch_image: VMware Container Host
+pine_ch_image: Pine64 Container Host
+hyperv_ch_image: MS HyperV Container Host
+openstack_ch_image: OpenStack-Cloud Container Host
+jeos_info: Per le immagini ARM JeOS, vai alla <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Pagina
+  di wiki ARM</a>
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX Container Host
+vagrant_ch_image: Vagrant Container Host
+rpi_ch_image: RaspberryPi Container Host
+server_kubic_p1: Per i flussi di lavoro dei server containerizzati
+server_kubic_p2: Sistema operativo multiuso per container standalone e Kubernetes
+  basato su openSUSE MicroOS
+server_microos_p1: Per applicazioni server a scopo singolo
+server_microos_p2: Progettato per ospitare carichi di lavoro di container con amministrazione
+  e patch automatizzate
