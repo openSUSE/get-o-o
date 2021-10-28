@@ -35,7 +35,7 @@ ports_images: Portes
 ports_info: "Portas do openSUSE Leap para arquiteturas diferentes do PC são\nmantido\
   \ por equipes comunitárias separadas, com recursos limitados.\n"
 jeos_images: JeOS
-live_images: Ao vivo
+live_images: Live
 gnome_cd: LiveCD de GNOME
 kde_cd: LiveCD de KDE
 xfce_cd: LiveCD de Xfce
@@ -156,7 +156,7 @@ yast_p1: "Uma das maiores ferramentas de configuração do sistema ajuda você, 
   \ a\nconfigurar cada aspecto do seu sistema. Você não precisa mais ir\natravés de\
   \ uma infinidade de scripts de configuração ou digite comandos duvidosos\npara obter\
   \ a configuração do sistema conforme necessário.\n"
-yast_firewall: Parede de Fogo
+yast_firewall: Firewall
 yast_fonts: Fontes
 yast_hardware: Hardware
 yast_partitioner: Particionador
@@ -353,3 +353,5 @@ vmware_ch_image: Host de contêiner VMware
 hyperv_ch_image: Host de contêiner MS HyperV
 kvm_ch_image: Host de contêiner KVM e XEN
 iso_image: Imagem ISO
+jeos_info: Para as imagens do JeOS Arm, vá para a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
+  wiki do Arm</a>
