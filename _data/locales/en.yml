@@ -355,7 +355,7 @@ Tumbleweed_features:
   power:
     name: Powerful
     description: |
-      Harnessing technologies openSUSE is renown for, such as the `Btrfs` file-system, the `snapper` command-line utility as well as the battle-proven `YaST` "control panel", Tumbleweed empowers you with full control over your system, letting you define the settings you want and be done with it. No longer do you have to worry about a system interfering with your workflow.
+      Harnessing technologies openSUSE is renowned for, such as the `Btrfs` file-system, the `snapper` command-line utility as well as the battle-proven `YaST` "control panel", Tumbleweed empowers you with full control over your system, letting you define the settings you want and be done with it. No longer do you have to worry about a system interfering with your workflow.
   plant:
     name: Stands on Firm Ground
     description: |
