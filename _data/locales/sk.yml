@@ -326,9 +326,9 @@ Tumbleweed_features:
       \ SUSE Linux Enterprise Server.\n"
     name: Stojí na pevných základoch
   power:
-    description: "openSUSE je známe využívaním technológií ako napríklad súborový\
+    description: "Využitie technológií, ktorými je openSUSE známe, ako napríklad súborový\
       \ systém `Btrfs`, nástroj program príkazového riadku`snapper`, ako aj osvedčený\
-      \ \"ovládací panel\"`YaST`, Tumbleweed vám dáva úplnú kontrolu nad vašim systémom,\
+      \ \"ovládací panel\"`YaST`, Tumbleweed vám dáva úplnú kontrolu nad vaším systémom,\
       \ umožňuje vám definovať požadované nastavenia a vykonať ich. Už sa nemusíte\
       \ obávať zasahovania systému do vášho pracovného procesu.\n"
     name: Výkonný
