@@ -1,0 +1,229 @@
+name: Leap
+version: 15.4
+bg-color: leap
+fg-color: black
+logo: logos/leap.svg
+choosing-media: true
+leap-switch: true
+downloads:
+- name: installation_images
+  display: all
+  arches:
+  - name: x86_64
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-x86_64-Media.iso.sha256
+      - name: torrent_file
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-x86_64-Media.iso.torrent
+    - name: network_image
+      desc: network_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Media.iso.sha256
+      - name: torrent_file
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Media.iso.torrent
+  - name: aarch64
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-aarch64-Media.iso.sha256
+    - name: network_image
+      desc: network_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-aarch64-Media.iso.sha256
+  - name: ppc64le
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-ppc64le-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-ppc64le-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-ppc64le-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-ppc64le-Media.iso.sha256
+    - name: network_image
+      desc: network_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-ppc64le-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-ppc64le-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-ppc64le-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-ppc64le-Media.iso.sha256
+  - name: s390x
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-s390x-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-s390x-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-s390x-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-s390x-Media.iso.sha256
+    - name: network_image
+      desc: network_desc
+      primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-s390x-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-s390x-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-s390x-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-s390x-Media.iso.sha256
+- name: jeos_images
+  info: jeos_info
+  display: server
+  arches:
+  - name: x86_64
+    types:
+    - name: kvm_image
+      short: kvm_desc
+      primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-kvm-and-xen.qcow2
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-kvm-and-xen.qcow2.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-kvm-and-xen.qcow2?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-kvm-and-xen.qcow2.sha256
+    - name: hyperv_image
+      short: hyperv_desc
+      primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-MS-HyperV.vhdx.xz
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-MS-HyperV.vhdx.xz.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-MS-HyperV.vhdx.xz.sha256
+    - name: vmware_image
+      short: vmware_desc
+      primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-VMware.vmdk.xz
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-VMware.vmdk.xz.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-VMware.vmdk.xz?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-VMware.vmdk.xz.sha256
+    - name: openstack_image
+      short: openstack_desc
+      primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-OpenStack-Cloud.qcow2
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-OpenStack-Cloud.qcow2.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-OpenStack-Cloud.qcow2?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
+- name: live_images
+  display: desktop
+  arches:
+  - name: x86_64
+    types:
+    - name: gnome_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-x86_64-Media.iso.sha256
+    - name: kde_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-x86_64-Media.iso.sha256
+    - name: xfce_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-x86_64-Media.iso.sha256
+    - name: rescue_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-x86_64-Media.iso.sha256
+  - name: aarch64
+    types:
+    - name: gnome_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-GNOME-Live-aarch64-Media.iso.sha256
+    - name: kde_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-KDE-Live-aarch64-Media.iso.sha256
+    - name: xfce_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-XFCE-Live-aarch64-Media.iso.sha256
+    - name: rescue_cd
+      primary_link: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.4/appliances/iso/openSUSE-Leap-15.4-Rescue-CD-aarch64-Media.iso.sha256
+
