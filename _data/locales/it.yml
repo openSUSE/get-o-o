@@ -285,6 +285,8 @@ MicroOS_features:
     name: Aggiornamenti sicuri
   update:
     name: Aggiornamenti atomici
+  work:
+    name: Carichi di lavoro
 armv7l: Server, desktop, portatili e schede UEFI Arm a 32 bit (armv7l)
 aarch64: Server, desktop, portatili e schede UEFI Arm a 64 bit (aarch64)
 transactional_p1: "Il programma d'installazione adesso supporta un nuovo ruolo di\
