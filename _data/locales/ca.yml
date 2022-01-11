@@ -263,8 +263,8 @@ Tumbleweed_features:
     description: "Les actualitzacions es comproven a fons amb els estàndards de qualitat\
       \ d'indústria, aprofitant un servei de construcció que ens envegen altres distribucions\
       \ de Linux. No només es prova individualment cada nova versió d’un paquet, sinó\
-      \ que es proven diferents clústers de versions, i s'assegura que el sistema\
-      \ sigui coherent internament.\n"
+      \ que es proven diferents clústers de versions, les unes contra les altres,\
+      \ i s'assegura que el sistema sigui coherent internament.\n"
     name: Estable
   knife:
     description: "Rebeu actualitzacions freqüents que no només aborden les vulnerabilitats\
