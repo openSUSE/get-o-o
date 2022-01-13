@@ -246,3 +246,5 @@ vmware_ch_image: VMware 容器主机
 hyperv_ch_image: MS HyperV 容器主机
 kvm_ch_image: KVM 和 XEN 容器主机
 iso_image: ISO 映像
+jeos_info: 对于 Arm JeOS 映像，请转到 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  维基页面</a>
