@@ -256,7 +256,7 @@ Tumbleweed_features:
       \ qualità di livello industriale, sfruttando un servizio di compilazione che\
       \ le altre distribuzioni Linux ci invidiano. Non solo ogni nuova versione di\
       \ un pacchetto viene testata individualmente, ma vengono testati diversi cluster\
-      \ di versioni l'uno rispetto all'altro: in questo modi si è sicuri che il sistema\
+      \ di versioni l'uno rispetto all'altro: in questo modo si è sicuri che il sistema\
       \ sia internamente coerente.\n"
     name: Stabile
   update:
