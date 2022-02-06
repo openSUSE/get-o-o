@@ -355,3 +355,5 @@ requirements_net_mac: Nombre de anfitrión y dirección MAC únicos para cada no
 download: Descargar
 alternative_downloads: Descargas alternativas
 overview: Descripción
+jeos_info: Para imágenes de JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
+  página wiki de Arm</a>
