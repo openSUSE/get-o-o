@@ -2,8 +2,10 @@
 - version: 15.4
   order: 7
   releases:
-  - date: '2020-12-01 12:00:00 UTC'
+  - date: '2021-12-01 12:00:00 UTC'
     state: 'Alpha'
+  - date: '2022-03-02 12:00:00 UTC'
+    state: 'Beta'
 - version: 15.3
   order: 6
   releases:
