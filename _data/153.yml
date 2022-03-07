@@ -71,7 +71,7 @@ downloads:
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le-Current.iso.sha256
     - name: network_image
       desc: network_desc
-      primary_link: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-Current-ppc64le-Current.iso
+      primary_link: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Current.iso
       links:
       - name: metalink
         url: /distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Current.iso.meta4
