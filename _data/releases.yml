@@ -27,7 +27,7 @@
   - date: '2020-05-28 12:00:00 UTC'
     state: 'RC'
   - date: '2020-07-02 11:45:00 UTC'
-    state: 'Stable'
+    state: 'EOL'
 - version: 15.1
   order: 4
   releases:
@@ -38,7 +38,7 @@
   - date: '2019-04-16 12:00:00 UTC'
     state: 'RC'
   - date: '2019-05-22 12:00:00 UTC'
-    state: 'Stable'
+    state: 'EOL'
 - version: 15.0
   order: 3
   releases:
