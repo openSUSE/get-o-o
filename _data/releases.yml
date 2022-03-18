@@ -27,10 +27,12 @@
   - date: '2020-05-28 12:00:00 UTC'
     state: 'RC'
   - date: '2020-07-02 11:45:00 UTC'
+    state: 'Stable'
+  - date: '2022-03-18 12:00:00 UTC'
     state: 'EOL'
 - version: 15.1
   order: 4
-  releases:
+  releases:-
   - date: '2018-09-30 12:00:00 UTC'
     state: 'Alpha'
   - date: '2019-02-13 12:00:00 UTC'
@@ -38,6 +40,8 @@
   - date: '2019-04-16 12:00:00 UTC'
     state: 'RC'
   - date: '2019-05-22 12:00:00 UTC'
+    state: 'Stable'
+  - date: '2022-03-18 12:00:00 UTC'
     state: 'EOL'
 - version: 15.0
   order: 3
