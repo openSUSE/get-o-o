@@ -68,7 +68,7 @@ tumbleweed_live_info: |
 kubic_desc: Container as a Service Platform based on Kubernetes atop openSUSE MicroOS.
 microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
   upon a read-only btrfs root filesystem
-leapmicro_desc: Leap Micro is an ultra-reliable host os with two releases a year.
+leapmicro_desc: Leap Micro is an ultra-reliable, lightweight operating system purpose built for containerized and virtualized workloads.
   upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
 choosing_media_p1: |
