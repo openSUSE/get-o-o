@@ -66,7 +66,7 @@ downloads:
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT.raw.xz.sha256
-    - name: default_rt_selfinstall
+    - name: kvm_image
       desc: leapmicro_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.raw.xz
       links:
