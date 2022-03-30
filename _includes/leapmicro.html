@@ -6,6 +6,6 @@
 {% if version != "" %}
   {% include distribution.html distro=version state=state type=include.type %}
 {% else %}
-  <meta http-equiv="refresh" content="0; url={{ '/leapmicro/' | prefix_locale }}" />
+  <meta http-equiv="refresh" content="0; url={{ '/leapmicro_testing/' | prefix_locale }}" />
   <p><a href="{{ '/leapmicro_testing/' | prefix_locale }}">Redirect</a></p>
 {% endif %}

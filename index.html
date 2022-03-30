@@ -48,7 +48,7 @@
           <h4>Leap {% include leap_testing_release %} <sup>{% include leap_testing_status %}</sup></h4>
         </a>
       {% endif %}
-      {% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
+      {% capture testing_version %}{% include leapmicro_testing_release %}{% endcapture %}
       {% assign testing_version = testing_version | normalize_whitespace %}
       {% if testing_version != "" %}
         <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
