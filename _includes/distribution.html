@@ -49,7 +49,11 @@
 <div class="tab-content">
   <div class="tab-pane active" id="overview" role="tabpanel">
 
-    {% include overview/{{ distro.name }}.html %}
+    {% if distro.name == "Leap Micro" %}
+      {% include overview/LeapMicro.html %}
+    {% else %}
+      {% include overview/{{ distro.name }}.html %}
+    {% endif %}
     {% if distro.name == "Leap" %}
       {% include overview/{{ include.distro }}.html %}
     {% endif %}
@@ -108,7 +112,11 @@
         {% endif %}
       </div>
     </section>
-    {% include download/{{ distro.name }}.html %}
+    {% if distro.name == "Leap Micro" %}
+      {% include download/LeapMicro.html %}
+    {% else %}
+      {% include download/{{ distro.name }}.html %}
+    {% endif %}
     {% if distro.name == "Leap" %}
       {% include download/{{ include.distro }}.html %}
     {% endif %}
