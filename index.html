@@ -48,6 +48,18 @@
           <h4>Leap {% include leap_testing_release %} <sup>{% include leap_testing_status %}</sup></h4>
         </a>
       {% endif %}
+      <a href="{{ '/leapmicro/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
+        <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
+        <h4>LeapMicro {% include leapmicro_release %}</h4>
+      </a>
+      {% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
+      {% assign testing_version = testing_version | normalize_whitespace %}
+      {% if testing_version != "" %}
+        <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
+          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
+          <h4>LeapMicro {% include leapmicro_testing_release %} <sup>{% include leapmicro_testing_status %}</sup></h4>
+        </a>
+      {% endif %}
       <a href="{{ '/kubic/' | prefix_locale }}" class="col bg-kubic-tint text-white text-center">
         <div class="w-50 m-auto">{% include logos/kubic.svg %}</div>
         <h4>Kubic</h4>

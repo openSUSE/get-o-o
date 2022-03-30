@@ -2,18 +2,19 @@
   :root {
     --tumbleweed: 53, 185, 171;
     --leap: 251, 199, 93;
+    --leapmicro: 197, 207, 211;
     --microos: 151, 58, 132;
     --kubic: 33, 164, 223;
    }
 }
 
-.bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
+.bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
   background: rgba(255, 255, 255, 0.2);
   color: rgba(0, 0, 0, 0.8)!important;
   transition: 0.3s;
 }
 
-.bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
+.bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
   background: rgba(255, 255, 255, 0.4);
   border-color: transparent transparent white transparent;
 }
@@ -41,6 +42,10 @@
   background: rgba(var(--leap), 0.3)
 }
 
+.bg-leapmicro-tint {
+  background: rgba(var(--leapmicro), 0.3)
+}
+
 .bg-kubic-tint {
   background: rgba(var(--kubic), 0.3)
 }
@@ -62,7 +67,7 @@
   border-color: rgb(var(--tumbleweed));
 }
 
-.btn-tumbleweed:hover, .btn-leap:hover, .btn-kubic:hover, .btn-microos:hover {
+.btn-tumbleweed:hover, .btn-leap:hover, .btn-leapmicro:hover, .btn-kubic:hover, .btn-microos:hover {
   filter: brightness(0.9);
 }
 
@@ -87,6 +92,24 @@
 .alert-leap {
   border-color: rgb(var(--leap));
   background-color: rgba(var(--leap), 0.2);
+}
+
+.bg-leapmicro {
+  background: rgb(var(--leapmicro))
+}
+
+.badge-leapmicro {
+  background: rgb(var(--leapmicro));
+}
+
+.btn-leapmicro {
+  background-color: rgb(var(--leapmicro));
+  border-color: rgb(var(--leapmicro));
+}
+
+.alert-leapmicro {
+  border-color: rgb(var(--leapmicro));
+  background-color: rgba(var(--leapmicro), 0.2);
 }
 
 .bg-kubic {
@@ -125,11 +148,11 @@
   .bg-light {
     background-color: #272b30!important;
   }
-  .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
+  .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
     background: rgba(0, 0, 0, 0.2);
   }
 
-  .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
+  .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
     background: rgba(0, 0, 0, 0.4);
     border-color: transparent transparent black transparent;
   }

@@ -17,6 +17,9 @@ navbar_links:
     link: tumbleweed/
     text: Tumbleweed
   -
+    link: leapmicro/
+    text: Leap Micro
+  -
     link: kubic/
     text: Kubic
   -
