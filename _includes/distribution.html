@@ -49,11 +49,7 @@
 <div class="tab-content">
   <div class="tab-pane active" id="overview" role="tabpanel">
 
-    {% if distro.name == "Leap Micro" %}
-      {% include overview/LeapMicro.html %}
-    {% else %}
-      {% include overview/{{ distro.name }}.html %}
-    {% endif %}
+    {% include overview/{{ distro.name | remove: " " }}.html %}
     {% if distro.name == "Leap" %}
       {% include overview/{{ include.distro }}.html %}
     {% endif %}
