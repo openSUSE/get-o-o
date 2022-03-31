@@ -125,6 +125,10 @@ points_welcoming: Vítáme příspěvky
 points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,\
   \ jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n\
   bylo co nejjednodušší.\n"
+preconfigured_image: Předkonfigurovaný obraz
+preconfigured_rt_image: Předkonfigurovaný obraz s RealTime jádrem
+selfinstall_image: Konfigurovatelný instalační obraz
+selfinstall_rt_image: Konfigurovatelný instalační obraz s RealTime jádrem
 snapper: Systém se poškodil? Už žádný problém
 snapper_p1: "Funkce Snímky souborového systému udržuje váš souborový systém\npod kontrolou\
   \ automatickým průběžným zálohováním při instalaci\nsoftwaru a aktualizacích. Stačí\
