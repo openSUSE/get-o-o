@@ -12,6 +12,16 @@ permalink: "/api/v0/distributions"
     }{% if forloop.last != true %},{% endif %}
     {%- endfor %}
   ],
+  "LeapMicro": [
+    {%- for release in site.data.releases_leapmicro %}
+    {
+      "name": "openSUSE Leap Micro",
+      "version": "{{ release.version }}",
+      "state": "{% currentstateleapmicro {{ release.version }} %}",
+      "upgrade-weight": {{ release.order }}
+    }{% if forloop.last != true %},{% endif %}
+    {%- endfor %}
+  ],
   "Tumbleweed": [
     {%- for release in site.data.snapshots %}
     {
@@ -22,4 +32,3 @@ permalink: "/api/v0/distributions"
     {%- endfor %}
   ]
 }
-

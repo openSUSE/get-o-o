@@ -172,6 +172,10 @@ points_welcoming_p1: |
   We try our best to please the community, and we can only make this
   happen when the community is vocal about what they need. That's why we
   ensure contributing is as easy as possible.
+preconfigured_image: Preconfigured image
+preconfigured_rt_image: Preconfigured image with RealTime kernel
+selfinstall_image: Self-install image
+selfinstall_rt_image: Self-install image with RealTime kernel
 snapper: System got corrupted? Not a problem anymore
 snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\
   having continuous backups performed automatically when installing\nsoftware and\

@@ -189,10 +189,14 @@ server_microos_view: MicroOS anschauen
 metalink: Metalink
 kvm_desc: Zur Verwendung in KVM oder XEN HVM Hypervisoren
 xen_desc: Zur Verwendung in XEN PV Hypervisoren
+preconfigured_image: Vorkonfiguriertes Image
+preconfigured_rt_image: Vorkonfiguriertes Image mit RealTime-Kernel
 ports_images: Portierungen
 ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n\
   von separaten Community Teams gepflegt, mit limitierten Resourcen.\n"
 rescue_cd: Rettungs Live-CD
+selfinstall_image: Selbst installierendes Image
+selfinstall_rt_image: Selbst installierendes Image mit RealTime-Kernel
 kubic_desc: Container as a Service Plattform basierend auf Kubernetes auf openSUSE
   MicroOS.
 documentation_license_link: https://en.opensuse.org/openSUSE:License
