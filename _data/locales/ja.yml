@@ -272,3 +272,7 @@ kvm_ch_image: KVM および XEN コンテナホスト
 iso_image: ISO イメージ
 jeos_info: Arm JeOS イメージに関しては、 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   Wiki ページ</a> をご覧ください
+preconfigured_rt_image: リアルタイムカーネルを利用した事前構築済みイメージ
+preconfigured_image: 事前構築済みイメージ
+selfinstall_image: 自己インストールイメージ
+selfinstall_rt_image: リアルタイムイメージを利用した自己インストールイメージ
