@@ -108,11 +108,7 @@
         {% endif %}
       </div>
     </section>
-    {% if distro.name == "Leap Micro" %}
-      {% include download/LeapMicro.html %}
-    {% else %}
-      {% include download/{{ distro.name }}.html %}
-    {% endif %}
+    {% include download/{{ distro.name | remove: " " }}.html %}
     {% if distro.name == "Leap" %}
       {% include download/{{ include.distro }}.html %}
     {% endif %}
