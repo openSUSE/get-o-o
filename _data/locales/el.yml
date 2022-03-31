@@ -27,10 +27,6 @@ hyperv_image: MS HyperV
 hyperv_desc: Για να εκτελέσετε virtual machines σε MS HyperV
 vmware_desc: Για να εκτελέσετε virtual machines σε VMware
 openstack_desc: Για να εκτελέσετε virtual machines σε OpenStack
-preconfigured_image: Προρυθμισμένη εικόνα
-preconfigured_rt_image: Προρυθμισμένη εικόνα με πυρήνα RealTime
-selfinstall_image: υτόματη εγκατάσταση εικόνας
-selfinstall_rt_image: Αυτόματη εγκατάσταση εικόνας με πυρήνα RealTime
 installation_images: Εγκατάσταση
 ports_images: ''
 metalink: Metalink

@@ -14,10 +14,6 @@ documentation_startup_guide: Numărătoare inversă openSUSE
 documentation_release_notes: Versiune lansată
 documentation_full_documentation: Documentație
 leap_switch_instructions_link: http://en.opensuse.org/Derivatives
-preconfigured_image: Imagine preconfigurată
-preconfigured_rt_image: Imagine preconfigurată cu nucleu RealTime
-selfinstall_image: Imagine de autoinstalare
-selfinstall_rt_image: Imagine de auto-instalare cu nucleu RealTime
 tw_switch_instructions_link: http://en.opensuse.org/openSUSE:Submitting_bug_reports
 upgrade_table_linux_dvd_link: http://en.opensuse.org/SDB:Download_help
 upgrade_table_windows_dvd_link: http://en.opensuse.org/SDB:Download_help

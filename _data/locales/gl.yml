@@ -26,16 +26,12 @@ documentation_release_notes: Notas da versión
 documentation_license: Licenza
 documentation_full_documentation: Documentación completa
 leap_switch: Modo sinxelo de cambiar a openSUSE Leap
-preconfigured_image: Imaxe preconfigurada
-preconfigured_rt_image: Imaxe preconfigurada co núcleo RealTime
 requirements: Requisitos recomendados do sistema
 requirements_cpu: Procesador  de 2 Ghz dual ou superior
 requirements_mem: 2 GB de memoria no sistema
 requirements_hd: Máis de 40 GB de espazo libre en disco
 requirements_dvd: Ou unha unidade DVD ou un porto USB para o medio de instalación
 requirements_net: O acceso a Internet é útil e necesario para facer unha instalación
-selfinstall_image: Imaxe de autoinstalación
-selfinstall_rt_image: Imaxe de autoinstalación co núcleo RealTime
   mediante a rede
 tw_switch: Modo sinxelo de cambiar a openSUSE Tumbleweed
 upgrade_table_linux: Desde unha versión máis antiga doutra distribución de Linux

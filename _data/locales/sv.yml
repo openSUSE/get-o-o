@@ -17,10 +17,6 @@ documentation: Dokumentation
 documentation_license: Licens
 documentation_full_documentation: Full Dokumentation
 leap_switch: Enkla sätt att byta till openSUSE Leap
-preconfigured_image: Förkonfigurerad bild
-preconfigured_rt_image: Förkonfigurerad bild med RealTime-kärna
-selfinstall_image: Självinstallationsbild
-selfinstall_rt_image: Självinstallationsbild med RealTime-kärna
 requirements: Rekommenderade systemkrav
 requirements_cpu: 2 GHz dual core-processor eller bättre
 requirements_mem: 2 GB systemminne

@@ -35,10 +35,6 @@ installation_images: نصب
 ports_images: پورت‌ها
 ports_info: "پورت‌هایی از openSUSE Leap به معماری‌هایی غیر از رایانه‌ی شخصی\nتوسط\
   \  تیم‌های جامعه جداگانه، با منابع محدود نگهداری می‌شود.\n"
-preconfigured_image: تصویر از پیش تنظیم شده
-preconfigured_rt_image: تصویر از پیش پیکربندی شده با هسته RealTime
-selfinstall_image: تصویر خود نصب
-selfinstall_rt_image: تصویر خود را با هسته RealTime نصب کنید
 jeos_images: JeOS
 live_images: زنده
 gnome_cd: دیسک زنده‌ی Gnome

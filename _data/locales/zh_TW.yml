@@ -54,10 +54,6 @@ leap_switch: 切換到 openSUSE Leap 的簡易方法
 leap_switch_p1: "如果您已經正在執行 openSUSE，您可以藉由從 DVD/USB 開機並選擇更新來升級系統，或是下幾個指令來執行線上更新。\n"
 leap_switch_instructions: 線上升級說明。
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-preconfigured_image: 预配置图像
-preconfigured_rt_image: 带有实时内核的预配置映像
-selfinstall_image: 自安装映像
-selfinstall_rt_image: 带有 RealTime 内核的自安装映像
 requirements: 系統需求
 requirements_cpu: 處理器
 requirements_mem: 記憶體

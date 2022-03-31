@@ -69,16 +69,12 @@ leap_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inic
   \ em alguns\ncomandos.\n"
 leap_switch_instructions: Instruções para atualização Online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-preconfigured_image: Imagem pré-configurada
-preconfigured_rt_image: Imagem pré-configurada com kernel RealTime
 requirements: Requisitos do sistema
 requirements_cpu: CPU
 requirements_mem: Memória
 requirements_hd: Mais de 40 GB de espaço livre no disco rígido
 requirements_dvd: Uma unidade de DVD ou porta USB para a mídia de instalação
 requirements_net: Rede
-selfinstall_image: Imagem de autoinstalação
-selfinstall_rt_image: Imagem de autoinstalação com kernel RealTime
 tw_switch: Maneiras fáceis de mudar para openSUSE Tumbleweed
 tw_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando\
   \ a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’\

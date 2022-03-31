@@ -27,10 +27,6 @@ documentation_license: Licença
 documentation_full_documentation: Documentação completa
 leap_switch: Maneiras Fáceis de Mudar para o openSUSE Leap
 leap_switch_instructions_link: https://pt.opensuse.org/SDB:System_upgrade
-preconfigured_image: Imagem pré-configurada
-preconfigured_rt_image: Imagem pré-configurada com kernel RealTime
-selfinstall_image: Imagem de autoinstalação
-selfinstall_rt_image: Imagem de autoinstalação com kernel RealTime
 requirements: Requisitos de Sistema
 requirements_cpu: Processador
 requirements_mem: Memória RAM

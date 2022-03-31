@@ -14,12 +14,8 @@ documentation: 문서
 documentation_startup_guide: openSUSE 시작 가이드
 documentation_release_notes: 출시 버전
 documentation_full_documentation: 전체 문서
-preconfigured_image: 사전 구성된 이미지
-preconfigured_rt_image: RealTime 커널로 사전 구성된 이미지
 requirements_cpu: 2 Ghz 듀얼 코어 프로세서 이상
 requirements_mem: 2 GB 시스템 메모리
-selfinstall_image: 자체 설치 이미지
-selfinstall_rt_image: RealTime 커널을 사용한 자체 설치 이미지
 verify_download: 사용하기 전에 다운로드 파일을 검증하세요
 verify_download_checksums_help: 체크섬 도움말
 yast_software: 소프트웨어

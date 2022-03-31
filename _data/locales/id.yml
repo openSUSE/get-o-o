@@ -17,10 +17,6 @@ torrent_file: Berkas Torrent
 offline_image: Citra Luring
 offline_desc: "Berisi koleksi besar perangkat lunak untuk penggunaan destop atau peladen.\
   \ \nCocok untuk pemasangan atau peningkatan.\n"
-preconfigured_image: Gambar yang telah dikonfigurasi sebelumnya
-preconfigured_rt_image: Gambar yang telah dikonfigurasi sebelumnya dengan kernel RealTime
-selfinstall_image: Gambar instal sendiri
-selfinstall_rt_image: Gambar instal sendiri dengan kernel RealTime
 network_image: Citra Jaringan
 network_desc: "Unduh sistem pemasangan dan semua paket dari repositori daring.\nCocok\
   \ untuk pemasangan atau peningkatan.\n"

@@ -26,16 +26,12 @@ documentation_release_notes: Pastabos apie laidą
 documentation_license: Licencija
 documentation_full_documentation: Visa dokumentacija
 leap_switch: Paprastas perėjimas prie „openSUSE Leap“
-preconfigured_image: Iš anksto sukonfigūruotas vaizdas
-preconfigured_rt_image: Iš anksto sukonfigūruotas vaizdas su realaus laiko branduoliu
 requirements: Rekomenduojami sistemos parametrai
 requirements_cpu: 2 GHz bent dviejų branduolių procesorius
 requirements_mem: 2 GB laisvosios prieigos atminties
 requirements_hd: Bent 40 GB laisvos vietos diske
 requirements_dvd: DVD skaitytuvo ar USB lizdo diegimo laikmenai įdėti
 requirements_net: Interneto ryšys, jei diegiama internetu
-selfinstall_image: Savarankiško diegimo vaizdas
-selfinstall_rt_image: Savarankiškai įdiegiamas vaizdas naudojant „RealTime“ branduolį
 tw_switch: Paprastas perėjimas prie „openSUSE Tumbleweed“
 upgrade_table_linux: iš senesnės Linux sistemos ar kito Linux platinamojo paketo
 upgrade_table_windows: iš Windows

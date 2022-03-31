@@ -23,10 +23,6 @@ documentation_release_notes: Poznámky k vydaniu
 documentation_license: Licencia
 documentation_full_documentation: Úplná dokumentácia
 leap_switch: Jednoduché spôsoby, ako prejsť na openSUSE Leap
-preconfigured_image: Vopred nakonfigurovaný obraz
-preconfigured_rt_image: Vopred nakonfigurovaný obraz s jadrom RealTime
-selfinstall_image: Obraz vlastnej inštalácie
-selfinstall_rt_image: Samoinštalačný obraz s jadrom RealTime
 requirements: Systémové požiadavky
 requirements_cpu: CPU
 requirements_mem: Pamäť
