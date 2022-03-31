@@ -11,7 +11,7 @@ downloads:
   - name: x86_64
     types:
     - name: offline_image
-      desc: leapmicro_desc
+      desc: dvd_desc
       primary_link: /distribution/leap-micro/5.2/product/iso/openSUSE-Leap-Micro-5.2-DVD-x86_64-Media.iso
       links:
       - name: metalink
@@ -23,7 +23,7 @@ downloads:
   - name: aarch64
     types:
     - name: offline_image
-      desc: leapmicro_desc
+      desc: dvd_desc
       primary_link: /distribution/leap-micro/5.2/product/iso/openSUSE-Leap-Micro-5.2-DVD-aarch64-Media.iso
       links:
       - name: metalink
@@ -36,8 +36,8 @@ downloads:
   arches:
   - name: x86_64
     types:
-    - name: kvm_image
-      desc: leapmicro_desc
+    - name: preconfigured_image
+      desc: kvm_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz
       links:
       - name: metalink
@@ -46,8 +46,8 @@ downloads:
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256
-    - name: kvm_image
-      desc: leapmicro_desc
+    - name: selfinstall_image
+      desc: kvm_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.raw.xz
       links:
       - name: metalink
@@ -56,8 +56,8 @@ downloads:
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.raw.xz.sha256
-    - name: kvm_image
-      desc: leapmicro_desc
+    - name: preconfigured_rt_image
+      desc: kvm_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT.raw.xz
       links:
       - name: metalink
@@ -66,8 +66,8 @@ downloads:
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT.raw.xz.sha256
-    - name: kvm_image
-      desc: leapmicro_desc
+    - name: selfinstall_rt_image
+      desc: kvm_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.raw.xz
       links:
       - name: metalink
@@ -78,8 +78,8 @@ downloads:
         url: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.raw.xz.sha256
   - name: aarch64
     types:
-    - name: kvm_image
-      desc: leapmicro_desc
+    - name: preconfigured_image
+      desc: kvm_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz
       links:
       - name: metalink
