@@ -25,6 +25,10 @@ documentation_license: Licentie
 documentation_full_documentation: Volledige documentatie
 leap_switch: Gemakkelijke manieren om om te schakelen naar openSUSE Leap
 leap_switch_instructions_link: https://nl.opensuse.org/SDB:Systeem_opwaarderen
+preconfigured_image: Voorgeconfigureerde afbeelding
+preconfigured_rt_image: Vooraf geconfigureerde afbeelding met RealTime-kernel
+selfinstall_image: Zelf-installatie afbeelding
+selfinstall_rt_image: Zelfinstallatie-image met RealTime-kernel
 requirements: Aanbevolen systeemvereisten
 requirements_cpu: 2 Ghz dubbelkernprocessor of beter
 requirements_mem: 2 GB systeemgeheugen

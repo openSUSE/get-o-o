@@ -25,12 +25,16 @@ documentation_release_notes: Julkaisutiedot
 documentation_license: Lisenssi
 documentation_full_documentation: Kaikki ohjeet
 leap_switch: Helppoja tapoja vaihtaa openSUSE Leapiin
+preconfigured_image: Esikonfiguroitu kuva
+preconfigured_rt_image: Valmiiksi määritetty kuva RealTime-ytimellä
 requirements: Suositellut järjestelmävaatimukset
 requirements_cpu: 2 GHz kaksiytiminen tai parempi suoritin
 requirements_mem: 2 Gt järjestelmämuistia
 requirements_hd: Yli 40 Gt vapaata kiintolevytilaa
 requirements_dvd: Joko DVD-asema tai USB-portti asennustietovälineelle
 requirements_net: Internet-yhteydestä on apua, ja verkkoasennus vaatii sitä
+selfinstall_image: Itseasentava kuva
+selfinstall_rt_image: Itseasentava kuva RealTime-ytimellä
 tw_switch: Helppoja tapoja vaihtaa openSUSE Tumbleweediin
 upgrade_table_linux: Aiemmasta versiosta tai toisesta Linux-jakelusta
 upgrade_table_windows: Windowsista

@@ -16,6 +16,10 @@ checksum: チェックサム
 torrent_file: torrent ファイル
 offline_image: オフラインイメージ
 offline_desc: "デスクトップ用途とサーバ用途の両方に使用することのできる、巨大なソフトウエアコレクションが含まれています。\nインストールやアップグレードにお使いいただけます。\n"
+preconfigured_image: 事前設定されたイメージ
+preconfigured_rt_image: RealTimeカーネルを使用して事前構成されたイメージ
+selfinstall_image: セルフインストールイメージ
+selfinstall_rt_image: RealTimeカーネルを使用したイメージの自己インストール
 network_image: ネットワークイメージ
 network_desc: "インストールシステムそれ自身と全てのパッケージをオンラインのリポジトリから\nダウンロードします。インストールやアップグレードにお使いいただけます。\n"
 kvm_image: KVM および XEN

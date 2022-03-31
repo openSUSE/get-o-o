@@ -52,6 +52,10 @@ leap_switch: 容易切換到 openSUSE Leap 的方法
 leap_switch_p1: "如果你一向使用 openSUSE，你可以使用DVD或USB來進行系統升級，或透過數個指令來進行「網上升級」。\n"
 leap_switch_instructions: 線上升線指引。
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+preconfigured_image: 预配置图像
+preconfigured_rt_image: 带有实时内核的预配置映像
+selfinstall_image: 自安装映像
+selfinstall_rt_image: 带有 RealTime 内核的自安装映像
 requirements: 建議系統需求
 requirements_cpu: 2 Ghz 雙核中央處理器或以上
 requirements_mem: 2 GB 記億體

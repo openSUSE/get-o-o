@@ -134,6 +134,10 @@ points_welcoming: Donem la benvinguda als col·laboradors
 points_welcoming_p1: "Fem tot el possible per plaure a la comunitat i només podem\
   \ fer-ho possible\nquan la comunitat expressa el que necessita. Per això nosaltres\
   \ ens\nassegurem que contribuir-hi sigui el més fàcil possible.\n"
+preconfigured_image: Imatge preconfigurada
+preconfigured_rt_image: Imatge preconfigurada amb el nucli RealTime
+selfinstall_image: Imatge d'autoinstal·lació
+selfinstall_rt_image: Imatge d'autoinstal·lació amb el nucli RealTime
 snapper: S'ha corromput el sistema? Ja no és un problema.
 snapper_p1: "La funció d’instantànies del sistema de fitxers manté el sistema de fitxers\n\
   en control fent-ne automàticament còpies de seguretat contínues en instal·lar\n\

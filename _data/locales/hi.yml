@@ -23,6 +23,10 @@ ports_images: पोर्ट
 installation_images: इंस्टॉल
 openstack_desc: ओपनस्टैक में वर्चुअल मशीन निष्पादन हेतु
 openstack_image: ओपनस्टैक-क्लाउड
+preconfigured_image: पूर्व-कॉन्फ़िगर छवि
+preconfigured_rt_image: रीयलटाइम कर्नेल के साथ पूर्व-कॉन्फ़िगर छवि
+selfinstall_image: स्व-स्थापित छवि
+selfinstall_rt_image: रीयलटाइम कर्नेल के साथ स्व-इंस्टॉल छवि
 vmware_desc: वीएमवेयर में वर्चुअल मशीन निष्पादन हेतु
 vmware_image: वीएमवेयर
 hyperv_desc: एमएस हाइपरवी पर वर्चुअल मशीन निष्पादन हेतु

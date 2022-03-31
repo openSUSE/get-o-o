@@ -69,6 +69,10 @@ leap_switch_p1: "Se já estiver a correr openSUSE pode atualizar ao inicializar 
   \ comandos.\n"
 leap_switch_instructions: Instruções de Atualização Online.
 leap_switch_instructions_link: https://pt.opensuse.org/SDB:System_upgrade
+preconfigured_image: Imagem pré-configurada
+preconfigured_rt_image: Imagem pré-configurada com kernel RealTime
+selfinstall_image: Imagem de autoinstalação
+selfinstall_rt_image: Imagem de autoinstalação com kernel RealTime
 requirements: Requisitos de Sistema Recomendados
 requirements_cpu: um processador de 2 Ghz de dois núcleos ou melhor
 requirements_mem: 2 GB de memória de sistema (RAM)

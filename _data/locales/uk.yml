@@ -18,6 +18,10 @@ documentation_release_notes: Примітки до випуску
 documentation_license: Ліцензія
 documentation_full_documentation: Повна документація
 leap_switch: Як перейти на openSUSE Leap
+preconfigured_image: Попередньо налаштований образ
+preconfigured_rt_image: Попередньо налаштований образ з ядром RealTime
+selfinstall_image: Образ для самостійного встановлення
+selfinstall_rt_image: Образ для самостійного встановлення з ядром RealTime
 requirements: Системні вимоги
 requirements_cpu: ЦП
 requirements_mem: ОЗП

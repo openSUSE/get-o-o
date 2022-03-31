@@ -35,6 +35,10 @@ installation_images: Instalación
 ports_images: Adaptaciones
 ports_info: "Las adaptaciones de openSUSE Leap a otras arquitecturas diferentes a\
   \ PC\nson mantenidas por equipos comunitarios separados, con recursos limitados.\n"
+preconfigured_image: Imagen preconfigurada
+preconfigured_rt_image: Imagen preconfigurada con kernel RealTime
+selfinstall_image: Imagen de autoinstalación
+selfinstall_rt_image: Imagen de autoinstalación con kernel RealTime
 jeos_images: JeOS
 live_images: Vivo
 gnome_cd: LiveCD con GNOME

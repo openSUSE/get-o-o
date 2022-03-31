@@ -133,6 +133,10 @@ points_welcoming: Acogiendo contribuciones
 points_welcoming_p1: "Intentamos dar lo mejor para complacer a la comunidad, y solo\
   \ podemos hacer eso \ncuando la comunidad expresa lo que necesita. Por eso \nnos\
   \ aseguramos de que contribuir sea lo más fácil posible.\n"
+preconfigured_image: Imagen preconfigurada
+preconfigured_rt_image: Imagen preconfigurada con kernel RealTime
+selfinstall_image: Imagen de autoinstalación
+selfinstall_rt_image: Imagen de autoinstalación con kernel RealTime
 snapper: ¿Su sistema se ha corrupto? No es un problema nunca más
 openstack_image: OpenStack-Cloud
 choosing_media: Escoger que medio descargar

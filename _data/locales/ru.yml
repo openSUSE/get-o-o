@@ -29,6 +29,10 @@ documentation_license: Лицензия
 documentation_full_documentation: Полная документация
 leap_switch: Как перейти на openSUSE Leap
 leap_switch_instructions_link: http://ru.opensuse.org/SDB:%D0%9E%D0%B1%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D1%8B
+preconfigured_image: Предустановленное изображение
+preconfigured_rt_image: Предварительно сконфигурированный образ с ядром RealTime
+selfinstall_image: Образ для самостоятельной установки
+selfinstall_rt_image: Самоустанавливающийся образ с ядром RealTime
 requirements: Рекомендуемые системные требования
 requirements_cpu: двухъядерный процессор 2 ГГц или лучше
 requirements_mem: 2 ГБ системной памяти

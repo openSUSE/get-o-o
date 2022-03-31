@@ -14,6 +14,10 @@ documentation_startup_guide: เลือกซอฟต์แวร์
 documentation_release_notes: รุ่นที่ออกเผยแพร่แล้ว
 documentation_full_documentation: ส่วนต่อขยายเชื่อมแล็ปท็อป
 leap_switch_instructions_link: http://en.opensuse.org/Derivatives
+preconfigured_image: ภาพที่กำหนดไว้ล่วงหน้า
+preconfigured_rt_image: รูปภาพที่กำหนดค่าไว้ล่วงหน้าด้วยเคอร์เนล RealTime
+selfinstall_image: ติดตั้งภาพเอง
+selfinstall_rt_image: อิมเมจติดตั้งเองด้วยเคอร์เนล RealTime
 tw_switch_instructions_link: http://en.opensuse.org/Buy_openSUSE
 upgrade_table_linux_dvd_link: http://en.opensuse.org/Derivatives
 upgrade_table_windows_dvd_link: http://en.opensuse.org/Derivatives

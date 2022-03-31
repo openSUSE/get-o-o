@@ -14,6 +14,10 @@ documentation_startup_guide: Letöltés
 documentation_release_notes: Megjelent verzió
 documentation_full_documentation: Dokumentáció
 leap_switch_instructions_link: http://en.opensuse.org/Derivatives
+preconfigured_image: Előre konfigurált kép
+preconfigured_rt_image: Előre konfigurált kép RealTime kernellel
+selfinstall_image: Öntelepítő kép
+selfinstall_rt_image: Öntelepítő kép RealTime kernellel
 tw_switch_instructions_link: http://en.opensuse.org/openSUSE:Submitting_bug_reports
 upgrade_table_linux_dvd_link: http://en.opensuse.org/SDB:Download_help
 upgrade_table_windows_dvd_link: http://en.opensuse.org/SDB:Download_help

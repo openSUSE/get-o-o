@@ -49,6 +49,10 @@ documentation_full_documentation: Pełna Dokumentacja
 leap_switch: Łatwe sposoby by przerzucić się na openSUSE Leap
 leap_switch_instructions: Instrukcje aktualizacji sieciowej.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+preconfigured_image: Wstępnie skonfigurowany obraz
+preconfigured_rt_image: Wstępnie skonfigurowany obraz z jądrem RealTime
+selfinstall_image: Obraz do samodzielnej instalacji
+selfinstall_rt_image: Obraz do samodzielnej instalacji z jądrem RealTime
 requirements: Rekomendowane wymagania sprzętowe
 requirements_cpu: 2 GHz dwurdzeniowy procesor lub lepszy
 requirements_mem: 2 GB pamięci systemowej
