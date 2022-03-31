@@ -7,5 +7,5 @@
 - version: 5.1
   order: 0
   releases:
-  - date: '2022-03-28 12:00:00 UTC'
+  - date: '2021-03-28 12:00:00 UTC'
     state: 'Stable'
