@@ -248,3 +248,7 @@ kvm_ch_image: KVM 和 XEN 容器主机
 iso_image: ISO 映像
 jeos_info: 对于 Arm JeOS 映像，请转到 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   维基页面</a>
+selfinstall_image: 自安装映像
+selfinstall_rt_image: 使用实时内核的自安装映像
+preconfigured_image: 预配置映像
+preconfigured_rt_image: 使用实时内核的预配置映像
