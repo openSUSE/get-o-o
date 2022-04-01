@@ -1,59 +1,62 @@
-def getversions
-  versions = {}
+# frozen_string_literal: true
 
-  {'leap_micro': '_data/leapmicro.yml', 'leap': '_data/leap.yml'}.each do |name, file|
-    yaml = YAML.load_file(file)
-    unless yaml.empty?
-      versions[name.to_s] = {}
-      now = Time.now
-      yaml.each do |version|
-        version['releases'].reject! do |release|
-          release['date'] = Time.parse(release['date'])
-          release['date'] > now
-        end
-        # Get the latest release
-        latest = version['releases'].max_by { |k| k['date'] }
-        version['state'] = latest['state'] if latest
-      end
-      yaml.reject! {|v| v['releases'].empty?}
-      yaml.each do |version|
-        versions[name.to_s][version['version'].to_s.delete!('.')] = version
-      end
+def load_yaml(name)
+  YAML.load_file("_data/#{name.delete('_')}.yml")
+end
+
+def fetch_versions
+  %w[leap_micro leap].each_with_object({}) do |name, hash|
+    hash[name] = load_yaml(name).each_with_object({}) do |version, release|
+      version['releases'].remove_unreleased!
+      next if version['releases'].empty?
+
+      # Add the data from the latest release to the main hash
+      version.merge!(version['releases'].max_by { |k| k['date'] })
+      release[version['version'].nodot] = version
     end
   end
-  versions
 end
 
-def gettype(distro, version)
-  versions = getversions
-  abort unless versions != nil || versions.has_key?(distro)
-  releases = versions[distro]
-  index = releases.values.index { |v| v['version'] == version }.to_i
-  index += 1 if releases.values[0]['state'] == 'Stable'
-  "testing" if index == 0
-  "leap" if index == 1
-  "legacy" if index >= 2
+# For parsing the dates and removing not-yet-released states
+class Array
+  def remove_unreleased!
+    reject! do |release|
+      release['date'] = Time.parse(release['date'])
+      release['date'] > Time.now
+    end
+  end
 end
 
+# Allows for easily getting a string without a dot
+class Float
+  def nodot
+    to_s.delete('.')
+  end
+end
+
+STATE = %w[testing current].freeze
+
+# Adds a data source accessible from within liquid using `page.releases`
 class Releases
-
   def initialize(site)
     @site = site
   end
 
   def munge!
-    versions = getversions
+    versions = fetch_versions
+    @site.config['releases'] = versions
+    append_state
+  end
+
+  def append_state
     # Add info on which version is current and which is testing
-    versions.each do |name, hash|
-      ['testing', 'current'].each do |state|
-        val = 0 if state == 'testing'
-        val = 1 if state == 'current'
+    @site.config['releases'].each do |name, hash|
+      %w[testing current].each do |state|
+        val = STATE.index(state)
         val -= 1 if hash.values[0]['state'] == 'Stable'
-        versions[name][state] = hash.values[val]['version'].to_s.delete!('.')
+        @site.config['releases'][name][state] = hash.values[val]['version'].to_s.delete!('.')
       end
     end
-    @site.config['releases'] = versions
-    
   end
 end
 
@@ -61,43 +64,62 @@ Jekyll::Hooks.register :site, :after_init do |site|
   Releases.new(site).munge!
 end
 
+# Generates pages for number releases from `_layouts`
 class ReleasePage < Jekyll::Page
-  def initialize(site, base, ver, lang, feed, ext, limit)
+  def initialize(site, distro, version, lang)
     @site = site
-    @name = "_layouts/#{feed.delete('_')}#{ext}"
-    @ext = ext
-    ver_nodot = ver.to_s.delete('.')
+    @ext = '.html'
+    @name = "_layouts/#{distro.delete('_')}#{ext}"
+    super(site, site.source, '', name)
 
-    self.data = {}
-    self.data['layout'] = feed.delete('_')
+    self.data = populate_data(distro, version, lang)
+  end
+
+  def populate_data(distro, version, lang)
+    data = {}
+    data['layout'] = distro.delete('_')
+    data['permalink'] = generate_permalink(distro, version, lang)
+    return data unless File.exist?("_data/#{version.nodot}.yml")
+
+    name = load_yaml(version.nodot)['name']
+    data['title'] = "openSUSE #{name} #{version}"
+
+    data.merge(fetch_versions_data(distro, version))
+  end
+
+  def generate_permalink(distro, version, lang)
     permalink = '/'
     permalink += "#{lang}/" if lang && lang != 'en'
-    permalink += "#{feed.delete('_')}/"
-    permalink += "#{ver}/"
-    self.data['permalink'] = permalink
-    self.data['title'] = 'openSUSE'
-    self.data['title'] += " #{feed.gsub('_', ' ').gsub(/\w+/) { |word| word.capitalize }}"
-    self.data['title'] += " #{ver}"
+    permalink += "#{distro.delete('_')}/#{version}/"
+    permalink
+  end
 
-    versions = getversions
-    unless versions.empty?
-      releases = versions[feed]
-      
-      if File.exist?("_data/#{ver_nodot}.yml")
-        self.data['version'] = ver_nodot
-        self.data['state'] = releases[ver_nodot]['state']
-        self.data['title'] += " #{self.data['state']}"
-        self.data['type'] = gettype(feed, ver)
-      end
-    end
+  def fetch_versions_data(distro, version)
+    releases = fetch_versions[distro]
+    data = {}
+    data['version'] = version.nodot
+    data['state'] = releases[version.nodot]['state']
+    data['type'] = get_type(distro, version)
+    data
+  end
+
+  def get_type(distro, version)
+    versions = fetch_versions
+    abort unless !versions.nil? || versions.key?(distro)
+    releases = versions[distro].values
+    index = releases.index { |v| v['version'] == version }
+    index += 1 if releases[0]['state'] == 'Stable'
+    return STATE[index] unless STATE[index].nil?
+
+    'legacy'
   end
 end
 
 Jekyll::Hooks.register :site, :post_read do |site|
-  getversions.each do |type, release|
-    release.each do |version, hash|
+  fetch_versions.each do |type, release|
+    release.each do |_version, hash|
       site.locale_handler.available_locales.each do |lang|
-        site.pages << ReleasePage.new(site, site.source, hash['version'], lang, type, '.html', 0)
+        site.pages << ReleasePage.new(site, type, hash['version'], lang)
       end
     end
   end

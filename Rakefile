@@ -1,10 +1,13 @@
+# frozen_string_literal: true
+
+require 'net/http'
+require 'yaml'
+require 'faraday'
+require 'faraday_middleware'
+
 task default: %w[build]
 
 task :build do
-  require 'net/http'
-  require 'yaml'
-  require 'faraday'
-  require 'faraday_middleware'
   File.open('_data/snapshots.csv', 'w') do |f|
     f.write("snapshot\n")
     f.write(Net::HTTP.get(URI('http://download.opensuse.org/history/list')))

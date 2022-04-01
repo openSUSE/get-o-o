@@ -1,4 +1,7 @@
+# frozen_string_literal: true
+
 module Jekyll
+  # Get size description within liquid
   class SizeDescriptionBlock < Liquid::Block
     def render(context)
       text = super
