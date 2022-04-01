@@ -359,3 +359,7 @@ kvm_ch_image: Amfitrió de contenidors KVM i XEN
 iso_image: Imatge ISO
 jeos_info: Per a les imatges Arm JeOS, si us plau, visiteu <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
   pàgina wiki d'Arm</a>
+preconfigured_image: Imatge preconfigurada
+preconfigured_rt_image: Imatge preconfigurada amb nucli de Temps Real
+selfinstall_image: Imatge d'autoinstal·lació
+selfinstall_rt_image: Imatge d'autoinstal·lació amb nucli de Temps Real
