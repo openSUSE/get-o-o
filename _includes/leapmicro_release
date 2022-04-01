@@ -1,4 +1,0 @@
-{% capture current %}{% labeltoreleaseleapmicro %}current{% endlabeltoreleaseleapmicro %}{% endcapture %}
-
-{% assign current_type = current | split: ":" %}
-{{ current_type[0] }}

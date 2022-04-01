@@ -41,7 +41,7 @@ permalink: /server/
               <h6>{{ locale.server_leap_p1 }}</h6>
               <p>{{ locale.server_leap_p2 }}</p>
             </div>
-            {% capture distro_name %}Leap {% include leap_release %}{% endcapture %}
+            {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.current].version }}{% endcapture %}
             <a href="{{ '/leap/?type=server' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
             <a href="{{ '/leap/?type=server#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>

@@ -1,6 +1,0 @@
-{% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
-{% assign testing_version = testing_version | normalize_whitespace %}
-{% if testing_version != "" %}
-  {% capture distro_name %}Leap {% include leap_testing_release %} <sup>{% include leap_testing_status %}</sup>{% endcapture %}
-  <a class="{{ include.class }}" href="{{ '/testing/' | prefix_locale }}">{{ locale.view_distro | replace: '$distro_name', distro_name }}</a>
-{% endif %}

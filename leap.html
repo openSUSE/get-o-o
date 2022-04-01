@@ -3,4 +3,5 @@ title: openSUSE Leap
 permalink: /leap/
 image: /assets/images/logos/leap_header.png
 ---
-{% include leap.html type="current" %}
+{% capture redirect_url %}/leap/{{ site.releases.leap[site.releases.leap.current].version }}/{% endcapture %}
+{% include redirect.html url=redirect_url %}

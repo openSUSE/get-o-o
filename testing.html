@@ -3,4 +3,9 @@ title: openSUSE Leap
 permalink: /testing/
 image: /assets/images/logos/leap_header.png
 ---
-{% include leap.html type="testing" %}
+{% if site.releases.leap.testing != nil %}
+  {% capture redirect_url %}/leap/{{ site.releases.leap[site.releases.leap.testing].version }}/{% endcapture %}
+{% else %}
+  {% capture redirect_url %}/leap/{{ site.releases.leap[site.releases.leap.current].version }}/{% endcapture %}
+{% endif %}
+{% include redirect.html url=redirect_url %}
