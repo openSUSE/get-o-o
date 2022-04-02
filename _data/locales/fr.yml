@@ -371,3 +371,7 @@ requirements_hdd_var: Partition /var
 requirements_hdd_root: Partition / (root)
 jeos_info: Pour les images JeOS Arm, veuillez vous reporter à la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">du
   wiki pour systèmes Arm</a>
+selfinstall_image: Image d'auto-installation
+selfinstall_rt_image: Image d'auto-installation avec noyau Temps-Réel
+preconfigured_image: Image préconfigurée
+preconfigured_rt_image: Image préconfigurée avec noyau Temps-Réel
