@@ -3,18 +3,16 @@
 <script defer src="/assets/js/app.js"></script>
 <header class="jumbotron jumbotron-fluid bg-{{ distro.bg-color }} text-center pb-0">
   <div class="container text-{{ distro.fg-color }}">
-    {% capture testing_version %}{% include leap_testing_release %}{% endcapture %}
-    {% assign testing_version = testing_version | normalize_whitespace %}
-    {% if testing_version != "" and include.type == "current" %}
+    {% if site.releases.leap.testing != nil and include.type == "current" %}
       <div class="alert alert-info d-flex justify-content-between align-items-center">
-      {% capture distro_name %}Leap {% include leap_testing_release %} <sup>{% include leap_testing_status %}</sup>{% endcapture %}
+      {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.testing].version }} <sup>{{ site.releases.leap[site.releases.leap.testing].state }}</sup>{% endcapture %}
       <span>{{ locale.new_version_testing | replace: '$distro_name', distro_name }}</span>
       <a class="btn btn-info" href="{{ '/testing/' | prefix_locale }}">{{ locale.learn_more }}</a>
       </div>
     {% endif %}
     {% if include.type == "legacy" %}
       <div class="alert alert-danger d-flex justify-content-between align-items-center">
-      {% capture distro_name %}Leap {% include leap_release %}{% endcapture %}
+      {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.current].version }}{% endcapture %}
       <span>{{ locale.new_version_available | replace: '$distro_name', distro_name }}</span>
       <a class="btn btn-danger" href="{{ '/leap/' | prefix_locale }}">{{ locale.learn_more }}</a>
       </div>
@@ -37,11 +35,13 @@
           {{ locale.overview }}
         </a>
       </li>
+      {% if include.type != "legacy" %}
       <li class="nav-item">
         <a class="nav-link font-weight-bold h-100" data-toggle="tab" href="#download" role="tab">
           {{ locale.download }}
         </a>
       </li>
+      {% endif %}
     </ul>
   </div>
 </header>
@@ -82,6 +82,7 @@
       </div>
     </section>
   </div>
+  {% if include.type != "legacy" %}
   <div class="tab-pane" id="download" role="tabpanel">
     <section class="py-3">
       <div class="container" role="main">
@@ -119,6 +120,7 @@
       </div>
     </section>
   </div>
+  {% endif %}
 </div>
 {% if distro.downloads.size > 1 %}
 {% include download-modal.html %}

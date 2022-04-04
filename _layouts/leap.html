@@ -1,0 +1,9 @@
+---
+image: /assets/images/logos/leap_header.png
+layout: default
+---
+{% if page.version != nil %}
+  {% include distribution.html distro=page.version state=page.state type=page.type %}
+{% else %}
+  {% include unmaintained.html distro="Leap" %}
+{% endif %}

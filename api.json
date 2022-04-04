@@ -3,21 +3,23 @@ permalink: "/api/v0/distributions"
 ---
 {
   "Leap": [
-    {%- for release in site.data.releases %}
+    {%- for release in site.data.leap %}
+    {%- capture leap_id %}{{ release.version | remove: "." }}{% endcapture %}
     {
       "name": "openSUSE Leap",
       "version": "{{ release.version }}",
-      "state": "{% currentstate {{ release.version }} %}",
+      "state": "{{ site.releases.leap[leap_id].state }}",
       "upgrade-weight": {{ release.order }}
     }{% if forloop.last != true %},{% endif %}
     {%- endfor %}
   ],
   "LeapMicro": [
-    {%- for release in site.data.releases_leapmicro %}
+    {%- for release in site.data.leapmicro %}
+    {%- capture leap_micro_id %}{{ release.version | remove: "." }}{% endcapture %}
     {
       "name": "openSUSE Leap Micro",
       "version": "{{ release.version }}",
-      "state": "{% currentstateleapmicro {{ release.version }} %}",
+      "state": "{{ site.releases.leap_micro[leap_micro_id].state }}",
       "upgrade-weight": {{ release.order }}
     }{% if forloop.last != true %},{% endif %}
     {%- endfor %}

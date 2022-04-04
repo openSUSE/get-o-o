@@ -1,0 +1,11 @@
+<div class="container my-3">
+  <div class="alert alert-danger d-flex justify-content-between align-items-center">
+    {% if include.distro == "Leap" %}
+      {% capture distro_name %}{{ include.distro }} {{ site.releases.leap[site.releases.leap.current].version }}{% endcapture %}
+    {% else %}
+      {% capture distro_name %}{{ include.distro }} {{ site.releases.leap_micro[site.releases.leap_micro.current].version }}{% endcapture %}
+    {% endif %}
+    <span>{{ locale.new_version_available | replace: '$distro_name', distro_name }}</span>
+    <a class="btn btn-danger" href="{% if include.distro == "Leap" %}{{ '/leap/' | prefix_locale }}{% else %}{{ '/leap_micro/' | prefix_locale }}{% endif %}">{{ locale.learn_more }}</a>
+  </div>
+</div>
