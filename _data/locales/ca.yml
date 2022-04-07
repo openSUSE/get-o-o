@@ -363,3 +363,9 @@ preconfigured_image: Imatge preconfigurada
 preconfigured_rt_image: Imatge preconfigurada amb nucli de Temps Real
 selfinstall_image: Imatge d'autoinstal·lació
 selfinstall_rt_image: Imatge d'autoinstal·lació amb nucli de Temps Real
+live_info: "Tingueu en compte les limitacions següents de les imatges en directe:\n\
+  * No s'han d'usar per instal·lar o actualitzar el sistema. Si us plau, per fer-ho,\
+  \ useu el suport d'instal·lació.\n* Tenen una selecció limitada de paquets i controladors,\
+  \ de manera que no es pot considerar un reflex precís de si la distribució funcionarà\
+  \ al vostre maquinari o no.\n* El nucli i initrd no es poden actualitzar, de manera\
+  \ que no s'han d'usar com a instal·lació persistent.\n"
