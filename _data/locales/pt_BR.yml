@@ -359,3 +359,9 @@ preconfigured_image: Imagem pré-configurada
 preconfigured_rt_image: Imagem pré-configurada com kernel RealTime
 selfinstall_rt_image: Imagem de autoinstalação com kernel RealTime
 selfinstall_image: Imagem de autoinstalação
+live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas não devem\
+  \ ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n\
+  * Elas tem uma seleção limitada de pacotes e drivers, por isto não podem ser considerados\
+  \ como um reflexo preciso sobre se a distribuição irá funcionar em seu hardware\
+  \ ou não\n* Kernel e initrd não podem ser atualizados, por isto não podem ser usados\
+  \ como instalação persistente\n"
