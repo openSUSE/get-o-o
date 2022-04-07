@@ -349,3 +349,9 @@ preconfigured_image: Predkonfigurovaný obraz
 preconfigured_rt_image: Predkonfigurovaný obraz s jadrom RealTime
 selfinstall_rt_image: Samoinštalačný obraz s jadrom RealTime
 selfinstall_image: Samoinštalačný obraz
+live_info: "Prosím, majte na pamäti nasledujúce obmedzenia live obrazov:\n* Nemali\
+  \ by sa používať na inštaláciu alebo zvýšenie verzie. Namiesto toho, prosím, použite\
+  \ inštalačné médiá\n* Majú obmedzený výber balíkov a ovládačov, takže ich nemožno\
+  \ považovať za presný ukazovateľ toho, či distribúcia bude fungovať na vašom hardvéri\
+  \ alebo nie\n* Jadro a initrd sa nedajú aktualizovať, preto by sa nemali používať\
+  \ ako trvalá inštalácia\n"
