@@ -149,6 +149,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
 - name: live_images
   display: desktop
+  info: leap_live_info
   arches:
   - name: x86_64
     types:

@@ -65,6 +65,12 @@ tumbleweed_live_info: |
   Please be aware of the following limitations of the live images:
   * They should not be used to install or upgrade Tumbleweed. Please use the [Tumbleweed media](/tumbleweed) instead
   * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether Tumbleweed will work on your hardware or not
+  * Kernel and initrd can't be updated, so they shouldn't be used as a persistant installation
+leap_live_info: |
+  Please be aware of the following limitations of the live images:
+  * They should not be used to install or upgrade Leap. Please use the [Leap media](/leap) instead
+  * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether Leap will work on your hardware or not
+  * Kernel and initrd can't be updated, so they shouldn't be used as a persistant installation
 kubic_desc: Container as a Service Platform based on Kubernetes atop openSUSE MicroOS.
 microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
   upon a read-only btrfs root filesystem
