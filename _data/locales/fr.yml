@@ -375,3 +375,10 @@ selfinstall_image: Image d'auto-installation
 selfinstall_rt_image: Image d'auto-installation avec noyau Temps-Réel
 preconfigured_image: Image préconfigurée
 preconfigured_rt_image: Image préconfigurée avec noyau Temps-Réel
+live_info: "Veuillez prendre en compte les limitations suivantes des images live :\n\
+  * Elles ne doivent pas être utilisées pour installer ou mettre à niveau. Veuillez\
+  \ utiliser le support d'installation à la place\n* Elles ont une sélection limitée\
+  \ de paquets et de pilotes, et ne peuvent donc pas être considérées comme un reflet\
+  \ exact du fonctionnement de la distribution sur votre matériel.\n* Noyau et initrd\
+  \ ne peuvent pas être mis à jour, ils ne doivent donc pas être utilisés pour une\
+  \ installation persistante.\n"
