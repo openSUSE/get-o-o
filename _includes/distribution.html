@@ -90,6 +90,11 @@
         {% for tab in default %}
           <div {% if tab.display == 'all' %}{% elsif tab.display %}class="only-{{ tab.display }}" style="display: none"{% endif %}>
             {% if forloop.first == false %}<h1 class="display-4">{{ locale[tab.name] }}</h1>{% endif %}
+            {% if tab.info %}
+              <div class="alert alert-{{ distro.bg-color }}">
+                {{ locale[tab.info] | markdownify }}
+              </div>
+            {% endif %}
             <div class="row">
               {% for arch in tab.arches %}
                 <div class="col-md-6 mb-3">

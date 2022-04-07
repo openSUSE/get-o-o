@@ -169,7 +169,7 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
 - name: live_images
   display: desktop
-  info: tumbleweed_live_info
+  info: live_info
   arches:
   - name: x86_64
     types:
