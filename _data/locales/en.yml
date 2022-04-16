@@ -23,6 +23,9 @@ network_image: Network Image
 network_desc: |
   Downloads the installation system and all packages from online
   repositories. Suitable for installation or upgrade.
+selfinstalling_images: Self Installing Images
+selfinstalling_ch_image: Self Installing Container Host
+selfinstalling_k3s_image: Self Installing k3s Host
 kvm_image: KVM and XEN
 kvm_ch_image: KVM and XEN Container Host
 kvm_desc: For use in KVM or XEN HVM hypervisors
