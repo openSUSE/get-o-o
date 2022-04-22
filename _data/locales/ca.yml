@@ -369,3 +369,6 @@ live_info: "Tingueu en compte les limitacions següents de les imatges en direct
   \ de manera que no es pot considerar un reflex precís de si la distribució funcionarà\
   \ al vostre maquinari o no.\n* El nucli i initrd no es poden actualitzar, de manera\
   \ que no s'han d'usar com a instal·lació persistent.\n"
+selfinstalling_k3s_image: Amfitrió k3s d'autoinstal·lació
+selfinstalling_images: Imatges d'autoinstal·lació
+selfinstalling_ch_image: Amfitrió de contenidor d'autoinstal·lació
