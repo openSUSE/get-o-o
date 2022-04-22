@@ -42,6 +42,26 @@ downloads:
         url: /ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso?mirrorlist
       - name: checksum
         url: /ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso.sha256
+- name: selfinstalling_images
+  arches:
+  - name: x86_64
+    types:
+    - name: selfinstalling_ch_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso
+      links:
+      - name: pick_mirror
+        url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso.sha256
+    - name: selfinstalling_k3s_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-k3s-SelfInstall.iso
+      links:
+      - name: pick_mirror
+        url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-k3s-SelfInstall.iso?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-k3s-SelfInstall.iso.sha256
 - name: vm_images
   arches:
   - name: x86_64
