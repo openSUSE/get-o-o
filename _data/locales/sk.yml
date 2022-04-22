@@ -355,3 +355,6 @@ live_info: "Prosím, majte na pamäti nasledujúce obmedzenia live obrazov:\n* N
   \ považovať za presný ukazovateľ toho, či distribúcia bude fungovať na vašom hardvéri\
   \ alebo nie\n* Jadro a initrd sa nedajú aktualizovať, preto by sa nemali používať\
   \ ako trvalá inštalácia\n"
+selfinstalling_ch_image: Samoinštalačný hostiteľ kontajnerov
+selfinstalling_k3s_image: Samoinštalačný hostiteľ k3s
+selfinstalling_images: Samoinštalačné obrazy
