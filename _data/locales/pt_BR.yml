@@ -3,18 +3,18 @@ search: Pesquisar
 translate: Traduzir
 source_code: Código-fonte
 license: Licença
-site_title: Obter openSUSE
-site_title_short: Obter
+site_title: Baixar o openSUSE
+site_title_short: Baixar
 site_description: Aprenda sobre as distribuições do openSUSE e baixe-as gratuitamente
-learn_more: Aprenda Mais
-cd_desc: Para CD e Pendrive USB
+learn_more: Aprenda mais
+cd_desc: Para CD e pendrive USB
 dvd_desc: Para DVD e memória USB
 usb_desc: Para memória USB
-metalink: Enlace Meta
-pick_mirror: Escolha espelho
-checksum: Soma de comprovação
-torrent_file: Arquivo de Torrent
-offline_image: Imagem Offline
+metalink: Metalink
+pick_mirror: Escolha o mirror
+checksum: Soma de verificação
+torrent_file: Arquivo de torrent
+offline_image: Imagem offline
 offline_desc: "Contém uma grande coleção de software para uso em desktop ou servidor.\n\
   Adequado para instalação ou atualização.\n"
 network_image: Imagem de Rede
@@ -32,14 +32,14 @@ openstack_image: Nuvem Openstack
 openstack_desc: Para executar máquinas virtuais em OpenStack
 installation_images: Instalação
 ports_images: Portes
-ports_info: "Portas do openSUSE Leap para arquiteturas diferentes do PC são\nmantido\
+ports_info: "Portes do openSUSE Leap para arquiteturas diferentes do PC são\nmantido\
   \ por equipes comunitárias separadas, com recursos limitados.\n"
 jeos_images: JeOS
 live_images: Live
-gnome_cd: LiveCD de GNOME
-kde_cd: LiveCD de KDE
-xfce_cd: LiveCD de Xfce
-rescue_cd: LiveCD de Recuperação
+gnome_cd: LiveCD do GNOME
+kde_cd: LiveCD do KDE
+xfce_cd: LiveCD do Xfce
+rescue_cd: LiveCD de recuperação
 tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao vivo:\n\
   * Eles não devem ser usados para instalar ou atualizar o Tumbleweed. Use a [Tumbleweed\
   \ media] (/tumbleweed) em vez\n* Eles têm um pacote limitado e seleção de driver,\
@@ -47,8 +47,8 @@ tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao v
   \ em seu hardware ou não\n"
 kubic_desc: Plataforma de contêiner como serviço baseada em Kubernetes no openSUSE
   MicroOS.
-microos_desc: SO openSUSE Tumbleweed que fornece atualizações transacionais (atômicas)
-  em um sistema de arquivos raiz btrfs somente leitura
+microos_desc: SO baseado no openSUSE Tumbleweed que fornece atualizações transacionais
+  (atômicas) em um sistema de arquivos raiz btrfs somente leitura
 choosing_media: Escolhendo qual mídia baixar
 choosing_media_p1: "A imagem offline é normalmente recomendada, pois contém a maioria\
   \ dos\npacotes disponíveis na distribuição e não requer uma conexão de rede\ndurante\
@@ -58,16 +58,16 @@ choosing_media_p2: "A imagem de rede é recomendada para usuários que têm limi
   \ escolher instalar, o que provavelmente será significativamente\nmenos do que 4,7\
   \ GB.\n"
 documentation: Documentação
-documentation_startup_guide: Guia Inicial do openSUSE
+documentation_startup_guide: Guia inicial do openSUSE
 documentation_release_notes: Notas de lançamento
 documentation_license: Licença
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-documentation_full_documentation: Documentação Completa
+documentation_full_documentation: Documentação completa
 leap_switch: Maneiras fáceis de mudar para o openSUSE Leap
 leap_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando\
   \ a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’\
   \ em alguns\ncomandos.\n"
-leap_switch_instructions: Instruções para atualização Online.
+leap_switch_instructions: Instruções para atualização online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements: Requisitos do sistema
 requirements_cpu: CPU
@@ -79,9 +79,9 @@ tw_switch: Maneiras fáceis de mudar para openSUSE Tumbleweed
 tw_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando\
   \ a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’\
   \ em alguns\ncomandos.\n"
-tw_switch_instructions: Instruções de Atualização.
+tw_switch_instructions: Instruções de atualização.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_linux: De uma versão mais antiga ou outra distro Linux
+upgrade_table_linux: De uma versão mais antiga ou outra distribuição Linux
 upgrade_table_windows: Do Windows
 upgrade_table_mac: Do OS X
 upgrade_table_linux_dvd: Como gravar um DVD no Linux.
@@ -90,11 +90,11 @@ upgrade_table_windows_dvd: Como gravar um DVD no Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: Como gravar um DVD no OS X.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_linux_usb: Como criar uma memória USB inicializável no Linux.
+upgrade_table_linux_usb: Como criar um pendrive USB inicializável no Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Como criar uma memória USB inicializável no Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Como criar uma memória USB inicializável no OS X.
+upgrade_table__mac_usb: Como criar um pendrive USB inicializável no OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifique seu download antes de usar
 verify_download_p1: "Muitos aplicativos podem verificar a soma de verificação de um\
@@ -106,7 +106,7 @@ verify_download_p3: "Para segurança extra, você pode usar o GPG para verificar
   \ assinou os arquivos .sha256.\n"
 verify_download_pubkey: Deveria ser
 verify_download_help: Para obter mais ajuda na verificação do seu download, leia
-verify_download_checksums_help: Ajuda de checksums
+verify_download_checksums_help: Ajuda de somas de verificação
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Muitos desktops, três por padrão
 desktops_p1: "O processo de contribuição do openSUSE capacita o desenvolvimento de\
@@ -142,7 +142,7 @@ software_p1: "Entre nós, ter que passar por todos os sites para obter todos os\
   torna isso mais fácil, incorporando software de uma infinidade de\nfontes em um\
   \ só lugar.\n"
 software_get: Obter Software
-transactional: Servidor Transacional
+transactional: Servidor transacional
 transactional_p1: "O instalador agora suporta uma nova função de sistema de Servidor\
   \ Transacional,\nque é um resultado dos esforços do openSUSE Kubic. Esta função\
   \ do sistema\napresenta um novo sistema de atualização que aplica atualizações atomicamente\
@@ -365,3 +365,6 @@ live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas n
   \ como um reflexo preciso sobre se a distribuição irá funcionar em seu hardware\
   \ ou não\n* Kernel e initrd não podem ser atualizados, por isto não podem ser usados\
   \ como instalação persistente\n"
+selfinstalling_images: Imagens de autoinstalação
+selfinstalling_ch_image: Host de contêiner de autoinstalação
+selfinstalling_k3s_image: Host k3s de autoinstalação
