@@ -3,3 +3,5 @@
   releases:
   - date: '2022-03-31 12:00:00 UTC'
     state: 'Beta'
+  - date: '2022-05-03 12:00:00 UTC'
+    state: 'RC'
