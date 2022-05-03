@@ -1,7 +1,12 @@
 <section class="py-3">
   <div class="container">
     <h2>Leap Micro is the Host OS that you were looking for.</h2>
-    <p class="lead font-weight-normal">Leap Micro is an ultra-reliable, lightweight operating system purpose built for containerized and virtualized workloads. It is based on SUSE Linux Enterprise Micro which leverages the enterprise hardened security and compliance components of SUSE Linux Enterprise and merges them with a modern, immutable, developer-friendly OS platform.
+    <p class="lead font-weight-normal">Leap Micro is an ultra-reliable, lightweight operating system purpose-built for containerized and virtualized workloads. It is based on SUSE Linux Enterprise Micro which leverages the enterprise hardened security and compliance components of SUSE Linux Enterprise and merges them with a modern, immutable, developer-friendly OS platform.
+    </p>
+    <p class="lead font-weight-normal">
+    Users who want to try Leap Micro in VM running on either <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> or KVM should use the <strong>new self-install image</strong> which boots and extracts included .raw.xz image to the drive and reboots. Users with Raspberry PI and other SOCs should use directly our preconfigured image together with combustion. Both preconfigured and self-install images are intended to be used with a <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> enabled USB drive to set a password and further configuration on the first boot.
+    <br/><br/>
+    <strong>See our short Leap Micro installation <a href="https://www.youtube.com/watch?v=ft8UVx9elKc">demo</a> with combustion and cockpit.</strong>
     </p>
     <a class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}" href="#download" onclick="show_tab('#download')">
       {{ locale.download }}
