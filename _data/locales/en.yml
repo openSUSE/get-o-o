@@ -176,7 +176,7 @@ points_welcoming_p1: |
   We try our best to please the community, and we can only make this
   happen when the community is vocal about what they need. That's why we
   ensure contributing is as easy as possible.
-preconfigured_image: Preconfigured image
+preconfigured_image: Preconfigured Image
 preconfigured_rt_image: Preconfigured RealTime Image
 selfinstall_image: Self-install Image
 selfinstall_rt_image: Self-install RealTime Image
