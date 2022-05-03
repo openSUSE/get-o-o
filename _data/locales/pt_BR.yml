@@ -356,8 +356,8 @@ iso_image: Imagem ISO
 jeos_info: Para as imagens do JeOS Arm, vá para a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
   wiki do Arm</a>
 preconfigured_image: Imagem pré-configurada
-preconfigured_rt_image: Imagem pré-configurada com kernel RealTime
-selfinstall_rt_image: Imagem de autoinstalação com kernel RealTime
+preconfigured_rt_image: Pré-configurada com RealTime
+selfinstall_rt_image: Autoinstalação com RealTime
 selfinstall_image: Imagem de autoinstalação
 live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas não devem\
   \ ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n\
