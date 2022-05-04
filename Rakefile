@@ -18,7 +18,7 @@ task :build do
       YAML.load_file(filename)['downloads'].each do |i|
         i['arches'].each do |j|
           j['types'].each do |k|
-            conn = ::Faraday.new(url: URI("http://download.opensuse.org#{k['primary_link']}")) do |r|
+            conn = ::Faraday.new(url: URI("https://download.opensuse.org#{k['primary_link']}")) do |r|
               r.use ::FaradayMiddleware::FollowRedirects, limit: 5
               r.request :url_encoded
               r.adapter ::Faraday.default_adapter
