@@ -10,7 +10,7 @@ task default: %w[build]
 task :build do
   File.open('_data/snapshots.csv', 'w') do |f|
     f.write("snapshot\n")
-    f.write(Net::HTTP.get(URI('http://download.opensuse.org/history/list')))
+    f.write(Net::HTTP.get(URI('https://download.opensuse.org/history/list')))
   end
   File.open('_data/sizes.yml', 'w') do |f|
     output = {}
