@@ -346,8 +346,8 @@ Tumbleweed_features:
 jeos_info: Pre obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
   stránku Arm</a>
 preconfigured_image: Predkonfigurovaný obraz
-preconfigured_rt_image: Predkonfigurovaný obraz s jadrom RealTime
-selfinstall_rt_image: Samoinštalačný obraz s jadrom RealTime
+preconfigured_rt_image: Predkonfigurovaný RealTime obraz
+selfinstall_rt_image: Samoinštalačný RealTime obraz
 selfinstall_image: Samoinštalačný obraz
 live_info: "Prosím, majte na pamäti nasledujúce obmedzenia live obrazov:\n* Nemali\
   \ by sa používať na inštaláciu alebo zvýšenie verzie. Namiesto toho, prosím, použite\
