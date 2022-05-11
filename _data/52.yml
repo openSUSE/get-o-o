@@ -63,6 +63,16 @@ downloads:
         url: /distribution/leap-micro/5.2/product/iso/openSUSE-Leap-Micro-5.2-DVD-aarch64-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.2/product/iso/openSUSE-Leap-Micro-5.2-DVD-aarch64-Media.iso.sha256
+    - name: selfinstall_image
+      desc: kvm_desc
+      primary_link: /distribution/leap-micro/5.2/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso
+      links:
+      - name: metalink
+        url: /distribution/leap-micro/5.2/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap-micro/5.2/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap-micro/5.2/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.sha256
     - name: preconfigured_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/5.2/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz
