@@ -6,6 +6,8 @@
     state: 'Alpha'
   - date: '2022-03-02 12:00:00 UTC'
     state: 'Beta'
+  - date: '2022-05-16 12:00:00 UTC'
+    state: 'RC'
 - version: 15.3
   order: 6
   releases:
