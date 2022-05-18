@@ -35,6 +35,8 @@
         <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
         <h4>Leap {{ site.releases.leap[site.releases.leap.current].version }}</h4>
       </a>
+      {{ site.releases.leap.testing | inspect }}
+      {{ site.releases.leap.stable | inspect }}
       {% if site.releases.leap.testing != nil %}
         <a href="{{ '/testing/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
           <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
@@ -42,7 +44,13 @@
           <h4>Leap {{ site.releases.leap[leap_id].version }} <sup>{{ site.releases.leap[leap_id].state }}</sup></h4>
         </a>
       {% endif %}
-      {% if site.releases.leap_micro.testing != "" %}
+        <a href="{{ '/leapmicro/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
+          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
+          <h4>Leap Micro {{ site.releases.leap_micro[site.releases.leap_micro.current].version }}</h4>
+        </a>
+      {{ site.releases.leap_micro.testing | inspect }}
+      {{ site.releases.leap_micro.stable | inspect }}
+      {% if site.releases.leap_micro.testing != nil and site.releases.leap_micro.testing.to_f > site.releases.leap_micro.current.to_f %}
         <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
           <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
           {% assign leap_micro_id = site.releases.leap_micro.testing %}
