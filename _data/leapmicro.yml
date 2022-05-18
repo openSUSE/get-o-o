@@ -5,3 +5,5 @@
     state: 'Beta'
   - date: '2022-05-03 12:00:00 UTC'
     state: 'RC'
+  - date: '2022-05-18 12:00:00 UTC'
+    state: 'Stable'
