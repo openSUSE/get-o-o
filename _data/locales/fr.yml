@@ -133,9 +133,7 @@ desktop_tumbleweed_view: Voir Tumbleweed
 desktop_leap_view: Voir Leap
 server_tumbleweed_view: Voir Tumbleweed
 server_leap_view: Voir Leap
-server_kubic_view: Voir Kubic
 server_microos_view: Voir MicroOS
-kubic_desc: Plateforme Container as a Service basée sur Kubernetes et openSUSE MicroOS.
 leap_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau votre\
   \ installation\nen démarrant sur l'image DVD/clé USB et en choisissant la l'option\
   \ de mise\nà niveau, ou bien effectuer une mise à niveau en ligne en quelques commandes.\n"
@@ -213,9 +211,6 @@ server_leap_p1: Pour les administrateurs système, les développeurs en entrepri
   les utilisateurs de serveurs « classiques »
 server_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
   qualité professionnelle et d'une innovation cultivée par la communauté.
-server_kubic_p1: Pour tous les travaux avec des conteneurs
-server_kubic_p2: Un système d'exploitation multi-usage et conteneur de Kubernetes.
-  Basé sur openSUSE MicroOS
 server_microos_p1: Pour des applications serveur mono-tâche
 server_microos_p2: Conçu pour héberger vos travaux avec des conteneurs, disposant
   d'une administration et de mises à jour automatisées

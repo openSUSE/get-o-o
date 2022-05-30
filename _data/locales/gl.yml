@@ -17,8 +17,6 @@ ports_images: Portes
 gnome_cd: Live CD de Gnome
 kde_cd: Live CD de KDE
 rescue_cd: Live CD de rescate
-kubic_desc: Contedor como plataforma de servizos baseada en Kubernetes sobre openSUSE
-  MicroOS.
 choosing_media: Escoller que medio descargar
 documentation: Documentación
 documentation_startup_guide: Guía de inicio de openSUSE

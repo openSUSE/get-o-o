@@ -88,8 +88,6 @@ vm_images: Віртуальна машина
 cloud_images: Хмара
 hardware_images: Обладнання
 gnome_cd: GNOME LiveCD
-kubic_desc: Платформа Container as a Service базується на Kubernetes поверх openSUSE
-  MicroOS.
 tumbleweed_live_info: "Зверніть увагу на такі обмеження живих образів:\n* Їх не слід\
   \ використовувати для встановлення або оновлення Tumbleweed. Будь ласка, скористайтеся\
   \ [Tumbleweed media] (/ tumbleweed)\n* Вони мають обмежений пакет та вибір драйверів,\

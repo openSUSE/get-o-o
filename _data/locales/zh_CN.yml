@@ -17,7 +17,6 @@ installation_images: 安装
 ports_images: 移植
 live_images: 体验
 rescue_cd: 救援 LiveCD
-kubic_desc: 容器既服务（CaaS）平台基于 openSUSE 微系统（MicroOS）之上的 Kubernetes。
 choosing_media: 选择要下载的媒体
 documentation: 文档
 documentation_startup_guide: openSUSE 入门指南

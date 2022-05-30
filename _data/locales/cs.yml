@@ -45,7 +45,6 @@ tumbleweed_live_info: "Uvědomte si prosím následující omezení živých obr
   \ médium](/tumbleweed)\n* Mají omezený výběr balíčků a ovladačů, takže je nelze\
   \ považovat za přesný odraz toho, zda Tumbleweed bude na vašem\nhardwaru fungovat\
   \ nebo ne\n"
-kubic_desc: Kontejner jako platforma služeb založený na Kubernetes nad openSUSE MicroOS.
 microos_desc: OS založený na openSUSE Tumbleweed poskytující transakční (nedělitelné)
   aktualizace na kořenovém souborovém systému btrfs jen pro čtení
 choosing_media: Výběr média ke stažení
@@ -188,9 +187,6 @@ server_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovan�
 server_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele serverů
 server_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství a komunitou
   vyvinutých inovací.
-server_kubic_p1: Pro (týmové) pracovní postupy na kontejnerovém serveru
-server_kubic_p2: Víceúčelový samostatný a kontejnerový operační systém Kubernetes
-  založený na openSUSE MicroOS
 server_microos_p1: Pro jednoúčelové serverové aplikace
 server_microos_p2: Navrženo pro hostování kontejnerovaných úloh s automatizovanou
   správou a opravou

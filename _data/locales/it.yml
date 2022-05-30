@@ -73,8 +73,6 @@ hyperv_desc: Per eseguire macchine virtuali su MS HyperV
 openstack_image: OpenStack-Cloud
 openstack_desc: Per eseguire macchine virtuali in OpenStack
 live_images: Live
-kubic_desc: Piattaforma "Container as a Service" basata su Kubernetes e facente leva
-  su openSUSE MicroOS.
 choosing_media: Scelta del supporto da scaricare
 choosing_media_p1: "Tipicamente si raccomanda l'immagine offline, in quanto contiene\
   \ la maggior parte\ndei pacchetti disponibili nella distribuzione e non richiede\
@@ -314,9 +312,6 @@ vmware_vmx_image: VMware VMX
 vmware_vmx_ch_image: VMware VMX Container Host
 vagrant_ch_image: Vagrant Container Host
 rpi_ch_image: RaspberryPi Container Host
-server_kubic_p1: Per i flussi di lavoro dei server containerizzati
-server_kubic_p2: Sistema operativo multiuso per container standalone e Kubernetes
-  basato su openSUSE MicroOS
 server_microos_p1: Per applicazioni server a scopo singolo
 server_microos_p2: Progettato per ospitare carichi di lavoro di container con amministrazione
   e patch automatizzate

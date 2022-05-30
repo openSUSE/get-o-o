@@ -16,8 +16,6 @@ vmware_desc: Virtuaalikoneiden ajamiseksi VMwaressa
 openstack_desc: Virtuaalikoneiden ajamiseksi OpenStackissä
 installation_images: Asennus
 ports_images: Siirrokset
-kubic_desc: Container on Kubernetesiin perustuva palvelualusta openSUSE MicroOSin
-  yllä.
 choosing_media: Miten valita ladattava tietoväline
 documentation: Dokumentaatio
 documentation_startup_guide: openSUSE-aloitusopas

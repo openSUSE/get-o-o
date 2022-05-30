@@ -15,8 +15,6 @@ vmware_desc: Til at køre virtuelle maskiner i VMware
 openstack_desc: Til at køre virtuelle maskiner i OpenStack
 ports_images: Porte
 rescue_cd: Rednings LiveCD
-kubic_desc: Indeholder en Service Platform baseret på Kubernetes oven på openSUSE
-  MicroOS.
 choosing_media: Valg af medie som skal downloades
 documentation: Dokumentation
 documentation_startup_guide: openSUSE-opstartsguide

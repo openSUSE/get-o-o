@@ -46,8 +46,6 @@ tumbleweed_live_info: "Por favor, tenga en cuenta las limitaciones de las imáge
   \ favor utilice la [imagen de Tumbleweed](/tumbleweed)\n* Tienen una selección limitada\
   \ de paquetes de software y controladores, por lo que no puede considerarse un reflejo\
   \ preciso de si Tumbleweed funcionará en su hardware o no\n"
-kubic_desc: Contenedor como Plataforma de Servicio basado en Kubernetes sobre openSUSE
-  MicroOS.
 microos_desc: Sistema operativo basado en openSUSE Tumbleweed que ofrece actualizaciones
   transaccionales (Atomic) sobre un sistema de archivos raíz brtfs de solo lectura
 choosing_media: Escoger qué medio descargar
@@ -205,9 +203,6 @@ server_leap_p1: Para administradores de sistemas, desarrolladores profesionales 
   usuarios de servidores regulares.
 server_leap_p2: Publicaciones periódicas con los beneficios de la ingeniería de nivel
   profesional como de la innovación desarrollada por la comunidad.
-server_kubic_p1: Para flujos de trabajo de servidor en contenedores
-server_kubic_p2: Sistema operativo multiuso autónomo y contenedor de Kubernetes basado
-  en openSUSE MicroOS
 server_microos_p1: Para aplicaciones de servidor de un solo propósito
 server_microos_p2: Diseñado para alojar cargas de trabajo de contenedores con administración
   y parches automatizados

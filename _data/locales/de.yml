@@ -178,10 +178,6 @@ server_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale"
 server_leap_p2: Reguläres Release mit den Vorteilen von Technik auf Enterprise-Niveau
   und von der Community entwickelten Innovationen.
 server_leap_view: Leap anschauen
-server_kubic_p1: Für containerisierte Server Workflows
-server_kubic_p2: Multifunktionales Standalone & Kubernetes Container Betriebssystem,
-  basierend auf openSUSE MicroOS
-server_kubic_view: Kubic anschauen
 server_microos_p1: Für Einzweck-Serveranwendungen
 server_microos_p2: Entwickelt, um Container-Arbeitslasten mit automatisierter Administration
   und Patching zu betreiben
@@ -197,8 +193,6 @@ ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werd
 rescue_cd: Rettungs Live-CD
 selfinstall_image: Selbst installierendes Image
 selfinstall_rt_image: Selbst installierendes Image mit RealTime-Kernel
-kubic_desc: Container as a Service Plattform basierend auf Kubernetes auf openSUSE
-  MicroOS.
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 desktops: Viele Desktops, drei im Standard
 desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklung für\

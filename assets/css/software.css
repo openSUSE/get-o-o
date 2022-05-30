@@ -4,17 +4,16 @@
     --leap: 251, 199, 93;
     --leapmicro: 223, 115, 32;
     --microos: 151, 58, 132;
-    --kubic: 33, 164, 223;
    }
 }
 
-.bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
+.bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active) {
   background: rgba(255, 255, 255, 0.2);
   color: rgba(0, 0, 0, 0.8)!important;
   transition: 0.3s;
 }
 
-.bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
+.bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover {
   background: rgba(255, 255, 255, 0.4);
   border-color: transparent transparent white transparent;
 }
@@ -46,10 +45,6 @@
   background: rgba(var(--leapmicro), 0.3)
 }
 
-.bg-kubic-tint {
-  background: rgba(var(--kubic), 0.3)
-}
-
 .bg-microos-tint {
   background: rgba(var(--microos), 0.3)
 }
@@ -67,7 +62,7 @@
   border-color: rgb(var(--tumbleweed));
 }
 
-.btn-tumbleweed:hover, .btn-leap:hover, .btn-leapmicro:hover, .btn-kubic:hover, .btn-microos:hover {
+.btn-tumbleweed:hover, .btn-leap:hover, .btn-leapmicro:hover, .btn-microos:hover {
   filter: brightness(0.9);
 }
 
@@ -112,19 +107,6 @@
   background-color: rgba(var(--leapmicro), 0.2);
 }
 
-.bg-kubic {
-  background: rgb(var(--kubic))
-}
-
-.badge-kubic {
-  background: rgb(var(--kubic));
-}
-
-.btn-kubic {
-  background-color: rgb(var(--kubic));
-  border-color: rgb(var(--kubic));
-}
-
 .bg-microos {
   background: rgb(var(--microos))
 }
@@ -148,11 +130,11 @@
   .bg-light {
     background-color: #272b30!important;
   }
-  .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-kubic .nav-tabs .nav-link:not(.active) {
+  .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active) {
     background: rgba(0, 0, 0, 0.2);
   }
 
-  .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-kubic .nav-tabs .nav-link:not(.active):hover  {
+  .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover {
     background: rgba(0, 0, 0, 0.4);
     border-color: transparent transparent black transparent;
   }
