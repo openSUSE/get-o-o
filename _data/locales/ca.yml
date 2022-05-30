@@ -64,8 +64,6 @@ gnome_cd: CD autònom amb GNOME
 kde_cd: CD autònom amb KDE
 xfce_cd: CD autònom amb Xfce
 rescue_cd: CD autònom de rescat
-kubic_desc: Contenidor com a plataforma de serveis basada en Kubernetes sobre OpenSUSE
-  Micro SO.
 microos_desc: SO d'openSUSE basat en Tumbleweed que proporciona actualitzacions transaccionals
   (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
 choosing_media_p2: "La imatge de xarxa es recomana als usuaris que tenen limitada\n\
@@ -203,10 +201,6 @@ server_leap_p1: Per a administradors de sistemes, desenvolupadors empresarials i
 server_leap_p2: Versió regular amb els avantatges de l'enginyeria de nivell empresarial
   i la innovació desenvolupada a la comunitat.
 server_leap_view: Vegeu el Leap
-server_kubic_p1: Per a fluxos de treball de servidor en contenidors
-server_kubic_p2: Sistema operatiu de contenidor amb propòsits múltiples i autònom
-  de Kubernetes basat en openSUSE Micro SO
-server_kubic_view: Vegeu el Kubic
 server_microos_p1: Per a aplicacions de servidor d’un sol propòsit
 server_microos_p2: Dissenyat per allotjar càrregues de treball de contenidors amb
   administració i pedaços automatitzats

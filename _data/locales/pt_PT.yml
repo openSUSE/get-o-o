@@ -17,8 +17,6 @@ ports_images: Portes
 gnome_cd: LiveCD GNOME
 kde_cd: LiveCD KDE
 rescue_cd: LiveCD de recuperação
-kubic_desc: Contentor como Plataforma de Serviço baseado no atop openSUSE MicroOS
-  para Kubernetes.
 choosing_media: Escolher a Media a Descarregar
 documentation: Documentação
 documentation_startup_guide: Guia de Inicialização do openSUSE

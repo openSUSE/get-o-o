@@ -146,7 +146,6 @@ server_tumbleweed_view: Виж Tumbleweed
 server_leap_p1: За Системни Администратори, Професионални Програмисти, и 'Редовни'
   потребители на сървъри
 server_leap_view: Виж Leap
-server_kubic_view: Виж Kubic
 server_microos_p1: За сървърни приложения с едно единствено предназначение
 server_microos_view: Виж MicroOS
 checksum: Контролна сума
@@ -155,7 +154,6 @@ jeos_images: JeOS
 live_images: Живо
 gnome_cd: GNOME LiveCD
 xfce_cd: Xfce LiveCD
-kubic_desc: Платформа за контейнери на базата на Kubernetes и openSUSE MicroOS.
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
@@ -201,8 +199,6 @@ zypper_p1: "Бърз и лесен за научаване. Осигурява z
 server_p1: "Четири удобни и лесни дистрибуции, както винаги трябва да бъде\n"
 server_leap_p2: Редовно издание с предимствата на корпоративните технологии и иновациите
   на обществените сътрудници.
-server_kubic_p1: За контейнеризирани сървърни процеси
-server_kubic_p2: Многофункционална самостоятелна и Kubernetes операционна система,
   базирана на openSUSE MicroOS
 server_microos_p2: Проектиран да хоства натоварвания на контейнери с автоматизирана
   администрация и поправки

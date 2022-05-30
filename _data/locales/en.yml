@@ -69,7 +69,6 @@ live_info: |
   * They should not be used to install or upgrade. Please use the installation media instead
   * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether the distribution will work on your hardware or not
   * Kernel and initrd can't be updated, so they shouldn't be used as a persistent installation
-kubic_desc: Container as a Service Platform based on Kubernetes atop openSUSE MicroOS.
 microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
   upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
@@ -251,9 +250,6 @@ server_tumbleweed_p2: Rolling release with the latest packages provided by the o
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
 server_leap_p2: Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
-server_kubic_p1: For containerized server workflows
-server_kubic_p2: Multi-purpose Standalone & Kubernetes Container Operating System
-  based on openSUSE MicroOS
 server_microos_p1: For single purpose server applications
 server_microos_p2: Designed to host container workloads with automated administration
   & patching

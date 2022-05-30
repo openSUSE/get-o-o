@@ -39,7 +39,6 @@ xfce_cd: Xfce LiveCD
 rescue_cd: Rescue LiveCD
 tumbleweed_live_info: "請注意體驗映像檔案的以下限制：\n* 它們不能用於安裝或升級 Tumbleweed。請改使用 [Tumbleweed\
   \ 安裝媒體](/tumbleweed)\n* 它們只具備有限的套件與驅動程式選擇，故不能夠當作 Tumbleweed 能否在您的硬體運作的精確指標\n"
-kubic_desc: 基於 Kubernetes (運作於 openSUSE MicroOS) 的容器即服務 (CaaS) 平台。
 microos_desc: 以 openSUSE Tumbleweed 為基礎，提供在唯讀 btrfs root 檔案系統上進行原子交易更新的作業系統
 choosing_media: 選擇要下載的媒體
 choosing_media_p1: "建議使用離線安裝映像檔，因為它們包含大部分發行版本的套件，且不需要網路即可安裝。\n"
@@ -136,9 +135,6 @@ server_tumbleweed_view: 檢視 Tumbleweed
 server_leap_p1: 適用於系統管理員、企業開發者和「一般」桌面使用者
 server_leap_p2: 定期發行版，享受企業級工程設計和社群開發創新的好處。
 server_leap_view: 檢視 Leap
-server_kubic_p1: 適用於容器化的伺服器負載
-server_kubic_p2: 基於 openSUSE MicroOS 的多用途獨立 Kubernetes 容器作業系統
-server_kubic_view: 檢視 Kubic
 server_microos_p1: 適用於單一用途的伺服器應用
 server_microos_p2: 設計用於執行容器負載，並提供自動化管理與修補更新
 server_microos_view: 檢視 MicroOS

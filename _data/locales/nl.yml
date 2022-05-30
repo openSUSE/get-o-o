@@ -15,8 +15,6 @@ vmware_desc: Voor werken met virtuele machines in VMware
 openstack_desc: Voor werken met virtuele machines in VMware
 installation_images: Installatie
 rescue_cd: Reddingssysteem LiveCD
-kubic_desc: Container als een serviceplatform gebaseerd op Kubernetes bovenop openSUSE
-  MicroOS.
 choosing_media: Kiezen welk medium te downloaden
 documentation: Documentatie
 documentation_startup_guide: openSUSE opstarthandleiding

@@ -20,9 +20,6 @@ navbar_links:
     link: leapmicro/
     text: Leap Micro
   -
-    link: kubic/
-    text: Kubic
-  -
     link: microos/
     text: MicroOS
   - locales

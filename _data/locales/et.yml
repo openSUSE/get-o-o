@@ -19,7 +19,6 @@ live_images: Live - otse plaadilt
 gnome_cd: GNOME Live CD
 kde_cd: KDE Live CD
 rescue_cd: Päästmise LiveCD
-kubic_desc: Konteiner Kubernetesil põhineva teenusplatvormina avab OpenSUSE MicroOSi.
 choosing_media: Allalaaditava andmekandja valimine
 documentation: Dokumentatsioon
 documentation_startup_guide: openSUSE Alustamise juhend

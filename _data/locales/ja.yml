@@ -40,7 +40,6 @@ rescue_cd: レスキューライブ CD
 tumbleweed_live_info: "ライブイメージをご利用になる場合は、下記の制限事項に注意してください:\n* Tumbleweed のインストールやアップグレードにはお使いいただけません。\
   \ Tumbleweed をインストールもしくはアップグレードしたい場合は、 [Tumbleweed メディア](/tumbleweed) をお使いください。\n\
   * ライブイメージには含まれていないパッケージやドライバ類があります。そのため、お使いのハードウエアで Tumbleweed が動作するかどうかを確認する目的には不向きです。\n"
-kubic_desc: openSUSE MicroOS を利用して構築された Kubernetes ベースの Container as a Service プラットフォームです。
 microos_desc: 読み込み専用の btrfs ルートファイルシステムを利用してトランザクション型 (アトミック) 更新を行う、 openSUSE Tumbleweed
   ベースの OS
 choosing_media: ダウンロードするメディアの選択
@@ -160,9 +159,6 @@ server_tumbleweed_view: Tumbleweed の表示
 server_leap_p1: システム管理者, 企業内開発者, '一般的な' サーバユーザ向け
 server_leap_p2: 定期リリースモデルを採用したディストリビューションで、企業グレードの品質とコミュニティによる革新性の両方を備えています。
 server_leap_view: Leap の表示
-server_kubic_p1: コンテナ化されたサーバワークフロー向け
-server_kubic_p2: openSUSE MicroOS をベースにしたオペレーティングシステムで、多用途の単独コンテナもしくは Kubernetes コンテナとして使用することができます
-server_kubic_view: Kubic の表示
 server_microos_p1: 単一用途のサーバアプリケーション向け
 server_microos_p2: 自動的な管理およびパッチ適用を使用する、コンテナワークロード向けに設計されたディストリビューションです
 server_microos_view: MicroOS の表示

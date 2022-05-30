@@ -19,8 +19,6 @@ live_images: Livе
 gnome_cd: LiveCD GNOME
 kde_cd: LiveCD KDE
 rescue_cd: LiveCD для восстановления
-kubic_desc: Платформа Container as a Service основана на Kubernetes поверх openSUSE
-  MicroOS.
 choosing_media: Выбор носителя для загрузки
 documentation: Документация
 documentation_startup_guide: Руководство openSUSE для начинающих
@@ -239,7 +237,6 @@ server_tumbleweed_p1: Для разработчиков, участников op
   Linux/FOSS Enthusiasts
 server_tumbleweed_p2: Роллинг релиз с последними версиями пакетов, предоставленными
   проектом openSUSE.
-server_kubic_p1: Для контейнерных рабочих процессов сервера
 server_microos_p2: Спроектирован для размещения рабочих нагрузок контейнеров с автоматизированным
   администрированием и установкой исправлений
 view_distro: Показать $distro_name
@@ -253,8 +250,6 @@ server_leap_p1: Для системных администраторов, кор
   пользователей сервера
 server_leap_p2: Регулярные релизы с преимуществами как инженерных разработок корпоративного
   уровня, так и инноваций, разработанных сообществом.
-server_kubic_p2: Многоцелевая автономная и контейнерная операционная система Kubernetes
-  на базе openSUSE MicroOS
 server_microos_p1: Для одноцелевых серверных приложений
 x86_64: 64-битные Intel или AMD десктопы, ноутбуки и серверы (x86_64)
 aarch64: 64-битные UEFI Arm десктопы, ноутбуки, серверы и одноплатные компьютеры (aarch64)

@@ -15,7 +15,6 @@ openstack_desc: Pre beh virtuálnych strojov v OpenStack
 installation_images: Inštalácia
 ports_images: Porty
 rescue_cd: Záchranné LiveCD
-kubic_desc: Kontajner ako platforma služieb založená na Kubernetes nad openSUSE MicroOS.
 choosing_media: Výber médií, ktoré sa stiahnu
 documentation: Dokumentácia
 documentation_startup_guide: Sprievodca spustením openSUSE
@@ -194,9 +193,6 @@ server_leap_p1: Pre administrátorov, podnikových vývojárov a 'bežných' pou
   serverov
 server_leap_p2: Normálne vydanie openSUSE s výhodami inžinieringu podnikovej akosti
   a inovácií vyvinutých komunitou.
-server_kubic_p1: Pre pracovné toky na kontajnerových serveroch
-server_kubic_p2: Viacúčelový samostatný a kontajnerový operačný systém Kubernetes
-  založený na openSUSE MicroOS
 server_microos_p1: Pre jednoúčelové serverové aplikácie
 server_microos_p2: Navrhnuté na hosťovanie kontajnerových pracovných úloh s automatizovanou
   správou a opravami

@@ -18,7 +18,6 @@ installation_images: Diegimas
 ports_images: Kitos architektūros
 live_images: Demonstracinis
 rescue_cd: Avarinė sistema
-kubic_desc: Konteineris kaip paslaugos platforma, paremta Kubernetes ir openSUSE MicroOS.
 choosing_media: Laikmenos pasirinkimas
 documentation: Dokumentacija
 documentation_startup_guide: openSUSE pradžiamokslis

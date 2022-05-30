@@ -45,8 +45,6 @@ tumbleweed_live_info: "Harap diperhatikan tentang keterbatasan citra live beriku
   \ [media Tumbleweed](/tumbleweed) sebagai gantinya\n* Memiliki paket terbatas dan\
   \ pemilihan penggerak, jadi tidak dapat dianggap sebagai refleksi yang akurat apakah\
   \ Tumbleweed akan bekerja pada perangkat keras Anda atau tidak\n"
-kubic_desc: Platform Container as a Service berdasarkan pada Kubernetes di atas openSUSE
-  MicroOS.
 microos_desc: OS berbasis openSUSE Tumbleweed yang menyediakan Pemutakhiran Transaksional
   (Atomic) pada sistem berkas root btrfs baca-saja
 choosing_media: Memilih Media yang Akan Diunduh
@@ -197,9 +195,6 @@ server_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh P
 server_leap_p1: Untuk Sysadmins, Pengembang Perusahaan, dan Pengguna peladen 'Reguler'
 server_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan inovasi
   yang dikembangkan komunitas.
-server_kubic_p1: Untuk alur kerja peladen kontainer
-server_kubic_p2: Sistem Operasi Kontainer Mandiri & Kubernetes multi-tujuan berdasarkan
-  openSUSE MicroOS
 server_microos_p1: Untuk aplikasi peladen tujuan tunggal
 server_microos_p2: Dirancang untuk meng-host beban kerja kontainer dengan administrasi
   otomatis & penambalan

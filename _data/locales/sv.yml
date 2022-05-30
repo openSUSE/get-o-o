@@ -11,7 +11,6 @@ torrent_file: Torrent fil
 hyperv_desc: För körande av virtuella maskiner i MS Hyper-V
 vmware_desc: För körande av virtuella maskiner i VMware
 openstack_desc: För körande av virtuella maskiner i OpenStack
-kubic_desc: Container som en tjänstplattform baserad på Kubernetes i openSUSE MicroOS.
 choosing_media: Välj vilket media som ska laddas ner
 documentation: Dokumentation
 documentation_license: Licens
