@@ -1,4 +1,3 @@
----
 site_title: Skaffa openSUSE
 search: Sök
 license: Licens
@@ -16,9 +15,9 @@ documentation: Dokumentation
 documentation_license: Licens
 documentation_full_documentation: Full Dokumentation
 leap_switch: Enkla sätt att byta till openSUSE Leap
-requirements: Rekommenderade systemkrav
-requirements_cpu: 2 GHz dual core-processor eller bättre
-requirements_mem: 2 GB systemminne
+requirements: Systemkrav
+requirements_cpu: Processor
+requirements_mem: Minne
 requirements_dvd: Antingen en DVD-spelare eller en USB-kontakt för installationsmediat
 tw_switch: Enkla sätt att byta till openSUSE Tumbleweed
 upgrade_table_linux: Från en äldre version eller annan Linux distro
@@ -33,3 +32,138 @@ upgrade_table__mac_usb: Hur man skapar ett bootbart USB minne med OS X.
 verify_download_checksums_help: Hjälp för kontrollsummor
 yast_software: Programvara
 index_desktop: Skrivbord
+site_copyright: © 2021 openSUSE bidragsgivare
+iso_image: ISO avbild
+network_image: Nätverksavbild
+xen_image: XEN
+source_code: Källkod
+translate: Översätt
+learn_more: Läs mer
+network_desc: "Laddar ned installationssystemet och alla paket via online\nförråd.\
+  \ Lämplig för installation eller uppgradering.\n"
+offline_desc: "Innehåller en stor samling programvara för skrivbords eller serveranvändning.\n\
+  Lämplig för installation eller uppgradering.\n"
+offline_image: Offline avbild
+site_title_short: Skaffa
+usb_desc: För USB-stickor
+jeos_info: För ARM JeOS avbilder, gå till <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  wiki sidan</a>
+hardware_images: Hårdvara
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+microos_desc: openSUSE Tumbleweed-baserat OS som tillhandahåller Transaktionella (Atomic)
+  uppdateringar på ett skrivskyddat btrfs-rotfilsystem
+choosing_media_p1: "Offlinavebilden rekommenderas vanligtvis eftersom den innehåller\
+  \ det mesta\nav paketen tillgängliga i distributionen och kräver inte en nätverks\n\
+  anslutning under installationen.\n"
+choosing_media_p2: "Nätverksavbilden rekommenderas för användare som har begränsad\n\
+  bandbredd på deras internetanslutning, eftersom den bara kommer att ladda ner\n\
+  det paket som de väljer att installera, vilket sannolikt kommer att vara avsevärt\n\
+  mindre än 4,7 GB.\n"
+documentation_release_notes: Utgivningsmeddelande
+requirements_rec: Rekommenderat
+vm_images: Virtuell maskin
+cloud_images: Moln
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_p1: "Om du redan kör openSUSE kan du uppgradera genom att starta från\n\
+  DVD/USB och välja uppgradera, eller utföra en \"Online-uppgradering\" med några\
+  \ få\nkommandon.\n"
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_min: Minimum
+requirements_cpu_desc: 2 Ghz dual core processor eller bättre
+requirements_mem_desc: $value fysiskt RAM + extra minne för din arbetsbelastning
+requirements_hdd: Lagring
+requirements_hdd_desc: Över 40 GB ledigt hårddiskutrymme
+requirements_hdd_root: / (root) partition
+requirements_hdd_size_desc: $value tillgängligt diskutrymme
+requirements_hdd_var: /var partition
+requirements_hdd_ssd_info: SSD med hög skrivhastighet
+requirements_dvd_desc: Antingen en DVD-enhet eller USB-port för installationsmediet
+requirements_net: Nätverk
+requirements_net_mac: Unikt värdnamn och MAC-adress för varje nod
+desktop_leap_p1: För Systemadministratörer, företagsutvecklare och "vanliga" datoranvändare
+requirements_net_conn: Full anslutning mellan alla maskiner i klustret
+tw_switch_instructions: Uppgraderingsinstruktioner.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+points_free: Fri programvara? Ditt val
+preconfigured_image: Förkonfigurerad avbild
+software_get: Skaffa programvara
+yast_firewall: Brandvägg
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+desktops: Många skrivbordsmiljöer, tre som standard
+preconfigured_rt_image: Förkonfigurerad realtidsavbild
+yast_fonts: Teckensnitt
+yast_sound: Ljud
+index_p1: För skrivbord, server och allt däremellan
+index_server: Server
+aarch64: UEFI Arm 64-bitarsservrar, stationära datorer, bärbara datorer och enkortsdatorer
+  (aarch64)
+armv7l: UEFI Arm 32-bitarsservrar, stationära datorer, bärbara datorer och enkortsdatorer
+  (armv7l)
+s390x: IBM Z och LinuxONE (s390x)
+overview: Översikt
+download: Ladda ner
+alternative_downloads: Alternativa nedladdningar
+yast_hardware: Hårdvara
+yast_printer: Skrivare
+yast_scanner: Skanner
+zypper: Zypper, din nya favoritpakethanterare
+index: openSUSE distributioner
+desktop_tumbleweed_p1: För utvecklare, openSUSE bidragsgivare, gamers och Linux/FOSS-entusiaster
+server_tumbleweed_p1: För utvecklare, openSUSE bidragsgivare, gamers och Linux/FOSS-entusiaster
+server_leap_p1: För systemadministratörer, företagsutvecklare och "vanliga" serveranvändare
+new_version_available: $distro_name är nu tillgänglig för nedladdning
+x86_64: Intel eller AMD 64-bitars stationära datorer, bärbara datorer och servrar
+  (x86_64)
+i686: Intel eller AMD 32-bitars stationära datorer, bärbara datorer och servrar (i686)
+ppc64le: PowerPC-servrar, inte big-endian (ppc64le)
+Tumbleweed_features:
+  user:
+    name: Enkel att använda
+  shield:
+    name: Säker
+  update:
+    name: Kontinuerligt uppdaterad
+  home:
+    name: Stabil
+  key:
+    name: Säker
+  power:
+    name: Kraftfull
+new_version_testing: $distro_name är nu tillgänglig för nedladdning och testning
+view_distro: Visa $distro_name
+MicroOS_features:
+  idea:
+    name: Filosofi
+  shield:
+    name: Rulla tillbaka
+  key:
+    name: Säkra uppdateringar
+  work:
+    name: Arbetsbelastningar
+  tool:
+    name: Felsökning
+alternative_downloads_desc: Vi har också $options avbilder. Kolla in $alternative_downloads!
+leap_switch_instructions: Online uppgraderingsinstruktioner.
+selfinstalling_images: Självinstallerande avbilder
+kvm_image: KVM och XEN
+hyperv_image: MS HyperV
+vmware_image: VMware
+vmware_vmx_image: VMware VMX
+vagrant_image: Vagrant
+rpi_image: RaspberryPi
+pine_image: Pine64
+openstack_image: OpenStack-Moln
+virtualbox_image: VirtualBox
+installation_images: Installation
+ports_images: Portar
+jeos_images: JeOS
+live_images: Live
+verify_download: Verifiera din nedladdning före användning
