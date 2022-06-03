@@ -107,7 +107,7 @@ requirements_hdd_size_desc: $value доступного места
 requirements_hdd_swap_info: пространство подкачки отключено для правильной работы
   kubernetes
 requirements_hdd_ssd_info: SSD с высокой скоростью записи
-requirements_dvd_desc: Либо DVD-привод, либо USB-порт для установочного носителя
+requirements_dvd_desc: DVD-привод либо USB-порт для установочного носителя
 requirements_net_conn: Полная связь между всеми машинами в кластере
 points_welcoming_p1: "Мы стараемся радовать сообщество. И у нас это отлично получается,\n\
   когда сообщество говорит о том, что ему нужно. Мы убеждены, что вносим свой вклад\n\
