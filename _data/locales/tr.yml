@@ -1,1 +1,54 @@
-{}
+source_code: Kaynak Kodu
+license: Lisans
+cd_desc: CD ve USB bellek için
+torrent_file: Torrent Dosyası
+learn_more: Daha Fazla Bilgi Edinin
+usb_desc: USB bellek için
+pick_mirror: Yansı Seçin
+site_title_short: Edinin
+search: Arama
+metalink: Metalink
+dvd_desc: DVD ve USB bellek için
+checksum: Veri Doğrulama
+offline_image: Çevrimdışı Kurulan İmaj
+translate: Çeviri
+iso_image: ISO kalıbı
+network_image: Ağdan Kurulan İmaj
+site_title: openSUSE Edinin
+site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak indirin
+kde_cd: KDE Çalışan CD
+rescue_cd: Kurtarma İçin Çalışan CD
+site_copyright: © 2021 openSUSE'ye katkı sağlayanlar
+offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım koleksiyonu içerir.\n\
+  Kurulum veya yükseltme için uygundur.\n"
+network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için\
+  \ paket depoları.\nKurulum veya yükseltme için uygundur.\n"
+hyperv_image: MS HyperV
+selfinstalling_images: Otomatik Kurulum İmajı
+kvm_image: KVM ve XEN
+xen_desc: XEN PV sanal makinesi için
+xen_image: XEN
+gnome_cd: GNOME Çalışan CD
+xfce_cd: Xfce Çalışan CD
+live_info: "Lütfen, canlı (çalışan) görüntülerin aşağıdaki sınırlamalarının farkında\
+  \ olun:\n* Çalışan sürümle yükleme veya yükseltme yapmak için kullanılmamalıdır.\
+  \ Lütfen bunun yerine kurulum ortamını tercih edin.\n* Çalışan sürümler sınırlı\
+  \ paketlere ve sürücülere sahiptir, bu nedenle kullandığınız dağıtımın donanımınız\
+  \ üzerinde çalışıp çalışmayacağı konusunda doğru bir bilgi elde edemezsiniz.\n*\
+  \ Çekirdek ve initrd güncellenemez, bu nedenle kalıcı bir kurulum olarak kullanılmamalıdır.\n"
+microos_desc: OpenSuse Tumbleweed tabanlı işletim sistemi için, salt okunur BTRFS
+  kök dosya sistemi üzerinde işlemsel (atomik) güncellemeler sağlayan sürüm
+documentation_startup_guide: OpenSUSE Başlangıç Kılavuzu
+choosing_media: Hangi Medya Kalıbını İndireceğinizi Seçiniz
+documentation: Belgeler
+documentation_license: Lisans
+choosing_media_p1: "Genellikle Çevrimdışı Medya kalıplarını önermekteyiz, çünkü kurulumla\
+  \ ilgili paketler\ndağıtım içerisinde mevcuttur ve kurulum sırasında bir ağ bağlantısı\
+  \ gerektirmez.\n"
+choosing_media_p2: "Sınırlı İnternet bağlantısına ve bant genişliğine sahip kullanıcılar\
+  \ için önerilir.\nSadece yüklemeyi seçtiğiniz paketleri barındırır, \ngenellikle\
+  \ 4.7 GB'dan az bir boyuta sahiptir.\n"
+documentation_release_notes: Sürüm Notları
+leap_switch: openSUSE Leap'e Geçmenin Kolay Yolları
+documentation_license_link: https://tr.opensuse.org/openSUSE:Lisans
+documentation_full_documentation: Tüm Belgeler
