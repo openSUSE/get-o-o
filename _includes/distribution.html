@@ -3,13 +3,6 @@
 <script defer src="/assets/js/app.js"></script>
 <header class="jumbotron jumbotron-fluid bg-{{ distro.bg-color }} text-center pb-0">
   <div class="container text-{{ distro.fg-color }}">
-    {% if site.releases.leap.testing != nil and include.type == "current" %}
-      <div class="alert alert-info d-flex justify-content-between align-items-center">
-      {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.testing].version }} <sup>{{ site.releases.leap[site.releases.leap.testing].state }}</sup>{% endcapture %}
-      <span>{{ locale.new_version_testing | replace: '$distro_name', distro_name }}</span>
-      <a class="btn btn-info" href="{{ '/testing/' | prefix_locale }}">{{ locale.learn_more }}</a>
-      </div>
-    {% endif %}
     {% if include.type == "legacy" %}
       <div class="alert alert-danger d-flex justify-content-between align-items-center">
       {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.current].version }}{% endcapture %}
