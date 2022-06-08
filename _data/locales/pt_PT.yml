@@ -52,7 +52,7 @@ verify_download: Verifique a Sua Transferência Antes de Usar
 verify_download_checksums_help: Ajuda Checksums
 verify_download_checksums_help_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Verifica.C3.A7.C3.A3o_de_somas
 index_desktop: Computador
-site_copyright: © 2021 Contribuidores do openSUSE
+site_copyright: © 2022 Contribuidores do openSUSE
 requirements_hdd_swap_info: Espaço de SWAP desativado para que o Kubernetes funcione
   corretamente
 requirements_hdd_ssd_info: SSD de elevada frequência de escrita
