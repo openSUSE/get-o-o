@@ -208,3 +208,33 @@ x86_64: Desktops, Laptops und Server mit Intel- oder AMD-64-bit (x86_64)
 view_distro: $distro_name ansehen
 new_version_testing: $distro_name ist jetzt zum Herunterladen und Testen verfügbar
 new_version_available: $distro_name ist jetzt zum Herunterladen verfügbar
+iso_image: ISO-Image
+site_title_short: Bekommen
+site_title: Bekomme openSUSE
+live_info: "Sei Dir der folgenden Einschränkungen der Live Images bewusst:\n* Sie\
+  \ sind nicht zur Installation oder als Upgrade-Medium bestimmt. Nutze stattdessen\
+  \ die Installationsmedien.\n* Sie beinhalten nur eine begrenzte Auswahl an Treibern,\
+  \ so dass eine genaue Aussage, ob das System auf Deiner Hardware lauffähig ist.\n\
+  * Kernel  und initrd können nicht auf neuere Versionen geupdatet werden. Das Livesystem\
+  \ sollte nicht für den dauerhaften Gebrauch genutzt werden.\n"
+cloud_images: Cloud
+selfinstalling_images: Selbst-installierende Images
+selfinstalling_ch_image: Selbst-installierender Container-Host
+selfinstalling_k3s_image: Selbst-installierender k3s-Host
+kvm_ch_image: KVM und XEN Container-Host
+hyperv_ch_image: MS HyperV Container-Host
+vmware_ch_image: VMware Container-Host
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX Container-Host
+vagrant_image: Vagrant
+vagrant_ch_image: Vagrant Container-Host
+rpi_image: RaspberryPi
+rpi_ch_image: RaspberryPi Container-Host
+pine_image: Pine64
+pine_ch_image: Pine64 Container-Host
+openstack_ch_image: OpenStack-Cloud-Container-Host
+virtualbox_image: VirtualBox
+jeos_info: Für Arm JeOS-Images, gehen Sie bitte zur <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  Wiki Seite</a>
+vm_images: Virtuelle Maschine
+hardware_images: Hardware
