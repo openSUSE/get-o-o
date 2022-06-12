@@ -203,7 +203,7 @@ MicroOS_features:
     description: "### MicroOS 是个不可变的操作系统，可轻松回滚\n* 不可变：磁盘上不会有更改\n* 可重启到旧的 BTRFS 快照来回滚\n"
     name: 回滚
   idea:
-    description: "### 可预测\n* 运行期间不会更改\n* 每次启动运行的项目都将一致\n\n### 可扩展Is scalable\n* 运行期间无需费力配置每个实例\n\
+    description: "### 可预测\n* 运行期间不会更改\n* 每次启动运行的项目都将一致\n\n### 可扩展\n* 运行期间无需费力配置每个实例\n\
       * 可以轻松地重复部署并可预测效果\n\n### 可靠\n* 可从错误更新中自动恢复\n"
     name: 哲学
 alternative_downloads_desc: 我们也提供 $options 映像。请查看 $alternative_downloads！
