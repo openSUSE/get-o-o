@@ -24,13 +24,15 @@
 }
 
 .bg-wallpaper {
-  background: url('/assets/images/wallpaper.jpg') bottom right no-repeat;
+  background: url('/assets/images/backgrounds/wallpaper.jpg') bottom right no-repeat;
   background-size: cover;
   background-color: #0b212e;
 }
 
 .bg-server {
-  background-color: black;
+  background: url('/assets/images/backgrounds/server-bg.jpg') bottom right no-repeat;
+  background-size: cover;
+  background-color: #06140d;
 }
 
 .bg-tumbleweed-tint {
