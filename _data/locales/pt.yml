@@ -205,3 +205,8 @@ server_microos_p1: Para servidores de propósito único
 server_microos_p2: Desenhado para alojar cargas de trabalho em contentores com administração
   & consertos automatizados
 server_microos_view: Ver o MicroOS
+selfinstalling_images: Imagens auto-instaláveis
+selfinstalling_ch_image: Anfitrião de contentores auto-instaláveis
+jeos_info: Para Imagens ARM do JeOS, vá à <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
+  wiki sobre ARM</a>
+live_info: ''
