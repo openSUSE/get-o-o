@@ -167,3 +167,44 @@ ports_images: Portar
 jeos_images: JeOS
 live_images: Live
 verify_download: Verifiera din nedladdning före användning
+verify_download_p2: "För varje ISO erbjuder vi en kontrollsummafil med motsvarande\
+  \ SHA256-summa.\n"
+points_welcoming: Välkomnar bidrag
+kvm_ch_image: KVM och XEN behållare värd
+requirements_hdd_swap_info: swap utrymme inaktiverad för att Kubernetes ska fungera
+  korrekt
+requirements_net_desc: Internetåtkomst hjälpsamt och krävs för nätverksinstallatören
+verify_download_help: För mer hjälp med att verifiera din nedladdning, vänligen läs
+software: Skaffa programvara kunde inte vara enklare
+yast: YaST, det bästa valet för ~ ~ expert ~ ~ -användaren
+index_server_p1: Val av distributioner för serveranvändning
+index_full: Eller gå direkt till nedladdningssidorna för distributionerna
+desktop: openSUSE Skrivbordsdistributioner
+desktop_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls av
+  OpenSUSE projektet.
+server: openSUSE Server distributioner
+server_p1: "Fyra bekvämt tråkiga distributioner, hur det alltid borde vara\n"
+server_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls av
+  OpenSUSE projektet.
+tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta från\n\
+  DVD/USB och välja uppgradera, eller genomföra en \"online -uppgradering\" med några\
+  \ få\nkommandon.\n"
+verify_download_p1: "Många program kan verifiera kontrollsumman för en nedladdning.\
+  \ Att verifiera\nDin nedladdning kan vara viktig eftersom det verifierar att du\
+  \ verkligen har fått den\nISO-fil du ville ladda ner och inte någon trasig version.\n"
+verify_download_p3: "För extra säkerhet kan du använda GPG för att verifiera vem som\
+  \ signerade dessa .sha256 -filer.\n"
+verify_download_pubkey: Det ska vara
+points_transparent: Allting är transparent
+index_desktop_p1: Val av distributioner för skrivbordsanvändning
+selfinstalling_ch_image: Självinstallerande Behållare värd
+selfinstalling_k3s_image: Självinstallerande k3s värd
+kvm_desc: För användning i KVM eller XEN HVM hypervisorer
+xen_desc: För användning i XEN PV hypervisorer
+hyperv_ch_image: MS HyperV behållare värd
+vmware_ch_image: VMware behållare värd
+vmware_vmx_ch_image: VMware VMX behållare värd
+vagrant_ch_image: Vagrant behållare värd
+rpi_ch_image: RaspberryPi behållare värd
+pine_ch_image: Pine64 behållare värd
+openstack_ch_image: Openstack-Moln behållare värd
