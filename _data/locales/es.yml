@@ -352,3 +352,12 @@ alternative_downloads: Descargas alternativas
 overview: Descripción
 jeos_info: Para imágenes de JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
   página wiki de Arm</a>
+selfinstall_image: Imagen auto instalable
+preconfigured_image: Imagen preconfigurada
+selfinstalling_images: Imágenes auto instalables
+live_info: "Por favor tenga en cuenta las siguientes de las imágenes en vivo:\n* No\
+  \ se deberían usar para instalar o actualizar. Por favor use en su lugar los medios\
+  \ de instalación\n* Tienen una selección de paquetes y controladores limitada, por\
+  \ tanto no se deben considerar como indicación de que la distribución funcionará\
+  \ o no en su hardware\n* El kernel e initrd no se pueden actualizar, por tanto no\
+  \ se deberían usar como una instalación persistente\n"
