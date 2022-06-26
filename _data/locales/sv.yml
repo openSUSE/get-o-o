@@ -107,7 +107,7 @@ aarch64: UEFI Arm 64-bitarsservrar, stationära datorer, bärbara datorer och en
   (aarch64)
 armv7l: UEFI Arm 32-bitarsservrar, stationära datorer, bärbara datorer och enkortsdatorer
   (armv7l)
-s390x: IBM Z och LinuxONE (s390x)
+s390x: IBM zSystems och LinuxONE (s390x)
 overview: Översikt
 download: Ladda ner
 alternative_downloads: Alternativa nedladdningar
