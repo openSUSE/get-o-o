@@ -200,7 +200,7 @@ desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklun
   \ können.\nWir heben aktiv drei Desktopumgebungen hervor und bieten noch mehr in\
   \ der erweiterten\nSoftwareliste im Installationsprogramm an.\n"
 yast: YaST, die beste Wahl für den ~~erfahrenen~~ Benutzer
-s390x: IBM Z und LinuxONE (s390x)
+s390x: IBM zSystems und LinuxONE (s390x)
 ppc64le: Server mit PowerPC, nicht big-endian (ppc64le)
 aarch64: Desktops, Laptops und Server mit Arm-64-bit und UEFI (aarch64)
 i686: Desktops, Laptops und Server mit Intel- oder AMD-32-bit (i686)
