@@ -261,7 +261,7 @@ i686: Intel or AMD 32-bit desktops, laptops, and servers (i686)
 aarch64: UEFI Arm 64-bit servers, desktops, laptops and boards (aarch64)
 armv7l: UEFI Arm 32-bit servers, desktops, laptops and boards (armv7l)
 ppc64le: PowerPC servers, not big-endian (ppc64le)
-s390x: IBM Z and LinuxONE (s390x)
+s390x: IBM zSystems and LinuxONE (s390x)
 overview: Overview
 download: Download
 alternative_downloads: Alternative Downloads

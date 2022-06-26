@@ -295,7 +295,7 @@ MicroOS_features:
       \ уничтожение старого)\n* Простое восстановление\n"
 armv7l: 32-битные UEFI Arm десктопы, ноутбуки, серверы и одноплатные компьютеры (armv7l)
 ppc64le: PowerPC серверы, кроме big-endian (ppc64le)
-s390x: IBM Z и LinuxONE (s390x)
+s390x: IBM zSystems и LinuxONE (s390x)
 Tumbleweed_features:
   update:
     name: Постоянно обновляется

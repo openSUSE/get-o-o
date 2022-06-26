@@ -204,7 +204,7 @@ i686: 32-bitové stolné a prenosné počítače a servery s Intel or AMD (i686)
 aarch64: 64-bitové servery, stolné a prenosné počítače a jednodoskové počítače UEFI
   Arm (aarch64)
 ppc64le: Servery PowerPC, nie big-endian (ppc64le)
-s390x: IBM Z a LinuxONE (s390x)
+s390x: IBM zSystems a LinuxONE (s390x)
 openstack_ch_image: Hostiteľ kontajnera OpenStack-Cloud
 pine_ch_image: Hostiteľ kontajnera Pine64
 rpi_ch_image: Hostiteľ kontajnera RaspberryPi

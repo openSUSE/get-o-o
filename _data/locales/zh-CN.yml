@@ -151,7 +151,7 @@ x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（x86_64）
 i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
 aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
 ppc64le: PowerPC 服务器，非大端（ppc64le）
-s390x: IBM Z 和 LinuxONE（s390x）
+s390x: IBM zSystems 和 LinuxONE（s390x）
 Tumbleweed_features:
   plant:
     description: "Tumbleweed 的建立，基于不想破坏自己工作流程的高级用户、开发者、系统管理员和苛刻的执行者数十年的使用、测试和调试。Tumbleweed\

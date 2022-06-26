@@ -211,7 +211,7 @@ x86_64: PCs, laptops e servidores Intel ou AMD 64-bits (x86_64)
 i686: PCs, laptops e servidores Intel ou AMD 32-bits (i686)
 aarch64: PCs, laptops, placas e servidores UEFI ARM 64-bits (aarch64)
 ppc64le: Servidores PowerPC, não big-endian (ppc64le)
-s390x: IBM Z e LinuxONE (s390x)
+s390x: IBM zSystems e LinuxONE (s390x)
 Tumbleweed_features:
   user:
     name: Simples de usar

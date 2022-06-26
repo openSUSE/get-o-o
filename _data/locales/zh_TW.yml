@@ -186,7 +186,7 @@ alternative_downloads_desc: 我們也提供 $options 映像檔。請查看 $alte
 alternative_downloads: 其他下載
 download: 下載
 overview: 概觀
-s390x: IBM Z 以及 LinuxONE (s390x)
+s390x: IBM zSystems 以及 LinuxONE (s390x)
 ppc64le: PowerPC 伺服器，非 big-endian (ppc64le)
 armv7l: UEFI Arm 32 位元伺服器、桌上型電腦、筆記型電腦以及單板電腦 (armv7l)
 aarch64: UEFI Arm 64 位元伺服器、桌上型電腦、筆記型電腦以及單板電腦 (aarch64)

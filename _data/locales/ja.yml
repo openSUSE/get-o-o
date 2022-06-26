@@ -169,7 +169,7 @@ x86_64: Intel/AMD 64 ビットプロセッサ (x86_64, デスクトップ／ラ�
 i686: Intel/AMD 32 ビットプロセッサ (i686, デスクトップ／ラップトップ／サーバ)
 aarch64: UEFI ARM 64 ビットプロセッサ (aarch64, サーバ／デスクトップ／ラップトップ／シングルボードコンピュータ)
 ppc64le: PowerPC プロセッサ (ppc64le, 非ビッグエンディアンサーバ)
-s390x: IBM Z および LinuxONE (s390x)
+s390x: IBM zSystems および LinuxONE (s390x)
 Tumbleweed_features:
   update:
     name: 継続的な更新

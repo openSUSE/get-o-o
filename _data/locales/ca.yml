@@ -214,7 +214,7 @@ i686: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 32 bit
 aarch64: Servidors, ordinadors de sobretaula, portàtils i tauletes de 64 bits amb
   UEFI Arm (aarch64)
 ppc64le: Servidors PowerPC, no ordre dels bytes gran-petit (ppc64le)
-s390x: IBM Z i LinuxONE (s390x)
+s390x: IBM zSystems i LinuxONE (s390x)
 Tumbleweed_features:
   plant:
     description: "El Tumbleweed es basa en dècades d’ús, proves i depuració de centenars\

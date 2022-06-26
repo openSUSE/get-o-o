@@ -201,4 +201,4 @@ x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit (
 i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit (i686)
 aarch64: Komputery stacjonarne, laptopy i płyty oparte o UEFI Arm 64-bit (aarch64)
 ppc64le: Serwery oparte o PowerPC, nie duży endian (ppc64le)
-s390x: IBM Z i LinuxONE (s390x)
+s390x: IBM zSystems i LinuxONE (s390x)
