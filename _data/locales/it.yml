@@ -315,3 +315,10 @@ rpi_ch_image: RaspberryPi Container Host
 server_microos_p1: Per applicazioni server a scopo singolo
 server_microos_p2: Progettato per ospitare carichi di lavoro di container con amministrazione
   e patch automatizzate
+live_info: "Si deve essere consapevoli delle seguenti limitazioni delle immagini live:\n\
+  * non dovrebbero essere usate per installazioni o per aggiornamenti. Utilizzare\
+  \ invece il supporto per l'installazione\n* hanno un numero di pacchetti limitato,\
+  \ oltre a una selezione di driver limitata. Non dovrebbero quindi essere considerate\
+  \ una riflessione accurata sul fatto che la distribuzione funzioni o meno sull'hardware\n\
+  * Kernel e initrd non possono messere aggiornati, quindi non dovrebbero essere usate\
+  \ come un'installazione persistente\n"
