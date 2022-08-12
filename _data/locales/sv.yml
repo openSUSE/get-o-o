@@ -208,3 +208,6 @@ vagrant_ch_image: Vagrant behållare värd
 rpi_ch_image: RaspberryPi behållare värd
 pine_ch_image: Pine64 behållare värd
 openstack_ch_image: Openstack-Moln behållare värd
+ports_info: "Portar för openSUSE Leap till andra arkitekturer än PC är\nupprätthålls\
+  \ av separata gemenskapsteam, med begränsade resurser.\n"
+site_description: Lär dig mer om openSUSE-distributionerna och ladda ner dem gratis
