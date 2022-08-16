@@ -66,19 +66,20 @@ end
 
 # Generates pages for number releases from `_layouts`
 class ReleasePage < Jekyll::Page
-  def initialize(site, distro, version, lang)
+  def initialize(site, distro, version)
     @site = site
     @ext = '.html'
     @name = "_layouts/#{distro.delete('_')}#{ext}"
+    @relative_path = generate_permalink(distro, version) + 'index.html'
     super(site, site.source, '', name)
 
-    self.data = populate_data(distro, version, lang)
+    self.data = populate_data(distro, version)
   end
 
-  def populate_data(distro, version, lang)
+  def populate_data(distro, version)
     data = {}
     data['layout'] = distro.delete('_')
-    data['permalink'] = generate_permalink(distro, version, lang)
+    data['permalink'] = generate_permalink(distro, version)
     return data unless File.exist?("_data/#{version.nodot}.yml")
 
     name = load_yaml(version.nodot)['name']
@@ -87,9 +88,8 @@ class ReleasePage < Jekyll::Page
     data.merge(fetch_versions_data(distro, version))
   end
 
-  def generate_permalink(distro, version, lang)
+  def generate_permalink(distro, version)
     permalink = '/'
-    permalink += "#{lang}/" if lang && lang != 'en'
     permalink += "#{distro.delete('_')}/#{version}/"
     permalink
   end
@@ -115,12 +115,10 @@ class ReleasePage < Jekyll::Page
   end
 end
 
-Jekyll::Hooks.register :site, :post_read do |site|
+Jekyll::Hooks.register :site, :after_reset do |site|
   fetch_versions.each do |type, release|
     release.each do |_version, hash|
-      site.locale_handler.available_locales.each do |lang|
-        site.pages << ReleasePage.new(site, type, hash['version'], lang)
-      end
+      site.pages << ReleasePage.new(site, type, hash['version'])
     end
   end
 end
