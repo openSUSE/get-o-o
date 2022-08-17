@@ -48,12 +48,12 @@ documentation_full_documentation: Pełna Dokumentacja
 leap_switch: Łatwe sposoby by przerzucić się na openSUSE Leap
 leap_switch_instructions: Instrukcje aktualizacji sieciowej.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Rekomendowane wymagania sprzętowe
-requirements_cpu: 2 GHz dwurdzeniowy procesor lub lepszy
-requirements_mem: 2 GB pamięci systemowej
+requirements: Wymagania sprzętowe
+requirements_cpu: Procesor
+requirements_mem: Pamięć operacyjna
 requirements_hd: Ponad 40GB wolnego miejsca na dysku twardym
 requirements_dvd: Napęd DVD lub port USB na medium instalacyjne
-requirements_net: Połączenie sieciowe jest przydatne, ale wymagane do Instalacji Sieciowej
+requirements_net: Sieć
 tw_switch: Łatwe sposoby by przerzucić się na openSUSE Tumbleweed
 tw_switch_instructions: Instrukcje aktualizacji.
 tw_switch_instructions_link: https://pl.opensuse.org/openSUSE:Aktualizacja_do_Tumbleweed
@@ -90,14 +90,14 @@ usb_desc: Na pamięć USB
 pick_mirror: Wybierz serwer lustrzany
 checksum: Suma kontrolna
 torrent_file: Plik torrent
-offline_image: Obraz offline
-choosing_media_p1: "Obraz na płytę DVD/pamięć USB jest zwykle rekomendowany, ponieważ\
-  \ zawiera on większość\npaczek dostępnych w dystrybucji i nie wymaga połączenia\
-  \ z siecią w czasie instalacji.\n"
-choosing_media_p2: "Obraz sieciowy na płytę CD/pamięć USB jest rekomendowany dla użytkowników,\
-  \ którzy mają ograniczoną\nprzepustowość łącza internetowego, ponieważ pobiera on\
-  \ tylko paczki wybrane w czasie instalacji, co w\nwiększości wypadków będzie zdecydowanie\
-  \ mniej niż 4.7GB\n"
+offline_image: Obraz bezsieciowy
+choosing_media_p1: "Obraz bezsieciowy jest zwykle rekomendowany, ponieważ zawiera\
+  \ on większość\npaczek dostępnych w dystrybucji i nie wymaga połączenia z siecią\
+  \ w czasie instalacji.\n"
+choosing_media_p2: "Obraz sieciowy jest rekomendowany dla użytkowników, którzy mają\
+  \ ograniczoną\nprzepustowość łącza internetowego, ponieważ pobiera on tylko paczki\
+  \ wybrane w czasie instalacji, co w\nwiększości wypadków będzie zdecydowanie mniej\
+  \ niż 4.7GB.\n"
 leap_switch_p1: "Jeśli już korzystasz z openSUSE, możesz zaaktualizować poprzez uruchomienie\n\
   wypalonego obrazu na płycie DVD/pamięci USB i wybranie opcji aktualizacji,\nlub\
   \ przeprowadzenie 'Aktualizacji przez Internet' w kilku komendach.\n"
@@ -114,7 +114,7 @@ installation: Pobierz tak jak chcesz
 installation_p1: "Proces instalacji openSUSE daje Ci wszystkie opcje jakie tylko potrzebujesz.\
   \ Chcesz zainstalować system za pomocą myszki i klawiatury? Załaduj instalator w\
   \ trybie graficznym. Nie masz myszki pod ręką? Uruchom tryb tekstowy i zainstaluj\
-  \ w ten sposób. Masz tylko fizyczny dostęp do maszyny? Połącz się z instalatorem\
+  \ w ten sposób. Nie masz fizycznego dostępu do maszyny? Połącz się z instalatorem\
   \ sieciowo i rozpocznij instalację. To takie proste.\n"
 points_transparent: Wszystko jest przeźroczyste
 points_transparent_p1: "Od początku do końca, każda paczka która trafia do dystrybucji\
@@ -199,6 +199,153 @@ new_version_testing: $distro_name jest teraz dostępne do pobrania i testowania
 view_distro: Zobacz $distro_name
 x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit (x86_64)
 i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit (i686)
-aarch64: Komputery stacjonarne, laptopy i płyty oparte o UEFI Arm 64-bit (aarch64)
+aarch64: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 64-bit
+  (aarch64)
 ppc64le: Serwery oparte o PowerPC, nie duży endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
+kvm_ch_image: Host kontenera KVM i XEN
+hyperv_ch_image: Host kontenera MS HyperV
+requirements_net_mac: Unikalna nazwa hosta i adres MAC dla każdej maszyny
+MicroOS_features:
+  idea:
+    description: "### Jest przewidywalny\n* Nie zmienia się w trakcie działania\n\
+      * Będzie uruchamiał te same wersje konsekwentnie za każdym uruchomieniem\n\n\
+      ### Skaluje się\n* Usuwa potrzeby próby konfiguracji indywidualnych instancji\
+      \ w trakcie działania\n* Może być wdrożony łatwo i wielokrotnie z przewidywalnym\
+      \ skutkiem\n\n### Jest niezawodny\n* Automatyczne wycofanie po nieudanych aktualizacjach\n"
+    name: Filozofia
+  update:
+    name: Aktualizacje atomiczne
+    description: "### Aktualizacje tranzakcyjne\n\n#### Unikalny\nPoprzez użycie btrfs\
+      \ z migawkami, MicroOS używa miejsca\noszczędnie by gromadzić historię systemu\
+      \ plików. Cała konfiguracja\nplików w `/etc` jest częścią migawek i przywracania.\n\
+      \n#### Elastyczny\n* Nie używa się żadnego nowego formatu, a standardowe pliki\
+      \ RPM openSUSE\n* Nie ma ograniczeń miejsca, ani na partycje ani na system operacyjny\n\
+      * Łatwy do ulepszania\n"
+  shield:
+    name: Przywracanie
+    description: "### MicroOS jest niezmiennym systemem operacyjnym, przywracanie\
+      \ jest proste\n* Niezmienny: Żadnych zmian na dysku\n* Przywracanie poprzez\
+      \ uruchamianie ponownie do starej migawki btrfs\n"
+  key:
+    description: "* Pobierz aplikacje przez HTTPS\n* Paczki i repozytoria podpisane\
+      \ przez nasz system budujący paczki\n* Paczki są weryfikowane\n* Żadne aktualizacje\
+      \ nie są wykonywane w wypadku konfliktów zależności\n* Brak straty miejsca:\
+      \ Migawki systemu plików są usuwane w wypadku nieudanych aktualizacji\n"
+    name: Aktualizacje bezpieczeństwa
+  work:
+    name: Obciążenia
+    description: "Aplikacje są instalowane w kontenerach zamiast na głównym systemie\
+      \ plików:\n* Odizolowane od podstawy systemu plików\n* Zmniejszona możliwość\
+      \ dla złośliwych aplikacji na narażenie systemu\n* Nowa instalacja bez restartu\n\
+      * Możliwość aktualizacji w atomiczny sposób (stwórz nowy, zabij stary)\n* Łatwe\
+      \ przywracanie\n"
+  tool:
+    description: "### Kontener Toolbox do debugowania\n* Uruchamia uprzywilejowany\
+      \ kontener\n* Główny system plików dostępny pod `/media/root`\n* Zypper do instalowania\
+      \ potrzebnych narzędzi, dostępny bez restartu\n* Niezmienny między użyciami\n"
+    name: Debugowanie
+Tumbleweed_features:
+  knife:
+    name: Wiodący
+    description: "Dostajesz częste aktualizacje które nie dość że adresują luki i\
+      \ naprawiają błędy, ale również odzwierciedlają najnowsze funkcje i rozwój,\
+      \ jak świeży kernel, świeże sterowniki i najnowsze wersje środowisk graficznych.\n"
+  home:
+    name: Stabilny
+    description: "Aktualizacje są dokładnie testowane z branżowej klasy standardami\
+      \ jakości, wykorzystując serwis budowania paczek, pozazdroszczony przez inne\
+      \ dystrybucje Linuksa. Nie dość że każda nowa wersja paczek jest indywidualnie\
+      \ testowana, to różne wersje są testowane wobec siebie, upewniając się że twój\
+      \ system jest wewnętrznie spójny.\n"
+  user:
+    name: Łatwy w użytku
+    description: "Jedną komendą jesteś w stanie zaktualizować tysiące paczek, przywrócić\
+      \ do migawki z poprzedniego tygodnia, przewinąć z powrotem do przodu a nawet\
+      \ sprawdzić przyszłe wydania.\n"
+  cpu:
+    name: Wspaniale współgra z twoim sprzętem
+    description: "Dzięki swojemu wiodącej naturze i dokładnemu przetestowaniu, Tumbleweed\
+      \ służy twojemu sprzętowi i urządzeniom jak niewiele innych dystrybucji Linuksa,\
+      \ sprawiając że jest wspaniałym wyborem dla stacji roboczych, laptopów i notebooków.\n"
+  key:
+    description: "Gdyby stało się coś niepożądanego, możesz zawsze przywrócić do poprzedniego\
+      \ stanu i znaleźć swoje pliki i programy tak jak były tuż przed wyboistą aktualizacją.\n"
+    name: Bezpieczny
+  power:
+    name: Potężny
+    description: "Wykorzystując technologie z których openSUSE jest znane, takie jak\
+      \ system plików `Btrfs`, komenda `snapper`, jak i również sprawdzony \"panel\
+      \ sterowania\" `YaST`, Tumbleweed umożliwia Ci na pełną kontrolę nad twoim systemem,\
+      \ pozwalając Tobie zdefiniować ustawienia które chcesz jak najszybciej. Nie\
+      \ musisz już martwić się o Twój system przeszkadzający Ci w twojej pracy.\n"
+  shield:
+    name: Bezpieczny
+    description: "Zbudowany z najnowszych wersji kernela, skompilowany z najnowszymi\
+      \ łatkami łagodzącymi efekty Spectre / Meltdown, z zaporą sieciową i mocnymi\
+      \ zasadami bezpieczeństwa włączonymi domyślnie, twoje bezpieczeństwo jest zapewnione\
+      \ od razu.\n"
+  update:
+    name: Stale aktualizowany
+    description: "Instalujesz go raz i cieszysz się z niego zawsze. Nie musisz już\
+      \ martwić się o gigantyczne aktualizacje systemu co sześć miesięcy, którymi\
+      \ ryzykujesz rozwalenie swojego systemu.\n"
+  plant:
+    name: Stoi na twardym podłożu
+    description: "Tumbleweed buduje na dekadach użytkowania, testowania i debugowania\
+      \ przez setki zaawansowanych użytkowników, deweloperów, administratorów systemów\
+      \ i wymagających użytkowników, którzy nie mogą pozwolić sobie na narażenie swojej\
+      \ pracy. Solidność Tumbleweeda jest wcielona w wielu podstawowych paczkach których\
+      \ DNA pochodzi z doświadczonego SUSE Linux Enterprise Server.\n"
+selfinstalling_ch_image: Samo instalujący się host kontenera
+vmware_ch_image: Host kontenera VMware
+vmware_vmx_image: VMware VMX
+vagrant_image: Vagrant
+vagrant_ch_image: Host kontenera Vagrant
+rpi_image: RaspberryPi
+rpi_ch_image: Host kontenera RaspberryPi
+pine_image: Pine64
+pine_ch_image: Host kontenera Pine64
+virtualbox_image: VirtualBox
+vm_images: Maszyna wirtualna
+cloud_images: Chmura
+hardware_images: Sprzęt
+iso_image: Plik ISO
+requirements_hdd_var: partycja /var
+requirements_hdd_swap_info: miejsce swap wyłączone by kubernetes działało poprawnie
+selfinstalling_images: Samo instalujące się obrazy
+selfinstalling_k3s_image: Samo instalujący się Host k3s
+vmware_vmx_ch_image: Host kontenera VMware VMX
+openstack_ch_image: Host kontenera OpenStack-Cloud
+jeos_info: By znaleźć obrazy Arm JeOS, odwiedź <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">stronę
+  wiki o Arm</a>
+live_info: "Proszę bądź świadomy poniższych limitacji obrazów Live:\n* Nie powinny\
+  \ one być używane do instalacji lub aktualizacji. W zamian, użyj obrazów instalacyjnych\n\
+  * Mają ograniczoną selekcję paczek i sterowników, więc nie mogą być brane pod uwagę\
+  \ jako dokładne odzwierciedlenie tego czy dystrybucja będzie działa na danym sprzęcie\n\
+  * Kernel i initrd nie mogą być aktualizowane, więc nie powinny być używane jako\
+  \ stała instalacja\n"
+requirements_dvd_desc: Dysk DVD lub port USB na obraz instalacyjny
+download: Pobierz
+alternative_downloads_desc: Mamy również obrazy $options. Sprawdź $alternative_downloads!
+requirements_min: Minimalne
+requirements_cpu_desc: Dwurdzeniowy procesor o taktowaniu 2 GHz lub lepszy
+requirements_mem_desc: $value fizycznej pamięci RAM + dodatkowa pamięć dla twojego
+  obciążenia
+requirements_hdd_desc: Ponad 40GB wolnego miejsca na dysku pamięci
+requirements_hdd_size_desc: $value dostępnego miejsca na dysku
+requirements_net_conn: Pełne połączenie pomiędzy maszynami w grupie
+preconfigured_image: Obrazy prekonfigurowane
+preconfigured_rt_image: Obrazy prekonfigurowane RealTime
+requirements_hdd: Pamięć stała
+requirements_hdd_root: partycja / (root)
+requirements_hdd_ssd_info: dysk SSD wysokiej klasy prędkości
+requirements_net_desc: Połączenie z internetem jest przydatne, a wymagane dla instalacji
+  sieciowej
+armv7l: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 32-bit
+  (armv7l)
+alternative_downloads: Alternatywne opcje pobierania
+requirements_rec: Rekomendowane
+selfinstall_image: Obrazy samo instalujące się
+selfinstall_rt_image: Obrazy samo instalujące się RealTime
+overview: Przegląd
