@@ -3,12 +3,24 @@
 <script defer src="/assets/js/app.js"></script>
 <header class="jumbotron jumbotron-fluid bg-{{ distro.bg-color }} text-center pb-0">
   <div class="container text-{{ distro.fg-color }}">
-    {% if include.type == "legacy" %}
-      <div class="alert alert-danger d-flex justify-content-between align-items-center">
-      {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.current].version }}{% endcapture %}
-      <span>{{ locale.new_version_available | replace: '$distro_name', distro_name }}</span>
-      <a class="btn btn-danger" href="{{ '/leap/' | prefix_locale }}">{{ locale.learn_more }}</a>
-      </div>
+    {% if distro.version %}
+      {% assign distro_id = distro.name | downcase | replace: ' ', '_' %}
+      {% if site.releases[distro_id].testing and include.type == "current" %}
+        <div class="alert alert-info d-flex justify-content-between align-items-center">
+        {% assign testing = site.releases[distro_id].testing %}
+        {% capture distro_name %}{{ distro.name }} {{ site.releases[distro_id][testing].version }} <sup>{{ site.releases[distro_id][testing].state }}</sup>{% endcapture %}
+        <span>{{ locale.new_version_testing | replace: '$distro_name', distro_name }}</span>
+        <a class="btn btn-info" href="{{ '/testing/' | prefix_locale }}">{{ locale.learn_more }}</a>
+        </div>
+      {% endif %}
+      {% if include.type == "legacy" %}
+        <div class="alert alert-danger d-flex justify-content-between align-items-center">
+        {% assign current = site.releases[distro_id].current %}
+        {% capture distro_name %}{{ distro.name }} {{ site.releases[distro_id][current].version }}{% endcapture %}
+        <span>{{ locale.new_version_available | replace: '$distro_name', distro_name }}</span>
+        <a class="btn btn-danger" href="{{ distro.name | downcase | delete: ' ' | prefix_locale }}">{{ locale.learn_more }}</a>
+        </div>
+      {% endif %}
     {% endif %}
     <div class="page-heading pb-5">
         <div class="m-auto distribution-logo">

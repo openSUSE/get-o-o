@@ -51,10 +51,10 @@ class Releases
   def append_state
     # Add info on which version is current and which is testing
     @site.config['releases'].each do |name, hash|
-      %w[testing current].each do |state|
+      STATE.each do |state|
         val = STATE.index(state)
         val -= 1 if hash.values[0]['state'] == 'Stable'
-        @site.config['releases'][name][state] = hash.values[val]['version'].to_s.delete!('.')
+        @site.config['releases'][name][state] = hash.values[val]['version'].to_s.delete!('.') if val >= 0
       end
     end
   end
