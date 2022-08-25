@@ -55,7 +55,9 @@ ports_info: |
   Ports of openSUSE Leap to architectures other than the PC are
   maintained by separate community teams, with limited resources.
 jeos_images: JeOS
+minimal-vm_images: Minimal-VM Formely known as JeOS
 jeos_info: For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
+minimal-vm_info: Minimal-VM images, similar to the SUSE Linux Enterprise Server Minimal-VM>
 live_images: Live
 vm_images: Virtual Machine
 cloud_images: Cloud
