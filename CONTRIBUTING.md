@@ -64,11 +64,6 @@ and visit <http://127.0.0.1:4000/> to see it in your browser
 # How to update the data on the site
 Various parts of this site are stored as data used for generation of pages. This section of the guide explains how to update those.
 
-## Blog
-Pages for the blog are stored under `_posts` directory.
-
-To create a new post, create a file called `yyyy-mm-dd-kebab-case-title.md`, replacing the parts to fit the contents, and fill it out as lined out below:
-
 ## Releases
 Release information is stored in `_data/leap.yml` and `_data/leapmicro.yml`
 
