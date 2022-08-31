@@ -21,8 +21,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso.torrent
     - name: network_image
       desc: network_desc
       primary_link: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso
@@ -33,8 +33,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso.torrent
   - name: aarch64
     types:
     - name: offline_image
@@ -47,8 +47,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso.torrent
     - name: network_image
       desc: network_desc
       primary_link: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso
@@ -59,8 +59,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso.torrent
   - name: ppc64le
     types:
     - name: offline_image
@@ -73,8 +73,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso.torrent
     - name: network_image
       desc: network_desc
       primary_link: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso
@@ -85,8 +85,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso.torrent
   - name: s390x
     types:
     - name: offline_image
@@ -99,8 +99,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso.torrent
     - name: network_image
       desc: network_desc
       primary_link: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso
@@ -111,8 +111,8 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso?mirrorlist
       - name: checksum
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.sha256
-      - name: torrent_file
-        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.torrent
+#      - name: torrent_file
+#        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.torrent
 - name: jeos_images
   info: jeos_info
   display: server
