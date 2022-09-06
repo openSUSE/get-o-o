@@ -9,7 +9,7 @@
     {{ locale[type.name] }}
     {% if size %}
       <span class="text-muted"{% if type.short %} title="{{ locale[type.short] }}"{% elsif short %} title="{{ locale[short] }}"{% endif %}>
-        ({% humansize %}{{ size }}{% endhumansize %})
+        {% if size > 0 %}({% humansize %}{{ size }}{% endhumansize %}){% endif %}
       </span>
     </span>
     {% endif %}
