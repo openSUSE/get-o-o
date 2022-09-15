@@ -102,8 +102,8 @@ verify_download_p1: "Kontrolný súčet sťahovania môže overiť veľa apliká
   \ ste chceli stiahnuť, a nie nejakú poškodenú verziu.\n"
 verify_download_p2: "Pre každý ISO ponúkame súbor kontrolného súčtu so zodpovedajúcim\
   \ SHA256 súčtom.\n"
-verify_download_p3: "Pre zvýšenú bezpečnosť môžete pomocou GPG overiť, kto podpísal\
-  \ tieto .sha256 súbory.\n"
+verify_download_p3: "Pre zvýšenú bezpečnosť môžete pomocou sha256sum overiť, kto podpísal\
+  \ tieto .sha256 súbory. \n"
 verify_download_pubkey: Malo by to byť
 verify_download_help: Ak potrebujete ďalšiu pomoc pri overovaní vášho stiahnutia,
   prečítajte si, prosím,
