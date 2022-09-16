@@ -11,8 +11,8 @@ downloads:
   arches:
   - name: x86_64
     types:
-    - name: preconfigured_image
-      desc: preconfigured_desc
+    - name: offline_image
+      desc: offline_desc
       primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-x86_64-Media.iso
       links:
       - name: metalink
@@ -37,8 +37,8 @@ downloads:
         url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-x86_64-Media.iso.torrent
   - name: aarch64
     types:
-    - name: preconfigured_image
-      desc: preconfigured_desc
+    - name: offline_image
+      desc: offline_desc
       primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-aarch64-Media.iso
       links:
       - name: metalink
@@ -63,8 +63,8 @@ downloads:
         url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-aarch64-Media.iso.torrent
   - name: ppc64le
     types:
-    - name: preconfigured_image
-      desc: preconfigured_desc
+    - name: offline_image
+      desc: offline_desc
       primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-ppc64le-Media.iso
       links:
       - name: metalink
@@ -89,8 +89,8 @@ downloads:
         url: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-NET-ppc64le-Media.iso.torrent
   - name: s390x
     types:
-    - name: preconfigured_image
-      desc: preconfigured_desc
+    - name: offline_image
+      desc: offline_desc
       primary_link: /distribution/leap/15.4/iso/openSUSE-Leap-15.4-DVD-s390x-Media.iso
       links:
       - name: metalink
@@ -119,7 +119,7 @@ downloads:
   arches:
   - name: aarch64
     types:
-    - name: kvm_image
+    - name: kvm_preconfigured_image
       short: kvm_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-Minimal-VM.aarch64-kvm.qcow2
       links:
@@ -131,7 +131,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-Minimal-VM.aarch64-kvm.qcow2.sha256
   - name: x86_64
     types:
-    - name: kvm_image
+    - name: kvm_preconfigured_image
       short: kvm_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-Minimal-VM.x86_64-kvm-and-xen.qcow2
       links:
@@ -161,8 +161,8 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-Minimal-VM.x86_64-VMware.vmdk.xz?mirrorlist
       - name: checksum
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-Minimal-VM.x86_64-VMware.vmdk.xz.sha256
-    - name: openstack_image
-      short: openstack_desc
+    - name: cloud_preconfigured_image
+      short: cloud_preconfigured_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-Minimal-VM.x86_64-OpenStack-Cloud.qcow2
       links:
       - name: metalink
