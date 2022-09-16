@@ -88,7 +88,7 @@ verify_download: 使用する前に正しくダウンロードできたかどう
 verify_download_p1: "アプリケーションによっては、ダウンロードしたファイルを検証する機能が提供されて\nいる場合があります。この機能を利用して正しくダウンロードできたことを確認する\n\
   ことで、インストール時の無駄なトラブルを事前に回避することができます。\n"
 verify_download_p2: "公開されている ISO ファイルに対して SHA256 チェックサムを提供しています。\n"
-verify_download_p3: "不正な改ざんを防ぐため、 .sha256 ファイルに対して GPG による署名も提供されています。\n"
+verify_download_p3: "不正な改ざんを防ぐため、署名付きの sha256sum でファイルを検証することもできます。 \n"
 verify_download_pubkey: '下記の電子指紋で署名しています:'
 verify_download_help: 'ダウンロードの検証方法についてさらに詳しく知りたい場合は、下記をお読みください:'
 verify_download_checksums_help: チェックサムのヘルプ

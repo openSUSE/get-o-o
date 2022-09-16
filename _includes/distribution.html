@@ -10,7 +10,8 @@
         {% assign testing = site.releases[distro_id].testing %}
         {% capture distro_name %}{{ distro.name }} {{ site.releases[distro_id][testing].version }} <sup>{{ site.releases[distro_id][testing].state }}</sup>{% endcapture %}
         <span>{{ locale.new_version_testing | replace: '$distro_name', distro_name }}</span>
-        <a class="btn btn-info" href="{{ '/testing/' | prefix_locale }}">{{ locale.learn_more }}</a>
+        {% assign distro_snake = distro.name | downcase | remove: ' ' %}
+        <a class="btn btn-info" href="{{ '/' | append: distro_snake | append: '/' | append: site.releases[distro_id][testing].version | append: '/' | prefix_locale }}">{{ locale.learn_more }}</a>
         </div>
       {% endif %}
       {% if include.type == "legacy" %}

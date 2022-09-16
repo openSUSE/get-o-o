@@ -26,14 +26,6 @@ downloads:
         url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso?mirrorlist
       - name: checksum
         url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso.sha256
-    - name: selfinstalling_k3s_image
-      desc: microos_desc
-      primary_link: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-k3s-SelfInstall.iso
-      links:
-      - name: pick_mirror
-        url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-k3s-SelfInstall.iso?mirrorlist
-      - name: checksum
-        url: /tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-k3s-SelfInstall.iso.sha256
   - name: aarch64
     types:
     - name: iso_image

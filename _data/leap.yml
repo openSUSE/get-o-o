@@ -1,4 +1,9 @@
 ---
+- version: 15.5
+  order: 8
+  releases:
+  - date: '2022-08-31 12:00:00 UTC'
+    state: 'Alpha'
 - version: 15.4
   order: 7
   releases:
@@ -21,6 +26,8 @@
     state: 'RC'
   - date: '2021-06-02 12:00:00 UTC'
     state: 'Stable'
+  - date: '2022-12-01 12:00:00 UTC'
+    state: 'EOL'
 - version: 15.2
   order: 5
   releases:
@@ -79,4 +86,3 @@
     state: 'Stable'
   - date: '2017-01-17 00:00:00 UTC'
     state: 'EOL'
-

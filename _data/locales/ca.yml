@@ -102,8 +102,8 @@ verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació 
   \ realment\nel fitxer ISO que volíeu baixar i no alguna versió trencada.\n"
 verify_download_p2: "Per a cada ISO, oferim un fitxer de comprovació amb la suma SHA256\
   \ corresponent.\n"
-verify_download_p3: "Per a més seguretat, podeu usar GPG per verificar qui va signar\
-  \ els fitxers .sha256.\n"
+verify_download_p3: "Per a més seguretat, podeu usar l'ordre sha256sum per verificar\
+  \ qui va signar els fitxers .sha256. \n"
 verify_download_pubkey: Hauria de ser
 verify_download_help: Per obtenir més ajuda per verificar la baixada, llegiu
 verify_download_checksums_help: Ajuda de les sumes de comprovació

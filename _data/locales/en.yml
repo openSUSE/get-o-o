@@ -150,7 +150,7 @@ verify_download_p1: "Many applications can verify the checksum of a download. To
 verify_download_p2: |
   For each ISO, we offer a checksum file with the corresponding SHA256 sum.
 verify_download_p3: |
-  For extra security, you can use GPG to verify who signed those .sha256 files.
+  For extra security, you can use sha256sum to verify who signed those .sha256 files. 
 verify_download_pubkey: It should be
 verify_download_help: For more help verifying your download please read
 verify_download_checksums_help: Checksums Help
