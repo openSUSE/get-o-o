@@ -103,8 +103,8 @@ verify_download_p1: "Hay muchas aplicaciones que pueden verificar la suma de com
   \ una versión dañada.\n"
 verify_download_p2: "Para cada ISO, ofrecemos un archivo de suma de comprobación con\
   \ la correspondiente suma SHA256.\n"
-verify_download_p3: "Para una seguridad extra, puedes utilizar GPG para verificar\
-  \ quién firmó los archivos .sha256.\n"
+verify_download_p3: "Para una seguridad extra, puedes utilizar sha256sum para verificar\
+  \ quién firmó los archivos .sha256. \n"
 verify_download_pubkey: Debería ser
 verify_download_help: Para más ayuda sobre cómo verificar su descarga, lea la
 verify_download_checksums_help: ayuda sobre las sumas de comprobación
@@ -355,9 +355,13 @@ jeos_info: Para imágenes de JeOS para Arm, visite <a href="https://en.opensuse.
 selfinstall_image: Imagen auto instalable
 preconfigured_image: Imagen preconfigurada
 selfinstalling_images: Imágenes auto instalables
-live_info: "Por favor tenga en cuenta las siguientes de las imágenes en vivo:\n* No\
-  \ se deberían usar para instalar o actualizar. Por favor use en su lugar los medios\
-  \ de instalación\n* Tienen una selección de paquetes y controladores limitada, por\
-  \ tanto no se deben considerar como indicación de que la distribución funcionará\
-  \ o no en su hardware\n* El kernel e initrd no se pueden actualizar, por tanto no\
-  \ se deberían usar como una instalación persistente\n"
+live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágenes\
+  \ en vivo:\n* No se deberían usar para instalar o actualizar. Por favor use en su\
+  \ lugar los medios de instalación\n* Tienen una selección de paquetes y controladores\
+  \ limitada, por tanto no se deben considerar como indicación de que la distribución\
+  \ funcionará o no en su hardware\n* El kernel e initrd no se pueden actualizar,\
+  \ por tanto no se deberían usar como una instalación persistente\n"
+selfinstalling_ch_image: Host de contenedor auto instalable
+selfinstall_rt_image: Imagen en tiempo real auto instalable
+selfinstalling_k3s_image: Host k3s auto instalable
+preconfigured_rt_image: Imagen en tiempo real preconfigurada
