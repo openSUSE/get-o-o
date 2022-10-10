@@ -117,6 +117,28 @@ downloads:
         url: /ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso?mirrorlist
       - name: checksum
         url: /ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256
+  - name: ppc64
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso
+      links:
+      - name: metalink
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.sha256
+    - name: network_image
+      desc: network_desc
+      primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso
+      links:
+      - name: metalink
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256
 - name: jeos_images
   display: server
   info: jeos_info
