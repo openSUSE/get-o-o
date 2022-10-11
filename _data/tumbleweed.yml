@@ -261,3 +261,50 @@ downloads:
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.meta4
       - name: checksum
         url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.sha256
+- name: ports_images
+  info: ports_info
+  arches:
+  - name: aarch64
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.sha256
+    - name: network_image
+      desc: network_desc
+      primary_link: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso.sha256
+  - name: ppc64le
+    types:
+    - name: offline_image
+      desc: offline_desc
+      primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso
+      links:
+      - name: metalink
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.sha256
+    - name: network_image
+      desc: network_desc
+      primary_link: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso
+      links:
+      - name: metalink
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso.meta4
+      - name: pick_mirror
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso?mirrorlist
+      - name: checksum
+        url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso.sha256
