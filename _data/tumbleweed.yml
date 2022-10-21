@@ -121,7 +121,7 @@ downloads:
   display: server
   info: minimal-vm_info
   arches:
-      - name: aarch64
+  - name: aarch64
     types:
     - name: kvm_image
       short: kvm_desc
