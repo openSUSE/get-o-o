@@ -27,17 +27,17 @@ selfinstalling_images: Self Installing Images
 selfinstalling_ch_image: Self Installing Container Host
 selfinstalling_k3s_image: Self Installing k3s Host
 kvm_image: KVM and XEN
-kvm_preconfigured_image: Preconfigured Minimal KVM and XEN image
+kvm_minimal_image: Minimal KVM and XEN image
 kvm_ch_image: KVM and XEN Container Host
 kvm_desc: For use in KVM or XEN HVM hypervisors
 xen_image: XEN
 xen_desc: For use in XEN PV hypervisors
 hyperv_image: MS HyperV
-hyperv_preconfigured_image: Preconfigured Minimal MS HyperV image
+hyperv_minimal_image: Minimal MS HyperV image
 hyperv_ch_image: MS HyperV Container Host
 hyperv_desc: For running virtual machines on MS HyperV
 vmware_image: VMware
-vmware_preconfigured_image: Preconfigured Minimal VMware image
+vmware_minimal_image: Minimal VMware image
 vmware_ch_image: VMware Container Host
 vmware_desc: For running virtual machines in VMware
 vmware_vmx_image: VMware VMX
@@ -58,14 +58,16 @@ ports_info: |
   Ports of openSUSE Leap to architectures other than the PC are
   maintained by separate community teams, with limited resources.
 jeos_images: JeOS
+jeos_info: Minimal-VM images, similar to the SUSE Linux Enterprise Server Minimal-VM. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal-vm_images: Minimal-VM Formely known as JeOS
-jeos_info: For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
-minimal-vm_info: Minimal-VM images, similar to the SUSE Linux Enterprise Server Minimal-VM>
+minimal-vm_info: Minimal-VM images, similar to the SUSE Linux Enterprise Server Minimal-VM. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
+minimal_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
+minimal_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
 vm_images: Virtual Machine
 cloud_images: Cloud
-cloud_preconfigured_image: Preconfigured Minimal Cloud image
-cloud_preconfigured_desc: KVM and Xen image with cloud-init
+cloud_minimal_image: Minimal Cloud image
+cloud_minimal_desc: Minimal KVM and Xen image with cloud-init
 hardware_images: Hardware
 gnome_cd: GNOME LiveCD
 kde_cd: KDE LiveCD
