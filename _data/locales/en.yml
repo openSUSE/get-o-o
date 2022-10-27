@@ -58,9 +58,9 @@ ports_info: |
   Ports of openSUSE Leap to architectures other than the PC are
   maintained by separate community teams, with limited resources.
 jeos_images: JeOS
-jeos_info: Minimal-VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
-minimal-vm_images: Minimal-VM
-minimal-vm_info: Minimal-VM images, similar to the SUSE Linux Enterprise Server Minimal-VM. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
+jeos_info: Minimal VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
+minimal_vm_images: Minimal Virtual Machine
+minimal_vm_info: Similar to the SUSE Linux Enterprise Server Minimal-VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
 minimal_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
