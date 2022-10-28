@@ -58,8 +58,8 @@ jeos_images: JeOS
 jeos_info: Minimal VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal_vm_images: Minimal Virtual Machine
 minimal_vm_info: Similar to the SUSE Linux Enterprise Server Minimal-VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
-minimal_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
-minimal_x86_64: Intel or AMD 64-bit servers (x86_64)
+server_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
+server_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
 vm_images: Virtual Machine
 cloud_image: Cloud image

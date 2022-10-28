@@ -121,9 +121,9 @@ downloads:
   display: server
   info: minimal_vm_info
   arches:
-  - name: minimal_aarch64
+  - name: server_aarch64
     types:
-    - name: kvm_minimal_image
+    - name: kvm_image
       short: kvm_minimal_desc
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2
       links:
@@ -133,9 +133,9 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2?mirrorlist
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2.sha256
-  - name: minimal_x86_64
+  - name: server_x86_64
     types:
-    - name: kvm_minimal_image
+    - name: kvm_image
       short: kvm_minimal_desc
       image_size: 250MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2
@@ -146,7 +146,7 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2?mirrorlist
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256
-    - name: hyperv_minimal_image
+    - name: hyperv_image
       short: hyperv_minimal_desc
       image_size: 900MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz
@@ -157,7 +157,7 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz?mirrorlist
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256
-    - name: vmware_minimal_image
+    - name: vmware_image
       short: vmware_minimal_desc
       image_size: 800MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz
@@ -168,7 +168,7 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz?mirrorlist
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz.sha256
-    - name: cloud_minimal_image
+    - name: cloud_image
       short: cloud_minimal_desc
       image_size: 250MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-OpenStack-Cloud.qcow2

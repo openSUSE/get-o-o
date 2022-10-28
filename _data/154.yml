@@ -117,7 +117,7 @@ downloads:
   display: server
   info: minimal_vm_info
   arches:
-  - name: minimal_aarch64
+  - name: server_aarch64
     types:
     - name: kvm_image
       short: kvm_desc
@@ -129,7 +129,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.aarch64-kvm.qcow2?mirrorlist
       - name: checksum
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.aarch64-kvm.qcow2.sha256
-  - name: minimal_x86_64
+  - name: server_x86_64
     types:
     - name: kvm_image
       short: kvm_desc
