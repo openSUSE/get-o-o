@@ -27,17 +27,17 @@ selfinstalling_images: Self Installing Images
 selfinstalling_ch_image: Self Installing Container Host
 selfinstalling_k3s_image: Self Installing k3s Host
 kvm_image: KVM and XEN
-kvm_minimal_image: Minimal KVM and XEN image
+kvm_minimal_image: KVM and XEN image
 kvm_ch_image: KVM and XEN Container Host
 kvm_desc: For use in KVM or XEN HVM hypervisors
 xen_image: XEN
 xen_desc: For use in XEN PV hypervisors
 hyperv_image: MS HyperV
-hyperv_minimal_image: Minimal MS HyperV image
+hyperv_minimal_image: MS HyperV image
 hyperv_ch_image: MS HyperV Container Host
 hyperv_desc: For running virtual machines on MS HyperV
 vmware_image: VMware
-vmware_minimal_image: Minimal VMware image
+vmware_minimal_image: VMware image
 vmware_ch_image: VMware Container Host
 vmware_desc: For running virtual machines in VMware
 vmware_vmx_image: VMware VMX
@@ -66,7 +66,7 @@ minimal_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
 vm_images: Virtual Machine
 cloud_images: Cloud
-cloud_minimal_image: Minimal Cloud image
+cloud_minimal_image: Cloud image
 cloud_minimal_desc: Minimal KVM and Xen image with cloud-init
 hardware_images: Hardware
 gnome_cd: GNOME LiveCD
