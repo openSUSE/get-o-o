@@ -93,8 +93,8 @@ verify_download_p1: "Molte applicazioni possono verificare il codice di controll
   \ avere avuto\nil file ISO che si voleva scaricare, e non una sua versione non funzionante.\n"
 verify_download_p2: "Per ciascuna ISO è fornito un file di controllo con il codice\
   \ SHA256 corrispondente.\n"
-verify_download_p3: "Per ulteriore sicurezza, può essere usato GPG per verificare\
-  \ chi ha firmato quei file .sha256.\n"
+verify_download_p3: "Per ulteriore sicurezza, può essere usato sha256sum per verificare\
+  \ chi ha firmato quei file .sha256. \n"
 verify_download_help: Come ulteriore aiuto sulla verifica dello scaricamento, leggere
 verify_download_checksums_help: Aiuto sui codici di controllo
 desktops_p1: "Il processo di contribuzione a openSUSE autorizza lo sviluppo del desktop\
@@ -322,3 +322,8 @@ live_info: "Si deve essere consapevoli delle seguenti limitazioni delle immagini
   \ una buona scelta per vedere se la distribuzione funziona o meno sull'hardware;\n\
   * Kernel e initrd non possono essere aggiornati, quindi non dovrebbero essere usate\
   \ come un'installazione persistente.\n"
+preconfigured_image: Immagine preconfigurata
+preconfigured_rt_image: Immagine preconfigurata RealTime
+selfinstalling_images: Immagini auto installanti
+selfinstall_image: Immagine auto installante
+selfinstall_rt_image: Immagine auto installante RealTime
