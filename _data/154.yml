@@ -119,7 +119,7 @@ downloads:
   arches:
   - name: minimal_aarch64
     types:
-    - name: kvm_minimal_image
+    - name: kvm_image
       short: kvm_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.aarch64-kvm.qcow2
       links:
@@ -131,7 +131,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.aarch64-kvm.qcow2.sha256
   - name: minimal_x86_64
     types:
-    - name: kvm_minimal_image
+    - name: kvm_image
       short: kvm_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-kvm-and-xen.qcow2
       links:
@@ -141,7 +141,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-kvm-and-xen.qcow2?mirrorlist
       - name: checksum
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-kvm-and-xen.qcow2.sha256
-    - name: hyperv_minimal_image
+    - name: hyperv_image
       short: hyperv_minimal_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-MS-HyperV.vhdx.xz
       links:
@@ -151,7 +151,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-MS-HyperV.vhdx.xz?mirrorlist
       - name: checksum
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-MS-HyperV.vhdx.xz.sha256
-    - name: vmware_minimal_image
+    - name: vmware_image
       short: vmware_minimal_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-VMware.vmdk.xz
       links:
@@ -161,7 +161,7 @@ downloads:
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-VMware.vmdk.xz?mirrorlist
       - name: checksum
         url: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-VMware.vmdk.xz.sha256
-    - name: cloud_minimal_image
+    - name: cloud_image
       short: cloud_minimal_desc
       primary_link: /distribution/leap/15.4/appliances/openSUSE-Leap-15.4-minimal_vm.x86_64-OpenStack-Cloud.qcow2
       links:
