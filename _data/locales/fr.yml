@@ -94,8 +94,8 @@ upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick
 verify_download: Vérifier votre téléchargement avant utilisation
 verify_download_p2: "Pour chaque ISO, nous fournissons un fichier contenant la somme\
   \ de contrôle SHA256 correspondante.\n"
-verify_download_p3: "Pour encore plus de sécurité, vous pouvez utiliser GPG pour vérifier\
-  \ qui a signé ces fichiers .sha256.\n"
+verify_download_p3: "Pour encore plus de sécurité, vous pouvez utiliser sha256sum\
+  \ pour vérifier qui a signé ces fichiers .sha256. \n"
 verify_download_pubkey: Ce devrait être
 verify_download_help: Pour plus d'aide sur la vérification de votre téléchargement,
   veuillez lire
@@ -367,7 +367,7 @@ requirements_hdd_root: Partition / (root)
 jeos_info: Pour les images JeOS Arm, veuillez vous reporter à la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">du
   wiki pour systèmes Arm</a>
 selfinstall_image: Image d'auto-installation
-selfinstall_rt_image: Image d'auto-installation avec noyau Temps-Réel
+selfinstall_rt_image: Image d'auto-installation Temps-Réel
 preconfigured_image: Image préconfigurée
 preconfigured_rt_image: Image préconfigurée avec noyau Temps-Réel
 live_info: "Veuillez prendre en compte les limitations suivantes des images live :\n\
