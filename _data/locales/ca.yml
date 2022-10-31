@@ -8,11 +8,11 @@ source_code: Codi font
 license: Llicència
 learn_more: Per a conèixer-ne més
 torrent_file: Fitxer torrent
-offline_desc: "Conté una àmplia col·lecció de programari per a ús domèstic o en servidors.\n\
-  Adequada per a fer una instal·lació o actualització.\n"
+offline_desc: "Conté una col·lecció de programari àmplia per a ús domèstic o en servidors.\n\
+  Adient per a instal·lacions o actualitzacions.\n"
 network_image: Imatge de xarxa
-network_desc: "El sistema d'instal·lació i tots els paquets es descarregaràn des de\n\
-  dipòsits a la xarxa. Adequada per a fer una instal·lació o actualització.\n"
+network_desc: "El sistema d'instal·lació i tots els paquets es descarregaran de repositoris\
+  \ en línia.\nAdient per a instal·lacions o actualitzacions.\n"
 kvm_image: KVM i XEN
 kvm_desc: Per a l'ús amb hipervisors KVM o XEN HVM
 xen_image: XEN
@@ -366,3 +366,6 @@ live_info: "Tingueu en compte les limitacions següents de les imatges en direct
 selfinstalling_k3s_image: Amfitrió k3s d'autoinstal·lació
 selfinstalling_images: Imatges d'autoinstal·lació
 selfinstalling_ch_image: Amfitrió de contenidor d'autoinstal·lació
+offline_updated_image: Imatge fora de línia actualitzada
+offline_updated_desc: "Imatge d'instal·lació fora de línia amb les darreres actualitzacions.\n\
+  Adient per a instal·lacions o actualitzacions.\n"
