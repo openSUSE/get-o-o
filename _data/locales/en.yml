@@ -14,10 +14,14 @@ metalink: Metalink
 pick_mirror: Pick Mirror
 checksum: Checksum
 torrent_file: Torrent File
+offline_updated_image: Updated Offline Image
 offline_image: Offline Image
 iso_image: ISO image
 offline_desc: |
   Contains a large collection of software for desktop or server use.
+  Suitable for installation or upgrade.
+offline_updated_desc: |
+  Offline install image with latest updates.
   Suitable for installation or upgrade.
 network_image: Network Image
 network_desc: |
