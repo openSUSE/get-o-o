@@ -1,7 +1,7 @@
 - version: 5.3
   order: 1
   releases:
-  - date: '2022-11-15 12:00:00 UTC'
+  - date: '2022-11-17 12:00:00 UTC'
     state: 'Stable'
   - date: '2022-11-01 12:00:00 UTC'
     state: 'RC'
