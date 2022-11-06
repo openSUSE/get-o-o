@@ -100,8 +100,8 @@ verify_download_p1: "Muitos aplicativos podem verificar a soma de verificação 
   \ tem o\nArquivo ISO que você queria baixar e não alguma versão quebrada.\n"
 verify_download_p2: "Para cada ISO, oferecemos um arquivo de checksum com a soma SHA256\
   \ correspondente.\n"
-verify_download_p3: "Para segurança extra, você pode usar o GPG para verificar quem\
-  \ assinou os arquivos .sha256.\n"
+verify_download_p3: "Para segurança extra, você pode usar o sha256sum para verificar\
+  \ quem assinou os arquivos .sha256. \n"
 verify_download_pubkey: Deveria ser
 verify_download_help: Para obter mais ajuda na verificação do seu download, leia
 verify_download_checksums_help: Ajuda de somas de verificação
@@ -362,3 +362,6 @@ live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas n
 selfinstalling_images: Imagens de autoinstalação
 selfinstalling_ch_image: Host de contêiner de autoinstalação
 selfinstalling_k3s_image: Host k3s de autoinstalação
+offline_updated_image: Imagem atualizada offline
+offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n\
+  Adequada para instalação ou atualização.\n"

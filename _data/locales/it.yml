@@ -224,6 +224,11 @@ iso_image: Immagine ISO
 Tumbleweed_features:
   plant:
     name: Si erge su un terreno solido
+    description: "Tumbleweed si basa su decenni di utilizzo, di prove e di debug di\
+      \ centinaia di utenti esperti, di sviluppatori, di amministratori di sistema\
+      \ e di produttori che non possono permettersi di mettere a repentaglio il loro\
+      \ flusso di lavoro. La solidità di Tumbleweed è incorporata in molti pacchetti\
+      \ fondamentali, il cui DNA deriva dal venerabile SUSE Linux Enterprise Server.\n"
   knife:
     name: All'avanguardia
     description: "Si ottengono aggiornamenti frequenti, che non solo risolvono vulnerabilità\
@@ -231,8 +236,18 @@ Tumbleweed_features:
       \ nuovi driver, oltre alle versioni più recenti dell'ambiente desktop.\n"
   power:
     name: Potente
+    description: "Le tecnologie impiegate da openSuse per le quali è rinomata, quali\
+      \ il file system `Btrfs`, l'utilità da riga di comando `snapper` e il robusto\
+      \ \"pannello di controllo\" `YaST`, danno il pieno controllo sul sistema: permettono\
+      \ di definire le impostazioni che si desiderano per esso, e che sia impostato\
+      \ con queste. Non ci si deve più preoccupare che un sistema interferisca con\
+      \ il flusso di lavoro.\n"
   shield:
     name: Sicuro
+    description: "Costruita con le ultime versioni del kernel, compilata con le ultime\
+      \ patch per le mitigazioni Spectre e Meltdown, con il firewall e con forti politiche\
+      \ di sicurezza attivate per impostazione predefinita, la sicurezza è già garantita\
+      \ senza dover fare nulla.\n"
   key:
     description: "Se qualcosa dovesse andare storto è sempre possibile eseguire il\
       \ rollback allo stato precedente, in modo da trovare i file e i programmi esattamente\
@@ -327,3 +342,6 @@ preconfigured_rt_image: Immagine preconfigurata RealTime
 selfinstalling_images: Immagini auto installanti
 selfinstall_image: Immagine auto installante
 selfinstall_rt_image: Immagine auto installante RealTime
+offline_updated_image: Immagine offline aggiornata
+offline_updated_desc: "Immagine d'installazione offline con gli ultimi aggiornamenti.\n\
+  Adatta per installazione o upgrade.\n"

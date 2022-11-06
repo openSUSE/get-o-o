@@ -14,10 +14,14 @@ metalink: Metalink
 pick_mirror: Pick Mirror
 checksum: Checksum
 torrent_file: Torrent File
+offline_updated_image: Updated Offline Image
 offline_image: Offline Image
 iso_image: ISO image
 offline_desc: |
   Contains a large collection of software for desktop or server use.
+  Suitable for installation or upgrade.
+offline_updated_desc: |
+  Offline install image with latest updates.
   Suitable for installation or upgrade.
 network_image: Network Image
 network_desc: |
@@ -265,7 +269,8 @@ x86_64: Intel or AMD 64-bit desktops, laptops, and servers (x86_64)
 i686: Intel or AMD 32-bit desktops, laptops, and servers (i686)
 aarch64: UEFI Arm 64-bit servers, desktops, laptops and boards (aarch64)
 armv7l: UEFI Arm 32-bit servers, desktops, laptops and boards (armv7l)
-ppc64le: PowerPC servers, not big-endian (ppc64le)
+ppc64le: PowerPC servers, little-endian (ppc64le)
+ppc64: PowerPC servers, big-endian (ppc64)
 s390x: IBM zSystems and LinuxONE (s390x)
 overview: Overview
 download: Download
