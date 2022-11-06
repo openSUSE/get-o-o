@@ -41,9 +41,10 @@ permalink: /desktop/
               <h6>{{ locale.desktop_leap_p1 }}</h6>
               <p>{{ locale.desktop_leap_p2 }}</p>
             </div>
-            {% capture distro_name %}Leap {{ site.releases.leap[site.releases.leap.current].version }}{% endcapture %}
-            <a href="{{ '/leap/?type=desktop' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
-            <a href="{{ '/leap/?type=desktop#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
+            {% assign leap_version = site.releases.leap[site.releases.leap.current].version %}
+            {% capture distro_name %}Leap {{ leap_version }}{% endcapture %}
+            <a href="{{ '/leap/' | append: leap_version | append: '/?type=desktop' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
+            <a href="{{ '/leap/' | append: leap_version | append: '/?type=desktop#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>
         </div>
       </div>
