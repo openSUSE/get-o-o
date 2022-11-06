@@ -18,13 +18,13 @@ offline_image: オフラインイメージ
 offline_desc: "デスクトップ用途とサーバ用途の両方に使用することのできる、巨大なソフトウエアコレクションが含まれています。\nインストールやアップグレードにお使いいただけます。\n"
 network_image: ネットワークイメージ
 network_desc: "インストールシステムそれ自身と全てのパッケージをオンラインのリポジトリから\nダウンロードします。インストールやアップグレードにお使いいただけます。\n"
-kvm_image: KVM および XEN
+kvm_image: KVM および XEN イメージ
 kvm_desc: KVM もしくは XEN の HVM ハイパーバイザ向け
 xen_image: XEN
 xen_desc: XEN 準仮想化ハイパーバイザ向け
-hyperv_image: MS Hyper-V
+hyperv_image: MS Hyper-V イメージ
 hyperv_desc: MS Hyper-V 内で動作する仮想マシン向け
-vmware_image: VMware
+vmware_image: VMware イメージ
 vmware_desc: VMware 内で動作する仮想マシン向け
 openstack_image: OpenStack-Cloud
 openstack_desc: OpenStack 内で動作する仮想マシン向け
@@ -168,7 +168,7 @@ view_distro: $distro_name の表示
 x86_64: Intel/AMD 64 ビットプロセッサ (x86_64, デスクトップ／ラップトップ／サーバ)
 i686: Intel/AMD 32 ビットプロセッサ (i686, デスクトップ／ラップトップ／サーバ)
 aarch64: UEFI ARM 64 ビットプロセッサ (aarch64, サーバ／デスクトップ／ラップトップ／シングルボードコンピュータ)
-ppc64le: PowerPC プロセッサ (ppc64le, 非ビッグエンディアンサーバ)
+ppc64le: PowerPC サーバ (ppc64le, リトルエンディアン)
 s390x: IBM zSystems および LinuxONE (s390x)
 Tumbleweed_features:
   update:
@@ -266,7 +266,7 @@ vmware_ch_image: VMware コンテナホスト
 hyperv_ch_image: MS HyperV コンテナホスト
 kvm_ch_image: KVM および XEN コンテナホスト
 iso_image: ISO イメージ
-jeos_info: Arm JeOS イメージに関しては、 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+jeos_info: 最小限のパッケージのみをインストールしたイメージです。 Arm JeOS イメージに関しては、 <a href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   Wiki ページ</a> をご覧ください
 preconfigured_rt_image: 事前構築済みのリアルタイム版イメージ
 preconfigured_image: 事前構築済みイメージ
@@ -280,3 +280,12 @@ selfinstalling_images: セルフインストールイメージ
 selfinstalling_k3s_image: セルフインストール型 k3s ホスト
 offline_updated_desc: "最新の更新が適用されているオフラインインストールイメージです。\nインストールやアップグレードにお使いいただけます。\n"
 offline_updated_image: 更新済みオフラインイメージ
+ppc64: PowerPC サーバ (ppc64, ビッグエンディアン)
+minimal_vm_images: 最小限のパッケージのみをインストールした仮想マシン
+minimal_vm_info: SUSE Linux Enterprise Server の最小限 VM イメージに似た仕組みです。 Arm JeOS イメージに関しては、
+  <a href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm Wiki
+  ページ</a> をご覧ください
+server_aarch64: UEFI Arm 64 ビットサーバおよびシングルボード (aarch64)
+server_x86_64: Intel または AMD の 64 ビットサーバ (x86_64)
+cloud_image: クラウドイメージ
+cloud_minimal_desc: cloud-init を含む KVM および Xen 対応最小限イメージ
