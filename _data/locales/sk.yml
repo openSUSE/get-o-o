@@ -55,10 +55,10 @@ offline_desc: "Obsahuje veľkú zbierku softvéru pre desktopy alebo servery.\nV
   \ na inštaláciu alebo zvýšenie verzie.\n"
 network_desc: "Stiahne inštalačný systém a všetky balíčky z online repozitárov.\n\
   Vhodné pre inštaláciu alebo zvýšenie verzie.\n"
-kvm_image: KVM a XEN
+kvm_image: KVM a XEN obraz
 xen_image: XEN
-hyperv_image: MS HyperV
-vmware_image: VMware
+hyperv_image: MS HyperV obraz
+vmware_image: VMware obraz
 openstack_image: OpenStack-Cloud
 ports_info: "Porty openSUSE Leap do architektúr iných ako PC sú udržiavané \nsamostatnými\
   \ komunitnými tímami s obmedzenými zdrojmi.\n"
@@ -203,7 +203,7 @@ x86_64: 64-bitové stolné a prenosné počítače a servery s Intel or AMD (x86
 i686: 32-bitové stolné a prenosné počítače a servery s Intel or AMD (i686)
 aarch64: 64-bitové servery, stolné a prenosné počítače a jednodoskové počítače UEFI
   Arm (aarch64)
-ppc64le: Servery PowerPC, nie big-endian (ppc64le)
+ppc64le: Servery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems a LinuxONE (s390x)
 openstack_ch_image: Hostiteľ kontajnera OpenStack-Cloud
 pine_ch_image: Hostiteľ kontajnera Pine64
@@ -339,7 +339,7 @@ Tumbleweed_features:
       \ predchádzajúceho stavu a nájdete svoje súbory a programy rovnako ako pred\
       \ problémovou aktualizáciou.\n"
     name: Spoľahlivý
-jeos_info: Pre obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+jeos_info: Minimálne VM obrazy. Pre obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
   stránku Arm</a>
 preconfigured_image: Predkonfigurovaný obraz
 preconfigured_rt_image: Predkonfigurovaný RealTime obraz
@@ -357,3 +357,12 @@ selfinstalling_images: Samoinštalačné obrazy
 offline_updated_image: Aktualizovaný offline obraz
 offline_updated_desc: "Offline inštalačný obraz s najnovšími aktualizáciami.\nVhodné\
   \ na inštaláciu alebo zvýšenie verzie.\n"
+ppc64: Servery PowerPC, big-endian (ppc64le)
+minimal_vm_images: Minimálny virtuálny stroj
+server_aarch64: UEFI Arm 64-bit servery a dosky (aarch64)
+server_x86_64: Intel alebo AMD 64-bit servery (x86_64)
+cloud_minimal_desc: Minimálny KVM a Xen obraz s cloud-init
+cloud_image: Cloud obraz
+minimal_vm_info: Podobné ako SUSE Linux Enterprise Server minimálne VM obrazy. Pre
+  obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+  stránku Arm</a>
