@@ -13,13 +13,13 @@ offline_desc: "Conté una col·lecció de programari àmplia per a ús domèstic
 network_image: Imatge de xarxa
 network_desc: "El sistema d'instal·lació i tots els paquets es descarregaran de repositoris\
   \ en línia.\nAdient per a instal·lacions o actualitzacions.\n"
-kvm_image: KVM i XEN
+kvm_image: Imatge KVM i XEN
 kvm_desc: Per a l'ús amb hipervisors KVM o XEN HVM
 xen_image: XEN
 xen_desc: Per a l'ús amb hipervisors XEN PV
-hyperv_image: MS HyperV
+hyperv_image: Imatge MS HyperV
 hyperv_desc: Per a executar màquines virtuals amb MS HyperV
-vmware_image: VMware
+vmware_image: Imatge VMware
 vmware_desc: Per a executar màquines virtuals amb VMware
 openstack_desc: Per a executar màquines virtuals amb OpenStack
 installation_images: Instal·lació
@@ -213,7 +213,7 @@ x86_64: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 64 b
 i686: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 32 bits (i686)
 aarch64: Servidors, ordinadors de sobretaula, portàtils i tauletes de 64 bits amb
   UEFI Arm (aarch64)
-ppc64le: Servidors PowerPC, no ordre dels bytes gran-petit (ppc64le)
+ppc64le: Servidors PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
 Tumbleweed_features:
   plant:
@@ -351,8 +351,9 @@ vmware_ch_image: Amfitrió de contenidors VMware
 hyperv_ch_image: Amfitrió de contenidors MS HyperV
 kvm_ch_image: Amfitrió de contenidors KVM i XEN
 iso_image: Imatge ISO
-jeos_info: Per a les imatges Arm JeOS, si us plau, visiteu <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
-  pàgina wiki d'Arm</a>
+jeos_info: Imatges mínimes de MV. Per a les imatges Arm JeOS, si us plau, visiteu
+  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la pàgina
+  wiki d'Arm</a>
 preconfigured_image: Imatge preconfigurada
 preconfigured_rt_image: Imatge preconfigurada de Temps Real
 selfinstall_image: Imatge d'autoinstal·lació
@@ -369,3 +370,12 @@ selfinstalling_ch_image: Amfitrió de contenidor d'autoinstal·lació
 offline_updated_image: Imatge fora de línia actualitzada
 offline_updated_desc: "Imatge d'instal·lació fora de línia amb les darreres actualitzacions.\n\
   Adient per a instal·lacions o actualitzacions.\n"
+server_aarch64: Servidors i plaques Arm UEFI de 64 bits (aarch64)
+server_x86_64: Servidors Intel o AMD de 64 bits (x86_64)
+cloud_image: Imatge de núvol
+cloud_minimal_desc: Imatge KVM i Xen mínima amb cloud-init
+ppc64: Servidors PowerPC, big-endian (ppc64)
+minimal_vm_info: Similar a les imatges de SUSE Linux Enterprise Server Minimal-VM.
+  Per obtenir imatges d'Arm JeOS, aneu a la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">pàgina
+  wiki d'Arm</a>
+minimal_vm_images: Màquina virtual mínima
