@@ -3,7 +3,7 @@
   releases:
   - date: '2022-11-17 12:00:00 UTC'
     state: 'Stable'
-  - date: '2022-11-01 12:00:00 UTC'
+  - date: '2022-11-09 12:00:00 UTC'
     state: 'RC'
   - date: '2022-09-08 12:00:00 UTC'
     state: 'Beta'
