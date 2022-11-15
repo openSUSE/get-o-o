@@ -139,22 +139,10 @@ downloads:
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso?mirrorlist
       - name: checksum
         url: /ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256
-- name: minimal_vm_images
+- name: jeos_images
   display: server
-  info: minimal_vm_info
+  info: jeos_info
   arches:
-  - name: server_aarch64
-    types:
-    - name: kvm_image
-      short: kvm_minimal_desc
-      primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2
-      links:
-      - name: metalink
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2.meta4
-      - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2?mirrorlist
-      - name: checksum
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm.qcow2.sha256
   - name: server_x86_64
     types:
     - name: kvm_image
@@ -170,7 +158,7 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256
     - name: hyperv_image
       short: hyperv_minimal_desc
-      image_size: 900MB
+      image_size: 150MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz
       links:
       - name: metalink
@@ -181,7 +169,7 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256
     - name: vmware_image
       short: vmware_minimal_desc
-      image_size: 800MB
+      image_size: 160MB
       primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz
       links:
       - name: metalink
@@ -193,14 +181,14 @@ downloads:
     - name: cloud_image
       short: cloud_minimal_desc
       image_size: 250MB
-      primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-OpenStack-Cloud.qcow2
+      primary_link: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2
       links:
       - name: metalink
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-OpenStack-Cloud.qcow2.meta4
+        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2.meta4
       - name: pick_mirror
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-OpenStack-Cloud.qcow2?mirrorlist
+        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2?mirrorlist
       - name: checksum
-        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-OpenStack-Cloud.qcow2.sha256
+        url: /tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2.sha256
 - name: live_images
   display: desktop
   info: live_info
