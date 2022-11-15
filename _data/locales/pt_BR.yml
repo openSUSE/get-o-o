@@ -210,7 +210,7 @@ view_distro: Ver $distro_name
 x86_64: PCs, laptops e servidores Intel ou AMD 64-bits (x86_64)
 i686: PCs, laptops e servidores Intel ou AMD 32-bits (i686)
 aarch64: PCs, laptops, placas e servidores UEFI ARM 64-bits (aarch64)
-ppc64le: Servidores PowerPC, não big-endian (ppc64le)
+ppc64le: Servidores PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems e LinuxONE (s390x)
 Tumbleweed_features:
   user:
@@ -365,3 +365,4 @@ selfinstalling_k3s_image: Host k3s de autoinstalação
 offline_updated_image: Imagem atualizada offline
 offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n\
   Adequada para instalação ou atualização.\n"
+ppc64: Servidores PowerPC, big-endian (ppc64)
