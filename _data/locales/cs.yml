@@ -197,5 +197,6 @@ x86_64: 64bitové stolní počítače, notebooky a servery s procesory Intel neb
 i686: 32bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD (i686)
 aarch64: 64bitové servery, stolní počítače, notebooky a jednodeskové počítače UEFI
   Arm (aarch64)
-ppc64le: Servery PowerPC, nepracující v uložení big-endian (ppc64le)
+ppc64le: Servery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems a LinuxONE (s390x)
+ppc64: Servery PowerPC, big-endian (ppc64)
