@@ -213,7 +213,7 @@ x86_64: Equipos de escritorio, portátiles y servidores Intel o AMD 64-bit (x86_
 i686: Equipos de escritorio, portátiles y servidores AMD 32-bit (i686)
 aarch64: Servidores UEFI Arm 64-bit, equipos de escritorio, portátiles y tarjetas
   (aarch64)
-ppc64le: Servidores PowerPC, no big-endian (ppc64le)
+ppc64le: Servidores PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems y LinuxONE (s390x)
 iso_image: Imagen ISO
 vmware_vmx_image: VMware VMX
@@ -365,3 +365,4 @@ selfinstalling_ch_image: Host de contenedor auto instalable
 selfinstall_rt_image: Imagen en tiempo real auto instalable
 selfinstalling_k3s_image: Host k3s auto instalable
 preconfigured_rt_image: Imagen en tiempo real preconfigurada
+ppc64: Servidores PowerPC, big-endian (ppc64)
