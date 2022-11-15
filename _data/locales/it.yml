@@ -6,8 +6,8 @@ cd_desc: Per CD e chiavette USB
 dvd_desc: Per DVD e chiavette USB
 usb_desc: Per chiavette USB
 torrent_file: File torrent
-kvm_image: KVM e XEN
-vmware_image: VMware
+kvm_image: Immagine KVM e XEN
+vmware_image: Immagine VMware
 vmware_desc: Per eseguire macchine virtuali con VMware
 installation_images: Installazione
 ports_images: Port
@@ -152,7 +152,7 @@ new_version_testing: $distro_name è ora disponibile per lo scaricamento e per i
 view_distro: Vedi $distro_name
 x86_64: Desktop Intel o AMD a 64-bit, computer portatili e server (x86_64)
 i686: Desktop Intel o AMD a 32-bit, computer portatili e server (i686)
-ppc64le: Server PowerPC, non big-endian (ppc64le)
+ppc64le: Server PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems e LinuxONE (s390x)
 site_description: Scopri le distribuzioni di openSUSE e scaricale gratuitamente
 metalink: Metalink
@@ -280,6 +280,9 @@ Tumbleweed_features:
 MicroOS_features:
   shield:
     name: Rollback
+    description: "### MicroOS è un SO immutabile, il rollback è semplice\nImmutabile:\
+      \ nessuna modifica sul disco\nRollback ottenuto riavviando da una vecchia istantanea\
+      \ BTRFS\n"
   idea:
     name: Filosofia
     description: "### È prevedibile\n* Non viene alterato durante l'esecuzione\n*\
@@ -311,17 +314,18 @@ transactional_p1: "Il programma d'installazione adesso supporta un nuovo ruolo d
   \ di SUSE e di openSUSE. Questo significa che la maggior parte\ndei pacchetti RPM\
   \ che funzionano con gli altri ruoli di sistema delle\ndistribuzioni di openSUSE\
   \ funziona anche col ruolo di Transactional Server.\n"
-alternative_downloads_desc: Ci sono anche le immagini di $options. Controlla gli $alternative_downloads!
+alternative_downloads_desc: Ci sono anche le immagini per $options. Controlla negli
+  $alternative_downloads!
 alternative_downloads: Scaricamenti alternativi
 download: Scarica
 overview: Panoramica
 kvm_ch_image: KVM e XEN Container Host
-hyperv_image: MS HyperV
+hyperv_image: Immagine MS HyperV
 vmware_ch_image: VMware Container Host
 pine_ch_image: Pine64 Container Host
 hyperv_ch_image: MS HyperV Container Host
 openstack_ch_image: OpenStack-Cloud Container Host
-jeos_info: Per le immagini ARM JeOS, vai alla <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Pagina
+jeos_info: Immagini VM minime. Per le immagini ARM JeOS, vai alla <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Pagina
   di wiki ARM</a>
 vmware_vmx_image: VMware VMX
 vmware_vmx_ch_image: VMware VMX Container Host
@@ -345,3 +349,12 @@ selfinstall_rt_image: Immagine auto installante RealTime
 offline_updated_image: Immagine offline aggiornata
 offline_updated_desc: "Immagine d'installazione offline con gli ultimi aggiornamenti.\n\
   Adatta per installazione o upgrade.\n"
+minimal_vm_images: Macchina virtuale minima
+server_aarch64: Server UEFI Arm a 64 bit e schede (aarch64)
+minimal_vm_info: Simile alle immagini SUSE Linux Enterprise Server Minimal-VM. Per
+  le immagini Arm JeOS, andare nella <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">pagina
+  wiki di Arm</a>
+cloud_image: Immagine cloud
+cloud_minimal_desc: Immagine KVM e Xen con cloud-init
+ppc64: Server PowerPC, big-endian (ppc64)
+server_x86_64: Server Intel o AMD a 64 bit (x86_64)
