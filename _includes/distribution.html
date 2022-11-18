@@ -19,7 +19,7 @@
         {% assign current = site.releases[distro_id].current %}
         {% capture distro_name %}{{ distro.name }} {{ site.releases[distro_id][current].version }}{% endcapture %}
         <span>{{ locale.new_version_available | replace: '$distro_name', distro_name }}</span>
-        <a class="btn btn-danger" href="{{ distro.name | downcase | delete: ' ' | prefix_locale }}">{{ locale.learn_more }}</a>
+        <a class="btn btn-danger" href="{{ distro.name | downcase | remove: ' ' | prefix_locale }}">{{ locale.learn_more }}</a>
         </div>
       {% endif %}
     {% endif %}
