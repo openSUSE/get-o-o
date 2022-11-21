@@ -150,7 +150,7 @@ view_distro: 查看 $distro_name
 x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（x86_64）
 i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
 aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
-ppc64le: PowerPC 服务器，非大端（ppc64le）
+ppc64le: PowerPC 服务器，小端（ppc64le）
 s390x: IBM zSystems 和 LinuxONE（s390x）
 Tumbleweed_features:
   plant:
@@ -254,3 +254,4 @@ live_info: "请注意体验映像的以下限制：\n* 它们不应用于安装�
 selfinstalling_images: 自安装映像
 selfinstalling_ch_image: 自安装容器主机
 selfinstalling_k3s_image: 自安装 k3s 主机
+ppc64: PowerPC 服务器，大端（ppc64）

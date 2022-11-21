@@ -201,7 +201,7 @@ desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklun
   \ der erweiterten\nSoftwareliste im Installationsprogramm an.\n"
 yast: YaST, die beste Wahl für den ~~erfahrenen~~ Benutzer
 s390x: IBM zSystems und LinuxONE (s390x)
-ppc64le: Server mit PowerPC, nicht big-endian (ppc64le)
+ppc64le: Server mit PowerPC, little-endian (ppc64le)
 aarch64: Desktops, Laptops und Server mit Arm-64-bit und UEFI (aarch64)
 i686: Desktops, Laptops und Server mit Intel- oder AMD-32-bit (i686)
 x86_64: Desktops, Laptops und Server mit Intel- oder AMD-64-bit (x86_64)
@@ -238,3 +238,4 @@ jeos_info: Für Arm JeOS-Images, gehen Sie bitte zur <a href="https://en.opensus
   Wiki Seite</a>
 vm_images: Virtuelle Maschine
 hardware_images: Hardware
+ppc64: Server mit PowerPC, big-endian (ppc64)

@@ -20,13 +20,13 @@ offline_desc: "Contém uma grande coleção de software para uso em desktop ou s
 network_image: Imagem de Rede
 network_desc: "Baixa o sistema de instalação e todos os pacotes online\nrepositórios.\
   \ Adequado para instalação ou atualização.\n"
-kvm_image: KVM e XEN
+kvm_image: Imagem KVM e XEN
 kvm_desc: Para uso em hipervisores KVM ou XEN HVM
 xen_image: XEN
 xen_desc: Para usar em hipervisores XEN PV
-hyperv_image: MS Hyper-V
+hyperv_image: Imagem MS Hyper-V
 hyperv_desc: Para executar máquinas virtuais em MS HyperV
-vmware_image: VMware
+vmware_image: Imagem VMware
 vmware_desc: Para executar máquinas virtuais no VMWare
 openstack_image: Nuvem Openstack
 openstack_desc: Para executar máquinas virtuais em OpenStack
@@ -210,7 +210,7 @@ view_distro: Ver $distro_name
 x86_64: PCs, laptops e servidores Intel ou AMD 64-bits (x86_64)
 i686: PCs, laptops e servidores Intel ou AMD 32-bits (i686)
 aarch64: PCs, laptops, placas e servidores UEFI ARM 64-bits (aarch64)
-ppc64le: Servidores PowerPC, não big-endian (ppc64le)
+ppc64le: Servidores PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems e LinuxONE (s390x)
 Tumbleweed_features:
   user:
@@ -347,7 +347,8 @@ vmware_ch_image: Host de contêiner VMware
 hyperv_ch_image: Host de contêiner MS HyperV
 kvm_ch_image: Host de contêiner KVM e XEN
 iso_image: Imagem ISO
-jeos_info: Para as imagens do JeOS Arm, vá para a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
+jeos_info: Imagens mínimas de máquina virtual. Para as imagens do JeOS Arm, vá para
+  a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
   wiki do Arm</a>
 preconfigured_image: Imagem pré-configurada
 preconfigured_rt_image: Pré-configurada com RealTime
@@ -365,3 +366,12 @@ selfinstalling_k3s_image: Host k3s de autoinstalação
 offline_updated_image: Imagem atualizada offline
 offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n\
   Adequada para instalação ou atualização.\n"
+ppc64: Servidores PowerPC, big-endian (ppc64)
+minimal_vm_images: Máquina virtual mínima
+minimal_vm_info: Similar as imagens do SUSE Linux Enterprise Server Minimal-VM. Para
+  imagens JeOS Arm, vá para a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
+  wiki do Arm</a>
+server_aarch64: Servidores e placas UEFI Arm 64-bit (aarch64)
+server_x86_64: Servidores Intel ou AMD 64-bit (x86_64)
+cloud_image: Imagem com nuvem
+cloud_minimal_desc: Imagem mínima KVM e Xen com cloud-init
