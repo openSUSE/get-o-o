@@ -71,12 +71,12 @@ vagrant_image: Vаgrant
 vmware_vmx_ch_image: Хост-контейнер VMware VMX
 vmware_vmx_image: VMwаre VMX
 vmware_ch_image: Хост-контейнер VMware
-vmware_image: Образы VMwаre
+vmware_image: Образ VMwаre
 hyperv_ch_image: Хост-контейнер MS HyperV
-hyperv_image: Образы MS HypеrV
+hyperv_image: Образ MS HypеrV
 xen_image: XEN
 kvm_ch_image: Хост-контейнер KVM и XEN
-kvm_image: Образы KVM и XEN
+kvm_image: Образ KVM и XEN
 network_desc: "Загружает установщик и все пакеты из сетевых репозиториев.\nПодходит\
   \ для установки или обновления.\n"
 offline_desc: "Содержит большой набор программ для использования на десктопе или сервере.\n\
