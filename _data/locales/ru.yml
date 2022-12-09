@@ -71,12 +71,12 @@ vagrant_image: Vаgrant
 vmware_vmx_ch_image: Хост-контейнер VMware VMX
 vmware_vmx_image: VMwаre VMX
 vmware_ch_image: Хост-контейнер VMware
-vmware_image: VMwаre
+vmware_image: Образ VMwаre
 hyperv_ch_image: Хост-контейнер MS HyperV
-hyperv_image: MS HypеrV
+hyperv_image: Образ MS HypеrV
 xen_image: XEN
 kvm_ch_image: Хост-контейнер KVM и XEN
-kvm_image: KVM и XEN
+kvm_image: Образ KVM и XEN
 network_desc: "Загружает установщик и все пакеты из сетевых репозиториев.\nПодходит\
   \ для установки или обновления.\n"
 offline_desc: "Содержит большой набор программ для использования на десктопе или сервере.\n\
@@ -93,7 +93,8 @@ site_title_short: Получить
 overview: Обзор
 requirements_hdd: Хранилище
 requirements_hdd_var: /var раздел
-jeos_info: Для получения ARM образов JeOS, пожалуйста, посетите <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">страницу
+jeos_info: Минимальные образы для виртуальных машин. Для получения ARM образов JeOS,
+  пожалуйста, посетите <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">страницу
   ARM вики</a>
 microos_desc: ОС, основанная на openSUSE Tumbleweed и обеспечивающая Транзакционные
   (Атомарные) обновления посредством корневой файловой системы btrfs, доступной только
@@ -205,8 +206,8 @@ yast_firewall: Брандмауэр
 yast_fonts: Шрифты
 yast_partitioner: Разметка
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-verify_download_p3: "Для дополнительной безопасности, вы можете использовать GPG,\
-  \ чтобы проверить, кто подписал эти файлы .sha256.\n"
+verify_download_p3: "Для дополнительной безопасности, вы можете использовать sha256sum,\
+  \ чтобы проверить, кто подписал эти файлы .sha256. \n"
 index_full: Или сразу перейдите на страницы загрузки дистрибутивов
 new_version_available: $distro_name уже доступен для загрузки
 new_version_testing: $distro_name уже доступен для загрузки и тестирования
@@ -351,3 +352,10 @@ Tumbleweed_features:
       \ одновременно, чего не могут многие другие дистрибутивы Linux. Это делает его\
       \ превосходным дополнением для рабочих станций и ноутбуков.\n"
 ppc64: PowerPC серверы, big-endian (ppc64)
+offline_updated_image: Обновлённый автономный образ
+offline_updated_desc: "Автономный образ с последними обновлениями.\nПодходит для установки\
+  \ или обновления.\n"
+minimal_vm_info: Аналогично минимальным образам SUSE Linux Enterprise Server для виртуальных
+  машин. Для получения ARM образов JeOS, пожалуйста, посетите <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">страницу
+  ARM вики</a>
+minimal_vm_images: Минимальные образы для виртуальных машин
