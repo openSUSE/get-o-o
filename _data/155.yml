@@ -113,52 +113,64 @@ downloads:
         url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.sha256
 #      - name: torrent_file
 #        url: /distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.torrent
-- name: jeos_images
-  info: jeos_info
+- name: minimal_vm_images
+  info: minimal_vm_info
   display: server
   arches:
+  - name: server_aarch64                                                                               
+    types:                                                                                             
+    - name: kvm_image                                                                                  
+      short: kvm_desc                                                                                  
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2       
+      links:                                                                                           
+      - name: metalink                                                                                 
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.meta4        
+      - name: pick_mirror                                                                              
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2?mirrorlist
+      - name: checksum                                                                                 
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.sha256  
   - name: x86_64
     types:
     - name: kvm_image
       short: kvm_desc
-      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-kvm-and-xen.qcow2
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2
       links:
       - name: metalink
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-kvm-and-xen.qcow2.meta4
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2.meta4
       - name: pick_mirror
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-kvm-and-xen.qcow2?mirrorlist
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2?mirrorlist
       - name: checksum
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-kvm-and-xen.qcow2.sha256
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256
     - name: hyperv_image
       short: hyperv_desc
-      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-MS-HyperV.vhdx.xz
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz
       links:
       - name: metalink
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-MS-HyperV.vhdx.xz.meta4
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.meta4
       - name: pick_mirror
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz?mirrorlist
       - name: checksum
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-MS-HyperV.vhdx.xz.sha256
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256
     - name: vmware_image
       short: vmware_desc
-      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-VMware.vmdk.xz
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz
       links:
       - name: metalink
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-VMware.vmdk.xz.meta4
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz.meta4
       - name: pick_mirror
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-VMware.vmdk.xz?mirrorlist
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz?mirrorlist
       - name: checksum
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-VMware.vmdk.xz.sha256
-    - name: openstack_image
-      short: openstack_desc
-      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-OpenStack-Cloud.qcow2
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz.sha256
+    - name: cloud_image
+      short: cloud_minimal_desc
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2
       links:
       - name: metalink
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-OpenStack-Cloud.qcow2.meta4
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2.meta4
       - name: pick_mirror
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-OpenStack-Cloud.qcow2?mirrorlist
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2?mirrorlist
       - name: checksum
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2.sha256
 - name: live_images
   display: desktop
   info: live_info
