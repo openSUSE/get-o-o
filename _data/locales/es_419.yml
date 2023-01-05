@@ -215,3 +215,8 @@ server_microos_view: Ver MicroOS
 new_version_available: $distro_name está disponible para descarga
 new_version_testing: $distro_name está disponible para descarga y testing
 view_distro: Ver $distro_name
+offline_updated_image: Imagen sin conexión actualizada
+offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n\
+  Apto para instalación o actualización.\n"
+selfinstalling_images: Imágenes de instalación automática
+iso_image: imagen ISO
