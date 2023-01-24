@@ -20,13 +20,13 @@ offline_desc: "Berisi koleksi besar perangkat lunak untuk penggunaan destop atau
 network_image: Citra Jaringan
 network_desc: "Unduh sistem pemasangan dan semua paket dari repositori daring.\nCocok\
   \ untuk pemasangan atau peningkatan.\n"
-kvm_image: KVM dan XEN
+kvm_image: Citra KVM dan XEN
 kvm_desc: Untuk digunakan dalam hipervisor KVM atau XEN HVM
 xen_image: XEN
 xen_desc: Untuk digunakan dalam hypervisor XEN PV
-hyperv_image: MS HyperV
+hyperv_image: Citra MS HyperV
 hyperv_desc: Untuk menjalankan mesin virtual di MS HyperV
-vmware_image: VMWare
+vmware_image: Citra VMWare
 vmware_desc: Untuk menjalankan mesin virtual di VMware
 openstack_image: OpenStack-Cloud
 openstack_desc: Untuk menjalankan mesin virtual di OpenStack
@@ -48,13 +48,13 @@ tumbleweed_live_info: "Harap diperhatikan tentang keterbatasan citra live beriku
 microos_desc: OS berbasis openSUSE Tumbleweed yang menyediakan Pemutakhiran Transaksional
   (Atomic) pada sistem berkas root btrfs baca-saja
 choosing_media: Memilih Media yang Akan Diunduh
-choosing_media_p1: "DVD/Stik USB biasanya direkomendasikan karena berisi sebagian\
+choosing_media_p1: "Citra luring biasanya direkomendasikan karena berisi sebagian\
   \ besar\npaket yang tersedia dalam distribusi dan tidak memerlukan\nkoneksi jaringan\
   \ selama pemasangan.\n"
-choosing_media_p2: "CD jaringan/Stik USB dianjurkan untuk pengguna yang memiliki\n\
-  keterbatasan bandwidth pada koneksi internet mereka, karena hanya\nakan mengunduh\
-  \ paket yang mereka pilih untuk dipasang, yang \nkemungkinan besar akan sangat signifikan\
-  \ kurang dari 4.7GB.\n"
+choosing_media_p2: "Citra jaringan dianjurkan untuk pengguna yang memiliki\nketerbatasan\
+  \ bandwidth pada koneksi internet mereka, karena hanya\nakan mengunduh paket yang\
+  \ mereka pilih untuk dipasang, yang \nkemungkinan besar akan sangat signifikan kurang\
+  \ dari 4.7GB.\n"
 documentation: Dokumentasi
 documentation_startup_guide: Panduan Memulai openSUSE
 documentation_release_notes: Catatan Rilis
@@ -67,13 +67,12 @@ leap_switch_p1: "Jika Anda sudah menjalankan openSUSE, Anda bisa meningkatkan de
   \ dengan beberapa\nperintah.\n"
 leap_switch_instructions: Instruksi Peningkatan Daring.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Persyaratan Sistem yang Disarankan
-requirements_cpu: Prosesor dua inti 2 Ghz atau lebih bagus
-requirements_mem: Memori sistem 2 GB
+requirements: Persyaratan Sistem
+requirements_cpu: CPU
+requirements_mem: Memori
 requirements_hd: Lebih dari 40GB ruang diska bebas
 requirements_dvd: Baik drive DVD atau port USB untuk media pemasangan
-requirements_net: Akses internet sangat membantu, dan diperlukan untuk pemasangan
-  Jaringan
+requirements_net: Jaringan
 tw_switch: Cara Mudah untuk Beralih ke openSUSE Tumbleweed
 tw_switch_p1: "Jika Anda sudah menjalankan openSUSE, Anda bisa meningkatkan dengan\
   \ boot dari\nDVD/USB dan memilih peningkatan, atau melakukan ‘Peningkatan Daring’\
@@ -210,11 +209,56 @@ vmware_vmx_image: VMware VMX
 vmware_ch_image: Host Kontainer VMware
 hyperv_ch_image: Host Kontainer MS HyperV
 kvm_ch_image: Host Kontainer KVM dan XEN
-iso_image: citra ISO
-jeos_info: Untuk citra JeOS Arm, kunjungi <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
+iso_image: Citra ISO
+jeos_info: Citra VM minimal. Untuk citra JeOS Arm, kunjungi <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
   wiki Arm</a>
-vmware_vmx_ch_image: VMware VMX Container Host
+vmware_vmx_ch_image: Host Kontainer VMware VMX
 vm_images: Mesin Virtual
 cloud_images: Awan
 hardware_images: Perangkat Keras
 ppc64: Peladen PowerPC, big-endian (ppc64)
+selfinstalling_images: Memasang Sendiri Citra
+vagrant_image: Vagrant
+vagrant_ch_image: Host Kontainer Vagrant
+rpi_image: RaspberryPi
+rpi_ch_image: Host Kontainer RaspberryPi
+pine_image: Pine64
+openstack_ch_image: Host Kontainer OpenStack-Cloud
+virtualbox_image: VirtualBox
+requirements_min: Minimum
+requirements_rec: Direkomendasikan
+minimal_vm_images: Mesin Virtual Minimal
+minimal_vm_info: Mirip dengan citra SUSE Linux Enterprise Server Minimal-VM. Untuk
+  citra Arm JeOS, buka <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
+  wiki Arm</a>
+server_aarch64: Peladen dan papan UEFI Arm 64-bit (aarch64)
+cloud_image: Citra Cloud
+cloud_minimal_desc: Citra KVM dan Xen minimal dengan cloud-init
+requirements_mem_desc: RAM fisik $value + memori tambahan untuk beban kerja Anda
+requirements_hdd_desc: Lebih dari 40GB ruang diska tersedia
+requirements_hdd_swap_info: ruang swap dinonaktifkan agar kubernetes berfungsi dengan
+  baik
+requirements_dvd_desc: Baik drive DVD atau port USB untuk media instalasi
+requirements_net_desc: Akses internet sangat membantu, dan diperlukan untuk Pemasang
+  Jaringan
+requirements_net_conn: Konektivitas penuh antara semua mesin di klaster
+offline_updated_image: Citra Luring yang Dimutakhirkan
+server_x86_64: Peladen Intel atau AMD 64-bit (x86_64)
+requirements_hdd_ssd_info: SSD tingkat kecepatan tulis tinggi
+requirements_net_mac: Nama host dan alamat MAC yang unik untuk setiap node
+offline_updated_desc: "Citra pemasangan luring dengan pemutakhiran terbaru.\nCocok\
+  \ untuk instalasi atau peningkatan.\n"
+selfinstalling_ch_image: Memasang Sendiri Host Kontainer
+pine_ch_image: Host Kontainer Pine64
+selfinstalling_k3s_image: Memasang Sendiri Host k3s
+requirements_cpu_desc: Prosesor dual core 2 Ghz atau yang lebih baik
+requirements_hdd: Penyimpanan
+requirements_hdd_root: partisi / (root)
+live_info: "Harap perhatikan batasan live image berikut ini:\n* Mereka tidak boleh\
+  \ digunakan untuk instalasi atau meningkatkan. Silakan gunakan media instalasi sebagai\
+  \ gantinya\n* Mereka memiliki paket terbatas dan pemilihan penggerak, sehingga tidak\
+  \ dapat dianggap sebagai cerminan yang akurat, apakah distribusi akan bekerja pada\
+  \ perangkat keras Anda atau tidak\n* Kernel dan initrd tidak dapat dimutakhirkan,\
+  \ sehingga tidak boleh digunakan sebagai instalasi persisten\n"
+requirements_hdd_var: partisi /var
+requirements_hdd_size_desc: $value ruang diska yang tersedia
