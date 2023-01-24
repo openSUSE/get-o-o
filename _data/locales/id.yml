@@ -100,8 +100,8 @@ verify_download_p1: "Banyak aplikasi dapat memverifikasi checksum unduhan. Memve
   \ mendapatkan\nberkas ISO yang ingin Anda unduh dan bukan beberapa versi yang rusak.\n"
 verify_download_p2: "Untuk setiap ISO, kami menawarkan berkas checksum dengan jumlah\
   \ SHA256 yang sesuai.\n"
-verify_download_p3: "Untuk keamanan ekstra, Anda dapat menggunakan GPG untuk memverifikasi\
-  \ siapa yang menandatangani berkas .sha256 tersebut.\n"
+verify_download_p3: "Untuk keamanan ekstra, Anda dapat menggunakan sha256sum untuk\
+  \ memverifikasi siapa yang menandatangani berkas .sha256 tersebut. \n"
 verify_download_pubkey: seharusnya
 verify_download_help: Untuk bantuan lebih lanjut tentang memverifikasi unduhan Anda,
   silakan baca
@@ -116,7 +116,7 @@ installation: Instal seperti yang Anda inginkan
 installation_p1: "Proses Pemasangan openSUSE memberi Anda semua opsi yang\nAnda mungkin\
   \ akan membutuhkannya. Ingin memasang sistem Anda dengan tetikus dan\npapan tik?\
   \ Muat pemasang dalam mode grafis. Tidak memiliki tetikus\ndi tangan? Aktifkan klien\
-  \ terminal dan pasang seperti itu. Hanya memiliki\nakses fisik ke mesin? Sambungkan\
+  \ terminal dan pasang seperti itu. Tidak memiliki\nakses fisik ke mesin? Sambungkan\
   \ ke pemasang dari jarak jauh dan\nlanjutkan pemasangan. Sesederhana itu.\n"
 points_transparent: Semuanya transparan
 points_transparent_p1: "Dari awal hingga akhir, setiap paket yang masuk ke distribusi\n\
@@ -232,7 +232,7 @@ minimal_vm_info: Mirip dengan citra SUSE Linux Enterprise Server Minimal-VM. Unt
   citra Arm JeOS, buka <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
   wiki Arm</a>
 server_aarch64: Peladen dan papan UEFI Arm 64-bit (aarch64)
-cloud_image: Citra Cloud
+cloud_image: Citra awan
 cloud_minimal_desc: Citra KVM dan Xen minimal dengan cloud-init
 requirements_mem_desc: RAM fisik $value + memori tambahan untuk beban kerja Anda
 requirements_hdd_desc: Lebih dari 40GB ruang diska tersedia
@@ -262,3 +262,105 @@ live_info: "Harap perhatikan batasan live image berikut ini:\n* Mereka tidak bol
   \ sehingga tidak boleh digunakan sebagai instalasi persisten\n"
 requirements_hdd_var: partisi /var
 requirements_hdd_size_desc: $value ruang diska yang tersedia
+download: Unduh
+MicroOS_features:
+  idea:
+    name: Filosofi
+    description: "### Dapat diprediksi\n* Tidak diubah selama runtime\n* Akan menjalankan\
+      \ artefak yang sama secara konsisten di setiap boot\n\n### Dapat diskalakan\n\
+      * Menghilangkan upaya dalam mengkonfigurasi instance individual selama runtime\n\
+      * Dapat diluncurkan berulang kali dengan mudah dengan hasil yang dapat diprediksi\n\
+      \n### Dapat diandalkan\n* Pemulihan otomatis dari pemutakhiran yang salah\n"
+  update:
+    name: Pemutakhiran Atomik
+    description: "### Pemutakhiran Transaksional\n\n#### Unik\nDengan menggunakan\
+      \ btrfs dengan snapshots, MicroOS menggunakan cara \nyang sangat hemat ruang\
+      \ untuk menyimpan riwayat sistem berkas. Semua berkas \nkonfigurasi di `/etc`\
+      \ adalah bagian dari snapshot dan rollback.\n\n#### Fleksibel\n* Tidak diperlukan\
+      \ format paket baru, gunakan RPM openSUSE standar\n* Tidak ada batasan ukuran,\
+      \ baik untuk partisi maupun sistem operasi\n* Mudah ditingkatkan\n"
+  tool:
+    name: Pengawakutuan
+    description: "### Pengawakutuan Kontainer Toolbox\n* Meluncurkan kontainer yang\
+      \ istimewa\n* Sistem berkas root tersedia di bawah `/media/root`\n* zypper untuk\
+      \ memasang alat yang diperlukan, tersedia tanpa mulai ulang\n* Persisten antara\
+      \ penggunaan\n"
+  work:
+    name: Beban Kerja
+    description: "Aplikasi dipasang dalam kontainer alih-alih sistem berkas root:\n\
+      * Terisolasi dari sistem berkas inti\n* Mengurangi kemampuan aplikasi jahat\
+      \ yang membahayakan sistem\n* Pemasangan baru tanpa mulai ulang\n* Mutakhirkan\
+      \ dengan cara atomik yang mungkin (buat yang baru, bunuh yang lama)\n* Kembalikan\
+      \ dengan mudah\n"
+  key:
+    name: Pemutakhiran yang Aman
+    description: "* Dapatkan pemutakhiran Anda melalui HTTPS\n* Paket dan repositori\
+      \ ditandatangani oleh sistem build kami\n* Paket diverifikasi\n* Tidak ada pemutakhiran\
+      \ yang dilakukan jika terjadi konflik ketergantungan\n* Tidak membuang-buang\
+      \ ruang: Snapshot sistem berkas dihapus jika pemutakhiran tidak berhasil\n"
+  shield:
+    name: Kembalikan (Rollback)
+    description: "### MicroOS adalah OS yang Tidak Dapat Diubah (Immutable), pengembaliannya\
+      \ sederhana\n* Immutable: Tidak ada perubahan pada diska\n* Kembalikan dengan\
+      \ menyalakan ulang ke snapshot BTRFS lama\n"
+Tumbleweed_features:
+  home:
+    name: Stabil
+    description: "PEmutakhiran diuji secara menyeluruh terhadap standar kualitas tingkat\
+      \ industri, memanfaatkan layanan build dari distribusi Linux lain yang membuat\
+      \ kami iri. Tidak hanya setiap versi baru dari sebuah paket diuji secara individual,\
+      \ tetapi kelompok versi yang berbeda diuji satu sama lain, memastikan sistem\
+      \ Anda konsisten secara internal.\n"
+  shield:
+    name: Aman
+    description: "Dibangun dari rilis kernel terbaru, dikompilasi dengan tambalan\
+      \ mitigasi Spectre / Meltdown terbaru, dengan dinding api dan kebijakan keamanan\
+      \ yang kuat diaktifkan secara bawaan, keamanan Anda sudah siap pakai.\n"
+  power:
+    name: Kuat
+    description: "Memanfaatkan teknologi openSUSE yang terkenal, seperti sistem berkas\
+      \ `Btrfs`, utilitas baris perintah `snapper` serta \"panel kontrol\" `YaST`\
+      \ yang terbukti, Tumbleweed memberdayakan Anda dengan kontrol penuh atas sistem\
+      \ Anda, membiarkan Anda menentukan pengaturan yang Anda inginkan dan menyelesaikannya.\
+      \ Anda tidak perlu lagi khawatir tentang sistem yang mengganggu alur kerja Anda.\n"
+  key:
+    name: Terjamin
+    description: "Jika sesuatu yang tidak diinginkan terjadi, Anda selalu dapat mengembalikan\
+      \ ke keadaan sebelumnya dan menemukan berkas dan program Anda seperti sebelum\
+      \ pemutakhiran yang bergelombang.\n"
+  knife:
+    name: Terdepan
+    description: "Anda sering mendapatkan pemutakhiran yang tidak hanya mengatasi\
+      \ kerentanan atau bug squash, tetapi mencerminkan fitur dan pengembangan terbaru,\
+      \ seperti kernel baru, penggerak baru, dan versi lingkungan destop terkini.\n"
+  update:
+    name: Terus Dimutakhirkan
+    description: "Anda memasangnya sekali dan menikmatinya selamanya. Anda tidak perlu\
+      \ lagi khawatir setiap enam bulan tentang pemutakhiran sistem besar-besaran\
+      \ yang berisiko merusak sistem Anda.\n"
+  plant:
+    name: Berdiri di Firm Ground
+    description: "Tumbleweed dibangun berdasarkan penggunaan, pengujian, dan pengawakutuan\
+      \ selama beberapa dekade oleh ratusan pengguna yang kuat, pengembang, administrator\
+      \ sistem, dan pelaku yang menuntut yang tidak mampu membahayakan alur kerja\
+      \ mereka. Soliditas Tumbleweed diwujudkan dalam banyak paket inti yang DNA-nya\
+      \ berasal dari SUSE Linux Enterprise Server.\n"
+  user:
+    name: Mudah Digunakan
+    description: "Dengan satu perintah, Anda dapat memutakhirkan ribuan paket, mengembalikan\
+      \ ke snapshot minggu lalu, mempercepat lagi, dan bahkan mempratinjau rilis yang\
+      \ akan datang.\n"
+  cpu:
+    name: Bermain Bagus dengan Perangkat Keras Anda
+    description: "Berkat sifatnya yang terdepan dan teruji secara menyeluruh, Tumbleweed\
+      \ melayani perangkat keras dan perangkat Anda seperti beberapa distribusi Linux\
+      \ lainnya, menjadikannya pemasangan yang luar biasa untuk workstation, laptop,\
+      \ dan notebook.\n"
+alternative_downloads: Unduhan Alternatif
+preconfigured_rt_image: Citra Waktu Nyata Terprakonfigurasi
+selfinstall_rt_image: Citra Waktu Nyata Pemasangan Sendiri
+preconfigured_image: Citra Terprakonfigurasi
+alternative_downloads_desc: Kami juga memiliki citra $options. Lihat $alternative_downloads!
+overview: Ringkasan
+armv7l: Peladen, destop, laptop, dan papan UEFI Arm 32-bit (armv7l)
+selfinstall_image: Citra Pemasangan Sendiri
