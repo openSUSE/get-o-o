@@ -2,20 +2,20 @@ source_code: Kaynak Kodu
 license: Lisans
 cd_desc: CD ve USB bellek için
 torrent_file: Torrent Dosyası
-learn_more: Daha Fazla Bilgi Edinin
+learn_more: Daha Fazla Bilgi Edin
 usb_desc: USB bellek için
-pick_mirror: Yansı Seçin
-site_title_short: Edinin
-search: Arama
+pick_mirror: Yansı Seç
+site_title_short: Edin
+search: Ara
 metalink: Metalink
 dvd_desc: DVD ve USB bellek için
 checksum: Veri Doğrulama
-offline_image: Çevrimdışı Kurulan İmaj
-translate: Çeviri
-iso_image: ISO kalıbı
+offline_image: Çevrimdışı İmaj
+translate: Çevir
+iso_image: ISO imajı
 network_image: Ağdan Kurulan İmaj
-site_title: openSUSE Edinin
-site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak indirin
+site_title: openSUSE'yi edin
+site_description: OpenSuse dağıtımları hakkında bilgi edin ve ücretsiz olarak indir
 kde_cd: KDE Çalışan CD
 rescue_cd: Kurtarma İçin Çalışan CD
 site_copyright: © 2022 openSUSE'ye katkı sağlayanlar
@@ -23,9 +23,9 @@ offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım kol
   Kurulum veya yükseltme için uygundur.\n"
 network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için\
   \ paket depoları.\nKurulum veya yükseltme için uygundur.\n"
-hyperv_image: MS HyperV
+hyperv_image: MS HyperV imajı
 selfinstalling_images: Otomatik Kurulum İmajı
-kvm_image: KVM ve XEN
+kvm_image: KVM ve XEN imajı
 xen_desc: XEN PV sanal makinesi için
 xen_image: XEN
 gnome_cd: GNOME Çalışan CD
@@ -52,3 +52,38 @@ documentation_release_notes: Sürüm Notları
 leap_switch: openSUSE Leap'e Geçmenin Kolay Yolları
 documentation_license_link: https://tr.opensuse.org/openSUSE:Lisans
 documentation_full_documentation: Tüm Belgeler
+offline_updated_desc: "Enson güncel çevrimdışı kurulum imajı.\nKurulum veya güncelleştirme\
+  \ için uygun.\n"
+vmware_image: VMware imajı
+pine_image: Pine64
+vmware_vmx_image: VMware VMX
+ports_images: Portlar
+rpi_image: RaspberryPi
+virtualbox_image: VirtualBox
+live_images: Canlı
+jeos_images: JeOS
+Tumbleweed_features:
+  shield:
+    name: Güvenli
+    description: "En yeni çekirdek sürümlerinden oluşturulmuş, en yeni Spectre / Meltdown\
+      \ hafifletme yamalarıyla derlenmiş, güvenlik duvarı ve güçlü güvenlik politikaları\
+      \ varsayılan olarak açık, güvenliğiniz kutudan çıktığı gibi karşılanır.\n"
+  home:
+    description: "Güncellemeler, diğer Linux dağıtımlarının bize gıpta ettiği bir\
+      \ yapı hizmetinden yararlanarak endüstri sınıfı kalite standartlarına göre kapsamlı\
+      \ bir şekilde test edilir. Bir paketin her yeni sürümü ayrı ayrı test edilmekle\
+      \ kalmaz, aynı zamanda farklı sürüm kümeleri birbirine karşı test edilerek sisteminizin\
+      \ dahili olarak tutarlı olduğundan emin olunur.\n"
+    name: Kararlı
+  user:
+    name: Kullanımı Kolay
+  power:
+    name: Güçlü
+cloud_image: Bulut imajı
+offline_updated_image: Çevrimdışı Güncel İmaj
+server_x86_64: Intel veya AMD 64-bit sunucular (x86_64)
+hardware_images: Donanım
+requirements_net: Ağ
+MicroOS_features:
+  key:
+    name: Güvenlik Güncelleştirmeleri
