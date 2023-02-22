@@ -13,7 +13,7 @@ dvd_desc: برای دی وی دی و حافظه‌ی USB
 usb_desc: برای حافظه‌ی USB
 metalink: متالینک
 pick_mirror: انتخاب آیینه
-checksum: ''
+checksum: 'چک‌سام'
 torrent_file: فایل تورنت
 offline_image: ایمیج آفلاین
 offline_desc: "شامل یک مجموعه‌ی بزرگ از نرم‌افزار برای استفاده‌ی دسکتاپ یا سرور است.\n\
@@ -125,6 +125,7 @@ Tumbleweed_features:
     description: "چنانچه هر اتفاق ناخواسته‌ای رخ دهد، همیشه می‌توانید به وضعیت قبلی\
       \ برگردید و فایل‌ها و برنامه‌های خود را دقیقاً مانند قبل از به‌روزرسانی ناهموار\
       \ پیدا کنید.\n"
+    name: امن
   shield:
     name: امن
     description: "ساخته شده از آخرین نسخه‌های هسته، گردآوری شده با جدیدترین وصله های\
@@ -176,7 +177,7 @@ requirements_hdd_desc: بیش از ۴۰ گیگابایت فضای هارددیس
 requirements_hdd_root: پارتیشن / (ریشه)
 requirements_hdd_var: پارتیشن ‭/var
 verify_download_pubkey: باید باشد
-verify_download_help: برای راهنمایی بیشتر جهت تأیید دانلود خود لطفاً بخوانید
+verify_download_help: برای راهنمایی بیشتر جهت تایید دانلود خود لطفاً مطالعه کنید
 software: دریافت نرم‌افزار نمی‌تواند آسان‌تر باشد
 software_get: دریافت نرم‌افزار
 server_tumbleweed_p1: برای توسعه دهندگان، مشارکت کنندگان openSUSE، گیمرها و دوستداران
@@ -191,10 +192,10 @@ i686: دسکتاپ‌ها، لپتاپ‌ها، و سرورهای ۳۲ بیتی 
 offline_updated_desc: "ایمیج نصب آفلاین با آخرین آپدیت‌ها.\nمناسب برای نصب یا ارتقا.\n"
 verify_download_p3: "برای امنیت بیشتر، شما می‌توانید از sha256sum برای تایید اینکه\
   \ چه کسی فایل‌های .sha256 را امضا کرده است استفاده کنید. \n"
-software_p1: "بین خودمان باشد، مجبور بودن برای گشتن هر وب‌سایتی برای دریافت\nتمام\
-  \ نرم‌افزاری که ممکن است نیاز داشته باشد کار خیلی زیادی است. مرکز\nآنلاین نرم‌افزار\
-  \ این را به مراتب آسان‌تر می‌کند، از طریق جمع‌آوری نرم‌افزار\nاز تعداد زیادی از\
-  \ منابع در یک مکان.\n"
+software_p1: "بین خودمان بماند، اجبار برای رفتن به هر وب‌سایتی برای دریافت\nتمام نرم‌افزاری\
+  \ که ممکن است نیاز داشته باشید کار خیلی زیادی است. مرکز\nآنلاین نرم‌افزار این را\
+  \ به مراتب آسان‌تر می‌کند، از طریق جمع‌آوری نرم‌افزار\nاز تعداد زیادی از منابع در\
+  \ یک مکان.\n"
 x86_64: دسکتاپ‌ها، لپتاپ‌ها، و سرورهای ۶۴ بیتی AMD یا اینتل (x86_64)
 ppc64le: سرورهای PowerPC little-endian ‮(‭(ppc64le
 openstack_ch_image: میزبان کانتینر OpenStack-Cloud
@@ -220,3 +221,126 @@ requirements: سیستم مورد نیاز
 choosing_media_p2: "ایمیج شبکه برای کاربرانی که پهنای‌باند محدودی روی اتصال اینترنت‌شان\n\
   دارند توصیه می‌شود، زیرا فقط بسته‌هایی که آنها برای نصب انتخاب می کنند\nدانلود می‌شود،\
   \ که احتمالاً به میزان قابل توجهی خواهد بود کمتر از ۴.۷ گیگابایت\nخواهد بود.\n"
+preconfigured_image: ایمیج از پیش پیکربندی شده
+vagrant_image: Vagrant
+rpi_image: RaspberryPi
+pine_image: Pine64
+requirements_hdd_swap_info: برای اینکه kubernetes به درستی کار کند، فضای swap غیرفعال
+  شد
+tw_switch: روش‌های آسان برای تغییر به openSUSE Tumbleweed
+upgrade_table__mac_usb: نحوه ساخت یک حافظه USB قابل بوت در OS X.
+yast: YaST، بهترین انتخاب برای کاربران ~~حرفه‌ای~~
+preconfigured_rt_image: ایمیج از پیش پیکربندی شده بلادرنگ
+snapper_p1: "ویژگی عکس‌فوری فایل‌سیستم از طریق بکاپ‌ گیری‌های مستمری که در زمان نصب\n\
+  نرم‌افزار یا آپدیت‌ها به صورت خودکار اجرا می‌شود فایل‌سیستم شما را تحت\nکنترل نگه\
+  \ می‌دارد. فقط از یک عکس فوری سابق بوت کنید تا سیستم خود را در\nعرض چند دقیقه به\
+  \ وضعیت کاری در بیاورید.\n"
+transactional: سرور تراکنشی
+transactional_p1: "نصب کننده اکنون از یک سیستم−رول سرور تراکنشی جدید پشتیبانی\nمی‌کند،\
+  \ که نتیجه تلاش OpenSUSE Kubic است. این سیستم−رول\nدارای یک سیستم آپدیت جدید است\
+  \ که آپدیت‌ها را به صورت اتمیک‌ای\nاعمال می‌کند (به عنوان یک تک عملیات) و در صورت\
+  \ ضرورت بازگرداندن\nآنها را آسان می‌کند. این ویژگی‌ها بر اساس ابزارهای مدیریت بسته‌ای\n\
+  است که تمام توزیع‌های SUSE و openSUSE دیگر به آن متکی هستند.\nاین بدان معناست که\
+  \ اکثریت قریب به اتفاق بسته‌های RPM که با بقیه\nسیستم−رول‌های توزیع‌های openSUSE\
+  \ کار می‌کنند با سیستم−رول\nسرور تراکنشی نیز کار می‌کنند.\n"
+yast_firewall: فایروال
+zypper_p1: "یادگیری آن سریع و آسان است. zypper-apt، یک لایه سازگاری\nبرای استفاده\
+  \ از دستورات apt و apt-get را فراهم می‌کند. این\nبر اساس libsolv است، که هم سرعت\
+  \ و هم قابلیت تکرار حل و فصل\nوابستگی‌ها را تضمین می کند. رابط کاربری واضح و با\
+  \ رنگ مناسب\nجهت سهولت در خواندن است. آن عالی است، دیگر چه می توان گفت؟\n"
+index_desktop: دسکتاپ
+tw_switch_p1: "چنانچه از قبل openSUSE را اجرا می‌کنید، می‌توانید با بوت شد\nاز DVD/USB\
+  \ و انتخاب ارتقا، یا انجام دادن ‘ارتقای آنلاین‘ با چند\nفرمان آنرا ارتقا دهید.\n"
+tw_switch_instructions: دستورالعمل‌های ارتقا.
+desktop: توزیع‌های دسکتاپ openSUSE
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+desktop_tumbleweed_p1: برای توسعه دهندگان، مشارکت کنندگان openSUSE، گیمرها، و دوستداران
+  لینوکس/نرم‌افزار−آزاد
+vmware_vmx_image: VMware VMX
+virtualbox_image: VirtualBox
+upgrade_table_linux_dvd: نحوه رایت DVD در لینوکس.
+upgrade_table_windows_dvd: نحوه رایت DVD در ویندوز.
+upgrade_table_linux: از یک نسخه قدیمی یا توزیع لینوکس دیگری
+overview: نمای‌کلی
+jeos_info: ایمیج‌های مینیمال VM. برای ایمیج‌های Arm JeOS، لطفا بروید به صفحه ویکی
+  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm</a>
+minimal_vm_info: مشابه ایمیج‌های VM مینیمال ‫SUSE Linux Enterprise Server . برای ایمیج‌های
+  Arm JeOS، لطفا بروید به صفحه ویکی <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm</a>
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_cpu: CPU
+requirements_hdd_size_desc: فضای دیسک موجود ‭$value
+requirements_hdd_ssd_info: SSD با سرعت نوشتن بالا
+requirements_dvd_desc: یک درایو DVD یا یک پورت USB برای رسانه نصب
+requirements_net: شبکه
+requirements_net_desc: دسترسی اینترنت مفید است، و برای نصب کننده شبکه لازم است
+requirements_net_conn: اتصال کامل بین تمام ماشین‌ها در کلاستر
+requirements_net_mac: آدرس MAC و hostname منحصربفرد برای هر نود
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: نحوه ساخت یک حافظه USB قابل بوت در لینوکس.
+upgrade_table_windows_usb: نحوه ساخت یک حافظه USB قابل بوت در ویندوز.
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+verify_download: دانلود خود را قبل از استفاده بررسی کنید
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_p2: "برای هر ISO، ما یک فایل چک‌سام با سام SHA256 متناظر ارائه می‌کنیم.\n"
+verify_download_checksums_help: راهنمای چک‌سام
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: میزکارهای بسیار, سه مورد به صورت پیشفرض
+installation: آن را همانطور که می‌خواهید نصب کنید
+points_welcoming_p1: "ما تمام تلاش خود را می‌کنیم تا جامعه راضی باشد، و این فقط زمانی\
+  \ اتفاق می‌افتد که جامعه\nدرباره آنچه که نیاز دارد با صدای بلند صحبت کند. به همین\
+  \ دلیل است که ما اطمینان حاصل\nمی‌کنیم که مشارکت تا حد امکان آسان باشد.\n"
+selfinstall_image: ایمیج خود−نصب
+selfinstall_rt_image: ایمیج خود−نصب بلادرنگ
+points_transparent_p1: "از ابتدا تا پایان، هر بسته‌ای که وارد توزیع‌ها می‌شود تمام\
+  \ منابع و اسکریپت‌های\nساخت‌اش به طور آزادانه برای همه آشکار و قابل دیدن است. به\
+  \ منبعی مشکوک\nهستید؟ فقط آن را در سرویس ساخت بررسی کنید.\n"
+points_free: نرم‌افزار آزاد؟ انتخاب شماست
+snapper: سیستم خراب شده؟ دیگه مشکلی نیست
+yast_p1: "یکی از برترین ابزارهای پیکربندی سیستم که به شما کمک می‌کند تا تمام\nجنبه‌های\
+  \ سیستم خود را تنظیم کنید. دیگر نیازی نیست تابه استفاده از\nانبوهی از اسکریپت‌های\
+  \ پیکربندی یا وارد کردن فرمان‌های مشکوک متوسل\nشوید تا سیستم را همانطوری نیاز دارید\
+  \ تنظیم کنید.\n"
+yast_fonts: فونت‌ها
+yast_hardware: سخت‌افزار
+yast_partitioner: پارتیشن‌ها
+yast_printer: چاپگر
+yast_scanner: اسکنر
+yast_sound: صدا
+yast_software: نرم‌افزار
+zypper: Zypper، مدیر بسته مورد علاقه جدید شما
+index: توزیع‌های openSUSE
+index_p1: برای دسکتاپ، سرور، و هر چیزی مابین آنها
+index_desktop_p1: انتخاب توزیع‌ها برای استفاده در دسکتاپ
+index_server: سرور
+index_server_p1: انتخاب توزیع‌ها برای استفاده در سرور
+index_full: یا مستقیما به صفحات دانلود توزیع‌ها بروید
+desktop_p1: "دو توزیع برای حکومت بر همه آنها (اکنون به رنگ سبز!)\n"
+desktop_tumbleweed_p2: انتشار غلتان با آخرین بسته‌های فراهم شده توسط پروژه openSUSE.
+desktop_leap_p1: برای مدیران سیستم، توسعه دهندگان سازمانی، و کاربران ‘عادی‘ دسکتاپ
+desktop_leap_p2: انتشار منظم با بهره‌مندی از مهندسی در سطح سازمانی و نوآوری توسعه
+  یافته در جامعه.
+server: توزیع‌های سرور openSUSE
+server_p1: "چهار توزیع راحت و کم هیجان، آنگونه که همیشه باید باشد\n"
+points_welcoming: استقبال از مشارکت‌
+upgrade_table_windows: از ویندوز
+upgrade_table_mac_dvd: نحوه رایت DVD در OS X.
+verify_download_p1: "بسیاری از برنامه‌ها می‌توانند چک‌سام دانلود را تایید کنند. که\
+  \ برای بررسی\nدانلود شما می‌تواند مهم باشد زیرا تأیید می‌کند که شما واقعا فایل ISO\
+  \ ای را\nکه می‌خواستید دانلود کنید را دریافت کرده‌اید و نه نسخه‌ای معیوب.\n"
+desktops_p1: "فرآیند مشارکت openSUSE توسعه دسکتاپ را برای همه مقدور می‌کند، بنابراین\n\
+  شما این انتخاب را دارید که مورد علاقه خود را در نصب کننده انتخاب کنید. ما\nبطور\
+  \ فعال سه محیط دسکتاپ را ارائه می‌دهیم، و حتی موارد بیشتری در\nنمای گسترش‌ یافته‌ی\
+  \ نرم‌افزار داخل نصب کننده در دسترس است.\n"
+installation_p1: "فرآیند نصب openSUSE تمام گزینه‌هایی را که ممکن است نیاز داشته باشید\
+  \ در اختیار شما\nقرار می‌دهد شما می‌خواهید سیستم خود را با موس و صفحه‌کلید نصب کنید؟\
+  \ نصب کننده\nرا در حالت گرافیکی لود کنید. موس‌ در دسترس ندارید؟ کلاینت ترمینال را\
+  \ فعال کرده و\nبه این ترتیب نصب کنید. به دستگاه دسترسی فیزیکی ندارید؟ از راه دور\
+  \ به نصب کننده\nمتصل شوید و نصب را ادامه دهید. ساده است.\n"
+points_transparent: همه چیز شفاف است
+points_free_p1: "بسته‌ها در توزیع‌ها به مخازن آزاد و غیرآزاد تقسیم شده‌اند. آیا نمی\
+  \ خواهید از\nبسته‌های غیرآزاد استفاده کنید؟ شما به راحتی می توانید مخزن غیرآزاد\
+  \ را\nغیرفعال کنید. این انتخاب شماست، نه ما.\n"
