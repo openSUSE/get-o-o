@@ -173,7 +173,7 @@ requirements_cpu_desc: پردازنده دو هسته‌ای ۲ گیگاهرتز
 requirements_mem: حافظه
 requirements_mem_desc: ‭$value ‬ رم فیزیکی + حافظه اضافی برای بارکاری شما
 requirements_hdd: ذخیره‌سازی
-requirements_hdd_desc: بیش از ۴۰ گیگابایت فضای هارددیسک آزاد
+requirements_hdd_desc: بیشتر از ۴۰ گیگابایت فضای آزاد هارددیسک
 requirements_hdd_root: پارتیشن / (ریشه)
 requirements_hdd_var: پارتیشن ‭/var
 verify_download_pubkey: باید باشد
@@ -219,8 +219,8 @@ live_info: "لطفاً از محدودیت‌های زیر برای تصاویر
   \ را نمی توان به روز کرد، بنابراین نباید به عنوان یک نصب دائمی استفاده شود\n"
 requirements: سیستم مورد نیاز
 choosing_media_p2: "ایمیج شبکه برای کاربرانی که پهنای‌باند محدودی روی اتصال اینترنت‌شان\n\
-  دارند توصیه می‌شود، زیرا فقط بسته‌هایی که آنها برای نصب انتخاب می کنند\nدانلود می‌شود،\
-  \ که احتمالاً به میزان قابل توجهی خواهد بود کمتر از ۴.۷ گیگابایت\nخواهد بود.\n"
+  دارند توصیه می‌شود، زیرا فقط بسته‌هایی که برای نصب انتخاب می‌شوند\nدانلود می‌شود،\
+  \ که احتمالاً به میزان قابل توجهی کمتر از ۴.۷ گیگابایت\nخواهد بود.\n"
 preconfigured_image: ایمیج از پیش پیکربندی شده
 vagrant_image: Vagrant
 rpi_image: RaspberryPi
@@ -274,7 +274,7 @@ requirements_hdd_size_desc: فضای دیسک موجود ‭$value
 requirements_hdd_ssd_info: SSD با سرعت نوشتن بالا
 requirements_dvd_desc: یک درایو DVD یا یک پورت USB برای رسانه نصب
 requirements_net: شبکه
-requirements_net_desc: دسترسی اینترنت مفید است، و برای نصب کننده شبکه لازم است
+requirements_net_desc: دسترسی به اینترنت مفید است، و برای نصب کننده شبکه لازم است
 requirements_net_conn: اتصال کامل بین تمام ماشین‌ها در کلاستر
 requirements_net_mac: آدرس MAC و hostname منحصربفرد برای هر نود
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
