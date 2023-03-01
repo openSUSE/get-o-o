@@ -1,5 +1,11 @@
+- version: 5.4
+  order:  3
+  releases:
+  - date: '2023-03-01 12:00:00 UTC'
+    state: 'Alpha'
+
 - version: 5.3
-  order: 1
+  order: 2
   releases:
   - date: '2022-11-17 12:00:00 UTC'
     state: 'Stable'
