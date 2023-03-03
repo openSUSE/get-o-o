@@ -33,24 +33,24 @@ downloads:
     types:
     - name: offline_image
       desc: offline_desc
-      primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso
+      primary_link: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso
       links:
       - name: metalink
-        url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso.meta4
+        url: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso.meta4
       - name: pick_mirror
-        url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso?mirrorlist
+        url: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso?mirrorlist
       - name: checksum
-        url: /tumbleweed/iso/openSUSE-Tumbleweed-DVD-i586-Current.iso.sha256
+        url: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso.sha256
     - name: network_image
       desc: network_desc
-      primary_link: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso
+      primary_link: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso
       links:
       - name: metalink
-        url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso.meta4
+        url: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso.meta4
       - name: pick_mirror
-        url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso?mirrorlist
+        url: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso?mirrorlist
       - name: checksum
-        url: /tumbleweed/iso/openSUSE-Tumbleweed-NET-i586-Current.iso.sha256
+        url: /ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso.sha256
   - name: aarch64
     types:
     - name: offline_image
