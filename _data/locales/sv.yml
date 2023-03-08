@@ -46,7 +46,7 @@ offline_desc: "Innehåller en stor samling programvara för skrivbords eller ser
 offline_image: Offline avbild
 site_title_short: Skaffa
 usb_desc: För USB-stickor
-jeos_info: För ARM JeOS avbilder, gå till <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+jeos_info: Minimala VM avbilder. för ARM JeOS avbilder, gå till <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   wiki sidan</a>
 hardware_images: Hårdvara
 gnome_cd: GNOME LiveCD
@@ -123,7 +123,7 @@ new_version_available: $distro_name är nu tillgänglig för nedladdning
 x86_64: Intel eller AMD 64-bitars stationära datorer, bärbara datorer och servrar
   (x86_64)
 i686: Intel eller AMD 32-bitars stationära datorer, bärbara datorer och servrar (i686)
-ppc64le: PowerPC-servrar, inte big-endian (ppc64le)
+ppc64le: PowerPC-servrar, little-endian (ppc64le)
 Tumbleweed_features:
   user:
     name: Enkel att använda
@@ -150,12 +150,14 @@ MicroOS_features:
     name: Arbetsbelastningar
   tool:
     name: Felsökning
+  update:
+    name: Atomiska uppdateringar
 alternative_downloads_desc: Vi har också $options avbilder. Kolla in $alternative_downloads!
 leap_switch_instructions: Online uppgraderingsinstruktioner.
 selfinstalling_images: Självinstallerande avbilder
-kvm_image: KVM och XEN
-hyperv_image: MS HyperV
-vmware_image: VMware
+kvm_image: KVM och XEN avbild
+hyperv_image: MS HyperV avbild
+vmware_image: VMware avbild
 vmware_vmx_image: VMware VMX
 vagrant_image: Vagrant
 rpi_image: RaspberryPi
@@ -192,8 +194,8 @@ tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta frå
 verify_download_p1: "Många program kan verifiera kontrollsumman för en nedladdning.\
   \ Att verifiera\nDin nedladdning kan vara viktig eftersom det verifierar att du\
   \ verkligen har fått den\nISO-fil du ville ladda ner och inte någon trasig version.\n"
-verify_download_p3: "För extra säkerhet kan du använda GPG för att verifiera vem som\
-  \ signerade dessa .sha256 -filer.\n"
+verify_download_p3: "För extra säkerhet kan du använda sha256summa för att verifiera\
+  \ vem som signerade dessa .sha256-filer. \n"
 verify_download_pubkey: Det ska vara
 points_transparent: Allting är transparent
 index_desktop_p1: Val av distributioner för skrivbordsanvändning
@@ -211,3 +213,14 @@ openstack_ch_image: Openstack-Moln behållare värd
 ports_info: "Portar för openSUSE Leap till andra arkitekturer än PC är\nupprätthålls\
   \ av separata gemenskapsteam, med begränsade resurser.\n"
 site_description: Lär dig mer om openSUSE-distributionerna och ladda ner dem gratis
+offline_updated_image: Uppdaterad Offline avbild
+offline_updated_desc: "Offline installationsavbild med dom senaste uppdateringar.\n\
+  Lämplig för installation eller uppgradering.\n"
+server_x86_64: Intel eller AMD 64-bitars servrar (x86_64)
+cloud_minimal_desc: Minimala KVM och Xen avbilder med cloud-init
+selfinstall_image: Själv-installerande avbild
+selfinstall_rt_image: Själv-installerande realtids avbild
+ppc64: PowerPC servrar, big-endian (ppc64)
+minimal_vm_images: Minimal virtuell maskin
+cloud_image: Molnavbilder
+installation: Installera det hur du vill ha det
