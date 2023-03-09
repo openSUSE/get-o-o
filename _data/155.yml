@@ -117,18 +117,28 @@ downloads:
   info: minimal_vm_info
   display: server
   arches:
-  - name: server_aarch64                                                                               
-    types:                                                                                             
-    - name: kvm_image                                                                                  
-      short: kvm_desc                                                                                  
-      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2       
-      links:                                                                                           
-      - name: metalink                                                                                 
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.meta4        
-      - name: pick_mirror                                                                              
+  - name: server_aarch64
+    types:
+    - name: kvm_image
+      short: kvm_desc
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2
+      links:
+      - name: metalink
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.meta4
+      - name: pick_mirror
         url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2?mirrorlist
-      - name: checksum                                                                                 
-        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.sha256  
+      - name: checksum
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.sha256
+    - name: hyperv_image
+      short: hyperv_desc
+      primary_link: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz
+      links:
+      - name: metalink
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.meta4
+      - name: pick_mirror
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz?mirrorlist
+      - name: checksum
+        url: /distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256
   - name: x86_64
     types:
     - name: kvm_image
