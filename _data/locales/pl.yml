@@ -75,8 +75,8 @@ verify_download_p1: "Wiele aplikacji może zweryfikować sumy kontrolne pobranyc
   prawidłowy plik ISO, a nie jakąś zepsutą wersję.\n"
 verify_download_p2: "Do każdego ISO, oferujemy plik sumy kontrolnej z odpowiadającą\
   \ sumą SHA256.\n"
-verify_download_p3: "Dla dodatkowego bezpieczeństwa, możesz użyć GPG by zweryfikować\
-  \ kto podpisał te pliki .sha256.\n"
+verify_download_p3: "Dla dodatkowego bezpieczeństwa, możesz użyć sha256sum by zweryfikować\
+  \ kto podpisał te pliki .sha256. \n"
 verify_download_pubkey: Powinna być
 verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczytaj
 verify_download_checksums_help: pomoc z sumami kontrolnymi
@@ -201,7 +201,7 @@ x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit (
 i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit (i686)
 aarch64: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 64-bit
   (aarch64)
-ppc64le: Serwery oparte o PowerPC, nie duży endian (ppc64le)
+ppc64le: Serwery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
 kvm_ch_image: Host kontenera KVM i XEN
 hyperv_ch_image: Host kontenera MS HyperV
@@ -349,3 +349,9 @@ requirements_rec: Rekomendowane
 selfinstall_image: Obrazy samo instalujące się
 selfinstall_rt_image: Obrazy samo instalujące się RealTime
 overview: Przegląd
+offline_updated_image: Zaktualizowany Obraz Offline
+offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\n\
+  Przystosowany do instalacji lub aktualizacji.\n"
+ppc64: Serwery PowerPC, big-endian (ppc64)
+minimal_vm_images: Minimalna Maszyna Wirtualna
+server_x86_64: 64-bitowe serwery Intel lub AMD (x86_64)
