@@ -11,13 +11,13 @@ offline_desc: "Zawiera dużą ilość oprogramowania do użytku na komputerach d
 network_image: Obraz Sieciowy
 network_desc: "Pobiera system instalacyjny i wszystkie paczki z repozytoriów.\nDobry\
   \ wybór przy instalacji lub aktualizacji.\n"
-kvm_image: KVM i XEN
+kvm_image: Obraz KVM i XEN
 kvm_desc: Do użytku w hiperwizorach KVM lub XEN HVM
 xen_image: XEN
 xen_desc: Do użytku w hiperwizorach XEN PV
-hyperv_image: MS HyperV
+hyperv_image: Obraz MS HyperV
 hyperv_desc: Do użytku w maszynach wirtualnych na MS HyperV
-vmware_image: VMware
+vmware_image: Obraz VMware
 vmware_desc: Do użytku w maszynach wirtualnych na VMware
 openstack_image: OpenStack-Cloud
 openstack_desc: Do użytku w maszynach wirtualnych na OpenStack
@@ -317,7 +317,7 @@ selfinstalling_images: Samo instalujące się obrazy
 selfinstalling_k3s_image: Samo instalujący się Host k3s
 vmware_vmx_ch_image: Host kontenera VMware VMX
 openstack_ch_image: Host kontenera OpenStack-Cloud
-jeos_info: By znaleźć obrazy Arm JeOS, odwiedź <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">stronę
+jeos_info: Minimalne obrazy VM. By znaleźć obrazy Arm JeOS, odwiedź <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">stronę
   wiki o Arm</a>
 live_info: "Proszę bądź świadomy poniższych limitacji obrazów Live:\n* Nie powinny\
   \ one być używane do instalacji lub aktualizacji. W zamian, użyj obrazów instalacyjnych\n\
@@ -355,3 +355,6 @@ offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\
 ppc64: Serwery PowerPC, big-endian (ppc64)
 minimal_vm_images: Minimalna Maszyna Wirtualna
 server_x86_64: 64-bitowe serwery Intel lub AMD (x86_64)
+server_aarch64: 64-bitowe serwery i urządzenia ARM UEFI (aarch64)
+cloud_image: Obraz Cloud
+cloud_minimal_desc: Minimalne obrazy KVM i XEN z cloud-init
