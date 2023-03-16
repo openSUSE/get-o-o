@@ -24,9 +24,9 @@ documentation_release_notes: Notas da versión
 documentation_license: Licenza
 documentation_full_documentation: Documentación completa
 leap_switch: Modo sinxelo de cambiar a openSUSE Leap
-requirements: Requisitos recomendados do sistema
-requirements_cpu: Procesador  de 2 Ghz dual ou superior
-requirements_mem: 2 GB de memoria no sistema
+requirements: Requisitos do sistema
+requirements_cpu: Procesador
+requirements_mem: Memoria
 requirements_hd: Máis de 40 GB de espazo libre en disco
 requirements_dvd: Ou unha unidade DVD ou un porto USB para o medio de instalación
 requirements_net: O acceso a Internet é útil e necesario para facer unha instalación
@@ -78,31 +78,31 @@ xen_image: XEN
 kvm_ch_image: Host Contedor KVM e XEN
 kvm_image: KVM e XEN
 network_desc: "Descarga o sistema de instalación e todos os paquetes dende\nrepositorios\
-  \ online. Apropaido para instalación ou actualización.\n"
+  \ online. Apropiado para instalación ou actualización.\n"
 offline_desc: "Contén unha grande colección de software para usar en servidor ou en\
   \ escritorio.\nApropiado para instalar ou actualizar.\n"
 iso_image: Imaxe ISO
-offline_image: Imaxe Offline
+offline_image: Imaxe sen conexión
 metalink: Metalink
-usb_desc: Para pincho USB
-learn_more: Aprende máis
+usb_desc: Para memoria USB
+learn_more: Aprenda máis
 source_code: Código Fonte
 translate: Traducir
 site_copyright: © 2022 contribuidores openSUSE
-site_description: Aprende sobor das distribucións openSUSE e descárgaas gratis
+site_description: Aprenda acerca das distribucións openSUSE e descárgueas de balde
 site_title_short: Obter
-documentation_license_link: https://es.opensuse.org/openSUSE:Licencia
-leap_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o\
-  \ DVD/USB\ne elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\"\
-  \ cuns\npoucos comandos.\n"
-leap_switch_instructions: Instrucións para a Actualización Online.
-leap_switch_instructions_link: https://es.opensuse.org/SDB:Actualizaci%C3%B3n_de_la_distribuci%C3%B3n
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_p1: "Se xa está a usar openSUSE, pode actualizar arrincando dende o DVD/USB\n\
+  e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cunhas\n\
+  poucas ordes.\n"
+leap_switch_instructions: Instrucións para a actualización con conexión.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_min: Mínimo
 requirements_rec: Recomendado
-requirements_cpu_desc: Procesador Dual-core de 2Ghz ou millor
-requirements_mem_desc: $value RAM física + memoria adicional para a túa carga de traballo
-requirements_hdd: Almaceamento
-requirements_hdd_desc: Sobre dos 40GB de espacio libre no disco duro
+requirements_cpu_desc: Procesador Dual-core de 2Ghz ou superior
+requirements_mem_desc: $value RAM física + memoria adicional para a súa carga de traballo
+requirements_hdd: Almacenamento
+requirements_hdd_desc: Máis de 40GB de espazo libre no disco duro
 requirements_hdd_root: Partición / (root)
 requirements_hdd_var: Partición /var
 verify_download_pubkey: Debera
@@ -123,13 +123,13 @@ verify_download_p1: "Moitas aplicacións poden verificar a suma de comprobación
 verify_download_p2: "Para cada ISO, ofrecemos un ficheiro de suma de comprobación\
   \ coa súa correspondente suma SHA256.\n"
 desktops: Moitos escritorios, tres por defecto
-requirements_hdd_size_desc: $value de espacio dispoñible en disco
+requirements_hdd_size_desc: $value de espazo dispoñible en disco
 requirements_net_conn: Completa conectividade entre todas as máquinas do cluster
 microos_desc: SO baseado en openSUSE Tumbleweed que proporciona Actualizacións Transaccionais
   (Atómicas) sobre dun sistema de ficheiros btrfs de só-lectura
-choosing_media_p1: "A imaxe Offline é a recomentada habitualmente xa que contén a\
-  \ maioría dos\npaquetes dispoñibles na distribución e non require de conexión de\
-  \ rede\ndurante a instalación.\n"
+choosing_media_p1: "A imaxe sen conexión é a recomendada habitualmente xa que contén\
+  \ a maioría dos\npaquetes dispoñibles na distribución e non require de conexión\
+  \ de rede\ndurante a instalación.\n"
 choosing_media_p2: "A Imaxe de Rede recoméndase para usuarios que teñen limitacións\n\
   no espacio de banda das súas conexións a internet, xa que só descargará\nos paquetes\
   \ que se seleccionen para instalar, o que será seguramente\nmoito menos de 4,7 GB.\n"
@@ -145,3 +145,4 @@ verify_download_p3: "Para máis seguridade, podes usar GPG para verificar quen f
   \ estes ficheiros .sha256.\n"
 verify_download_help: Para ter máis axuda de como verificar a túa descarga, por favor
   le
+offline_updated_image: Imaxe actualizada sen conexión
