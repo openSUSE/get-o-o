@@ -28,3 +28,5 @@ network_desc: "Презема систем за инсталација и сит
 selfinstalling_images: Самоинсталирачки слики
 selfinstalling_ch_image: Самоинсталирачки Хост на контејнери
 selfinstalling_k3s_image: Самоинсталирачки Хост за k3s
+kvm_ch_image: KVM и XEN Контејнер Хост
+xen_image: XEN
