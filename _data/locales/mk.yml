@@ -31,3 +31,4 @@ selfinstalling_k3s_image: Самоинсталирачки Хост за k3s
 kvm_ch_image: KVM и XEN Контејнер Хост
 xen_image: XEN
 kvm_desc: За користење во KVM или XEN HVM хипервизори
+xen_desc: За користење во XEN PV хипервизори
