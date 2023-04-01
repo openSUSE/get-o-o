@@ -37,3 +37,5 @@ hyperv_ch_image: Хост на MS HyperV контејнери
 vmware_ch_image: VMware Хост на контејнери
 hyperv_desc: За управување на виртуелни машини на MS HyperV
 vmware_image: VMware слика
+ports_images: Порти
+installation_images: Инсталација
