@@ -34,3 +34,6 @@ kvm_desc: За користење во KVM или XEN HVM хипервизори
 xen_desc: За користење во XEN PV хипервизори
 hyperv_image: MS HyperV слика
 hyperv_ch_image: Хост на MS HyperV контејнери
+vmware_ch_image: VMware Хост на контејнери
+hyperv_desc: За управување на виртуелни машини на MS HyperV
+vmware_image: VMware слика
