@@ -39,3 +39,4 @@ hyperv_desc: За управување на виртуелни машини на
 vmware_image: VMware слика
 ports_images: Порти
 installation_images: Инсталација
+vmware_desc: За управување на виртуелни машини во VMware
