@@ -40,3 +40,6 @@ vmware_image: VMware слика
 ports_images: Порти
 installation_images: Инсталација
 vmware_desc: За управување на виртуелни машини во VMware
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX Хост на контејнери
+vagrant_image: Vagrant
