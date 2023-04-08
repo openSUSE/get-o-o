@@ -43,3 +43,7 @@ vmware_desc: За управување на виртуелни машини во
 vmware_vmx_image: VMware VMX
 vmware_vmx_ch_image: VMware VMX Хост на контејнери
 vagrant_image: Vagrant
+rpi_image: RaspberryPi
+pine_image: Pine64
+vagrant_ch_image: Vagrant Хост на контејнери
+rpi_ch_image: RaspberryPi Хост на контејнери
