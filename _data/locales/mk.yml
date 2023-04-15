@@ -47,3 +47,6 @@ rpi_image: RaspberryPi
 pine_image: Pine64
 vagrant_ch_image: Vagrant Хост на контејнери
 rpi_ch_image: RaspberryPi Хост на контејнери
+pine_ch_image: Pine64 Хост на контејнери
+openstack_image: OpenStack-Cloud
+openstack_ch_image: OpenStack-Cloud Хост на контејнери
