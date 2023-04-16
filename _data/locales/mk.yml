@@ -50,3 +50,8 @@ rpi_ch_image: RaspberryPi Хост на контејнери
 pine_ch_image: Pine64 Хост на контејнери
 openstack_image: OpenStack-Cloud
 openstack_ch_image: OpenStack-Cloud Хост на контејнери
+openstack_desc: За управување на виртуелни машини во OpenStack
+virtualbox_image: VirtualBox
+jeos_images: JeOS
+ports_info: "Портови на openSUSE Leap во архитектури различни од PC се\nодржуваат\
+  \ од одделни тимови од заедницата, со ограничени ресурси.\n"
