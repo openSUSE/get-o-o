@@ -266,8 +266,8 @@ MicroOS_features:
   shield:
     name: Rollback
     description: "### MicroOS ist ein unveränderbares Betriebssystem, ein Rollback\
-      \ ist einfach\n* Unveränderbar: Keine Änderungen auf Platte\n* Rollback durch\
-      \ Reboot zu einem alten BTRFS Snapshot\n"
+      \ ist einfach\n* Unveränderbar: Keine Änderungen auf der Festplatte\n* Rollback\
+      \ durch einem Reboot zu einem alten BTRFS Snapshot\n"
   key:
     name: Sichere Updates
 offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet\
