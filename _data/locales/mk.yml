@@ -55,3 +55,6 @@ virtualbox_image: VirtualBox
 jeos_images: JeOS
 ports_info: "Портови на openSUSE Leap во архитектури различни од PC се\nодржуваат\
   \ од одделни тимови од заедницата, со ограничени ресурси.\n"
+jeos_info: Минимални VM слики. За Arm JeOS слики, одете на <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  вики страницата</a>
+minimal_vm_images: Минимална виртуелна машина
