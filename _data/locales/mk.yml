@@ -61,3 +61,7 @@ minimal_vm_images: Минимална виртуелна машина
 Tumbleweed_features:
   shield:
     name: Безбедно
+server_aarch64: UEFI Arm 64-битни сервери и плочи (aarch64)
+minimal_vm_info: Слично на SUSE Linux Enterprise Server Minimal-VM сликите. За Arm
+  JeOS сликите, одете на <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  вики страницата</a>
