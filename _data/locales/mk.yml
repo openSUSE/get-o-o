@@ -58,3 +58,6 @@ ports_info: "Портови на openSUSE Leap во архитектури ра�
 jeos_info: Минимални VM слики. За Arm JeOS слики, одете на <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   вики страницата</a>
 minimal_vm_images: Минимална виртуелна машина
+Tumbleweed_features:
+  shield:
+    name: Безбедно
