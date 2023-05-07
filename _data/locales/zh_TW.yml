@@ -18,13 +18,13 @@ offline_image: 離線安裝映像檔
 offline_desc: "包含了大批的軟體供桌面或伺服器使用。適用於安裝或升級。\n"
 network_image: 網路安裝映像檔
 network_desc: "從線上套件庫下載安裝系統與所有套件。適用於安裝或升級。\n"
-kvm_image: KVM 與 XEN
+kvm_image: KVM 與 XEN 映像檔
 kvm_desc: 供 KVM 或是 XEM HVM 的 hypervisor 使用
 xen_image: XEN
 xen_desc: 供 XEN PV hypervisor 使用
-hyperv_image: MS HyperV
+hyperv_image: MS HyperV 映像檔
 hyperv_desc: 供運作於微軟 HyperV 的虛擬機器使用
-vmware_image: VMware
+vmware_image: VMware 映像檔
 vmware_desc: 供運作於 VMware 的虛擬機器使用
 openstack_image: OpenStack-Cloud
 openstack_desc: 供運作於 OpenStack 的虛擬機器使用
@@ -246,3 +246,5 @@ Tumbleweed_features:
     description: "您只需安裝一次即可永久享受。再也不需擔心每六個月的大量系統升級會有讓您的系統掛掉的風險。\n"
     name: 持續更新
 ppc64: PowerPC 伺服器，big-endian (ppc64)
+jeos_info: 最小虛擬機器映像檔。請造訪 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  wiki page</a> 以了解 Arm JeOS 映像檔
