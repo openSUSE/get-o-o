@@ -224,3 +224,6 @@ ppc64: PowerPC servrar, big-endian (ppc64)
 minimal_vm_images: Minimal virtuell maskin
 cloud_image: Molnavbilder
 installation: Installera det hur du vill ha det
+minimal_vm_info: Liknande som SUSE Linux Enterprise Server Minimal-VM avbildningar.
+  För Arm JeOS avbilder, snälla gå till <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  wiki sidan</a>
