@@ -20,13 +20,13 @@ offline_desc: "Obsahuje velkou sbírku softwaru pro použití na ploše nebo ser
 network_image: Síťový obraz
 network_desc: "Stáhne instalační systém a všechny balíčky z online\núložiště. Vhodné\
   \ pro instalaci nebo upgrade.\n"
-kvm_image: KVM a XEN
+kvm_image: Obraz KVM a XEN
 kvm_desc: Pro použití v hypervizorech KVM nebo XEN HVM
 xen_image: XEN
 xen_desc: Pro použití v hypervizorech XEN PV
-hyperv_image: MS HyperV
+hyperv_image: MS HyperV obraz
 hyperv_desc: Pro běh virtuálních strojů na MS HyperV
-vmware_image: VMware
+vmware_image: VMware obraz
 vmware_desc: Pro běh virtuálních strojů ve VMware
 openstack_image: OpenStack-Cloud
 openstack_desc: Pro běh virtuálních strojů v OpenStack
@@ -200,3 +200,12 @@ aarch64: 64bitové servery, stolní počítače, notebooky a jednodeskové poč�
 ppc64le: Servery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems a LinuxONE (s390x)
 ppc64: Servery PowerPC, big-endian (ppc64)
+offline_updated_image: Offline aktualizační obraz
+vmware_vmx_image: VMware VMX
+vagrant_image: Vagrant
+rpi_image: RaspberryPi
+pine_image: Pine64
+iso_image: ISO obraz
+offline_updated_desc: "Offline instalační obraz s nejnovějšími aktualizacemi.\nVhodný\
+  \ k instalaci nebo aktualizaci.\n"
+virtualbox_image: VirtualBox
