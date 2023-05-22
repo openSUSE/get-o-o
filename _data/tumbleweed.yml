@@ -207,6 +207,16 @@ downloads:
         url: /ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz?mirrorlist
       - name: checksum
         url: /ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256
+    - name: cloud_image
+      short: cloud_minimal_desc
+      primary_link: /ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2
+      links:
+      - name: metalink
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2.meta4
+      - name: pick_mirror
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2?mirrorlist
+      - name: checksum
+        url: /ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2.sha256
 - name: live_images
   display: desktop
   info: live_info
