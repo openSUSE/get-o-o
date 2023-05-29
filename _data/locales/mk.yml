@@ -68,3 +68,4 @@ minimal_vm_info: Слично на SUSE Linux Enterprise Server Minimal-VM сл�
 server_x86_64: Интел или AMD 64-битни сервери (x86_64)
 live_images: Живо(Live)
 vm_images: Виртуелна машина
+cloud_image: Клауд слика
