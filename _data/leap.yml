@@ -8,6 +8,8 @@
     state: 'Beta'
   - date: '2023-04-27 12:00:00 UTC'
     state: 'RC'
+  - date: '2023-06-07 12:00:00 UTC'
+    state: 'Stable'
 - version: 15.4
   order: 7
   releases:
