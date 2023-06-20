@@ -270,6 +270,11 @@ MicroOS_features:
       \ durch einem Reboot zu einem alten BTRFS Snapshot\n"
   key:
     name: Sichere Updates
+    description: "* Erhalten Sie Ihre Updates über HTTPS\n* Pakete und Repositories\
+      \ werden von unserem Build-System signiert\n* Pakete werden geprüft\n* Im Falle\
+      \ von Abhängikeitskonflikten erfolgt kein Update\n* Keine Verschwendung von\
+      \ Speicherplatz: Dateisystem-Snapshots werden im Fall von nicht erfolgreichen\
+      \ Updates gelöscht\n"
 offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet\
   \ für Installation oder Upgrade.\n"
 minimal_vm_info: Ähnlich der SUSE Linux Enterprise Server Minimal-VM Images. Für Arm
