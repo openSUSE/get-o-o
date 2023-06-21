@@ -69,3 +69,6 @@ server_x86_64: Интел или AMD 64-битни сервери (x86_64)
 live_images: Живо(Live)
 vm_images: Виртуелна машина
 cloud_image: Клауд слика
+documentation_license: Лиценца
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: Комплетна Документација
