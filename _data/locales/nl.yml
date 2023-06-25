@@ -30,9 +30,9 @@ requirements_dvd: Een dvd-station of een USB-poort voor het installatiemedium
 requirements_net: Netwerk
 tw_switch: Gemakkelijke manieren om over te schakelen naar openSUSE Tumbleweed
 tw_switch_instructions_link: https://nl.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_linux: Uit een oudere versie of andere Linux-distributie
-upgrade_table_windows: Uit Windows
-upgrade_table_mac: Uit OS X
+upgrade_table_linux: Vanaf een oudere versie of andere Linux-distributie
+upgrade_table_windows: Vanuit Windows
+upgrade_table_mac: Vanuit OS X
 upgrade_table_linux_dvd: Hoe een DVD op Linux te branden.
 upgrade_table_linux_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Using_Linux
 upgrade_table_windows_dvd: Hoe een DVD op Windows te branden.
@@ -199,7 +199,7 @@ verify_download_p1: "Veel applicaties kunnen de controlesom verifiëren. Het ver
   \ kapotte\ndownload.\n"
 verify_download_p2: "Voor elk ISO-bestand bieden we een controlesom bestand met de\
   \ corresponderende SHA256 som.\n"
-verify_download_pubkey: Het zou moeten zijn
+verify_download_pubkey: Deze zou moeten zijn
 verify_download_help: Voor meer hulp bij het controleren van uw download, lees alstublieft
 installation: Installeer het zoals je wilt
 installation_p1: "Het openSUSE installatieproces biedt u alle opties die u maar enigszins\n\
@@ -234,7 +234,7 @@ zypper_p1: "Het is snel en makkelijk te leren. Het bevat zypper-apt, een compati
   \ De interface is helder en toepasselijk gekleurd voor leesgemak.\nHet is perfect,\
   \ wat kan er nog meer gezegd worden?\n"
 index_server: Server
-index_full: Of ga direct naar de download paginaś voor de distributies
+index_full: Of ga direct naar de download pagina's voor de distributies
 desktop: De openSUSE Desktop distributies
 desktop_tumbleweed_p1: Voor ontwikkelaars, openSUSE bijdragers, Gamers en Linux/FOSS
   enthousiastelingen
@@ -269,5 +269,89 @@ MicroOS_features:
       \ recuperatie na defecte updates\n"
   update:
     name: Atomische updates
+    description: "### Transactionele Updates\n\n###Uniek\nDoor gebruik te maken van\
+      \ btrfs met snapshots kan MicroOS schijfruimte\nop een efficiënte manier de\
+      \ geschiedenis van het bestandssysteem opslaan.\nAlle configuratiebestanden\
+      \ in `/etc` zijn onderdeel van het snapshot en de\nrollback.\n\n### Flexibel\n\
+      * Geen nieuw pakket formaat is nodig, gebruikt standaard openSUSE RPMs\n* Geen\
+      \ ruimte beperkingen, voor zowel partities als het besturingssysteem\n* Gemakkelijk\
+      \ om uit te breiden\n"
+  shield:
+    name: Rollback
+    description: "### MicroOS is een onveranderlijk OS, rollback is eenvoudig.\n*\
+      \ Onveranderlijk: Geen wijzigingen op de schijf\n* Rollback door herstart naar\
+      \ een ouder btrfs snapshot\n"
+  key:
+    description: "* Verkrijg uw updates via HTTPS\n* Pakketten en opslagruimtes zijn\
+      \ ondertekend door ons build systeem\n* Pakketen zijn geverifieerd\n* Updates\
+      \ worden niet geïnstalleerd wanneer er een afhankelijkheidsconflict is\n* Geen\
+      \ verspilling van ruimte: bestandssysteem snapshots worden verwijderd bij niet\
+      \ gelukte update\n"
+    name: Veilige updates
+  work:
+    name: Werklast
+    description: "Applicaties worden geïnstalleerd in containers in plaats van het\
+      \ root bestandssysteem:\n* Geïsoleerd van het kern bestandssysteem\n* Beperkte\
+      \ mogelijkheid voor kwaadwillende applicaties om het systeem te compromitteren.\n\
+      * Nieuwe installatie zonder herstart\n* Updaten op atomische wijze (creëer opnieuw,\
+      \ verwijder oude)\n* Gemakkelijke rollback\n"
+  tool:
+    name: Debuggen
+    description: "### Hulpmiddelen container voor debuggen\n* Start gepriviligeerde\
+      \ container\n* Root bestandssysteem onder `/media/root`\n* Zypper, om de noodzakelijke\
+      \ hulpmiddelen te installeren zonder herstart\n* Onveranderd tussen het gebruik\n"
 verify_download_p3: "Voor extra veiligheid, kunt u sha256sum gebruiken om te controleren\
   \ wie de .sha256 bestanden signeerde. \n"
+Tumbleweed_features:
+  update:
+    name: Continue geüpdatet
+    description: "U installeert het een keer en geniet er altijd van. Niet langer\
+      \ hoeft u elke zes maanden na te denken over grote systeem upgrades die het\
+      \ vastlopen\nvan uw systeem riskeren\n"
+  home:
+    name: Stabiel
+    description: "Updates zijn grondig getest tegen industriële kwaliteitsstandaarden,\
+      \ gebruik makend van een build service waar andere Linux distributies jaloers\
+      \ op zijn.\nNiet alleen is elke nieuwe versie of een pakket individueel getest,\
+      \ maar verschillende clusters van versies worden tegen elkaar getest . Op die\
+      \ manier verzekerd dat\nuw systeem intern consistent is.\n"
+  key:
+    name: Veilig
+    description: "Mocht er iets ongewenst gebeuren dan kunt u altijd een rollback\
+      \ uitvoeren naar een eerdere staat. Uw bestanden zijn dan precies zoals ze waren\
+      \ voor de update.\n"
+  knife:
+    description: "U krijg regelmatige updates die niet alleen zwakheden en bugs verhelpen,\
+      \ maar ook een de nieuwste features en ontwikkelingen bevatten, zoals nieuwe\n\
+      kernels, nieuwe driver en recente versies van bureaublad omgevingen.\n"
+    name: Koploper
+  user:
+    name: Eenvoudig in gebruik
+    description: "Met een enkel commando kunt u duizenden pakketten updaten, een rollback\
+      \ doen naar de snapshot van vorige week, weer naar voren, en zelf aankomende\n\
+      releases bekijken\n"
+  cpu:
+    name: Functioneert met uw hardware
+    description: "Dankzij het zijn van een grondig getest koploper, is het mogelijk\
+      \ voor Tumbleweed om uw hardware en randapparatuur te bedienen zoals weinig\
+      \ andere\nLinux distributies. Hierdoor is het bijzonder beschikt voor werkstations,\
+      \ laptops en soortgelijken\n"
+  shield:
+    description: "Gebouwd met de laatste kernel releases, gecompileerd met de laatste\
+      \ Spectre/Meltdown beperkings patches, met een firewall en sterk veiligheidsbeleid\
+      \ standaard aangezet, is uw veiligheid gedekt vanaf installatie.\n"
+    name: Veilig
+  power:
+    description: "Gebruik makend van de technologieën waar openSUSEbefaamd om is,\
+      \ zoals het `Btrfs` bestandssysteem, het `snapper` terminal hulpprogramma en\
+      \ het beproefde `YaST` ¨configuratie scherm¨, geeft Tumbleweed u de mogelijkheid\
+      \ tot volledige controle van uw systeem, zodat u de instellingen bepaalt die\
+      \ u wenst en klaar. Geen zorgen meer dat het systeem uw werkwijze hindert.\n"
+    name: Krachtig
+  plant:
+    name: Een solide basis
+    description: "Tumbleweed bouwt voor op decennia van gebruik, testen en debuggen\
+      \ door honderden power-gebruikers, ontwikkelaars, systeem administrators en\
+      \ veeleisende doeners die het zich niet kunnen veroorloven hun werkwijze te\
+      \ riskeren. Tumbleweeds soliditeit is belichaamd in meer kern pakketten waarvan\
+      \ het DNA komt van de vermaarde SUSE Linux Enterprise Server.\n"
