@@ -308,3 +308,8 @@ requirements_net_desc: Ein Internetzugang ist hilfreich und wird für den Netzwe
   benötigt
 requirements_net_conn: Vollständige Verbindung zwischen allen Maschinen im Cluster
 requirements_net_mac: Eindeutige Hostnamen und MAC-Adressen für jeden Knoten
+Tumbleweed_features:
+  key:
+    name: Zuverlässig
+  shield:
+    name: Sicher
