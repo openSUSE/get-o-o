@@ -48,7 +48,7 @@ upgrade_table__mac_usb_link: https://nl.opensuse.org/SDB:Create_a_Live_USB_stick
 verify_download: Verifieer uw download alvorens deze te gebruiken
 verify_download_checksums_help: Hulp bij controlesommen
 verify_download_checksums_help_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Controlesommen_.28Checksums.29
-index_desktop: Bureaublad
+index_desktop: Desktop
 site_copyright: © 2022 openSUSE bijdragers
 iso_image: ISO image
 kvm_ch_image: KVM en XEN container host
