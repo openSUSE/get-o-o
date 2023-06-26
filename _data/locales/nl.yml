@@ -143,7 +143,7 @@ transactional_p1: "De installer ondersteunt nu een nieuwe systeem rol, transacti
   \ de rol van\ntransactionele server.\n"
 server_leap_p2: Reguliere release met de voordelen van enterprise standaard engineering
   en community ontwikkelde innovatie.
-index_p1: Voor desktops, servers, en alles ertussenin
+index_p1: Voor desktops, servers en alles ertussenin
 index_desktop_p1: Selectie van distributies voor desktop gebruik
 index_server_p1: Selectie van distributies voor server gebruik
 desktop_p1: "De twee distributies om ze allen te regeren (nu in groen!)\n"
