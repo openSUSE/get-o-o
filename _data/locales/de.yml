@@ -275,6 +275,14 @@ MicroOS_features:
       \ von Abhängikeitskonflikten erfolgt kein Update\n* Keine Verschwendung von\
       \ Speicherplatz: Dateisystem-Snapshots werden im Fall von nicht erfolgreichen\
       \ Updates gelöscht\n"
+  tool:
+    name: Debugging
+  work:
+    name: Arbeitslast
+    description: "Anwendung werden in Containern statt im Hauptdateisystem installiert:\n\
+      * isoliert vom zentralen Dateisystem\n* reduziert die Möglichkeit für bösartige\
+      \ Anwendungen Ihr System zu kompromitieren\n* Neuinstallation ohne Reboot\n\
+      * atomare Updates möglich (neuen erstellen, alten töten)\n* einfaches Rollback\n"
 offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet\
   \ für Installation oder Upgrade.\n"
 minimal_vm_info: Ähnlich der SUSE Linux Enterprise Server Minimal-VM Images. Für Arm
