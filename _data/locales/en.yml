@@ -66,6 +66,7 @@ server_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
 server_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
 vm_images: Virtual Machine
+cloud_images: Cloud
 cloud_image: Cloud image
 cloud_minimal_desc: Minimal KVM and Xen image with cloud-init
 hardware_images: Hardware
