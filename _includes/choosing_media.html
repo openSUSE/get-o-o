@@ -4,10 +4,18 @@
       {{ locale.choosing_media }}
     </h3>
     <p>
+      {% if distro.name == "Leap Micro" or distro.name =="MicroOS" %}
+      {{ locale.choosing_media_micro_p1 }}
+      {% else %}
       {{ locale.choosing_media_p1 }}
+      {% endif %}
     </p>
     <p>
+      {% if distro.name == "Leap Micro" or distro.name =="MicroOS" %}
+      {{ locale.choosing_media_micro_p2 }}
+      {% else %}
       {{ locale.choosing_media_p2 }}
+      {% endif %}
     </p>
   </div>
 </section>

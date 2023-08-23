@@ -86,11 +86,24 @@ choosing_media_p1: |
   The Offline Image is typically recommended as it contains most of the
   packages available in the distribution and does not require a network
   connection during the installation.
+choosing_media_micro_p1: |
+  The new self-install image is recommended for all who do not require custom partitioning and can boot from USB.
+  A simple self-install wizard dumps a preconfigured image to the drive, and grows the partition to the size of the disk.
+  <br>
+  Users with Raspberry Pi and similar without usb-boot support can directly write the pre-conifgured image to the SD card.
+  Users seeking more control over deployment are adviced to use <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+  <br>
+  A demo of a combustion based deployment can be seen <a href="https://www.youtube.com/watch?v=ft8UVx9elKc">here</a>.
+  <br>
+  The jeos-firstboot will greet those who did not configure their system by using Combustion.
+
 choosing_media_p2: |
   The Network Image is recommended for users who have limited
   bandwidth on their internet connections, as it will only download the
   packages they choose to install, which is likely to be significantly
   less than 4.7GB.
+choosing_media_micro_p2: |
+  The Offline ISO Image should be use by those who require custom partitioning.
 documentation: Documentation
 documentation_startup_guide: openSUSE Startup Guide
 documentation_release_notes: Release Notes
