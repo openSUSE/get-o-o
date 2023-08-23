@@ -147,3 +147,14 @@
     border-color: #495057;
   }
 }
+
+.videowrapper { 
+        padding: 50px 0 50px;
+        font-size: 0.8em;
+        text-align: center;
+        float: none;
+        clear: both;
+        width: 560px;
+        margin: 0 auto;
+        max-width: 100%;
+    }
