@@ -1,4 +1,9 @@
 ---
+- version: 15.6
+  order: 9
+  releases:
+  - date: '2023-08-18 12:00:00 UTC'
+    state: 'Alpha'
 - version: 15.5
   order: 8
   releases:
