@@ -379,3 +379,15 @@ minimal_vm_info: Similar a les imatges de SUSE Linux Enterprise Server Minimal-V
   Per obtenir imatges d'Arm JeOS, aneu a la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">pàgina
   wiki d'Arm</a>
 minimal_vm_images: Màquina virtual mínima
+choosing_media_micro_p2: "La imatge ISO fora de línia l'hauria d'usar qui necessiti\
+  \ particions personalitzades.\n"
+choosing_media_micro_p1: "La nova imatge d'autoinstal·lació es recomana per a qui\
+  \ no necessiti particions personalitzades i pugui arrencar des de l'USB.\nUn assistent\
+  \ d'autoinstal·lació senzill aboca una imatge preconfigurada a la unitat i fa créixer\
+  \ la partició a la mida del disc.\n<br>\nEls usuaris amb Raspberry Pi i similars\
+  \ sense suport d'arrencada USB poden escriure directament la imatge preconfigurada\
+  \ a la targeta SD.\nEs recomana als usuaris que busquen més control sobre el desplegament\
+  \ que usin <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n\
+  \ <br>\nEs pot veure una demostració d'un desplegament basat en la Combustió <a\
+  \ href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n <br>\nEl jeos-firstboot\
+  \ s'oferirà com a benvinguda a qui no hagi configurat el sistema mitjançant Combustion.\n"
