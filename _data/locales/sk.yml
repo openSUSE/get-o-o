@@ -366,3 +366,15 @@ cloud_image: Cloud obraz
 minimal_vm_info: Podobné ako SUSE Linux Enterprise Server minimálne VM obrazy. Pre
   obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
   stránku Arm</a>
+choosing_media_micro_p2: "Offline obraz ISO by mali používať tí, ktorí vyžadujú vlastné\
+  \ rozdelenie disku.\n"
+choosing_media_micro_p1: "Nový samoinštalačný obraz sa odporúča pre všetkých, ktorí\
+  \ nepotrebujú vlastné rozdelenie disku a môžu spustiť systém z USB.\nJednoduchý\
+  \ sprievodca samoinštaláciou prenesie na disk predkonfigurovaný obraz a zväčší oddiel\
+  \ na veľkosť disku.\n<br>\nPoužívatelia s Raspberry Pi a podobnými zariadeniami\
+  \ bez podpory zavádzania cez USB môžu priamo zapísať predkonfigurovaný obraz na\
+  \ kartu SD.\nPoužívateľom, ktorí chcú mať väčšiu kontrolu nad nasadením, odporúčame\
+  \ použiť <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n\
+  <br>\nUkážku nasadenia založeného na combution si môžete pozrieť na <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >here</a>.\n<br>\njeos-firstboot privíta tých, ktorí nekonfigurovali svoj systém\
+  \ pomocou Combustion.\n"
