@@ -289,3 +289,11 @@ server_aarch64: UEFI Arm 64 ビットサーバおよびシングルボード (aa
 server_x86_64: Intel または AMD の 64 ビットサーバ (x86_64)
 cloud_image: クラウドイメージ
 cloud_minimal_desc: cloud-init を含む KVM および Xen 対応最小限イメージ
+choosing_media_micro_p1: "新しいセルフインストール型のイメージは、独自のパーティション設定を必要としないほとんどのユーザに推奨され、USB\
+  \ からも起動することができます。\nこの場合、シンプルなセルフインストールウイザードがドライブ内に、事前設定済みのイメージを展開したあと、ディスクサイズに合わせたパーティションのサイズ拡張が行われます。\n\
+  <br>\nRaspberry Pi 等の機器をご利用で、 USB からの起動に対応していない場合は、 SD カード内に事前設定済みのイメージを直接書き込んで利用することもできます。\n\
+  インストールに対してより細かい制御を行いたい場合は、 <a href=\"https://ja.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a> をお使いになることをお勧めします。\n<br>\nCombustion ベースでのインストールのデモは <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >こちら</a> (英語) で更改されています。\n<br>\nなお、 Combustion を利用してシステムをインストールしていない場合、システムの初回起動時に\
+  \ jeos-firstboot が動作します。\n"
+choosing_media_micro_p2: "オフライン ISO イメージは、独自のパーティション設定を行いたい方向けの仕組みです。\n"
