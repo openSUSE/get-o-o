@@ -364,3 +364,16 @@ alternative_downloads_desc: Kami juga memiliki citra $options. Lihat $alternativ
 overview: Ringkasan
 armv7l: Peladen, destop, laptop, dan papan UEFI Arm 32-bit (armv7l)
 selfinstall_image: Citra Pemasangan Sendiri
+choosing_media_micro_p2: "Citra ISO Luring harus digunakan oleh mereka yang memerlukan\
+  \ partisi khusus.\n"
+choosing_media_micro_p1: "Citra pemasangan mandiri yang baru direkomendasikan untuk\
+  \ semua orang yang tidak memerlukan partisi khusus dan dapat melakukan booting dari\
+  \ USB.\nWisaya pemasangan mandiri yang sederhana membuang citra yang telah dikonfigurasi\
+  \ sebelumnya ke kandar, dan memperbesar partisi sesuai ukuran diska.\n<br>\nPengguna\
+  \ dengan Raspberry Pi dan sejenisnya tanpa dukungan usb-boot dapat langsung menulis\
+  \ citra yang telah dikonfigurasi sebelumnya ke kartu SD.\nPengguna yang ingin lebih\
+  \ mengontrol penerapan disarankan untuk menggunakan <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nDemo penggelaran berbasis Combustion dapat dilihat <a href=\"\
+  https://www.youtube.com/watch?v=ft8UVx9elKc\">di sini</a>.\n<br>\nJeos-firstboot\
+  \ akan menyambut mereka yang tidak mengkonfigurasi sistem mereka dengan menggunakan\
+  \ Combustion.\n"
