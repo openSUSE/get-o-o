@@ -210,7 +210,7 @@ new_version_testing: $distro_name ist jetzt zum Herunterladen und Testen verfüg
 new_version_available: $distro_name ist jetzt zum Herunterladen verfügbar
 iso_image: ISO-Image
 site_title_short: Herunterladen
-site_title: openSUSE beziehen
+site_title: Hole dir openSUSE
 live_info: "Sei Dir der folgenden Einschränkungen der Live Images bewusst:\n* Sie\
   \ sind nicht zur Installation oder als Upgrade-Medium bestimmt. Nutze stattdessen\
   \ die Installationsmedien.\n* Sie beinhalten nur eine begrenzte Auswahl an Treibern,\
