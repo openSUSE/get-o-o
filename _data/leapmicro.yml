@@ -1,7 +1,7 @@
 - version: 5.5
   order:  4
   releases:
-  - date: '2023-08-24 12:00:00 UTC'
+  - date: '2023-09-05 12:00:00 UTC'
     state: 'Alpha'
 
 - version: 5.4
