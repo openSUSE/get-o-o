@@ -357,9 +357,9 @@ Tumbleweed_features:
       \ lainnya, menjadikannya pemasangan yang luar biasa untuk workstation, laptop,\
       \ dan notebook.\n"
 alternative_downloads: Unduhan Alternatif
-preconfigured_rt_image: Citra Waktu Nyata Terprakonfigurasi
+preconfigured_rt_image: Citra Waktu Nyata Terprakonfigurasi (raw)
 selfinstall_rt_image: Citra Waktu Nyata Pemasangan Sendiri
-preconfigured_image: Citra Terprakonfigurasi
+preconfigured_image: Citra Terprakonfigurasi (raw)
 alternative_downloads_desc: Kami juga memiliki citra $options. Lihat $alternative_downloads!
 overview: Ringkasan
 armv7l: Peladen, destop, laptop, dan papan UEFI Arm 32-bit (armv7l)
@@ -377,3 +377,4 @@ choosing_media_micro_p1: "Citra pemasangan mandiri yang baru direkomendasikan un
   https://www.youtube.com/watch?v=ft8UVx9elKc\">di sini</a>.\n<br>\nJeos-firstboot\
   \ akan menyambut mereka yang tidak mengkonfigurasi sistem mereka dengan menggunakan\
   \ Combustion.\n"
+preconfigured_qcow_image: Citra Terprakonfigurasi (qcow)
