@@ -50,6 +50,16 @@ downloads:
         url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256
+    - name: preconfigured_qcow_image
+      desc: kvm_desc
+      primary_link: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2
+      links:
+      - name: metalink
+        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.meta4
+      - name: pick_mirror
+        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2?mirrorlist
+      - name: checksum
+        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256
 
   - name: aarch64
     types:
@@ -83,3 +93,13 @@ downloads:
         url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.sha256
+    - name: preconfigured_qcow_image
+      desc: kvm_desc
+      primary_link: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2
+      links:
+      - name: metalink
+        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.meta4
+      - name: pick_mirror
+        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2?mirrorlist
+      - name: checksum
+        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256
