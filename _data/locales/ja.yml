@@ -268,8 +268,8 @@ kvm_ch_image: KVM および XEN コンテナホスト
 iso_image: ISO イメージ
 jeos_info: 最小限のパッケージのみをインストールしたイメージです。 Arm JeOS イメージに関しては、 <a href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   Wiki ページ</a> をご覧ください
-preconfigured_rt_image: 事前構築済みのリアルタイム版イメージ
-preconfigured_image: 事前構築済みイメージ
+preconfigured_rt_image: 事前構築済みのリアルタイム版イメージ (raw 形式)
+preconfigured_image: 事前構築済みイメージ (raw 形式)
 selfinstall_image: 自己インストールイメージ
 selfinstall_rt_image: 自己インストール型のリアルタイム版イメージ
 live_info: "ライブイメージには下記のような制限があることに注意してください:\n* インストールやアップグレードには使用しないでください。インストールやアップグレードを行う場合は、インストールメディアをお使いください。\n\
@@ -297,3 +297,4 @@ choosing_media_micro_p1: "新しいセルフインストール型のイメージ
   >こちら</a> (英語) で更改されています。\n<br>\nなお、 Combustion を利用してシステムをインストールしていない場合、システムの初回起動時に\
   \ jeos-firstboot が動作します。\n"
 choosing_media_micro_p2: "オフライン ISO イメージは、独自のパーティション設定を行いたい方向けの仕組みです。\n"
+preconfigured_qcow_image: 事前構築済みイメージ (qcow 形式)
