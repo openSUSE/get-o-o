@@ -32,7 +32,7 @@ upgrade_table__mac_usb: Hur man skapar ett bootbart USB minne med OS X.
 verify_download_checksums_help: Hjälp för kontrollsummor
 yast_software: Programvara
 index_desktop: Skrivbord
-site_copyright: © 2022 openSUSE bidragsgivare
+site_copyright: © 2023 openSUSE bidragsgivare
 iso_image: ISO avbild
 network_image: Nätverksavbild
 xen_image: XEN
@@ -92,13 +92,13 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 points_free: Fri programvara? Ditt val
-preconfigured_image: Förkonfigurerad avbild
+preconfigured_image: Förkonfigurerad avbild (rå)
 software_get: Skaffa programvara
 yast_firewall: Brandvägg
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 desktops: Många skrivbordsmiljöer, tre som standard
-preconfigured_rt_image: Förkonfigurerad realtidsavbild
+preconfigured_rt_image: Förkonfigurerad realtidsavbild (rå)
 yast_fonts: Teckensnitt
 yast_sound: Ljud
 index_p1: För skrivbord, server och allt däremellan
@@ -355,3 +355,16 @@ installation_p1: "openSUSE-installationsprocessen ger dig alla alternativ\ndu sk
   \ på det sättet istället. Har du inte\nfysisk tillgång till maskinen? Anslut till\
   \ installationsprogrammet på distans och\ngå vidare med installationen. Det är så\
   \ enkelt.\n"
+choosing_media_micro_p2: "Offline ISO-avbilden bör användas av de som behöver anpassad\
+  \ partitionering.\n"
+choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för alla\
+  \ som inte behöver anpassad partitionering och kan starta från USB.\nEn enkel självinstallationsguide\
+  \ dumpar en förkonfigurerad avbild till enheten och utökar partitionen till diskens\
+  \ storlek.\n<br>\nAnvändare med Raspberry Pi och liknande utan usbuppstarts stöd\
+  \ kan direkt skriva den förkonfigurerade avbilden till SD-kortet.\nAnvändare som\
+  \ vill ha mer kontroll över implementeringen rekommenderas att använda <a href=\"\
+  https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n<br>\nEn demo\
+  \ av en combustionbaserad implementering kan ses <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >här</a>.\n<br>\nJeos-firstboot kommer att hälsa dem som inte har konfigurerat sitt\
+  \ system genom att använda Combustion.\n"
+preconfigured_qcow_image: Förkonfigurerad avbild (qcow)
