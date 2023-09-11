@@ -354,8 +354,8 @@ iso_image: Imatge ISO
 jeos_info: Imatges mínimes de MV. Per a les imatges Arm JeOS, si us plau, visiteu
   <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la pàgina
   wiki d'Arm</a>
-preconfigured_image: Imatge preconfigurada
-preconfigured_rt_image: Imatge preconfigurada de Temps Real
+preconfigured_image: Imatge preconfigurada (crua)
+preconfigured_rt_image: Imatge preconfigurada de Temps Real (crua)
 selfinstall_image: Imatge d'autoinstal·lació
 selfinstall_rt_image: Imatge d'autoinstal·lació de Temps Real
 live_info: "Tingueu en compte les limitacions següents de les imatges en directe:\n\
@@ -391,3 +391,4 @@ choosing_media_micro_p1: "La nova imatge d'autoinstal·lació es recomana per a 
   \ <br>\nEs pot veure una demostració d'un desplegament basat en la Combustió <a\
   \ href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n <br>\nEl jeos-firstboot\
   \ s'oferirà com a benvinguda a qui no hagi configurat el sistema mitjançant Combustion.\n"
+preconfigured_qcow_image: Imatge preconfigurada (qcow)
