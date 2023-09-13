@@ -1,1 +1,120 @@
 site_title: გადმოწერეთ openSUSE
+site_title_short: გადმოწერეთ
+search: ძებნა
+translate: თარგმანი
+license: ლიცენზია
+metalink: მეტაბმული
+checksum: საკონტროლო ჯამი
+xen_image: XEN
+vagrant_image: Vagrant
+pine_image: Pine64
+openstack_image: OpenStack-Cloud
+virtualbox_image: VirtualBox
+source_code: პროგრამული კოდი
+learn_more: გაიგეთ მეტი
+torrent_file: ტორენტის ფაილი
+offline_image: ოფლაინ დისკის ასლი
+iso_image: ISO დისკის ასლი
+vmware_image: VMware-ის დისკის ასლი
+vmware_vmx_image: VMware VMX
+usb_desc: USB დისკიდან
+selfinstalling_images: თვითდაყენებადი დისკის ასლები
+hyperv_image: MS HyperV-ის დისკის ასლი
+pine_ch_image: Pine64 კონტეინერის ჰოსტი
+vmware_ch_image: VMware კონტეინერის ჰოსტი
+openstack_ch_image: OpenStack-Cloud კონტეინერის ჰოსტი
+installation_images: დაყენება
+ports_images: პორტები
+jeos_images: JeOS
+live_images: ცოცხალი
+cloud_images: ღრუბელი
+hardware_images: აპარატურა
+documentation: დოკუმენტაცია
+vm_images: ვირტუალური მანქანა
+cloud_image: ღრუბლოვანი დისკის ასლი
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+rescue_cd: გადამრჩენი LiveCD
+minimal_vm_images: მინიმალური ვირტუალური მანქანა
+documentation_license: ლიცენზია
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_min: მინიმუმი
+requirements_rec: რეკომენდებული
+requirements_cpu: პროცესორი
+requirements_mem: მეხსიერება
+requirements_hdd: საცავი
+documentation_release_notes: გამოცემის შენიშვნები
+documentation_full_documentation: სრული დოკუმენტაცია
+requirements: სისტემური მოთხოვნები
+documentation_startup_guide: openSUSE-ის დამწყების სახელმძღვანელო
+leap_switch_instructions: ონლაინ-განახლების ინსტრუქციები.
+requirements_net: ქსელი
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+requirements_hdd_var: დანაყოფი /var
+upgrade_table_windows: Windows-დან
+requirements_hdd_root: / (root) დანაყოფი
+upgrade_table_mac: OS X-დან
+verify_download_pubkey: უნდა იყოს
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help: დახმარება საკონტროლო ჯამების შესახებ
+points_welcoming: მივესალმებით მოხალისეებს
+selfinstall_image: თვით-დაყენებადი დისკის ასლი
+software_get: გადმოწერეთ პროგრამები
+transactional: ტრანზაქციული სერვერი
+points_transparent: ყველაფერი გამჭვირვალეა
+yast_firewall: ბრანდმაუერი
+yast_hardware: აპარატურა
+yast_partitioner: დამყოფი
+yast_printer: პრინტერი
+yast_scanner: სკანერი
+yast_software: პროგრამები
+index_desktop: სამუშაო მაგიდა
+index_server: სერვერი
+view_distro: $distro_name-ის ნახვა
+overview: გადახედვა
+download: გადმოწერა
+alternative_downloads: ალტერნატიული გადმოწერები
+MicroOS_features:
+  work:
+    name: დატვირთვები
+  tool:
+    name: გამართვა
+  update:
+    name: ატომური განახლებები
+  idea:
+    name: ფილოსოფია
+  shield:
+    name: დაბრუნება
+  key:
+    name: დაცული განახლებები
+Tumbleweed_features:
+  knife:
+    name: მოწინავე
+  home:
+    name: სტაბილური
+  update:
+    name: უწყვეტი განახლებები
+  power:
+    name: მძლავრი
+  shield:
+    name: დაცული
+  key:
+    name: უსაფრთხო
+rpi_image: RaspberryPi
+yast_fonts: ფონტები
+yast_sound: ხმა
+pick_mirror: აირჩიეთ სარკე
+network_image: ქსელური დისკის ასლი
+tw_switch_instructions: ვერსიის აწევის ინსტრუქციები.
+vagrant_ch_image: Vagrant კონტეინერის ჰოსტი
+index: openSUSE-ის დისტრიბუტივები
+offline_updated_image: განახლებული ოფლაინ-დისკის ასლი
+rpi_ch_image: RaspberryPi კონტეინერის ჰოსტი
