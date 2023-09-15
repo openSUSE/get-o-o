@@ -1,7 +1,7 @@
 site_title: Obter o openSUSE
 site_title_short: Obter
 site_description: Saiba mais sobre as distribuições openSUSE e descarregue-as de graça
-site_copyright: © 2022 openSUSE contribuidores
+site_copyright: © 2023 openSUSE contribuidores
 search: Pesquisar
 translate: Traduzir
 source_code: Código Fonte
@@ -210,3 +210,4 @@ selfinstalling_ch_image: Anfitrião de contentores auto-instaláveis
 jeos_info: Para Imagens ARM do JeOS, vá à <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
   wiki sobre ARM</a>
 live_info: ''
+iso_image: Imagem ISO
