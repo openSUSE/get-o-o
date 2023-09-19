@@ -118,3 +118,5 @@ vagrant_ch_image: Vagrant კონტეინერის ჰოსტი
 index: openSUSE-ის დისტრიბუტივები
 offline_updated_image: განახლებული ოფლაინ-დისკის ასლი
 rpi_ch_image: RaspberryPi კონტეინერის ჰოსტი
+preconfigured_image: წინასწარ მორგებული ასლი (raw)
+preconfigured_qcow_image: წინასწარმორგებული ასლი (qcow)
