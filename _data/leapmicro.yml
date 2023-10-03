@@ -5,6 +5,8 @@
     state: 'Alpha'
   - date: '2023-09-25 12:00:00 UTC'
     state: 'Beta'
+  - date: '2023-10-03 12:00:00 UTC'
+    state: 'RC'
 
 - version: 5.4
   order:  3
