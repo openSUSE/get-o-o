@@ -298,3 +298,5 @@ choosing_media_micro_p1: "新しいセルフインストール型のイメージ
   \ jeos-firstboot が動作します。\n"
 choosing_media_micro_p2: "オフライン ISO イメージは、独自のパーティション設定を行いたい方向けの仕組みです。\n"
 preconfigured_qcow_image: 事前構築済みイメージ (qcow 形式)
+server_leapmicro_p1: 開発者, プロフェッショナル, コンテナワークロード向け
+server_leapmicro_p2: エッジサーバや組み込みサーバ、 IoT 設置環境などのための、非常に信頼性が高く、軽量で不変なオペレーティングシステムです。
