@@ -7,6 +7,8 @@
     state: 'Beta'
   - date: '2023-10-03 12:00:00 UTC'
     state: 'RC'
+  - date: '2023-10-12 12:00:00 UTC'
+    state: 'Stable'
 
 - version: 5.4
   order:  3
@@ -29,6 +31,8 @@
     state: 'RC'
   - date: '2022-09-08 12:00:00 UTC'
     state: 'Beta'
+  - date: '2023-10-12 12:00:00 UTC'
+    state: 'EOL'
 
 - version: 5.2
   order: 1
