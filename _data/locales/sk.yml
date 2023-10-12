@@ -379,3 +379,6 @@ choosing_media_micro_p1: "Nový samoinštalačný obraz sa odporúča pre všetk
   >here</a>.\n<br>\njeos-firstboot privíta tých, ktorí nekonfigurovali svoj systém\
   \ pomocou Combustion.\n"
 preconfigured_qcow_image: Predkonfigurovaný obraz (qcow)
+server_leapmicro_p1: Pre vývojárov, profesionálov a kontajnerové pracovné zaťaženia
+server_leapmicro_p2: Mimoriadne spoľahlivý, nenáročný a nezmeniteľný operačný systém
+  pre výpočtové prostredia, ako sú hraničné, zabudované, IoT nasadenia a iné.
