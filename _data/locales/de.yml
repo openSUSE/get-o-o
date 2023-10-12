@@ -185,8 +185,8 @@ server_microos_view: MicroOS anschauen
 metalink: Metalink
 kvm_desc: Zur Verwendung in KVM oder XEN HVM Hypervisoren
 xen_desc: Zur Verwendung in XEN PV Hypervisoren
-preconfigured_image: Vorkonfiguriertes Image
-preconfigured_rt_image: Vorkonfiguriertes RealTime Image
+preconfigured_image: Vorkonfiguriertes Image (raw)
+preconfigured_rt_image: Vorkonfiguriertes RealTime Image (raw)
 ports_images: Portierungen
 ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n\
   von separaten Community Teams gepflegt, mit limitierten Resourcen.\n"
@@ -321,3 +321,17 @@ Tumbleweed_features:
     name: Zuverlässig
   shield:
     name: Sicher
+preconfigured_qcow_image: Vorkonfiguriertes Image (qcow)
+choosing_media_micro_p2: "Das Offline ISO Image sollte von denen benutzt werden, die\
+  \ eine angepasste Partitionierung benötigen.\n"
+choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen für diejenigen,\
+  \ die keine angepasste Partitionierung benötigen und über USB booten können.\nEin\
+  \ simpler selbst-installierender Assistent schreibt ein vorkonfiguriertes Image\
+  \ auf das Laufwerk und erweitert die Partition auf die Größe des Laufwerks.\n<br>\n\
+  Benutzer mit einem Raspberry Pi und ähnlichem ohne USB-Boot Unterstützung können\
+  \ das vorkonfigurierte Image direkt auf die SD Karte schreiben.\nBenutzer die mehr\
+  \ Kontrolle über das Deployment suchen wird die Verwendung von <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a> empfohlen.\n<br>\nEine Demo eines Deployments basierend auf Combustion\
+  \ kann <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">hier</a> angeschaut\
+  \ werden.\n<br>\nDas jeos-firstboot begrüßt diejenigen, die ihr System nicht durch\
+  \ Combustion konfiguriert haben.\n"
