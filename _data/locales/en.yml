@@ -277,8 +277,8 @@ server_leap_p2: Regular release with the benefits of both enterprise-grade engin
 server_microos_p1: For single purpose server applications
 server_microos_p2: Designed to host container workloads with automated administration
   & patching
-server_leapmicro_p1: For developers, professionals and containerized workloads
-server_leapmicro_p2: An ultra-reliable, lightweight and immutable operating system for compute environments like edge, embedded, IoT deployments and others.
+server_leapmicro_p1: For edge, embedded, IoT and other deployments
+server_leapmicro_p2: Ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
 new_version_available: $distro_name is now available for download
 new_version_testing: $distro_name is now available for download and testing
 view_distro: View $distro_name
