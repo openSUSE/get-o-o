@@ -392,3 +392,7 @@ choosing_media_micro_p1: "La nova imatge d'autoinstal·lació es recomana per a 
   \ href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n <br>\nEl jeos-firstboot\
   \ s'oferirà com a benvinguda a qui no hagi configurat el sistema mitjançant Combustion.\n"
 preconfigured_qcow_image: Imatge preconfigurada (qcow)
+server_leapmicro_p1: Per a desenvolupadors, professionals i càrregues de feina en
+  contenidors
+server_leapmicro_p2: Un sistema operatiu ultra fiable, lleuger i immutable per a entorns
+  informàtics com ara implementacions perifèriques, encastades, IoT i altres.
