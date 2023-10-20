@@ -2,23 +2,23 @@ source_code: Kaynak Kodu
 license: Lisans
 cd_desc: CD ve USB bellek için
 torrent_file: Torrent Dosyası
-learn_more: Daha Fazla Bilgi Edin
+learn_more: Daha Fazla Bilgi Edinin
 usb_desc: USB bellek için
-pick_mirror: Yansı Seç
-site_title_short: Edin
-search: Ara
+pick_mirror: Yansı Seçin
+site_title_short: Edinin
+search: Arama
 metalink: Metalink
 dvd_desc: DVD ve USB bellek için
 checksum: Veri Doğrulama
-offline_image: Çevrimdışı İmaj
-translate: Çevir
+offline_image: Çevrimdışı Kurulan İmaj
+translate: Çeviri yap
 iso_image: ISO imajı
 network_image: Ağdan Kurulan İmaj
-site_title: openSUSE'yi edin
-site_description: OpenSuse dağıtımları hakkında bilgi edin ve ücretsiz olarak indir
+site_title: openSUSE Edinin
+site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak indirin
 kde_cd: KDE Çalışan CD
 rescue_cd: Kurtarma İçin Çalışan CD
-site_copyright: © 2022 openSUSE'ye katkı sağlayanlar
+site_copyright: © 2023 openSUSE'ye katkı sağlayanlar
 offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım koleksiyonu içerir.\n\
   Kurulum veya yükseltme için uygundur.\n"
 network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için\
@@ -30,19 +30,19 @@ xen_desc: XEN PV sanal makinesi için
 xen_image: XEN
 gnome_cd: GNOME Çalışan CD
 xfce_cd: Xfce Çalışan CD
-live_info: "Lütfen, canlı (çalışan) görüntülerin aşağıdaki sınırlamalarının farkında\
-  \ olun:\n* Çalışan sürümle yükleme veya yükseltme yapmak için kullanılmamalıdır.\
-  \ Lütfen bunun yerine kurulum ortamını tercih edin.\n* Çalışan sürümler sınırlı\
-  \ paketlere ve sürücülere sahiptir, bu nedenle kullandığınız dağıtımın donanımınız\
-  \ üzerinde çalışıp çalışmayacağı konusunda doğru bir bilgi elde edemezsiniz.\n*\
-  \ Çekirdek ve initrd güncellenemez, bu nedenle kalıcı bir kurulum olarak kullanılmamalıdır.\n"
+live_info: "Lütfen, çalışan görüntülerin aşağıdaki sınırlamalarının farkında olun:\n\
+  * Çalışan sürümle yükleme veya yükseltme yapmak için kullanılmamalıdır. Lütfen bunun\
+  \ yerine kurulum ortamını tercih edin.\n* Çalışan sürümler sınırlı paketlere ve\
+  \ sürücülere sahiptir, bu nedenle kullandığınız dağıtımın donanımınız üzerinde çalışıp\
+  \ çalışmayacağı konusunda doğru bir bilgi elde edemezsiniz.\n* Çekirdek ve initrd\
+  \ güncellenemez, bu nedenle kalıcı bir kurulum olarak kullanılmamalıdır.\n"
 microos_desc: OpenSuse Tumbleweed tabanlı işletim sistemi için, salt okunur BTRFS
-  kök dosya sistemi üzerinde işlemsel (atomik) güncellemeler sağlayan sürüm
+  kök dosya sistemi üzerinde işlemsel (Atomik) güncellemeler sağlayan sürüm
 documentation_startup_guide: OpenSUSE Başlangıç Kılavuzu
-choosing_media: Hangi Medya Kalıbını İndireceğinizi Seçiniz
+choosing_media: Hangi Medya İmajını İndireceğinizi Seçiniz
 documentation: Belgeler
 documentation_license: Lisans
-choosing_media_p1: "Genellikle Çevrimdışı Medya kalıplarını önermekteyiz, çünkü kurulumla\
+choosing_media_p1: "Genellikle Çevrimdışı Medya imajlarını önermekteyiz, çünkü kurulumla\
   \ ilgili paketler\ndağıtım içerisinde mevcuttur ve kurulum sırasında bir ağ bağlantısı\
   \ gerektirmez.\n"
 choosing_media_p2: "Sınırlı İnternet bağlantısına ve bant genişliğine sahip kullanıcılar\
@@ -52,15 +52,15 @@ documentation_release_notes: Sürüm Notları
 leap_switch: openSUSE Leap'e Geçmenin Kolay Yolları
 documentation_license_link: https://tr.opensuse.org/openSUSE:Lisans
 documentation_full_documentation: Tüm Belgeler
-offline_updated_desc: "Enson güncel çevrimdışı kurulum imajı.\nKurulum veya güncelleştirme\
+offline_updated_desc: "En güncel çevrimdışı kurulum imajı.\nKurulum veya yükseltme\
   \ için uygun.\n"
 vmware_image: VMware imajı
 pine_image: Pine64
 vmware_vmx_image: VMware VMX
-ports_images: Portlar
+ports_images: Uyarlanmışlar
 rpi_image: RaspberryPi
 virtualbox_image: VirtualBox
-live_images: Canlı
+live_images: Çalışan
 jeos_images: JeOS
 Tumbleweed_features:
   shield:
@@ -79,11 +79,166 @@ Tumbleweed_features:
     name: Kullanımı Kolay
   power:
     name: Güçlü
+  plant:
+    description: "Tumbleweed, iş akışlarını tehlikeye atmayı göze alamayacak yüzlerce\
+      \ uzman kullanıcı, geliştirici, sistem yöneticisi ve zorlu uygulayıcının onlarca\
+      \ yıllık kullanımına, testlerine ve hata ayıklamalarına dayanmaktadır. Tumbleweed'in\
+      \ sağlamlığı, DNA'sı saygıdeğer SUSE Linux Enterprise Server'dan gelen birçok\
+      \ çekirdek pakette vücut buluyor.\n"
+    name: Sağlam Zeminde Durur
+  cpu:
+    name: Donanımınızla Güzel Oynar
+  key:
+    name: Güvenli
 cloud_image: Bulut imajı
-offline_updated_image: Çevrimdışı Güncel İmaj
+offline_updated_image: Güncellenmiş Çevrimdışı İmaj
 server_x86_64: Intel veya AMD 64-bit sunucular (x86_64)
 hardware_images: Donanım
 requirements_net: Ağ
 MicroOS_features:
   key:
     name: Güvenlik Güncelleştirmeleri
+  work:
+    name: İş yükleri
+selfinstalling_ch_image: Kendiliğinden Yüklenen Konteyner Sunucusu
+kvm_ch_image: KVM ve XEN Konteyner Sunucusu
+hyperv_ch_image: MS HyperV Konteyner Sunucusu
+hyperv_desc: MS HyperV'de sanal makineleri çalıştırmak için
+vmware_ch_image: VMware Konteyner Sunucusu
+vmware_vmx_ch_image: VMware VMX Konteyner Sunucusu
+vagrant_image: Vagrant
+vagrant_ch_image: Vagrant Konteyner Sunucusu
+pine_ch_image: Pine64 Konteyner Sunucusu
+openstack_image: OpenStack-Cloud
+openstack_ch_image: OpenStack-Cloud Konteyner Sunucusu
+openstack_desc: OpenStack'te sanal makineleri çalıştırmak için
+installation_images: Kurulum
+selfinstalling_k3s_image: Kendiliğinden Kurulan k3s Sunucusu
+rpi_ch_image: RaspberryPi Konteyner Sunucusu
+requirements_mem_desc: $value fiziksel RAM + iş yükünüz için ek bellek
+upgrade_table_linux_usb: Linux'ta önyüklenebilir bir USB bellek nasıl oluşturulur.
+points_free: Özgür yazılım mı? Senin seçimin
+jeos_info: 'Minimal VM imajları. Arm JeOS imajları için lütfen şuraya gidin: <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  wiki sayfası</a>'
+minimal_vm_info: 'SUSE Linux Enterprise Server Minimal-VM imajlarına benzer. Arm JeOS
+  görüntüleri için lütfen şuraya gidin: <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  wiki sayfası</a>'
+overview: Genel Bakış
+kvm_desc: KVM veya XEN HVM sanal makinesinde kullanım için
+vmware_desc: VMware'de sanal makineleri çalıştırmak için
+ports_info: "PC dışındaki mimarilere yönelik openSUSE Leap uyarlamaları\nsınırlı kaynaklarla\
+  \ ayrı topluluk ekipleri tarafından sürdürülür.\n"
+minimal_vm_images: Minimal Sanal Makine
+server_aarch64: UEFI Arm 64-bit sunucular ve anakartlar (aarch64)
+leap_switch_instructions: Çevrimiçi Yükseltme Talimatları.
+requirements_hdd_desc: 40 GB'tan fazla boş sabit disk alanı
+tw_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n\
+  yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'\
+  \ gerçekleştirebilirsiniz.\n"
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+verify_download_p1: "Birçok uygulama bir indirme işleminin sağlama toplamını doğrulayabilir.\n\
+  İndirme işleminizi doğrulamak önemli olabilir, çünkü indirmek istediğiniz ISO dosyasına\n\
+  gerçekten sahip olduğunuzu ve bozuk bir sürüme sahip olmadığınızı doğrular.\n"
+verify_download_p3: "Ekstra güvenlik amacıyla, bu .sha256 dosyalarını kimin imzaladığını\
+  \ doğrulamak için sha256sum'u kullanabilirsiniz. \n"
+cloud_images: Bulut
+requirements_min: Minimum
+requirements_net_desc: İnternet erişimi faydalıdır ve Ağ Kurulum Aracı için gereklidir
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+zypper: Zypper, yeni favori paket yöneticiniz
+desktop_p1: "Hepsine hükmedecek iki dağıtım (şimdi yeşil!)\n"
+vm_images: Sanal Makine
+cloud_minimal_desc: Cloud-init ile minimal KVM ve Xen imajı
+requirements_rec: Tavsiye edilen
+requirements_cpu: İşlemci
+desktops: Birçok masaüstü, varsayılan olarak üç
+installation: Nasıl istiyorsan öyle yükle
+desktop_tumbleweed_p1: Geliştiriciler, openSUSE Katkıda Bulunanlar, Oyuncular ve Linux/FOSS
+  Meraklıları için
+yast_sound: Ses
+yast_software: Yazılım
+index_desktop: Masaüstü
+index_full: Veya dağıtımlar için doğrudan indirme sayfalarına gidin
+desktop_tumbleweed_p2: openSUSE Projesi tarafından sağlanan en son paketlerle birlikte
+  sürekli sürüm.
+server_tumbleweed_p2: openSUSE Projesi tarafından sağlanan en son paketlerle birlikte
+  sürekli sürüm.
+new_version_testing: $distro_name artık indirilebilir ve test edilebilir
+x86_64: Intel veya AMD 64-bit masaüstü bilgisayarlar, dizüstü bilgisayarlar ve sunucular
+  (x86_64)
+server_microos_p1: Tek amaçlı sunucu uygulamaları için
+new_version_available: $distro_name artık indirilmeye hazır
+choosing_media_micro_p1: "Yeni kendi kendine kurulum imajı, özel bölümlemeye ihtiyaç\
+  \ duymayan ve USB'den önyükleme yapabilen herkes için önerilir.\nBasit bir kendi\
+  \ kendine kurulum sihirbazı, önceden yapılandırılmış bir imajı sürücüye atar ve\
+  \ bölümü diskin boyutuna kadar büyütür.\n<br>\nUsb-boot desteği olmayan Raspberry\
+  \ Pi ve benzeri cihazlara sahip kullanıcılar, önceden yapılandırılmış imajı doğrudan\
+  \ SD karta yazabilirler.\nDağıtım üzerinde daha fazla kontrol isteyen kullanıcıların\
+  \ şunları kullanması önerilir: <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nCombustion tabanlı konuşlandırmanın bir demosu görülebilir\
+  \ <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">buradan</a>.\n<br>\nSistemini\
+  \ Combustion kullanarak yapılandırmamış olanları jeos-firstboot karşılayacaktır.\n"
+choosing_media_micro_p2: "Çevrimdışı ISO İmajı, özel bölümlemeye ihtiyaç duyanlar\
+  \ tarafından kullanılmalıdır.\n"
+requirements_net_conn: Kümedeki tüm makineler arasında tam bağlantı
+requirements_net_mac: Her düğüm için benzersiz ana bilgisayar adı ve MAC adresi
+leap_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n\
+  yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'\
+  \ gerçekleştirebilirsiniz.\n"
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: Sistem gereksinimleri
+requirements_cpu_desc: 2 Ghz çift çekirdekli işlemci veya daha iyisi
+requirements_mem: Bellek
+requirements_hdd: Depolama
+requirements_hdd_root: / (root) bölümü
+requirements_hdd_var: /var bölümü
+requirements_hdd_size_desc: $value kullanılabilir disk alanı
+requirements_hdd_swap_info: Kubernet'lerin düzgün çalışması için takas alanı devre
+  dışı bırakıldı
+requirements_hdd_ssd_info: yüksek yazma hızına sahip SSD
+requirements_dvd_desc: Kurulum ortamı için bir DVD sürücüsü veya USB bağlantı noktası
+tw_switch: openSUSE Tumbleweed'e Geçiş Yapmanın Kolay Yolları
+tw_switch_instructions: Yükseltme Talimatları.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: Eski bir sürümden veya başka bir Linux dağıtımından
+upgrade_table_windows: Windows'tan
+upgrade_table_mac: OS X'ten
+upgrade_table_linux_dvd: Linux'ta DVD nasıl yazılır.
+upgrade_table_windows_dvd: Windows'ta DVD nasıl yazılır.
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: OS X'te DVD nasıl yazılır.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_windows_usb: Windows'ta Önyüklenebilir bir USB bellek nasıl oluşturulur.
+upgrade_table__mac_usb: OS X'te önyüklenebilir bir USB bellek nasıl oluşturulur.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: İndirmenizi Kullanmadan Önce Doğrulayın
+verify_download_p2: "Her ISO için karşılık gelen SHA256 toplamını içeren bir sağlama\
+  \ toplamı dosyası sunuyoruz.\n"
+verify_download_pubkey: Olmalı
+verify_download_help: İndirme işleminizi doğrulama konusunda daha fazla yardım için
+  lütfen okuyun
+verify_download_checksums_help: Sağlama Toplamları Yardımı
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+desktops_p1: "openSUSE katkı süreci herkes için masaüstü geliştirme olanağı sağlar,\
+  \ \nböylece yükleyicide en beğendiğinizi seçme seçeneğiniz olur. Aktif\nolarak üç\
+  \ masaüstü ortamı sunuyoruz ve yükleyicideki genişletilmiş\nyazılım görünümünde\
+  \ daha da fazlasını sunuyoruz.\n"
+installation_p1: "openSUSE Kurulum işlemi size tüm seçenekleri sunar\nmuhtemelen ihtiyacınız\
+  \ olacaktır. Sisteminizi fare ve klavyeyle mi \nkurmak istiyorsunuz? Yükleyiciyi\
+  \ grafik modunda yükleyin. Elinizde fare \nyok mu? Terminal istemcisini etkinleştirin\
+  \ ve bu şekilde yükleyin. \nMakineye fiziksel erişiminiz yok mu? Yükleyiciye uzaktan\
+  \ bağlanın ve \nkuruluma devam edin. Bu kadar basit.\n"
+points_transparent: Her şey şeffaf
+points_transparent_p1: "Başlangıçtan bitişe kadar, dağıtımlara giren her paketin tüm\
+  \ kaynakları ve derleme\nkomut dosyaları herkesin görebileceği şekilde açıkça görünür\
+  \ durumdadır.\nKaynağından şüpheniz mi var? Sadece derleme hizmetinde kontrol edin.\n"
+index_server: Sunucu
+index_desktop_p1: Masaüstü kullanımına yönelik dağıtım seçimi
+index_server_p1: Sunucu kullanımı için dağıtım seçimi
+desktop: openSUSE Masaüstü Dağıtımları
+server: openSUSE Sunucu Dağıtımları
+server_leapmicro_p1: Geliştiriciler, profesyoneller ve kapsayıcıya alınmış iş yükleri
+  için
+download: İndirme
+alternative_downloads: Alternatif İndirmeler
