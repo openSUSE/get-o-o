@@ -15,11 +15,11 @@ pick_mirror: Escolha o mirror
 checksum: Soma de verificação
 torrent_file: Arquivo de torrent
 offline_image: Imagem offline
-offline_desc: "Contém uma grande coleção de software para uso em desktop ou servidor.\n\
+offline_desc: "Contém uma grande coleção de software para uso em desktop ou servidor.\n
   Adequado para instalação ou atualização.\n"
 network_image: Imagem de Rede
-network_desc: "Baixa o sistema de instalação e todos os pacotes online\nrepositórios.\
-  \ Adequado para instalação ou atualização.\n"
+network_desc: "Baixa o sistema de instalação e todos os pacotes online\nrepositórios.
+  Adequado para instalação ou atualização.\n"
 kvm_image: Imagem KVM e XEN
 kvm_desc: Para uso em hipervisores KVM ou XEN HVM
 xen_image: XEN
@@ -32,29 +32,29 @@ openstack_image: Nuvem Openstack
 openstack_desc: Para executar máquinas virtuais em OpenStack
 installation_images: Instalação
 ports_images: Portes
-ports_info: "Portes do openSUSE Leap para arquiteturas diferentes do PC são\nmantido\
-  \ por equipes comunitárias separadas, com recursos limitados.\n"
+ports_info: "Portes do openSUSE Leap para arquiteturas diferentes do PC são\nmantido
+  por equipes comunitárias separadas, com recursos limitados.\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: LiveCD do GNOME
 kde_cd: LiveCD do KDE
 xfce_cd: LiveCD do Xfce
 rescue_cd: LiveCD de recuperação
-tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao vivo:\n\
-  * Eles não devem ser usados para instalar ou atualizar o Tumbleweed. Use a [Tumbleweed\
-  \ media] (/tumbleweed) em vez\n* Eles têm um pacote limitado e seleção de driver,\
-  \ portanto, não pode ser considerado uma reflexão precisa se o Tumbleweed funcionará\
-  \ em seu hardware ou não\n"
+tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao vivo:\n
+  * Eles não devem ser usados para instalar ou atualizar o Tumbleweed. Use a [Tumbleweed
+  media] (/tumbleweed) em vez\n* Eles têm um pacote limitado e seleção de driver,
+  portanto, não pode ser considerado uma reflexão precisa se o Tumbleweed funcionará
+  em seu hardware ou não\n"
 microos_desc: SO baseado no openSUSE Tumbleweed que fornece atualizações transacionais
   (atômicas) em um sistema de arquivos raiz btrfs somente leitura
 choosing_media: Escolhendo qual mídia baixar
-choosing_media_p1: "A imagem offline é normalmente recomendada, pois contém a maioria\
-  \ dos\npacotes disponíveis na distribuição e não requer uma conexão de rede\ndurante\
-  \ a instalação.\n"
-choosing_media_p2: "A imagem de rede é recomendada para usuários que têm limitações\n\
-  largura de banda em suas conexões de internet, pois só irá baixar os\npacotes que\
-  \ escolher instalar, o que provavelmente será significativamente\nmenos do que 4,7\
-  \ GB.\n"
+choosing_media_p1: "A imagem offline é normalmente recomendada, pois contém a maioria
+  dos\npacotes disponíveis na distribuição e não requer uma conexão de rede\ndurante
+  a instalação.\n"
+choosing_media_p2: "A imagem de rede é recomendada para usuários que têm limitações\n
+  largura de banda em suas conexões de internet, pois só irá baixar os\npacotes que
+  escolher instalar, o que provavelmente será significativamente\nmenos do que 4,7
+  GB.\n"
 documentation: Documentação
 documentation_startup_guide: Guia inicial do openSUSE
 documentation_release_notes: Notas de lançamento
@@ -62,9 +62,9 @@ documentation_license: Licença
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentação completa
 leap_switch: Maneiras fáceis de mudar para o openSUSE Leap
-leap_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando\
-  \ a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’\
-  \ em alguns\ncomandos.\n"
+leap_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando
+  a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’
+  em alguns\ncomandos.\n"
 leap_switch_instructions: Instruções para atualização online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements: Requisitos do sistema
@@ -74,9 +74,9 @@ requirements_hd: Mais de 40 GB de espaço livre no disco rígido
 requirements_dvd: Uma unidade de DVD ou porta USB para a mídia de instalação
 requirements_net: Rede
 tw_switch: Maneiras fáceis de mudar para openSUSE Tumbleweed
-tw_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando\
-  \ a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’\
-  \ em alguns\ncomandos.\n"
+tw_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando
+  a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’
+  em alguns\ncomandos.\n"
 tw_switch_instructions: Instruções de atualização.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: De uma versão mais antiga ou outra distribuição Linux
@@ -95,65 +95,65 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Como criar um pendrive USB inicializável no OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifique seu download antes de usar
-verify_download_p1: "Muitos aplicativos podem verificar a soma de verificação de um\
-  \ download. Verificar\nseu download pode ser importante, pois verifica se você realmente\
-  \ tem o\nArquivo ISO que você queria baixar e não alguma versão quebrada.\n"
-verify_download_p2: "Para cada ISO, oferecemos um arquivo de checksum com a soma SHA256\
-  \ correspondente.\n"
-verify_download_p3: "Para segurança extra, você pode usar o sha256sum para verificar\
-  \ quem assinou os arquivos .sha256. \n"
+verify_download_p1: "Muitos aplicativos podem verificar a soma de verificação de um
+  download. Verificar\nseu download pode ser importante, pois verifica se você realmente
+  tem o\nArquivo ISO que você queria baixar e não alguma versão quebrada.\n"
+verify_download_p2: "Para cada ISO, oferecemos um arquivo de checksum com a soma SHA256
+  correspondente.\n"
+verify_download_p3: "Para segurança extra, você pode usar o sha256sum para verificar
+  quem assinou os arquivos .sha256. \n"
 verify_download_pubkey: Deveria ser
 verify_download_help: Para obter mais ajuda na verificação do seu download, leia
 verify_download_checksums_help: Ajuda de somas de verificação
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Muitos desktops, três por padrão
-desktops_p1: "O processo de contribuição do openSUSE capacita o desenvolvimento de\
-  \ desktop para\ntodos, então você tem a opção de escolher o seu favorito no\ninstalador.\
-  \ Apresentamos ativamente três ambientes de desktop e oferecemos\nainda mais na\
-  \ visão expandida do software dentro do instalador.\n"
+desktops_p1: "O processo de contribuição do openSUSE capacita o desenvolvimento de
+  desktop para\ntodos, então você tem a opção de escolher o seu favorito no\ninstalador.
+  Apresentamos ativamente três ambientes de desktop e oferecemos\nainda mais na visão
+  expandida do software dentro do instalador.\n"
 installation: Instale como quiser
-installation_p1: "O processo de instalação do openSUSE oferece todas as opções\nvocê\
-  \ possivelmente precisaria. Deseja instalar seu sistema com mouse e\nteclado? Carregue\
-  \ o instalador em modo gráfico. Não tem mouse\nna mão? Habilite o cliente de terminal\
-  \ e instale-o dessa forma. Não tem\nacesso físico à máquina? Conecte-se ao instalador\
-  \ remotamente e\ncontinue com a instalação. É simples assim.\n"
+installation_p1: "O processo de instalação do openSUSE oferece todas as opções\nvocê
+  possivelmente precisaria. Deseja instalar seu sistema com mouse e\nteclado? Carregue
+  o instalador em modo gráfico. Não tem mouse\nna mão? Habilite o cliente de terminal
+  e instale-o dessa forma. Não tem\nacesso físico à máquina? Conecte-se ao instalador
+  remotamente e\ncontinue com a instalação. É simples assim.\n"
 points_transparent: Tudo é transparente
-points_transparent_p1: "Do início ao fim, cada pacote que vai para as distribuições\n\
-  tem todas as suas fontes e scripts de construção abertamente visíveis para todos\n\
+points_transparent_p1: "Do início ao fim, cada pacote que vai para as distribuições\n
+  tem todas as suas fontes e scripts de construção abertamente visíveis para todos\n
   ver. Tem dúvidas sobre a origem? Basta verificar no serviço de compilação.\n"
 points_free: Software livre? Sua escolha
-points_free_p1: "Os pacotes nas distribuições são divididos em gratuitos e não livres\n\
-  repositórios. Não quer usar pacotes não livres? Você pode facilmente\ndesative o\
-  \ repositório non-free. É sua escolha, não nossa.\n"
+points_free_p1: "Os pacotes nas distribuições são divididos em gratuitos e não livres\n
+  repositórios. Não quer usar pacotes não livres? Você pode facilmente\ndesative o
+  repositório non-free. É sua escolha, não nossa.\n"
 points_welcoming: Boas contribuições
-points_welcoming_p1: "Nós tentamos nosso melhor para agradar a comunidade, e só podemos\
-  \ fazer isso\nacontecem quando a comunidade fala sobre o que eles precisam. É por\
-  \ isso que nós\ngarantir que contribuir seja o mais fácil possível.\n"
+points_welcoming_p1: "Nós tentamos nosso melhor para agradar a comunidade, e só podemos
+  fazer isso\nacontecem quando a comunidade fala sobre o que eles precisam. É por
+  isso que nós\ngarantir que contribuir seja o mais fácil possível.\n"
 snapper: O sistema foi corrompido? Não é um problema mais
-snapper_p1: "O recurso Filesystem Snapshots mantém seu sistema de arquivos sob controle\
-  \ por\ntendo backups contínuos executados automaticamente durante a instalação\n\
-  software e atualizações. Basta inicializar a partir de um instantâneo anterior e\
-  \ trazer\nseu sistema a um estado de funcionamento em questão de minutos.\n"
+snapper_p1: "O recurso Filesystem Snapshots mantém seu sistema de arquivos sob controle
+  por\ntendo backups contínuos executados automaticamente durante a instalação\nsoftware
+  e atualizações. Basta inicializar a partir de um instantâneo anterior e trazer\n
+  seu sistema a um estado de funcionamento em questão de minutos.\n"
 software: Obter software não poderia ser mais fácil
-software_p1: "Entre nós, ter que passar por todos os sites para obter todos os\no\
-  \ software de que você pode precisar dá muito trabalho. O centro de software online\n\
-  torna isso mais fácil, incorporando software de uma infinidade de\nfontes em um\
-  \ só lugar.\n"
+software_p1: "Entre nós, ter que passar por todos os sites para obter todos os\no
+  software de que você pode precisar dá muito trabalho. O centro de software online\n
+  torna isso mais fácil, incorporando software de uma infinidade de\nfontes em um
+  só lugar.\n"
 software_get: Obter Software
 transactional: Servidor transacional
-transactional_p1: "O instalador agora suporta uma nova função de sistema de Servidor\
-  \ Transacional,\nque é um resultado dos esforços do openSUSE Kubic. Esta função\
-  \ do sistema\napresenta um novo sistema de atualização que aplica atualizações atomicamente\
-  \ (como um\noperação única) e os torna fáceis de reverter caso se torne\nnecessário.\
-  \ Esses recursos são baseados nas ferramentas de gerenciamento de pacotes\nque todas\
-  \ as outras distribuições do SUSE e openSUSE dependem. Isso significa\nque a grande\
-  \ maioria dos pacotes RPM que funcionam com outro sistema\nfunções de distribuições\
-  \ openSUSE também funcionam com a função do sistema\nServidor transacional.\n"
+transactional_p1: "O instalador agora suporta uma nova função de sistema de Servidor
+  Transacional,\nque é um resultado dos esforços do openSUSE Kubic. Esta função do
+  sistema\napresenta um novo sistema de atualização que aplica atualizações atomicamente
+  (como um\noperação única) e os torna fáceis de reverter caso se torne\nnecessário.
+  Esses recursos são baseados nas ferramentas de gerenciamento de pacotes\nque todas
+  as outras distribuições do SUSE e openSUSE dependem. Isso significa\nque a grande
+  maioria dos pacotes RPM que funcionam com outro sistema\nfunções de distribuições
+  openSUSE também funcionam com a função do sistema\nServidor transacional.\n"
 yast: YaST, a melhor escolha para o usuário ~~poderoso~~
-yast_p1: "Uma das maiores ferramentas de configuração do sistema ajuda você, o usuário,\
-  \ a\nconfigurar cada aspecto do seu sistema. Você não precisa mais ir\natravés de\
-  \ uma infinidade de scripts de configuração ou digite comandos duvidosos\npara obter\
-  \ a configuração do sistema conforme necessário.\n"
+yast_p1: "Uma das maiores ferramentas de configuração do sistema ajuda você, o usuário,
+  a\nconfigurar cada aspecto do seu sistema. Você não precisa mais ir\natravés de
+  uma infinidade de scripts de configuração ou digite comandos duvidosos\npara obter
+  a configuração do sistema conforme necessário.\n"
 yast_firewall: Firewall
 yast_fonts: Fontes
 yast_hardware: Hardware
@@ -163,11 +163,11 @@ yast_scanner: Escaner
 yast_sound: Som
 yast_software: Aplicação
 zypper: Zypper, seu novo gerenciador de pacotes favorito
-zypper_p1: "É rápido e fácil de aprender. Fornece zypper-apt, uma compatibilidade\n\
-  camada para uso com os comandos apt e apt-get. É baseado em libsolv,\no que garante\
-  \ velocidade e resolução reproduzível de\ndependências. A interface é clara e com\
-  \ cores adequadas, para\nfacilidade de leitura. É perfeito, o que mais poderia ser\
-  \ dito?\n"
+zypper_p1: "É rápido e fácil de aprender. Fornece zypper-apt, uma compatibilidade\n
+  camada para uso com os comandos apt e apt-get. É baseado em libsolv,\no que garante
+  velocidade e resolução reproduzível de\ndependências. A interface é clara e com
+  cores adequadas, para\nfacilidade de leitura. É perfeito, o que mais poderia ser
+  dito?\n"
 index: Distribuições do openSUSE
 index_p1: Para desktop, servidor e tudo mais
 index_desktop: Área de trabalho
@@ -188,8 +188,8 @@ desktop_leap_p2: Lançamento regular com os benefícios de engenharia de nível 
   e inovação desenvolvida pela comunidade.
 desktop_leap_view: Ver Leap
 server: Distribuições do servidor openSUSE
-server_p1: "Quatro distribuições confortavelmente enfadonhas, como sempre deveria\
-  \ ser\n"
+server_p1: "Quatro distribuições confortavelmente enfadonhas, como sempre deveria
+  ser\n"
 server_tumbleweed_p1: Para desenvolvedores, colaboradores do openSUSE, jogadores e
   entusiastas de Linux/FOSS
 server_tumbleweed_p2: Lançamento contínuo com os pacotes mais recentes fornecidos
@@ -215,97 +215,96 @@ s390x: IBM zSystems e LinuxONE (s390x)
 Tumbleweed_features:
   user:
     name: Simples de usar
-    description: "Com um único comando, você pode atualizar milhares de pacotes, reverter\
-      \ para o instantâneo da última semana, avançar novamente e até mesmo visualizar\
-      \ os próximos lançamentos.\n"
+    description: "Com um único comando, você pode atualizar milhares de pacotes, reverter
+      para o instantâneo da última semana, avançar novamente e até mesmo visualizar
+      os próximos lançamentos.\n"
   home:
     name: Estável
-    description: "As atualizações são testadas exaustivamente em relação aos padrões\
-      \ de qualidade do nível da indústria, aproveitando um serviço de compilação\
-      \ que outras distribuições Linux nos invejam. Não apenas cada nova versão de\
-      \ um pacote é testada individualmente, mas diferentes grupos de versões são\
-      \ testados entre si, garantindo que seu sistema seja internamente consistente.\n"
+    description: "As atualizações são testadas exaustivamente em relação aos padrões
+      de qualidade do nível da indústria, aproveitando um serviço de compilação que
+      outras distribuições Linux nos invejam. Não apenas cada nova versão de um pacote
+      é testada individualmente, mas diferentes grupos de versões são testados entre
+      si, garantindo que seu sistema seja internamente consistente.\n"
   update:
-    description: "Você instala uma vez e aproveita para sempre. Você não precisa mais\
-      \ se preocupar a cada seis meses com atualizações massivas do sistema que correm\
-      \ o risco de bloquear seu sistema.\n"
+    description: "Você instala uma vez e aproveita para sempre. Você não precisa mais
+      se preocupar a cada seis meses com atualizações massivas do sistema que correm
+      o risco de bloquear seu sistema.\n"
     name: Atualizado continuamente
   power:
     name: Poderoso
-    description: "Aproveitando as tecnologias pelas quais o openSUSE é reconhecido,\
-      \ como o sistema de arquivos 'Btrfs', o utilitário em linha de comando 'snapper',\
-      \ bem como o painel de controle 'YaST', o Tumbleweed dá a você controle total\
-      \ sobre o seu sistema, permitindo a você definir as configurações que deseja\
-      \ e pronto. Você não precisa mais se preocupar com a interferência do sistema\
-      \ em seu fluxo de trabalho.\n"
+    description: "Aproveitando as tecnologias pelas quais o openSUSE é reconhecido,
+      como o sistema de arquivos 'Btrfs', o utilitário em linha de comando 'snapper',
+      bem como o painel de controle 'YaST', o Tumbleweed dá a você controle total
+      sobre o seu sistema, permitindo a você definir as configurações que deseja e
+      pronto. Você não precisa mais se preocupar com a interferência do sistema em
+      seu fluxo de trabalho.\n"
   shield:
-    description: "Feito a partir de versões do kernel mais recentes, compilado com\
-      \ as correções de mitigação Spectre/Meltdown mais recentes, com firewall e políticas\
-      \ de segurança fortes ativadas por padrão, sua proteção é coberta imediatamente.\n"
+    description: "Feito a partir de versões do kernel mais recentes, compilado com
+      as correções de mitigação Spectre/Meltdown mais recentes, com firewall e políticas
+      de segurança fortes ativadas por padrão, sua proteção é coberta imediatamente.\n"
     name: Protegido
   key:
-    description: "Se algo indesejado ocorrer, você sempre pode reverter para um estado\
-      \ anterior e encontrar seus arquivos e programas como estavam antes da atualização\
-      \ problemática.\n"
+    description: "Se algo indesejado ocorrer, você sempre pode reverter para um estado
+      anterior e encontrar seus arquivos e programas como estavam antes da atualização
+      problemática.\n"
     name: Seguro
   cpu:
-    description: "Graças à sua natureza de ponta e testado exaustivamente, o Tumbleweed\
-      \ atende ao seu hardware e dispositivos como poucas outras distribuições Linux,\
-      \ tornando-o uma instalação excelente para estações de trabalho e notebooks.\n"
+    description: "Graças à sua natureza de ponta e testado exaustivamente, o Tumbleweed
+      atende ao seu hardware e dispositivos como poucas outras distribuições Linux,
+      tornando-o uma instalação excelente para estações de trabalho e notebooks.\n"
     name: Funciona bem com o seu hardware
   knife:
-    description: "Você obtém atualizações frequentes que não apenas abordam vulnerabilidades\
-      \ ou corrigem erros, mas refletem os recursos e desenvolvimentos mais recentes,\
-      \ como kerneis novos, drivers novos e versões recentes da área de trabalho.\n"
+    description: "Você obtém atualizações frequentes que não apenas abordam vulnerabilidades
+      ou corrigem erros, mas refletem os recursos e desenvolvimentos mais recentes,
+      como kerneis novos, drivers novos e versões recentes da área de trabalho.\n"
     name: Vanguarda
   plant:
-    description: "O Tumbleweed se baseia em décadas de uso, testes e depurações por\
-      \ centenas de usuários avançados, desenvolvedores, administradores de sistemas\
-      \ e executores exigentes que não podem comprometer seu fluxo de trabalho. A\
-      \ solidez do Tumbleweed está incorporada nos muitos pacotes cujo DNA deriva\
-      \ do venerável SUSE Linux Enterprise Server.\n"
+    description: "O Tumbleweed se baseia em décadas de uso, testes e depurações por
+      centenas de usuários avançados, desenvolvedores, administradores de sistemas
+      e executores exigentes que não podem comprometer seu fluxo de trabalho. A solidez
+      do Tumbleweed está incorporada nos muitos pacotes cujo DNA deriva do venerável
+      SUSE Linux Enterprise Server.\n"
     name: Plantado em solo firme
 MicroOS_features:
   tool:
     name: Depuração
-    description: "### Ferramentas para depuração do container\n* Inicia um container\
-      \ com privilégios\n* Sistema de arquivos raiz em '/media/root'\n* zypper para\
-      \ instalar as ferramentas necessárias, disponível sem reinicializar\n* Persistente\
-      \ entre os usos\n"
+    description: "### Ferramentas para depuração do container\n* Inicia um container
+      com privilégios\n* Sistema de arquivos raiz em '/media/root'\n* zypper para
+      instalar as ferramentas necessárias, disponível sem reinicializar\n* Persistente
+      entre os usos\n"
   work:
     name: Cargas de trabalho
-    description: "Os aplicativos são instalados em containers ao invés do sistema\
-      \ de arquivos:\n* Isolados o sistema de arquivos central\n* Capacidade reduzida\
-      \ para aplicativos maliciosos comprometerem o sistema\n* Nova instalação sem\
-      \ reiniciar\n* A atualização de forma atômica é possível (cria novo, mata o\
-      \ antigo)\n* Fácil reversão\n"
+    description: "Os aplicativos são instalados em containers ao invés do sistema
+      de arquivos:\n* Isolados o sistema de arquivos central\n* Capacidade reduzida
+      para aplicativos maliciosos comprometerem o sistema\n* Nova instalação sem reiniciar\n
+      * A atualização de forma atômica é possível (cria novo, mata o antigo)\n* Fácil
+      reversão\n"
   key:
-    description: "* Baixe suas atualizações via HTTPS\n* Os pacotes e repositórios\
-      \ são assinados pelo nosso sistema de compilação\n* Os pacotes são verificados\n\
-      * Nenhuma atualização é feita em caso de conflitos de dependência\n* Sem desperdício\
-      \ de espaço: Os instantâneos do sistema de arquivos são excluídos no caso de\
-      \ atualizações mal sucedidas\n"
+    description: "* Baixe suas atualizações via HTTPS\n* Os pacotes e repositórios
+      são assinados pelo nosso sistema de compilação\n* Os pacotes são verificados\n
+      * Nenhuma atualização é feita em caso de conflitos de dependência\n* Sem desperdício
+      de espaço: Os instantâneos do sistema de arquivos são excluídos no caso de atualizações
+      mal sucedidas\n"
     name: Atualizações seguras
   update:
     name: Atualizações atômicas
-    description: "###  Atualizações transacionais\n\n#### Único\nAo usar btrfs com\
-      \ instantâneos, o MicroOS usa o espaço de maneira\nmuito eficiente para armazenar\
-      \ o histórico do sistema de arquivos.\nTodos os arquivos de configuração no\
-      \ '/etc' são parte do instantâneo\ne da reversão.\n\n#### Flexível\n* Nenhum\
-      \ formato de pacotes novo é necessário, são utilizados os RPMs\npadrão do openSUSE\n\
-      * Sem limite de tamanho, nem para partições nem para o sistema operacional\n\
-      * Fácil de aprimorar\n"
+    description: "###  Atualizações transacionais\n\n#### Único\nAo usar btrfs com
+      instantâneos, o MicroOS usa o espaço de maneira\nmuito eficiente para armazenar
+      o histórico do sistema de arquivos.\nTodos os arquivos de configuração no '/etc'
+      são parte do instantâneo\ne da reversão.\n\n#### Flexível\n* Nenhum formato
+      de pacotes novo é necessário, são utilizados os RPMs\npadrão do openSUSE\n*
+      Sem limite de tamanho, nem para partições nem para o sistema operacional\n*
+      Fácil de aprimorar\n"
   idea:
     name: Filosofia
-    description: "### É previsível\n* Não é alterado durante o uso\n* Irá executar\
-      \ os mesmos artefatos de forma consistente em cada boot\n\n### É escalável\n\
-      * Elimina os esforços de configurar instâncias individuais durante o uso\n*\
-      \ Pode ser implementado facilmente repetidas vezes com resultados previsíveis\n\
-      \n### É confiável\n* Recuperação automática de atualizações com falhas\n"
+    description: "### É previsível\n* Não é alterado durante o uso\n* Irá executar
+      os mesmos artefatos de forma consistente em cada boot\n\n### É escalável\n*
+      Elimina os esforços de configurar instâncias individuais durante o uso\n* Pode
+      ser implementado facilmente repetidas vezes com resultados previsíveis\n\n###
+      É confiável\n* Recuperação automática de atualizações com falhas\n"
   shield:
-    description: "### O MicroOS é um SO imutável, a reversão é simples\n* Imutável:\
-      \ nenhuma alteração no disco\n* Reversão reiniciando em um instantâneo BTRFS\
-      \ antigo\n"
+    description: "### O MicroOS é um SO imutável, a reversão é simples\n* Imutável:
+      nenhuma alteração no disco\n* Reversão reiniciando em um instantâneo BTRFS antigo\n"
     name: Reversão
 alternative_downloads_desc: Também temos imagens $options. Verifique os $alternative_downloads!
 alternative_downloads: Downloads alternativos
@@ -354,17 +353,17 @@ preconfigured_image: Imagem pré-configurada (raw)
 preconfigured_rt_image: Imagem pré-configurada com RealTime (raw)
 selfinstall_rt_image: Autoinstalação com RealTime
 selfinstall_image: Imagem de autoinstalação
-live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas não devem\
-  \ ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n\
-  * Elas tem uma seleção limitada de pacotes e drivers, por isto não podem ser considerados\
-  \ como um reflexo preciso sobre se a distribuição irá funcionar em seu hardware\
-  \ ou não\n* Kernel e initrd não podem ser atualizados, por isto não podem ser usados\
-  \ como instalação persistente\n"
+live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas não devem
+  ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n
+  * Elas tem uma seleção limitada de pacotes e drivers, por isto não podem ser considerados
+  como um reflexo preciso sobre se a distribuição irá funcionar em seu hardware ou
+  não\n* Kernel e initrd não podem ser atualizados, por isto não podem ser usados
+  como instalação persistente\n"
 selfinstalling_images: Imagens de autoinstalação
 selfinstalling_ch_image: Host de contêiner de autoinstalação
 selfinstalling_k3s_image: Host k3s de autoinstalação
 offline_updated_image: Imagem atualizada offline
-offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n\
+offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n
   Adequada para instalação ou atualização.\n"
 ppc64: Servidores PowerPC, big-endian (ppc64)
 minimal_vm_images: Máquina virtual mínima
@@ -376,16 +375,19 @@ server_x86_64: Servidores Intel ou AMD 64-bit (x86_64)
 cloud_image: Imagem com nuvem
 cloud_minimal_desc: Imagem mínima KVM e Xen com cloud-init
 preconfigured_qcow_image: Imagem pré-configurada (qcow)
-choosing_media_micro_p2: "A imagem ISO offline deve ser usada por quem precisa de\
-  \ particionamento personalizado.\n"
-choosing_media_micro_p1: "A nova imagem de autoinstalação é recomendada para todos\
-  \ aqueles que não necessitam de particionamento personalizado e podem inicializar\
-  \ a partir de USB.\nUm simples assistente de autoinstalação implanta uma imagem\
-  \ pré-configurada na unidade e aumenta a partição para o tamanho do disco.\n<br>\n\
-  Usuários com Raspberry Pi e similares sem suporte a inicialização via USB podem\
-  \ escrever diretamente a imagem pré-configurada no cartão SD.\nUsuários procurando\
-  \ mais controle nas implantações são aconselhados a usar o <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
-  >Combustion</a>.\n<br>\nUma demonstração de uma implantação baseada no Combustion\
-  \ pode ser vista <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aqui</a>.\n\
-  <br>\nO jeos-firstboot irá cumprimentar aqueles que não configuraram seu sistema\
-  \ usando o Combustion.\n"
+choosing_media_micro_p2: "A imagem ISO offline deve ser usada por quem precisa de
+  particionamento personalizado.\n"
+choosing_media_micro_p1: "A nova imagem de autoinstalação é recomendada para todos
+  aqueles que não necessitam de particionamento personalizado e podem inicializar
+  a partir de USB.\nUm simples assistente de autoinstalação implanta uma imagem pré-configurada
+  na unidade e aumenta a partição para o tamanho do disco.\n<br>\nUsuários com Raspberry
+  Pi e similares sem suporte a inicialização via USB podem escrever diretamente a
+  imagem pré-configurada no cartão SD.\nUsuários procurando mais controle nas implantações
+  são aconselhados a usar o <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nUma demonstração de uma implantação baseada no Combustion
+  pode ser vista <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aqui</a>.\n
+  <br>\nO jeos-firstboot irá cumprimentar aqueles que não configuraram seu sistema
+  usando o Combustion.\n"
+server_leapmicro_p1: Para desenvolvedores, profissionais e cargas de trabalho em contêineres
+server_leapmicro_p2: Um sistema operacional ultra confiável, leve e imutável para
+  ambientes de computação como implantações IoT, edge, embutidos e outros.
