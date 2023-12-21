@@ -19,12 +19,12 @@ offline_updated_image: Ажурирана Офлајн Слика
 iso_image: ISO слика
 network_image: Мрежна Слика
 kvm_image: KVM и XEN слика
-offline_desc: "Содржи голема колекција на софтвер за десктоп или сервер употреба.\n\
+offline_desc: "Содржи голема колекција на софтвер за десктоп или сервер употреба.\n
   Погодно за инсталација или надградба.\n"
-offline_updated_desc: "Слика за офлајн инсталирање со најновите ажурирања.\nПогодно\
-  \ за инсталација или надградба.\n"
-network_desc: "Презема систем за инсталација и сите пакети од онлајн\nскладишта. Погодно\
-  \ за инсталација или надградба.\n"
+offline_updated_desc: "Слика за офлајн инсталирање со најновите ажурирања.\nПогодно
+  за инсталација или надградба.\n"
+network_desc: "Презема систем за инсталација и сите пакети од онлајн\nскладишта. Погодно
+  за инсталација или надградба.\n"
 selfinstalling_images: Самоинсталирачки слики
 selfinstalling_ch_image: Самоинсталирачки Хост на контејнери
 selfinstalling_k3s_image: Самоинсталирачки Хост за k3s
@@ -53,8 +53,8 @@ openstack_ch_image: OpenStack-Cloud Хост на контејнери
 openstack_desc: За управување на виртуелни машини во OpenStack
 virtualbox_image: VirtualBox
 jeos_images: JeOS
-ports_info: "Портови на openSUSE Leap во архитектури различни од PC се\nодржуваат\
-  \ од одделни тимови од заедницата, со ограничени ресурси.\n"
+ports_info: "Портови на openSUSE Leap во архитектури различни од PC се\nодржуваат
+  од одделни тимови од заедницата, со ограничени ресурси.\n"
 jeos_info: Минимални VM слики. За Arm JeOS слики, одете на <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   вики страницата</a>
 minimal_vm_images: Минимална виртуелна машина
@@ -75,3 +75,6 @@ documentation_full_documentation: Комплетна Документација
 documentation: Документација
 cloud_images: Облак
 hardware_images: Хардвер
+gnome_cd: LiveCD(ЖивоЦД) со GNOME
+kde_cd: LiveCD(ЖивоЦД) со KDE
+cloud_minimal_desc: Минимална KVM и Xen слика со cloud-init
