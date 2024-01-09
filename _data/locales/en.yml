@@ -391,3 +391,7 @@ Tumbleweed_features:
     name: Stands on Firm Ground
     description: |
       Tumbleweed builds on decades of usage, testing and debugging by hundreds of power-users, developers, system administrators and demanding doers that cannot afford to jeopardize their workflow. Tumbleweed's solidity is embodied in many core packages whose DNA stems from the venerable SUSE Linux Enterprise Server.
+  gaming:
+    name: Gaming
+    description: |
+     Tumbleweed follows a rolling release model, providing users with the latest software updates and features, including gaming-related packages. OpenSUSE Tumbleweed is designed to maintain stability, ensuring a reliable gaming experience. In short, you can expect epic gaming performance with stability.
