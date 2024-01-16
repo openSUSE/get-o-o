@@ -2,7 +2,7 @@ title: Get openSUSE
 title_short: Get
 description: Learn about the openSUSE distributions and download them for free
 email: admin@opensuse.org
-copyright: © 2023 openSUSE contributors
+copyright: © 2024 openSUSE contributors
 baseurl: ""
 url: https://get.opensuse.org
 github_url: https://github.com/openSUSE/get-o-o
