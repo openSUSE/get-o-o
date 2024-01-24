@@ -391,3 +391,7 @@ Tumbleweed_features:
     name: Stands on Firm Ground
     description: |
       Tumbleweed builds on decades of usage, testing and debugging by hundreds of power-users, developers, system administrators and demanding doers that cannot afford to jeopardize their workflow. Tumbleweed's solidity is embodied in many core packages whose DNA stems from the venerable SUSE Linux Enterprise Server.
+  gamepad:
+    name: Gaming
+    description: |
+     Tumbleweed provides users with the latest gaming-related software. With the Linux support for gaming improving rapidly, that's an important aspect for smooth, performant and problem free experience in your favorite games.
