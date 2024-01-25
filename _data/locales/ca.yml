@@ -8,11 +8,11 @@ source_code: Codi font
 license: Llicència
 learn_more: Per a conèixer-ne més
 torrent_file: Fitxer torrent
-offline_desc: "Conté una col·lecció de programari àmplia per a ús domèstic o en servidors.\n\
+offline_desc: "Conté una col·lecció de programari àmplia per a ús domèstic o en servidors.\n
   Adient per a instal·lacions o actualitzacions.\n"
 network_image: Imatge de xarxa
-network_desc: "El sistema d'instal·lació i tots els paquets es descarregaran de repositoris\
-  \ en línia.\nAdient per a instal·lacions o actualitzacions.\n"
+network_desc: "El sistema d'instal·lació i tots els paquets es descarregaran de repositoris
+  en línia.\nAdient per a instal·lacions o actualitzacions.\n"
 kvm_image: Imatge KVM i XEN
 kvm_desc: Per a l'ús amb hipervisors KVM o XEN HVM
 xen_image: XEN
@@ -24,18 +24,18 @@ vmware_desc: Per a executar màquines virtuals amb VMware
 openstack_desc: Per a executar màquines virtuals amb OpenStack
 installation_images: Instal·lació
 ports_images: Ports
-ports_info: "Les versions d'openSUSE Leap per a altres arquitectures diferents de\
-  \ les de PC\ntenen el manteniment d'equips comunitaris independents, amb recursos\
-  \ limitats.\n"
+ports_info: "Les versions d'openSUSE Leap per a altres arquitectures diferents de
+  les de PC\ntenen el manteniment d'equips comunitaris independents, amb recursos
+  limitats.\n"
 jeos_images: JeOS
-tumbleweed_live_info: "Sigueu conscients de les següents limitacions de les imatges\
-  \ Live:\n* No s'han d'utilitzar per a instal·lar o actualitzar la Tumbleweed. En\
-  \ lloc, utilitzeu el [mitjà Tumbleweed](/tumbleweed).\n* Tenen una selecció de paquets\
-  \ i drivers limitada, per tant no poden ser considerades una indicació precisa de\
-  \ si la Tumbleweed funcionarà amb el teu maquinari o no.\n"
+tumbleweed_live_info: "Sigueu conscients de les següents limitacions de les imatges
+  Live:\n* No s'han d'utilitzar per a instal·lar o actualitzar la Tumbleweed. En lloc,
+  utilitzeu el [mitjà Tumbleweed](/tumbleweed).\n* Tenen una selecció de paquets i
+  drivers limitada, per tant no poden ser considerades una indicació precisa de si
+  la Tumbleweed funcionarà amb el teu maquinari o no.\n"
 choosing_media: Com triar el mitjà per baixar
-choosing_media_p1: "Normalment recomanem la imatge de fora de línia ja que conté la\
-  \ majoria\nde paquets disponibles i no necessita una connexió a Internet durant\n\
+choosing_media_p1: "Normalment recomanem la imatge de fora de línia ja que conté la
+  majoria\nde paquets disponibles i no necessita una connexió a Internet durant\n
   la instal·lació.\n"
 documentation_startup_guide: Guia d'inici de l'openSUSE (en anglès)
 documentation: Documentació
@@ -67,21 +67,21 @@ rescue_cd: CD autònom de rescat
 microos_desc: SO d'openSUSE basat en Tumbleweed que proporciona actualitzacions transaccionals
   (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
 choosing_media_p2: "La imatge de xarxa es recomana als usuaris que tenen limitada\n\
-  l'amplada de banda a les connexions a Internet, ja que només\nbaixarà els paquets\
-  \ que es triïn instal·lar, un pes que probablement\nsigui significativament menor\
-  \ de 4,7 GB.\n"
+  l'amplada de banda a les connexions a Internet, ja que només\nbaixarà els paquets
+  que es triïn instal·lar, un pes que probablement\nsigui significativament menor
+  de 4,7 GB.\n"
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch: Maneres fàcils de canviar a l'openSUSE Leap
-leap_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador\
-  \ des d'un\nDVD / USB i triar l'opció d'actualització o feu una actualització en\
-  \ línia amb\npoques ordres.\n"
+leap_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador
+  des d'un\nDVD / USB i triar l'opció d'actualització o feu una actualització en línia
+  amb\npoques ordres.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_dvd: O bé una unitat de DVD o bé un port d'USB per al mitjà d'instal·lació
 requirements_net: Xarxa
 tw_switch: Maneres fàcils de canviar a l'openSUSE Tumbleweed
-tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador\
-  \ des d'un\nDVD / USB i triar l'opció d'actualització o feu una actualització en\
-  \ línia amb\npoques ordres.\n"
+tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador
+  des d'un\nDVD / USB i triar l'opció d'actualització o feu una actualització en línia
+  amb\npoques ordres.\n"
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Des d'una versió antiga o d'una altra distribució de Linux
 upgrade_table_linux_dvd: Com enregistrar un DVD al Linux.
@@ -97,65 +97,64 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Com crear una memòria d'USB arrencable en OS X
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifiqueu la baixada abans d'usar-la
-verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació d’una\
-  \ baixada. \nVerificar la baixada pot ser important, ja que comprova que tingueu\
-  \ realment\nel fitxer ISO que volíeu baixar i no alguna versió trencada.\n"
-verify_download_p2: "Per a cada ISO, oferim un fitxer de comprovació amb la suma SHA256\
-  \ corresponent.\n"
-verify_download_p3: "Per a més seguretat, podeu usar l'ordre sha256sum per verificar\
-  \ qui va signar els fitxers .sha256. \n"
+verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació d’una
+  baixada. \nVerificar la baixada pot ser important, ja que comprova que tingueu realment\n
+  el fitxer ISO que volíeu baixar i no alguna versió trencada.\n"
+verify_download_p2: "Per a cada ISO, oferim un fitxer de comprovació amb la suma SHA256
+  corresponent.\n"
+verify_download_p3: "Per a més seguretat, podeu usar l'ordre sha256sum per verificar
+  qui va signar els fitxers .sha256. \n"
 verify_download_pubkey: Hauria de ser
 verify_download_help: Per obtenir més ajuda per verificar la baixada, llegiu
 verify_download_checksums_help: Ajuda de les sumes de comprovació
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Diversos escriptoris, tres per defecte
-desktops_p1: "El procés de contribució d'openSUSE impulsa el desenvolupament d'escriptoris\n\
-  per a tothom, de manera que teniu la possibilitat de triar el vostre escriptori\n\
-  preferit a l'instal·lador. Disposem activament de tres entorns d'escriptori i\n\
+desktops_p1: "El procés de contribució d'openSUSE impulsa el desenvolupament d'escriptoris\n
+  per a tothom, de manera que teniu la possibilitat de triar el vostre escriptori\n
+  preferit a l'instal·lador. Disposem activament de tres entorns d'escriptori i\n
   oferim encara més a la visualització de programari ampliada de l'instal·lador.\n"
 installation: Instal·leu-lo com vulgueu
-installation_p1: "El procés d'instal·lació de l'openSUSE us ofereix totes les opcions\
-  \ que\npossiblement necessitaríeu. Voleu instal·lar el sistema amb el ratolí i\n\
-  teclat? Carregueu l’instal·lador en mode gràfic. No teniu un ratolí\na mà? Habiliteu\
-  \ el client del terminal i instal·leu-lo així. No teniu\naccés físic a la màquina?\
-  \ Connecteu-vos a l'instal·lador de forma remota i\ncontinueu la instal·lació. És\
-  \ així de senzill.\n"
+installation_p1: "El procés d'instal·lació de l'openSUSE us ofereix totes les opcions
+  que\npossiblement necessitaríeu. Voleu instal·lar el sistema amb el ratolí i\nteclat?
+  Carregueu l’instal·lador en mode gràfic. No teniu un ratolí\na mà? Habiliteu el
+  client del terminal i instal·leu-lo així. No teniu\naccés físic a la màquina? Connecteu-vos
+  a l'instal·lador de forma remota i\ncontinueu la instal·lació. És així de senzill.\n"
 points_transparent: Tot és transparent
-points_transparent_p1: "De principi a final, cada paquet que entra a les distribucions\
-  \ té totes\nles seves fonts i scripts de construcció oberts i visibles per a tothom.\n\
+points_transparent_p1: "De principi a final, cada paquet que entra a les distribucions
+  té totes\nles seves fonts i scripts de construcció oberts i visibles per a tothom.\n
   Dubteu d’una font? Només heu de comprovar-la al servei de creació.\n"
 points_free: Programari lliure? És la vostra tria.
-points_free_p1: "Els paquets de les distribucions es divideixen en repositoris lliures\n\
-  i no lliures. No voleu usar paquets no lliures? Podeu inhabilitar\nfàcilment el\
-  \ repositori no lliure. És la vostra tria, no la nostra.\n"
+points_free_p1: "Els paquets de les distribucions es divideixen en repositoris lliures\n
+  i no lliures. No voleu usar paquets no lliures? Podeu inhabilitar\nfàcilment el
+  repositori no lliure. És la vostra tria, no la nostra.\n"
 points_welcoming: Donem la benvinguda als col·laboradors
-points_welcoming_p1: "Fem tot el possible per plaure a la comunitat i només podem\
-  \ fer-ho possible\nquan la comunitat expressa el que necessita. Per això nosaltres\
-  \ ens\nassegurem que contribuir-hi sigui el més fàcil possible.\n"
+points_welcoming_p1: "Fem tot el possible per plaure a la comunitat i només podem
+  fer-ho possible\nquan la comunitat expressa el que necessita. Per això nosaltres
+  ens\nassegurem que contribuir-hi sigui el més fàcil possible.\n"
 snapper: S'ha corromput el sistema? Ja no és un problema.
-snapper_p1: "La funció d’instantànies del sistema de fitxers manté el sistema de fitxers\n\
-  en control fent-ne automàticament còpies de seguretat contínues en instal·lar\n\
-  programari i actualitzacions. Només cal que arrenqueu una instantània anterior\n\
+snapper_p1: "La funció d’instantànies del sistema de fitxers manté el sistema de fitxers\n
+  en control fent-ne automàticament còpies de seguretat contínues en instal·lar\n
+  programari i actualitzacions. Només cal que arrenqueu una instantània anterior\n
   i torneu el sistema a un estat de funcionament en qüestió de minuts.\n"
 software: Obtenir programari no podria ser més fàcil
-software_p1: "Entre nosaltres, haver de passar per cada lloc web per obtenir tot el\n\
-  programari que es necessita és molta feina. El Centre de programari\nen línia ho\
-  \ fa més fàcil ja que incorpora programari d'una gran quantitat\nde fonts en un\
-  \ mateix lloc.\n"
+software_p1: "Entre nosaltres, haver de passar per cada lloc web per obtenir tot el\n
+  programari que es necessita és molta feina. El Centre de programari\nen línia ho
+  fa més fàcil ja que incorpora programari d'una gran quantitat\nde fonts en un mateix
+  lloc.\n"
 software_get: Obtingueu programari
 transactional: Servidor transaccional
-transactional_p1: "L’instal·lador ara admet un rol de sistema nou de Servidor transaccional,\n\
-  que és el resultat del treball d'openSUSE Kubic. Aquest rol del sistema\npresenta\
-  \ un sistema d’actualització nou que aplica les actualitzacions \natòmicament (com\
-  \ a operació única) i facilita revertir-les si cal. Aquestes\nfuncions es basen\
-  \ en les eines de gestió de paquets de què totes les altres\ndistribucions SUSE\
-  \ i openSUSE depenen. Això vol dir que la gran majoria dels \npaquets RPM que funcionen\
-  \ en altres rols sistema de les distribucions\nd'openSUSE també funcionen al rol\
-  \ de sistema de Servidor transaccional.\n"
+transactional_p1: "L’instal·lador ara admet un rol de sistema nou de Servidor transaccional,\n
+  que és el resultat del treball d'openSUSE Kubic. Aquest rol del sistema\npresenta
+  un sistema d’actualització nou que aplica les actualitzacions \natòmicament (com
+  a operació única) i facilita revertir-les si cal. Aquestes\nfuncions es basen en
+  les eines de gestió de paquets de què totes les altres\ndistribucions SUSE i openSUSE
+  depenen. Això vol dir que la gran majoria dels \npaquets RPM que funcionen en altres
+  rols sistema de les distribucions\nd'openSUSE també funcionen al rol de sistema
+  de Servidor transaccional.\n"
 yast: YaST, la millor opció per al ~~ poder ~~ de l'usuari
-yast_p1: "Una de les eines més importants de configuració del sistema us ajuda, usuari,\n\
-  a configurar tots els aspectes del sistema. Ja no cal usar una gran varietat d'scripts\n\
-  de configuració o executar ordres dubtoses per obtenir la configuració del sistema\n\
+yast_p1: "Una de les eines més importants de configuració del sistema us ajuda, usuari,\n
+  a configurar tots els aspectes del sistema. Ja no cal usar una gran varietat d'scripts\n
+  de configuració o executar ordres dubtoses per obtenir la configuració del sistema\n
   tal com la necessiteu.\n"
 yast_firewall: Tallafoc
 yast_fonts: Lletres
@@ -166,10 +165,10 @@ yast_scanner: Escàner
 yast_sound: So
 yast_software: Programari
 zypper: Zypper, el vostre nou gestor de paquets favorit
-zypper_p1: "És ràpid i fàcil d’aprendre. Ofereix zypper-apt, una capa de\ncompatibilitat\
-  \ per a ús amb ordres d'apt i apt-get. Es basa en libsolv,\nque garanteix una resolució\
-  \ ràpida i reproduïble de les\ndependències. La interfície és clara i adequadament\
-  \ acolorida per\nfacilitar-ne de lectura. És perfecte. Què més se'n podria dir?\n"
+zypper_p1: "És ràpid i fàcil d’aprendre. Ofereix zypper-apt, una capa de\ncompatibilitat
+  per a ús amb ordres d'apt i apt-get. Es basa en libsolv,\nque garanteix una resolució
+  ràpida i reproduïble de les\ndependències. La interfície és clara i adequadament
+  acolorida per\nfacilitar-ne de lectura. És perfecte. Què més se'n podria dir?\n"
 index: Distribucions d'openSUSE
 index_p1: Per a escriptori, servidor i tot el que hi ha enmig
 index_desktop: Escriptori
@@ -217,98 +216,103 @@ ppc64le: Servidors PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
 Tumbleweed_features:
   plant:
-    description: "El Tumbleweed es basa en dècades d’ús, proves i depuració de centenars\
-      \ d’usuaris avançats, desenvolupadors, administradors de sistemes i treballadors\
-      \ exigents que no es poden permetre posar en perill del seu flux de treball.\
-      \ La solidesa del Tumbleweed es concreta en molts paquets bàsics l’ADN dels\
-      \ quals es deriva del venerable SUSE Linux Enterprise Server.\n"
+    description: "El Tumbleweed es basa en dècades d’ús, proves i depuració de centenars
+      d’usuaris avançats, desenvolupadors, administradors de sistemes i treballadors
+      exigents que no es poden permetre posar en perill del seu flux de treball. La
+      solidesa del Tumbleweed es concreta en molts paquets bàsics l’ADN dels quals
+      es deriva del venerable SUSE Linux Enterprise Server.\n"
     name: En terra ferma
   power:
-    description: "Aprofitant les tecnologies per les quals l'openSUSE és conegut,\
-      \ com ara el sistema de fitxers Btrfs, la utilitat de línia d’ordres snapper,\
-      \ així com el tauler de control del YaST, provat per a la batalla, el Tumbleweed\
-      \ us empodera amb tot el control sobre el sistema i us permet definir la configuració\
-      \ que desitgeu i no preocupar-vos-en més. Ja no us heu d'amoïnar que un sistema\
-      \ interfereixi amb el vostre flux de treball.\n"
+    description: "Aprofitant les tecnologies per les quals l'openSUSE és conegut,
+      com ara el sistema de fitxers Btrfs, la utilitat de línia d’ordres snapper,
+      així com el tauler de control del YaST, provat per a la batalla, el Tumbleweed
+      us empodera amb tot el control sobre el sistema i us permet definir la configuració
+      que desitgeu i no preocupar-vos-en més. Ja no us heu d'amoïnar que un sistema
+      interfereixi amb el vostre flux de treball.\n"
     name: Potent
   shield:
-    description: "Construït a partir de les darreres versions del nucli, compilades\
-      \ amb els últims pedaços de mitigació de Spectre / Meltdown, amb tallafoc i\
-      \ polítiques de seguretat activades per defecte, la vostra seguretat està coberta\
-      \ de manera immediata.\n"
+    description: "Construït a partir de les darreres versions del nucli, compilades
+      amb els últims pedaços de mitigació de Spectre / Meltdown, amb tallafoc i polítiques
+      de seguretat activades per defecte, la vostra seguretat està coberta de manera
+      immediata.\n"
     name: Protegit
   key:
-    description: "En cas que es produeixi qualsevol fet no desitjat, sempre podeu\
-      \ tornar a un estat anterior i trobar els vostres fitxers i programes tal com\
-      \ eren abans d'una actualització accidentada.\n"
+    description: "En cas que es produeixi qualsevol fet no desitjat, sempre podeu
+      tornar a un estat anterior i trobar els vostres fitxers i programes tal com
+      eren abans d'una actualització accidentada.\n"
     name: Segur
   cpu:
-    description: "Gràcies a la seva naturalesa d'avantguarda i de comprovació exhaustiva,\
-      \ el Tumbleweed serveix el vostre maquinari i dispositius com poques altres\
-      \ distribucions de Linux, cosa que el converteix en un sistema excel·lent per\
-      \ a estacions de treball i tot tipus de portàtils.\n"
+    description: "Gràcies a la seva naturalesa d'avantguarda i de comprovació exhaustiva,
+      el Tumbleweed serveix el vostre maquinari i dispositius com poques altres distribucions
+      de Linux, cosa que el converteix en un sistema excel·lent per a estacions de
+      treball i tot tipus de portàtils.\n"
     name: Va bé amb el vostre maquinari
   user:
-    description: "Amb una sola ordre podeu actualitzar milers de paquets, tornar a\
-      \ la instantània de la setmana passada, tornar a avançar ràpidament i fins i\
-      \ tot previsualitzar les properes versions.\n"
+    description: "Amb una sola ordre podeu actualitzar milers de paquets, tornar a
+      la instantània de la setmana passada, tornar a avançar ràpidament i fins i tot
+      previsualitzar les properes versions.\n"
     name: Fàcil d'usar
   home:
-    description: "Les actualitzacions es comproven a fons amb els estàndards de qualitat\
-      \ d'indústria, aprofitant un servei de construcció que ens envegen altres distribucions\
-      \ de Linux. No només es prova individualment cada nova versió d’un paquet, sinó\
-      \ que es proven diferents clústers de versions, les unes contra les altres,\
-      \ i s'assegura que el sistema sigui coherent internament.\n"
+    description: "Les actualitzacions es comproven a fons amb els estàndards de qualitat
+      d'indústria, aprofitant un servei de construcció que ens envegen altres distribucions
+      de Linux. No només es prova individualment cada nova versió d’un paquet, sinó
+      que es proven diferents clústers de versions, les unes contra les altres, i
+      s'assegura que el sistema sigui coherent internament.\n"
     name: Estable
   knife:
-    description: "Rebeu actualitzacions freqüents que no només aborden les vulnerabilitats\
-      \ o els errors, sinó que reflecteixen les darreres funcions i desenvolupaments,\
-      \ com ara nuclis nous, controladors nous i versions recents de l'entorn d'escriptori.\n"
+    description: "Rebeu actualitzacions freqüents que no només aborden les vulnerabilitats
+      o els errors, sinó que reflecteixen les darreres funcions i desenvolupaments,
+      com ara nuclis nous, controladors nous i versions recents de l'entorn d'escriptori.\n"
     name: A l'última
   update:
-    description: "L’instal·leu un cop i en gaudiu per sempre. Ja no us heu de preocupar\
-      \ cada sis mesos per les actualitzacions massives de sistema que tenen el risc\
-      \ de blocar-lo.\n"
+    description: "L’instal·leu un cop i en gaudiu per sempre. Ja no us heu de preocupar
+      cada sis mesos per les actualitzacions massives de sistema que tenen el risc
+      de blocar-lo.\n"
     name: Actualitzat contínuament
+  gamepad:
+    name: Jocs
+    description: El Tumbleweed ofereix als usuaris el programari més recent relacionat
+      amb els jocs. Amb un suport de Linux per als jocs que millora ràpidament, aquest
+      és un aspecte important per a una experiència fluida, eficient i sense problemes
+      amb els jocs preferits.
 MicroOS_features:
   tool:
-    description: "### Contenidor d'eines de depuració\n* Llança un contenidor privilegiat.\n\
-      * Sistema de fitxers d'arrel disponible a /media/root\n* zypper per instal·lar\
-      \ les eines necessàries, disponibles sense reiniciar\n* Persistent entre usos\n"
+    description: "### Contenidor d'eines de depuració\n* Llança un contenidor privilegiat.\n
+      * Sistema de fitxers d'arrel disponible a /media/root\n* zypper per instal·lar
+      les eines necessàries, disponibles sense reiniciar\n* Persistent entre usos\n"
     name: Depuració
   work:
-    description: "Les aplicacions s’instal·len als contenidors en lloc del sistema\
-      \ de fitxers d'arrel:\n* Aïllat del sistema de fitxers principal\n* Reducció\
-      \ de la capacitat d'aplicacions malicioses per comprometre el sistema\n* Instal·lació\
-      \ nova sense reiniciar\n* Actualització de forma atòmica possible (crear-ne\
-      \ de nous, matar-ne de vells)\n* Fàcil retrocés\n"
+    description: "Les aplicacions s’instal·len als contenidors en lloc del sistema
+      de fitxers d'arrel:\n* Aïllat del sistema de fitxers principal\n* Reducció de
+      la capacitat d'aplicacions malicioses per comprometre el sistema\n* Instal·lació
+      nova sense reiniciar\n* Actualització de forma atòmica possible (crear-ne de
+      nous, matar-ne de vells)\n* Fàcil retrocés\n"
     name: Càrregues de feina
   key:
-    description: "* Obteniu les actualitzacions mitjançant HTTPS.\n* El nostre sistema\
-      \ de construcció signa els paquets i els repositoris.\n* Els paquets estan verificats.\n\
-      * No es fan actualitzacions en cas de conflictes de dependències.\n* Sense malbaratament\
-      \ d’espai: les instantànies del sistema de fitxers s’esborren en cas d’actualitzacions\
-      \ fallides.\n"
+    description: "* Obteniu les actualitzacions mitjançant HTTPS.\n* El nostre sistema
+      de construcció signa els paquets i els repositoris.\n* Els paquets estan verificats.\n
+      * No es fan actualitzacions en cas de conflictes de dependències.\n* Sense malbaratament
+      d’espai: les instantànies del sistema de fitxers s’esborren en cas d’actualitzacions
+      fallides.\n"
     name: Actualitzacions de seguretat
   shield:
-    description: "### El MicroSO és un sistema operatiu immutable, de recuperació\
-      \ senzilla.\n* Immutable: no hi ha canvis al disc.\n* Feu-ne un retrocés o recuperació\
-      \ reiniciant una instantània antiga de BTRFS.\n"
+    description: "### El MicroSO és un sistema operatiu immutable, de recuperació
+      senzilla.\n* Immutable: no hi ha canvis al disc.\n* Feu-ne un retrocés o recuperació
+      reiniciant una instantània antiga de BTRFS.\n"
     name: Retrocés
   update:
-    description: "### Actualitzacions transaccionals\n\n#### Únic\nEn usar btrfs amb\
-      \ instantànies, el MicroSO usa l'espai de manera molt\neficient per emmagatzemar\
-      \ l’historial del sistema de fitxers. Tots els fitxers\nde configuració de /etc\
-      \ formen part de la instantània i de la recuperació.\n\n#### Flexible\n* No\
-      \ cal un format de paquet nou, s'usen els RPM estàndards d'openSUSE.\n* No hi\
-      \ ha limitació de mida, ni per a particions ni per al sistema operatiu.\n* Fàcil\
-      \ de millorar\n"
+    description: "### Actualitzacions transaccionals\n\n#### Únic\nEn usar btrfs amb
+      instantànies, el MicroSO usa l'espai de manera molt\neficient per emmagatzemar
+      l’historial del sistema de fitxers. Tots els fitxers\nde configuració de /etc
+      formen part de la instantània i de la recuperació.\n\n#### Flexible\n* No cal
+      un format de paquet nou, s'usen els RPM estàndards d'openSUSE.\n* No hi ha limitació
+      de mida, ni per a particions ni per al sistema operatiu.\n* Fàcil de millorar\n"
     name: Actualitzacions atòmiques
   idea:
-    description: "### És predictible.\n* No s'altera durant l'execució.\n* Executarà\
-      \ els mateixos artefactes de manera constant a cada arrencada.\n\n### És escalable.\n\
-      * Elimina els esforços per configurar instàncies individuals durant el temps\
-      \ d'execució.\n* Es pot desplegar fàcilment i repetidament amb resultats previsibles.\n\
+    description: "### És predictible.\n* No s'altera durant l'execució.\n* Executarà
+      els mateixos artefactes de manera constant a cada arrencada.\n\n### És escalable.\n
+      * Elimina els esforços per configurar instàncies individuals durant el temps
+      d'execució.\n* Es pot desplegar fàcilment i repetidament amb resultats previsibles.\n
       \n### És fiable.\n* Recuperació automàtica d’actualitzacions defectuoses\n"
     name: Filosofia
 alternative_downloads_desc: També tenim imatges $options. Consulteu les $alternative_downloads!
@@ -358,17 +362,17 @@ preconfigured_image: Imatge preconfigurada (crua)
 preconfigured_rt_image: Imatge preconfigurada de Temps Real (crua)
 selfinstall_image: Imatge d'autoinstal·lació
 selfinstall_rt_image: Imatge d'autoinstal·lació de Temps Real
-live_info: "Tingueu en compte les limitacions següents de les imatges en directe:\n\
-  * No s'han d'usar per instal·lar o actualitzar el sistema. Si us plau, per fer-ho,\
-  \ useu el suport d'instal·lació.\n* Tenen una selecció limitada de paquets i controladors,\
-  \ de manera que no es pot considerar un reflex precís de si la distribució funcionarà\
-  \ al vostre maquinari o no.\n* El nucli i initrd no es poden actualitzar, de manera\
-  \ que no s'han d'usar com a instal·lació persistent.\n"
+live_info: "Tingueu en compte les limitacions següents de les imatges en directe:\n
+  * No s'han d'usar per instal·lar o actualitzar el sistema. Si us plau, per fer-ho,
+  useu el suport d'instal·lació.\n* Tenen una selecció limitada de paquets i controladors,
+  de manera que no es pot considerar un reflex precís de si la distribució funcionarà
+  al vostre maquinari o no.\n* El nucli i initrd no es poden actualitzar, de manera
+  que no s'han d'usar com a instal·lació persistent.\n"
 selfinstalling_k3s_image: Amfitrió k3s d'autoinstal·lació
 selfinstalling_images: Imatges d'autoinstal·lació
 selfinstalling_ch_image: Amfitrió de contenidor d'autoinstal·lació
 offline_updated_image: Imatge fora de línia actualitzada
-offline_updated_desc: "Imatge d'instal·lació fora de línia amb les darreres actualitzacions.\n\
+offline_updated_desc: "Imatge d'instal·lació fora de línia amb les darreres actualitzacions.\n
   Adient per a instal·lacions o actualitzacions.\n"
 server_aarch64: Servidors i plaques Arm UEFI de 64 bits (aarch64)
 server_x86_64: Servidors Intel o AMD de 64 bits (x86_64)
@@ -379,18 +383,18 @@ minimal_vm_info: Similar a les imatges de SUSE Linux Enterprise Server Minimal-V
   Per obtenir imatges d'Arm JeOS, aneu a la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">pàgina
   wiki d'Arm</a>
 minimal_vm_images: Màquina virtual mínima
-choosing_media_micro_p2: "La imatge ISO fora de línia l'hauria d'usar qui necessiti\
-  \ particions personalitzades.\n"
-choosing_media_micro_p1: "La nova imatge d'autoinstal·lació es recomana per a qui\
-  \ no necessiti particions personalitzades i pugui arrencar des de l'USB.\nUn assistent\
-  \ d'autoinstal·lació senzill aboca una imatge preconfigurada a la unitat i fa créixer\
-  \ la partició a la mida del disc.\n<br>\nEls usuaris amb Raspberry Pi i similars\
-  \ sense suport d'arrencada USB poden escriure directament la imatge preconfigurada\
-  \ a la targeta SD.\nEs recomana als usuaris que busquen més control sobre el desplegament\
-  \ que usin <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n\
-  \ <br>\nEs pot veure una demostració d'un desplegament basat en la Combustió <a\
-  \ href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n <br>\nEl jeos-firstboot\
-  \ s'oferirà com a benvinguda a qui no hagi configurat el sistema mitjançant Combustion.\n"
+choosing_media_micro_p2: "La imatge ISO fora de línia l'hauria d'usar qui necessiti
+  particions personalitzades.\n"
+choosing_media_micro_p1: "La nova imatge d'autoinstal·lació es recomana per a qui
+  no necessiti particions personalitzades i pugui arrencar des de l'USB.\nUn assistent
+  d'autoinstal·lació senzill aboca una imatge preconfigurada a la unitat i fa créixer
+  la partició a la mida del disc.\n<br>\nEls usuaris amb Raspberry Pi i similars sense
+  suport d'arrencada USB poden escriure directament la imatge preconfigurada a la
+  targeta SD.\nEs recomana als usuaris que busquen més control sobre el desplegament
+  que usin <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
+  <br>\nEs pot veure una demostració d'un desplegament basat en la Combustió <a href=\"\
+  https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n <br>\nEl jeos-firstboot
+  s'oferirà com a benvinguda a qui no hagi configurat el sistema mitjançant Combustion.\n"
 preconfigured_qcow_image: Imatge preconfigurada (qcow)
 server_leapmicro_p1: Per a desenvolupadors, professionals i càrregues de feina en
   contenidors
