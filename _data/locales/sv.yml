@@ -39,9 +39,9 @@ xen_image: XEN
 source_code: Källkod
 translate: Översätt
 learn_more: Läs mer
-network_desc: "Laddar ned installationssystemet och alla paket via online\nförråd.\
-  \ Lämplig för installation eller uppgradering.\n"
-offline_desc: "Innehåller en stor samling programvara för skrivbords eller serveranvändning.\n\
+network_desc: "Laddar ned installationssystemet och alla paket via online\nförråd.
+  Lämplig för installation eller uppgradering.\n"
+offline_desc: "Innehåller en stor samling programvara för skrivbords eller serveranvändning.\n
   Lämplig för installation eller uppgradering.\n"
 offline_image: Offline avbild
 site_title_short: Skaffa
@@ -54,21 +54,21 @@ kde_cd: KDE LiveCD
 xfce_cd: Xfce LiveCD
 microos_desc: openSUSE Tumbleweed-baserat OS som tillhandahåller Transaktionella (Atomic)
   uppdateringar på ett skrivskyddat btrfs-rotfilsystem
-choosing_media_p1: "Offlinavebilden rekommenderas vanligtvis eftersom den innehåller\
-  \ det mesta\nav paketen tillgängliga i distributionen och kräver inte en nätverks\n\
+choosing_media_p1: "Offlinavebilden rekommenderas vanligtvis eftersom den innehåller
+  det mesta\nav paketen tillgängliga i distributionen och kräver inte en nätverks\n
   anslutning under installationen.\n"
-choosing_media_p2: "Nätverksavbilden rekommenderas för användare som har begränsad\n\
-  bandbredd på deras internetanslutning, eftersom den bara kommer att ladda ner\n\
-  det paket som de väljer att installera, vilket sannolikt kommer att vara avsevärt\n\
+choosing_media_p2: "Nätverksavbilden rekommenderas för användare som har begränsad\n
+  bandbredd på deras internetanslutning, eftersom den bara kommer att ladda ner\n
+  det paket som de väljer att installera, vilket sannolikt kommer att vara avsevärt\n
   mindre än 4,7 GB.\n"
 documentation_release_notes: Utgivningsmeddelande
 requirements_rec: Rekommenderat
 vm_images: Virtuell maskin
 cloud_images: Moln
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-leap_switch_p1: "Om du redan kör openSUSE kan du uppgradera genom att starta från\n\
-  DVD/USB och välja uppgradera, eller utföra en \"Online-uppgradering\" med några\
-  \ få\nkommandon.\n"
+leap_switch_p1: "Om du redan kör openSUSE kan du uppgradera genom att starta från\n
+  DVD/USB och välja uppgradera, eller utföra en \"Online-uppgradering\" med några
+  få\nkommandon.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_min: Minimum
 requirements_cpu_desc: 2 Ghz dual core processor eller bättre
@@ -127,97 +127,101 @@ ppc64le: PowerPC-servrar, little-endian (ppc64le)
 Tumbleweed_features:
   user:
     name: Enkel att använda
-    description: "Med ett enda kommando kan du uppdatera tusentals paket, återgå till\
-      \ förra veckans ögonblicksbild, spola framåt igen och till och med förhandsgranska\
-      \ kommande utgåvor.\n"
+    description: "Med ett enda kommando kan du uppdatera tusentals paket, återgå till
+      förra veckans ögonblicksbild, spola framåt igen och till och med förhandsgranska
+      kommande utgåvor.\n"
   shield:
     name: Säker
-    description: "Byggd från de senaste kärnutgåvorna, kompilerade med de senaste\
-      \ säkerhetskorrigeringarna för Spectre / Meltdown, med brandvägg och starka\
-      \ säkerhetspolicyer aktiverade som standard, täcks din säkerhet direkt ut ur\
-      \ lådan.\n"
+    description: "Byggd från de senaste kärnutgåvorna, kompilerade med de senaste
+      säkerhetskorrigeringarna för Spectre / Meltdown, med brandvägg och starka säkerhetspolicyer
+      aktiverade som standard, täcks din säkerhet direkt ut ur lådan.\n"
   update:
     name: Kontinuerligt uppdaterad
-    description: "Du installerar det en gång och njuter av det för alltid. Du behöver\
-      \ inte längre oroa dig var sjätte månad för massiva systemuppgraderingar som\
-      \ riskerar att bricka ditt system.\n"
+    description: "Du installerar det en gång och njuter av det för alltid. Du behöver
+      inte längre oroa dig var sjätte månad för massiva systemuppgraderingar som riskerar
+      att bricka ditt system.\n"
   home:
     name: Stabil
-    description: "Uppdateringar testas noggrant mot branschkvalitetsstandarder och\
-      \ drar fördel av en byggtjänst som andra Linux distributioner avundas oss. Inte\
-      \ bara varje ny version av ett paket testas individuellt, utan olika kluster\
-      \ av versioner testas mot varandra, vilket säkerställer att ditt system är internt\
-      \ konsekvent.\n"
+    description: "Uppdateringar testas noggrant mot branschkvalitetsstandarder och
+      drar fördel av en byggtjänst som andra Linux distributioner avundas oss. Inte
+      bara varje ny version av ett paket testas individuellt, utan olika kluster av
+      versioner testas mot varandra, vilket säkerställer att ditt system är internt
+      konsekvent.\n"
   key:
     name: Säker
-    description: "Skulle något oönskat inträffa kan du alltid återgå till ett tidigare\
-      \ tillstånd och hitta dina filer och program precis som de var innan en ostabil\
-      \ uppdatering.\n"
+    description: "Skulle något oönskat inträffa kan du alltid återgå till ett tidigare
+      tillstånd och hitta dina filer och program precis som de var innan en ostabil
+      uppdatering.\n"
   power:
     name: Kraftfull
     description: "Att utnyttja teknologier som openSUSE är kända för, såsom \"Btrfs\"\
       -filsystemet, kommandoradsverktyget \"snapper\" samt den stridsbeprövade \"\
-      YaST\" \"kontrollpanelen\", ger Tumbleweed dig full kontroll över ditt system,\
-      \ låter dig definiera de inställningar du vill ha och bli klar med det. Du behöver\
-      \ inte längre oroa dig för att ett system stör ditt arbetsflöde.\n"
+      YaST\" \"kontrollpanelen\", ger Tumbleweed dig full kontroll över ditt system,
+      låter dig definiera de inställningar du vill ha och bli klar med det. Du behöver
+      inte längre oroa dig för att ett system stör ditt arbetsflöde.\n"
   knife:
     name: Ledande-kant
-    description: "Du får frekventa uppdateringar som inte bara tar itu med sårbarheter\
-      \ eller krossar buggar, utan återspeglar de senaste funktionerna och utveckling,\
-      \ såsom färska kärnor, färska drivrutiner och senaste versioner av skrivbordsmiljön.\n"
+    description: "Du får frekventa uppdateringar som inte bara tar itu med sårbarheter
+      eller krossar buggar, utan återspeglar de senaste funktionerna och utveckling,
+      såsom färska kärnor, färska drivrutiner och senaste versioner av skrivbordsmiljön.\n"
   plant:
     name: Står på fast mark
-    description: "Tumbleweed bygger på årtionden av användning, testning och felsökning\
-      \ av hundratals avancerade användare, utvecklare, systemadministratörer och\
-      \ krävande användare som inte har råd att äventyra deras arbetsflöde. Tumbleweeds\
-      \ solidaritet finns i många kärnpaket vars DNA härrör från den ärevördiga SUSE\
-      \ Linux Enterprise Server.\n"
+    description: "Tumbleweed bygger på årtionden av användning, testning och felsökning
+      av hundratals avancerade användare, utvecklare, systemadministratörer och krävande
+      användare som inte har råd att äventyra deras arbetsflöde. Tumbleweeds solidaritet
+      finns i många kärnpaket vars DNA härrör från den ärevördiga SUSE Linux Enterprise
+      Server.\n"
   cpu:
     name: Fungerar bra med din hårdvara
-    description: "Tack vare dess ledande och noggrant testade karaktär, så serverar\
-      \ Tumbleweed din hårdvara och enheter som få andra Linux-distributioner, vilket\
-      \ gör det till en fantastisk installation för både arbetsstationer och bärbara\
-      \ datorer.\n"
+    description: "Tack vare dess ledande och noggrant testade karaktär, så serverar
+      Tumbleweed din hårdvara och enheter som få andra Linux-distributioner, vilket
+      gör det till en fantastisk installation för både arbetsstationer och bärbara
+      datorer.\n"
+  gamepad:
+    name: Gaming
+    description: Tumbleweed förser användare med den senaste spelrelaterade programvaran.
+      Med Linux-stödet för spel som förbättras snabbt, är det en viktig aspekt för
+      smidig, prestanda och problemfri upplevelse i dina favoritspel.
 new_version_testing: $distro_name är nu tillgänglig för nedladdning och testning
 view_distro: Visa $distro_name
 MicroOS_features:
   idea:
     name: Filosofi
-    description: "### Är förutsägbart\n* Ändras inte under körning\n* Kommer att köra\
-      \ samma artefakter konsekvent vid varje uppstart\n\n### Är skalbart\n* Eliminerar\
-      \ ansträngningar för att konfigurera enskilda instanser under körning\n* Kan\
-      \ rullas ut enkelt upprepade gånger med förutsägbart resultat\n\n### Är pålitligt\n\
-      * Automatisk återställning från felaktiga uppdateringar\n"
+    description: "### Är förutsägbart\n* Ändras inte under körning\n* Kommer att köra
+      samma artefakter konsekvent vid varje uppstart\n\n### Är skalbart\n* Eliminerar
+      ansträngningar för att konfigurera enskilda instanser under körning\n* Kan rullas
+      ut enkelt upprepade gånger med förutsägbart resultat\n\n### Är pålitligt\n*
+      Automatisk återställning från felaktiga uppdateringar\n"
   shield:
     name: Rulla tillbaka
-    description: "### MicroOS är ett oföränderligt operativsystem, återställning är\
-      \ enkelt\n* Oföränderlig: Inga ändringar på disken\n* Återställ genom att starta\
-      \ om till en gammal BTRFS-ögonblicksbild\n"
+    description: "### MicroOS är ett oföränderligt operativsystem, återställning är
+      enkelt\n* Oföränderlig: Inga ändringar på disken\n* Återställ genom att starta
+      om till en gammal BTRFS-ögonblicksbild\n"
   key:
     name: Säkra uppdateringar
-    description: "* Få dina uppdateringar via HTTPS\n* Paket och förråd är signerade\
-      \ av vårt byggsystem\n* Paketen är verifierade\n* Inga uppdateringar görs i\
-      \ händelse av beroendekonflikter\n* Inget slöseri med utrymme: Ögonblicksbilder\
-      \ av filsystemet raderas vid misslyckade uppdateringar\n"
+    description: "* Få dina uppdateringar via HTTPS\n* Paket och förråd är signerade
+      av vårt byggsystem\n* Paketen är verifierade\n* Inga uppdateringar görs i händelse
+      av beroendekonflikter\n* Inget slöseri med utrymme: Ögonblicksbilder av filsystemet
+      raderas vid misslyckade uppdateringar\n"
   work:
     name: Arbetsbelastningar
-    description: "Applikationer installeras i behållare snarare än rootfilsystemet:\n\
-      * Isolerad från kärnfilsystemet\n* Minskad möjlighet för skadliga applikationer\
-      \ som kan äventyra systemet\n* Ny installation utan omstart\n* Uppdatera på\
-      \ ett sådant atomärt sätt som möjligt (skapa nytt, döda gammalt)\n* Enkel återställning\n"
+    description: "Applikationer installeras i behållare snarare än rootfilsystemet:\n
+      * Isolerad från kärnfilsystemet\n* Minskad möjlighet för skadliga applikationer
+      som kan äventyra systemet\n* Ny installation utan omstart\n* Uppdatera på ett
+      sådant atomärt sätt som möjligt (skapa nytt, döda gammalt)\n* Enkel återställning\n"
   tool:
     name: Felsökning
-    description: "###Avlusa Toolbox behållare\n* Startar privilegierad behållare\n\
-      * Rootfilsystem tillgängligt under `/media/root`\n* zypper för att installera\
-      \ nödvändiga verktyg, tillgängligt utan omstart\n* Persistent mellan användningar\n"
+    description: "###Avlusa Toolbox behållare\n* Startar privilegierad behållare\n
+      * Rootfilsystem tillgängligt under `/media/root`\n* zypper för att installera
+      nödvändiga verktyg, tillgängligt utan omstart\n* Persistent mellan användningar\n"
   update:
     name: Atomiska uppdateringar
-    description: "###Transaktionella uppdateringar\n\n#### Unik\nGenom att använda\
-      \ btrfs med ögonblicksbilder använder MicroOS mycket utrymme på ett\neffektivt\
-      \ sätt att lagra filsystemets historik. Alla konfigurations\nfiler i `/etc`\
-      \ är en del av ögonblicksbilden och återställningen.\n\n#### Flexibel\n* Inget\
-      \ nytt paketformat behövs, använd standard openSUSE RPM\n* Ingen storleksbegränsning,\
-      \ varken för partitioner eller operativsystem\n* Lätt att förbättra\n"
+    description: "###Transaktionella uppdateringar\n\n#### Unik\nGenom att använda
+      btrfs med ögonblicksbilder använder MicroOS mycket utrymme på ett\neffektivt
+      sätt att lagra filsystemets historik. Alla konfigurations\nfiler i `/etc` är
+      en del av ögonblicksbilden och återställningen.\n\n#### Flexibel\n* Inget nytt
+      paketformat behövs, använd standard openSUSE RPM\n* Ingen storleksbegränsning,
+      varken för partitioner eller operativsystem\n* Lätt att förbättra\n"
 alternative_downloads_desc: Vi har också $options avbilder. Kolla in $alternative_downloads!
 leap_switch_instructions: Online uppgraderingsinstruktioner.
 selfinstalling_images: Självinstallerande avbilder
@@ -235,8 +239,8 @@ ports_images: Portar
 jeos_images: JeOS
 live_images: Live
 verify_download: Verifiera din nedladdning före användning
-verify_download_p2: "För varje ISO erbjuder vi en kontrollsummafil med motsvarande\
-  \ SHA256-summa.\n"
+verify_download_p2: "För varje ISO erbjuder vi en kontrollsummafil med motsvarande
+  SHA256-summa.\n"
 points_welcoming: Välkomnar bidrag
 kvm_ch_image: KVM och XEN behållare värd
 requirements_hdd_swap_info: swap utrymme inaktiverad för att Kubernetes ska fungera
@@ -254,14 +258,14 @@ server: openSUSE Server distributioner
 server_p1: "Fyra bekvämt tråkiga distributioner, hur det alltid borde vara\n"
 server_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls av
   OpenSUSE projektet.
-tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta från\n\
-  DVD/USB och välja uppgradera, eller genomföra en \"online -uppgradering\" med några\
-  \ få\nkommandon.\n"
-verify_download_p1: "Många program kan verifiera kontrollsumman för en nedladdning.\
-  \ Att verifiera\nDin nedladdning kan vara viktig eftersom det verifierar att du\
-  \ verkligen har fått den\nISO-fil du ville ladda ner och inte någon trasig version.\n"
-verify_download_p3: "För extra säkerhet kan du använda sha256summa för att verifiera\
-  \ vem som signerade dessa .sha256-filer. \n"
+tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta från\n
+  DVD/USB och välja uppgradera, eller genomföra en \"online -uppgradering\" med några
+  få\nkommandon.\n"
+verify_download_p1: "Många program kan verifiera kontrollsumman för en nedladdning.
+  Att verifiera\nDin nedladdning kan vara viktig eftersom det verifierar att du verkligen
+  har fått den\nISO-fil du ville ladda ner och inte någon trasig version.\n"
+verify_download_p3: "För extra säkerhet kan du använda sha256summa för att verifiera
+  vem som signerade dessa .sha256-filer. \n"
 verify_download_pubkey: Det ska vara
 points_transparent: Allting är transparent
 index_desktop_p1: Val av distributioner för skrivbordsanvändning
@@ -276,11 +280,11 @@ vagrant_ch_image: Vagrant behållare värd
 rpi_ch_image: RaspberryPi behållare värd
 pine_ch_image: Pine64 behållare värd
 openstack_ch_image: Openstack-Moln behållare värd
-ports_info: "Portar för openSUSE Leap till andra arkitekturer än PC är\nupprätthålls\
-  \ av separata gemenskapsteam, med begränsade resurser.\n"
+ports_info: "Portar för openSUSE Leap till andra arkitekturer än PC är\nupprätthålls
+  av separata gemenskapsteam, med begränsade resurser.\n"
 site_description: Lär dig mer om openSUSE-distributionerna och ladda ner dem gratis
 offline_updated_image: Uppdaterad Offline avbild
-offline_updated_desc: "Offline installationsavbild med dom senaste uppdateringar.\n\
+offline_updated_desc: "Offline installationsavbild med dom senaste uppdateringar.\n
   Lämplig för installation eller uppgradering.\n"
 server_x86_64: Intel eller AMD 64-bitars servrar (x86_64)
 cloud_minimal_desc: Minimala KVM och Xen avbilder med cloud-init
@@ -299,74 +303,73 @@ documentation_startup_guide: openSUSE Uppstartsguide
 desktop_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad ingenjörskonst
   och gemenskapsutvecklad innovation.
 transactional: Transaktionell server
-live_info: "Var medveten om följande begränsningar för liveavbilder:\n* De ska inte\
-  \ användas för att installera eller uppgradera. Använd installationsmediet istället\n\
-  * De har ett begränsat urval av paket och drivrutiner, så det kan inte betraktas\
-  \ som en korrekt reflektion av om distributionen kommer att fungera på din hårdvara\
-  \ eller inte\n* Kärnan och initrd kan inte uppdateras, så de bör inte användas som\
-  \ en beständig installation\n"
-snapper_p1: "Funktionen Filsystem Snapshots håller ditt filsystem i schack genom\n\
-  att kontinuerliga säkerhetskopieringar utförs automatiskt vid installation av\n\
-  programvara och uppdateringar. Starta bara från en tidigare ögonblicksbild och ta\n\
+live_info: "Var medveten om följande begränsningar för liveavbilder:\n* De ska inte
+  användas för att installera eller uppgradera. Använd installationsmediet istället\n
+  * De har ett begränsat urval av paket och drivrutiner, så det kan inte betraktas
+  som en korrekt reflektion av om distributionen kommer att fungera på din hårdvara
+  eller inte\n* Kärnan och initrd kan inte uppdateras, så de bör inte användas som
+  en beständig installation\n"
+snapper_p1: "Funktionen Filsystem Snapshots håller ditt filsystem i schack genom\n
+  att kontinuerliga säkerhetskopieringar utförs automatiskt vid installation av\n
+  programvara och uppdateringar. Starta bara från en tidigare ögonblicksbild och ta\n
   ditt system tillbaka till ett fungerande tillstånd på några minuter.\n"
-zypper_p1: "Det är snabbt och enkelt att lära sig. zypper-apt ger dig, ett kompatibilitets\n\
-  lager för användning med kommandon apt och apt-get. Det är baserat på libsolv,\n\
-  vilket garanterar både snabbhet och reproducerbar upplösning av\nberoenden. Gränssnittet\
-  \ är tydligt och lämpligt färgat, för att vara\nlätt att läsa. Det är perfekt, vad\
-  \ mer kan man säga?\n"
-points_transparent_p1: "Från början till slut, varje paket som ingår in i distributionerna\n\
-  har alla sina källor och byggskripts öppet synliga för alla\natt se. Tveksam till\
-  \ en källa? Kolla bara in det på byggtjänsten.\n"
+zypper_p1: "Det är snabbt och enkelt att lära sig. zypper-apt ger dig, ett kompatibilitets\n
+  lager för användning med kommandon apt och apt-get. Det är baserat på libsolv,\n
+  vilket garanterar både snabbhet och reproducerbar upplösning av\nberoenden. Gränssnittet
+  är tydligt och lämpligt färgat, för att vara\nlätt att läsa. Det är perfekt, vad
+  mer kan man säga?\n"
+points_transparent_p1: "Från början till slut, varje paket som ingår in i distributionerna\n
+  har alla sina källor och byggskripts öppet synliga för alla\natt se. Tveksam till
+  en källa? Kolla bara in det på byggtjänsten.\n"
 snapper: Har systemet blivit korrupt? Inget problem längre
-points_free_p1: "Paketen i distributionerna är uppdelade i gratis och icke-gratis\n\
-  förråd. Vill du inte använda icke-gratispaket? Du kan enkelt\ninaktivera det icke-fria\
-  \ förrådet. Det är ditt val, inte vårt.\n"
-points_welcoming_p1: "Vi gör vårt bästa för att tillfredsställa gemenskapen, och vi\
-  \ kan bara få detta\natt hända när gemenskap är högljudd om vad de behöver. Det\
-  \ är därför vi\nsett till att det är så enkelt som möjligt att bidra.\n"
-software_p1: "Mellan oss att gå igenom varje webbplats för att få all\nprogramvara\
-  \ du kan behöva är mycket arbete. Programvarucentret online\ngör detta enklare genom\
-  \ att införliva programvara från en uppsjö av\nkällor på ett ställe.\n"
+points_free_p1: "Paketen i distributionerna är uppdelade i gratis och icke-gratis\n
+  förråd. Vill du inte använda icke-gratispaket? Du kan enkelt\ninaktivera det icke-fria
+  förrådet. Det är ditt val, inte vårt.\n"
+points_welcoming_p1: "Vi gör vårt bästa för att tillfredsställa gemenskapen, och vi
+  kan bara få detta\natt hända när gemenskap är högljudd om vad de behöver. Det är
+  därför vi\nsett till att det är så enkelt som möjligt att bidra.\n"
+software_p1: "Mellan oss att gå igenom varje webbplats för att få all\nprogramvara
+  du kan behöva är mycket arbete. Programvarucentret online\ngör detta enklare genom
+  att införliva programvara från en uppsjö av\nkällor på ett ställe.\n"
 server_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad ingenjörskonst
   och gemenskapsutvecklad innovation.
 desktop_p1: "De två distributionerna att härska dom alla (nu i grönt!)\n"
-transactional_p1: "Installationsprogrammet stöder nu en ny systemroll Transaktionell\
-  \ server\nvilket är ett resultat av openSUSE Kubic-arbetet. Denna systemroll\nhar\
-  \ ett nytt uppdateringssystem som tillämpar uppdateringar atomärt (som en\nenkel\
-  \ operation) och gör dem lätta att återställa om det skulle bli\nnödvändig. Dessa\
-  \ funktioner är baserade på pakethanteringsverktygen\nsom alla andra SUSE och openSUSE-distributioner\
-  \ förlitar sig på. Detta betyder\natt de allra flesta RPM-paket som fungerar med\
-  \ andra system\nroller för openSUSE-distributioner fungerar också med transaktionell\
-  \ server systemrollen.\n"
-yast_p1: "Ett av de bästa systemkonfigurationsverktygen hjälper dig som användare\
-  \ att\nkonfigurera varje enskild aspekt av ditt system. Du behöver inte längre gå\n\
-  genom en uppsjö av konfigurationsskript eller ange tvivelaktiga kommandon\nför att\
-  \ få systeminstallationen som du behöver den.\n"
+transactional_p1: "Installationsprogrammet stöder nu en ny systemroll Transaktionell
+  server\nvilket är ett resultat av openSUSE Kubic-arbetet. Denna systemroll\nhar
+  ett nytt uppdateringssystem som tillämpar uppdateringar atomärt (som en\nenkel operation)
+  och gör dem lätta att återställa om det skulle bli\nnödvändig. Dessa funktioner
+  är baserade på pakethanteringsverktygen\nsom alla andra SUSE och openSUSE-distributioner
+  förlitar sig på. Detta betyder\natt de allra flesta RPM-paket som fungerar med andra
+  system\nroller för openSUSE-distributioner fungerar också med transaktionell server
+  systemrollen.\n"
+yast_p1: "Ett av de bästa systemkonfigurationsverktygen hjälper dig som användare
+  att\nkonfigurera varje enskild aspekt av ditt system. Du behöver inte längre gå\n
+  genom en uppsjö av konfigurationsskript eller ange tvivelaktiga kommandon\nför att
+  få systeminstallationen som du behöver den.\n"
 yast_partitioner: Partitionerare
 server_microos_p1: För serverapplikationer med enstaka ändamål
 server_aarch64: UEFI Arm 64-bitars servrar och moderkort (aarch64)
 rescue_cd: Räddnings LiveCD
-desktops_p1: "OpenSUSE-bidragsprocessen möjliggör skrivbordsutveckling för\nalla,\
-  \ så du har valet att välja din favorit i\ninstallationsprogrammet. Vi har aktivt\
-  \ valt tre skrivbordsmiljöer och erbjuder\nännu mer i den utökade programvyn i installationsprogrammet.\n"
-installation_p1: "openSUSE-installationsprocessen ger dig alla alternativ\ndu ska\
-  \ behöva. Vill du installera ditt system med mus och\ntangentbord? Ladda upp installationsprogrammet\
-  \ i grafiskt läge. Har du ingen mus\ntill hands? Aktivera terminalklienten och installera\
-  \ på det sättet istället. Har du inte\nfysisk tillgång till maskinen? Anslut till\
-  \ installationsprogrammet på distans och\ngå vidare med installationen. Det är så\
-  \ enkelt.\n"
-choosing_media_micro_p2: "Offline ISO-avbilden bör användas av de som behöver anpassad\
-  \ partitionering.\n"
-choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för alla\
-  \ som inte behöver anpassad partitionering och kan starta från USB.\nEn enkel självinstallationsguide\
-  \ dumpar en förkonfigurerad avbild till enheten och utökar partitionen till diskens\
-  \ storlek.\n<br>\nAnvändare med Raspberry Pi och liknande utan usbuppstarts stöd\
-  \ kan direkt skriva den förkonfigurerade avbilden till SD-kortet.\nAnvändare som\
-  \ vill ha mer kontroll över implementeringen rekommenderas att använda <a href=\"\
-  https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n<br>\nEn demo\
-  \ av en combustionbaserad implementering kan ses <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
-  >här</a>.\n<br>\nJeos-firstboot kommer att hälsa dem som inte har konfigurerat sitt\
-  \ system genom att använda Combustion.\n"
+desktops_p1: "OpenSUSE-bidragsprocessen möjliggör skrivbordsutveckling för\nalla,
+  så du har valet att välja din favorit i\ninstallationsprogrammet. Vi har aktivt
+  valt tre skrivbordsmiljöer och erbjuder\nännu mer i den utökade programvyn i installationsprogrammet.\n"
+installation_p1: "openSUSE-installationsprocessen ger dig alla alternativ\ndu ska
+  behöva. Vill du installera ditt system med mus och\ntangentbord? Ladda upp installationsprogrammet
+  i grafiskt läge. Har du ingen mus\ntill hands? Aktivera terminalklienten och installera
+  på det sättet istället. Har du inte\nfysisk tillgång till maskinen? Anslut till
+  installationsprogrammet på distans och\ngå vidare med installationen. Det är så
+  enkelt.\n"
+choosing_media_micro_p2: "Offline ISO-avbilden bör användas av de som behöver anpassad
+  partitionering.\n"
+choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för alla
+  som inte behöver anpassad partitionering och kan starta från USB.\nEn enkel självinstallationsguide
+  dumpar en förkonfigurerad avbild till enheten och utökar partitionen till diskens
+  storlek.\n<br>\nAnvändare med Raspberry Pi och liknande utan usbuppstarts stöd kan
+  direkt skriva den förkonfigurerade avbilden till SD-kortet.\nAnvändare som vill
+  ha mer kontroll över implementeringen rekommenderas att använda <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nEn demo av en combustionbaserad implementering kan ses <a
+  href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">här</a>.\n<br>\nJeos-firstboot
+  kommer att hälsa dem som inte har konfigurerat sitt system genom att använda Combustion.\n"
 preconfigured_qcow_image: Förkonfigurerad avbild (qcow)
 server_leapmicro_p1: För utvecklare, proffs och behållarbaserade arbetsbelastningar
 server_leapmicro_p2: Ett ultratillförlitligt, lätt och oföränderligt operativsystem
