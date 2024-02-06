@@ -79,7 +79,7 @@ permalink: /server/
               <h6>{{ locale.server_leapmicro_p1 }}</h6>
               <p>{{ locale.server_leapmicro_p2 }}</p>
             </div>
-            {% assign leapmicro_version = site.releases.leapmicro[site.releases.leapmicro.current].version %}
+            {% assign leapmicro_version = site.releases.leap_micro[site.releases.leap_micro.current].version %}
             {% capture distro_name %}Leap Micro {{ leapmicro_version }}{% endcapture %}
             <a href="{{ '/leapmicro/' | append: leapmicro_version | append: '/?type=server' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
             <a href="{{ '/leapmicro/' | append: leapmicro_version | append: '/?type=server#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
