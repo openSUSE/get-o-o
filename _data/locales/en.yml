@@ -31,6 +31,7 @@ selfinstalling_images: Self Installing Images
 selfinstalling_ch_image: Self Installing Container Host
 selfinstalling_k3s_image: Self Installing k3s Host
 kvm_image: KVM and XEN image
+kvm_sdboot_image: KVM image with systemd-boot
 kvm_ch_image: KVM and XEN Container Host
 kvm_desc: For use in KVM or XEN HVM hypervisors
 xen_image: XEN
