@@ -356,7 +356,7 @@ Tumbleweed_features:
       lainnya, menjadikannya pemasangan yang luar biasa untuk workstation, laptop,
       dan notebook.\n"
   gamepad:
-    name: Gaming
+    name: Permainan
     description: Tumbleweed menyediakan perangkat lunak terbaru yang berhubungan dengan
       game bagi pengguna. Dengan dukungan Linux untuk game yang meningkat pesat, ini
       merupakan aspek penting untuk pengalaman yang lancar, berkinerja baik, dan bebas
@@ -383,6 +383,6 @@ choosing_media_micro_p1: "Citra pemasangan mandiri yang baru direkomendasikan un
   akan menyambut mereka yang tidak mengkonfigurasi sistem mereka dengan menggunakan
   Combustion.\n"
 preconfigured_qcow_image: Citra Terprakonfigurasi (qcow)
-server_leapmicro_p1: Untuk pengembang, profesional, dan workload kontainer
-server_leapmicro_p2: Sistem operasi yang sangat andal, ringan, dan tidak dapat diubah
-  untuk lingkungan komputasi seperti edge, embedded, penggelaran IoT, dan lainnya.
+server_leapmicro_p1: Untuk penggelaran edge, embedded, IoT, dan lainnya
+server_leapmicro_p2: Sistem operasi yang sangat andal dan ringan yang dibuat untuk
+  beban kerja dalam kontainer dan tervirtualisasi.
