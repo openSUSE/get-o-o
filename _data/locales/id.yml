@@ -386,3 +386,4 @@ preconfigured_qcow_image: Citra Terprakonfigurasi (qcow)
 server_leapmicro_p1: Untuk penggelaran edge, embedded, IoT, dan lainnya
 server_leapmicro_p2: Sistem operasi yang sangat andal dan ringan yang dibuat untuk
   beban kerja dalam kontainer dan tervirtualisasi.
+kvm_sdboot_image: Citra KVM dengan systemd-boot
