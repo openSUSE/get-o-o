@@ -74,6 +74,16 @@ downloads:
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2?mirrorlist
       - name: checksum
         url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2.sha256
+    - name: kvm_sdboot_image
+      desc: microos_desc
+      primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2
+      links:
+      - name: metalink
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2.meta4
+      - name: pick_mirror
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2?mirrorlist
+      - name: checksum
+        url: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2.sha256
     - name: virtualbox_image
       desc: microos_desc
       primary_link: /tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz
