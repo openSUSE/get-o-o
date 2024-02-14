@@ -399,3 +399,4 @@ preconfigured_qcow_image: Imatge preconfigurada (qcow)
 server_leapmicro_p1: Per a desplegaments punters, encastats, IoT i altres
 server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a càrregues
   de treball virtualitzades i en contenidors.
+kvm_sdboot_image: Imatge de KVM amb arrencada de systemd
