@@ -385,3 +385,4 @@ preconfigured_qcow_image: Predkonfigurovaný obraz (qcow)
 server_leapmicro_p1: Pre hraničné, zabudované, IoT a iné nasadenia
 server_leapmicro_p2: Mimoriadne spoľahlivý, nenáročný operačný systém vytvorený pre
   kontajnerizované a virtualizované pracovné zaťaženia.
+kvm_sdboot_image: Obraz KVM so systemd-boot
