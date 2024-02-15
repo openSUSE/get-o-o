@@ -374,3 +374,4 @@ preconfigured_qcow_image: Förkonfigurerad avbild (qcow)
 server_leapmicro_p1: För edge, inbäddade system, IoT och andra implementeringar
 server_leapmicro_p2: Ultra-pålitligt, lättviktigt operativsystem byggt för behållarbaserade
   och virtualiserade arbetsbelastningar.
+kvm_sdboot_image: KVM avbild med systemd-boot
