@@ -9,7 +9,7 @@ checksum: Контрольна сума
 torrent_file: BitTorrent
 network_image: Мережний образ
 installation_images: Носій встановлення
-live_images: "„Живий“ KDE"
+live_images: "Live образи"
 rescue_cd: Відновлення
 choosing_media: Вибір носія для завантаження
 documentation: Документація
