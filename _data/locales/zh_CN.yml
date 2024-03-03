@@ -1,55 +1,281 @@
----
 site_title: 获取 openSUSE
+site_title_short: 获取
+site_description: 免费了解和下载 openSUSE 发行版
+site_copyright: © 2023 openSUSE 贡献者
+absolute_link: 绝对链接
+relative_link: 相对链接
 search: 搜索
+translate: 翻译
+source_code: 源码
 license: 许可证
+learn_more: 了解更多
 cd_desc: 用于 CD 和 U 盘
 dvd_desc: 用于 DVD 和 U 盘
-pick_mirror: 选择镜像站点
+usb_desc: 用于 USB 盘
+metalink: Metalink
+pick_mirror: 选择镜像站
 checksum: 校验码
 torrent_file: 种子文件
+offline_image: 离线映像
+offline_desc: "包含桌面或服务器使用的众多软件。\n适用于安装或升级。\n"
 network_image: 网络映像
-kvm_desc: 推荐在 KVM 或 XEN HVM 虚拟机中使用
-xen_desc: 推荐在 XEN PV 虚拟机中使用
-hyperv_desc: 推荐在 MS HyperV 虚拟机中使用
-vmware_desc: 推荐在 VMware 虚拟机中使用
-openstack_desc: 推荐在 OpenStack 虚拟机中使用
+network_desc: "从在线软件源下载安装系统和全部软件包。\n适用于安装或升级。\n"
+kvm_image: KVM 和 XEN 映像
+kvm_desc: 适用于 KVM 和 XEN HVM 虚拟机监控程序
+xen_image: XEN
+xen_desc: 适用于 XEN PV 虚拟机监控程序
+hyperv_image: 微软 HyperV 映像
+hyperv_desc: 适用于运行在微软 HyperV 上的虚拟机
+vmware_image: VMware 映像
+vmware_desc: 适用于运行在 VMware 内的虚拟机
+openstack_image: OpenStack 云
+openstack_desc: 适用于运行在 OpenStack 内的虚拟机
 installation_images: 安装
 ports_images: 移植
-live_images: 体验
+ports_info: "openSUSE 其他 PC 外的架构移植由单独的社区团队维护，资源有限。\n"
+jeos_images: JeOS
+live_images: Live
+gnome_cd: GNOME 体验 CD
+kde_cd: KDE 体验 CD
+xfce_cd: Xfce 体验 CD
 rescue_cd: 救援 LiveCD
+tumbleweed_live_info: "请注意体验映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed
+  media](/tumbleweed)\n* 它们的软件包和驱动选择都有限，因此不能认为它能够准确反映 Tumbleweed 在你的硬件上能否运行\n"
+microos_desc: 基于 openSUSE Tumbleweed 的系统，提供在只读 btrfs 根文件系统上的事务性（原子）更新
 choosing_media: 选择要下载的媒体
+choosing_media_p1: "通常推荐使用离线映像，因为它包含最多发行版中的可用软件包并且在安装\n过程中不需要网络连接。\n"
+choosing_media_p2: "推荐互联网连接带宽受限的用户使用网络映像，因为它只下载用户选择安装\n的软件包，大小可能远远小于 4.7GB。\n"
 documentation: 文档
 documentation_startup_guide: openSUSE 入门指南
 documentation_release_notes: 发行注记
-documentation_license: 许可证
+documentation_license: 授权许可
+documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: 完整文档
 leap_switch: 切换至 openSUSE Leap 的简单方法
+leap_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
+leap_switch_instructions: 在线升级说明。
 leap_switch_instructions_link: https://zh.opensuse.org/SDB:系统升级
-requirements: 建议的系统需求
-requirements_cpu: 2 Ghz 双核或更好的处理器
-requirements_mem: 2 GB 系统内存
+requirements: 系统需求
+requirements_cpu: 处理器
+requirements_mem: 内存
 requirements_hd: 超过 40 GB 的可用硬盘空间
-requirements_dvd: 用作安装介质的 DVD 驱动器或 USB 端口
-requirements_net: 互联网接入有所帮助，同时对于“网络安装”是必需的
+requirements_dvd: 用于安装媒介的 DVD 驱动器或 USB 端口
+requirements_net: 网络
 tw_switch: 切换至 openSUSE Tumbleweed 的简单方法
+tw_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
+tw_switch_instructions: 升级说明。
 tw_switch_instructions_link: https://zh.opensuse.org/openSUSE:升级_Tumbleweed
 upgrade_table_linux: 从更旧的版本或其他 Linux 发行版
 upgrade_table_windows: 从 Windows
 upgrade_table_mac: 从 OS X
 upgrade_table_linux_dvd: 如何在 Linux 上烧录 DVD。
-upgrade_table_linux_dvd_link: https://zh.opensuse.org/SDB:下载帮助#使用 Linux
+upgrade_table_linux_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8_Linux_2
 upgrade_table_windows_dvd: 如何在 WIndows 上烧录 DVD。
-upgrade_table_windows_dvd_link: https://zh.opensuse.org/SDB:下载帮助#使用微软视窗
+upgrade_table_windows_dvd_link: 
+  https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E5.BE.AE.E8.BD.AF.E8.A7.86.E7.AA.97_2
 upgrade_table_mac_dvd: 如何在 OS X 上烧录 DVD。
-upgrade_table_mac_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E8.8B.B9.E6.9E.9C_MacOS_X.EF.BC.8810.3_.E5.8F.8A.E4.BB.A5.E4.B8.8A.EF.BC.89
+upgrade_table_mac_dvd_link: 
+  https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E8.8B.B9.E6.9E.9C_MacOS_X.EF.BC.8810.3_.E5.8F.8A.E4.BB.A5.E4.B8.8A.EF.BC.89
 upgrade_table_linux_usb: 如何在 Linux 上创建可启动的 U 盘。
 upgrade_table_linux_usb_link: https://zh.opensuse.org/SDB:Live_USB_U盘安装
 upgrade_table_windows_usb: 如何在 Windows 上创建可启动的 U 盘。
 upgrade_table_windows_usb_link: https://zh.opensuse.org/SDB:使用_Windows_创建一个_Live_U_盘
 upgrade_table__mac_usb: 如何在 OS X 上创建可启动的 U 盘。
 upgrade_table__mac_usb_link: https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建一个_Live_U_盘
-verify_download: 请在使用前验证您下载的文件
+verify_download: 请在使用前验证你下载的文件
+verify_download_p1: "许多程序都可以验证下载文件的校验码。验证你下载的文件挺重要的，\n因为它可以验证你是否真的撷取到了你想要下载的 ISO 文件而不是\n\
+  一些损坏的版本。\n"
+verify_download_p2: "针对每个 ISO，我们都提供了一个带有相应 SHA256 和的校验码文件。\n"
+verify_download_p3: "为了更高的安全性，你可以使用 sha256sum 验证谁签发了这些 .sha256 文件。 \n"
+verify_download_pubkey: 它应为
+verify_download_help: 更多验证下载的帮助请参阅
 verify_download_checksums_help: 校验码帮助
-verify_download_checksums_help_link: https://zh.opensuse.org/SDB:下载帮助#校验哈希值
+verify_download_checksums_help_link: https://zh.opensuse.org/SDB:下载帮助#.E6.A0.A1.E9.AA.8C.E5.93.88.E5.B8.8C.E5.80.BC
+desktops: 各式桌面，首推其三
+desktops_p1: "openSUSE 的贡献流程允许每个人参与进桌面开发，所以你可以在安装程序中\n挑选你最喜欢的桌面环境。我们在安装程序中摆上了三个主要的桌面环境，\n\
+  并在展开的软件视图中提供更多选择。\n"
+installation: 安装方式，随心所欲
+installation_p1: "openSUSE 安装过程为你提供了所有可能需要的选项。想用鼠标和键盘安装\n你的系统？以图形模式加载安装程序吧。手边没有鼠标？启用终端模式来\n\
+  完成安装。无法接触到机器？远程连接到安装程序并继续安装。就是这么\n简单。\n"
+points_transparent: 全部透明
+points_transparent_p1: "从开始到完成，每一个进入发行版的软件包都公开它的源码和构建脚本，\n所有人都可以查看。对源码有疑虑吗？只需要到构建服务上检查即可。\n"
+points_free: 自由软件？你的选择
+points_free_p1: "发行版里的软件包分在自由和非自由仓库。如果不想使用非自由软件，\n你可以轻松地禁用掉非自由仓库。选择由你。\n"
+points_welcoming: 欢迎贡献
+points_welcoming_p1: "我们会尽力取悦社区，只有社区尽情表达需求，我们才能继续这一项目。\n这就是为什么我们要确保贡献尽可能的容易。\n"
+snapper: 系统损坏？不再难解
+snapper_p1: "文件系统快照功能通过在安装软件和更新时自动执行连续备份，确保文件\n系统可控。只需从之前的快照引导，几分钟内就可以使系统进入工作状态。\n"
+software: 软件获取，简单便捷
+software_p1: "对于我们每一个人，访问各种网站来获取全部需要的软件都是件很\n麻烦的工作。而有了在线软件中心，能够将众多来源的软件整合到\n一块，事情就变得容易多了。\n"
+software_get: 获取软件
+transactional: 事务性服务器
+transactional_p1: "安装程序现在支持新的系统角色——事务性服务器，这是 openSUSE Kubic\n努力的结果。这个系统角色搭载新的更新系统，（当作单个操作）原子化\n
+  地应用更新，并使其在需要时易于还原。这些功能基于所有其他 SUSE 和\nopenSUSE 发行版都依赖的软件包管理工具。这表示 openSUSE 发行版的其\n
+  他系统角色上的绝大多数 RPM 软件包，都能在事务性服务器上工作。\n"
+yast: YaST，~~超级~~用户的最佳选择
+yast_p1: "最棒的系统配置工具之一，可以帮助作为用户的你，设置系统的方方面面。\n你不用再执行过多的配置脚本或者输入可疑的命令，来设置系统成为你需\n要的样子。\n"
+yast_firewall: 防火墙
+yast_fonts: 字体
+yast_hardware: 硬件
+yast_partitioner: 磁盘分区
+yast_printer: 打印机
+yast_scanner: 扫描仪
+yast_sound: 声音
 yast_software: 软件
+zypper: Zypper，你的包管理器新宠
+zypper_p1: "它快速且易学。提供 zypper-apt，用于 apt 和 apt-get 命令的兼容层。\n基于 libsolv，同时保证依赖关系解决的速度和可重复性。\n\
+  接口清晰，颜色适当，便于阅读。这么完美，还能用什么形容？\n"
+index: openSUSE 发行版
+index_p1: 适用于桌机、服务器和介于两者之间的所有设备
 index_desktop: 桌面
+index_desktop_p1: 选择桌面使用的发行版
+index_server: 服务器
+index_server_p1: 选择服务器使用的发行版
+index_full: 或者直接进入发行版的下载页
+desktop: openSUSE 桌面发行版
+desktop_p1: "双发行版，满足一切（绿起来！）\n"
+desktop_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
+desktop_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
+desktop_leap_p1: 适用于系统管理员、企业开发者和“普通”桌面用户
+desktop_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
+server: openSUSE 服务器发行版
+server_p1: "四种发行版，舒适且平常\n"
+server_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
+server_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
+server_leap_p1: 适用于系统管理员、企业开发者和“常规”服务器用户
+server_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
+server_microos_p1: 适用于单用途服务器应用程序
+server_microos_p2: 设计为通过自动管理和修补来托管容器工作负载
+new_version_available: $distro_name 已经可以下载
+new_version_testing: $distro_name 已经可以下载和测试
+view_distro: 查看 $distro_name
+x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（x86_64）
+i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
+aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
+ppc64le: PowerPC 服务器，小端（ppc64le）
+s390x: IBM zSystems 和 LinuxONE（s390x）
+Tumbleweed_features:
+  plant:
+    description: "Tumbleweed 的建立，基于不想破坏自己工作流程的高级用户、开发者、系统管理员和苛刻的执行者数十年的使用、测试和调试。Tumbleweed
+      的稳定性体现在众多核心软件包，其 DNA 源自久负盛名的 SUSE Linux Enterprise Server。\n"
+    name: 基础稳固
+  shield:
+    description: "构建自最新的内核版本，编译进最新的幽灵/熔断（Spectre / Meltdown）环境补丁，默认启用防火墙和强力的安全策略，你的安全性开箱即有。\n"
+    name: 安全性
+  key:
+    description: "如果发生任何不想要的情况，你可以随时向之前的状态回滚，找到更新前的文件和程序。\n"
+    name: 安全
+  cpu:
+    description: "由于 Tumblweed 的前沿更新和彻底测试的性质，它可以像少数几个其他 Linux 发行版一样服务你的硬件和设备，使它能完美安装进工作站、笔记本和类上网本。\n"
+    name: 与你的硬件良好适配
+  user:
+    description: "一条命令就可以更新数以千计的软件包，回滚到上周的快照，用回更新的快照，甚至预览接下来的版本。\n"
+    name: 易于使用
+  home:
+    description: "更新以工业级的质量标准进行彻底测试，使用其他 Linux 发行版都羡慕的构建系统。不只每个软件包的新版本都被单独测试，而且不同的版本集合也会相对彼此测试，以确保你的系统内部能够一致。\n"
+    name: 稳定
+  power:
+    description: "采用 openSUSE 特色的技术，比如 `Btrfs` 文件系统、`snapper` 命令行工具以及久经历练的 `YaST`“控制面板”，Tumbleweed
+      赋予你控制系统的完整能力，让你能够定制你想要的设置并完成它。你不用再担心系统会干扰你的工作流程。\n"
+    name: 功能强大
+  knife:
+    description: "你获取的很多更新不仅能解决漏洞或改善缺陷，也包含了最新的功能和开发成果，比如新内核、新驱动和最近的桌面环境版本。\n"
+    name: 领先
+  update:
+    description: "一次安装，永久享受。你不用再担心每 6 个月进行一次大规模系统升级，然后可能把系统搞坏。\n"
+    name: 持续更新
+  gamepad:
+    description: Tumbleweed 为用户提供最新的游戏相关软件。随着 Linux 对游戏的支持程度迅速提升，这将是在你喜爱的游戏中获得流畅、高性能且无问题体验的重要一环。
+    name: 游戏
+MicroOS_features:
+  tool:
+    description: "### 调试工具箱容器\n* 启动特权容器\n* 根文件系统位于 `/media/root` 目录下\n* zypper 安装所需工具无需重启\n
+      * 使用时不用暂停容器\n"
+    name: 调试功能
+  update:
+    description: "###  事务性更新\n\n#### 独特\n通过 Btrfs 和快照，MicroOS 可以非常高效的方式存储文件系统的历史。\n
+      所有在 `/etc` 中的配置文件都包含在快照和回滚内。\n\n#### 灵活\n* 无需新的包格式，使用标准的 openSUSE RPM 包\n* 无空间大小限制，不论分区或操作系统\n
+      * 易于提升\n"
+    name: 原子更新
+  work:
+    description: "应用程序将安装在容器内，而不是根文件系统：\n* 与核心文件系统隔离\n* 降低恶意程序危害系统的能力\n* 安装新容器无需重启\n
+      * 可以原子方式更新（新建容器后再结束旧容器）\n* 易于回滚\n"
+    name: 工作负载
+  key:
+    description: "* 通过 HTTPS 获取更新\n* 软件包和仓库由我们的构建系统签名\n* 软件包已验证\n* 依赖冲突时不进行更新\n* 不浪费空间：更新不成功时将删掉文件系统快照\n"
+    name: 安全更新
+  shield:
+    description: "### MicroOS 是个不可变的操作系统，可轻松回滚\n* 不可变：磁盘上不会有更改\n* 可重启到旧的 BTRFS 快照来回滚\n"
+    name: 回滚
+  idea:
+    description: "### 可预测\n* 运行期间不会更改\n* 每次启动运行的项目都将一致\n\n### 可扩展\n* 运行期间无需费力配置每个实例\n
+      * 可以轻松地重复部署并可预测效果\n\n### 可靠\n* 可从错误更新中自动恢复\n"
+    name: 哲学
+alternative_downloads_desc: 我们也提供 $options 映像。请查看 $alternative_downloads！
+alternative_downloads: 其他下载
+download: 下载
+overview: 概览
+armv7l: UEFI Arm 32 位服务器、桌机、笔记本和单板机（armv7l）
+requirements_net_mac: 每个节点需要具有唯一的注记名和 MAC 地址
+requirements_net_conn: 集群中的所有机器之间需要完整的连接功能
+requirements_net_desc: 互联网接入有所帮助，同时对于网络安装是必需的
+requirements_dvd_desc: 安装媒介所需的 DVD 光驱或 USB 端口
+requirements_hdd_ssd_info: 高写入速率的固态硬盘
+requirements_hdd_swap_info: 禁用交换空间以让 kubernetes 正常工作
+requirements_hdd_size_desc: $value 可用的磁盘空间
+requirements_hdd_root: / 根分区
+requirements_hdd_var: /var 分区
+requirements_hdd_desc: 至少 40GB 可用的硬盘空间
+requirements_hdd: 存储
+requirements_mem_desc: $value 物理内存 + 依负载决定的额外内存
+requirements_cpu_desc: 2 Ghz 双核处理器或更好
+requirements_rec: 推荐
+requirements_min: 最低
+hardware_images: 硬件
+cloud_images: 云端
+vm_images: 虚拟机
+virtualbox_image: VirtualBox
+openstack_ch_image: OpenStack 云容器主机
+pine_ch_image: Pine64 容器主机
+pine_image: Pine64
+rpi_ch_image: 树莓派容器主机
+rpi_image: 树莓派
+vagrant_ch_image: Vagrant 容器主机
+vagrant_image: Vagrant
+vmware_vmx_ch_image: VMware VMX 容器主机
+vmware_vmx_image: VMware VMX
+vmware_ch_image: VMware 容器主机
+hyperv_ch_image: MS HyperV 容器主机
+kvm_ch_image: KVM 和 XEN 容器主机
+iso_image: ISO 映像
+jeos_info: 最小化虚拟机映像。对于 Arm JeOS 映像，请转到 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  维基页面</a>
+selfinstall_image: 自安装映像
+selfinstall_rt_image: 自安装的实时映像
+preconfigured_image: 预配置映像 （原始）
+preconfigured_rt_image: 预配置的实时映像（原始）
+live_info: "请注意体验映像的以下限制：\n* 它们不应用于安装或升级。请改用安装媒体\n* 它们可选的软件包和驱动有限，所以不能准确反映该发行版能否在你的硬件上正常工作\n
+  * 内核和 initrd 不能更新，所以它们不应作为永久安装使用\n"
+selfinstalling_images: 自安装映像
+selfinstalling_ch_image: 自安装容器主机
+selfinstalling_k3s_image: 自安装 k3s 主机
+ppc64: PowerPC 服务器，大端（ppc64）
+offline_updated_image: 已更新的离线映像
+offline_updated_desc: "包含最新更新的离线安装映像。\n适合安装或升级。\n"
+choosing_media_micro_p1: "推荐所有不需要自定义分区且能从 USB 启动电脑的用户使用新的自安装映像。\n简易的自安装向导将会把预配置的映像转储到驱动器，然后将分区扩大到整个磁盘的大小。\n
+  <br>\n使用 Raspberry Pi 和其他类似无 USB 启动支持设备的用户可直接将预配置映像写入 SD 卡。\n寻求对部署过程有更多控制的用户，建议使用
+  <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion 模块</a>。\n
+  <br>\n基于 Combustion 模块进行部署的演示可见<a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >此处</a>。\n<br>\n对于未使用 Combustion 模块进行系统配置的用户，启动时 jeos-firstboot 向导将会显示。\n"
+choosing_media_micro_p2: "需要自定义分区的用户应使用离线 ISO 映像。\n"
+minimal_vm_images: 最小化虚拟机
+preconfigured_qcow_image: 预配置映像 （qcow）
+kvm_sdboot_image: 配备 systemd-boot 的 KVM 映像
+minimal_vm_info: 此映像与 SUSE Linux Enterprise Server 的最小化虚拟机映像类似。 对于 Arm JeOS 映像，请转到
+  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 维基页面</a>
+server_aarch64: UEFI Arm 64 位服务器与开发板（aarch64）
+server_x86_64: Intel 或 AMD 64 位服务器（x86_64）
+cloud_image: 云端映像
+cloud_minimal_desc: 适用于云服务器初始化的最小 KVM 和 Xen 映像
+server_leapmicro_p1: 适用于边缘计算、嵌入式、物联网和其他部署环境
+server_leapmicro_p2: 专为容器化和虚拟化工作负载构建的极度可靠、轻量级的操作系统。
