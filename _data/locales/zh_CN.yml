@@ -1,6 +1,6 @@
 site_title: 获取 openSUSE
 site_title_short: 获取
-site_description: 免费了解和下载 openSUSE 发行版
+site_description: 了解并免费下载 openSUSE 发行版
 site_copyright: © 2023 openSUSE 贡献者
 absolute_link: 绝对链接
 relative_link: 相对链接
@@ -35,9 +35,9 @@ ports_images: 移植
 ports_info: "openSUSE 其他 PC 外的架构移植由单独的社区团队维护，资源有限。\n"
 jeos_images: JeOS
 live_images: Live
-gnome_cd: GNOME 体验 CD
-kde_cd: KDE 体验 CD
-xfce_cd: Xfce 体验 CD
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
 rescue_cd: 救援 LiveCD
 tumbleweed_live_info: "请注意体验映像有下列限制：\n* 不应该使用它们来安装或者升级 Tumbleweed。请改用 [Tumbleweed
   media](/tumbleweed)\n* 它们的软件包和驱动选择都有限，因此不能认为它能够准确反映 Tumbleweed 在你的硬件上能否运行\n"
@@ -52,7 +52,7 @@ documentation_license: 授权许可
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: 完整文档
 leap_switch: 切换至 openSUSE Leap 的简单方法
-leap_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
+leap_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者输入少量命令进行“在线升级”。\n"
 leap_switch_instructions: 在线升级说明。
 leap_switch_instructions_link: https://zh.opensuse.org/SDB:系统升级
 requirements: 系统需求
@@ -62,7 +62,7 @@ requirements_hd: 超过 40 GB 的可用硬盘空间
 requirements_dvd: 用于安装媒介的 DVD 驱动器或 USB 端口
 requirements_net: 网络
 tw_switch: 切换至 openSUSE Tumbleweed 的简单方法
-tw_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者以一些命令来执行“在线升级”。\n"
+tw_switch_p1: "若你已经在运行 openSUSE，你可以启动 DVD/USB 从菜单中选择升级，\n或者输入少量命令进行“在线升级”。\n"
 tw_switch_instructions: 升级说明。
 tw_switch_instructions_link: https://zh.opensuse.org/openSUSE:升级_Tumbleweed
 upgrade_table_linux: 从更旧的版本或其他 Linux 发行版
@@ -70,7 +70,7 @@ upgrade_table_windows: 从 Windows
 upgrade_table_mac: 从 OS X
 upgrade_table_linux_dvd: 如何在 Linux 上烧录 DVD。
 upgrade_table_linux_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8_Linux_2
-upgrade_table_windows_dvd: 如何在 WIndows 上烧录 DVD。
+upgrade_table_windows_dvd: 如何在 Windows 上烧录 DVD。
 upgrade_table_windows_dvd_link: 
   https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E5.BE.AE.E8.BD.AF.E8.A7.86.E7.AA.97_2
 upgrade_table_mac_dvd: 如何在 OS X 上烧录 DVD。
@@ -83,8 +83,8 @@ upgrade_table_windows_usb_link: https://zh.opensuse.org/SDB:使用_Windows_创�
 upgrade_table__mac_usb: 如何在 OS X 上创建可启动的 U 盘。
 upgrade_table__mac_usb_link: https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建一个_Live_U_盘
 verify_download: 请在使用前验证你下载的文件
-verify_download_p1: "许多程序都可以验证下载文件的校验码。验证你下载的文件挺重要的，\n因为它可以验证你是否真的撷取到了你想要下载的 ISO 文件而不是\n\
-  一些损坏的版本。\n"
+verify_download_p1: "许多程序都可以验证已下载文件的校验码。验证你下载的文件比较重要，\n因为它可以验证你是否真的获取到了你想要下载的 ISO
+  文件而不是\n一些损坏的版本。\n"
 verify_download_p2: "针对每个 ISO，我们都提供了一个带有相应 SHA256 和的校验码文件。\n"
 verify_download_p3: "为了更高的安全性，你可以使用 sha256sum 验证谁签发了这些 .sha256 文件。 \n"
 verify_download_pubkey: 它应为
@@ -126,32 +126,32 @@ zypper: Zypper，你的包管理器新宠
 zypper_p1: "它快速且易学。提供 zypper-apt，用于 apt 和 apt-get 命令的兼容层。\n基于 libsolv，同时保证依赖关系解决的速度和可重复性。\n\
   接口清晰，颜色适当，便于阅读。这么完美，还能用什么形容？\n"
 index: openSUSE 发行版
-index_p1: 适用于桌机、服务器和介于两者之间的所有设备
-index_desktop: 桌面
-index_desktop_p1: 选择桌面使用的发行版
+index_p1: 适用于桌面设备、服务器和介于二者之间的其他设备
+index_desktop: 桌面设备
+index_desktop_p1: 选择桌面设备使用的发行版
 index_server: 服务器
 index_server_p1: 选择服务器使用的发行版
 index_full: 或者直接进入发行版的下载页
-desktop: openSUSE 桌面发行版
+desktop: openSUSE 桌面设备发行版
 desktop_p1: "双发行版，满足一切（绿起来！）\n"
 desktop_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
-desktop_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
+desktop_tumbleweed_p2: 采用滚动发布模式，拥有 openSUSE 项目提供的最新的软件包。
 desktop_leap_p1: 适用于系统管理员、企业开发者和“普通”桌面用户
-desktop_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
+desktop_leap_p2: 采用定期发布模式，同时从企业级工程和社区开发创新中受益。
 server: openSUSE 服务器发行版
 server_p1: "四种发行版，舒适且平常\n"
 server_tumbleweed_p1: 适用于开发者、openSUSE 贡献者、游戏玩家和 Linux/FOSS 发烧友
-server_tumbleweed_p2: 滚动发行版拥有 openSUSE 项目提供的最新的软件包。
-server_leap_p1: 适用于系统管理员、企业开发者和“常规”服务器用户
-server_leap_p2: 常规发行版同时享有企业级工程和社区开发创新两者的福利。
+server_tumbleweed_p2: 采用滚动发布模式，拥有 openSUSE 项目提供的最新的软件包。
+server_leap_p1: 适用于系统管理员、企业开发者和“普通”服务器用户
+server_leap_p2: 采用定期发布模式，同时从企业级工程和社区开发创新中受益。
 server_microos_p1: 适用于单用途服务器应用程序
-server_microos_p2: 设计为通过自动管理和修补来托管容器工作负载
+server_microos_p2: 为通过自动化管理和修补来托管容器工作负载而设计
 new_version_available: $distro_name 已经可以下载
 new_version_testing: $distro_name 已经可以下载和测试
 view_distro: 查看 $distro_name
-x86_64: Intel 和 AMD 64 位桌机、笔记本和服务器（x86_64）
-i686: Intel 和 AMD 32 位桌机、笔记本和服务器（i686）
-aarch64: UEFI Arm 64 位服务器、桌机、笔记本和单板机（aarch64）
+x86_64: Intel 和 AMD 64 位桌面设备、笔记本和服务器（x86_64）
+i686: Intel 和 AMD 32 位桌面设备、笔记本和服务器（i686）
+aarch64: UEFI Arm 64 位服务器、桌面设备、笔记本和单片机（aarch64）
 ppc64le: PowerPC 服务器，小端（ppc64le）
 s390x: IBM zSystems 和 LinuxONE（s390x）
 Tumbleweed_features:
@@ -215,8 +215,8 @@ alternative_downloads_desc: 我们也提供 $options 映像。请查看 $alterna
 alternative_downloads: 其他下载
 download: 下载
 overview: 概览
-armv7l: UEFI Arm 32 位服务器、桌机、笔记本和单板机（armv7l）
-requirements_net_mac: 每个节点需要具有唯一的注记名和 MAC 地址
+armv7l: UEFI Arm 32 位服务器、桌面设备、笔记本和单片机（armv7l）
+requirements_net_mac: 每个节点需要具有唯一的主机名和 MAC 地址
 requirements_net_conn: 集群中的所有机器之间需要完整的连接功能
 requirements_net_desc: 互联网接入有所帮助，同时对于网络安装是必需的
 requirements_dvd_desc: 安装媒介所需的 DVD 光驱或 USB 端口
@@ -254,18 +254,18 @@ selfinstall_image: 自安装映像
 selfinstall_rt_image: 自安装的实时映像
 preconfigured_image: 预配置映像 （原始）
 preconfigured_rt_image: 预配置的实时映像（原始）
-live_info: "请注意体验映像的以下限制：\n* 它们不应用于安装或升级。请改用安装媒体\n* 它们可选的软件包和驱动有限，所以不能准确反映该发行版能否在你的硬件上正常工作\n
+live_info: "请注意 Live 映像的以下限制：\n* 它们不应用于安装或升级。请改用安装媒体\n* 它们所含的软件包和驱动有限，因而不能准确反映该发行版能否在你的硬件上正常工作\n
   * 内核和 initrd 不能更新，所以它们不应作为永久安装使用\n"
 selfinstalling_images: 自安装映像
 selfinstalling_ch_image: 自安装容器主机
 selfinstalling_k3s_image: 自安装 k3s 主机
 ppc64: PowerPC 服务器，大端（ppc64）
 offline_updated_image: 已更新的离线映像
-offline_updated_desc: "包含最新更新的离线安装映像。\n适合安装或升级。\n"
+offline_updated_desc: "包含最新更新的离线安装映像。\n适用于安装或升级。\n"
 choosing_media_micro_p1: "推荐所有不需要自定义分区且能从 USB 启动电脑的用户使用新的自安装映像。\n简易的自安装向导将会把预配置的映像转储到驱动器，然后将分区扩大到整个磁盘的大小。\n
-  <br>\n使用 Raspberry Pi 和其他类似无 USB 启动支持设备的用户可直接将预配置映像写入 SD 卡。\n寻求对部署过程有更多控制的用户，建议使用
-  <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion 模块</a>。\n
-  <br>\n基于 Combustion 模块进行部署的演示可见<a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  <br>\n使用树莓派和其他类似无 USB 启动支持设备的用户可直接将预配置映像写入 SD 卡。\n寻求对部署过程有更多控制的用户，建议使用 <a href=\"\
+  https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion 模块</a>。\n <br>\n
+  基于 Combustion 模块进行部署的演示可见<a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
   >此处</a>。\n<br>\n对于未使用 Combustion 模块进行系统配置的用户，启动时 jeos-firstboot 向导将会显示。\n"
 choosing_media_micro_p2: "需要自定义分区的用户应使用离线 ISO 映像。\n"
 minimal_vm_images: 最小化虚拟机
@@ -273,7 +273,7 @@ preconfigured_qcow_image: 预配置映像 （qcow）
 kvm_sdboot_image: 配备 systemd-boot 的 KVM 映像
 minimal_vm_info: 此映像与 SUSE Linux Enterprise Server 的最小化虚拟机映像类似。 对于 Arm JeOS 映像，请转到
   <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 维基页面</a>
-server_aarch64: UEFI Arm 64 位服务器与开发板（aarch64）
+server_aarch64: UEFI Arm 64 位服务器与单片机（aarch64）
 server_x86_64: Intel 或 AMD 64 位服务器（x86_64）
 cloud_image: 云端映像
 cloud_minimal_desc: 适用于云服务器初始化的最小 KVM 和 Xen 映像
