@@ -185,7 +185,7 @@ Tumbleweed_features:
     description: "一次安装，永久享受。你不用再担心每 6 个月进行一次大规模系统升级，然后可能把系统搞坏。\n"
     name: 持续更新
   gamepad:
-    description: Tumbleweed 为用户提供最新的游戏相关软件。随着 Linux 对游戏的支持程度迅速提升，这将是在你喜爱的游戏中获得流畅、高性能且无问题体验的重要一环。
+    description: "Tumbleweed 为用户提供最新的游戏相关软件。随着 Linux 对游戏的支持程度迅速提升，这将是在你喜爱的游戏中获得流畅、高性能且无问题体验的重要一环。\n"
     name: 游戏
 MicroOS_features:
   tool:
@@ -279,3 +279,27 @@ cloud_image: 云端映像
 cloud_minimal_desc: 适用于云服务器初始化的最小 KVM 和 Xen 映像
 server_leapmicro_p1: 适用于边缘计算、嵌入式、物联网和其他部署环境
 server_leapmicro_p2: 专为容器化和虚拟化工作负载构建的极度可靠、轻量级的操作系统。
+leap_ovw_title: 以全新方式构建的 openSUSE ，同时也是新型的混合 Linux 发行版
+tumbleweed_ovw_title: 最为先进的桌面设备与服务器操作系统
+tumbleweed_ovw_desc: 使用 Tumbleweed，您不必在看重的事物上做出艰难抉择，无论自由与安全性，还是受控与保密性，抑或技术与稳定性 ——
+  Tumbleweed 让您鱼与熊掌兼得！
+leap_micro_ovw_title: Leap Micro 是一款极度可靠、轻量的操作系统，专为容器化与虚拟化工作负载构建。
+leap_micro_ovw_video_desc: 带 Combustion 和 Cockpit 的 Leap Micro 简短安装示例。
+microos_ovw_title: 在只读 Btrfs 根文件系统上提供事务性（原子）更新的微型服务操作系统
+leap_ovw_desc: Leap 使用 SUSE Linux Enterprise （SLE）的源码构建，这也让 Leap 获得了其他 Linux 发行版无可比拟的稳定性，结合社区开发，为用户、开发者和系统管理员提供最佳稳定的
+  Linux 体验。
+leap_micro_ovw_desc_p1: 这一社区版本基于 SUSE Linux Enterprise Micro，因而利用了 SUSE Linux Enterprise
+  的企业级强化安全与合规组件。这一技术融合提供了一个现代、不可变且开发者友好的操作系统平台。
+microos_ovw_desc_p2: MicroOS 提供离线映像。离线映像与自安装映像/原始映像的主要区别在于前者具有安装程序。后两者则允许通过 Combustion
+  模块自定义安装，或将映像写入磁盘后手动修改细节。还具备实时内核选项。
+leap_micro_ovw_desc_p2: Leap Micro 提供离线映像。离线映像与自安装映像/原始映像的主要区别在于前者具有安装程序。后两者则允许通过
+  Combustion 模块自定义安装，或将映像写入磁盘后手动修改细节。还具备实时内核选项。
+microos_ovw_desc_p1: 专为托管容器工作负载而设计，具备自动管理与修补能力。安装 openSUSE MicroOS ，您将得到一个快速、小型的系统环境，用于部署容器或其他受益于事务性更新的工作负载。作为滚动发布的发行版，它的软件始终保持最新。
+leap_micro_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  或 KVM 上运行的虚拟机中试用 Leap Micro。 树莓派或其他片上系统的用户也可以使用预配置映像与 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  功能来进行启动。 预配置映像和自安装映像均旨在与写入 USB 的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  功能一同使用，其允许在任何首次启动的情景中进行配置，同时可选使用默认密码保护更改。
+microos_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  或 KVM 上运行的虚拟机中试用 MicroOS。 树莓派或其他片上系统的用户也可以使用预配置映像与 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  功能来进行启动。 预配置映像和自安装映像均旨在与写入 USB 的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  功能一同使用，其允许在任何首次启动的情景中进行配置，同时可选使用默认密码保护更改。
