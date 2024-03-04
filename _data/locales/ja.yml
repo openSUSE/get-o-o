@@ -211,7 +211,7 @@ Tumbleweed_features:
     name: 最新バージョンの維持
   gamepad:
     name: ゲーミング
-    description: Tumbleweed には最新のゲーム関連ソフトウエアも用意されています。 Linux でのゲームサポートが急速に改善されつつある状況からすると、お気に入りのゲームをスムーズかつ高速に問題なく動作できる、というのは重要な要素となることでしょう。
+    description: "Tumbleweed には最新のゲーム関連ソフトウエアも用意されています。 Linux でのゲームサポートが急速に改善されつつある状況からすると、お気に入りのゲームをスムーズかつ高速に問題なく動作できる、というのは重要な要素となることでしょう。\n"
 MicroOS_features:
   tool:
     description: "### デバッグツールボックスコンテナ\n* 特権コンテナを起動します\n* ルートファイルシステムは `/media/root`
@@ -313,3 +313,31 @@ preconfigured_qcow_image: 事前構築済みイメージ (qcow 形式)
 server_leapmicro_p1: エッジ, 組み込み, IoT などの環境向け
 server_leapmicro_p2: 非常に信頼性が高く、コンテナ／仮想環境向けに構築された軽量型オペレーティングシステムです。
 kvm_sdboot_image: systemd-boot を利用する KVM イメージ
+tumbleweed_ovw_title: 最先端のデスクトップおよびサーバ向けオペレーティングシステム
+leap_micro_ovw_video_desc: Combustion と Cockpit を利用する Leap Micro の短いインストールデモです。
+leap_micro_ovw_title: Leap Micro は非常に信頼性の高い軽量型オペレーティングシステムで、主にコンテナ化や仮想化の環境で有用です。
+microos_ovw_title: Micro Service OS は、読み込み専用の btrfs ファイルシステムを利用してトランザクション型の (アトミックな)
+  更新を行います
+leap_ovw_title: 新たにハイブリッド型の Linux ディストリビューションとなった openSUSE とその全く新しい構築手法
+leap_ovw_desc: Leap では SUSE Linux Enterprise (SLE) 
+  との間でソースコードを共有しているため、ユーザや開発者、そしてシステム管理者に対して、他のディストリビューションでは見られないような安定性と、コミュニティによる先進性の両方を兼ね備えています。
+tumbleweed_ovw_desc: Tumbleweed を利用することで、お使いの環境を構成するのに難しい選択は不要となります。自由と安全性、制御性とセキュリティ、先進性と安定性など、
+  Tumbleweed では両方を実現することができます！
+leap_micro_ovw_desc_p1: このコミュニティ版は SUSE Linux Enterprise Micro をベースにしていて、 SUSE Linux
+  Enterprise におけるエンタープライズ向けの強化されたセキュリティと標準準拠レベルの両方を達成しています。このような技術の統合により、モダンで不可変、そして開発者にも優しい
+  OS プラットフォームになっています。
+leap_micro_ovw_desc_p2: Leap Micro 
+  ではオフラインイメージや事前構築済みイメージも提供しています。オフラインイメージにはインストーラ本体が含まれているほか、事前構築済みイメージにはディスクに対して直接書き込んで使用し、
+  Combustion もしくは手作業で後からカスタマイズするためのイメージが用意されています。このほか、リアルタイムカーネルを含む版も用意されています。
+microos_ovw_desc_p1: システムの管理や修正の適用を自動化するホストコンテナ向けに設計されています。 openSUSE MicroOS 
+  は、コンテナなどのトランザクション型更新の有用な環境に対して、素早く小さな環境を提供します。またローリングリリース型のディストリビューションであることから、常に最新版にもなります。
+microos_ovw_desc_p2: MicroOS ではオフラインイメージを提供しています。オフラインイメージにはインストーラ本体が含まれているほか、事前構築済みイメージにはディスクに対して直接書き込んで使用し、
+  Combustion もしくは手作業で後からカスタマイズするためのイメージが用意されています。このほか、リアルタイムカーネルを含む版も用意されています。
+leap_micro_ovw_desc_p3: 仮想マシン内で Leap Micro を動作させる場合は、 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、起動時に <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  機能を含む事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
+microos_ovw_desc_p3: 仮想マシン内で MicroOS を動作させる場合は、 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、起動時に <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  機能を含む事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
