@@ -340,9 +340,9 @@ Tumbleweed_features:
     name: Spoľahlivý
   gamepad:
     name: Hranie hier
-    description: Tumbleweed poskytuje používateľom najnovší softvér zameraný na hranie
+    description: "Tumbleweed poskytuje používateľom najnovší softvér zameraný na hranie
       hier. S rýchlo sa zlepšujúcou podporou Linuxu pre hranie hier je to dôležitý
-      aspekt pre plynulé, výkonné a bezproblémové hranie vašich obľúbených hier.
+      aspekt pre plynulé, výkonné a bezproblémové hranie vašich obľúbených hier.\n"
 jeos_info: Minimálne VM obrazy. Pre obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
   stránku Arm</a>
 preconfigured_image: Predkonfigurovaný obraz (raw)
@@ -386,3 +386,24 @@ server_leapmicro_p1: Pre hraničné, zabudované, IoT a iné nasadenia
 server_leapmicro_p2: Mimoriadne spoľahlivý, nenáročný operačný systém vytvorený pre
   kontajnerizované a virtualizované pracovné zaťaženia.
 kvm_sdboot_image: Obraz KVM so systemd-boot
+leap_ovw_title: Úplne nový spôsob zostavovania openSUSE a nový typ hybridnej distribúcie
+  Linuxu
+leap_ovw_desc: Leap využíva zdrojový kód SUSE Linux Enterprise (SLE), ktorý poskytuje
+  systému Leap úroveň stability neporovnateľnú s inými distribúciami Linuxu, a kombinuje
+  ju s komunitnými vývojmi, aby používateľom, vývojárom a systémovým administrátorom
+  poskytol najlepšiu dostupnú skúsenosť so stabilným Linuxom.
+tumbleweed_ovw_title: Najmodernejší operačný systém pre stolové počítače a servery
+leap_micro_ovw_title: Leap Micro je mimoriadne spoľahlivý, nenáročný operačný systém
+  vytvorený pre kontajnerizované a virtualizované pracovné zaťaženia.
+leap_micro_ovw_desc_p2: Leap Micro ponúka offline obraz. Hlavný rozdiel medzi offline
+  a samoinštalačnými/surovými obrazmi je ten, že offline obraz má inštalátor. Surový
+  a samoinštalačný umožňuje prispôsobenie cez vypaľovanie alebo ručne v obraze po
+  jeho zapísaní na disk. K dispozícii je možnosť pre real-time jadro.
+tumbleweed_ovw_desc: So systémom Tumbleweed nemusíte robiť ťažké rozhodnutia o veciach,
+  ktoré si ceníte, či už ide o voľnosť alebo bezpečnosť, kontrolu alebo zabezpečenie,
+  technológiu alebo stabilitu --Tumbleweed vám umožňuje mať svoj koláč a zároveň ho
+  aj jesť!
+leap_micro_ovw_desc_p1: Táto komunitná verzia je založená na systéme SUSE Linux Enterprise
+  Micro, ktorý využíva podnikové posilnené komponenty zabezpečenia a zhody systému
+  SUSE Linux Enterprise. Toto zlúčenie technológií poskytuje modernú, nemennú a vývojársky
+  prívetivú platformu operačného systému.
