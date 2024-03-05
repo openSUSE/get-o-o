@@ -271,10 +271,10 @@ Tumbleweed_features:
     name: Actualitzat contínuament
   gamepad:
     name: Jocs
-    description: El Tumbleweed ofereix als usuaris el programari més recent relacionat
+    description: "El Tumbleweed ofereix als usuaris el programari més recent relacionat
       amb els jocs. Amb un suport de Linux per als jocs que millora ràpidament, aquest
       és un aspecte important per a una experiència fluida, eficient i sense problemes
-      amb els jocs preferits.
+      amb els jocs preferits.\n"
 MicroOS_features:
   tool:
     description: "### Contenidor d'eines de depuració\n* Llança un contenidor privilegiat.\n
@@ -400,3 +400,55 @@ server_leapmicro_p1: Per a desplegaments punters, encastats, IoT i altres
 server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a càrregues
   de treball virtualitzades i en contenidors.
 kvm_sdboot_image: Imatge de KVM amb arrencada de systemd
+leap_ovw_title: Una nova manera de construir l'openSUSE i un nou tipus de distribució
+  híbrida de Linux
+leap_ovw_desc: La versió Leap usa la font de SUSE Linux Enterprise (SLE), que li proporciona
+  al Leap un nivell d'estabilitat incomparable amb altres distribucions de Linux i
+  ho combina amb els desenvolupaments de la comunitat per oferir als usuaris, desenvolupadors
+  i administradors de sistemes la millor experiència estable de Linux disponible.
+tumbleweed_ovw_title: Sistema operatiu d'escriptori i servidor d'última generació
+tumbleweed_ovw_desc: "Amb la versió Tumbleweed no cal que prengueu decisions difícils
+  sobre les coses que valoreu, ja sigui la llibertat o la seguretat, el control o
+  la seguretat, la tecnologia o l'estabilitat: el Tumbleweed us permet tenir la dona
+  borratxa i el vi al celler!"
+leap_micro_ovw_desc_p2: El Leap Micro ofereix una imatge fora de línia. La principal
+  diferència entre les imatges fora de línia i les d'autoinstal·lació / en brut és
+  que la imatge fora de línia té un instal·lador. La instal·lació en brut i automàtica
+  permet la personalització mitjançant Combustió o manualment a la imatge després
+  d'escriure-la al disc. Hi ha una opció per a un nucli en temps real.
+leap_micro_ovw_video_desc: Una demostració d'instal·lació de Short Leap Micro amb
+  combustió i cabina.
+microos_ovw_title: Un Micro Service OS que proporciona actualitzacions transaccionals
+  (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
+microos_ovw_desc_p1: Dissenyat per allotjar càrregues de treball de contenidors amb
+  administració i pedaços automatitzats. En instal·lar l'openSUSE MicroSO, obtindreu
+  un entorn ràpid i petit per desplegar contenidors o qualsevol altra càrrega de treball
+  que es beneficiï de les actualitzacions transaccionals. Com a distribució contínua,
+  el programari està sempre actualitzat.
+microos_ovw_desc_p3: Proveu el MicroSO en màquines virtuals que s'executen amb <a
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o amb KVM. L'ús d'un
+  Raspberry Pi o un altre maquinari System on Chip pot fer servir la imatge preconfigurada
+  juntament amb la funcionalitat <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a>
+  per al procés d'arrencada . Tant les imatges preconfigurades com les autoinstal·lades
+  estan pensades per usar-se amb <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a>
+  escrites en un USB, que s'activa per permetre configuració en qualsevol primera
+  arrencada, amb l'opció de canvis protegits amb contrasenya per defecte.
+leap_micro_ovw_title: El Leap Micro és un sistema operatiu lleuger i ultrafiable creat
+  per a càrregues de treball virtualitzades i en contenidors.
+leap_micro_ovw_desc_p1: Aquesta versió de la comunitat es basa en SUSE Linux Enterprise
+  Micro, que aprofita els components de seguretat i compatibilitat empresarial reforçats
+  de SUSE Linux Enterprise. Aquesta fusió de tecnologies ofereix una plataforma de
+  SO moderna, immutable i fàcil de desenvolupar.
+leap_micro_ovw_desc_p3: Proveu el Leap Micro en màquines virtuals que s'executen amb
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. L'ús d'un Raspberry
+  Pi o un altre maquinari System on Chip pot fer servir la imatge preconfigurada juntament
+  amb la funcionalitat <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a>
+  per al procés d'arrencada . Tant les imatges preconfigurades com les autoinstal·lades
+  estan pensades per usar-se amb <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a>
+  escrites en un USB, que s'activa per permetre la configuració en qualsevol primera
+  arrencada, amb l'opció de canvis protegits amb contrasenya per defecte.
+microos_ovw_desc_p2: El MicroSO ofereix una imatge fora de línia. La principal diferència
+  entre les imatges fora de línia i les d'autoinstal·lació / en brut és que la imatge
+  fora de línia té un instal·lador. La instal·lació en brut i automàtica permet la
+  personalització mitjançant Combustió o manualment a la imatge després d'escriure-la
+  al disc. Hi ha una opció per a un nucli en temps real.
