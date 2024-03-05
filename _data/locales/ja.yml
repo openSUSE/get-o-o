@@ -287,9 +287,9 @@ selfinstall_rt_image: 自己インストール型のリアルタイム版イメ�
 live_info: "ライブイメージには下記のような制限があることに注意してください:\n* インストールやアップグレードには使用しないでください。インストールやアップグレードを行う場合は、インストールメディアをお使いください。\n
   * パッケージやドライバの同梱数が少ないので、インストールを行った場合と比べて性能や機能が制限されます。そのため、ハードウエアの対応可否の調査には不適切となることに留意してください。\n
   * カーネルと initrd の更新はできません。そのため、恒久的なインストールとして使用すべきではありません。\n"
-selfinstalling_ch_image: セルフインストール型コンテナホスト
-selfinstalling_images: セルフインストールイメージ
-selfinstalling_k3s_image: セルフインストール型 k3s ホスト
+selfinstalling_ch_image: 自己インストール型コンテナホスト
+selfinstalling_images: 自己インストールイメージ
+selfinstalling_k3s_image: 自己インストール型 k3s ホスト
 offline_updated_desc: "最新の更新が適用されているオフラインインストールイメージです。\nインストールやアップグレードにお使いいただけます。\n"
 offline_updated_image: 更新済みオフラインイメージ
 ppc64: PowerPC サーバ (ppc64, ビッグエンディアン)
@@ -301,12 +301,12 @@ server_aarch64: UEFI Arm 64 ビットサーバおよびシングルボード (aa
 server_x86_64: Intel または AMD の 64 ビットサーバ (x86_64)
 cloud_image: クラウドイメージ
 cloud_minimal_desc: cloud-init を含む KVM および Xen 対応最小限イメージ
-choosing_media_micro_p1: "新しいセルフインストール型のイメージは、独自のパーティション設定を必要としないほとんどのユーザに推奨され、USB
-  からも起動することができます。\nこの場合、シンプルなセルフインストールウイザードがドライブ内に、事前設定済みのイメージを展開したあと、ディスクサイズに合わせたパーティションのサイズ拡張が行われます。\n
+choosing_media_micro_p1: "新しい自己インストール型のイメージは、独自のパーティション設定を必要としないほとんどのユーザに推奨され、USB
+  からも起動することができます。\nこの場合、シンプルなインストールウイザードがドライブ内に事前設定済みのイメージを展開したあと、ディスクサイズに合わせてパーティションサイズの拡張を行います。\n
   <br>\nRaspberry Pi 等の機器をご利用で、 USB からの起動に対応していない場合は、 SD カード内に事前設定済みのイメージを直接書き込んで利用することもできます。\n
   インストールに対してより細かい制御を行いたい場合は、 <a href=\"https://ja.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a> をお使いになることをお勧めします。\n<br>\nCombustion ベースでのインストールのデモは <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
-  >こちら</a> (英語) で更改されています。\n<br>\nなお、 Combustion を利用してシステムをインストールしていない場合、システムの初回起動時に
+  >こちら</a> (英語) で公開されています。\n<br>\nなお、 Combustion を利用してシステムをインストールしていない場合、システムの初回起動時に
   jeos-firstboot が動作します。\n"
 choosing_media_micro_p2: "オフライン ISO イメージは、独自のパーティション設定を行いたい方向けの仕組みです。\n"
 preconfigured_qcow_image: 事前構築済みイメージ (qcow 形式)
