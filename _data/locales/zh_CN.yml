@@ -297,9 +297,9 @@ leap_micro_ovw_desc_p2: Leap Micro 提供离线映像。离线映像与自安装
 microos_ovw_desc_p1: 专为托管容器工作负载而设计，具备自动管理与修补能力。安装 openSUSE MicroOS ，您将得到一个快速、小型的系统环境，用于部署容器或其他受益于事务性更新的工作负载。作为滚动发布的发行版，它的软件始终保持最新。
 leap_micro_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   或 KVM 上运行的虚拟机中试用 Leap Micro。 树莓派或其他片上系统的用户也可以使用预配置映像与 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  功能来进行启动。 预配置映像和自安装映像均旨在与写入 USB 的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  功能一同使用，其允许在任何首次启动的情景中进行配置，同时可选使用默认密码保护更改。
+  功能来进行启动。 预配置映像和自安装映像均为与写入 USB 的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  功能一起使用，该功能允许在系统首次启动时执行自定义配置，同时提供默认密码保护更改的选项。
 microos_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   或 KVM 上运行的虚拟机中试用 MicroOS。 树莓派或其他片上系统的用户也可以使用预配置映像与 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  功能来进行启动。 预配置映像和自安装映像均旨在与写入 USB 的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  功能一同使用，其允许在任何首次启动的情景中进行配置，同时可选使用默认密码保护更改。
+  功能来进行启动。 预配置映像和自安装映像均为与写入 USB 的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  功能一起使用，该功能允许在系统首次启动时执行自定义配置，同时提供默认密码保护更改的选项。
