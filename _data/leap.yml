@@ -4,6 +4,8 @@
   releases:
   - date: '2023-08-18 12:00:00 UTC'
     state: 'Alpha'
+  - date: '2024-03-07 12:00:00 UTC'
+    state: 'Beta'
 - version: 15.5
   order: 8
   releases:
