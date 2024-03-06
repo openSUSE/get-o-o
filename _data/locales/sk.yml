@@ -397,7 +397,7 @@ leap_micro_ovw_title: Leap Micro je mimoriadne spoľahlivý, nenáročný opera�
   vytvorený pre kontajnerizované a virtualizované pracovné zaťaženia.
 leap_micro_ovw_desc_p2: Leap Micro ponúka offline obraz. Hlavný rozdiel medzi offline
   a samoinštalačnými/surovými obrazmi je ten, že offline obraz má inštalátor. Surový
-  a samoinštalačný umožňuje prispôsobenie cez vypaľovanie alebo ručne v obraze po
+  a samoinštalačný umožňuje prispôsobenie cez customization alebo ručne v obraze po
   jeho zapísaní na disk. K dispozícii je možnosť pre real-time jadro.
 tumbleweed_ovw_desc: So systémom Tumbleweed nemusíte robiť ťažké rozhodnutia o veciach,
   ktoré si ceníte, či už ide o voľnosť alebo bezpečnosť, kontrolu alebo zabezpečenie,
@@ -407,3 +407,29 @@ leap_micro_ovw_desc_p1: Táto komunitná verzia je založená na systéme SUSE L
   Micro, ktorý využíva podnikové posilnené komponenty zabezpečenia a zhody systému
   SUSE Linux Enterprise. Toto zlúčenie technológií poskytuje modernú, nemennú a vývojársky
   prívetivú platformu operačného systému.
+leap_micro_ovw_desc_p3: Vyskúšajte Leap Micro vo VM bežiacich buď na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  alebo KVM. Ak používate Raspberry Pi alebo iný System on Chip hardvér, môžete použiť
+  predkonfigurovaný obraz spolu s funkciou <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  pre štartovací proces. Predkonfigurované aj samoinštalovateľné obrazy sú určené
+  na použitie s  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  zapísaným
+  na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri akomkoľvek prvom spustení,
+  s možnosťou predvolených zmien chránených heslom.
+leap_micro_ovw_video_desc: Ukážka Short Leap Micro inštalácie s combustion a cockpit.
+microos_ovw_title: Micro Service OS poskytujúci transakčné ((atomické) aktualizácie
+  na koreňovom súborovom systéme btrfs určenom len na čítanie
+microos_ovw_desc_p1: Navrhnutý na hosťovanie kontajnerových pracovných záťaží s automatizovanou
+  administráciou a opravami. Inštaláciou openSUSE MicroOS získate rýchle, malé prostredie
+  na nasadenie kontajnerov alebo akéhokoľvek iného pracovného zaťaženia, ktoré využíva
+  výhody transakčných aktualizácií. Vzhľadom na distribúciu s rolujúcim vydaním je
+  softvér vždy aktuálny.
+microos_ovw_desc_p2: MicroOS ponúka offline obraz. Hlavný rozdiel medzi offline a
+  samoinštalačnými/surovými obrazmi je ten, že offline obraz má inštalátor. Surový
+  a samoinštalačný umožňuje prispôsobenie cez combustion alebo ručne v obraze po jeho
+  zapísaní na disk. K dispozícii je možnosť pre real-time jadro.
+microos_ovw_desc_p3: Vyskúšajte MicroOS vo VM bežiacich buď na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  alebo KVM. Ak používate Raspberry Pi alebo iný System on Chip hardvér, môžete použiť
+  predkonfigurovaný obraz spolu s funkciou <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  pre štartovací proces. Predkonfigurované aj samoinštalovateľné obrazy sú určené
+  na použitie s  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  zapísaným
+  na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri akomkoľvek prvom spustení,
+  s možnosťou predvolených zmien chránených heslom.
