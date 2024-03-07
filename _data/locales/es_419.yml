@@ -2,7 +2,7 @@ site_title: Obtener openSUSE
 site_title_short: Obtener
 site_description: Aprenda acerca de las distribuciones de openSUSE y descárguelas
   gratis
-site_copyright: © 2022 Colaboradores de openSUSE
+site_copyright: © 2023 Colaboradores de openSUSE
 search: Buscar
 translate: Traducir
 source_code: Código fuente
@@ -15,11 +15,11 @@ metalink: Enlace Metalink
 pick_mirror: Escoger el centro de descargas
 torrent_file: Archivo Torrent
 offline_image: Imagen sin conexión
-offline_desc: "Contiene una larga colección de software para uso de escritorio o servidores.\n\
+offline_desc: "Contiene una larga colección de software para uso de escritorio o servidores.\n
   Adecuado para instalaciones o actualizaciones del sistema.\n"
 network_image: Imagen de red
-network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde\
-  \ repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
+network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde
+  repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
 checksum: Suma de comprobación
 kvm_image: KVM y XEN
 kvm_desc: Para uso en los supervisores KVM o XEN HVM
@@ -32,37 +32,36 @@ vmware_desc: Para ejecutar máquinas virtuales en VMware
 openstack_desc: Para ejecutar máquinas virtuales en OpenStack
 installation_images: Instalación
 ports_images: Adaptaciones
-ports_info: "Las adaptaciones de openSUSE Leap hacia otras arquitecturas son mantenidas\
-  \ por comunidades separadas, con recursos limitados.\n"
+ports_info: "Las adaptaciones de openSUSE Leap hacia otras arquitecturas son mantenidas
+  por comunidades separadas, con recursos limitados.\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: LiveCD de GNOME
 kde_cd: LiveCD de KDE
 xfce_cd: LiveCD de Xfce
 rescue_cd: LiveCD de rescate
-tumbleweed_live_info: "Por favor, sea consciente de las siguientes limitaciones de\
-  \ las imágenes autoarrancables:\n* No deberían ser usadas para instalaciones o actualizaciones\
-  \ de Tumbleweed. Por favor, use [Tumbleweed media](/tumbleweed) en su lugar.\n*\
-  \ Contienen una selección limitada de paquetes y controladores, por lo que no pueden\
-  \ considerarse una referencia precisa en cuanto a si Tumbleweed funcionará o no\
-  \ en su hardware.\n"
+tumbleweed_live_info: "Por favor, sea consciente de las siguientes limitaciones de
+  las imágenes autoarrancables:\n* No deberían ser usadas para instalaciones o actualizaciones
+  de Tumbleweed. Por favor, use [Tumbleweed media](/tumbleweed) en su lugar.\n* Contienen
+  una selección limitada de paquetes y controladores, por lo que no pueden considerarse
+  una referencia precisa en cuanto a si Tumbleweed funcionará o no en su hardware.\n"
 microos_desc: Sistema operativo openSUSE Tumbleweed que proporciona actualizaciones
   transaccionales (Atomic) en un sistema de archivos raíz btrfs de solo lectura
-choosing_media_p1: "El DVD y USB son típicamente recomendados puesto que contienen\
-  \ la mayor parte de \npaquetes disponibles en la distribución y no requieren una\
-  \ conexión de red\ndurante la instalación.\n"
-choosing_media_p2: "Las imágenes CD/USB en línea son recomendadas para los/las usuarios/usuarias\
-  \ que tienen un ancho de banda limitado de Internet, puesto que sólo descargará\
-  \ los paquetes que ellos/ellas deseen instalar, que serían de un tamaño significativamente\
-  \ más pequeño que 4.7 GB.\n"
+choosing_media_p1: "El DVD y USB son típicamente recomendados puesto que contienen
+  la mayor parte de \npaquetes disponibles en la distribución y no requieren una conexión
+  de red\ndurante la instalación.\n"
+choosing_media_p2: "Las imágenes CD/USB en línea son recomendadas para los/las usuarios/usuarias
+  que tienen un ancho de banda limitado de Internet, puesto que sólo descargará los
+  paquetes que ellos/ellas deseen instalar, que serían de un tamaño significativamente
+  más pequeño que 4.7 GB.\n"
 documentation: Documentación
 documentation_startup_guide: Guía de comienzo de openSUSE
 documentation_release_notes: Notas de lanzamiento
 documentation_license: Licencia
 documentation_full_documentation: Toda la documentación
 leap_switch: Formas sencillas para migrar a openSUSE Leap
-leap_switch_p1: "Si usted ya usa openSUSE en su PC/portátil entonces puede actualizar\
-  \ iniciando el sistema desde su DVD/USB, o haciendo una \"Actualización en Línea\"\
+leap_switch_p1: "Si usted ya usa openSUSE en su PC/portátil entonces puede actualizar
+  iniciando el sistema desde su DVD/USB, o haciendo una \"Actualización en Línea\"\
   \ con unos cuantos comandos.\n"
 leap_switch_instructions: Instrucciones para actualizar en línea.
 requirements: Especificaciones recomendadas para el sistema
@@ -72,9 +71,9 @@ requirements_hd: 40 GB de espacio de almacenamiento disponible
 requirements_net: El acceso a Internet es recomendable, y necesario en el caso de
   Network Installer
 tw_switch: Formas sencillas de migrar a openSUSE Tumbleweed
-tw_switch_p1: "Si ya usa openSUSE en su PC/portátil, puede actualizar a través de\
-  \ su DVD/USB  y elegir \"actualizar\", o hacer una \"Actualización en Línea\" con\
-  \ unos cuantos comandos.\n"
+tw_switch_p1: "Si ya usa openSUSE en su PC/portátil, puede actualizar a través de
+  su DVD/USB  y elegir \"actualizar\", o hacer una \"Actualización en Línea\" con
+  unos cuantos comandos.\n"
 tw_switch_instructions: Instrucciones para actualizar.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Desde una versión anterior u otra distribución de Linux
@@ -93,76 +92,76 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Como crear una llave USB "arrancable" en OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Antes de utilizar, verifique su archivo descargado
-verify_download_p1: "Muchas aplicaciones pueden comprobar la firma de verificación\
-  \ (checksum) de una descarga. Verificar su descarga es importante ya que verifica\
-  \ que descargó el archivo ISO deseado y no una versión rota o corrupta. Puede comprobar\
-  \ el archivo en el proceso de descarga. Por ejemplo : una suma de verificación (SHA256)\
-  \ será utilizada automáticamente si escoge Metalink en la descripción más abajo\
-  \ y usa la extensión \"DownThemAll!\" de Firefox.\n"
-verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo de suma de verificación\
-  \ (checksum) con la suma correspondiente de SHA256.\n"
-verify_download_p3: "Como seguridad adicional, puede usar GPG para verificar quién\
-  \ firmó esos archivos .sha256.\n"
+verify_download_p1: "Muchas aplicaciones pueden comprobar la firma de verificación
+  (checksum) de una descarga. Verificar su descarga es importante ya que verifica
+  que descargó el archivo ISO deseado y no una versión rota o corrupta. Puede comprobar
+  el archivo en el proceso de descarga. Por ejemplo : una suma de verificación (SHA256)
+  será utilizada automáticamente si escoge Metalink en la descripción más abajo y
+  usa la extensión \"DownThemAll!\" de Firefox.\n"
+verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo de suma de verificación
+  (checksum) con la suma correspondiente de SHA256.\n"
+verify_download_p3: "Como seguridad adicional, puede usar GPG para verificar quién
+  firmó esos archivos .sha256.\n"
 verify_download_pubkey: Debería ser
 verify_download_help: Para más ayuda verificando su descarga por favor lea
 verify_download_checksums_help: Ayuda de sumas de verificación
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Varios escritorios, tres de manera predeterminada
-desktops_p1: "El proceso de contribución de openSUSE potencia el desarrollo de escritorio\
-  \ para\ntodo el mundo, por lo que tiene la opción de elegir su favorito en el\n\
-  instalador. Contamos con tres entornos de escritorio de forma activa, y ofrecemos\n\
-  aún más en la vista de software expandida dentro del instalador.\n"
+desktops_p1: "El proceso de contribución de openSUSE potencia el desarrollo de escritorio
+  para\ntodo el mundo, por lo que tiene la opción de elegir su favorito en el\ninstalador.
+  Contamos con tres entornos de escritorio de forma activa, y ofrecemos\naún más en
+  la vista de software expandida dentro del instalador.\n"
 installation: Instale como usted prefiera
-installation_p1: "El proceso de instalación de openSUSE le proporciona todas las opciones\n\
-  que posiblemente necesite. ¿Quiere instalar su sistema con el ratón y\nteclado?\
-  \ Cargue el instalador en modo gráfico. ¿No tiene un raton\na mano? Habilite el\
-  \ cliente de terminal e instálelo de esa manera. ¿Solo tiene\nacceso físico a la\
-  \ máquina? Conéctese al instalador de forma remota y\ncontinue con la instalación.\
-  \ Es así de simple.\n"
+installation_p1: "El proceso de instalación de openSUSE le proporciona todas las opciones\n
+  que posiblemente necesite. ¿Quiere instalar su sistema con el ratón y\nteclado?
+  Cargue el instalador en modo gráfico. ¿No tiene un raton\na mano? Habilite el cliente
+  de terminal e instálelo de esa manera. ¿Solo tiene\nacceso físico a la máquina?
+  Conéctese al instalador de forma remota y\ncontinue con la instalación. Es así de
+  simple.\n"
 points_transparent: Todo es transparente
-points_transparent_p1: "De principio al fin, cada paquete que se incluye las distribuciones\n\
-  tienen todas sus fuentes y \"scripts\" de compilado visible para todas las personas.\n\
+points_transparent_p1: "De principio al fin, cada paquete que se incluye las distribuciones\n
+  tienen todas sus fuentes y \"scripts\" de compilado visible para todas las personas.\n
   ¿Duda de una fuente? Simplemente revíselo con en el servicio de compilado de openSUSE.\n"
 points_free: ¿Software libre? Su decisión
-points_free_p1: "Los paquetes en nuestras distribuciones están divididos en libre\
-  \ y no libre. \n¿No quiere usar paquetes no libres? Puede desactivar fácilmente\n\
+points_free_p1: "Los paquetes en nuestras distribuciones están divididos en libre
+  y no libre. \n¿No quiere usar paquetes no libres? Puede desactivar fácilmente\n
   el repositorio no libre. Es su decisión, no la nuestra.\n"
 points_welcoming: Acogiendo contribuciones
-points_welcoming_p1: "Intentamos dar lo mejor para complacer a la comunidad, y solo\
-  \ podemos hacer eso \ncuando la comunidad expresa lo que necesita. Por eso \nnos\
-  \ aseguramos de que contribuir sea lo más fácil posible.\n"
+points_welcoming_p1: "Intentamos dar lo mejor para complacer a la comunidad, y solo
+  podemos hacer eso \ncuando la comunidad expresa lo que necesita. Por eso \nnos aseguramos
+  de que contribuir sea lo más fácil posible.\n"
 snapper: ¿Su sistema se ha corrupto? No es un problema nunca más
 openstack_image: OpenStack-Cloud
 choosing_media: Escoger que medio descargar
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_dvd: Una unidad DVD o puerto USB para la instalación del medio
-snapper_p1: "La función Instantáneas del sistema de archivos (Filesystem Snapshots)\
-  \ mantiene su sistema de archivos bajo control\nteniendo copias de seguridad continuas\
-  \ realizadas automáticamente al instalar\nsoftware y actualizaciones. Simplemente\
-  \ inicie desde una instantánea (snapshot) anterior y traiga\nsu sistema a un estado\
-  \ de funcionamiento en cuestión de minutos.\n"
+snapper_p1: "La función Instantáneas del sistema de archivos (Filesystem Snapshots)
+  mantiene su sistema de archivos bajo control\nteniendo copias de seguridad continuas
+  realizadas automáticamente al instalar\nsoftware y actualizaciones. Simplemente
+  inicie desde una instantánea (snapshot) anterior y traiga\nsu sistema a un estado
+  de funcionamiento en cuestión de minutos.\n"
 software: Obtener el software no puede ser más sencillo
-software_p1: "Entre nosotros, tener que pasar por todos los sitios web para obtener\
-  \ todo\nel software que pueda necesitar es mucho trabajo. El centro de software\
-  \ en línea\nhace esto más sencillo, incorporando software de una plétora de\nfuentes\
-  \ en un solo lugar.\n"
+software_p1: "Entre nosotros, tener que pasar por todos los sitios web para obtener
+  todo\nel software que pueda necesitar es mucho trabajo. El centro de software en
+  línea\nhace esto más sencillo, incorporando software de una plétora de\nfuentes
+  en un solo lugar.\n"
 software_get: Obtener software
 transactional: Servidor transaccional
-transactional_p1: "El instalador ahora admite un nuevo rol de sistema de Servidor\
-  \ Transaccional,\nque es un resultado de los esfuerzos de openSUSE Kubic. Esta función\
-  \ del sistema\npresenta un nuevo sistema de actualización que aplica actualizaciones\
-  \ de forma atómica (como un\noperación único) y los hace fáciles de revertir en\
-  \ caso de que sea\nnecesario. Estas características se basan en las herramientas\
-  \ de administración de paquetes.\nen el que se basan todas las demás distribuciones\
-  \ de SUSE y openSUSE. Esto significa\nque la gran mayoría de los paquetes RPM que\
-  \ funcionan con otros roles del sistema\nde distribuciones de openSUSE también funcionan\
-  \ con el rol del sistema Servidor Transaccional.\n"
+transactional_p1: "El instalador ahora admite un nuevo rol de sistema de Servidor
+  Transaccional,\nque es un resultado de los esfuerzos de openSUSE Kubic. Esta función
+  del sistema\npresenta un nuevo sistema de actualización que aplica actualizaciones
+  de forma atómica (como un\noperación único) y los hace fáciles de revertir en caso
+  de que sea\nnecesario. Estas características se basan en las herramientas de administración
+  de paquetes.\nen el que se basan todas las demás distribuciones de SUSE y openSUSE.
+  Esto significa\nque la gran mayoría de los paquetes RPM que funcionan con otros
+  roles del sistema\nde distribuciones de openSUSE también funcionan con el rol del
+  sistema Servidor Transaccional.\n"
 yast: YaST, la mejor opción para el usuario ~~avanzado~~
-yast_p1: "Una de las grandes herramientas de configuración del sistema le ayudará,\
-  \ el usuario, a\nconfigurar cada aspecto de su sistema. Ya no necesitará ejecutar\
-  \ un montón\nde \"scripts\" de configuración o introducir comandos dudosos\npara\
-  \ tener el sistema configurado como lo necesita.\n"
+yast_p1: "Una de las grandes herramientas de configuración del sistema le ayudará,
+  el usuario, a\nconfigurar cada aspecto de su sistema. Ya no necesitará ejecutar
+  un montón\nde \"scripts\" de configuración o introducir comandos dudosos\npara tener
+  el sistema configurado como lo necesita.\n"
 yast_firewall: Firewall
 yast_fonts: Fuentes
 yast_hardware: Hardware
@@ -172,11 +171,11 @@ yast_scanner: Scaner
 yast_sound: Sonido
 yast_software: Software
 zypper: Zypper, su nuevo gestor de paquetes favorito
-zypper_p1: "Es rápido y fácil de aprender. Proporciona zypper-apt, una capa\nde compatibilidad\
-  \ para su uso con los comandos apt y apt-get. Está basado en libsolv,\nque garantiza\
-  \ tanto la velocidad como la resolución\nreproducible de las dependencias. La interfaz\
-  \ es clara y con los colores adecuados\npara facilitar la lectura. Es perfecto,\
-  \ ¿qué más se puede decir?\n"
+zypper_p1: "Es rápido y fácil de aprender. Proporciona zypper-apt, una capa\nde compatibilidad
+  para su uso con los comandos apt y apt-get. Está basado en libsolv,\nque garantiza
+  tanto la velocidad como la resolución\nreproducible de las dependencias. La interfaz
+  es clara y con los colores adecuados\npara facilitar la lectura. Es perfecto, ¿qué
+  más se puede decir?\n"
 index: Distribuciones openSUSE
 index_p1: Para equipos de sobremesa, servidores y todo lo demás
 index_desktop: Escritorio
@@ -216,7 +215,7 @@ new_version_available: $distro_name está disponible para descarga
 new_version_testing: $distro_name está disponible para descarga y testing
 view_distro: Ver $distro_name
 offline_updated_image: Imagen sin conexión actualizada
-offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n\
+offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
   Apto para instalación o actualización.\n"
 selfinstalling_images: Imágenes de instalación automática
 iso_image: imagen ISO
