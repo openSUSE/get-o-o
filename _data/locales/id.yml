@@ -305,7 +305,7 @@ MicroOS_features:
 Tumbleweed_features:
   home:
     name: Stabil
-    description: "PEmutakhiran diuji secara menyeluruh terhadap standar kualitas tingkat
+    description: "Pemutakhiran diuji secara menyeluruh terhadap standar kualitas tingkat
       industri, memanfaatkan layanan build dari distribusi Linux lain yang membuat
       kami iri. Tidak hanya setiap versi baru dari sebuah paket diuji secara individual,
       tetapi kelompok versi yang berbeda diuji satu sama lain, memastikan sistem Anda
@@ -357,10 +357,10 @@ Tumbleweed_features:
       dan notebook.\n"
   gamepad:
     name: Permainan
-    description: Tumbleweed menyediakan perangkat lunak terbaru yang berhubungan dengan
-      game bagi pengguna. Dengan dukungan Linux untuk game yang meningkat pesat, ini
-      merupakan aspek penting untuk pengalaman yang lancar, berkinerja baik, dan bebas
-      masalah saat bermain game favorit Anda.
+    description: "Tumbleweed menyediakan perangkat lunak terbaru yang berhubungan
+      dengan permainan bagi pengguna. Dengan dukungan Linux untuk permainan yang meningkat
+      pesat, ini merupakan aspek penting untuk pengalaman yang lancar, berkinerja
+      baik, dan bebas masalah saat bermain permainan favorit Anda.\n"
 alternative_downloads: Unduhan Alternatif
 preconfigured_rt_image: Citra Waktu Nyata Terprakonfigurasi (raw)
 selfinstall_rt_image: Citra Waktu Nyata Pemasangan Sendiri
@@ -387,3 +387,53 @@ server_leapmicro_p1: Untuk penggelaran edge, embedded, IoT, dan lainnya
 server_leapmicro_p2: Sistem operasi yang sangat andal dan ringan yang dibuat untuk
   beban kerja dalam kontainer dan tervirtualisasi.
 kvm_sdboot_image: Citra KVM dengan systemd-boot
+leap_ovw_title: Sebuah cara baru dalam membangun openSUSE dan distribusi Linux hibrida
+  tipe baru
+tumbleweed_ovw_title: Sistem operasi destop dan peladen yang canggih
+tumbleweed_ovw_desc: Dengan Tumbleweed Anda tidak perlu mengambil keputusan sulit
+  mengenai hal-hal yang Anda hargai, baik kebebasan atau keselamatan, baik kendali
+  atau keamanan, teknologi atau stabilitas -- Tumbleweed memungkinkan Anda menikmati
+  kue dan memakannya juga!
+leap_micro_ovw_title: Leap Micro adalah sistem operasi ringan dan sangat andal yang
+  dibuat untuk beban kerja dalam kontainer dan virtualisasi.
+leap_micro_ovw_video_desc: Demo singkat pemasangan Leap Micro dengan combustion dan
+  cockpit.
+microos_ovw_desc_p2: MicroOS menawarkan citra luring. Perbedaan utama antara citra
+  luring dan citra yang dipasang sendiri/mentah adalah citra luring memiliki pemasang.
+  Raw dan self-install memungkinkan penyesuaian melalui combustion atau secara manual
+  pada citra setelah ditulis ke diska. Ada opsi untuk kernel real-time.
+microos_ovw_desc_p3: Coba MicroOS di VM yang berjalan di <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  atau KVM. Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat
+  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan fungsionalitas
+  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk
+  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang dipasang
+  sendiri dimaksudkan untuk digunakan dengan <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  yang ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap
+  boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
+leap_micro_ovw_desc_p1: Versi komunitas ini didasarkan pada SUSE Linux Enterprise
+  Micro, yang memanfaatkan komponen keamanan dan kepatuhan perusahaan yang ditingkatkan
+  dari SUSE Linux Enterprise. Penggabungan teknologi ini menghasilkan platform OS
+  yang modern, tidak dapat diubah, dan ramah pengembang.
+leap_ovw_desc: Leap menggunakan sumber dari SUSE Linux Enterprise (SLE), yang memberikan
+  Leap tingkat stabilitas yang tak tertandingi oleh distribusi Linux lainnya, dan
+  menggabungkannya dengan pengembangan komunitas untuk memberikan pengalaman Linux
+  stabil terbaik yang tersedia kepada pengguna, pengembang, dan sysadmin.
+microos_ovw_desc_p1: Dirancang untuk menampung beban kerja kontainer dengan administrasi
+  & penambalan otomatis. Dengan memasang openSUSE MicroOS Anda mendapatkan lingkungan
+  yang cepat dan kecil untuk menggelar Kontainer, atau beban kerja lainnya yang mendapat
+  manfaat dari Pemutakhiran Transaksional. Sebagai distribusi rilis bergulir, perangkat
+  lunaknya selalu mutakhir.
+leap_micro_ovw_desc_p3: Coba Leap Micro di VM yang berjalan di <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  atau KVM. Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat
+  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan fungsionalitas
+  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk
+  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang dipasang
+  sendiri dimaksudkan untuk digunakan dengan <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Pembakaran</a>
+  yang ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap
+  boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
+leap_micro_ovw_desc_p2: Leap Micro menawarkan citra luring. Perbedaan utama antara
+  citra luring dan citra yang dipasang sendiri/mentah adalah citra luring memiliki
+  pemasang. Raw dan self-install memungkinkan penyesuaian melalui combustion atau
+  secara manual pada citra setelah ditulis ke diska. Ada opsi untuk kernel real-time.
+microos_ovw_title: OS Micro Service menyediakan Pemutakhiran Transaksional (Atomik)
+  pada sistem berkas root btrfs hanya baca
