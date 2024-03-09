@@ -1,4 +1,3 @@
----
 site_title: Parsisiųsti openSUSE
 search: Ieškoti
 license: Licencija
@@ -25,12 +24,12 @@ documentation_release_notes: Pastabos apie laidą
 documentation_license: Licencija
 documentation_full_documentation: Visa dokumentacija
 leap_switch: Paprastas perėjimas prie „openSUSE Leap“
-requirements: Rekomenduojami sistemos parametrai
-requirements_cpu: 2 GHz bent dviejų branduolių procesorius
-requirements_mem: 2 GB laisvosios prieigos atminties
+requirements: Sistemos parametrai
+requirements_cpu: Procesorius
+requirements_mem: Atmintis
 requirements_hd: Bent 40 GB laisvos vietos diske
 requirements_dvd: DVD skaitytuvo ar USB lizdo diegimo laikmenai įdėti
-requirements_net: Interneto ryšys, jei diegiama internetu
+requirements_net: Tinklas
 tw_switch: Paprastas perėjimas prie „openSUSE Tumbleweed“
 upgrade_table_linux: iš senesnės Linux sistemos ar kito Linux platinamojo paketo
 upgrade_table_windows: iš Windows
@@ -45,4 +44,217 @@ upgrade_table__mac_usb: Kaip OS X sistemoje sukurti iš atmintuko paleidžiamą 
 verify_download: Parsisiųstųjų rinkmenų tikrinimas
 verify_download_checksums_help: apie kontrolines sumas
 yast_software: Programinė įranga
-index_desktop: Darbalaukis
+index_desktop: Su darbalaukiu
+s390x: IBM zSystems ir LinuxONE (s390x)
+server_leapmicro_p2: Ypač patikima, maža operacinė sistema, pritaikyta konteineriams
+  ir virtualizuotiems darbams.
+site_copyright: © 2023 openSUSE talkininkai
+requirements_hdd_root: / (šakniniame) skaidinyje
+iso_image: ISO atvaizdis
+offline_updated_image: Atnaujintas atvaizdis diegimui be tinklo
+offline_updated_desc: "Atvaizdis diegimui be tinklo su paskiausiais atnaujinimais.\n
+  Tinka diegimui ir naujovinimui.\n"
+selfinstalling_images: Atvaizdžiai automatiniam diegimui
+selfinstalling_ch_image: Savaime įsidiegiantis konteinerinis serveris
+kvm_ch_image: KVM ir XEN konteinerinis serveris
+openstack_image: OpenStack-Cloud
+virtualbox_image: VirtualBox
+hardware_images: Aparatams
+yast: YaST yra geriausias pasirinkimas ~~stipriems~~ naudotojams
+Tumbleweed_features:
+  gamepad:
+    name: Žaidimams
+  knife:
+    name: Pažangiausia
+  user:
+    name: Paprasta naudoti
+  cpu:
+    name: Draugauja su jūsų aparatūra
+  power:
+    name: Galinga
+  home:
+    name: Stabili
+  key:
+    name: Patikima
+  plant:
+    name: Stovinti ant tvirto pagrindo
+  update:
+    name: Nuolat atnaujinama
+  shield:
+    name: Apsaugota
+leap_ovw_title: Visiškai naujas „openSUSE“ kūrimo būdas ir naujo tipo hibridinis „Linux“
+  platinimasis paketas
+tumbleweed_ovw_title: Šiuolaikiška stalinių kompiuterių ir serverių operacinė sistema
+tumbleweed_ovw_desc: 'Naudojant „Tumbleweed“ jums nereikia rinktis tarp dalykų, kuriuos
+  vertinate: laisvės ar saugumo, kontrolės ar saugumo, technologijų ar stabilumo -
+  „Tumbleweed“ leidžia jums mėgautis!'
+yast_printer: Spausdintuvas
+yast_partitioner: Diskų skaidymas
+aarch64: UEFI Arm 64 bitų serveriams, staliniams bei nešiojamiesiems kompiuteriams,
+  plokštėms (aarch64)
+translate: versti
+learn_more: Plačiau
+kvm_image: KVM ir XEN atvaizdis
+usb_desc: USB atmintukams
+xfce_cd: Xfce demonstracinis CD
+i686: Intel ir AMD 32 bitų staliniams bei nešiojamiesiems kompiuteriams ir serveriams
+  (i686)
+points_free: Laisvoji programinė įranga? Jūsų pasirinkimas
+site_title_short: Parsisiųsti
+site_description: Sužinokite apie openSUSE platinamuosius paketus ir parsisiųskite
+  juos nemokamai
+offline_image: Atvaizdis diegimui be tinklo
+network_desc: "Diegimo sistemą ir visus paketus parsisiųsti iš nuotolinių saugyklų.\n
+  Tinka diegimui ir naujovinimui.\n"
+vmware_ch_image: VMware konteinerinis serveris
+offline_desc: "Sutalpinta didelė programinės įrangos kolekcija darbalaukiams ir serveriams.\n
+  Tinka diegimui ir naujovinimui.\n"
+source_code: Pirminis kodas
+rpi_ch_image: RaspberryPi konteinerinis serveris
+ports_info: "openSUSE Leap kitas nei asmeniniams kompiuteriams skirtas architektūras\n
+  ribotomis galimybėmis palaiko atskiros bendruomenės komandos.\n"
+minimal_vm_info: Panašus į SUSE Linux Enterprise Server Minimal-VM atvaizdžius. Apie
+  Arm JeOS atvaizdžius skaitykite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  viki puslapyje</a>
+kde_cd: KDE demonstracinis CD
+gnome_cd: GNOME demonstracinis CD
+live_info: "Atkreipkite dėmesį į šiuos demonstracinių atvaizdų apribojimus:\n* Jų
+  nereikėtų naudoti diegimui ar atnaujinimui. Geriau naudokite diegimo laikmeną\n
+  * Jų paketų ir tvarkyklių pasirinkimas yra ribotas, todėl jie negali būti laikomi
+  tinkamu pavyzdžiu, ar platinimasis paketas veiks jūsų aparatinėje įrangoje.\n* Branduolio
+  ir initrd negalima atnaujinti, todėl jie neturėtų būti naudojami nuolatiniam diegimui\n"
+leap_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš\n
+  DVD/USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
+  internetu“ keliomis komandomis.\n"
+requirements_cpu_desc: bent 2 Ghz dviejų branduolių procesorius
+requirements_mem_desc: $value fizinės RAM + papildomos atminties darbinei apkrovai
+tw_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš\n
+  DVD arba USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
+  internetu“ keliomis komandomis.\n"
+requirements_dvd_desc: DVD skaitytuvas arba USB lizdas diegimo laikmenai įdėti
+verify_download_p3: "Dėl papildomo saugumo galite pasinaudoti sha256sum, kad patikrintumėte,
+  kas pasirašė šias .sha256 rinkmenas. \n"
+software_get: Parsisiųsti programinę įrangą
+verify_download_p1: "Dauguma programų gali patikrinti atsisiuntimo kontrolinę sumą.
+  \nPatikrinti atsisiuntimą gali būti svarbu, nes taip įsitikinsite, ar tikrai \n
+  gavote norėtą atsisiųsti ISO rinkmeną, o ne kokią nors sugadintą versiją.\n"
+index: openSUSE platinamieji paketai
+desktop_tumbleweed_p1: Programuotojams, openSUSE talkininkams, žaidėjams ir Linux
+  bei nemokamos laisvos programinės įrangos mėgėjams
+points_transparent: Viskas skaidru
+zypper: Zypper yra jūsų nauja mylima paketų tvarkytuvė
+desktop_tumbleweed_p2: Nuolatinio atnaujinimo laida su naujausiais openSUSE projekto
+  siūlomais paketais.
+index_server_p1: Platinamųjų paketų pasirinkimas naudojimui serveriuose
+index_full: Arba eikite tiesiai į platinamųjų paketų parsisiuntimo puslapius
+desktop: openSUSE platinamieji paketai su darbalaukiais
+server_tumbleweed_p2: Nuolatinio atnaujinimo laida su naujausiais openSUSE projekto
+  siūlomais paketais.
+leap_ovw_desc: openSUSE Leap pagrindas yra toks pat kaip SUSE Linux Enterprise (SLE),
+  tad lyginant su kitais Linux platinamaisiais paketais pasižymi išskirtiniu stabilumu,
+  tačiau kartu įtraukia bendruomenės darbus tam, kad naudotojams, programuotojams
+  ir sistemų administratoriams suteiktų pačią geriausią stabilią aplinką.
+cloud_images: Debesijai
+microos_desc: Operacinė sistema „openSUSE Tumbleweed“ pagrindu, teikianti transakcinius
+  (atominius) atnaujinimus tik skaitymui skirtoje btrfs šakninėje rinkmenų sistemoje
+choosing_media_p1: "Paprastai rekomenduojame atvaizdį diegimui be tinklo, \nnes jame
+  yra dauguma paketų ir diegiant nereikia \ninterneto ryšio.\n"
+desktop_p1: "Du platinamieji paketai (dabar žali!)\n"
+yast_hardware: Aparatinė įranga
+selfinstalling_k3s_image: Savaime įsidiegiantis k3s serveris
+xen_image: XEN
+ppc64le: PowerPC serveriams, didėjančių baitų (ppc64le)
+minimal_vm_images: Minimalus virtualiai mašinai
+requirements_hdd_size_desc: $value laisvos vietos standžiajame diske
+desktops: Daug darbalaukių, trys pagrindiniai
+snapper: Sistema susigadina? Tai nebėra problema
+software: Programinės įrangos gavimas ypač paprastas
+yast_fonts: Šriftai
+index_desktop_p1: Platinamųjų paketų pasirinkimas asmeniniam kompiuteriui su darbalaukiu
+server: openSUSE platinamieji paketai serveriams
+download: Parsisiųsti
+selfinstall_image: Savaime įsidiegiantis atvaizdis
+yast_scanner: Skaitytuvas
+index_p1: Staliniams kompiuteriams, serveriams ir kitam
+index_server: Serveriui
+server_p1: "Keturi patogiai nuobodūs platinamieji paketai – tokie, kokie ir turėtų
+  būti\n"
+server_tumbleweed_p1: Programuotojams, openSUSE talkininkams, žaidėjams ir Linux bei
+  nemokamos laisvos programinės įrangos mėgėjams
+server_leap_p2: Įprasta laida, turinti tiek įmonės lygio inžinerijos, tiek bendruomenės
+  kuriamų naujovių privalumų.
+server_microos_p1: Vienos paskirties serverio programoms
+server_microos_p2: Sukurta talpinti konteinerių darbus su automatizuotu administravimu
+  ir pataisomis
+new_version_testing: Jau galite parsisiųsti ir testuoti $distro_name
+new_version_available: Jau galite parsisiųsti $distro_name
+kvm_sdboot_image: KVM atvaizdis su systemd-boot
+hyperv_image: MS HyperV atvaizdis
+hyperv_ch_image: MS HyperV konteinerinis serveris
+vmware_image: VMware atvaizdis
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX konteinerinis serveris
+vagrant_image: Vagrant
+vagrant_ch_image: Vagrant konteinerinis serveris
+rpi_image: RaspberryPi
+pine_image: Pine64
+pine_ch_image: Pine64 konteinerinis serveris
+openstack_ch_image: OpenStack-Cloud konteinerinis serveris
+jeos_images: JeOS
+jeos_info: Minimalūs VM atvaizdžiai. Apie Arm JeOS atvaizdžius skaitykite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+  viki puslapyje</a>
+server_aarch64: UEFI Arm 64 bitų serveriams ir plokštėms (aarch64)
+server_x86_64: Intel ir AMD 64 bitų serveriams (x86_64)
+vm_images: Virtualiai mašinai
+cloud_image: Atvaizdis debesijai
+cloud_minimal_desc: Minimalus KVM ir Xen atvaizdis su cloud-init
+documentation_license_link: ''
+choosing_media_p2: "Tinklo atvaizdį rekomenduojame naudotojams, kurių ribotas \ninterneto
+  ryšio pralaidumą, nes jis atsisiunčia tik paketus, \nkuriuos jie pasirenka įdiegti,
+  o tai greičiausiai bus gerokai \nmažiau nei 4,7 GB.\n"
+choosing_media_micro_p2: "ISO atvaizdį diegimui be tinklo turėtų naudoti tie, kuriems
+  reikia pasirinktinio diskų skaidymo.\n"
+leap_switch_instructions: Atnaujinimo internetu instrukcijos.
+requirements_min: Minimalūs
+requirements_rec: Rekomenduojami
+requirements_hdd: Vieta diske
+requirements_hdd_desc: Bent 40 GB laisvos atminties standžiajame diske
+requirements_hdd_var: /var skaidinyje
+requirements_hdd_swap_info: mainų sritis išjungta tam, kad kubernetes veiktų tinkamai
+requirements_hdd_ssd_info: didelį įrašymo greitį palaikantis SSD
+requirements_net_desc: Interneto ryšys naudingas, o diegimo per tinklą atveju – būtinas
+tw_switch_instructions: Atnaujinimo instrukcijos.
+verify_download_p2: "Kiekvienam ISO atvaizdžiui pateikiame atitinkamą SHA256 kontrolinę
+  sumą.\n"
+verify_download_pubkey: Ji turėtų būti
+verify_download_help: Norėdami daugiau sužinoti apie atsisiuntimų tikrinimą, skaitykite
+installation: Įdiekite sau priimtinu būdu
+points_welcoming: Laukiame talkininkų
+transactional: Transakcinis serveris
+yast_firewall: Užkarda
+yast_sound: Garsas
+desktop_leap_p1: Įprastiems naudotojams namuose, sistemų administratoriams, įmonių
+  programuotojams
+desktop_leap_p2: Įprasta laida, turinti tiek įmonės lygio inžinerijos, tiek bendruomenės
+  kuriamų naujovių privalumų.
+server_leap_p1: Sistemų administratoriams, įmonių programuotojams ir įprastiems naudotojams
+  namuose
+ppc64: PowerPC serveriams, mažėjančių baitų (ppc64)
+overview: Apžvalga
+MicroOS_features:
+  key:
+    name: Saugūs atnaujinimai
+  idea:
+    name: Filosofija
+  tool:
+    name: Derinimas
+server_leapmicro_p1: Skirta nišinėms, įterptinėms, daiktų interneto ir kitoms diegimo
+  sritims
+view_distro: Rodyti $distro_name
+x86_64: Intel ir AMD 64 bitų staliniams bei nešiojamiesiems kompiuteriams ir serveriams
+  (x86_64)
+armv7l: UEFI Arm 32 bitų serveriams, staliniams bei nešiojamiesiems kompiuteriams,
+  plokštėms (armv7l)
+alternative_downloads: papildomus atvaizdžius
+alternative_downloads_desc: 'Kiti atvaizdžių tipai: $options images. Peržiūrėkite
+  $alternative_downloads!'
