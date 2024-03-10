@@ -60,7 +60,7 @@ kvm_ch_image: KVM ir XEN konteinerinis serveris
 openstack_image: OpenStack-Cloud
 virtualbox_image: VirtualBox
 hardware_images: Aparatams
-yast: YaST yra geriausias pasirinkimas ~~stipriems~~ naudotojams
+yast: YaST yra geriausias pasirinkimas ~~rimtiems~~ naudotojams
 Tumbleweed_features:
   gamepad:
     name: Žaidimams
@@ -168,14 +168,14 @@ minimal_vm_images: Minimalus virtualiai mašinai
 requirements_hdd_size_desc: $value laisvos vietos standžiajame diske
 desktops: Daug darbalaukių, trys pagrindiniai
 snapper: Sistema susigadina? Tai nebėra problema
-software: Programinės įrangos gavimas ypač paprastas
+software: Programinės įrangos diegimas ypač paprastas
 yast_fonts: Šriftai
 index_desktop_p1: Platinamųjų paketų pasirinkimas asmeniniam kompiuteriui su darbalaukiu
 server: openSUSE platinamieji paketai serveriams
 download: Parsisiųsti
 selfinstall_image: Savaime įsidiegiantis atvaizdis
 yast_scanner: Skaitytuvas
-index_p1: Staliniams kompiuteriams, serveriams ir kitam
+index_p1: Staliniams kompiuteriams, serveriams ir kitkam
 index_server: Serveriui
 server_p1: "Keturi patogiai nuobodūs platinamieji paketai – tokie, kokie ir turėtų
   būti\n"
@@ -256,5 +256,4 @@ x86_64: Intel ir AMD 64 bitų staliniams bei nešiojamiesiems kompiuteriams ir s
 armv7l: UEFI Arm 32 bitų serveriams, staliniams bei nešiojamiesiems kompiuteriams,
   plokštėms (armv7l)
 alternative_downloads: papildomus atvaizdžius
-alternative_downloads_desc: 'Kiti atvaizdžių tipai: $options images. Peržiūrėkite
-  $alternative_downloads!'
+alternative_downloads_desc: 'Kiti atvaizdžių tipai: $options. Peržiūrėkite $alternative_downloads!'
