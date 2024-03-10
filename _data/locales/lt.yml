@@ -64,10 +64,19 @@ yast: YaST yra geriausias pasirinkimas ~~rimtiems~~ naudotojams
 Tumbleweed_features:
   gamepad:
     name: Žaidimams
+    description: "„Tumbleweed“ teikia naudotojams naujausią su žaidimais susijusią
+      programinę įrangą. Sparčiai gerėjant „Linux“ žaidimų palaikymui, tai yra svarbi
+      sąlyga, kad mėgstami žaidimai būtų sklandūs, našūs ir nekeltų problemų.\n"
   knife:
     name: Pažangiausia
+    description: "Dažnai gausite atnaujinimus, kuriuose ne tik pašalinamos pažeidžiamosios
+      vietos ir klaidos, bet ir pateikiamos naujausios funkcijos ir darbai, pvz.,
+      nauji branduoliai, tvarkyklės ir naujausios darbalaukio aplinkų versijos.\n"
   user:
     name: Paprasta naudoti
+    description: "Naudodami vieną komandą galite atnaujinti tūkstančius paketų, grįžti
+      į praėjusios savaitės momentinę kopiją, vėl paspartinti atsinaujinimą ir net
+      peržiūrėti būsimus leidinius.\n"
   cpu:
     name: Draugauja su jūsų aparatūra
   power:
@@ -76,12 +85,21 @@ Tumbleweed_features:
     name: Stabili
   key:
     name: Patikima
+    description: "Jei nutiktų kas nors nepageidaujamo, visada galite grįžti į ankstesnę
+      būseną ir susigrąžinti rinkmenas bei programas tokias, kokios jos buvo prieš
+      nepavykusį naujinimą.\n"
   plant:
     name: Stovinti ant tvirto pagrindo
   update:
     name: Nuolat atnaujinama
+    description: "Ją įdiegsite vieną kartą ir galėsite ja naudotis amžinai. Jums nebereikės
+      kas pusmetį rūpintis dideliais sistemos atnaujinimais, kurie gali sugadinti
+      sistemą.\n"
   shield:
     name: Apsaugota
+    description: "Sukurtas naudojant vieną iš naujausių branduolio versijų, su naujausiais
+      „Spectre“ ir „Meltdown“ susilpninimo pataisymais, su numatytuoju atveju įjungta
+      užkarda ir griežtomis saugumo politikomis, tad jūsų saugumas užtikrinamas iškart.\n"
 leap_ovw_title: Visiškai naujas „openSUSE“ kūrimo būdas ir naujo tipo hibridinis „Linux“
   platinimasis paketas
 tumbleweed_ovw_title: Šiuolaikiška stalinių kompiuterių ir serverių operacinė sistema
@@ -208,7 +226,7 @@ server_x86_64: Intel ir AMD 64 bitų serveriams (x86_64)
 vm_images: Virtualiai mašinai
 cloud_image: Atvaizdis debesijai
 cloud_minimal_desc: Minimalus KVM ir Xen atvaizdis su cloud-init
-documentation_license_link: ''
+documentation_license_link: 'https://en.opensuse.org/openSUSE:License'
 choosing_media_p2: "Tinklo atvaizdį rekomenduojame naudotojams, kurių ribotas \ninterneto
   ryšio pralaidumą, nes jis atsisiunčia tik paketus, \nkuriuos jie pasirenka įdiegti,
   o tai greičiausiai bus gerokai \nmažiau nei 4,7 GB.\n"
@@ -246,8 +264,15 @@ MicroOS_features:
     name: Saugūs atnaujinimai
   idea:
     name: Filosofija
+    description: "#### Yra nuspėjama\n* Nėra keičiama vykdymo metu \n* Kiekvieną kartą
+      paleidžiant kompiuterį bus nuosekliai paleisti tie patys artefaktai\n\n####
+      Galima padauginti \n* Nebereikia konfigūruoti atskirų egzempliorių paleidimo
+      metu \n* Galima lengvai pakartotinai naudoti ir gauti nuspėjamą rezultatą\n\n
+      #### Yra patikima \n* Automatinis atstatymas po netinkamų atnaujinimų\n"
   tool:
     name: Derinimas
+  update:
+    name: Atominiai atnaujinimai
 server_leapmicro_p1: Skirta nišinėms, įterptinėms, daiktų interneto ir kitoms diegimo
   sritims
 view_distro: Rodyti $distro_name
@@ -257,3 +282,70 @@ armv7l: UEFI Arm 32 bitų serveriams, staliniams bei nešiojamiesiems kompiuteri
   plokštėms (armv7l)
 alternative_downloads: papildomus atvaizdžius
 alternative_downloads_desc: 'Kiti atvaizdžių tipai: $options. Peržiūrėkite $alternative_downloads!'
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+desktops_p1: "Galimybė prisidėti prie „openSUSE“ palengvina darbalaukio kūrimą visiems
+  \nnaudotojams. Naudotojams suteikiama galimybė pasirinkti norimą darbalaukio \n
+  aplinką iš trijų diegimo programoje pateiktų parinkčių, o dar daugiau jų galima
+  \nrasti išplėstiniame programinės įrangos rodinyje.\n"
+installation_p1: "„openSUSE“ diegimo metu pateikiamos visos parinktys, kurių\njums
+  galėtų prireikti. Norite įdiegti sistemą naudodamiesi pele ir\nklaviatūra? Paleiskite
+  diegimo programą grafinėje veiksenoje. \nNeturite pelės po ranka? Įsijunkite terminalą
+  ir įdiekite taip. \nNeturite fizinės prieigos prie kompiuterio? Prisijunkite prie
+  \ndiegimo programos nuotoliu ir pradėkite diegimą. Tai paprasta.\n"
+snapper_p1: "Rinkmenų sistemos momentinių kopijų funkcija užtikrina, kad jūsų rinkmenų
+  sistema \nbus prižiūrėta dėl sistemingų atsarginių kopijų, kurios kuriamos automatiškai
+  \ndiegiant programinę įrangą ir atnaujinimus. Tiesiog paleiskite kompiuterį iš ankstesnės
+  \nmomentinės nuotraukos ir per kelias minutes grąžinsite sistemą į veikiančią būseną.\n"
+zypper_p1: "Ją galima greitai ir lengvai išmokti. Pateikiamas zypper-apt, suderinamumo
+  \nsluoksnis, skirtas naudoti su apt ir apt-get komandomis. Jos pagrindas yra \n
+  libsolv, kuri užtikrina greitą ir atkartojamą priklausomybių radimą. \nSąsaja yra
+  aiški ir atitinkamai nuspalvinta tam, būtų lengva skaityti. \nTai tobula, ką dar
+  galima pasakyti?\n"
+transactional_p1: "Diegimo programa dabar palaiko naują sistemos vaidmenį „Transakcinis
+  serveris“,\nkuris yra „openSUSE Kubic“ pastangų rezultatas. Šis sistemos vaidmuo
+  turi\nnaują atnaujinimo sistemą, kuri atnaujinimus taiko atomiškai (kaip vientisą\n
+  operaciją) ir leidžia juos lengvai atšaukti, jei to prireiktų. Šios funkcijos pagrįstos
+  \npaketų valdymo priemonėmis, kuriomis remiasi visi kiti SUSE ir openSUSE \nplatinamieji
+  paketai. Tai reiškia, kad didžioji dauguma RPM paketų, kurie veikia \nsu kitais
+  sistemos vaidmenimis openSUSE platinamuosiuose paketuose, taip pat \nveiks ir su
+  sistemos vaidmeniu „Transakcinis serveris“.\n"
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+preconfigured_image: Iš anksto sukonfigūruotas atvaizdis (raw)
+preconfigured_qcow_image: Iš anksto sukonfigūruotas atvaizdis (qcow)
+software_p1: "Jei tektų pereiti per visas internetines svetaines, kad susirinktume
+  visą programinę įrangą, \nkurios jums galėtų prireikti, būtų labai daug darbo. Internetinis
+  programinės įrangos centras\npalengvina šią užduotį, nes į jį programinė įranga
+  iš daugybės šaltinių pateikiama vienoje \nvietoje.\n"
+choosing_media_micro_p1: "Tiems, kuriems nereikia savito diskų skaidymo ir kurie gali
+  paleisti kompiuterį iš USB laikmenos, rekomenduojame naudoti naująjį savaiminio
+  diegimo atvaizdį.\nTaip diegiant paprastas savaiminio diegimo vediklis į diską iškopijuoja
+  iš anksto sukonfigūruoto atvaizdžio turinį ir padidina skaidinį iki disko dydžio.\n
+  <br>\nJei turite „Raspberry Pi“ ar panašų įrenginį, kuris neturi galimybės paleisti
+  USB, iš anksto sukonfigūruotą atvaizdį galite įrašyti tiesiai į SD kortelę.\nNaudotojams,
+  kurie norėtų labiau kontroliuoti diegimą, siūloma galimybę naudoti <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"\
+  https://www.youtube.com/watch?v=ft8UVx9elKc\">čia</a>.\n<br>\nBe to, naudotojams,
+  nesukonfigūravusiems savo sistemoje naudoti \"Combustion\", bus paraginta „jeos-firstboot“.\n"
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_net_conn: Visapusiškas ryšys tarp visų klasterio kompiuterių
+requirements_net_mac: Unikalus kiekvieno mazgo kompiuterio vardas ir MAC adresas
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+points_transparent_p1: "Kiekvieno paketo, kuris įtraukiamas į platinamuosius paketus,
+  \npirminiai tekstai ir sukūrimo scenarijai yra atvirai matomi visiems.\nAbejojate
+  dėl šaltinio? Tiesiog patikrinkite jį kūrimo paslaugoje.\n"
+points_free_p1: "Paketai platinamuosiuose paketuose suskirstyti į atviro kodo ir uždaro
+  \nkodo saugyklas. Nenorite naudoti nelaisvų paketų? Galite lengvai \nišjungti uždaro
+  kodo saugyklą. Tai jūsų, o ne mūsų pasirinkimas.\n"
+points_welcoming_p1: "Stengiamės kuo labiau įtikti bendruomenei ir galime tai padaryti
+  tik\nkai bendruomenė išreiškia savo nuomonę apie tai, ko jai reikia. \nTodėl mes
+  užtikriname, kad prisidėti būtų kuo paprasčiau.\n"
+preconfigured_rt_image: Iš anksto sukonfigūruotas RealTime atvaizdis (raw)
+yast_p1: "Vienas didžiausių sistemos konfigūravimo įrankių padeda jums – naudotojams
+  – \nkonfigūruoti kiekvieną savo sistemos dalį. Jums nebereikia paleidinėti daugybės
+  \nkonfigūravimo scenarijų ar įvesti abejotinų komandų tam, kad sistema būtų \nsuderinta
+  taip, kaip jums reikia.\n"
