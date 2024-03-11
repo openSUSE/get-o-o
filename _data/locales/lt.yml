@@ -268,7 +268,7 @@ MicroOS_features:
       paleidžiant kompiuterį bus nuosekliai paleisti tie patys artefaktai\n\n####
       Galima padauginti \n* Nebereikia konfigūruoti atskirų egzempliorių paleidimo
       metu \n* Galima lengvai pakartotinai naudoti ir gauti nuspėjamą rezultatą\n\n
-      #### Yra patikima \n* Automatinis atstatymas po netinkamų atnaujinimų\n"
+      ### Yra patikima \n* Automatinis atstatymas po netinkamų atnaujinimų\n"
   tool:
     name: Derinimas
   update:
