@@ -143,7 +143,7 @@ yast_software: Software
 zypper: Zypper, Ihr neuer favorisierter Paketmanager
 site_description: Lerne die openSUSE Distributionen kennen und lade sie kostenlos
   herunter
-site_copyright: © 2023 openSUSE Mitwirkende
+site_copyright: © 2024 openSUSE Mitwirkende
 zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n\
   mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n\
   das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n\
