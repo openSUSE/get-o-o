@@ -79,6 +79,10 @@ Tumbleweed_features:
       peržiūrėti būsimus leidinius.\n"
   cpu:
     name: Draugauja su jūsų aparatūra
+    description: "„Tumbleweed“ greitai įtraukia naujoves ir jas ištestuota, todėl
+      turėtų veikti su naujausia jūsų aparatine įranga ir įrenginiais, kuo gali pasigirti
+      nedaugelis kitų „Linux“ platinamųjų paketų, tad puikiai tinka tiek darbiniams
+      kompiuteriams, tiek įvairiausiems nešiojamiesiems kompiuteriams.\n"
   power:
     name: Galinga
   home:
@@ -349,3 +353,4 @@ yast_p1: "Vienas didžiausių sistemos konfigūravimo įrankių padeda jums – 
   – \nkonfigūruoti kiekvieną savo sistemos dalį. Jums nebereikia paleidinėti daugybės
   \nkonfigūravimo scenarijų ar įvesti abejotinų komandų tam, kad sistema būtų \nsuderinta
   taip, kaip jums reikia.\n"
+selfinstall_rt_image: Savaime įsidiegiantis RealTime atvaizdis
