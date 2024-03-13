@@ -18,7 +18,7 @@ site_title: openSUSE Edinin
 site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak indirin
 kde_cd: KDE Çalışan CD
 rescue_cd: Kurtarma İçin Çalışan CD
-site_copyright: © 2023 openSUSE'ye katkı sağlayanlar
+site_copyright: © 2024 openSUSE'ye katkı sağlayanlar
 offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım koleksiyonu içerir.\n\
   Kurulum veya yükseltme için uygundur.\n"
 network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için\
