@@ -10,11 +10,11 @@ pick_mirror: Spiegelserver auswählen
 checksum: Checksumme
 torrent_file: Torrent Datei
 offline_image: Offline-Image
-offline_desc: "Enthält eine große Anzahl an Software für Desktop- oder Server-Benutzung.\n\
+offline_desc: "Enthält eine große Anzahl an Software für Desktop- oder Server-Benutzung.\n
   Zur Installation oder Aktualisierung geeignet.\n"
 network_image: Netzwerk-Image
-network_desc: "Lädt das Installationssystem und alle Pakete aus Online-Repositories\
-  \ herunter.\nGeeignet zur Installation oder Aktualisierung.\n"
+network_desc: "Lädt das Installationssystem und alle Pakete aus Online-Repositories
+  herunter.\nGeeignet zur Installation oder Aktualisierung.\n"
 kvm_image: KVM und XEN Image
 xen_image: XEN
 hyperv_image: MS HyperV Image
@@ -29,19 +29,19 @@ live_images: Live
 gnome_cd: GNOME Live-CD
 kde_cd: KDE Live-CD
 xfce_cd: Xfce Live-CD
-tumbleweed_live_info: "Bitte beachten Sie die folgenden Einschränkungen der Live-Images:\n\
-  * Sie können nicht zum Installieren oder Upgraden von Tumbleweed verwendet werden.\
-  \ Bitte verwenden Sie stattdessen [Tumbleweed Medien](/tumbleweed)\n* Sie haben\
-  \ eine begrenzte Paket- und Treiber-Auswahl, weshalb keine genaue Aussage getroffen\
-  \ werden kann, ob Tumbleweed auf Ihrer Hardware laufen wird oder nicht\n"
+tumbleweed_live_info: "Bitte beachten Sie die folgenden Einschränkungen der Live-Images:\n
+  * Sie können nicht zum Installieren oder Upgraden von Tumbleweed verwendet werden.
+  Bitte verwenden Sie stattdessen [Tumbleweed Medien](/tumbleweed)\n* Sie haben eine
+  begrenzte Paket- und Treiber-Auswahl, weshalb keine genaue Aussage getroffen werden
+  kann, ob Tumbleweed auf Ihrer Hardware laufen wird oder nicht\n"
 microos_desc: Auf openSUSE Tumbleweed basierendes OS, das Transaktionale (Atomare)
   Updates auf einem nur lesbarem btrfs Wurzeldateisystem bereitstellt
 choosing_media: Auswahl des Mediums zum Herunterladen
-choosing_media_p1: "Das Offline Image wird normalerweise empfohlen, da es die meisten\n\
-  der Pakete, die in der Distribution verfügbar sind enthalten und keine\nNetzwerkverbindung\
-  \ während der Installation benötigen.\n"
-choosing_media_p2: "Das Netzwerk Image wird für Benutzer empfohlen, die nur begrenzte\n\
-  Internet-Bandbreite zur Verfügung haben, da nur die Pakete heruntergeladen werden\n\
+choosing_media_p1: "Das Offline Image wird normalerweise empfohlen, da es die meisten\n
+  der Pakete, die in der Distribution verfügbar sind enthalten und keine\nNetzwerkverbindung
+  während der Installation benötigen.\n"
+choosing_media_p2: "Das Netzwerk Image wird für Benutzer empfohlen, die nur begrenzte\n
+  Internet-Bandbreite zur Verfügung haben, da nur die Pakete heruntergeladen werden\n
   die zuvor ausgewählt wurden, was wahrscheinlich weniger als 4.7GB sein wird.\n"
 documentation: Dokumentation
 documentation_startup_guide: openSUSE Startup-Anleitung
@@ -49,9 +49,9 @@ documentation_release_notes: Versionshinweise
 documentation_license: Lizenz
 documentation_full_documentation: Komplette Dokumentation
 leap_switch: Einfache Wege um zu openSUSE Leap zu wechseln
-leap_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie\
-  \ im DVD/USB-Bootmenü Upgrade auswählen, oder ein 'Online Upgrade'\nmit einigen\
-  \ wenigen Kommandos durchführen.\n"
+leap_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie
+  im DVD/USB-Bootmenü Upgrade auswählen, oder ein 'Online Upgrade'\nmit einigen wenigen
+  Kommandos durchführen.\n"
 leap_switch_instructions: Online Upgrade Anweisungen.
 leap_switch_instructions_link: https://de.opensuse.org/SDB:Distribution-Upgrade
 requirements: Systemanforderungen
@@ -61,9 +61,9 @@ requirements_hd: Mehr als 40GB freier Festplattenspeicher
 requirements_dvd: Entweder ein DVD-Laufwerk oder USB-Port für das Installationsmedium
 requirements_net: Netzwerk
 tw_switch: Einfache Wege, um zu openSUSE Tumbleweed zu wechseln
-tw_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie im\
-  \ DVD/USB-Bootmenü Upgrade auswählen, oder ein 'Online Upgrade'\nmit einigen wenigen\
-  \ Kommandos durchführen.\n"
+tw_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie im
+  DVD/USB-Bootmenü Upgrade auswählen, oder ein 'Online Upgrade'\nmit einigen wenigen
+  Kommandos durchführen.\n"
 tw_switch_instructions: Upgrade Anweisungen.
 tw_switch_instructions_link: https://de.opensuse.org/openSUSE:Tumbleweed-Upgrade
 upgrade_table_linux: Von einer älteren Version oder einer anderen Linux Distribution
@@ -82,13 +82,13 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Wie man einen bootbaren USB Stick unter OS X erstellt.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Überprüfen Sie vor der Benutzung Ihre heruntergeladenen Dateien
-verify_download_p1: "Viele Anwendungen können die Prüfsumme eines Downloads überprüfen.\n\
-  Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas Medium\
-  \ nicht beschädigt heruntergeladen wurde.\n"
-verify_download_p2: "Für jedes ISO bieten wir eine Datei mit der dazugehörigen SHA256\
-  \ Prüfsumme an.\n"
-verify_download_p3: "Zur zusätzlichen Sicherheit können Sie sha256sum verwenden, um\
-  \ zu überprüfen, wer diese .sha256-Dateien signiert hat. \n"
+verify_download_p1: "Viele Anwendungen können die Prüfsumme eines Downloads überprüfen.\n
+  Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas Medium
+  nicht beschädigt heruntergeladen wurde.\n"
+verify_download_p2: "Für jedes ISO bieten wir eine Datei mit der dazugehörigen SHA256
+  Prüfsumme an.\n"
+verify_download_p3: "Zur zusätzlichen Sicherheit können Sie sha256sum verwenden, um
+  zu überprüfen, wer diese .sha256-Dateien signiert hat. \n"
 verify_download_pubkey: Es sollte
 verify_download_help: Weitere Hilfe um Ihren Download zu überprüfen erhalten Sie in
   der
@@ -96,42 +96,42 @@ verify_download_checksums_help: Checksummen-Hilfe
 verify_download_checksums_help_link: https://de.opensuse.org/SDB:Download-Hilfe#Pr.C3.BCfsummen
 installation: Installieren Sie es so, wie Sie es wünschen
 points_transparent: Alles ist transparent
-points_transparent_p1: "Vom Anfang bis zum Ende. Für jedes Paket, das in die Distributionen\
-  \ geht,\nsind die Quellen und Buildskripte offen für jeden einsehbar. Zweifel an\
-  \ der Quelle?\nÜberprüfen Sie es im \"Build Service\".\n"
+points_transparent_p1: "Vom Anfang bis zum Ende. Für jedes Paket, das in die Distributionen
+  geht,\nsind die Quellen und Buildskripte offen für jeden einsehbar. Zweifel an der
+  Quelle?\nÜberprüfen Sie es im \"Build Service\".\n"
 points_free: Freie Software? Ihre Entscheidung
-points_free_p1: "Pakete in den Distributionen sind in freie und unfreie Repositorys\
-  \ eingeteilt.\nSie wollen keine unfreien Pakete verwenden? Unfreie Repositorys können\
-  \ einfach\nvon Ihnen deaktiviert werden. Es ist Ihre Entscheidung, nicht unsere.\n"
+points_free_p1: "Pakete in den Distributionen sind in freie und unfreie Repositorys
+  eingeteilt.\nSie wollen keine unfreien Pakete verwenden? Unfreie Repositorys können
+  einfach\nvon Ihnen deaktiviert werden. Es ist Ihre Entscheidung, nicht unsere.\n"
 points_welcoming: Mitarbeit willkommen
-points_welcoming_p1: "Wir versuchen unser Bestes, um die Community zufriedenzustellen\
-  \ und wir\nkönnen dies nur möglich machen, wenn die Community sich dazu äußert,\
-  \ was\nsie benötigt. Das ist der Grund, warum wir sicherstellen, dass das Mitwirken\n\
-  so einfach wie möglich ist.\n"
+points_welcoming_p1: "Wir versuchen unser Bestes, um die Community zufriedenzustellen
+  und wir\nkönnen dies nur möglich machen, wenn die Community sich dazu äußert, was\n
+  sie benötigt. Das ist der Grund, warum wir sicherstellen, dass das Mitwirken\nso
+  einfach wie möglich ist.\n"
 snapper: Das System ist fehlerhaft? Kein Problem mehr
-snapper_p1: "Das Dateisystem Snapshots Feature erhält Ihr Dateisystem, indem es regelmäßig\n\
-  Backups automatisch erstellt, sobald neue Software oder Updates installiert werden.\n\
-  Booten Sie einfach von einem früheren Snapshot, um Ihr System innerhalb weniger\n\
+snapper_p1: "Das Dateisystem Snapshots Feature erhält Ihr Dateisystem, indem es regelmäßig\n
+  Backups automatisch erstellt, sobald neue Software oder Updates installiert werden.\n
+  Booten Sie einfach von einem früheren Snapshot, um Ihr System innerhalb weniger\n
   Minuten wieder in einen arbeitsfähigen Zustand zu bringen.\n"
 software: Software beschaffen könnte nicht einfacher sein
-software_p1: "Unter uns, jede Webseite zu durchforsten, um all\ndie Software zu beschaffen,\
-  \ die Sie brauchen könnten, ist eine Menge Arbeit. Das Online Software Center\n\
-  macht dies erheblich einfacher, indem Software aus einer Fülle an\nQuellen an einem\
-  \ Ort vereinigt wird.\n"
+software_p1: "Unter uns, jede Webseite zu durchforsten, um all\ndie Software zu beschaffen,
+  die Sie brauchen könnten, ist eine Menge Arbeit. Das Online Software Center\nmacht
+  dies erheblich einfacher, indem Software aus einer Fülle an\nQuellen an einem Ort
+  vereinigt wird.\n"
 software_get: Software beschaffen
 transactional: Transaktionaler Server
-transactional_p1: "Das Installationsprogramm unterstützt nun eine neue Systemrolle\
-  \ Transaktionaler Server,\ndie ein Resultat aus den openSUSE Kubic Arbeiten ist.\
-  \ Diese Systemrolle beinhaltet ein\nneues Update-System, das Updates atomar (in\
-  \ einer einzelnen Operation) ausführt und\nes vereinfacht, diese rückgängig zu machen,\
-  \ sollte dies notwendig werden. Diese Features\nbasieren auf den Paketverwaltungstools,\
-  \ auf denen alle SUSE und openSUSE Distributionen\nbauen. Dies bedeutet, dass die\
-  \ große Mehrheit an RPM Paketen, die mit anderen Systemrollen\nder openSUSE Distributionen\
-  \ funktionieren, auch mit der Systemrolle Transaktionaler Server\nfunktionieren.\n"
-yast_p1: "Eines der besten Systemkonfigurationswerkzeuge hilft Ihnen, dem Benutzer,\n\
-  jeden einzelnen Aspekt Ihres Systems einzurichten. Sie brauchen nicht mehr\neine\
-  \ Menge an Konfigurationsskripten oder dubiosen Kommandos, um das\nSystem so einzurichten,\
-  \ wie Sie es brauchen.\n"
+transactional_p1: "Das Installationsprogramm unterstützt nun eine neue Systemrolle
+  Transaktionaler Server,\ndie ein Resultat aus den openSUSE Kubic Arbeiten ist. Diese
+  Systemrolle beinhaltet ein\nneues Update-System, das Updates atomar (in einer einzelnen
+  Operation) ausführt und\nes vereinfacht, diese rückgängig zu machen, sollte dies
+  notwendig werden. Diese Features\nbasieren auf den Paketverwaltungstools, auf denen
+  alle SUSE und openSUSE Distributionen\nbauen. Dies bedeutet, dass die große Mehrheit
+  an RPM Paketen, die mit anderen Systemrollen\nder openSUSE Distributionen funktionieren,
+  auch mit der Systemrolle Transaktionaler Server\nfunktionieren.\n"
+yast_p1: "Eines der besten Systemkonfigurationswerkzeuge hilft Ihnen, dem Benutzer,\n
+  jeden einzelnen Aspekt Ihres Systems einzurichten. Sie brauchen nicht mehr\neine
+  Menge an Konfigurationsskripten oder dubiosen Kommandos, um das\nSystem so einzurichten,
+  wie Sie es brauchen.\n"
 yast_firewall: Firewall
 yast_fonts: Schriftarten
 yast_hardware: Hardware
@@ -144,11 +144,11 @@ zypper: Zypper, Ihr neuer favorisierter Paketmanager
 site_description: Lerne die openSUSE Distributionen kennen und lade sie kostenlos
   herunter
 site_copyright: © 2023 openSUSE Mitwirkende
-zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n\
-  mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n\
-  das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n\
-  Das Interface ist klar und angemessen koloriert, für eine einfache Lesbarkeit. Es\
-  \ ist\nperfekt, was könnte man sonst sagen?\n"
+zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n
+  mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n
+  das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n
+  Das Interface ist klar und angemessen koloriert, für eine einfache Lesbarkeit. Es
+  ist\nperfekt, was könnte man sonst sagen?\n"
 index: openSUSE Distributionen
 index_p1: Für Desktop, Server, und alles dazwischen
 index_desktop: Desktop
@@ -188,17 +188,17 @@ xen_desc: Zur Verwendung in XEN PV Hypervisoren
 preconfigured_image: Vorkonfiguriertes Image (raw)
 preconfigured_rt_image: Vorkonfiguriertes RealTime Image (raw)
 ports_images: Portierungen
-ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n\
+ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n
   von separaten Community Teams gepflegt, mit limitierten Resourcen.\n"
 rescue_cd: Rettungs Live-CD
 selfinstall_image: Selbst-installierendes Image
 selfinstall_rt_image: Selbst installierendes RealTime Image
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 desktops: Viele Desktops, drei im Standard
-desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklung für\
-  \ jeden,\ndamit Sie Ihren favorisierten Desktop während der Installation auswählen\
-  \ können.\nWir heben aktiv drei Desktopumgebungen hervor und bieten noch mehr in\
-  \ der erweiterten\nSoftwareliste im Installationsprogramm an.\n"
+desktops_p1: "Der openSUSE Mitwirkungsprozess ermöglicht die Desktop Entwicklung für
+  jeden,\ndamit Sie Ihren favorisierten Desktop während der Installation auswählen
+  können.\nWir heben aktiv drei Desktopumgebungen hervor und bieten noch mehr in der
+  erweiterten\nSoftwareliste im Installationsprogramm an.\n"
 yast: YaST, die beste Wahl für den ~~erfahrenen~~ Benutzer
 s390x: IBM zSystems und LinuxONE (s390x)
 ppc64le: Server mit PowerPC, little-endian (ppc64le)
@@ -211,12 +211,12 @@ new_version_available: $distro_name ist jetzt zum Herunterladen verfügbar
 iso_image: ISO-Image
 site_title_short: Herunterladen
 site_title: openSUSE herunterladen
-live_info: "Sei Dir der folgenden Einschränkungen der Live Images bewusst:\n* Sie\
-  \ sind nicht zur Installation oder als Upgrade-Medium bestimmt. Nutze stattdessen\
-  \ die Installationsmedien.\n* Sie beinhalten nur eine begrenzte Auswahl an Treibern,\
-  \ so dass eine genaue Aussage, ob das System auf Deiner Hardware lauffähig ist,\
-  \ nicht möglich ist.\n* Kernel und initrd können nicht auf neuere Versionen aktualisiert\
-  \ werden. Das Livesystem sollte nicht für den dauerhaften Gebrauch genutzt werden.\n"
+live_info: "Sei Dir der folgenden Einschränkungen der Live Images bewusst:\n* Sie
+  sind nicht zur Installation oder als Upgrade-Medium bestimmt. Nutze stattdessen
+  die Installationsmedien.\n* Sie beinhalten nur eine begrenzte Auswahl an Treibern,
+  so dass eine genaue Aussage, ob das System auf Deiner Hardware lauffähig ist, nicht
+  möglich ist.\n* Kernel und initrd können nicht auf neuere Versionen aktualisiert
+  werden. Das Livesystem sollte nicht für den dauerhaften Gebrauch genutzt werden.\n"
 cloud_images: Cloud
 selfinstalling_images: Selbst-installierende Images
 selfinstalling_ch_image: Selbst-installierender Container-Host
@@ -248,43 +248,42 @@ minimal_vm_images: Minimale Virtuelle Maschine
 requirements_hdd_swap_info: swap deaktiviert, damit Kubernetes korrekt funktioniert
 MicroOS_features:
   idea:
-    description: "### Ist vorhersagbar\n* Wird während der Laufzeit nicht verändert\n\
-      * Wird bei jedem Start konsistent die gleichen Artefakte starten\n\n### Ist\
-      \ skalierbar\n* Eliminiert die Notwendigkeit, individuelle Instanzen während\
-      \ der Laufzeit zu konfigurieren\n* Kann einfach und wiederholt mit vorhersagbarem\
-      \ Ausgang ausgerollt werden\n\n### Ist zuverlässig\n* Automatische Wiederherstellung\
-      \ von fehlerhaften Updates\n"
+    description: "### Ist vorhersagbar\n* Wird während der Laufzeit nicht verändert\n
+      * Wird bei jedem Start konsistent die gleichen Artefakte starten\n\n### Ist
+      skalierbar\n* Eliminiert die Notwendigkeit, individuelle Instanzen während der
+      Laufzeit zu konfigurieren\n* Kann einfach und wiederholt mit vorhersagbarem
+      Ausgang ausgerollt werden\n\n### Ist zuverlässig\n* Automatische Wiederherstellung
+      von fehlerhaften Updates\n"
     name: Philosophie
   update:
-    description: "### Transaktionale Updates\n\n#### Einzigartig\nDurch Nutzung von\
-      \ btrfs mit Snapshots verwendet MicroOS einen\nsehr platzsparenden Weg, die\
-      \ Dateisystemhistorie zu speichern. Alle\nKonfigurationsdateien in \"/etc/\"\
-      \ sind Teil des Snapshopts und des Rollbacks.\n\n#### Flexibel\n* Es wird kein\
-      \ neues Paketformat benötigt, verwendet Standard openSUSE RPMs\n* Keine Größenbeschränkung,\
-      \ weder für Partitionen noch für das Betriebssystem\n* Einfach zu erweitern\n"
+    description: "### Transaktionale Updates\n\n#### Einzigartig\nDurch Nutzung von
+      btrfs mit Snapshots verwendet MicroOS einen\nsehr platzsparenden Weg, die Dateisystemhistorie
+      zu speichern. Alle\nKonfigurationsdateien in \"/etc/\" sind Teil des Snapshopts
+      und des Rollbacks.\n\n#### Flexibel\n* Es wird kein neues Paketformat benötigt,
+      verwendet Standard openSUSE RPMs\n* Keine Größenbeschränkung, weder für Partitionen
+      noch für das Betriebssystem\n* Einfach zu erweitern\n"
     name: Atomare Updates
   shield:
     name: Rollback
-    description: "### MicroOS ist ein unveränderbares Betriebssystem, ein Rollback\
-      \ ist einfach\n* Unveränderbar: Keine Änderungen auf der Festplatte\n* Rollback\
-      \ durch einem Reboot zu einem alten BTRFS Snapshot\n"
+    description: "### MicroOS ist ein unveränderbares Betriebssystem, ein Rollback
+      ist einfach\n* Unveränderbar: Keine Änderungen auf der Festplatte\n* Rollback
+      durch einem Reboot zu einem alten BTRFS Snapshot\n"
   key:
     name: Sichere Updates
-    description: "* Erhalten Sie Ihre Updates über HTTPS\n* Pakete und Repositories\
-      \ werden von unserem Build-System signiert\n* Pakete werden geprüft\n* Im Falle\
-      \ von Abhängikeitskonflikten erfolgt kein Update\n* Keine Verschwendung von\
-      \ Speicherplatz: Dateisystem-Snapshots werden im Fall von nicht erfolgreichen\
-      \ Updates gelöscht\n"
+    description: "* Erhalten Sie Ihre Updates über HTTPS\n* Pakete und Repositories
+      werden von unserem Build-System signiert\n* Pakete werden geprüft\n* Im Falle
+      von Abhängikeitskonflikten erfolgt kein Update\n* Keine Verschwendung von Speicherplatz:
+      Dateisystem-Snapshots werden im Fall von nicht erfolgreichen Updates gelöscht\n"
   tool:
     name: Debugging
   work:
     name: Arbeitslast
-    description: "Anwendung werden in Containern statt im Hauptdateisystem installiert:\n\
-      * isoliert vom zentralen Dateisystem\n* reduziert die Möglichkeit für bösartige\
-      \ Anwendungen Ihr System zu kompromitieren\n* Neuinstallation ohne Reboot\n\
-      * atomare Updates möglich (neuen erstellen, alten töten)\n* einfaches Rollback\n"
-offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet\
-  \ für Installation oder Upgrade.\n"
+    description: "Anwendung werden in Containern statt im Hauptdateisystem installiert:\n
+      * isoliert vom zentralen Dateisystem\n* reduziert die Möglichkeit für bösartige
+      Anwendungen Ihr System zu kompromitieren\n* Neuinstallation ohne Reboot\n* atomare
+      Updates möglich (neuen erstellen, alten töten)\n* einfaches Rollback\n"
+offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet
+  für Installation oder Upgrade.\n"
 minimal_vm_info: Ähnlich der SUSE Linux Enterprise Server Minimal-VM Images. Für Arm
   JeOS-Images, gehen Sie bitte zur <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   Wiki Seite</a>
@@ -293,12 +292,12 @@ requirements_mem_desc: $value physikalischer RAM + zusätzlicher Arbeitsspeicher
 offline_updated_image: Aktualisiertes Offline Image
 server_aarch64: UEFI Arm 64-bit Server und Platinen (aarch64)
 requirements_hdd_ssd_info: SSD mit hoher Schreibgeschwindigkeit
-installation_p1: "Der openSUSE Installationsprozess gibt Ihnen alle Optionen\ndie\
-  \ Sie möglicherweise brauchen. Sie möchten Ihr System mit Maus und\nTastatur installieren?\
-  \ Starten Sie den Installer im grafischen Modus. Sie haben\nkeine Maus zur Hand?\
-  \ Aktivieren Sie den Terminal Client und installieren Sie auf diesem Weg.\nSie haben\
-  \ keinen direkten Zugriff zur Maschine? Verbinden Sie sich zum Installer aus der\
-  \ Ferne und\nfahren Sie mit der Installation fort. Es ist so einfach.\n"
+installation_p1: "Der openSUSE Installationsprozess gibt Ihnen alle Optionen\ndie
+  Sie möglicherweise brauchen. Sie möchten Ihr System mit Maus und\nTastatur installieren?
+  Starten Sie den Installer im grafischen Modus. Sie haben\nkeine Maus zur Hand? Aktivieren
+  Sie den Terminal Client und installieren Sie auf diesem Weg.\nSie haben keinen direkten
+  Zugriff zur Maschine? Verbinden Sie sich zum Installer aus der Ferne und\nfahren
+  Sie mit der Installation fort. Es ist so einfach.\n"
 armv7l: UEFI Arm 32-bit Server, Desktops, Laptops und Boards (armv7l)
 alternative_downloads_desc: Wir haben auch $options Images. Sehen Sie sich $alternative_downloads
   an!
@@ -321,17 +320,31 @@ Tumbleweed_features:
     name: Zuverlässig
   shield:
     name: Sicher
+  gamepad:
+    name: Spielen
+  update:
+    name: Kontinuierlich aktualisiert
+  cpu:
+    name: Verträgt sich gut mit Ihrer Hardware
+  home:
+    name: Stabil
+  user:
+    name: Einfach zu verwenden
+  power:
+    name: Leistungsstark
 preconfigured_qcow_image: Vorkonfiguriertes Image (qcow)
-choosing_media_micro_p2: "Das Offline ISO Image sollte von denen benutzt werden, die\
-  \ eine angepasste Partitionierung benötigen.\n"
-choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen für diejenigen,\
-  \ die keine angepasste Partitionierung benötigen und über USB booten können.\nEin\
-  \ simpler selbst-installierender Assistent schreibt ein vorkonfiguriertes Image\
-  \ auf das Laufwerk und erweitert die Partition auf die Größe des Laufwerks.\n<br>\n\
-  Benutzer mit einem Raspberry Pi und ähnlichem ohne USB-Boot Unterstützung können\
-  \ das vorkonfigurierte Image direkt auf die SD Karte schreiben.\nBenutzer die mehr\
-  \ Kontrolle über das Deployment suchen wird die Verwendung von <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
-  >Combustion</a> empfohlen.\n<br>\nEine Demo eines Deployments basierend auf Combustion\
-  \ kann <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">hier</a> angeschaut\
-  \ werden.\n<br>\nDas jeos-firstboot begrüßt diejenigen, die ihr System nicht durch\
-  \ Combustion konfiguriert haben.\n"
+choosing_media_micro_p2: "Das Offline ISO Image sollte von denen benutzt werden, die
+  eine angepasste Partitionierung benötigen.\n"
+choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen für diejenigen,
+  die keine angepasste Partitionierung benötigen und über USB booten können.\nEin
+  simpler selbst-installierender Assistent schreibt ein vorkonfiguriertes Image auf
+  das Laufwerk und erweitert die Partition auf die Größe des Laufwerks.\n<br>\nBenutzer
+  mit einem Raspberry Pi und ähnlichem ohne USB-Boot Unterstützung können das vorkonfigurierte
+  Image direkt auf die SD Karte schreiben.\nBenutzer die mehr Kontrolle über das Deployment
+  suchen wird die Verwendung von <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a> empfohlen.\n<br>\nEine Demo eines Deployments basierend auf Combustion
+  kann <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">hier</a> angeschaut
+  werden.\n<br>\nDas jeos-firstboot begrüßt diejenigen, die ihr System nicht durch
+  Combustion konfiguriert haben.\n"
+tumbleweed_ovw_title: Modernes Desktop- und Server-Betriebssystem
+kvm_sdboot_image: KVM-Abbild mit systemd-boot
