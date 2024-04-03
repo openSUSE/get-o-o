@@ -32,7 +32,7 @@ openstack_image: OpenStack 云
 openstack_desc: 适用于运行在 OpenStack 内的虚拟机
 installation_images: 安装
 ports_images: 移植
-ports_info: "openSUSE 其他 PC 外的架构移植由单独的社区团队维护，资源有限。\n"
+ports_info: "openSUSE Leap 在 PC 以外的架构移植由单独的社区团队维护，资源有限。\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: GNOME LiveCD
