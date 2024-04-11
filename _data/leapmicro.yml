@@ -1,3 +1,9 @@
+- version: 6.0
+  order:  5
+  releases:
+  - date: '2024-04-11 12:00:00 UTC'
+    state: 'Alpha'
+
 - version: 5.5
   order:  4
   releases:
