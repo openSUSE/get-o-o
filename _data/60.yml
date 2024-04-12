@@ -40,6 +40,17 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256
+    - name: packages_image
+      desc: packages_image_desc
+      primary_link: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-x86_64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-x86_64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-x86_64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-x86_64-Media.iso.sha256
+    
 
   - name: aarch64
     types:
@@ -73,3 +84,14 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256
+    - name: packages_image
+      desc: packages_image_desc
+      primary_link: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-aarch64-Media.iso
+      links:
+      - name: metalink
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-aarch64-Media.iso.meta4
+      - name: pick_mirror
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-aarch64-Media.iso?mirrorlist
+      - name: checksum
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-Packages-aarch64-Media.iso.sha256
+    
