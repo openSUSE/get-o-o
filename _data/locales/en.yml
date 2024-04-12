@@ -50,6 +50,8 @@ rpi_image: RaspberryPi
 rpi_ch_image: RaspberryPi Container Host
 pine_image: Pine64
 pine_ch_image: Pine64 Container Host
+packages_image: Packages Image (non-bootable)
+packages_image_desc: Media containing an offline repository with packages.
 openstack_image: OpenStack-Cloud
 openstack_ch_image: OpenStack-Cloud Container Host
 openstack_desc: For running virtual machines in OpenStack
