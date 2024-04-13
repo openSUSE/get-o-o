@@ -292,7 +292,7 @@ leap_ovw_desc: Leap 使用 SUSE Linux Enterprise （SLE）的源码构建，这�
 leap_micro_ovw_desc_p1: 这一社区版本基于 SUSE Linux Micro，因而利用了 SUSE Linux Enterprise 的企业级强化安全与合规组件。这一技术融合提供了一个现代、不可变且开发者友好的操作系统平台。
 microos_ovw_desc_p2: MicroOS 提供离线映像。离线映像与自安装映像/原始映像的主要区别在于前者具有安装程序。后两者则允许通过 Combustion
   模块自定义安装，或将映像写入磁盘后手动修改细节。还具备实时内核选项。
-leap_micro_ovw_desc_p2: 自 6.0 版本起，Leap Micro 分别提供自安装映像、源映像，以及用作离线软件源的软件包映像。由于本版本不再提供传统安装程序，对于使用
+leap_micro_ovw_desc_p2: 自 6.0 版本起，Leap Micro 分别提供自安装映像、原始映像，以及用作离线软件源的软件包映像。由于本版本不再提供传统安装程序，对于使用
   USB 安装的用户，我们推荐使用自安装映像。用户还可以选择 <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
   或 <a href="https://github.com/openSUSE/combustion">Combustion</a> 来自动化或定制安装过程，也可以使用
   jeos-firstboot 向导。另外还可以试试 <a href="https://opensuse.github.io/fuel-ignition/">Fuel
