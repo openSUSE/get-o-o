@@ -1,7 +1,7 @@
 site_title: openSUSE のダウンロード
 site_title_short: ダウンロード
 site_description: openSUSE ディストリビューションに関する情報の取得とダウンロードを行うことができます
-site_copyright: © 2023 openSUSE コミュニティ
+site_copyright: © 2024 openSUSE コミュニティ
 search: 検索
 translate: 翻訳
 source_code: ソースコード
@@ -301,14 +301,14 @@ server_aarch64: UEFI Arm 64 ビットサーバおよびシングルボード (aa
 server_x86_64: Intel または AMD の 64 ビットサーバ (x86_64)
 cloud_image: クラウドイメージ
 cloud_minimal_desc: cloud-init を含む KVM および Xen 対応最小限イメージ
-choosing_media_micro_p1: "新しい自己インストール型のイメージは、独自のパーティション設定を必要としないほとんどのユーザに推奨され、USB
-  からも起動することができます。\nこの場合、シンプルなインストールウイザードがドライブ内に事前設定済みのイメージを展開したあと、ディスクサイズに合わせてパーティションサイズの拡張を行います。\n
+choosing_media_micro_p1: "新しい自己インストール型のイメージは、 USB メモリや DVD からのインストールに利用できます。\nこの場合、シンプルなインストールウイザードがドライブ内に事前設定済みのイメージを展開したあと、ディスクサイズに合わせてパーティションサイズの拡張を行います。\n
   <br>\nRaspberry Pi 等の機器をご利用で、 USB からの起動に対応していない場合は、 SD カード内に事前設定済みのイメージを直接書き込んで利用することもできます。\n
   インストールに対してより細かい制御を行いたい場合は、 <a href=\"https://ja.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a> をお使いになることをお勧めします。\n<br>\nCombustion ベースでのインストールのデモは <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
   >こちら</a> (英語) で公開されています。\n<br>\nなお、 Combustion を利用してシステムをインストールしていない場合、システムの初回起動時に
   jeos-firstboot が動作します。\n"
-choosing_media_micro_p2: "オフライン ISO イメージは、独自のパーティション設定を行いたい方向けの仕組みです。\n"
+choosing_media_micro_p2: "Leap Micro には従来型のインストーラは付属しておりません。インストールを行いたい場合は自己インストールメディアをお使いください。\n
+  新しく提供されるようになったパッケージイメージには、インストール済みの環境で利用できる、 Leap Micro の RPM リポジトリのオフラインダンプのみが含まれています。\n"
 preconfigured_qcow_image: 事前構築済みイメージ (qcow 形式)
 server_leapmicro_p1: エッジ, 組み込み, IoT などの環境向け
 server_leapmicro_p2: 非常に信頼性が高く、コンテナ／仮想環境向けに構築された軽量型オペレーティングシステムです。
@@ -323,21 +323,26 @@ leap_ovw_desc: Leap では SUSE Linux Enterprise (SLE)
   との間でソースコードを共有しているため、ユーザや開発者、そしてシステム管理者に対して、他のディストリビューションでは見られないような安定性と、コミュニティによる先進性の両方を兼ね備えています。
 tumbleweed_ovw_desc: Tumbleweed を利用することで、お使いの環境を構成するのに難しい選択は不要となります。自由と安全性、制御性とセキュリティ、先進性と安定性など、
   Tumbleweed では両方を実現することができます！
-leap_micro_ovw_desc_p1: このコミュニティ版は SUSE Linux Enterprise Micro をベースにしていて、 SUSE Linux
-  Enterprise におけるエンタープライズ向けの強化されたセキュリティと標準準拠レベルの両方を達成しています。このような技術の統合により、モダンで不可変、そして開発者にも優しい
+leap_micro_ovw_desc_p1: このコミュニティ版は SUSE Linux Micro をベースにしていて、 SUSE Linux Enterprise
+  におけるエンタープライズ向けの強化されたセキュリティと標準準拠レベルの両方を達成しています。このような技術の統合により、モダンで不可変、そして開発者にも優しい
   OS プラットフォームになっています。
-leap_micro_ovw_desc_p2: Leap Micro 
-  ではオフラインイメージや事前構築済みイメージも提供しています。オフラインイメージにはインストーラ本体が含まれているほか、事前構築済みイメージにはディスクに対して直接書き込んで使用し、
-  Combustion もしくは手作業で後からカスタマイズするためのイメージが用意されています。このほか、リアルタイムカーネルを含む版も用意されています。
+leap_micro_ovw_desc_p2: Leap Micro バージョン 6.0 もしくはそれ以降では、自己インストールイメージのほか、純粋イメージとオフラインリポジトリとして利用できるパッケージ
+  DVD が提供されています。自己インストールイメージでは従来型のインストーラは使用していないため、任意の USB デバイスからのインストールができるお勧めの選択肢となっています。また、インストール作業を自動化したりカスタマイズしたりしたい場合は、
+  <a href="https://ja.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> や <a href="https://github.com/openSUSE/combustion">Combustion</a>
+  等のほか、 jeos-firstboot ウイザードを利用することができます。また、オンラインで Ignition の設定を生成する手段として、 <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a> もお使いいただけます。
 microos_ovw_desc_p1: システムの管理や修正の適用を自動化するホストコンテナ向けに設計されています。 openSUSE MicroOS 
   は、コンテナなどのトランザクション型更新の有用な環境に対して、素早く小さな環境を提供します。またローリングリリース型のディストリビューションであることから、常に最新版にもなります。
-microos_ovw_desc_p2: MicroOS ではオフラインイメージを提供しています。オフラインイメージにはインストーラ本体が含まれているほか、事前構築済みイメージにはディスクに対して直接書き込んで使用し、
-  Combustion もしくは手作業で後からカスタマイズするためのイメージが用意されています。このほか、リアルタイムカーネルを含む版も用意されています。
+microos_ovw_desc_p2: MicroOS 
+  ではオフラインイメージを提供しています。オフラインイメージと自己インストール／純粋イメージの大きな違いとして、オフラインイメージにはインストーラ本体が存在していることがあげられます。純粋イメージや自己インストールイメージの場合、イメージをディスクに書き込んだ後に
+  combustion 等の手段でカスタマイズを実施することになります。このほか、リアルタイムカーネルを含む版も用意されています。
 leap_micro_ovw_desc_p3: 仮想マシン内で Leap Micro を動作させる場合は、 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、起動時に <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  機能を含む事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、
+  USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
 microos_ovw_desc_p3: 仮想マシン内で MicroOS を動作させる場合は、 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、起動時に <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   機能を含む事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
+packages_image: パッケージイメージ
+packages_image_desc: パッケージを含むオフラインリポジトリのメディアです。
