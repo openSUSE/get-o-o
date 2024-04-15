@@ -44,7 +44,7 @@ yast_software: Softvér
 site_title_short: Získať
 site_description: Získajte informácie o distribúciách openSUSE a stiahnite si ich
   zadarmo
-site_copyright: © 2023 Prispievatelia openSUSE
+site_copyright: © 2024 Prispievatelia openSUSE
 translate: Preložiť
 source_code: Zdrojový kód
 learn_more: Zistite viac
@@ -370,14 +370,15 @@ cloud_image: Cloud obraz
 minimal_vm_info: Podobné ako SUSE Linux Enterprise Server minimálne VM obrazy. Pre
   obrazy Arm JeOS, prosím, prejdite na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
   stránku Arm</a>
-choosing_media_micro_p2: "Offline obraz ISO by mali používať tí, ktorí vyžadujú vlastné
-  rozdelenie disku.\n"
-choosing_media_micro_p1: "Nový samoinštalačný obraz sa odporúča pre všetkých, ktorí
-  nepotrebujú vlastné rozdelenie disku a môžu spustiť systém z USB.\nJednoduchý sprievodca
-  samoinštaláciou prenesie na disk predkonfigurovaný obraz a zväčší oddiel na veľkosť
-  disku.\n<br>\nPoužívatelia s Raspberry Pi a podobnými zariadeniami bez podpory zavádzania
-  cez USB môžu priamo zapísať predkonfigurovaný obraz na kartu SD.\nPoužívateľom,
-  ktorí chcú mať väčšiu kontrolu nad nasadením, odporúčame použiť <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+choosing_media_micro_p2: "Leap Micro sa už nedodáva s tradičným inštalátorom, používatelia
+  namiesto toho majú používať samoinštalačné médiá.\nNový obraz balíkov je len offline
+  kópia repozitára rpm Leap Micro pre tých, ktorí majú izolované prostredie.\n"
+choosing_media_micro_p1: "Nový samoinštalačný obraz je najlepšou voľbou pre inštalácie
+  na USB alebo DVD.\nJednoduchý sprievodca samoinštaláciou prenesie na disk predkonfigurovaný
+  obraz a zväčší oddiel na veľkosť disku.\n<br>\nPoužívatelia s Raspberry Pi a podobnými
+  zariadeniami bez podpory zavádzania cez USB môžu priamo zapísať predkonfigurovaný
+  obraz na kartu SD.\nPoužívateľom, ktorí chcú mať väčšiu kontrolu nad nasadením,
+  odporúčame použiť <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"
   >Combustion</a>.\n<br>\nUkážku nasadenia založeného na combution si môžete pozrieť
   na <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">here</a>.\n<br>\njeos-firstboot
   privíta tých, ktorí nekonfigurovali svoj systém pomocou Combustion.\n"
@@ -395,25 +396,28 @@ leap_ovw_desc: Leap využíva zdrojový kód SUSE Linux Enterprise (SLE), ktorý
 tumbleweed_ovw_title: Najmodernejší operačný systém pre stolové počítače a servery
 leap_micro_ovw_title: Leap Micro je mimoriadne spoľahlivý, nenáročný operačný systém
   vytvorený pre kontajnerizované a virtualizované pracovné zaťaženia.
-leap_micro_ovw_desc_p2: Leap Micro ponúka offline obraz. Hlavný rozdiel medzi offline
-  a samoinštalačnými/surovými obrazmi je ten, že offline obraz má inštalátor. Surový
-  a samoinštalačný umožňuje prispôsobenie cez customization alebo ručne v obraze po
-  jeho zapísaní na disk. K dispozícii je možnosť pre real-time jadro.
+leap_micro_ovw_desc_p2: Leap Micro od verzie 6.0 ponúka samoinštalačný obraz, surový
+  obraz a DVD balíkov, ktoré môže slúžiť ako offline repozitár. Samoinštalačný obraz
+  je naše odporúčanie pre akúkoľvek inštaláciu založenú na USB, pretože už nepoužívame
+  tradičné inštalátory. Používatelia môžu automatizovať a prispôsobiť svoju inštaláciu
+  pomocou <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> alebo
+  <a href="https://github.com/openSUSE/combustion">Combustion</a> alebo pomocou sprievodcu
+  jeos-firstboot. Vyskúšajte <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a> náš online generátor konfigurácie Ignition.
 tumbleweed_ovw_desc: So systémom Tumbleweed nemusíte robiť ťažké rozhodnutia o veciach,
   ktoré si ceníte, či už ide o voľnosť alebo bezpečnosť, kontrolu alebo zabezpečenie,
   technológiu alebo stabilitu --Tumbleweed vám umožňuje mať svoj koláč a zároveň ho
   aj jesť!
-leap_micro_ovw_desc_p1: Táto komunitná verzia je založená na systéme SUSE Linux Enterprise
-  Micro, ktorý využíva podnikové posilnené komponenty zabezpečenia a zhody systému
-  SUSE Linux Enterprise. Toto zlúčenie technológií poskytuje modernú, nemennú a vývojársky
-  prívetivú platformu operačného systému.
+leap_micro_ovw_desc_p1: Táto komunitná verzia je založená na systéme SUSE Linux Micro,
+  ktorý využíva podnikové posilnené komponenty zabezpečenia a zhody systému SUSE Linux
+  Enterprise. Toto zlúčenie technológií poskytuje modernú, nemennú a vývojársky prívetivú
+  platformu operačného systému.
 leap_micro_ovw_desc_p3: Vyskúšajte Leap Micro vo VM bežiacich buď na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   alebo KVM. Ak používate Raspberry Pi alebo iný System on Chip hardvér, môžete použiť
-  predkonfigurovaný obraz spolu s funkciou <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  pre štartovací proces. Predkonfigurované aj samoinštalovateľné obrazy sú určené
-  na použitie s  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  zapísaným
-  na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri akomkoľvek prvom spustení,
-  s možnosťou predvolených zmien chránených heslom.
+  predkonfigurovaný obraz. Predkonfigurované aj samoinštalovateľné obrazy sú určené
+  na použitie s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  zapísaným na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri akomkoľvek
+  prvom spustení, s možnosťou predvolených zmien chránených heslom.
 leap_micro_ovw_video_desc: Ukážka Short Leap Micro inštalácie s combustion a cockpit.
 microos_ovw_title: Micro Service OS poskytujúci transakčné ((atomické) aktualizácie
   na koreňovom súborovom systéme btrfs určenom len na čítanie
@@ -433,3 +437,5 @@ microos_ovw_desc_p3: Vyskúšajte MicroOS vo VM bežiacich buď na <a href="http
   na použitie s  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  zapísaným
   na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri akomkoľvek prvom spustení,
   s možnosťou predvolených zmien chránených heslom.
+packages_image_desc: Médiá obsahujúce offline repozitár s balíkmi.
+packages_image: Obraz balíkov
