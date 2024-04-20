@@ -32,7 +32,7 @@ upgrade_table__mac_usb: Hur man skapar ett bootbart USB minne med OS X.
 verify_download_checksums_help: Hjälp för kontrollsummor
 yast_software: Programvara
 index_desktop: Skrivbord
-site_copyright: © 2023 openSUSE bidragsgivare
+site_copyright: © 2024 openSUSE bidragsgivare
 iso_image: ISO avbild
 network_image: Nätverksavbild
 xen_image: XEN
@@ -359,14 +359,15 @@ installation_p1: "openSUSE-installationsprocessen ger dig alla alternativ\ndu sk
   på det sättet istället. Har du inte\nfysisk tillgång till maskinen? Anslut till
   installationsprogrammet på distans och\ngå vidare med installationen. Det är så
   enkelt.\n"
-choosing_media_micro_p2: "Offline ISO-avbilden bör användas av de som behöver anpassad
-  partitionering.\n"
-choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för alla
-  som inte behöver anpassad partitionering och kan starta från USB.\nEn enkel självinstallationsguide
-  dumpar en förkonfigurerad avbild till enheten och utökar partitionen till diskens
-  storlek.\n<br>\nAnvändare med Raspberry Pi och liknande utan usbuppstarts stöd kan
-  direkt skriva den förkonfigurerade avbilden till SD-kortet.\nAnvändare som vill
-  ha mer kontroll över implementeringen rekommenderas att använda <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+choosing_media_micro_p2: "Leap Micro kommer inte längre med ett traditionellt installationsprogram,
+  användare ska använda självinstallationsmedia istället.\nDen nya paketavbilden är
+  bara en offlinedump av Leap Micro rpm-förråd för de med isolerade miljöer.\n"
+choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för USB
+  eller DVD-baserade installationer.\nEn enkel självinstallationsguide dumpar en förkonfigurerad
+  avbild till enheten och utökar partitionen till diskens storlek.\n<br>\nAnvändare
+  med Raspberry Pi och liknande utan usbuppstarts stöd kan direkt skriva den förkonfigurerade
+  avbilden till SD-kortet.\nAnvändare som vill ha mer kontroll över implementeringen
+  rekommenderas att använda <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a>.\n<br>\nEn demo av en combustionbaserad implementering kan ses <a
   href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">här</a>.\n<br>\nJeos-firstboot
   kommer att hälsa dem som inte har konfigurerat sitt system genom att använda Combustion.\n"
@@ -380,15 +381,13 @@ tumbleweed_ovw_desc: Med Tumbleweed behöver du inte ta svåra beslut om saker d
   - Tumbleweed låter dig ha din kaka och äta den också!
 leap_micro_ovw_desc_p3: Prova Leap Micro i Virtuella maskiner antingen <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   eller KVM. Användning av en Raspberry Pi eller annan System on Chip-hårdvara kan
-  använda den förkonfigurerade avbilden tillsammans med <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>-funktionen
-  för uppstartsprocessen . Både förkonfigurerade och självinstallerade avbilder är
-  avsedda att användas med <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  använda den förkonfigurerade avbilden. Både förkonfigurerade och självinstallerade
+  avbilder är avsedda att användas med <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   skrivet till en USB, som drivs för att tillåta konfiguration vid första uppstart,
   med möjlighet för standard lösenordsskyddade ändringar.
-leap_micro_ovw_desc_p1: Den här gemenskapsversionen är baserad på SUSE Linux Enterprise
-  Micro, vilket utnyttjar de förstärkta säkerhets och efterlevnadskomponenterna för
-  SUSE Linux Enterprise. Denna sammanslagning av teknologier ger en modern, oföränderlig
+leap_micro_ovw_desc_p1: Den här gemenskapsversionen är baserad på SUSE Linux Micro,
+  vilket utnyttjar de förstärkta säkerhets och efterlevnadskomponenterna för SUSE
+  Linux Enterprise. Denna sammanslagning av teknologier ger en modern, oföränderlig,
   och utvecklarvänlig OS-plattform.
 microos_ovw_desc_p2: MicroOS erbjuder en offlineavbild. Huvudskillnaden mellan offline
   och självinstallations/råavbilden är att offline avbildningen har ett installationsprogram.
@@ -410,10 +409,14 @@ leap_ovw_desc: Leap använder källkod från SUSE Linux Enterprise (SLE), vilket
 tumbleweed_ovw_title: Toppmodernt operativsystem för stationära datorer och servrar
 leap_micro_ovw_title: Leap Micro är ett extremt pålitligt, lättviktigt operativsystem
   byggt för containeriserade och virtualiserade arbetsbelastningar.
-leap_micro_ovw_desc_p2: Leap Micro erbjuder en offlineavbild. Huvudskillnaden mellan
-  offline och självinstallations/råavbilden är att offline avbildningen har ett installationsprogram.
-  Rå och självinstallation möjliggör anpassning via combustion eller manuellt av avbilden
-  efter att den skrivits till disken. Det finns ett alternativ för en realtidskärna.
+leap_micro_ovw_desc_p2: Leap Micro erbjuder sedan 6.0 en självinstallationsavbildning,
+  en råavbildning och en paket-DVD som kan fungera som ett offlineförråd. Självinstallationsavbilden
+  är vår rekommendation för alla USB-baserade installationer eftersom vi inte längre
+  använder traditionella installatörer. Användare kan automatisera och anpassa sin
+  installation med antingen <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
+  eller <a href="https://github.com/openSUSE/combustion">Combustion</a> eller genom
+  att använda jeos-firstboot guiden. Gör ett försök med <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a> våran online generator för Ignition.
 leap_micro_ovw_video_desc: En kort Leap Micro installationsdemo med combustion och
   cockpit.
 microos_ovw_title: OS för mikrotjänster tillhandahåller transaktionsuppdateringar
@@ -423,3 +426,5 @@ microos_ovw_desc_p1: Designat för att vara värd för containerarbetsbelastning
   får du en snabb, liten miljö för att distribuera behållare eller någon annan arbetsbelastning
   som drar nytta av transaktionsuppdateringar. Som rullande releasedistribution är
   mjukvaran alltid uppdaterad.
+packages_image: Paketavbild
+packages_image_desc: Media som innehåller ett offlineförråd med paket.
