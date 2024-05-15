@@ -48,7 +48,7 @@ index_desktop: Su darbalaukiu
 s390x: IBM zSystems ir LinuxONE (s390x)
 server_leapmicro_p2: Ypač patikima, maža operacinė sistema, pritaikyta konteineriams
   ir virtualizuotiems darbams.
-site_copyright: © 2023 openSUSE talkininkai
+site_copyright: © 2024 openSUSE talkininkai
 requirements_hdd_root: / (šakniniame) skaidinyje
 iso_image: ISO atvaizdis
 offline_updated_image: Atnaujintas atvaizdis diegimui be tinklo
@@ -322,16 +322,16 @@ software_p1: "Jei tektų pereiti per visas internetines svetaines, kad susirinkt
   visą programinę įrangą, \nkurios jums galėtų prireikti, būtų labai daug darbo. Internetinis
   programinės įrangos centras\npalengvina šią užduotį, nes į jį programinė įranga
   iš daugybės šaltinių pateikiama vienoje \nvietoje.\n"
-choosing_media_micro_p1: "Tiems, kuriems nereikia savito diskų skaidymo ir kurie gali
-  paleisti kompiuterį iš USB laikmenos, rekomenduojame naudoti naująjį savaiminio
-  diegimo atvaizdį.\nTaip diegiant paprastas savaiminio diegimo vediklis į diską iškopijuoja
-  iš anksto sukonfigūruoto atvaizdžio turinį ir padidina skaidinį iki disko dydžio.\n
-  <br>\nJei turite „Raspberry Pi“ ar panašų įrenginį, kuris neturi galimybės paleisti
-  USB, iš anksto sukonfigūruotą atvaizdį galite įrašyti tiesiai į SD kortelę.\nNaudotojams,
-  kurie norėtų labiau kontroliuoti diegimą, siūloma galimybę naudoti <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
-  >Combustion</a>.\n<br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"\
-  https://www.youtube.com/watch?v=ft8UVx9elKc\">čia</a>.\n<br>\nBe to, naudotojams,
-  nesukonfigūravusiems savo sistemoje naudoti \"Combustion\", bus paraginta „jeos-firstboot“.\n"
+choosing_media_micro_p1: "Naująjį savaiminio diegimo atvaizdį gali naudoti diegimui
+  iš USB arba DVD laikmenos.\nTaip diegiant paprastas savaiminio diegimo vediklis
+  į diską iškopijuoja iš anksto sukonfigūruoto atvaizdžio turinį ir padidina skaidinį
+  iki disko dydžio.\n <br>\nJei turite „Raspberry Pi“ ar panašų įrenginį, kuris neturi
+  galimybės paleisti USB, iš anksto sukonfigūruotą atvaizdį galite įrašyti tiesiai
+  į SD kortelę.\nNaudotojams, kurie norėtų labiau kontroliuoti diegimą, siūloma galimybę
+  naudoti <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
+  <br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >čia</a>.\n<br>\nBe to, naudotojams, nesukonfigūravusiems savo sistemoje naudoti
+  \"Combustion\", bus paraginta „jeos-firstboot“.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_net_conn: Visapusiškas ryšys tarp visų klasterio kompiuterių
 requirements_net_mac: Unikalus kiekvieno mazgo kompiuterio vardas ir MAC adresas
@@ -354,3 +354,5 @@ yast_p1: "Vienas didžiausių sistemos konfigūravimo įrankių padeda jums – 
   \nkonfigūravimo scenarijų ar įvesti abejotinų komandų tam, kad sistema būtų \nsuderinta
   taip, kaip jums reikia.\n"
 selfinstall_rt_image: Savaime įsidiegiantis RealTime atvaizdis
+packages_image_desc: Laikmena su paketais, kurią galite kaip saugyklą neturėdami interneto
+packages_image: Paketų atvaizdis
