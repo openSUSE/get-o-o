@@ -252,8 +252,8 @@ jeos_info: 最小化虚拟机映像。对于 Arm JeOS 映像，请转到 <a href
   维基页面</a>
 selfinstall_image: 自安装映像
 selfinstall_rt_image: 自安装的实时映像
-preconfigured_image: 预配置映像 （原始）
-preconfigured_rt_image: 预配置的实时映像（原始）
+preconfigured_image: 预配置映像 (原始)
+preconfigured_rt_image: 预配置的实时映像 (原始)
 live_info: "请注意 Live 映像的以下限制：\n* 它们不应用于安装或升级。请改用安装媒体\n* 它们所含的软件包和驱动有限，因而不能准确反映该发行版能否在你的硬件上正常工作\n
   * 内核和 initrd 不能更新，所以它们不应作为永久安装使用\n"
 selfinstalling_images: 自安装映像
@@ -270,7 +270,7 @@ choosing_media_micro_p1: "采用 USB 或 DVD 进行安装的用户应首选新�
 choosing_media_micro_p2: "Leap Micro 不再附带传统安装程序，用户应改为使用自安装介质。\n新的软件包映像仅为 Leap Micro
   rpm 软件源的离线转储，适用于具备网络隔离环境的用户。\n"
 minimal_vm_images: 最小化虚拟机
-preconfigured_qcow_image: 预配置映像 （qcow）
+preconfigured_qcow_image: 预配置映像 (qcow)
 kvm_sdboot_image: 配备 systemd-boot 的 KVM 映像
 minimal_vm_info: 此映像与 SUSE Linux Enterprise Server 的最小化虚拟机映像类似。 对于 Arm JeOS 映像，请转到
   <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 维基页面</a>
