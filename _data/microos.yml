@@ -19,6 +19,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-MicroOS-DVD-x86_64-Current.iso.sha256.asc"
     - name: selfinstalling_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso"
@@ -27,6 +29,8 @@ downloads:
         url: "/tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/iso/openSUSE-MicroOS.x86_64-ContainerHost-SelfInstall.iso.sha256.asc"
   - name: aarch64
     types:
     - name: iso_image
@@ -39,6 +43,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-MicroOS-DVD-aarch64-Current.iso.sha256.asc"
   - name: ppc64le
     types:
     - name: iso_image
@@ -51,6 +57,8 @@ downloads:
         url: "/ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso.sha256"
+      - name: signature
+        url: "/ports/ppc/tumbleweed/iso/openSUSE-MicroOS-DVD-ppc64le-Current.iso.sha256.asc"
 - name: vm_images
   arches:
   - name: x86_64
@@ -65,6 +73,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen.qcow2.sha256.asc"
     - name: kvm_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2"
@@ -75,6 +85,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-kvm-and-xen.qcow2.sha256.asc"
     - name: kvm_sdboot_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2"
@@ -85,6 +97,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-kvm-and-xen-sdboot.qcow2.sha256.asc"
     - name: virtualbox_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz"
@@ -95,6 +109,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VirtualBox.vdi.xz.sha256.asc"
     - name: vmware_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz"
@@ -105,6 +121,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmdk.xz.sha256.asc"
     - name: vmware_vmx_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx"
@@ -115,6 +133,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.sha256.asc"
     - name: vmware_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz"
@@ -125,6 +145,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk.xz.sha256.asc"
     - name: vmware_vmx_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx"
@@ -135,6 +157,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.sha256.asc"
     - name: vagrant_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box"
@@ -145,6 +169,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box.sha256.asc"
     - name: vagrant_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box"
@@ -155,6 +181,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-Vagrant.box.sha256.asc"
     - name: hyperv_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz"
@@ -165,6 +193,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: hyperv_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz"
@@ -175,6 +205,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-MS-HyperV.vhdx.xz.sha256.asc"
   - name: aarch64
     types:
     - name: kvm_image
@@ -187,6 +219,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-kvm-and-xen.qcow2.sha256.asc"
     - name: kvm_ch_image
       desc: microos_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2"
@@ -197,6 +231,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-kvm-and-xen.qcow2.sha256.asc"
     - name: vagrant_image
       desc: microos_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box"
@@ -207,6 +243,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Vagrant.box.sha256.asc"
     - name: vagrant_ch_image
       desc: microos_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box"
@@ -217,6 +255,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Vagrant.box.sha256.asc"
 - name: cloud_images
   arches:
   - name: x86_64
@@ -231,6 +271,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-OpenStack-Cloud.qcow2.sha256.asc"
     - name: openstack_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2"
@@ -241,6 +283,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-OpenStack-Cloud.qcow2.sha256.asc"
 - name: hardware_images
   arches:
   - name: aarch64
@@ -255,6 +299,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-RaspberryPi.raw.xz.sha256.asc"
     - name: rpi_ch_image
       desc: microos_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz"
@@ -265,6 +311,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-RaspberryPi.raw.xz.sha256.asc"
     - name: pine_image
       desc: microos_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz"
@@ -275,6 +323,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-Pine64.raw.xz.sha256.asc"
     - name: pine_ch_image
       desc: microos_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz"
@@ -285,6 +335,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-MicroOS.aarch64-ContainerHost-Pine64.raw.xz.sha256.asc"
   - name: armv7l
     types:
     - name: rpi_image
@@ -297,3 +349,5 @@ downloads:
         url: "/ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz?mirrorlist"
       - name: checksum
         url: "/ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz.sha256"
+      - name: signature
+        url: "/ports/armv7hl/tumbleweed/appliances/openSUSE-MicroOS.armv7l-RaspberryPi2.raw.xz.sha256.asc"

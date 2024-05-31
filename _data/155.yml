@@ -22,6 +22,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-x86_64-Media.iso.torrent"
     - name: network_image
@@ -34,6 +36,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-x86_64-Media.iso.torrent"
   - name: aarch64
@@ -48,6 +52,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-aarch64-Media.iso.torrent"
     - name: network_image
@@ -60,6 +66,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-aarch64-Media.iso.torrent"
   - name: ppc64le
@@ -74,6 +82,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-ppc64le-Media.iso.torrent"
     - name: network_image
@@ -86,6 +96,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-ppc64le-Media.iso.torrent"
   - name: s390x
@@ -100,6 +112,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-DVD-s390x-Media.iso.torrent"
     - name: network_image
@@ -112,6 +126,8 @@ downloads:
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.5/iso/openSUSE-Leap-15.5-NET-s390x-Media.iso.torrent"
 - name: minimal_vm_images
@@ -130,6 +146,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-kvm.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_desc
       primary_link: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz"
@@ -140,6 +158,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: cloud_image
       short: cloud_minimal_desc
       primary_link: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-Cloud.qcow2"
@@ -150,6 +170,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.aarch64-Cloud.qcow2.sha256.asc"
   - name: x86_64
     types:
     - name: kvm_image
@@ -162,6 +184,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_desc
       primary_link: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz"
@@ -172,6 +196,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: vmware_image
       short: vmware_desc
       primary_link: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz"
@@ -182,6 +208,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-VMware.vmdk.xz.sha256.asc"
     - name: cloud_image
       short: cloud_minimal_desc
       primary_link: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2"
@@ -192,6 +220,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/openSUSE-Leap-15.5-Minimal-VM.x86_64-Cloud.qcow2.sha256.asc"
 - name: live_images
   display: desktop
   info: live_info
@@ -207,6 +237,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-x86_64-Media.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-x86_64-Media.iso"
       links:
@@ -216,6 +248,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-x86_64-Media.iso.sha256.asc"
     - name: xfce_cd
       primary_link: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-x86_64-Media.iso"
       links:
@@ -225,6 +259,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-x86_64-Media.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-x86_64-Media.iso"
       links:
@@ -234,6 +270,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-x86_64-Media.iso.sha256.asc"
   - name: aarch64
     types:
     - name: gnome_cd
@@ -245,6 +283,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-GNOME-Live-aarch64-Media.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-aarch64-Media.iso"
       links:
@@ -254,6 +294,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-KDE-Live-aarch64-Media.iso.sha256.asc"
     - name: xfce_cd
       primary_link: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-aarch64-Media.iso"
       links:
@@ -263,6 +305,8 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-XFCE-Live-aarch64-Media.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-aarch64-Media.iso"
       links:
@@ -272,3 +316,5 @@ downloads:
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.5/appliances/iso/openSUSE-Leap-15.5-Rescue-CD-aarch64-Media.iso.sha256.asc"

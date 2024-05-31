@@ -22,6 +22,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-x86_64-Current.iso.torrent"
     - name: network_image
@@ -34,6 +36,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-x86_64-Current.iso.torrent"
   - name: aarch64
@@ -48,6 +52,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-aarch64-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-aarch64-Current.iso"
@@ -58,6 +64,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-Current-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-Current-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-Current-aarch64-Media.iso.sha256.asc"
   - name: ppc64le
     types:
     - name: offline_image
@@ -70,6 +78,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-ppc64le-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Current.iso"
@@ -80,6 +90,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-ppc64le-Current.iso.sha256.asc"
   - name: s390x
     types:
     - name: offline_image
@@ -92,6 +104,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-s390x-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-s390x-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-DVD-s390x-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x-Current.iso"
@@ -102,6 +116,8 @@ downloads:
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x-Current.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x-Current.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/iso/openSUSE-Leap-15.3-NET-s390x-Current.iso.sha256.asc"
 - name: jeos_images
   info: jeos_info
   display: server
@@ -118,6 +134,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-kvm-and-xen.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_desc
       primary_link: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.xz"
@@ -128,6 +146,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: vmware_image
       short: vmware_desc
       primary_link: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-VMware.vmdk.xz"
@@ -138,6 +158,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-VMware.vmdk.xz?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-VMware.vmdk.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-VMware.vmdk.xz.sha256.asc"
     - name: openstack_image
       short: openstack_desc
       primary_link: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-OpenStack-Cloud.qcow2"
@@ -148,6 +170,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-OpenStack-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/openSUSE-Leap-15.3-JeOS.x86_64-OpenStack-Cloud.qcow2.sha256.asc"
 - name: live_images
   display: desktop
   info: live_info
@@ -163,6 +187,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-GNOME-Live-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-GNOME-Live-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-GNOME-Live-x86_64-Media.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-x86_64-Media.iso"
       links:
@@ -172,6 +198,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-x86_64-Media.iso.sha256.asc"
     - name: xfce_cd
       primary_link: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-x86_64-Media.iso"
       links:
@@ -181,6 +209,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-x86_64-Media.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-x86_64-Media.iso"
       links:
@@ -190,6 +220,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-x86_64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-x86_64-Media.iso.sha256.asc"
   - name: aarch64
     types:
     - name: gnome_cd
@@ -201,6 +233,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-GNOME-Live-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-GNOME-Live-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-GNOME-Live-aarch64-Media.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-aarch64-Media.iso"
       links:
@@ -210,6 +244,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-KDE-Live-aarch64-Media.iso.sha256.asc"
     - name: xfce_cd
       primary_link: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-aarch64-Media.iso"
       links:
@@ -219,6 +255,8 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-XFCE-Live-aarch64-Media.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-aarch64-Media.iso"
       links:
@@ -228,3 +266,5 @@ downloads:
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/15.3/appliances/iso/openSUSE-Leap-15.3-Rescue-CD-aarch64-Media.iso.sha256.asc"

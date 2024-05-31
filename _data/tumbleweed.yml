@@ -20,6 +20,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-Tumbleweed-DVD-x86_64-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso"
@@ -30,6 +32,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-Tumbleweed-NET-x86_64-Current.iso.sha256.asc"
   - name: i686
     types:
     - name: offline_image
@@ -42,6 +46,8 @@ downloads:
         url: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso.sha256"
+      - name: signature
+        url: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-DVD-i586-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso"
@@ -52,6 +58,8 @@ downloads:
         url: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso.sha256"
+      - name: signature
+        url: "/ports/i586/tumbleweed/iso/openSUSE-Tumbleweed-LegacyX86-NET-i586-Current.iso.sha256.asc"
   - name: aarch64
     types:
     - name: offline_image
@@ -64,6 +72,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-DVD-aarch64-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso"
@@ -74,6 +84,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-NET-aarch64-Current.iso.sha256.asc"
   - name: ppc64le
     types:
     - name: offline_image
@@ -86,6 +98,8 @@ downloads:
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.sha256"
+      - name: signature
+        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64le-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso"
@@ -96,6 +110,8 @@ downloads:
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso.sha256"
+      - name: signature
+        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64le-Current.iso.sha256.asc"
   - name: s390x
     types:
     - name: offline_image
@@ -108,6 +124,8 @@ downloads:
         url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-DVD-s390x-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-DVD-s390x-Current.iso.sha256"
+      - name: signature
+        url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-DVD-s390x-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso"
@@ -118,6 +136,8 @@ downloads:
         url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256"
+      - name: signature
+        url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256.asc"
   - name: ppc64
     types:
     - name: offline_image
@@ -130,6 +150,8 @@ downloads:
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso"
@@ -140,6 +162,8 @@ downloads:
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256.asc"
 - name: minimal_vm_images
   display: server
   info: minimal_vm_info
@@ -156,6 +180,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256.asc"
     - name: kvm_sdboot_image
       short: kvm_minimal_desc
       primary_link: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen-sdboot.qcow2"
@@ -166,6 +192,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen-sdboot.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen-sdboot.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-kvm-and-xen-sdboot.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_minimal_desc
       primary_link: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz"
@@ -176,6 +204,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: vmware_image
       short: vmware_minimal_desc
       primary_link: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz"
@@ -186,6 +216,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.xz.sha256.asc"
     - name: cloud_image
       short: cloud_minimal_desc
       primary_link: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2"
@@ -196,6 +228,8 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2.sha256.asc"
   - name: server_aarch64
     types:
     - name: kvm_image
@@ -208,6 +242,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm-and-xen.qcow2?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm-and-xen.qcow2.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-kvm-and-xen.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_minimal_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz"
@@ -218,6 +254,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: cloud_image
       short: cloud_minimal_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2"
@@ -228,6 +266,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2.sha256.asc"
 - name: live_images
   display: desktop
   info: live_info
@@ -243,6 +283,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-x86_64-Current.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso"
       links:
@@ -252,6 +294,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-x86_64-Current.iso.sha256.asc"
     - name: xfce_cd
       primary_link: "/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso"
       links:
@@ -261,6 +305,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-x86_64-Current.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso"
       links:
@@ -270,6 +316,8 @@ downloads:
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso?mirrorlist"
       - name: checksum
         url: "/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-x86_64-Current.iso.sha256.asc"
   - name: aarch64
     types:
     - name: gnome_cd
@@ -281,6 +329,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-GNOME-Live-aarch64-Current.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso"
       links:
@@ -290,6 +340,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-KDE-Live-aarch64-Current.iso.sha256.asc"
     - name: xfce_cd
       primary_link: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso"
       links:
@@ -299,6 +351,8 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-XFCE-Live-aarch64-Current.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso"
       links:
@@ -308,3 +362,5 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.sha256"
+      - name: signature
+        url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.sha256.asc"
