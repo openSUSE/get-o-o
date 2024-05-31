@@ -13,6 +13,7 @@ usb_desc: For USB stick
 metalink: Metalink
 pick_mirror: Pick Mirror
 checksum: Checksum
+signature: Signature
 torrent_file: Torrent File
 offline_updated_image: Updated Offline Image
 offline_image: Offline Image
@@ -168,9 +169,9 @@ verify_download_p1: "Many applications can verify the checksum of a download. To
   your download can be important as it verifies you really have got the\nISO file\
   \ you wanted to download and not some broken version.\n"
 verify_download_p2: |
-  For each ISO, we offer a checksum file with the corresponding SHA256 sum.
+  For each ISO, we offer a checksum file with the corresponding SHA256 sum, and a signature file with a cryptographic signature.
 verify_download_p3: |
-  For extra security, you can use sha256sum to verify who signed those .sha256 files. 
+  To ensure integrity of the downloaded file you can use sha256sum to verify the checksum, and gpgv to verify the cryptographic signature.
 verify_download_pubkey: It should be
 verify_download_help: For more help verifying your download please read
 verify_download_checksums_help: Checksums Help
