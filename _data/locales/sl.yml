@@ -1,1 +1,278 @@
-{}
+openstack_image: OpenStack-Cloud
+openstack_ch_image: Gostitelj vsebnika OpenStack-Cloud
+virtualbox_image: VirtualBox
+installation_images: Namestitveni
+ports_images: Prenosi
+jeos_images: JeOS
+jeos_info: Minimalni odtisi za navidezne računalnike. Za odtise JeOS za ARM obiščite
+  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki stran
+  Arm</a>
+minimal_vm_images: Minimalni navidezni računalniki
+server_aarch64: 64-bitni strežniki in plošče UEFI ARM (aarch64)
+server_x86_64: 64-bitni strežniki AMD ali Intel (x86_64)
+live_images: Žive
+vm_images: Navidezni računalniki
+cloud_images: Oblak
+cloud_image: Odtis za oblak
+cloud_minimal_desc: Minimalni odtis KVM in Xen s cloud-init
+hardware_images: Strojna oprema
+gnome_cd: ŽiviCD GNOME
+kde_cd: ŽiviCD KDE
+xfce_cd: ŽiviCD Xfce
+rescue_cd: Reševalni ŽiviCD
+software: Pridobivanje programov ne more biti lažje
+software_p1: "Iskanje programov, ki jih potrebujete, po različnih spletnih straneh\n
+  je zamudno in zahteva veliko dela. Središče za programsko opremo\nna spletu to zelo
+  poenostavi. Programi z raznih koncev so zbrani\nna enem mestu.\n"
+software_get: Pridobite programe
+transactional: Transakcijski strežnik
+yast: YaST, najboljša izbira za ~~zahtevnega~~ uporabnika
+yast_p1: "En izmed najboljših orodij za nastavljanje sistema pomaga vam, uporabniku,\n
+  da nastavite vsak posamezni aspekt sistema. Ni vam več potrebno urejati\nvelikega
+  števila nastavitvenih skriptov ali vnašati dvomljivih ukazov, da bi\nsistem nastavili,
+  kot potrebujete.\n"
+yast_firewall: Požarni zid
+yast_fonts: Pisave
+yast_hardware: Strojna oprema
+yast_partitioner: Razdeljevanje diska
+yast_printer: Tiskalnik
+yast_scanner: Optični bralnik
+yast_sound: Zvok
+yast_software: Programska oprema
+zypper: Zypper, vaš novi najljubši upravljalnik paketov
+index: Distribucije openSUSE
+index_p1: Za namizje, delovno postajo, strežnik in vse vmes
+index_desktop: Namizje
+index_desktop_p1: Nabor distribucij za uporabo namizja
+index_server: Strežnik
+index_server_p1: Nabor distribucij za strežniško uporabo
+desktop: Distribucije openSUSE za namizje
+desktop_p1: "Dve distribuciji, ki vladata vsem (sedaj v zelenem!)\n"
+desktop_tumbleweed_p2: Kotaleča izdaja z najnovejšimi paketi projekta openSUSE.
+desktop_leap_p1: Za sistemske skrbnike, razvijalce v podjetjih, in »navadne« uporabnike
+  namizja
+desktop_leap_p2: Redna izdaja s koristmi od razvoja za potrebe podjetij in inovacij
+  iz razvoja s strani skupnosti.
+server: Strežniške distribucije openSUSE
+server_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in navdušence
+  nad Linux-om ter FOSS-om
+server_tumbleweed_p2: Kotaleča izdaja z najnovejšimi paketi projekta openSUSE.
+server_leap_p2: Redna izdaja s koristmi od razvoja za potrebe podjetij in inovacij
+  iz razvoja s strani skupnosti.
+server_microos_p1: Za eno-namenske strežniške aplikacije
+server_microos_p2: Zasnovana za gostovanje vsebnikov z avtomatizirano administracijo
+  in uveljavljanjem poravkov
+server_leapmicro_p1: Za rob, vgrajene sisteme, IoT in druge uvedbe
+new_version_testing: $distro_name je sedaj na voljo za prejem in preizkušanje
+new_version_available: $distro_name je sedaj na voljo za prejem
+view_distro: Oglejte si $distro_name
+x86_64: 64-bitni namizni računalniki, prenosniki in strežniki AMD ali Intel (x86_64)
+aarch64: 64-bitni strežniki, namizni računalniki, prenosniki in plošče UEFI ARM (aarch64)
+armv7l: 32-bitni strežniki, namizni računalniki, prenosniki in plošče UEFI ARM (armv7l)
+ppc64: Strežniki PowerPC, veliki konec (ppc64)
+s390x: IBM zSystems in LinuxONE (s390x)
+overview: Pregled
+download: Prejem
+alternative_downloads: Alternativni prejemi
+MicroOS_features:
+  idea:
+    name: Filozofija
+pick_mirror: Izberite zrcalni strežnik
+live_info: "Zavedajte se naslednjih omejitev živih odtisov:\n* Niso namenjeni za namestitev
+  ali nadgradnjo. Za to uporabite namestitvene nosilce.\n* Vsebujejo omejen nabor
+  paketov in gonilnikov in ne predstavljajo pravega stanja podprtosti strojne opreme.\n
+  * Jedra in initrd ni moč posodobiti in zato niso primerni za stalno namestitev.\n"
+requirements_dvd_desc: Pogon DVD ali priključek USB za namestitveni nosilec
+tw_switch_p1: "Če že uporabljate openSUSE, lahko opravite nadgradnjo z zagonom z DVD-ja\n
+  ali USB-ja in izborom nadgradnje. Z nekaj ukazi lahko izvedete tudi\n»Internetno
+  nadgradnjo«.\n"
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+selfinstall_image: Samo-namestilni odtis
+snapper: Se je sistem okvaril? To ni več težava
+site_description: Izvedite o distribucijah openSUSE in jih prenesite brezplačno
+openstack_desc: Za poganjanje navideznih računalnikov v OpenStack
+choosing_media_p1: "Običajno je priporočljiv Ne-omrežni odtis, ker vsebuje večino
+  razpoložljivih\npaketov distribucije in med nameščanjem ne potrebuje omrežne povezave.\n"
+upgrade_table_windows_usb: Kako ustvariti ključek USB, ki se da zagnati, na Windows-ih.
+preconfigured_rt_image: Pred-nastavljen odtis RealTime (surov)
+desktop_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in navdušence
+  nad Linux-om ter FOSS-om
+ppc64le: Strežniki PowerPC, mali konec (ppc64le)
+alternative_downloads_desc: Imamo tudi odtise $options. Oglejte si $alternative_downloads!
+offline_desc: "Vsebuje ogromno zbirko programske opreme za namizno in strežniško uporabo.\n
+  Primerno za namestitev in nadgradnjo.\n"
+hyperv_desc: Za poganjanje navideznih računalnikov na MS HyperV
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+preconfigured_qcow_image: Pred-nastavljen odtis (qcow)
+selfinstall_rt_image: Samo-namestilni odtis RealTime
+transactional_p1: "Namestilnik sedaj ponuja novo vlogo Transakcijski strežnik, ki
+  je rezultat\nprojekta openSUSE Kubic. Ta sistemska vloga ponuja nov sistem\nposodabljanja,
+  ki posodobitve uveljavi atomično (kot eno operacijo) in\nomogoča njihovo hitro razveljavitev,
+  če je to potrebno. Te zmožnosti\ntemeljijo na orodjih za upravljanje paketov, na
+  katere se zanašajo vse\ndruge distribucije openSUSE in SUSE. To pomeni, da velika
+  večina paketov,\nki delujejo z drugimi sistemskimi vlogami distribucij openSUSE,
+  deluje\ntudi s sistemsko vlogo Transakcijski strežnik.\n"
+server_leap_p1: Za sistemske skrbnike, razvijalce v podjetjih, in »navadne« uporabnike
+  namizja
+site_title_short: Dobite
+site_copyright: © 2024 ekipa openSUSE
+search: Iskanje
+translate: Prevajanje
+source_code: Izvorna koda
+license: Licenca
+learn_more: Izvedite več
+cd_desc: Za CD ali ključek USB
+dvd_desc: Za DVD ali ključek USB
+usb_desc: Za ključek USB
+metalink: Metalink
+checksum: Nadzorna vsota
+torrent_file: Datoteka torrent
+offline_updated_image: Posodobljen ne-omrežni odtis
+offline_image: Ne-omrežni odtis
+iso_image: Odtis ISO
+offline_updated_desc: "Ne-omrežni namestitveni odtis z najnovejšimi posodobitvami.\n
+  Primerno za namestitev in nadgradnjo.\n"
+network_image: Omrežni odtis
+selfinstalling_images: Samo-namestilni odtisi
+selfinstalling_ch_image: Samo-namestilni gostitelj vsebnika
+selfinstalling_k3s_image: Samo-namestilni gostitelj k3s
+kvm_image: Odtis KVM in XEN
+kvm_sdboot_image: Odtis KVM s systemd-boot
+kvm_ch_image: Gostitelj vsebnika KVM in XEN
+kvm_desc: Za uporabo v hipervizorjih KVM ali XEN HVM
+xen_image: XEN
+xen_desc: Za uporabo v hipervizorjih XEN PV
+hyperv_image: Odtis MS HyperV
+hyperv_ch_image: Gostitelj vsebnika MS HyperV
+vmware_image: Odtis VMware
+vmware_ch_image: Gostitelj vsebnika VMware
+vmware_desc: Za poganjanje navideznih računalnikov v VMware
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: Gostitelj vsebnika VMware VMX
+vagrant_image: Vagrant
+vagrant_ch_image: Gostitelj vsebnika Vagrant
+rpi_image: RaspberryPi
+rpi_ch_image: Gostitelj vsebnika RaspberryPi
+pine_image: Pine64
+microos_desc: Operacijski sistem, ki temelji na openSUSE Tumbleweed in ponuja transakcijske
+  (atomične) posodobitve na korenski datotečni sistem btrfs, ki je samo za branje
+choosing_media: Izbiranje nosilcev za prejemanje
+choosing_media_p2: "Omrežni odtis priporočamo uporabnikom, ki imajo omejen prenos\n
+  podatkov prek internetne povezave. Prejeti bodo samo paketi, ki jih\nboste izbrali
+  za namestitev in to bo verjetno manj kot 4,7 GiB.\n"
+choosing_media_micro_p2: "Leap Micro ne prihaja več s tradicionalnim namestilnikom.
+  Uporabnikom priporočamo samo-namestilne\nnosilce. Novi odtis s paketi je samo brez-omrežna
+  kopija vira paketov RPM za Leap Micro. Namenjen je\nuporabnikom z izoliranim okoljem.\n"
+documentation: Dokumentacija
+documentation_startup_guide: Začetni vodnik za openSUSE
+documentation_release_notes: Opombe o izdaji
+documentation_license: Licenca
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: Polna dokumentacija
+leap_switch: Preprosti načini za prehod na openSUSE Leap
+leap_switch_p1: "Če že uporabljate openSUSE, lahko opravite nadgradnjo z zagonom z
+  DVD-ja\nali USB-ja in izborom nadgradnje. Z nekaj ukazi lahko izvedete tudi\n»Internetno
+  nadgradnjo«.\n"
+leap_switch_instructions: Navodila za internetno nadgradnjo.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: Sistemske zahteve
+requirements_min: Najmanjše
+requirements_rec: Priporočene
+requirements_cpu: CPE
+requirements_cpu_desc: 2 GHz procesor z dvema jedroma ali boljši
+requirements_mem: Pomnilnik
+requirements_mem_desc: $value fizičnega RAM-a + dodatni pomnilnik glede na uporabo
+requirements_hdd: Disk
+requirements_hdd_desc: Več kot 40 GiB prostora na disku
+requirements_hdd_root: Razdelek / (korenski)
+requirements_hdd_var: Razdelek /var
+requirements_hdd_size_desc: $value prostora na disku
+requirements_hdd_swap_info: Izmenjalni prostor izklopljen, da Kubernetes deluje pravilno
+requirements_hdd_ssd_info: SSD z visoko hitrostjo zapisovanja
+requirements_net: Omrežje
+requirements_net_desc: Omrežni dostop pomaga in je za omrežni namestilnik obvezen
+requirements_net_conn: Polna povezljivost med računalniki v gruči
+requirements_net_mac: Edinstveno ime gostitelja in strojni naslov za vsako vozlišče
+tw_switch: Preprosti načini za prehod na openSUSE Tumbleweed
+tw_switch_instructions: Navodila za nadgradnjo.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: S starejše različice ali druge distribucije GNU/Linux
+upgrade_table_windows: Z Windows
+upgrade_table_mac: Z OS X
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: Kako zapisatu DVD na Windows-ih.
+upgrade_table_mac_dvd: Kako zapisati DVD na OS X-u.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Kako ustvariti ključek USB, ki se da zagnati, na GNU/Linux-u.
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: Kako ustvariti ključek USB, ki se da zagnati, na OS X-u.
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: Pred uporabo preverite prejeto
+verify_download_p2: "Za vsak odtis ISO ponujamo datoteko z ustrezno nadzorno vsoto
+  SHA256.\n"
+verify_download_p3: "Za dodatno varnost lahko v konzoli uporabite program sha256sum
+  in preverite tudi podpis teh datotek .sha256. \n"
+verify_download_pubkey: Moralo bi biti
+verify_download_help: Za dodatno pomoč pri preverjanju prejetega si preberite
+verify_download_checksums_help: Pomoč glede nadzornih vsot
+desktops: Veliko namiznih okolij, tri privzeta
+installation: Namestite po svojih željah
+points_transparent: Vse je transparentno
+points_free: Svobodna programska oprema? Vaša izbira
+points_free_p1: "Paketi v distribucijah so razdeljeni v vire s prosto in ne-prosto\n
+  programsko opremo. Ali ne želite uporabljati ne-svobodnih\npaketov? Preprosto lahko
+  onemogočite ne-prosti vir. Izbira je vaša.\n"
+points_welcoming: Prispevki so dobrodošli
+points_welcoming_p1: "Po najboljših močeh se trudimo ustreči skupnosti in to je možno
+  storiti le,\nko skupnost na glas izrazi svoje želje in potrebe. Zato zagotavljamo,
+  da je\nprispevanje kar se da preprosto.\n"
+preconfigured_image: Pred-nastavljen odtis (surov)
+site_title: Pridobite openSUSE
+network_desc: "Namestilni sistem in vse pakete prenese iz internetnih virov.\nPrimerno
+  za namestitev ali nadgradnjo.\n"
+pine_ch_image: Gostitelj vsebnika Pine64
+packages_image: Odtis s paketi
+packages_image_desc: Nosilec, ki vsebuje ne-omrežni vir s paketi.
+ports_info: "Prenose openSUSE Leap na arhitekture, ki niso v osebnih računalnikih,\n
+  vzdržujejo ločene ekipe skupnosti z omejenimi viri.\n"
+minimal_vm_info: Podobno odtisom SUSE Linux Enterprise Server Minimal-VM. Za odtise
+  JeOS za ARM obiščite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki
+  stran Arm</a>
+verify_download_p1: "Nadzorno vsoto prejetega lahko preverite z več programi. Preverjanje\n
+  prejetega je pomembno, saj ste tako lahko prepričani, da imate res\ncelovito datoteko
+  ISO in da ni pokvarjena.\n"
+installation_p1: "Postopek nameščanja openSUSE vam ponuja vse možnosti, ki bi jih\n
+  lahko želeli. Ali želite namestiti sistem z miško in tipkovnico? Zaženite\nnamestilnik
+  v grafičnem načinu. Miške nimate pri roki? Zaženite\nnamestitev v besedilnem načinu.
+  Ali morda nimate fizičnega dostopa\ndo računalnika? Z namestilnikom se povežite
+  na daljavo in nadaljujte\nnamestitev. Tako preprosto je.\n"
+choosing_media_micro_p1: "Novi odtis za samo-nameščanje je prva izbira za namestitve
+  z USB-ja ali DVD-ja.\nPreprost čarovnik za samo-nameščanje pred-nastavljen odtis
+  odloži na disk in razdelek poveča na velikost diska.\n<br>\nUporabniki z Raspberry
+  Pi in podobnimi brez podpore za zagon z USB-ja, lahko pred-nastavljen odtis zapišejo
+  na krtico SD.\nUporabnikom, ki želijo več nadzora nad namestitvijo, priporočamo
+  uporabo <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
+  <br>\nPrikaz namestitve na osnovi Combustion si lahko ogledate <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >tukaj</a>.\n<br>\nTe, ki sistema niso nastavili z uporabo Combustion, bo pozdravil
+  jeos-firstboot.\n"
+upgrade_table_linux_dvd: Kako zapisati DVD na GNU/Linux-u.
+desktops_p1: "Postopek prispevanja k openSUSE opolnomoči razvoj namiznih okolij za\n
+  vsakogar. V namestilniku imate možnost izbrati svojega priljubljenega.\nDejavno
+  ponujamo tri namizna okolja, ostala pa so na voljo v razširjenem\nprikazu namestilnika.\n"
+server_p1: "Štiri udobno dolgočasne distribucije, kakor bi vedno moralo biti\n"
+snapper_p1: "Zmožnost posnetkov datotečnega sistema ohranja celovitost datotečnega\n
+  sistema z rednimi varnostnimi kopijami, ki se samodejno ustvarijo pri\nnameščanju
+  in posodabljanju programov. Preprosto zaženite sistem iz\nstarejšega posnetka in
+  povrnite sistem na delujoče stanje v nekaj minutah.\n"
+points_transparent_p1: "Od začetka do konca ima vsak paket, ki je del distribucij,
+  na voljo vso\nizvorno kodo in skripti za grajenje. Vse je prosto dostopno vsem.\n
+  Ali dvomite v izvor? Preverite ga na storitvi za gradnjo.\n"
+zypper_p1: "Hitro in preprosto se ga naučite. Ponuja zypper-apt, plast za\nzdružljivost
+  z ukazi apt in apt-get. Temelji na libsolv, kar zagotavlja\ntako hitrost kot tudi
+  ponovljivo razreševanje odvisnosti. Vmesnik je\njasen in primerno obarvan za lažje
+  branje. Perfekten je, kaj drugega reči?\n"
+index_full: Ali pa se odpravite naravnost na stran za prejemanje distribucij
+server_leapmicro_p2: Ultra-zanesljiv, lahek operacijski sistem, zgrajen za uporabo
+  v vsebnikih in navideznih računalnikih.
+i686: 32-bitni namizni računalniki, prenosniki in strežniki AMD ali Intel (i686)
