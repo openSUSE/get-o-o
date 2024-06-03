@@ -77,6 +77,42 @@ alternative_downloads: Alternativni prejemi
 MicroOS_features:
   idea:
     name: Filozofija
+    description: "### Je predvidljiv\n* Se ne spreminja med delovanjem\n* Bo ob vsakem
+      zagonu konsistentno zagnal iste komponente\n\n### Je skalabilen\n* Odpravi trud
+      za nastavljanje posameznih instanc med delovanjem\n* Ga je možno dati v uporabo
+      preprosto vsakič znova s predvidljivim izidom\n\n### Je zanesljiv\n* Samodejno
+      obnavljanje po posodobitvah z napakami\n"
+  update:
+    name: Atomične posodbitve
+    description: "###  Transakcije posodobitve\n\n#### Edinstven\nMicroOS z uporabo
+      btrfs in posnetkov uporablja prostorsko zelo\nučinkovit način za shranjevanje
+      zgodovine datotečnega sistema.\nVse nastavitvene datoteke v `/etc` so del posnetka
+      in povrnitve.\n\n#### Prilagodljiv\n* Nov format paketov ni potreben, uporablja
+      standardne RPM-je openSUSE\n* Brez omejitev velikosti za razdelke in za operacijski
+      sistem\n* Preprost za izboljševanje\n"
+  shield:
+    name: Povrnitev
+    description: "### MicroOS je nespremenljiv operacijski sistem, povrnitev je preprosta\n
+      * Nespremenljiv: brez sprememb na disku\n* Povrnitev s ponovnim zagonom na starejši
+      posnetek btrfs\n"
+  key:
+    name: Varne posodobitve
+    description: "* Posodobitve dobite prek HTTPS\n* Paketi in viri so podpisani s
+      strani našega sistema za gradnjo\n* Paketi so preverjeni\n* V primeru sporov
+      odvisnosti se ne izvede nobena posodobitev\n* Brez potrate prostora: posnetki
+      datotečnega sistema se v primeru neuspelih posodobitev izbrišejo\n"
+  work:
+    description: "Programi se namestijo v vsebnike in ne v korenski datotečni sistem:\n
+      * Izolirano od jedrnega sistema\n* Zmanjšana možnost škodljivih programov, da
+      bi okvarili sistem\n* Nova namestitev brez ponovnega zagona\n* Možna atomična
+      posodobitev (ustvari novo, ubij staro)\n* Preprosta povrnitev\n"
+    name: Uporabe
+  tool:
+    name: Razhroščevanje
+    description: "### Vsebnik z naborom orodij za razhroščevanje\n* Zažene privilegiran
+      vsebnik\n* Korenski datotečni sistem na voljo pod `/media/root`\n* Zypper za
+      namestitev potrebnih orodij, na voljo brez ponovnega zagona\n* Obstojen med
+      uporabami\n"
 pick_mirror: Izberite zrcalni strežnik
 live_info: "Zavedajte se naslednjih omejitev živih odtisov:\n* Niso namenjeni za namestitev
   ali nadgradnjo. Za to uporabite namestitvene nosilce.\n* Vsebujejo omejen nabor
@@ -276,3 +312,75 @@ index_full: Ali pa se odpravite naravnost na stran za prejemanje distribucij
 server_leapmicro_p2: Ultra-zanesljiv, lahek operacijski sistem, zgrajen za uporabo
   v vsebnikih in navideznih računalnikih.
 i686: 32-bitni namizni računalniki, prenosniki in strežniki AMD ali Intel (i686)
+Tumbleweed_features:
+  shield:
+    description: "Zgrajen iz zadnjih izdaj jedra Linux, z vključenimi najnovejšimi
+      popravki za pomanjkljivosti procesorjev (Spectre/Meltdown), s privzeto vključenim
+      požarnim zidom in močnimi varnostnimi pravili. Za vašo varnost je poskrbljeno
+      od začetka.\n"
+    name: Varen
+  knife:
+    description: "Prejmete pogoste posodobitve, ki ne samo odpravljajo pomanjkljivosti
+      in popravljajo napake, ampak tudi prinašajo najnovejše zmožnosti in sledijo
+      razvoju. Na primer nove različice jedra Linux, najnovejše gonilnike in nove
+      različice namiznih okolij in programov.\n"
+    name: Vodilni rob
+  update:
+    description: "Namestite ga enkrat in uživate za vedno. Ni vam več potrebno skrbeti,
+      da bi vsakih šest mesecev ogromna sistemska nadgradnja onesposobila sistem.\n"
+    name: Kar naprej posodobljen
+  home:
+    description: "Posodobitve so temeljito preizkušene po najvišjih standardih kakovosti.
+      Izkoriščajo prednosti storitve za gradnjo, ki nam jo druge distribucije GNU/Linux
+      zavidajo. Ne samo da je vsaka nova posamezna različica paketa preizkušena, ampak
+      so različni skupki različic preizkušeni tudi med sabo, kar zagotavlja notranjo
+      konsistenco sistema.\n"
+    name: Stabilen
+  user:
+    name: Preprost za uporabo
+    description: "Z enim samim ukazom lahko posodobite tisoče paketov, povrnete stanje
+      na posnetek iz prejšnjega tedna, se spet hitro premaknete naprej in celo preizkusite
+      prihodnje izdaje.\n"
+  cpu:
+    name: Lepo sodeluje z vašo strojno opremo
+    description: "Zahvaljujoč najnovejšim različicam programja in temeljitemu preizkušanju,
+      Tumbleweed sodeluje z vašo strojno opremo in napravami kot redko katera distribucija
+      GNU/Linux. Zato je odličen za uporabo na delovnih postajah, prenosnikih in podobno.\n"
+  key:
+    description: "Če bi se slučajno pripetilo kaj neželenega, lahko kadarkoli povrnete
+      stanje na prejšnje delujoče in najdete datoteke in programe kot so bili pred
+      težavno posodobitvijo.\n"
+    name: Zanesljiv
+  power:
+    name: Zmogljiv
+    description: "Z izkoriščanjem tehnologij po katerih je openSUSE dobro znan; na
+      primer datotečnem sistemu `btrfs`, orodju `snapper` za ukazno vrstico in dodobra
+      preizkušenemu »nadzornemu središču« YaST; vas Tumbleweed opolnomoči s popolnim
+      nadzorom nad vašim računalnikom. Omogoča vam nastaviti želene nastavitve in
+      ni vam več potrebno skrbeti, da bi sistem prekinjal vaš potek dela.\n"
+  plant:
+    name: Stoji na trdni tleh
+    description: "Tumbleweed gradi na desetletjih uporabe, preizkušanja in razhroščevanja
+      s strani stotine naprednih uporabnikov, razvijalcev, sistemskih skrbnikov in
+      zahtevnih ustvarjalcev, ki si ne morejo privoščiti, da bi kaj ogrozilo njihov
+      potek dela. Tumbleweed-ova trdnost je udejanjena v mnogih jedrnih paketih, ki
+      izhajajo iz spoštovanega SUSE Linux Enterprise Server.\n"
+  gamepad:
+    name: Igranje iger
+    description: "Tumbleweed uporabnikom ponuja najnovejšo programsko opremo za računalniške
+      igre. S hitrim razvojem Linuxove podpore za računalniške igre je to pomemben
+      aspekt tekoče in zmogljive izkušnje v vaših najbolj priljubljenih igrah.\n"
+leap_ovw_title: Povsem nov način gradnje openSUSE in nova vrsta hibridne distribucije
+  GNU/Linux
+tumbleweed_ovw_title: Višek razvoja operacijskih sistemov za namizje in strežnik
+tumbleweed_ovw_desc: 'S Tumbleweed vam ni potrebno sprejemati težkih odločitev glede
+  stvari, ki jih cenite: svoboda ali zanesljivost, nadzor ali varnost, tehnologija
+  ali stabilnost – Tumbleweed vam omogoča, da hkrati imate torto in da jo pojeste!'
+leap_micro_ovw_title: Leap Micro je ultra-zanesljiv, lahek operacijski sistem, ki
+  je zgrajen za uporabe v vsebnikih in navideznih računalnikih.
+leap_micro_ovw_video_desc: Kratka predstavitev namestitve Leap Micro s Combustion
+  in Cockpit.
+leap_ovw_desc: Leap uporablja izvorno kodo iz SUSE Linux Enterprise (SLE), kar Leap
+  daje stopnjo stabilnosti, ki je druge distribucije GNU/Linux ne dosegajo. To združuje
+  z razvojem iz skupnosti in tako uporabnikom, razvijalcem in sistemskim skrbnikom
+  ponuja najboljšo stabilno izkušnjo.
