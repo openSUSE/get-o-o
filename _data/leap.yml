@@ -8,6 +8,8 @@
     state: 'Beta'
   - date: '2024-04-25 12:00:00 UTC'
     state: 'RC'
+  - date: '2024-06-12 12:00:00 UTC'
+    state: 'Stable'
 - version: 15.5
   order: 8
   releases:
@@ -19,6 +21,8 @@
     state: 'RC'
   - date: '2023-06-07 12:00:00 UTC'
     state: 'Stable'
+  - date: '2024-12-31 12:00:00 UTC'
+    state: 'EOL'
 - version: 15.4
   order: 7
   releases:
@@ -30,6 +34,8 @@
     state: 'RC'
   - date: '2022-06-08 12:00:00 UTC'
     state: 'Stable'
+  - date: '2023-12-31 12:00:00 UTC'
+    state: 'EOL'
 - version: 15.3
   order: 6
   releases:
