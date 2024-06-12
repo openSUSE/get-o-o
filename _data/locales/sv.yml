@@ -428,3 +428,4 @@ microos_ovw_desc_p1: Designat för att vara värd för containerarbetsbelastning
   mjukvaran alltid uppdaterad.
 packages_image: Paketavbild
 packages_image_desc: Media som innehåller ett offlineförråd med paket.
+leap_156_ovw_video_desc: En Leap 15.6-släpp liveström
