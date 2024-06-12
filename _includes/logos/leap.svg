@@ -1,1 +1,67 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 256 256"><path d="m127.62 50.574l-68.639 53.484 68.258 52.34 68.639-53.486-68.258-52.338zm76.025 66.475l-76.406 59.342-76.025-58.195-18.211 14.262 95.383 72.969 94.617-73.605-19.357-14.771z"/></svg>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   fill="currentColor"
+   version="1.1"
+   viewBox="0 0 256 256"
+   id="svg234"
+   sodipodi:docname="leap.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <defs
+     id="defs238" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1796"
+     inkscape:window-height="897"
+     id="namedview236"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:zoom="2.2483786"
+     inkscape:cx="236.17449"
+     inkscape:cy="134.75119"
+     inkscape:window-x="241"
+     inkscape:window-y="32"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg234">
+    <sodipodi:guide
+       position="110.74647,0.70491689"
+       orientation="0,-1"
+       id="guide285" />
+    <sodipodi:guide
+       position="138.76667,219.97404"
+       orientation="0,-1"
+       id="guide287" />
+    <sodipodi:guide
+       position="128.31469,206.40871"
+       orientation="1,0"
+       id="guide289" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata230">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     d="m 128,36 a 6.9370185,6.9370185 0 0 0 -4.57885,2.005044 L 47.12206,114.30412 a 6.9370185,6.9370185 0 0 0 0,9.80789 l 76.29909,76.29906 a 6.9370185,6.9370185 0 0 0 9.80788,0 l 76.29909,-76.29906 a 6.9370185,6.9370185 0 0 0 0,-9.80789 L 133.22903,38.005044 A 6.9370185,6.9370185 0 0 0 127.99964,36 Z m 0.32517,16.717363 66.49116,66.491147 -66.49116,66.49117 -66.491168,-66.49117 z M 45.089806,160.82157 v 6.93627 a 6.9362785,6.9362785 0 0 0 2.032242,4.90413 l 76.299082,76.29908 a 6.9370185,6.9370185 0 0 0 9.8079,0 l 76.29909,-76.29908 a 6.9362785,6.9362785 0 0 0 2.03201,-4.90413 6.9362785,6.9362785 0 0 0 0,-0.32514 v -6.61106 h -6.93624 a 6.9362785,6.9362785 0 0 0 -4.90406,2.0321 l -71.39466,71.39465 -71.39465,-71.39465 a 6.9362785,6.9362785 0 0 0 -4.904217,-2.00502 v -0.0271 z"
+</svg>
