@@ -385,3 +385,41 @@ leap_ovw_desc: Leap uporablja izvorno kodo iz SUSE Linux Enterprise (SLE), kar L
   z razvojem iz skupnosti in tako uporabnikom, razvijalcem in sistemskim skrbnikom
   ponuja najboljšo stabilno izkušnjo.
 leap_156_ovw_video_desc: Prenos v živo ob izidu Leap 15.6
+microos_ovw_desc_p3: Poskusite MicroOS v navideznih računalnikih, ki tečejo na <a
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali KVM. Za Raspberry
+  Pi ali drugo strojno opremo sistem-na-čipu lahko uporabite v naprej pripravljen
+  odtis skupaj s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  za zagonski postopek. Oba odtisa, v naprej pripravljen in samo-namestitveni, sta
+  mišljena za uporabo s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  zapisanim na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo zaščite
+  spreminjanja s privzetim geslom.
+leap_micro_ovw_desc_p1: Ta različica od skupnosti je osnovana na SUSE Linux Micro,
+  ki vključuje preizkušene komponente varnosti in skladnosti iz SUSE Linux Enterprise.
+  Ta združitev tehnologij ustvari moderno, nespremenljivo in razvijalcem prijazno
+  okolje operacijskega sistema.
+leap_micro_ovw_desc_p2: Leap Micro od različice 6.0 dalje ponuja samo-namestitven
+  odtis, surov odtis in DVD s paketi, ki lahko služi kot vir brez omrežne povezave.
+  Za nameščanje z USB priporočamo odtis za samo-namestitev, ker tradicionalnih namestilnikov
+  ne uporabljamo več. Uporabniki lahko namestitev avtomatizirajo in prilagodijo z
+  <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ali <a href="https://github.com/openSUSE/combustion">Combustion</a>
+  ali pa z uporabo čarovnika jeos-firstboot. Poskusite lahko tudi <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a>, naš spletni ustvarjalnik nastavitev za Ignition.
+microos_ovw_title: OS z mikro-storitvami, ki ponuja transakcijske (atomične) posodobitve
+  na korenski datotečni sistem btrfs samo za branje
+microos_ovw_desc_p1: Zasnovan je kot gostitelj delovnih nalog prek vsebnikov, z avtomatizirano
+  administracijo in uveljavljanjem popravkov. Z namestitvijo openSUSE MicroOS dobite
+  hitro in malo okolje za uvedbe vsebnikov ali druge delovne naloge, katerim koristijo
+  transakcijske posodobitve. Ker je to distribucija s »kotalečimi izdajami«, je programska
+  oprema vedno najnovejša.
+microos_ovw_desc_p2: MicroOS ponuja odtis brez omrežne povezave. Glavna razlika med
+  njim in odtisom za samo-namestitev ali surovim odtisom je, da ima odtis brez omrežne
+  povezave vključen namestilnik. Surovi in samo-namestitveni odtis omogočata prilagajanje
+  s Combustion ali ročno, ko je odtis zapisan na disk. Na voljo je možnost za realno-časovno
+  jedro.
+leap_micro_ovw_desc_p3: Poskusite Leap Micro v navideznih računalnikih, ki tečejo
+  na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali KVM. Za Raspberry
+  Pi ali drugo strojno opremo sistem-na-čipu lahko uporabite v naprej pripravljen
+  odtis. Oba odtisa, v naprej pripravljen in samo-namestitveni, sta mišljena za uporabo
+  s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> zapisanim
+  na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo zaščite spreminjanja
+  s privzetim geslom.
