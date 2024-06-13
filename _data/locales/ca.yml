@@ -458,3 +458,4 @@ microos_ovw_desc_p2: El MicroSO ofereix una imatge fora de línia. La principal 
   al disc. Hi ha una opció per a un nucli en temps real.
 packages_image: Imatge de paquets
 packages_image_desc: Mitjans que contenen un repositori fora de línia amb paquets.
+leap_156_ovw_video_desc: Una emissió en directe del llançament del Leap 15.6
