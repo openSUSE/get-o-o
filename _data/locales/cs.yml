@@ -1,7 +1,7 @@
 site_title: Získat openSUSE
 site_title_short: Získat
 site_description: Zjistěte více o distribucích openSUSE a stáhněte si je zdarma
-site_copyright: © 2022 přispěvatelé openSUSE
+site_copyright: © 2024 přispěvatelé openSUSE
 search: Hledat
 translate: Přeložit
 source_code: Zdrojový kód
@@ -15,11 +15,11 @@ pick_mirror: Zvolit zrcadlo
 checksum: Kontrolní součet
 torrent_file: Soubor Torrent
 offline_image: Offline obraz
-offline_desc: "Obsahuje velkou sbírku softwaru pro použití na ploše nebo serveru.\n\
+offline_desc: "Obsahuje velkou sbírku softwaru pro použití na ploše nebo serveru.\n
   Vhodné pro instalaci nebo upgrade.\n"
 network_image: Síťový obraz
-network_desc: "Stáhne instalační systém a všechny balíčky z online\núložiště. Vhodné\
-  \ pro instalaci nebo upgrade.\n"
+network_desc: "Stáhne instalační systém a všechny balíčky z online\núložiště. Vhodné
+  pro instalaci nebo upgrade.\n"
 kvm_image: Obraz KVM a XEN
 kvm_desc: Pro použití v hypervizorech KVM nebo XEN HVM
 xen_image: XEN
@@ -32,27 +32,26 @@ openstack_image: OpenStack-Cloud
 openstack_desc: Pro běh virtuálních strojů v OpenStack
 installation_images: Instalace
 ports_images: Přenosy
-ports_info: "Přenosy openSUSE Leap do jiných architektur než PC jsou\nudržovány samostatnými\
-  \ komunitními týmy s omezenými zdroji.\n"
+ports_info: "Přenosy openSUSE Leap do jiných architektur než PC jsou\nudržovány samostatnými
+  komunitními týmy s omezenými zdroji.\n"
 jeos_images: JeOS
 live_images: Live (živé)
 gnome_cd: GNOME LiveCD
 kde_cd: KDE LiveCD
 xfce_cd: Xfce LiveCD
 rescue_cd: Rescue (záchranný) LiveCD
-tumbleweed_live_info: "Uvědomte si prosím následující omezení živých obrazů:\n* Neměly\
-  \ by se používat k instalaci nebo upgradu Tumbleweed. Místo toho použijte [Tumbleweed\
-  \ médium](/tumbleweed)\n* Mají omezený výběr balíčků a ovladačů, takže je nelze\
-  \ považovat za přesný odraz toho, zda Tumbleweed bude na vašem\nhardwaru fungovat\
-  \ nebo ne\n"
+tumbleweed_live_info: "Uvědomte si prosím následující omezení živých obrazů:\n* Neměly
+  by se používat k instalaci nebo upgradu Tumbleweed. Místo toho použijte [Tumbleweed
+  médium](/tumbleweed)\n* Mají omezený výběr balíčků a ovladačů, takže je nelze považovat
+  za přesný odraz toho, zda Tumbleweed bude na vašem\nhardwaru fungovat nebo ne\n"
 microos_desc: OS založený na openSUSE Tumbleweed poskytující transakční (nedělitelné)
   aktualizace na kořenovém souborovém systému btrfs jen pro čtení
 choosing_media: Výběr média ke stažení
-choosing_media_p1: "Typicky se doporučuje DVD / USB Stick, protože obsahuje většinu\n\
+choosing_media_p1: "Typicky se doporučuje DVD / USB Stick, protože obsahuje většinu\n
   balíčků dostupných v distribuci a nevyžaduje při instalaci síťové připojení.\n"
-choosing_media_p2: "Síťové CD/USB paměť se doporučuje uživatelům, kteří mají omezenou\n\
-  šířku pásma připojení k internetu, protože pouze stáhne balíčky,\nkteré se rozhodnou\
-  \ nainstalovat, což pravděpodobně bude výrazně\nméně než 4,7 GB.\n"
+choosing_media_p2: "Síťové CD/USB paměť se doporučuje uživatelům, kteří mají omezenou\n
+  šířku pásma připojení k internetu, protože pouze stáhne balíčky,\nkteré se rozhodnou
+  nainstalovat, což pravděpodobně bude výrazně\nméně než 4,7 GB.\n"
 documentation: Dokumentace
 documentation_startup_guide: Průvodce spuštěním openSUSE
 documentation_release_notes: Poznámky k vydání
@@ -60,7 +59,7 @@ documentation_license: Licence
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Úplná dokumentace
 leap_switch: Snadné způsoby přechodu na openSUSE Leap
-leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n\
+leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n
   a výběrem upgrade, nebo proveďte 'Online upgrade\" několika málo příkazy.\n"
 leap_switch_instructions: Pokyny k upgradu online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
@@ -71,7 +70,7 @@ requirements_hd: Více než 40 GB volného místa na pevném disku
 requirements_dvd: Jednotka DVD nebo USB port pro instalační médium
 requirements_net: Přístup k internetu je užitečný a vyžaduje jej i síťový instalátor
 tw_switch: Snadné způsoby přechodu na openSUSE Tumbleweed
-tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n\
+tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n
   a výběrem upgrade, nebo proveďte „online upgrade“ několika málo příkazy.\n"
 tw_switch_instructions: Pokyny k upgradu.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
@@ -91,65 +90,65 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Jak vytvořit zaváděcí USB paměť v OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Před použitím ověřte ssprávnost staženého obrazu
-verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n\
-  si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a správný\
-  \ soubor ISO, který jste chtěli stáhnout.\n"
+verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n
+  si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a správný
+  soubor ISO, který jste chtěli stáhnout.\n"
 verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256.\n"
-verify_download_p3: "Pro větší zabezpečení můžete pomocí GPG ověřit, kdo tyto soubory\
-  \ .sha256 podepsal.\n"
+verify_download_p3: "Pro větší zabezpečení můžete pomocí GPG ověřit, kdo tyto soubory
+  .sha256 podepsal.\n"
 verify_download_pubkey: Mělo by to být
 verify_download_help: Další pomoc s ověřením správnosti stahování viz
 verify_download_checksums_help: Nápověda pro kontrolní součty
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Mnoho stolních počítačů, ve výchozím nastavení tři
-desktops_p1: "Příspěvkový systém openSUSE umožňuje vývoj desktopových systémů\npro\
-  \ každého, takže si v instalátoru můžete vybrat svůj oblíbený. Aktivně\nnabízíme\
-  \ tři desktopová prostředí a ještě více v rozšířeném zobrazení\nsoftwaru v instalátoru.\n"
+desktops_p1: "Příspěvkový systém openSUSE umožňuje vývoj desktopových systémů\npro
+  každého, takže si v instalátoru můžete vybrat svůj oblíbený. Aktivně\nnabízíme tři
+  desktopová prostředí a ještě více v rozšířeném zobrazení\nsoftwaru v instalátoru.\n"
 installation: Instalujte ho, jak ho chcete mít
-installation_p1: "Proces instalace openSUSE Vám poskytuje všechny možnosti, které\n\
-  byste mohli potřebovat. Chcete nainstalovat systém pomocí myši a\nklávesnice? Načtěte\
-  \ instalační program v grafickém režimu. Nemáte myš\npo ruce? Aktivujte terminálový\
-  \ klient a instalujte systém pomocí příkazů.\nNemáte fyzický přístup ke stroji?\
-  \ Připojte se k instalačnímu programu\nna dálku a instalujte systém vzdáleně. Tak\
-  \ jednoduché to je.\n"
+installation_p1: "Proces instalace openSUSE Vám poskytuje všechny možnosti, které\n
+  byste mohli potřebovat. Chcete nainstalovat systém pomocí myši a\nklávesnice? Načtěte
+  instalační program v grafickém režimu. Nemáte myš\npo ruce? Aktivujte terminálový
+  klient a instalujte systém pomocí příkazů.\nNemáte fyzický přístup ke stroji? Připojte
+  se k instalačnímu programu\nna dálku a instalujte systém vzdáleně. Tak jednoduché
+  to je.\n"
 points_transparent: Vše je transparentní
-points_transparent_p1: "Od začátku do konce: každý balíček, který jde do distribucí,\
-  \ má\nvšechny své zdroje a sestavovací skripty otevřeně viditelné všem.\nPochybujete\
-  \ o zdroji? Stačí zkontrolovat službu sestavení.\n"
+points_transparent_p1: "Od začátku do konce: každý balíček, který jde do distribucí,
+  má\nvšechny své zdroje a sestavovací skripty otevřeně viditelné všem.\nPochybujete
+  o zdroji? Stačí zkontrolovat službu sestavení.\n"
 points_free: Svobodný software? Vaše volba
-points_free_p1: "Balíčky v distribucích jsou ukládány buď do úložišť bezplatných,\n\
-  nebo nesvobodných balíčků. Nechcete použít nesvobodné balíčky?\nMůžete snadno deaktivovat\
-  \ nesvobodné úložiště. Je to Vaše volba.\n"
+points_free_p1: "Balíčky v distribucích jsou ukládány buď do úložišť bezplatných,\n
+  nebo nesvobodných balíčků. Nechcete použít nesvobodné balíčky?\nMůžete snadno deaktivovat
+  nesvobodné úložiště. Je to Vaše volba.\n"
 points_welcoming: Vítáme příspěvky
-points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,\
-  \ jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n\
+points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,
+  jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n
   bylo co nejjednodušší.\n"
 preconfigured_image: Předkonfigurovaný obraz
 preconfigured_rt_image: Předkonfigurovaný obraz s RealTime jádrem
 selfinstall_image: Konfigurovatelný instalační obraz
 selfinstall_rt_image: Konfigurovatelný instalační obraz s RealTime jádrem
 snapper: Systém se poškodil? Už žádný problém
-snapper_p1: "Funkce Snímky souborového systému udržuje váš souborový systém\npod kontrolou\
-  \ automatickým průběžným zálohováním při instalaci\nsoftwaru a aktualizacích. Stačí\
-  \ spustit systém z dřívějšího snímku\na uvést váš systém do funkčního stavu během\
-  \ několika minut.\n"
+snapper_p1: "Funkce Snímky souborového systému udržuje váš souborový systém\npod kontrolou
+  automatickým průběžným zálohováním při instalaci\nsoftwaru a aktualizacích. Stačí
+  spustit systém z dřívějšího snímku\na uvést váš systém do funkčního stavu během
+  několika minut.\n"
 software: Získání softwaru nemůže být snazší
-software_p1: "Mezi námi, muset projít všechny webové stránky a získat všechen\nsoftware,\
-  \ který možná budete potřebovat, dá hodně práce.\nSoftwarové centrum online velmi\
-  \ usnadňuje tento způsob\nzařazením softwaru z mnoha zdrojů na jediné místo.\n"
+software_p1: "Mezi námi, muset projít všechny webové stránky a získat všechen\nsoftware,
+  který možná budete potřebovat, dá hodně práce.\nSoftwarové centrum online velmi
+  usnadňuje tento způsob\nzařazením softwaru z mnoha zdrojů na jediné místo.\n"
 software_get: Získejte software
 transactional: Transakční server
-transactional_p1: "Instalační program nyní podporuje novou systémovou roli Transakční\n\
-  server, která je výsledkem úsilí openSUSE Kubic. Tato role představuje\nnový aktualizační\
-  \ systém, který pracuje atomicky (jako jediná operace)\na usnadňuje vrácení změn\
-  \ v případě neúspěchu. Funkce jsou založeny na\nnástrojích správy balíčků, na které\
-  \ se spoléhají všechny ostatní distribuce\nSUSE a openSUSE. To znamená, že drtivá\
-  \ většina RPM balíčků, které\nfungují s jiným systémem rolí distribucí openSUSE,\
-  \ také pracují se\nsystémovou rolí Transakční server.\n"
+transactional_p1: "Instalační program nyní podporuje novou systémovou roli Transakční\n
+  server, která je výsledkem úsilí openSUSE Kubic. Tato role představuje\nnový aktualizační
+  systém, který pracuje atomicky (jako jediná operace)\na usnadňuje vrácení změn v
+  případě neúspěchu. Funkce jsou založeny na\nnástrojích správy balíčků, na které
+  se spoléhají všechny ostatní distribuce\nSUSE a openSUSE. To znamená, že drtivá
+  většina RPM balíčků, které\nfungují s jiným systémem rolí distribucí openSUSE, také
+  pracují se\nsystémovou rolí Transakční server.\n"
 yast: YaST, nejlepší volba pro pokročilého uživatele ~~power user~~
-yast_p1: "Jeden z nejlepších nástrojů pro konfiguraci systému vám, uživateli,\npomůže\
-  \ nastavit každou vlastnost vašeho systému. Už nemusíte\nprocházet množstvím konfiguračních\
-  \ skriptů nebo zadávat pochybné\npříkazy, abyste nastavili systém, jak potřebujete.\n"
+yast_p1: "Jeden z nejlepších nástrojů pro konfiguraci systému vám, uživateli,\npomůže
+  nastavit každou vlastnost vašeho systému. Už nemusíte\nprocházet množstvím konfiguračních
+  skriptů nebo zadávat pochybné\npříkazy, abyste nastavili systém, jak potřebujete.\n"
 yast_firewall: Firewall
 yast_fonts: Fonty
 yast_hardware: Hardware
@@ -159,10 +158,10 @@ yast_scanner: Skener
 yast_sound: Zvuk
 yast_software: Software
 zypper: Zypper, váš nový a oblíbený správce balíčků
-zypper_p1: "Je rychlé a snadné se ho naučit. Poskytuje zypper-apt, kompatibilní\n\
-  vrstvu pro použití s příkazy apt a apt-get. Je založen na libsolv,\ncož zaručuje\
-  \ jak rychlost, tak reprodukovatelné řešení závislostí.\nRozhraní je jasné a vhodně\
-  \ barevné, například pro snadné čtení.\nJe perfektní, co dodat?\n"
+zypper_p1: "Je rychlé a snadné se ho naučit. Poskytuje zypper-apt, kompatibilní\n
+  vrstvu pro použití s příkazy apt a apt-get. Je založen na libsolv,\ncož zaručuje
+  jak rychlost, tak reprodukovatelné řešení závislostí.\nRozhraní je jasné a vhodně
+  barevné, například pro snadné čtení.\nJe perfektní, co dodat?\n"
 index: Distribuce openSUSE
 index_p1: Pro stolní počítač, server a vše mezi tím
 index_desktop: Stolní počítač
@@ -206,6 +205,20 @@ vagrant_image: Vagrant
 rpi_image: RaspberryPi
 pine_image: Pine64
 iso_image: ISO obraz
-offline_updated_desc: "Offline instalační obraz s nejnovějšími aktualizacemi.\nVhodný\
-  \ k instalaci nebo aktualizaci.\n"
+offline_updated_desc: "Offline instalační obraz s nejnovějšími aktualizacemi.\nVhodný
+  k instalaci nebo aktualizaci.\n"
 virtualbox_image: VirtualBox
+selfinstalling_images: Samoinstalační snímky
+selfinstalling_ch_image: Samoinstalační hostitel kontejneru
+selfinstalling_k3s_image: Samoinstalace hostitele k3s
+kvm_ch_image: Hostitelský kontejner KVM a XEN
+vmware_ch_image: Hostitelský kontejner VMware
+vmware_vmx_ch_image: Hostitelský kontejner VMware VMX
+packages_image_desc: Médium obsahující offline úložiště s balíčky.
+openstack_ch_image: Hostitelský kontejner OpenStack-Cloud
+packages_image: Snímek balíčků
+kvm_sdboot_image: Snímek KVM se systemd-boot
+hyperv_ch_image: Hostitelský kontejner MS HyperV
+vagrant_ch_image: Hostitelský kontejner Vagrant
+rpi_ch_image: Hostitelský kontejner RaspberryPi
+pine_ch_image: Hostitelský kontejner Pine64
