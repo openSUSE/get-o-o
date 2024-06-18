@@ -282,7 +282,7 @@ index_server_p1: Selection of distributions for server use
 index_full: Or go straight to the download pages for the distributions
 desktop: openSUSE Desktop Distributions
 desktop_p1: |
-  The two distributions to rule them all (now in green!)
+  The four distributions to rule them all (now in green!)
 desktop_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
   Enthusiasts
 desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
@@ -290,9 +290,15 @@ desktop_tumbleweed_p2: Rolling release with the latest packages provided by the 
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
 desktop_leap_p2: Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
+desktop_slowroll_p1: 
+desktop_slowroll_p2: 
+desktop_aeon_p1: 
+desktop_aeon_p2: 
+desktop_kalpa_p1: 
+desktop_kalpa_p2: 
 server: openSUSE Server Distributions
 server_p1: |
-  Four comfortably boring distributions, how it always should be
+  Five comfortably boring distributions, how it always should be
 server_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
   Enthusiasts
 server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
@@ -305,6 +311,8 @@ server_microos_p2: Designed to host container workloads with automated administr
   & patching
 server_leapmicro_p1: For edge, embedded, IoT and other deployments
 server_leapmicro_p2: Ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
+server_slowroll_p1: 
+server_slowroll_p2: 
 new_version_available: $distro_name is now available for download
 new_version_testing: $distro_name is now available for download and testing
 view_distro: View $distro_name
@@ -435,3 +443,7 @@ microos_ovw_title: Micro Service OS providing Transactional (Atomic) Updates upo
 microos_ovw_desc_p1: Designed to host container workloads with automated administration & patching. Installing openSUSE MicroOS you get a quick, small environment for deploying Containers, or any other workload that benefits from Transactional Updates. As rolling release distribution the software is always up-to-date.
 microos_ovw_desc_p2: MicroOS offers an offline image. The main difference between the offline and self-install/raw images are that the offline image has an installer. Raw and self-install allows for customization via combustion or manually in the image after it is written to the disk. There is an option for a real-time kernel.
 microos_ovw_desc_p3: Try MicroOS in VMs running on either <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> or KVM. Using a Raspberry Pi or other System on Chip hardware may use the preconfigured image together with the <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> functionality for the boot process. Both preconfigured and self-installed images are intended to be used with  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  written to a USB, which is driven to allow configuration on any first boot, with the option for default password protected changes.
+slowroll_ovw_title: 
+slowroll_ovw_desc: 
+kalpa_ovw_title: 
+kalpa_ovw_desc: 
