@@ -1,3 +1,4 @@
+---
 name: Leap Micro
 version: 5.5
 bg-color: leapmicro
@@ -12,94 +13,111 @@ downloads:
     types:
     - name: offline_image
       desc: dvd_desc
-      primary_link: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso
+      primary_link: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso.meta4
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso?mirrorlist
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso.sha256
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-x86_64-Media.iso.sha256.asc"
     - name: selfinstall_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso
+      primary_link: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.meta4
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.sha256
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.sha256.asc"
     - name: selfinstall_rt_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso
+      primary_link: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso.meta4
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso.sha256
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-RT-SelfInstall.iso.sha256.asc"
     - name: preconfigured_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz
+      primary_link: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.meta4
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256.asc"
     - name: preconfigured_qcow_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2
+      primary_link: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.meta4
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256
-
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256.asc"
   - name: aarch64
     types:
     - name: offline_image
       desc: dvd_desc
-      primary_link: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso
+      primary_link: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso.meta4
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso?mirrorlist
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso.sha256
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/product/iso/openSUSE-Leap-Micro-5.5-DVD-aarch64-Media.iso.sha256.asc"
     - name: selfinstall_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso
+      primary_link: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.meta4
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.sha256
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.sha256.asc"
     - name: preconfigured_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz
+      primary_link: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.meta4
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.sha256
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.sha256.asc"
     - name: preconfigured_qcow_image
       desc: kvm_desc
-      primary_link: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2
+      primary_link: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2"
       links:
       - name: metalink
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.meta4
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.meta4"
       - name: pick_mirror
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2?mirrorlist
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2?mirrorlist"
       - name: checksum
-        url: /distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap-micro/5.5/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256.asc"
