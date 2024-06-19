@@ -3,6 +3,8 @@
   releases:
   - date: '2024-04-12 12:00:00 UTC'
     state: 'Alpha'
+  - date: '2024-06-19 01:00:00 UTC'
+    state: 'Beta'
 
 - version: 5.5
   order:  4
