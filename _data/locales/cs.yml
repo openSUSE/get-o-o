@@ -222,3 +222,7 @@ hyperv_ch_image: Hostitelský kontejner MS HyperV
 vagrant_ch_image: Hostitelský kontejner Vagrant
 rpi_ch_image: Hostitelský kontejner RaspberryPi
 pine_ch_image: Hostitelský kontejner Pine64
+jeos_info: Minimální VM snímky. Snímky Arm JeOS najdete na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+  stránce Arm </a>
+minimal_vm_images: Minimální virtuální stroj
+signature: Podpis
