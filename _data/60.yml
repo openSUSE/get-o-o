@@ -30,6 +30,16 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256
+    - name: encrypted_image
+      desc: kvm_desc
+      primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw
+      links:
+      - name: metalink
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw.meta4
+      - name: pick_mirror
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw?mirrorlist
+      - name: checksum
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw.sha256
     - name: preconfigured_qcow_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2
