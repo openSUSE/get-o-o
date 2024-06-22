@@ -85,8 +85,8 @@ upgrade_table__mac_usb_link: https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建�
 verify_download: 请在使用前验证你下载的文件
 verify_download_p1: "许多程序都可以验证已下载文件的校验码。验证你下载的文件比较重要，\n因为它可以验证你是否真的获取到了你想要下载的 ISO
   文件而不是\n一些损坏的版本。\n"
-verify_download_p2: "针对每个 ISO，我们都提供了一个带有相应 SHA256 和的校验码文件。\n"
-verify_download_p3: "为了更高的安全性，你可以使用 sha256sum 验证谁签发了这些 .sha256 文件。 \n"
+verify_download_p2: "针对每个 ISO，我们都提供了一个带有相应 SHA256 和的校验码文件，以及一份含有加密签名的数字签名文件。\n"
+verify_download_p3: "为了确保已下载文件的完整性，你可以使用 sha256sum 验证校验和，同时可以使用 gpgv 验证加密签名文件。\n"
 verify_download_pubkey: 它应为
 verify_download_help: 更多验证下载的帮助请参阅
 verify_download_checksums_help: 校验码帮助
@@ -307,3 +307,6 @@ microos_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/
   功能使用，该功能允许在系统首次启动时执行自定义配置，同时还可更改部分默认由密码保护的选项。
 packages_image_desc: 包含离线软件源的媒体。
 packages_image: 软件包映像
+leap_156_ovw_video_desc: Leap 15.6 发布直播串流
+signature: 签名
+encrypted_image: 完全加密的磁盘映像 (raw)
