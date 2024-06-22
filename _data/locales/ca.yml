@@ -461,3 +461,4 @@ packages_image: Imatge de paquets
 packages_image_desc: Mitjans que contenen un repositori fora de línia amb paquets.
 leap_156_ovw_video_desc: Una emissió en directe del llançament del Leap 15.6
 signature: Signatura
+encrypted_image: Imatge de disc totalment encriptada (en cru)
