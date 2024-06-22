@@ -437,3 +437,4 @@ microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a href="https://ww
   geschreven naar een USB, die is gemaakt om configuratie te bieden bij elke eerste
   keer opstarten, met de standaard optie voor beschermde wijziging van het wachtwoord.
 signature: Ondetekening
+encrypted_image: Volledig versleutelde schijf-image (raw)
