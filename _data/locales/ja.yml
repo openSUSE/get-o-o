@@ -95,8 +95,9 @@ upgrade_table__mac_usb_link:
 verify_download: 使用する前に正しくダウンロードできたかどうかをご確認ください
 verify_download_p1: "アプリケーションによっては、ダウンロードしたファイルを検証する機能が提供されて\nいる場合があります。この機能を利用して正しくダウンロードできたことを確認する\n\
   ことで、インストール時の無駄なトラブルを事前に回避することができます。\n"
-verify_download_p2: "公開されている ISO ファイルに対して SHA256 チェックサムを提供しています。\n"
-verify_download_p3: "不正な改ざんを防ぐため、署名付きの sha256sum でファイルを検証することもできます。 \n"
+verify_download_p2: "それぞれの ISO ファイルに対して SHA256 チェックサムと電子署名ファイルが用意されています。\n"
+verify_download_p3: "ダウンロードの失敗や不正な改ざんが発生していないかどうかを確認するため、 sha256sum によるチェックサムの確認と、
+  gpgv による電子署名の確認をそれぞれ実施することができます。\n"
 verify_download_pubkey: '下記の電子指紋で署名しています:'
 verify_download_help: 'ダウンロードの検証方法についてさらに詳しく知りたい場合は、下記をお読みください:'
 verify_download_checksums_help: チェックサムのヘルプ
@@ -346,3 +347,6 @@ microos_ovw_desc_p3: 仮想マシン内で MicroOS を動作させる場合は�
   機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
 packages_image: パッケージイメージ
 packages_image_desc: パッケージを含むオフラインリポジトリのメディアです。
+signature: 署名
+leap_156_ovw_video_desc: Leap 15.6 リリースライブストリーム
+encrypted_image: 完全暗号化済みディスクイメージ (raw 形式)
