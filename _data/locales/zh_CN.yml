@@ -309,4 +309,4 @@ packages_image_desc: 包含离线软件源的媒体。
 packages_image: 软件包映像
 leap_156_ovw_video_desc: Leap 15.6 发布直播串流
 signature: 签名
-encrypted_image: 完全加密的磁盘映像 (raw)
+encrypted_image: 完全加密的磁盘映像 (原始)
