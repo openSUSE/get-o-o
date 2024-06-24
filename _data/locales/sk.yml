@@ -441,3 +441,4 @@ packages_image_desc: Médiá obsahujúce offline repozitár s balíkmi.
 packages_image: Obraz balíkov
 leap_156_ovw_video_desc: Priamy prenos vydania Leap 15.6
 signature: Podpis
+encrypted_image: Plne zašifrovaný obraz disku (raw)
