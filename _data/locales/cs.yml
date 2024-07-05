@@ -63,12 +63,12 @@ leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěn
   a výběrem upgrade, nebo proveďte 'Online upgrade\" několika málo příkazy.\n"
 leap_switch_instructions: Pokyny k upgradu online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Doporučené požadavky na systém
-requirements_cpu: 2 GHz dvoujádrový procesor nebo lepší
-requirements_mem: 2 GB systémové paměti
+requirements: Požadavky na systém
+requirements_cpu: CPU
+requirements_mem: Paměť
 requirements_hd: Více než 40 GB volného místa na pevném disku
 requirements_dvd: Jednotka DVD nebo USB port pro instalační médium
-requirements_net: Přístup k internetu je užitečný a vyžaduje jej i síťový instalátor
+requirements_net: Síť
 tw_switch: Snadné způsoby přechodu na openSUSE Tumbleweed
 tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n
   a výběrem upgrade, nebo proveďte „online upgrade“ několika málo příkazy.\n"
@@ -235,3 +235,28 @@ cloud_images: Cloud
 cloud_image: Obraz/snímek z Cloudu
 vm_images: Virtuální stroj
 encrypted_image: Plně šifrovaný obraz/snímek disku (raw)
+cloud_minimal_desc: Minimální KVM a Xen obraz inicializovaný z cloudu
+requirements_cpu_desc: dvoujádrový procesor 2 GHz nebo lepší
+requirements_hdd_root: / (kořenový) oddíl
+requirements_mem_desc: $value fyzické RAM a další paměť pro dané pracovní zatížení
+requirements_hdd: Úložiště
+requirements_hdd_desc: Přes 40 GB volného místa na pevném disku
+requirements_hdd_var: Oddíl /var
+hardware_images: Hardware
+choosing_media_micro_p2: "Leap Micro již není dodáván s tradičním instalačním programem,
+  uživatelé musí místo toho použít samoinstalační médium.\nNový obraz balíčků je pouze
+  offline výpis úložiště rpm Leap Micro pro uživatele s izolovaným prostředím.\n"
+requirements_rec: Doporučené
+requirements_hdd_size_desc: $value dostupného místa na disku
+requirements_hdd_ssd_info: SSD s vysokou rychlostí zápisu
+requirements_dvd_desc: Buď DVD mechanika nebo USB port pro instalační média
+requirements_net_desc: Přístup k internetu je užitečný a pro instalační program ze
+  sítě je nezbytný.
+requirements_hdd_swap_info: Odkládací prostor je zakázán, aby kubernetes fungoval
+  správně
+live_info: "Upozorňujeme na omezení živých obrazů/snímků:\n* Neměly by se používat
+  k instalaci nebo aktualizaci. Místo nich používejte instalační média.\n* Mají omezený
+  výběr balíčků a ovladačů, takže je nelze považovat za přesnou indikaci toho, zda
+  bude distribuce fungovat na vašem hardwaru, či nikoli.\n* Jádro a initrd nelze aktualizovat,
+  takže by se neměly používat jako trvalá instalace.\n"
+requirements_min: Minimální
