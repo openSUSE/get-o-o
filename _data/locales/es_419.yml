@@ -2,7 +2,7 @@ site_title: Obtener openSUSE
 site_title_short: Obtener
 site_description: Aprenda acerca de las distribuciones de openSUSE y descárguelas
   gratis
-site_copyright: © 2023 Colaboradores de openSUSE
+site_copyright: © 2024 Colaboradores de openSUSE
 search: Buscar
 translate: Traducir
 source_code: Código fuente
@@ -21,13 +21,13 @@ network_image: Imagen de red
 network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde
   repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
 checksum: Suma de comprobación
-kvm_image: KVM y XEN
+kvm_image: imagen KVM y XEN
 kvm_desc: Para uso en los supervisores KVM o XEN HVM
 xen_image: XEN
 xen_desc: Para uso en supervisores XEN PV
-hyperv_image: Microsoft HyperV
+hyperv_image: imagen MS HyperV
 hyperv_desc: Para ejecutar máquinas virtuales en Microsoft HyperV
-vmware_image: VMware
+vmware_image: imagen VMware
 vmware_desc: Para ejecutar máquinas virtuales en VMware
 openstack_desc: Para ejecutar máquinas virtuales en OpenStack
 installation_images: Instalación
@@ -47,13 +47,13 @@ tumbleweed_live_info: "Por favor, sea consciente de las siguientes limitaciones 
   una referencia precisa en cuanto a si Tumbleweed funcionará o no en su hardware.\n"
 microos_desc: Sistema operativo openSUSE Tumbleweed que proporciona actualizaciones
   transaccionales (Atomic) en un sistema de archivos raíz btrfs de solo lectura
-choosing_media_p1: "El DVD y USB son típicamente recomendados puesto que contienen
-  la mayor parte de \npaquetes disponibles en la distribución y no requieren una conexión
-  de red\ndurante la instalación.\n"
-choosing_media_p2: "Las imágenes CD/USB en línea son recomendadas para los/las usuarios/usuarias
-  que tienen un ancho de banda limitado de Internet, puesto que sólo descargará los
-  paquetes que ellos/ellas deseen instalar, que serían de un tamaño significativamente
-  más pequeño que 4.7 GB.\n"
+choosing_media_p1: "La imagen fuera de línea es típicamente recomendada puesto que
+  contienen la mayor parte de \nlos paquetes disponibles en la distribución y no requieren
+  una conexión de red\ndurante la instalación.\n"
+choosing_media_p2: "La imagen de red está recomendada para los usuarios que tienen
+  un ancho de banda limitado \nen sus conexiones de internet, ya que sólo descarga
+  los \npaquetes que se elijan instalar, y que probablemente sea \nsignificativamente
+  menor a a 4,7GB.\n"
 documentation: Documentación
 documentation_startup_guide: Guía de comienzo de openSUSE
 documentation_release_notes: Notas de lanzamiento
@@ -64,12 +64,11 @@ leap_switch_p1: "Si usted ya usa openSUSE en su PC/portátil entonces puede actu
   iniciando el sistema desde su DVD/USB, o haciendo una \"Actualización en Línea\"\
   \ con unos cuantos comandos.\n"
 leap_switch_instructions: Instrucciones para actualizar en línea.
-requirements: Especificaciones recomendadas para el sistema
-requirements_cpu: Procesador doble núcleo de 2 GHz o superior
-requirements_mem: 2 GB de memoria RAM
+requirements: Requisitos del sistema
+requirements_cpu: CPU
+requirements_mem: Memoria
 requirements_hd: 40 GB de espacio de almacenamiento disponible
-requirements_net: El acceso a Internet es recomendable, y necesario en el caso de
-  Network Installer
+requirements_net: Red
 tw_switch: Formas sencillas de migrar a openSUSE Tumbleweed
 tw_switch_p1: "Si ya usa openSUSE en su PC/portátil, puede actualizar a través de
   su DVD/USB  y elegir \"actualizar\", o hacer una \"Actualización en Línea\" con
@@ -99,9 +98,11 @@ verify_download_p1: "Muchas aplicaciones pueden comprobar la firma de verificaci
   será utilizada automáticamente si escoge Metalink en la descripción más abajo y
   usa la extensión \"DownThemAll!\" de Firefox.\n"
 verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo de suma de verificación
-  (checksum) con la suma correspondiente de SHA256.\n"
-verify_download_p3: "Como seguridad adicional, puede usar GPG para verificar quién
-  firmó esos archivos .sha256.\n"
+  (checksum) con la suma correspondiente SHA256, y un archivo de firma con una firma
+  criptográfica.\n"
+verify_download_p3: "Para asegurar la integridad del archivo descargado puede usar
+  sha256sum para verificar la suma de comprobación, y gpgv para verificar la firma
+  criptográfica.\n"
 verify_download_pubkey: Debería ser
 verify_download_help: Para más ayuda verificando su descarga por favor lea
 verify_download_checksums_help: Ayuda de sumas de verificación
@@ -219,3 +220,68 @@ offline_updated_desc: "Imagen de instalación sin conexión con las últimas act
   Apto para instalación o actualización.\n"
 selfinstalling_images: Imágenes de instalación automática
 iso_image: imagen ISO
+selfinstalling_k3s_image: Host k3s autoinstalable
+vmware_vmx_ch_image: Host de contenedores VMware VMX
+vagrant_image: Vagrant
+vagrant_ch_image: Host de contenedores Vagrant
+rpi_image: RaspberryPi
+pine_ch_image: Host de contenedores Pine64
+openstack_ch_image: Host de contenedores OpenStack-Cloud
+cloud_images: Cloud (Nube)
+packages_image_desc: Medios que contienen un repositorio sin conexión a la red con
+  paquetes.
+server_x86_64: servidores Intel o AMD 64-bit (x86_64)
+minimal_vm_images: Máquina Virtual Mínima
+requirements_rec: Recomendado
+packages_image: Imagen de Paquetes
+choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferida
+  para instalaciones basadas en USB o DVD.\nUn sencillo asistente de autoinstalación
+  descarga una imagen preconfigurada al disco, y aumenta la partición al tamaño del
+  disco.\n<br>\nUsuarios con Raspberry Pi y similares sin arranque por USB pueden
+  directamente escribir la imagen preconfigurada a la tarjeta SD.\nSe recomienda a
+  los usuarios buscando más control sobre el despliegue que utilizen <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nUna demo de un despliegue basado en Combustion puede verse
+  <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n<br>\nEl jeos-firstboot
+  saludará a aquellos que no configuraron su sistema usando Combustion.\n"
+choosing_media_micro_p2: "Leap Micro ya no viene con un instalador tradicional, los
+  usuarios deberán usar medios autoinstalables en su lugar.\nLa nueva Imagen de Paquetes
+  es nada más un volcado fuera de línea del repositorio rpm de Leap Micro para aquellos
+  con entornos aislados.\n"
+selfinstalling_ch_image: Host contenedor autoinstalable
+requirements_min: Mínimo
+kvm_ch_image: Host de contenedores KVM y XEN
+kvm_sdboot_image: imagen KVM con systemd-boot
+hyperv_ch_image: Host de contenedores MS HyperV
+vmware_ch_image: Host de contenedores VMware
+pine_image: Pine64
+virtualbox_image: VirtualBox
+requirements_cpu_desc: procesador dual core de 2 Ghz o superior
+requirements_hdd_root: partición / (raíz)
+requirements_hdd_var: Partición /var
+requirements_hdd_size_desc: $value de espacio disponible en disco
+requirements_hdd: Almacenamiento
+requirements_hdd_desc: Más de 40 GB de espacio libre en disco
+requirements_hdd_ssd_info: SSD de alta velocidad de escritura
+requirements_hdd_swap_info: Espacio de intercambio (swap) deshabilitado para que kubernetes
+  funcione correctamente
+signature: Firma
+vm_images: Máquina virtual
+vmware_vmx_image: VMware VMX
+rpi_ch_image: Host de contenedores RaspberryPi
+server_aarch64: servidores y placas UEFI Arm 64-bit (aarch64)
+cloud_image: imagen Cloud
+hardware_images: Hardware
+requirements_mem_desc: $value de RAM física + memoria adicional para su carga de trabajo
+requirements_dvd_desc: Una unidad DVD o puerto USB para el medio de instalación
+requirements_net_desc: El acceso a internet es útil, y necesario para el Instalador
+  por Red
+requirements_net_conn: Conectividad absoluta entre todas las máquinas en el cluster
+requirements_net_mac: Hostname y dirección MAC únicos para cada nodo
+encrypted_image: Imagen de Disco Completamente Cifrada (raw)
+cloud_minimal_desc: imagen Mínima KVM y Xen con cloud-init
+live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágenes
+  en vivo:\n* No se deberían usar para instalar o actualizar. Por favor use en su
+  lugar los medios de instalación\n* Tienen una selección de paquetes y controladores
+  limitada, por tanto no se deben considerarse un reflejo exacto de si la distribución
+  funcionará o no en su hardware\n* El kernel e initrd no se pueden actualizar, por
+  tanto no se deberían usar como una instalación persistente\n"
