@@ -93,9 +93,10 @@ verify_download: Před použitím ověřte ssprávnost staženého obrazu
 verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n
   si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a správný
   soubor ISO, který jste chtěli stáhnout.\n"
-verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256.\n"
-verify_download_p3: "Pro větší zabezpečení můžete pomocí GPG ověřit, kdo tyto soubory
-  .sha256 podepsal.\n"
+verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256
+  a podpisový soubor s kryptografickým podpisem.\n"
+verify_download_p3: "Pro zajištění integrity staženého souboru můžete použít sha256sum
+  pro ověření kontrolního součtu a gpgv pro ověření kryptografického podpisu.\n"
 verify_download_pubkey: Mělo by to být
 verify_download_help: Další pomoc s ověřením správnosti stahování viz
 verify_download_checksums_help: Nápověda pro kontrolní součty
@@ -123,10 +124,10 @@ points_welcoming: Vítáme příspěvky
 points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,
   jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n
   bylo co nejjednodušší.\n"
-preconfigured_image: Předkonfigurovaný obraz
-preconfigured_rt_image: Předkonfigurovaný obraz s RealTime jádrem
-selfinstall_image: Konfigurovatelný instalační obraz
-selfinstall_rt_image: Konfigurovatelný instalační obraz s RealTime jádrem
+preconfigured_image: Předkonfigurovaný obraz (raw)
+preconfigured_rt_image: Předkonfigurovaný RealTime obraz (raw)
+selfinstall_image: Samoinstalační obraz
+selfinstall_rt_image: Samoinstalační RealTime obraz
 snapper: Systém se poškodil? Už žádný problém
 snapper_p1: "Funkce Snímky souborového systému udržuje váš souborový systém\npod kontrolou
   automatickým průběžným zálohováním při instalaci\nsoftwaru a aktualizacích. Stačí
@@ -260,3 +261,22 @@ live_info: "Upozorňujeme na omezení živých obrazů/snímků:\n* Neměly by s
   bude distribuce fungovat na vašem hardwaru, či nikoli.\n* Jádro a initrd nelze aktualizovat,
   takže by se neměly používat jako trvalá instalace.\n"
 requirements_min: Minimální
+server_leapmicro_p1: Pro edge, embedded, IoT a další nasazení
+server_leapmicro_p2: Mimořádně spolehlivý, odlehčený operační systém vytvořený pro
+  kontejnerizované a virtualizované pracovní úlohy.
+download: Stáhnout
+alternative_downloads: Alternativy stažení
+requirements_net_conn: Plná konektivita mezi všemi počítači v clusteru
+requirements_net_mac: Jedinečný název hostitele a adresa MAC pro každý uzel
+overview: Přehled
+armv7l: UEFI Arm 32bitové servery, stolní počítače, notebooky a desky (armv7l)
+choosing_media_micro_p1: "Nová samoinstalační bitová kopie je vhodnou volbou pro instalaci
+  na USB nebo DVD.\nJednoduchý průvodce vlastní instalací nahraje na disk předkonfigurovanou
+  bitovou kopii a zvětší oddíl na velikost disku.\n<br>\nUživatelé s Raspberry Pi
+  a podobnými zařízeními bez podpory USB-bootu mohou přímo zapsat předkonfigurovaný
+  obraz na kartu SD.\nUživatelům, kteří chtějí mít větší kontrolu nad nasazením, doporučujeme
+  použít <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
+  <br>\nUkázku nasazení na bázi Combustion si můžete prohlédnout <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >zde</a>.\n<br>\nJeos-firstboot přivítá ty, kteří svůj systém nenakonfigurovali
+  pomocí Combustion.\n"
+preconfigured_qcow_image: Předkonfigurovaný obraz (qcow)
