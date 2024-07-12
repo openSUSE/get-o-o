@@ -280,3 +280,49 @@ choosing_media_micro_p1: "Nová samoinstalační bitová kopie je vhodnou volbou
   >zde</a>.\n<br>\nJeos-firstboot přivítá ty, kteří svůj systém nenakonfigurovali
   pomocí Combustion.\n"
 preconfigured_qcow_image: Předkonfigurovaný obraz (qcow)
+alternative_downloads_desc: Máme také obrazy/snímky $options. Podívejte se na $alternative_downloads!
+MicroOS_features:
+  idea:
+    name: Filosofie
+    description: "### Je předvídatelný\n* Během běhu se nemění\n* Při každém spuštění
+      systému se konzistentně spustí stejné artefakty.\n\n### Je škálovatelný\n* Eliminuje
+      úsilí při konfiguraci jednotlivých instancí během běhu\n* Lze snadno opakovaně
+      zavádět s předvídatelným výsledkem\n\n### Je spolehlivý\n* Automatizovaná obnova
+      po neúspěšných aktualizacích\n"
+  update:
+    name: Atomické aktualizace
+    description: "### Transakční aktualizace\n\n#### Jedinečné \nPoužitím btrfs se
+      snímky MicroOS používá prostorově velmi \núsporný způsob ukládání historie souborového
+      systému. Všechny konfigurační \nsoubory v `/etc` jsou součástí snapshotu a rollbacku.\n
+      \n#### Flexibilní\n* Není potřeba žádný nový formát balíčků, používají se standardní
+      openSUSE RPM\n* Žádné omezení velikosti pro oddíly ani pro operační systém\n
+      * Snadné vylepšení\n"
+  shield:
+    name: Zpětná obnova
+    description: "### MicroOS je neměnný operační systém, návrat je jednoduchý\n*
+      Neměnný: Žádné změny na disku\n* Zpětný návrat restartem systému ze staršího
+      snímku BTRFS\n"
+  tool:
+    name: Ladění
+    description: "### Debugging Toolbox Container\n* Spustí privilegovaný kontejner\n
+      * Kořenový souborový systém je dostupný pod `/media/root`\n* zypper pro instalaci
+      potřebných nástrojů je dostupný bez restartu\n* Stav mezi použitími setrvává\n"
+  key:
+    name: Bezpečné aktualizace
+    description: "* Získávejte aktualizace přes HTTPS\n* Balíčky a úložiště jsou podepsány
+      naším sestavovacím systémem\n* Balíčky jsou ověřeny\n* Při konfliktech závislostí
+      se aktualizace neprovádějí\n* Neplýtvá se místem: Snímky souborového systému
+      se po neúspěšných aktualizacích odstraní.\n"
+  work:
+    name: Pracovní zátěž
+    description: "Aplikace se instalují do kontejnerů, ne do kořenového souborového
+      systému:\n* Jsou izolované od základního souborového systému\n* Snížená možnost
+      poškození systému škodlivými aplikacemi\n* Nová instalace bez restartu systému\n
+      * Aktualizace atomickým způsobem (vytvořit nový, zničit starý)\n* Snadný návrat
+      k předchozímu stavu.\n"
+Tumbleweed_features:
+  update:
+    name: Průběžné aktualizace
+    description: "Jednou ho nainstalujete a užíváte ho navždy. Už se nemusíte každých
+      šest měsíců starat o rozsáhlé aktualizace systému, které mohou způsobit jeho
+      zatuhnutí.\n"
