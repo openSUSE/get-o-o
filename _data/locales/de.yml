@@ -357,7 +357,10 @@ Tumbleweed_features:
       schließen oder Fehler beseitigen, sondern auch die neuesten Funktionen und Entwicklungen
       widerspiegeln, z. B. neue Kernel, neue Treiber und aktuelle Versionen der Desktop-Umgebung.\n"
 preconfigured_qcow_image: Vorkonfiguriertes Image (qcow)
-choosing_media_micro_p2: ""
+choosing_media_micro_p2: "Leap Micro wird nicht mehr mit einem herkömmlichen Installationsprogramm
+  ausgeliefert, stattdessen sollen die Benutzer Selbstinstallationsmedien verwenden.\n
+  Das neue Paketabbild ist nur ein Offline-Auszug aus dem Leap Micro rpm-Repositorium
+  für diejenigen, die eine isolierte Umgebung haben.\n"
 choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen für diejenigen,
   die keine angepasste Partitionierung benötigen und über USB booten können.\nEin
   simpler selbst-installierender Assistent schreibt ein vorkonfiguriertes Image auf
