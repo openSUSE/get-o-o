@@ -4,7 +4,17 @@
     --leap: 251, 199, 93;
     --leapmicro: 223, 115, 32;
     --microos: 151, 58, 132;
+    --slowroll: 170, 57, 57;
+    --aeon: 0, 155, 119;
+    --kalpa: 33, 164, 223;
+    --background: 255, 255, 255;
    }
+
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: 0, 0, 0;
+  }
 }
 
 .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active) {
@@ -39,18 +49,6 @@
   background: rgba(var(--tumbleweed), 0.3)
 }
 
-.bg-leap-tint {
-  background: rgba(var(--leap), 0.3)
-}
-
-.bg-leapmicro-tint {
-  background: rgba(var(--leapmicro), 0.3)
-}
-
-.bg-microos-tint {
-  background: rgba(var(--microos), 0.3)
-}
-
 .bg-tumbleweed {
   background: rgb(var(--tumbleweed))
 }
@@ -73,6 +71,10 @@
   background-color: rgba(var(--tumbleweed), 0.2);
 }
 
+.bg-leap-tint {
+  background: rgba(var(--leap), 0.3)
+}
+
 .bg-leap {
   background: rgb(var(--leap))
 }
@@ -89,6 +91,10 @@
 .alert-leap {
   border-color: rgb(var(--leap));
   background-color: rgba(var(--leap), 0.2);
+}
+
+.bg-leapmicro-tint {
+  background: rgba(var(--leapmicro), 0.3)
 }
 
 .bg-leapmicro {
@@ -109,6 +115,10 @@
   background-color: rgba(var(--leapmicro), 0.2);
 }
 
+.bg-microos-tint {
+  background: rgba(var(--microos), 0.3)
+}
+
 .bg-microos {
   background: rgb(var(--microos))
 }
@@ -122,23 +132,78 @@
   border-color: rgb(var(--microos));
 }
 
+.bg-slowroll-tint {
+  background: rgba(var(--slowroll), 0.3)
+}
+
+.bg-slowroll {
+  background: rgb(var(--slowroll))
+}
+
+.badge-slowroll {
+  background: rgb(var(--slowroll));
+}
+
+.btn-slowroll {
+  background-color: rgb(var(--slowroll));
+  border-color: rgb(var(--slowroll));
+}
+
+.bg-aeon-tint {
+  background: rgba(var(--aeon), 0.3)
+}
+
+.bg-aeon {
+  background: rgb(var(--aeon))
+}
+
+.badge-aeon {
+  background: rgb(var(--aeon));
+}
+
+.btn-aeon {
+  background-color: rgb(var(--aeon));
+  border-color: rgb(var(--aeon));
+}
+
+.bg-kalpa-tint {
+  background: rgba(var(--kalpa), 0.3)
+}
+
+.bg-kalpa {
+  background: rgb(var(--kalpa))
+}
+
+.badge-kalpa {
+  background: rgb(var(--kalpa));
+}
+
+.btn-kalpa {
+  background-color: rgb(var(--kalpa));
+  border-color: rgb(var(--kalpa));
+}
+
 .text-black, .text-black:hover {
   color: black!important;
 }
+
+.bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active), .bg-slowroll .nav-tabs .nav-link:not(.active), .bg-aeon .nav-tabs .nav-link:not(.active), .bg-kalpa .nav-tabs .nav-link:not(.active) {
+  background: rgba(var(--background), 0.2);
+  color: inherit;
+}
+
+.bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover, .bg-slowroll .nav-tabs .nav-link:not(.active):hover, .bg-aeon .nav-tabs .nav-link:not(.active):hover, .bg-kalpa .nav-tabs .nav-link:not(.active):hover {
+  background: rgba(var(--background), 0.4);
+  color: white;
+  border-color: transparent transparent black transparent;
+}
+
 @media (prefers-color-scheme: dark) {
   .border-bottom {
     border-color: #495057!important;
   }
   .bg-light {
     background-color: #272b30!important;
-  }
-  .bg-tumbleweed .nav-tabs .nav-link:not(.active), .bg-leap .nav-tabs .nav-link:not(.active), .bg-leapmicro .nav-tabs .nav-link:not(.active), .bg-microos .nav-tabs .nav-link:not(.active) {
-    background: rgba(0, 0, 0, 0.2);
-  }
-
-  .bg-tumbleweed .nav-tabs .nav-link:not(.active):hover, .bg-leap .nav-tabs .nav-link:not(.active):hover, .bg-leapmicro .nav-tabs .nav-link:not(.active):hover, .bg-microos .nav-tabs .nav-link:not(.active):hover {
-    background: rgba(0, 0, 0, 0.4);
-    border-color: transparent transparent black transparent;
   }
   .list-group-item a .text-dark {
     color: white!important;
