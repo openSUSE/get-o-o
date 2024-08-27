@@ -154,8 +154,8 @@ tw_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš
   DVD arba USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
   internetu“ keliomis komandomis.\n"
 requirements_dvd_desc: DVD skaitytuvas arba USB lizdas diegimo laikmenai įdėti
-verify_download_p3: "Dėl papildomo saugumo galite pasinaudoti sha256sum, kad patikrintumėte,
-  kas pasirašė šias .sha256 rinkmenas. \n"
+verify_download_p3: "Parsisiųstųjų rinkmenų vientisumo patikrinimui galite naudoti
+  sha256sum, kad patikrintumėte kontrolinę sumą, ir gpgv, kad patikrintumėte parašą.\n"
 software_get: Parsisiųsti programinę įrangą
 verify_download_p1: "Dauguma programų gali patikrinti atsisiuntimo kontrolinę sumą.
   \nPatikrinti atsisiuntimą gali būti svarbu, nes taip įsitikinsite, ar tikrai \n
@@ -247,7 +247,7 @@ requirements_hdd_ssd_info: didelį įrašymo greitį palaikantis SSD
 requirements_net_desc: Interneto ryšys naudingas, o diegimo per tinklą atveju – būtinas
 tw_switch_instructions: Atnaujinimo instrukcijos.
 verify_download_p2: "Kiekvienam ISO atvaizdžiui pateikiame atitinkamą SHA256 kontrolinę
-  sumą.\n"
+  sumą ir parašo rinkmeną.\n"
 verify_download_pubkey: Ji turėtų būti
 verify_download_help: Norėdami daugiau sužinoti apie atsisiuntimų tikrinimą, skaitykite
 installation: Įdiekite sau priimtinu būdu
@@ -356,3 +356,6 @@ yast_p1: "Vienas didžiausių sistemos konfigūravimo įrankių padeda jums – 
 selfinstall_rt_image: Savaime įsidiegiantis RealTime atvaizdis
 packages_image_desc: Laikmena su paketais, kurią galite kaip saugyklą neturėdami interneto
 packages_image: Paketų atvaizdis
+encrypted_image: Pilnai užšifruotas disko atvaizdis (raw)
+leap_156_ovw_video_desc: Leap 15.6 išleidimas tiesiogiai
+signature: Parašas
