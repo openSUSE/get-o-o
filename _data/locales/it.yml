@@ -91,10 +91,10 @@ leap_switch_instructions: Istruzioni per l'aggiornamento in linea.
 verify_download_p1: "Molte applicazioni possono verificare il codice di controllo
   di uno scaricamento.\nQuesta verifica può essere importante come la certezza di
   avere avuto\nil file ISO che si voleva scaricare, e non una sua versione non funzionante.\n"
-verify_download_p2: "Per ciascuna ISO è fornito un file di controllo con il codice
-  SHA256 corrispondente.\n"
-verify_download_p3: "Per ulteriore sicurezza, può essere usato sha256sum per verificare
-  chi ha firmato quei file .sha256. \n"
+verify_download_p2: "Per ciascuna ISO viene fornito un file di controllo con il codice
+  SHA256 corrispondente, e di un file di firma con una firma crittografica.\n"
+verify_download_p3: "Per assicurare l'integrità del file scaricato si può utilizzare
+  sha256sum per verificare il codice di controllo, e gpgv la verificare la firma crittografica.\n"
 verify_download_help: Come ulteriore aiuto sulla verifica dello scaricamento, leggere
 verify_download_checksums_help: Aiuto sui codici di controllo
 desktops_p1: "Il processo di contribuzione a openSUSE autorizza lo sviluppo del desktop
