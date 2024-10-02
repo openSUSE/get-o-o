@@ -20,8 +20,17 @@ navbar_links:
     link: leapmicro/
     text: Leap Micro
   -
+    link: slowroll/
+    text: Slowroll
+  -
     link: microos/
     text: MicroOS
+  -
+    link: aeon/
+    text: Aeon
+#   -
+#     link: kalpa/
+#     text: Kalpa
   - locales
 
 footer_links:

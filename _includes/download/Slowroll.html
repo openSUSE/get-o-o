@@ -1,0 +1,15 @@
+{% include choosing_media.html %}
+{% include tumbleweed_switch.html %}
+{% include documentation.html %}
+<section class="py-3">
+  <div class="container">
+    <h3 id="recommended-system-requirements">{{ locale.requirements }}</h3>
+    <ul>
+      <li>{{ locale.requirements_cpu_desc }}</li>
+      <li>{{ locale.requirements_mem_desc | replace: '$value', '2GB' }}</li>
+      <li>{{ locale.requirements_hdd_desc }}</li>
+      <li>{{ locale.requirements_dvd_desc }}</li>
+      <li>{{ locale.requirements_net_desc }}</li>
+    </ul>
+  </div>
+</section>
