@@ -100,10 +100,10 @@ verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#C
 verify_download_p1: "Kontrolný súčet sťahovania môže overiť veľa aplikácií. Overenie\n
   stiahnutia môže byť dôležité, pretože overuje, že skutočne máte súbor\nISO, ktorý
   ste chceli stiahnuť, a nie nejakú poškodenú verziu.\n"
-verify_download_p2: "Pre každý ISO ponúkame súbor kontrolného súčtu so zodpovedajúcim
-  SHA256 súčtom.\n"
-verify_download_p3: "Pre zvýšenú bezpečnosť môžete pomocou sha256sum overiť, kto podpísal
-  tieto .sha256 súbory. \n"
+verify_download_p2: "Pre každé ISO ponúkame súbor s kontrolným súčtom s príslušným
+  súčtom SHA256 a podpisový súbor s kryptografickým podpisom.\n"
+verify_download_p3: "Aby ste zaistili integritu stiahnutého súboru, môžete použiť
+  sha256sum na overenie kontrolného súčtu a gpgv na overenie kryptografického podpisu.\n"
 verify_download_pubkey: Malo by to byť
 verify_download_help: Ak potrebujete ďalšiu pomoc pri overovaní vášho stiahnutia,
   prečítajte si, prosím,
@@ -440,3 +440,5 @@ microos_ovw_desc_p3: Vyskúšajte MicroOS vo VM bežiacich buď na <a href="http
 packages_image_desc: Médiá obsahujúce offline repozitár s balíkmi.
 packages_image: Obraz balíkov
 leap_156_ovw_video_desc: Priamy prenos vydania Leap 15.6
+signature: Podpis
+encrypted_image: Plne zašifrovaný obraz disku (raw)

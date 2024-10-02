@@ -3,6 +3,12 @@
   releases:
   - date: '2024-04-12 12:00:00 UTC'
     state: 'Alpha'
+  - date: '2024-06-19 12:00:00 UTC'
+    state: 'Beta'
+  - date: '2024-06-21 12:00:00 UTC'
+    state: 'RC'
+  - date: '2024-06-25 12:00:00 UTC'
+    state: 'Stable'
 
 - version: 5.5
   order:  4
@@ -27,6 +33,8 @@
     state: 'RC'
   - date: '2023-04-27 12:00:00 UTC'
     state: 'Stable'
+  - date: '2024-06-25 12:00:00 UTC'
+    state: 'EOL'
 
 - version: 5.3
   order: 2

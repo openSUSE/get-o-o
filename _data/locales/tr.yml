@@ -18,11 +18,11 @@ site_title: openSUSE Edinin
 site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak indirin
 kde_cd: KDE Çalışan CD
 rescue_cd: Kurtarma İçin Çalışan CD
-site_copyright: © 2023 openSUSE'ye katkı sağlayanlar
-offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım koleksiyonu içerir.\n\
+site_copyright: © 2024 openSUSE'ye katkı sağlayanlar
+offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım koleksiyonu içerir.\n
   Kurulum veya yükseltme için uygundur.\n"
-network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için\
-  \ paket depoları.\nKurulum veya yükseltme için uygundur.\n"
+network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için
+  paket depoları.\nKurulum veya yükseltme için uygundur.\n"
 hyperv_image: MS HyperV imajı
 selfinstalling_images: Otomatik Kurulum İmajı
 kvm_image: KVM ve XEN imajı
@@ -30,30 +30,30 @@ xen_desc: XEN PV sanal makinesi için
 xen_image: XEN
 gnome_cd: GNOME Çalışan CD
 xfce_cd: Xfce Çalışan CD
-live_info: "Lütfen, çalışan görüntülerin aşağıdaki sınırlamalarının farkında olun:\n\
-  * Çalışan sürümle yükleme veya yükseltme yapmak için kullanılmamalıdır. Lütfen bunun\
-  \ yerine kurulum ortamını tercih edin.\n* Çalışan sürümler sınırlı paketlere ve\
-  \ sürücülere sahiptir, bu nedenle kullandığınız dağıtımın donanımınız üzerinde çalışıp\
-  \ çalışmayacağı konusunda doğru bir bilgi elde edemezsiniz.\n* Çekirdek ve initrd\
-  \ güncellenemez, bu nedenle kalıcı bir kurulum olarak kullanılmamalıdır.\n"
+live_info: "Lütfen, çalışan görüntülerin aşağıdaki sınırlamalarının farkında olun:\n
+  * Çalışan sürümle yükleme veya yükseltme yapmak için kullanılmamalıdır. Lütfen bunun
+  yerine kurulum ortamını tercih edin.\n* Çalışan sürümler sınırlı paketlere ve sürücülere
+  sahiptir, bu nedenle kullandığınız dağıtımın donanımınız üzerinde çalışıp çalışmayacağı
+  konusunda doğru bir bilgi elde edemezsiniz.\n* Çekirdek ve initrd güncellenemez,
+  bu nedenle kalıcı bir kurulum olarak kullanılmamalıdır.\n"
 microos_desc: OpenSuse Tumbleweed tabanlı işletim sistemi için, salt okunur BTRFS
   kök dosya sistemi üzerinde işlemsel (Atomik) güncellemeler sağlayan sürüm
 documentation_startup_guide: OpenSUSE Başlangıç Kılavuzu
 choosing_media: Hangi Medya İmajını İndireceğinizi Seçiniz
 documentation: Belgeler
 documentation_license: Lisans
-choosing_media_p1: "Genellikle Çevrimdışı Medya imajlarını önermekteyiz, çünkü kurulumla\
-  \ ilgili paketler\ndağıtım içerisinde mevcuttur ve kurulum sırasında bir ağ bağlantısı\
-  \ gerektirmez.\n"
-choosing_media_p2: "Sınırlı İnternet bağlantısına ve bant genişliğine sahip kullanıcılar\
-  \ için önerilir.\nSadece yüklemeyi seçtiğiniz paketleri barındırır, \ngenellikle\
-  \ 4.7 GB'dan az bir boyuta sahiptir.\n"
+choosing_media_p1: "Genellikle Çevrimdışı Medya imajlarını önermekteyiz, çünkü kurulumla
+  ilgili paketler\ndağıtım içerisinde mevcuttur ve kurulum sırasında bir ağ bağlantısı
+  gerektirmez.\n"
+choosing_media_p2: "Sınırlı İnternet bağlantısına ve bant genişliğine sahip kullanıcılar
+  için önerilir.\nSadece yüklemeyi seçtiğiniz paketleri barındırır, \ngenellikle 4.7
+  GB'dan az bir boyuta sahiptir.\n"
 documentation_release_notes: Sürüm Notları
 leap_switch: openSUSE Leap'e Geçmenin Kolay Yolları
 documentation_license_link: https://tr.opensuse.org/openSUSE:Lisans
 documentation_full_documentation: Tüm Belgeler
-offline_updated_desc: "En güncel çevrimdışı kurulum imajı.\nKurulum veya yükseltme\
-  \ için uygun.\n"
+offline_updated_desc: "En güncel çevrimdışı kurulum imajı.\nKurulum veya yükseltme
+  için uygun.\n"
 vmware_image: VMware imajı
 pine_image: Pine64
 vmware_vmx_image: VMware VMX
@@ -65,57 +65,63 @@ jeos_images: JeOS
 Tumbleweed_features:
   shield:
     name: Güvenli
-    description: "En yeni çekirdek sürümlerinden oluşturulmuş, en yeni Spectre / Meltdown\
-      \ hafifletme yamalarıyla derlenmiş, Güvenlik Duvarı ve güçlü güvenlik politikaları\
-      \ varsayılan olarak açık, güvenliğiniz kutudan çıktığı gibi karşılanır.\n"
+    description: "En yeni çekirdek sürümlerinden oluşturulmuş, en yeni Spectre / Meltdown
+      hafifletme yamalarıyla derlenmiş, Güvenlik Duvarı ve güçlü güvenlik politikaları
+      varsayılan olarak açık, güvenliğiniz kutudan çıktığı gibi karşılanır.\n"
   home:
-    description: "Güncellemeler, diğer Linux dağıtımlarının bize gıpta ettiği bir\
-      \ yapı hizmetinden yararlanarak endüstri sınıfı kalite standartlarına göre kapsamlı\
-      \ bir şekilde test edilir. Bir paketin her yeni sürümü ayrı test edilmekle kalmaz,\
-      \ aynı zamanda farklı sürüm kümeleri birbirine karşı test edilerek sisteminizin\
-      \ dahili olarak tutarlı olduğundan emin olunur.\n"
+    description: "Güncellemeler, diğer Linux dağıtımlarının bize gıpta ettiği bir
+      yapı hizmetinden yararlanarak endüstri sınıfı kalite standartlarına göre kapsamlı
+      bir şekilde test edilir. Bir paketin her yeni sürümü ayrı test edilmekle kalmaz,
+      aynı zamanda farklı sürüm kümeleri birbirine karşı test edilerek sisteminizin
+      dahili olarak tutarlı olduğundan emin olunur.\n"
     name: Kararlı
   user:
     name: Kullanımı Kolay
-    description: "Tek bir komutla binlerce paketi güncelleyebilir, geçen haftanın\
-      \ anlık görüntüsüne geri dönebilir, tekrar hızlı ileri sarabilir ve hatta gelecek\
-      \ sürümleri önizleyebilirsiniz.\n"
+    description: "Tek bir komutla binlerce paketi güncelleyebilir, geçen haftanın
+      anlık görüntüsüne geri dönebilir, tekrar hızlı ileri sarabilir ve hatta gelecek
+      sürümleri önizleyebilirsiniz.\n"
   power:
     name: Güçlü
-    description: "OpenSUSE'nin ünlü `Btrfs` dosya sistemi, `snapper` komut satırı\
-      \ yardımcı programının yanı sıra battle-proven `YaST` \"kontrol paneli\" gibi\
-      \ teknolojilerinden yararlanan Tumbleweed, sisteminiz üzerinde tam kontrol sahibi\
-      \ olmanızı sağlar. İstediğiniz ayarları tanımlamanıza ve işinizi bitirmenize\
-      \ olanak tanır. Artık bir sistemin iş akışınıza müdahale etmesi konusunda endişelenmenize\
-      \ gerek yok.\n"
+    description: "OpenSUSE'nin ünlü `Btrfs` dosya sistemi, `snapper` komut satırı
+      yardımcı programının yanı sıra battle-proven `YaST` \"kontrol paneli\" gibi
+      teknolojilerinden yararlanan Tumbleweed, sisteminiz üzerinde tam kontrol sahibi
+      olmanızı sağlar. İstediğiniz ayarları tanımlamanıza ve işinizi bitirmenize olanak
+      tanır. Artık bir sistemin iş akışınıza müdahale etmesi konusunda endişelenmenize
+      gerek yok.\n"
   plant:
-    description: "Tumbleweed, iş akışlarını tehlikeye atmayı göze alamayacak yüzlerce\
-      \ uzman kullanıcı, geliştirici, sistem yöneticisi ve zorlu uygulayıcının onlarca\
-      \ yıllık kullanımına, testlerine ve hata ayıklamalarına dayanmaktadır. Tumbleweed'in\
-      \ sağlamlığı, DNA'sı saygıdeğer SUSE Linux Enterprise Server'dan gelen birçok\
-      \ çekirdek pakette vücut buluyor.\n"
+    description: "Tumbleweed, iş akışlarını tehlikeye atmayı göze alamayacak yüzlerce
+      uzman kullanıcı, geliştirici, sistem yöneticisi ve zorlu uygulayıcının onlarca
+      yıllık kullanımına, testlerine ve hata ayıklamalarına dayanmaktadır. Tumbleweed'in
+      sağlamlığı, DNA'sı saygıdeğer SUSE Linux Enterprise Server'dan gelen birçok
+      çekirdek pakette vücut buluyor.\n"
     name: Sağlam Zeminde Durur
   cpu:
     name: Donanımınızla İyi Çalışır
-    description: "Tumbleweed, son teknoloji ürünü ve kapsamlı bir şekilde test edilmiş\
-      \ yapısı sayesinde, donanımınıza ve cihazlarınıza diğer birkaç Linux dağıtımı\
-      \ gibi hizmet verir ve bu da onu iş istasyonları, dizüstü bilgisayarlar ve dizüstü\
-      \ bilgisayarlar için mükemmel bir kurulum haline getirir.\n"
+    description: "Tumbleweed, son teknoloji ürünü ve kapsamlı bir şekilde test edilmiş
+      yapısı sayesinde, donanımınıza ve cihazlarınıza diğer birkaç Linux dağıtımı
+      gibi hizmet verir ve bu da onu iş istasyonları, dizüstü bilgisayarlar ve dizüstü
+      bilgisayarlar için mükemmel bir kurulum haline getirir.\n"
   key:
     name: Güvenli
-    description: "İstenmeyen herhangi bir şeyin meydana gelmesi durumunda, her zaman\
-      \ önceki duruma geri dönebilir ve dosyalarınızı ve programlarınızı, inişli çıkışlı\
-      \ bir güncelleme öncesinde olduğu gibi bulabilirsiniz.\n"
+    description: "İstenmeyen herhangi bir şeyin meydana gelmesi durumunda, her zaman
+      önceki duruma geri dönebilir ve dosyalarınızı ve programlarınızı, inişli çıkışlı
+      bir güncelleme öncesinde olduğu gibi bulabilirsiniz.\n"
   knife:
-    description: "Yalnızca güvenlik açıklarını veya hataları gideren değil, aynı zamanda\
-      \ yeni çekirdekler, yeni sürücüler ve en yeni masaüstü ortamı sürümleri gibi\
-      \ en son özellikleri ve gelişmeleri yansıtan sık güncellemeler alırsınız.\n"
+    description: "Yalnızca güvenlik açıklarını veya hataları gideren değil, aynı zamanda
+      yeni çekirdekler, yeni sürücüler ve en yeni masaüstü ortamı sürümleri gibi en
+      son özellikleri ve gelişmeleri yansıtan sık güncellemeler alırsınız.\n"
     name: Son teknoloji ürünü
   update:
-    description: "Bir kez kurarsınız ve sonsuza kadar keyfini çıkarırsınız. Artık\
-      \ her altı ayda bir sisteminizi çökertme riski taşıyan büyük sistem yükseltmeleri\
-      \ konusunda endişelenmenize gerek yok.\n"
+    description: "Bir kez kurarsınız ve sonsuza kadar keyfini çıkarırsınız. Artık
+      her altı ayda bir sisteminizi çökertme riski taşıyan büyük sistem yükseltmeleri
+      konusunda endişelenmenize gerek yok.\n"
     name: Sürekli Güncel
+  gamepad:
+    name: Oyun oynama
+    description: "Tumbleweed, kullanıcılara oyunla ilgili en yeni yazılımı sağlar.
+      Oyun oynamaya yönelik Linux desteğinin hızla gelişmesiyle birlikte bu, favori
+      oyunlarınızda sorunsuz, performanslı ve sorunsuz bir deneyim için önemli bir
+      özelliktir.\n"
 cloud_image: Bulut imajı
 offline_updated_image: Güncellenmiş Çevrimdışı İmaj
 server_x86_64: Intel veya AMD 64-bit sunucular (x86_64)
@@ -124,43 +130,43 @@ requirements_net: Ağ
 MicroOS_features:
   key:
     name: Güvenlik Güncelleştirmeleri
-    description: "* Güncellemelerinizi HTTPS aracılığıyla alın\n* Paketler ve depolar\
-      \ derleme sistemimiz tarafından imzalanır\n* Paketler doğrulanmıştır\n* Bağımlılık\
-      \ çakışması durumunda güncelleme yapılmaz\n* Yer israfı yok: Başarısız güncelleme\
-      \ durumunda dosya sistemi anlık görüntüleri silinir\n"
+    description: "* Güncellemelerinizi HTTPS aracılığıyla alın\n* Paketler ve depolar
+      derleme sistemimiz tarafından imzalanır\n* Paketler doğrulanmıştır\n* Bağımlılık
+      çakışması durumunda güncelleme yapılmaz\n* Yer israfı yok: Başarısız güncelleme
+      durumunda dosya sistemi anlık görüntüleri silinir\n"
   work:
     name: İş yükleri
-    description: "Uygulamalar kök dosya sistemi yerine kapsayıcılara yüklenir:\n*\
-      \ Çekirdek dosya sisteminden yalıtılmış\n* Kötü amaçlı uygulamaların sistemi\
-      \ tehlikeye atma yeteneği azaltıldı\n* Yeniden başlatmaya gerek kalmadan yeni\
-      \ kurulum\n* Atomik yöntemle güncelleme mümkün (yeni oluştur, eskiyi öldür)\n\
-      * Kolay geri alma\n"
+    description: "Uygulamalar kök dosya sistemi yerine kapsayıcılara yüklenir:\n*
+      Çekirdek dosya sisteminden yalıtılmış\n* Kötü amaçlı uygulamaların sistemi tehlikeye
+      atma yeteneği azaltıldı\n* Yeniden başlatmaya gerek kalmadan yeni kurulum\n
+      * Atomik yöntemle güncelleme mümkün (yeni oluştur, eskiyi öldür)\n* Kolay geri
+      alma\n"
   idea:
-    description: "### Tahmin edilebilir\n* Çalışma süresi boyunca değiştirilmez\n\
-      * Her önyüklemede aynı yapıları tutarlı bir şekilde çalıştıracak\n\n### Ölçeklenebilir\n\
-      * Çalışma zamanı sırasında bireysel örneklerin yapılandırılmasına yönelik çabaları\
-      \ ortadan kaldırır\n* Öngörülebilir sonuçlarla kolayca tekrar kullanıma sunulabilir\n\
+    description: "### Tahmin edilebilir\n* Çalışma süresi boyunca değiştirilmez\n
+      * Her önyüklemede aynı yapıları tutarlı bir şekilde çalıştıracak\n\n### Ölçeklenebilir\n
+      * Çalışma zamanı sırasında bireysel örneklerin yapılandırılmasına yönelik çabaları
+      ortadan kaldırır\n* Öngörülebilir sonuçlarla kolayca tekrar kullanıma sunulabilir\n
       \n### Güvenilirdir\n* Hatalı güncellemelerden otomatik kurtarma\n"
     name: Felsefesi
   update:
-    description: "###  İşlemsel Güncellemeler\n\n#### Eşsiz\nMicroOS, anlık görüntülerle\
-      \ btrfs kullanarak çok fazla alan kullanır\ndosya sisteminin geçmişini saklamanın\
-      \ etkili bir yolu. Tüm konfigürasyon\n`/etc` içindeki dosyalar anlık görüntünün\
-      \ ve geri alma işleminin parçasıdır.\n\n#### Esnek\n* Yeni paket formatına gerek\
-      \ yok, standart openSUSE RPM'lerini kullanın\n* Bölümler veya işletim sistemi\
-      \ için boyut sınırlaması yok\n* Geliştirilmesi kolay\n"
+    description: "###  İşlemsel Güncellemeler\n\n#### Eşsiz\nMicroOS, anlık görüntülerle
+      btrfs kullanarak çok fazla alan kullanır\ndosya sisteminin geçmişini saklamanın
+      etkili bir yolu. Tüm konfigürasyon\n`/etc` içindeki dosyalar anlık görüntünün
+      ve geri alma işleminin parçasıdır.\n\n#### Esnek\n* Yeni paket formatına gerek
+      yok, standart openSUSE RPM'lerini kullanın\n* Bölümler veya işletim sistemi
+      için boyut sınırlaması yok\n* Geliştirilmesi kolay\n"
     name: Atomik Güncellemeler
   shield:
     name: Geri alma
-    description: "### MicroOS Değiştirilemez bir işletim sistemidir, geri alma basittir\n\
-      * Değişmez: Diskte değişiklik yok\n* Eski bir BTRFS anlık görüntüsüne yeniden\
-      \ başlatarak geri alma\n"
+    description: "### MicroOS Değiştirilemez bir işletim sistemidir, geri alma basittir\n
+      * Değişmez: Diskte değişiklik yok\n* Eski bir BTRFS anlık görüntüsüne yeniden
+      başlatarak geri alma\n"
   tool:
     name: Hata ayıklama
-    description: "### Araç Kutusu Kapsayıcısında Hata Ayıklama\n* Ayrıcalıklı kapsayıcıyı\
-      \ başlatır\n* Kök dosya sistemi `/media/root` altında mevcuttur\n* gerekli araçları\
-      \ yüklemek için zypper, yeniden başlatmaya gerek kalmadan kullanılabilir\n*\
-      \ Kullanımlar arasında kalıcı\n"
+    description: "### Araç Kutusu Kapsayıcısında Hata Ayıklama\n* Ayrıcalıklı kapsayıcıyı
+      başlatır\n* Kök dosya sistemi `/media/root` altında mevcuttur\n* gerekli araçları
+      yüklemek için zypper, yeniden başlatmaya gerek kalmadan kullanılabilir\n* Kullanımlar
+      arasında kalıcı\n"
 selfinstalling_ch_image: Kendiliğinden Yüklenen Konteyner Sunucusu
 kvm_ch_image: KVM ve XEN Konteyner Sunucusu
 hyperv_ch_image: MS HyperV Konteyner Sunucusu
@@ -187,21 +193,22 @@ minimal_vm_info: 'SUSE Linux Enterprise Server Minimal-VM imajlarına benzer. Ar
 overview: Genel Bakış
 kvm_desc: KVM veya XEN HVM sanal makinesinde kullanım için
 vmware_desc: VMware'de sanal makineleri çalıştırmak için
-ports_info: "PC dışındaki mimarilere yönelik openSUSE Leap uyarlamaları\nsınırlı kaynaklarla\
-  \ ayrı topluluk ekipleri tarafından sürdürülür.\n"
+ports_info: "PC dışındaki mimarilere yönelik openSUSE Leap uyarlamaları\nsınırlı kaynaklarla
+  ayrı topluluk ekipleri tarafından sürdürülür.\n"
 minimal_vm_images: Minimal Sanal Makine
 server_aarch64: UEFI Arm 64-bit sunucular ve anakartlar (aarch64)
 leap_switch_instructions: Çevrimiçi Yükseltme Talimatları.
 requirements_hdd_desc: 40 GB'tan fazla boş sabit disk alanı
-tw_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n\
-  yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'\
-  \ gerçekleştirebilirsiniz.\n"
+tw_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n
+  yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'
+  gerçekleştirebilirsiniz.\n"
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-verify_download_p1: "Birçok uygulama bir indirme işleminin sağlama toplamını doğrulayabilir.\n\
-  İndirme işleminizi doğrulamak önemli olabilir, çünkü indirmek istediğiniz ISO dosyasına\n\
+verify_download_p1: "Birçok uygulama bir indirme işleminin sağlama toplamını doğrulayabilir.\n
+  İndirme işleminizi doğrulamak önemli olabilir, çünkü indirmek istediğiniz ISO dosyasına\n
   gerçekten sahip olduğunuzu ve bozuk bir sürüme sahip olmadığınızı doğrular.\n"
-verify_download_p3: "Ekstra güvenlik amacıyla, bu .sha256 dosyalarını kimin imzaladığını\
-  \ doğrulamak için sha256sum'u kullanabilirsiniz. \n"
+verify_download_p3: "İndirilen dosyanın bütünlüğünü sağlamak için, sağlama toplamını
+  doğrulamak amacıyla sha256sum'u, şifreleme imzasını doğrulamak amacıyla da gpgv'yi
+  kullanabilirsiniz.\n"
 cloud_images: Bulut
 requirements_min: Minimum
 requirements_net_desc: İnternet erişimi faydalıdır ve Ağ Kurulum Aracı için gereklidir
@@ -230,23 +237,25 @@ x86_64: Intel veya AMD 64-bit masaüstü bilgisayarlar, dizüstü bilgisayarlar 
   (x86_64)
 server_microos_p1: Tek amaçlı sunucu uygulamaları için
 new_version_available: $distro_name artık indirilmeye hazır
-choosing_media_micro_p1: "Yeni kendi kendine kurulum imajı, özel bölümlemeye ihtiyaç\
-  \ duymayan ve USB'den önyükleme yapabilen herkes için önerilir.\nBasit bir kendi\
-  \ kendine kurulum sihirbazı, önceden yapılandırılmış bir imajı sürücüye atar ve\
-  \ bölümü diskin boyutuna kadar büyütür.\n<br>\nUsb-boot desteği olmayan Raspberry\
-  \ Pi ve benzeri cihazlara sahip kullanıcılar, önceden yapılandırılmış imajı doğrudan\
-  \ SD karta yazabilirler.\nDağıtım üzerinde daha fazla kontrol isteyen kullanıcıların\
-  \ şunları kullanması önerilir: <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
-  >Combustion</a>.\n<br>\nCombustion tabanlı konuşlandırmanın bir demosu görülebilir\
-  \ <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">buradan</a>.\n<br>\nSistemini\
-  \ Combustion kullanarak yapılandırmamış olanları jeos-firstboot karşılayacaktır.\n"
-choosing_media_micro_p2: "Çevrimdışı ISO İmajı, özel bölümlemeye ihtiyaç duyanlar\
-  \ tarafından kullanılmalıdır.\n"
+choosing_media_micro_p1: "Yeni kendi kendine kurulum imajı, özel bölümlemeye ihtiyaç
+  duymayan ve USB'den önyükleme yapabilen herkes için önerilir.\nBasit bir kendi kendine
+  kurulum sihirbazı, önceden yapılandırılmış bir imajı sürücüye atar ve bölümü diskin
+  boyutuna kadar büyütür.\n<br>\nUsb-boot desteği olmayan Raspberry Pi ve benzeri
+  cihazlara sahip kullanıcılar, önceden yapılandırılmış imajı doğrudan SD karta yazabilirler.\n
+  Dağıtım üzerinde daha fazla kontrol isteyen kullanıcıların şunları kullanması önerilir:
+  <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
+  <br>\nCombustion tabanlı konuşlandırmanın bir demosu görülebilir <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >buradan</a>.\n<br>\nSistemini Combustion kullanarak yapılandırmamış olanları jeos-firstboot
+  karşılayacaktır.\n"
+choosing_media_micro_p2: "Leap Micro artık geleneksel bir yükleyici ile gelmiyor,
+  kullanıcılar bunun yerine kendi kendine kurulum medyasını kullanacak.\nYeni Paketler
+  İmajı, izole bir ortamda bulunanlar için Leap Micro rpm deposunun çevrimdışı bir
+  dökümüdür.\n"
 requirements_net_conn: Kümedeki tüm makineler arasında tam bağlantı
 requirements_net_mac: Her düğüm için benzersiz ana bilgisayar adı ve MAC adresi
-leap_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n\
-  yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'\
-  \ gerçekleştirebilirsiniz.\n"
+leap_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n
+  yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'
+  gerçekleştirebilirsiniz.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements: Sistem gereksinimleri
 requirements_cpu_desc: 2 Ghz çift çekirdekli işlemci veya daha iyisi
@@ -274,59 +283,58 @@ upgrade_table_windows_usb: Windows'ta Önyüklenebilir bir USB bellek nasıl olu
 upgrade_table__mac_usb: OS X'te önyüklenebilir bir USB bellek nasıl oluşturulur.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: İndirmenizi Kullanmadan Önce Doğrulayın
-verify_download_p2: "Her ISO için karşılık gelen SHA256 toplamını içeren bir sağlama\
-  \ toplamı dosyası sunuyoruz.\n"
+verify_download_p2: "Her ISO için, karşılık gelen SHA256 toplamına sahip bir sağlama
+  toplamı dosyası ve kriptografik imzaya sahip bir imza dosyası sunuyoruz.\n"
 verify_download_pubkey: Bu şekilde olmalı
 verify_download_help: İndirme işleminizi doğrulama konusunda daha fazla yardım için
   lütfen okuyun
 verify_download_checksums_help: Sağlama Toplamları Yardımı
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
-desktops_p1: "openSUSE katkı süreci herkes için masaüstü geliştirme olanağı sağlar,\
-  \ \nböylece yükleyicide en beğendiğinizi seçme seçeneğiniz olur. Aktif\nolarak üç\
-  \ masaüstü ortamı sunuyoruz ve yükleyicideki genişletilmiş\nyazılım görünümünde\
-  \ daha da fazlasını sunuyoruz.\n"
-installation_p1: "openSUSE Kurulum işlemi size tüm seçenekleri sunar\nmuhtemelen ihtiyacınız\
-  \ olacaktır. Sisteminizi fare ve klavyeyle mi \nkurmak istiyorsunuz? Yükleyiciyi\
-  \ grafik modunda yükleyin. Elinizde fare \nyok mu? Terminal istemcisini etkinleştirin\
-  \ ve bu şekilde yükleyin. \nMakineye fiziksel erişiminiz yok mu? Yükleyiciye uzaktan\
-  \ bağlanın ve \nkuruluma devam edin. Bu kadar basit.\n"
+desktops_p1: "openSUSE katkı süreci herkes için masaüstü geliştirme olanağı sağlar,
+  \nböylece yükleyicide en beğendiğinizi seçme seçeneğiniz olur. Aktif\nolarak üç
+  masaüstü ortamı sunuyoruz ve yükleyicideki genişletilmiş\nyazılım görünümünde daha
+  da fazlasını sunuyoruz.\n"
+installation_p1: "openSUSE Kurulum işlemi size tüm seçenekleri sunar\nmuhtemelen ihtiyacınız
+  olacaktır. Sisteminizi fare ve klavyeyle mi \nkurmak istiyorsunuz? Yükleyiciyi grafik
+  modunda yükleyin. Elinizde fare \nyok mu? Terminal istemcisini etkinleştirin ve
+  bu şekilde yükleyin. \nMakineye fiziksel erişiminiz yok mu? Yükleyiciye uzaktan
+  bağlanın ve \nkuruluma devam edin. Bu kadar basit.\n"
 points_transparent: Her şey şeffaf
-points_transparent_p1: "Başlangıçtan bitişe kadar, dağıtımlara giren her paketin tüm\
-  \ kaynakları ve derleme\nkomut dosyaları herkesin görebileceği şekilde açıkça görünür\
-  \ durumdadır.\nKaynağından şüpheniz mi var? Sadece derleme hizmetinde kontrol edin.\n"
+points_transparent_p1: "Başlangıçtan bitişe kadar, dağıtımlara giren her paketin tüm
+  kaynakları ve derleme\nkomut dosyaları herkesin görebileceği şekilde açıkça görünür
+  durumdadır.\nKaynağından şüpheniz mi var? Sadece derleme hizmetinde kontrol edin.\n"
 index_server: Sunucu
 index_desktop_p1: Masaüstü kullanımına yönelik dağıtım seçimi
 index_server_p1: Sunucu kullanımı için dağıtım seçimi
 desktop: openSUSE Masaüstü Dağıtımları
 server: openSUSE Sunucu Dağıtımları
-server_leapmicro_p1: Geliştiriciler, profesyoneller ve kapsayıcıya alınmış iş yükleri
-  için
+server_leapmicro_p1: Edge, gömülü, IoT ve diğer dağıtımlar için
 download: İndir
 alternative_downloads: Alternatif İndirmeler
 points_welcoming: Katkılara hoşgeldiniz
 preconfigured_image: Önceden Yapılandırılmış İmaj (ham)
 software: Yazılım edinmek daha kolay olamazdı
-software_p1: "Aramızda kalsın, ihtiyaç duyabileceğiniz tüm yazılımları almak için\
-  \ her\nweb sitesini incelemek zorunda olmak çok fazla iş gerektiriyor.\nÇevrimiçi\
-  \ yazılım merkezi, çok sayıda kaynaktan gelen yazılımları tek bir\nyerde birleştirerek\
-  \ bu yolu kolaylaştırır.\n"
-transactional_p1: "Yükleyici artık openSUSE Kubic çabalarının bir sonucu olan yeni\
-  \ bir\nsistem rolü olan İşlemsel Sunucusunu desteklemektedir. Bu sistem rolü,\n\
-  güncellemeleri atomik olarak (tek bir işlem olarak) uygulayan ve\ngerektiğinde geri\
-  \ alınmasını kolaylaştıran yeni bir güncelleme sistemine\nsahiptir. Bu özellikler,\
-  \ diğer tüm SUSE ve openSUSE dağıtımlarının\ngüvendiği paket yönetim araçlarına\
-  \ dayanmaktadır. Bu, openSUSE\ndağıtımlarının diğer sistem rolleriyle çalışan RPM\
-  \ paketlerinin büyük\nçoğunluğunun aynı zamanda İşlemsel Sunucusu sistem rolüyle\
-  \ de\nçalıştığı anlamına gelir.\n"
-yast_p1: "En iyi sistem yapılandırma araçlarından biri, kullanıcı olarak\nsisteminizin\
-  \ her yönünü ayarlamanıza yardımcı olur. İhtiyaç\nduyduğunuz sistem kurulumunu sağlamak\
-  \ için artık çok sayıda yapılandırma\nkomut dosyasından geçmenize veya şüpheli komutlar\
-  \ girmenize gerek yok.\n"
-zypper_p1: "Öğrenmesi hızlı ve kolaydır. apt ve apt-get komutlarıyla kullanım için\
-  \ bir\nuyumluluk katmanı olan zypper-apt'yi sağlar. Bağımlılıkların hem hızını\n\
-  hem de tekrarlanabilir şekilde çözümlenmesini garanti eden libsolv'u\ntemel alır.\
-  \ Arayüz, okumayı kolaylaştırmak için net ve uygun renktedir.\nMükemmel, başka ne\
-  \ söylenebilir ki?\n"
+software_p1: "Aramızda kalsın, ihtiyaç duyabileceğiniz tüm yazılımları almak için
+  her\nweb sitesini incelemek zorunda olmak çok fazla iş gerektiriyor.\nÇevrimiçi
+  yazılım merkezi, çok sayıda kaynaktan gelen yazılımları tek bir\nyerde birleştirerek
+  bu yolu kolaylaştırır.\n"
+transactional_p1: "Yükleyici artık openSUSE Kubic çabalarının bir sonucu olan yeni
+  bir\nsistem rolü olan İşlemsel Sunucusunu desteklemektedir. Bu sistem rolü,\ngüncellemeleri
+  atomik olarak (tek bir işlem olarak) uygulayan ve\ngerektiğinde geri alınmasını
+  kolaylaştıran yeni bir güncelleme sistemine\nsahiptir. Bu özellikler, diğer tüm
+  SUSE ve openSUSE dağıtımlarının\ngüvendiği paket yönetim araçlarına dayanmaktadır.
+  Bu, openSUSE\ndağıtımlarının diğer sistem rolleriyle çalışan RPM paketlerinin büyük\n
+  çoğunluğunun aynı zamanda İşlemsel Sunucusu sistem rolüyle de\nçalıştığı anlamına
+  gelir.\n"
+yast_p1: "En iyi sistem yapılandırma araçlarından biri, kullanıcı olarak\nsisteminizin
+  her yönünü ayarlamanıza yardımcı olur. İhtiyaç\nduyduğunuz sistem kurulumunu sağlamak
+  için artık çok sayıda yapılandırma\nkomut dosyasından geçmenize veya şüpheli komutlar
+  girmenize gerek yok.\n"
+zypper_p1: "Öğrenmesi hızlı ve kolaydır. apt ve apt-get komutlarıyla kullanım için
+  bir\nuyumluluk katmanı olan zypper-apt'yi sağlar. Bağımlılıkların hem hızını\nhem
+  de tekrarlanabilir şekilde çözümlenmesini garanti eden libsolv'u\ntemel alır. Arayüz,
+  okumayı kolaylaştırmak için net ve uygun renktedir.\nMükemmel, başka ne söylenebilir
+  ki?\n"
 alternative_downloads_desc: Ayrıca $options images bunada sahibiz. $alternative_downloads
   Kontrol et!
 preconfigured_rt_image: Önceden Yapılandırılmış Gerçek Zamanlı İmaj (ham)
@@ -339,10 +347,10 @@ preconfigured_qcow_image: Önceden Yapılandırılmış İmaj (qcow)
 selfinstall_image: Kendi kurulan İmaj
 selfinstall_rt_image: Kendi kurulan Gerçek zamanlı İmaj
 snapper: Sistem mi bozuldu? Artık sorun değil
-snapper_p1: "Dosya Sistemi Anlık Görüntüleri özelliği, yazılım ve güncellemeler\n\
-  yüklenirken sürekli yedeklemelerin otomatik olarak gerçekleştirilmesini\nsağlayarak\
-  \ dosya sisteminizi kontrol altında tutar. Daha önceki bir anlık\ngörüntüden önyükleme\
-  \ yapın ve birkaç dakika içinde sisteminizi çalışır duruma getirin.\n"
+snapper_p1: "Dosya Sistemi Anlık Görüntüleri özelliği, yazılım ve güncellemeler\n
+  yüklenirken sürekli yedeklemelerin otomatik olarak gerçekleştirilmesini\nsağlayarak
+  dosya sisteminizi kontrol altında tutar. Daha önceki bir anlık\ngörüntüden önyükleme
+  yapın ve birkaç dakika içinde sisteminizi çalışır duruma getirin.\n"
 software_get: Yazılım Edinin
 transactional: İşlemsel sunucu
 yast_fonts: Yazı tipleri
@@ -364,20 +372,79 @@ server_microos_p2: Otomatik yönetim ve yama uygulamasıyla konteyner iş yükle
   için tasarlandı
 i686: Intel veya AMD 32 bit masaüstü bilgisayarlar, dizüstü bilgisayarlar ve sunucular
   (i686)
-points_free_p1: "Dağıtımlardaki paketler ücretsiz ve ücretsiz olmayan depolara ayrılmıştır.\n\
-  Ücretsiz olmayan paketleri kullanmak istemiyor musunuz? Özgür olmayan depoyu\nkolayca\
-  \ devre dışı bırakabilirsiniz. Bu sizin seçiminiz, bizim değil.\n"
-points_welcoming_p1: "Topluluğu memnun etmek için elimizden gelenin en iyisini yapmaya\
-  \ çalışıyoruz ve\nbunu ancak topluluk neye ihtiyaç duyduğunu açıkça dile getirdiğinde\
-  \ gerçekleştirebiliriz.\nBu nedenle katkıda bulunmanın mümkün olduğunca kolay olmasını\
-  \ sağlıyoruz.\n"
+points_free_p1: "Dağıtımlardaki paketler ücretsiz ve ücretsiz olmayan depolara ayrılmıştır.\n
+  Ücretsiz olmayan paketleri kullanmak istemiyor musunuz? Özgür olmayan depoyu\nkolayca
+  devre dışı bırakabilirsiniz. Bu sizin seçiminiz, bizim değil.\n"
+points_welcoming_p1: "Topluluğu memnun etmek için elimizden gelenin en iyisini yapmaya
+  çalışıyoruz ve\nbunu ancak topluluk neye ihtiyaç duyduğunu açıkça dile getirdiğinde
+  gerçekleştirebiliriz.\nBu nedenle katkıda bulunmanın mümkün olduğunca kolay olmasını
+  sağlıyoruz.\n"
 yast_firewall: Güvenlik Duvarı
 view_distro: $distro_name Görünüm
-server_leapmicro_p2: Uç, yerleşik, IoT dağıtımları ve diğerleri gibi bilgi işlem ortamları
-  için son derece güvenilir, hafif ve değişmez bir işletim sistemi.
+server_leapmicro_p2: Konteynerleştirilmiş ve sanallaştırılmış iş yükleri için tasarlanmış,
+  ultra güvenilir ve hafif işletim sistemi.
 aarch64: UEFI Arm 64-bit sunucular, masaüstü bilgisayarlar, dizüstü bilgisayarlar
   ve anakartlar (aarch64)
 armv7l: UEFI Arm 32-bit sunucular, masaüstü bilgisayarlar, dizüstü bilgisayarlar ve
   anakartlar (armv7l)
 ppc64le: PowerPC sunucuları, little-endian (ppc64le)
 s390x: IBM zSystems ve LinuxONE (s390x)
+tumbleweed_ovw_title: Son teknoloji masaüstü ve sunucu işletim sistemi
+leap_ovw_title: OpenSUSE'yi oluşturmanın yepyeni bir yolu ve yeni bir tür hibrit Linux
+  dağıtımı
+leap_micro_ovw_video_desc: Combustion ve kokpit içeren Short Leap Micro kurulum demosu.
+packages_image: Paketler İmajı
+packages_image_desc: Paketleri içeren çevrimdışı bir deponun bulunduğu medya.
+microos_ovw_title: Salt okunur btrfs kök dosya sisteminde İşlemsel (Atomik) Güncellemeler
+  sağlayan Mikro Servis İşletim Sistemi
+leap_156_ovw_video_desc: Leap 15.6 sürümü canlı yayın akışı
+encrypted_image: Tam Şifrelenmiş Disk İmajı (ham)
+kvm_sdboot_image: systemd-boot ile KVM imajı
+tumbleweed_ovw_desc: Tumbleweed ile değer verdiğiniz şeyler hakkında zor kararlar
+  almak zorunda değilsiniz; özgürlük ya da güvenlik, kontrol ya da güvenlik, teknoloji
+  ya da istikrar -- Tumbleweed hem pastayı saklamanızı hem de yemenizi sağlar!
+microos_ovw_desc_p3: <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  veya KVM üzerinde çalışan VM'lerde MicroOS'u deneyin. Raspberry Pi veya diğer Sistem
+  Üzerinde Yonga donanımı kullanıldığında, önyükleme işlemi için önceden yapılandırılmış
+  görüntü <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  işleviyle birlikte kullanılabilir. Hem önceden yapılandırılmış hem de kendi kendine
+  yüklenen görüntüler, varsayılan parola korumalı değişiklikler seçeneğiyle herhangi
+  bir ilk önyüklemede yapılandırmaya izin verecek şekilde sürülen bir USB'ye yazılan
+  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> ile kullanılmak
+  üzere tasarlanmıştır.
+leap_micro_ovw_desc_p1: Bu topluluk sürümü, SUSE Linux Enterprise'ın kurumsal düzeyde
+  güçlendirilmiş güvenlik ve uyumluluk bileşenlerinden yararlanan SUSE Linux Micro'ya
+  dayanmaktadır. Bu teknolojilerin birleştirilmesi, modern, değiştirilemez ve geliştirici
+  dostu bir işletim sistemi platformu sağlar.
+leap_ovw_desc: Leap, diğer Linux dağıtımlarının ulaşamadığı bir kararlılık düzeyi
+  sağlayan SUSE Linux Enterprise (SLE) kaynak kodunu kullanır ve bunu topluluk geliştirmeleriyle
+  birleştirerek kullanıcılara, geliştiricilere ve sistem yöneticilerine mümkün olan
+  en kararlı Linux deneyimini sunar.
+leap_micro_ovw_desc_p2: Leap Micro 6.0'dan beri kendi kendine kurulum imajı, ham imaj
+  ve çevrimdışı bir depo görevi görebilen bir Paketler DVD'si sunuyor. Artık geleneksel
+  yükleyicileri kullanmadığımız için kendi kendine kurulum imajı, USB tabanlı kurulumlar
+  için önerimizdir. Kullanıcılar kurulumlarını <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
+  veya <a href="https://github.com/openSUSE/combustion">Combustion</a> ile otomatikleştirebilir
+  ve özelleştirebilir veya jeos-firstboot sihirbazını kullanabilir. Çevrimiçi Ignition
+  yapılandırma oluşturucumuz <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a>'ı deneyin.
+microos_ovw_desc_p2: MicroOS çevrimdışı bir görüntü sunar. Çevrimdışı ve kendi kendine
+  yüklenen/ham görüntüler arasındaki temel fark, çevrimdışı görüntünün bir yükleyiciye
+  sahip olmasıdır. Ham ve kendi kendine yükleme, yanma yoluyla veya diske yazıldıktan
+  sonra görüntüde manuel olarak özelleştirmeye izin verir. Gerçek zamanlı bir çekirdek
+  için bir seçenek vardır.
+signature: İmza
+leap_micro_ovw_title: Leap Micro, konteynerleştirilmiş ve sanallaştırılmış iş yükleri
+  için geliştirilmiş, son derece güvenilir ve hafif bir işletim sistemidir.
+leap_micro_ovw_desc_p3: Leap Micro'yu <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  veya KVM üzerinde çalışan VM'lerde deneyin. Raspberry Pi veya diğer Sistem Üzerinde
+  Yonga donanımı kullanıldığında önceden yapılandırılmış görüntü kullanılabilir. Hem
+  önceden yapılandırılmış hem de kendi kendine yüklenen görüntüler, varsayılan parola
+  korumalı değişiklikler seçeneğiyle herhangi bir ilk önyüklemede yapılandırmaya izin
+  verecek şekilde sürülen bir USB'ye yazılmış <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  ile kullanılmak üzere tasarlanmıştır.
+microos_ovw_desc_p1: Otomatik yönetim ve düzeltme ekleriyle konteyner iş yüklerini
+  barındırmak için tasarlanmıştır. openSUSE MicroOS'u kurduğunuzda, Konteynerleri
+  veya İşlemsel Güncellemelerden faydalanan diğer iş yüklerini dağıtmak için hızlı
+  ve küçük bir ortam elde edersiniz. Sürekli sürüm dağıtımı olarak yazılım her zaman
+  günceldir.

@@ -4,7 +4,7 @@ translate: Traduzir
 source_code: Código-fonte
 license: Licença
 site_title: Baixar o openSUSE
-site_title_short: Baixar
+site_title_short: Obter
 site_description: Aprenda sobre as distribuições do openSUSE e baixe-as gratuitamente
 learn_more: Aprenda mais
 cd_desc: Para CD e pendrive USB
@@ -99,9 +99,10 @@ verify_download_p1: "Muitos aplicativos podem verificar a soma de verificação 
   download. Verificar\nseu download pode ser importante, pois verifica se você realmente
   tem o\nArquivo ISO que você queria baixar e não alguma versão quebrada.\n"
 verify_download_p2: "Para cada ISO, oferecemos um arquivo de checksum com a soma SHA256
-  correspondente.\n"
-verify_download_p3: "Para segurança extra, você pode usar o sha256sum para verificar
-  quem assinou os arquivos .sha256. \n"
+  correspondente e um arquivo de assinatura com assinatura criptográfica.\n"
+verify_download_p3: "Para garantir a integridade do arquivo baixado você pode usar
+  sha256sum para verificar a soma de verificação e gpgv para verificar a assinatura
+  criptográfica.\n"
 verify_download_pubkey: Deveria ser
 verify_download_help: Para obter mais ajuda na verificação do seu download, leia
 verify_download_checksums_help: Ajuda de somas de verificação
@@ -452,3 +453,5 @@ microos_ovw_desc_p2: MicroOS oferece uma imagem offline. A principal diferença 
   ou manualmente na imagem após ela ser gravada no disco. Existe uma opção para um
   kernel em tempo real.
 leap_156_ovw_video_desc: Transmissão ao vivo do lançamento do Leap 15.6
+signature: Assinatura
+encrypted_image: Imagem de disco totalmente criptografada (bruta)

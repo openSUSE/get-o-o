@@ -59,19 +59,19 @@ documentation_license: Licence
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Úplná dokumentace
 leap_switch: Snadné způsoby přechodu na openSUSE Leap
-leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n
-  a výběrem upgrade, nebo proveďte 'Online upgrade\" několika málo příkazy.\n"
+leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním systému\n
+  z DVD/USB a výběrem upgrade, nebo proveďte 'Online upgrade\"\nněkolika málo příkazy.\n"
 leap_switch_instructions: Pokyny k upgradu online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Doporučené požadavky na systém
-requirements_cpu: 2 GHz dvoujádrový procesor nebo lepší
-requirements_mem: 2 GB systémové paměti
+requirements: Požadavky na systém
+requirements_cpu: CPU
+requirements_mem: Paměť
 requirements_hd: Více než 40 GB volného místa na pevném disku
 requirements_dvd: Jednotka DVD nebo USB port pro instalační médium
-requirements_net: Přístup k internetu je užitečný a vyžaduje jej i síťový instalátor
+requirements_net: Síť
 tw_switch: Snadné způsoby přechodu na openSUSE Tumbleweed
-tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním z DVD/USB\n
-  a výběrem upgrade, nebo proveďte „online upgrade“ několika málo příkazy.\n"
+tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním systému\n
+  z DVD/USB a výběrem upgrade, nebo proveďte „online upgrade“\nněkolika málo příkazy.\n"
 tw_switch_instructions: Pokyny k upgradu.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Ze starší verze nebo jiné distribuce Linuxu
@@ -93,9 +93,10 @@ verify_download: Před použitím ověřte ssprávnost staženého obrazu
 verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n
   si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a správný
   soubor ISO, který jste chtěli stáhnout.\n"
-verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256.\n"
-verify_download_p3: "Pro větší zabezpečení můžete pomocí GPG ověřit, kdo tyto soubory
-  .sha256 podepsal.\n"
+verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256
+  a podpisový soubor s kryptografickým podpisem.\n"
+verify_download_p3: "Pro zajištění integrity staženého souboru můžete použít sha256sum
+  pro ověření kontrolního součtu a gpgv pro ověření kryptografického podpisu.\n"
 verify_download_pubkey: Mělo by to být
 verify_download_help: Další pomoc s ověřením správnosti stahování viz
 verify_download_checksums_help: Nápověda pro kontrolní součty
@@ -123,10 +124,10 @@ points_welcoming: Vítáme příspěvky
 points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,
   jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n
   bylo co nejjednodušší.\n"
-preconfigured_image: Předkonfigurovaný obraz
-preconfigured_rt_image: Předkonfigurovaný obraz s RealTime jádrem
-selfinstall_image: Konfigurovatelný instalační obraz
-selfinstall_rt_image: Konfigurovatelný instalační obraz s RealTime jádrem
+preconfigured_image: Předkonfigurovaný obraz (raw)
+preconfigured_rt_image: Předkonfigurovaný RealTime obraz (raw)
+selfinstall_image: Samoinstalační obraz
+selfinstall_rt_image: Samoinstalační RealTime obraz
 snapper: Systém se poškodil? Už žádný problém
 snapper_p1: "Funkce Snímky souborového systému udržuje váš souborový systém\npod kontrolou
   automatickým průběžným zálohováním při instalaci\nsoftwaru a aktualizacích. Stačí
@@ -222,3 +223,211 @@ hyperv_ch_image: Hostitelský kontejner MS HyperV
 vagrant_ch_image: Hostitelský kontejner Vagrant
 rpi_ch_image: Hostitelský kontejner RaspberryPi
 pine_ch_image: Hostitelský kontejner Pine64
+jeos_info: Minimální VM snímky. Snímky Arm JeOS najdete na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+  stránce Arm </a>
+minimal_vm_images: Minimální virtuální stroj
+signature: Podpis
+minimal_vm_info: Podobné minimálním VM snímkům SUSE Linux Enterprise Serveru. Obrazy
+  systému Arm JeOS najdete na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+  stránce Arm</a>
+server_aarch64: UEFI Arm 64-bit servery a desky (aarch64)
+server_x86_64: Intel nebo AMD 64-bit servery (x86_64)
+cloud_images: Cloud
+cloud_image: Obraz/snímek z Cloudu
+vm_images: Virtuální stroj
+encrypted_image: Plně šifrovaný obraz/snímek disku (raw)
+cloud_minimal_desc: Minimální KVM a Xen obraz inicializovaný z cloudu
+requirements_cpu_desc: dvoujádrový procesor 2 GHz nebo lepší
+requirements_hdd_root: / (kořenový) oddíl
+requirements_mem_desc: $value fyzické RAM a další paměť pro dané pracovní zatížení
+requirements_hdd: Úložiště
+requirements_hdd_desc: Přes 40 GB volného místa na pevném disku
+requirements_hdd_var: Oddíl /var
+hardware_images: Hardware
+choosing_media_micro_p2: "Leap Micro již není dodáván s tradičním instalačním programem,
+  uživatelé musí místo toho použít samoinstalační médium.\nNový obraz balíčků je pouze
+  offline výpis úložiště rpm Leap Micro pro uživatele s izolovaným prostředím.\n"
+requirements_rec: Doporučené
+requirements_hdd_size_desc: $value dostupného místa na disku
+requirements_hdd_ssd_info: SSD s vysokou rychlostí zápisu
+requirements_dvd_desc: Buď DVD mechanika nebo USB port pro instalační média
+requirements_net_desc: Přístup k internetu je užitečný a pro instalační program ze
+  sítě je nezbytný
+requirements_hdd_swap_info: Odkládací prostor je zakázán, aby kubernetes fungoval
+  správně
+live_info: "Upozorňujeme na omezení živých obrazů/snímků:\n* Neměly by se používat
+  k instalaci nebo aktualizaci. Místo nich používejte instalační média.\n* Mají omezený
+  výběr balíčků a ovladačů, takže je nelze považovat za přesnou indikaci toho, zda
+  bude distribuce fungovat na vašem hardwaru, či nikoli.\n* Jádro a initrd nelze aktualizovat,
+  takže by se neměly používat jako trvalá instalace.\n"
+requirements_min: Minimální
+server_leapmicro_p1: Pro edge, embedded, IoT a další nasazení
+server_leapmicro_p2: Mimořádně spolehlivý, odlehčený operační systém vytvořený pro
+  kontejnerizované a virtualizované pracovní úlohy.
+download: Stáhnout
+alternative_downloads: Alternativy stažení
+requirements_net_conn: Plná konektivita mezi všemi počítači v clusteru
+requirements_net_mac: Jedinečný název hostitele a adresa MAC pro každý uzel
+overview: Přehled
+armv7l: UEFI Arm 32bitové servery, stolní počítače, notebooky a desky (armv7l)
+choosing_media_micro_p1: "Nová samoinstalační bitová kopie je vhodnou volbou pro instalaci
+  na USB nebo DVD.\nJednoduchý průvodce vlastní instalací nahraje na disk předkonfigurovanou
+  bitovou kopii a zvětší oddíl na velikost disku.\n<br>\nUživatelé s Raspberry Pi
+  a podobnými zařízeními bez podpory USB-bootu mohou přímo zapsat předkonfigurovaný
+  obraz na kartu SD.\nUživatelům, kteří chtějí mít větší kontrolu nad nasazením, doporučujeme
+  použít <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
+  <br>\nUkázku nasazení na bázi Combustion si můžete prohlédnout <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >zde</a>.\n<br>\nJeos-firstboot přivítá ty, kteří svůj systém nenakonfigurovali
+  pomocí Combustion.\n"
+preconfigured_qcow_image: Předkonfigurovaný obraz (qcow)
+alternative_downloads_desc: Máme také obrazy/snímky $options. Podívejte se na $alternative_downloads!
+MicroOS_features:
+  idea:
+    name: Filosofie
+    description: "### Je předvídatelný\n* Během běhu se nemění\n* Při každém spuštění
+      systému se konzistentně spustí stejné artefakty.\n\n### Je škálovatelný\n* Eliminuje
+      úsilí při konfiguraci jednotlivých instancí během běhu\n* Lze snadno opakovaně
+      zavádět s předvídatelným výsledkem\n\n### Je spolehlivý\n* Automatizovaná obnova
+      po neúspěšných aktualizacích\n"
+  update:
+    name: Atomické aktualizace
+    description: "### Transakční aktualizace\n\n#### Jedinečné \nPoužitím btrfs se
+      snímky MicroOS používá prostorově velmi \núsporný způsob ukládání historie souborového
+      systému. Všechny konfigurační \nsoubory v `/etc` jsou součástí snapshotu a rollbacku.\n
+      \n#### Flexibilní\n* Není potřeba žádný nový formát balíčků, používají se standardní
+      openSUSE RPM\n* Žádné omezení velikosti pro oddíly ani pro operační systém\n
+      * Snadné vylepšení\n"
+  shield:
+    name: Zpětná obnova
+    description: "### MicroOS je neměnný operační systém, návrat je jednoduchý\n*
+      Neměnný: Žádné změny na disku\n* Zpětný návrat restartem systému ze staršího
+      snímku BTRFS\n"
+  tool:
+    name: Ladění
+    description: "### Debugging Toolbox Container\n* Spustí privilegovaný kontejner\n
+      * Kořenový souborový systém je dostupný pod `/media/root`\n* zypper pro instalaci
+      potřebných nástrojů je dostupný bez restartu\n* Stav mezi použitími setrvává\n"
+  key:
+    name: Bezpečné aktualizace
+    description: "* Získávejte aktualizace přes HTTPS\n* Balíčky a úložiště jsou podepsány
+      naším sestavovacím systémem\n* Balíčky jsou ověřeny\n* Při konfliktech závislostí
+      se aktualizace neprovádějí\n* Neplýtvá se místem: Snímky souborového systému
+      se po neúspěšných aktualizacích odstraní.\n"
+  work:
+    name: Pracovní zátěž
+    description: "Aplikace se instalují do kontejnerů, ne do kořenového souborového
+      systému:\n* Jsou izolované od základního souborového systému\n* Snížená možnost
+      poškození systému škodlivými aplikacemi\n* Nová instalace bez restartu systému\n
+      * Aktualizace atomickým způsobem (vytvořit nový, zničit starý)\n* Snadný návrat
+      k předchozímu stavu.\n"
+Tumbleweed_features:
+  update:
+    name: Průběžné aktualizace
+    description: "Jednou ho nainstalujete a užíváte ho navždy. Už se nemusíte každých
+      šest měsíců starat o rozsáhlé aktualizace systému, které mohou způsobit jeho
+      zatuhnutí.\n"
+  gamepad:
+    name: Hry
+    description: "Tumbleweed poskytuje uživatelům nejnovější software související
+      s hrami. Vzhledem k tomu, že se podpora Linuxu pro hraní her rychle zlepšuje,
+      je to důležitý aspekt pro plynulý, výkonný a bezproblémový zážitek z vašich
+      oblíbených her.\n"
+  plant:
+    name: Stojí na pevných základech
+    description: "Tumbleweed vychází z desítek let používání, testování a ladění stovkami
+      výkonných uživatelů, vývojářů, správců systémů a náročných pracovníků, kteří
+      si nemohou dovolit ohrozit svůj pracovní postup. Pevnost Tumbleweedu je ztělesněna
+      v mnoha základních balíčcích, jejichž DNA vychází z úctyhodného systému SUSE
+      Linux Enterprise Server.\n"
+  knife:
+    name: Nejpokročilejší
+    description: "Získáte časté aktualizace, které nejen řeší zranitelnosti nebo odstraňují
+      chyby, ale také odrážejí nejnovější funkce a vývoj, jako jsou nová jádra, nové
+      ovladače a nejnovější verze prostředí desktop.\n"
+  home:
+    description: "Aktualizace jsou důkladně testovány podle průmyslových standardů
+      kvality a využívají služeb sestavení, které nám ostatní linuxové distribuce
+      závidí. Nejenže je každá nová verze balíčku testována individuálně, ale různé
+      skupiny verzí jsou testovány navzájem, čímž je zajištěna vnitřní konzistence
+      systému.\n"
+    name: Stabilní
+  user:
+    name: Jednoduché použití
+    description: "Jediným příkazem můžete aktualizovat tisíce balíčků, vrátit se na
+      snímek z minulého týdne, znovu se vrátit a dokonce si prohlédnout nadcházející
+      vydání.\n"
+  cpu:
+    description: "Díky své špičkové a důkladně otestované povaze slouží Tumbleweed
+      vašemu hardwaru a zařízením jako málokterá jiná linuxová distribuce, takže je
+      vynikajícím doplňkem pro pracovní stanice, notebooky i přenosné počítače.\n"
+    name: Hezky ladí s vaším hardwarem
+  key:
+    description: "Dojde-li k něčemu nežádoucímu, můžete se vždy vrátit do předchozího
+      stavu a najít své soubory a programy tak, jak byly před problémovou aktualizací.\n"
+    name: Bezpečný
+  shield:
+    name: Zabezpečení
+    description: "Je sestaven z nejnovějších verzí jádra, zkompilován s nejnovějšími
+      záplatami proti virům Spectre a Meltdown, ve výchozím nastavení má zapnutou
+      bránu firewall a silné bezpečnostní zásady, takže vaše zabezpečení je zajištěno
+      hned po vybalení.\n"
+  power:
+    name: Výkonný
+    description: "Tumbleweed využívá technologie, kterými je openSUSE proslulé, jako
+      je souborový systém `Btrfs`, nástroj příkazového řádku `snapper` a osvědčený
+      \"ovládací panel\" `YaST, a poskytuje vám tak plnou kontrolu nad systémem, definovat
+      požadovaná nastavení a zachovávat je. Již se nemusíte obávat, že by systém narušoval
+      váš pracovní postup.\n"
+leap_ovw_title: Zcela nový způsob sestavení openSUSE a nový typ hybridní distribuce
+  Linuxu
+tumbleweed_ovw_title: Nejmodernější operační systém pro stolní počítače a servery
+leap_micro_ovw_desc_p1: Tato komunitní verze je založena na systému SUSE Linux Micro,
+  který využívá součásti systému SUSE Linux Enterprise pro zajištění bezpečnosti a
+  shody s předpisy. Toto spojení technologií poskytuje moderní, neměnnou a vývojářsky
+  přívětivou platformu operačního systému.
+microos_ovw_desc_p1: Navrženo pro hostování kontejnerových pracovních zátěží s automatizovanou
+  správou a záplatováním. Instalací openSUSE MicroOS získáte malé, rychlé prostředí
+  pro nasazení kontejnerů nebo jakékoli jiné zátěže, která využívá transakční aktualizace.
+  Při distribuci s průběžným vydáváním je software vždy aktuální.
+leap_156_ovw_video_desc: Živý přenos vydání verze Leap 15.6
+leap_ovw_desc: Leap využívá zdrojové kódy SUSE Linux Enterprise (SLE), které mu dodávají
+  stabilitu nesrovnatelnou s jinými linuxovými distribucemi, a kombinuje je s komunitním
+  vývojem, aby uživatelům, vývojářům a správcům poskytl nejlepší dostupný stabilní
+  Linux.
+tumbleweed_ovw_desc: Se systémem Tumbleweed nemusíte činit obtížná rozhodnutí o věcech,
+  kterých si ceníte, ať už jde o svobodu, nebo bezpečí, kontrolu, nebo zabezpečení,
+  technologii, nebo stabilitu - Tumbleweed vám umožní mít svůj koláč a zároveň ho
+  sníst!
+leap_micro_ovw_desc_p3: Vyzkoušejte Leap Micro ve virtuálních počítačích běžících
+  na <a href="https://www.suse.com/c/happened-kernel-xen/">Xenu</a> nebo KVM. Při
+  použití Raspberry Pi nebo jiného hardwaru "System on Chip" (jednočipový počítač)
+  lze použít předkonfigurovaný obraz. Předkonfigurované i samoistalační obrazy jsou
+  určeny k použití s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém prvním
+  spuštění s možností výchozích změn chráněných heslem.
+leap_micro_ovw_video_desc: Ukázka instalace Short Leap Micro s Combustion a Cockpit.
+microos_ovw_title: Operační systém Micro Service OS poskytující transakční (atomické)
+  aktualizace na kořenovém systému souborů btrfs určeném jen pro čtení
+leap_micro_ovw_desc_p2: Leap Micro od verze 6.0 nabízí samoinstalační obraz (snímek),
+  nezpracovaný obraz a DVD s balíčky, které může sloužit jako offline úložiště. Samoinstalační
+  obraz je naším doporučením pro jakoukoli instalaci z USB, protože tradiční instalační
+  programy již nepoužíváme. Uživatelé si mohou instalaci automatizovat a přizpůsobit
+  pomocí <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> (Zážeh)
+  nebo <a href="https://github.com/openSUSE/combustion">Combustion</a> (Spalování)
+  nebo pomocí průvodce jeos-firstboot. Vyzkoušejte <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  ignition</a> náš online generátor konfigurace Fuel ignition (Zážeh paliva).
+leap_micro_ovw_title: Leap Micro je mimořádně spolehlivý, odlehčený operační systém
+  vytvořený pro kontejnerizované a virtualizované pracovní úlohy.
+microos_ovw_desc_p2: Systém MicroOS nabízí offline obraz/snímek. Hlavní rozdíl mezi
+  offline a samoinstalačními/surovými snímky je ten, že offline snímek má instalační
+  program. Surový a samoinstalační snímek umožňují přizpůsobení pomocí Combustion
+  nebo ručně ve snímku po jeho zápisu na disk. Existuje možnost mít jádro v reálném
+  čase.
+microos_ovw_desc_p3: Vyzkoušejte MicroOS ve virtuálních počítačích běžících na <a
+  href="https://www.suse.com/c/happened-kernel-xen/">Xenu</a> nebo KVM. Při použití
+  Raspberry Pi nebo jiného hardwaru "System on Chip" (jednočipového počítače) lze
+  pro zaváděcí proces použít předkonfigurovaný obraz spolu s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">funkcí
+  Combustion</a>. Předkonfigurované i samočinně nainstalované obrazy jsou určeny k
+  použití s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém prvním
+  spuštění s možností výchozích změn chráněných heslem.

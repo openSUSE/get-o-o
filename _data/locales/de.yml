@@ -85,10 +85,11 @@ verify_download: Überprüfen Sie vor der Benutzung Ihre heruntergeladenen Datei
 verify_download_p1: "Viele Anwendungen können die Prüfsumme eines Downloads überprüfen.\n
   Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas Medium
   nicht beschädigt heruntergeladen wurde.\n"
-verify_download_p2: "Für jedes ISO bieten wir eine Datei mit der dazugehörigen SHA256
-  Prüfsumme an.\n"
-verify_download_p3: "Zur zusätzlichen Sicherheit können Sie sha256sum verwenden, um
-  zu überprüfen, wer diese .sha256-Dateien signiert hat. \n"
+verify_download_p2: "Für jedes ISO bieten wir eine Prüfsummendatei mit der entsprechenden
+  SHA256-Summe und eine Signaturdatei mit einer kryptografischen Signatur an.\n"
+verify_download_p3: "Um die Integrität der heruntergeladenen Datei sicherzustellen,
+  können Sie sha256sum zur Überprüfung der Prüfsumme und gpgv zur Überprüfung der
+  kryptografischen Signatur verwenden.\n"
 verify_download_pubkey: Es sollte
 verify_download_help: Weitere Hilfe um Ihren Download zu überprüfen erhalten Sie in
   der
@@ -318,25 +319,48 @@ requirements_net_mac: Eindeutige Hostnamen und MAC-Adressen für jeden Knoten
 Tumbleweed_features:
   key:
     name: Zuverlässig
+    description: "Sollte etwas Unerwünschtes passieren, können Sie jederzeit zu einem
+      früheren Zustand zurückkehren und Ihre Dateien und Programme genau so vorfinden,
+      wie sie vor einer holprigen Aktualisierung waren.\n"
   shield:
     name: Sicher
+    description: "Gebaut aus den neuesten Kernel-Versionen, kompiliert mit den neuesten
+      Patches zur Minderung von Spectre und Meltdown, mit Firewall und starken Sicherheitsrichtlinien,
+      die standardmäßig aktiviert sind, ist Ihre Sicherheit sofort gewährleistet.\n"
   gamepad:
     name: Spielen
   update:
     name: Kontinuierlich aktualisiert
+    description: "Sie installieren es einmal und können es dann für immer nutzen.
+      Sie müssen sich nicht mehr alle sechs Monate Gedanken über umfangreiche Systemaktualisierungen
+      machen, die Ihr System zerstören könnten.\n"
   cpu:
     name: Verträgt sich gut mit Ihrer Hardware
   home:
     name: Stabil
+    description: "Aktualisierungen werden anhand von Qualitätsstandards auf Industrieniveau
+      gründlich getestet, wobei wir einen Build-Service nutzen, um den uns andere
+      Linux-Distributionen beneiden. Jede neue Version eines Pakets wird nicht nur
+      einzeln getestet, sondern es werden auch verschiedene Versionsgruppen gegeneinander
+      getestet, um sicherzustellen, dass Ihr System intern konsistent ist.\n"
   user:
     name: Einfach zu verwenden
+    description: "Mit einem einzigen Befehl können Sie Tausende von Paketen aktualisieren,
+      zum Schnappschuss der letzten Woche zurückkehren, wieder vorspulen und sogar
+      eine Vorschau auf kommende Versionen anzeigen.\n"
   power:
     name: Leistungsstark
   plant:
     name: Steht auf festem Grund
+  knife:
+    description: "Sie erhalten regelmäßige Aktualisierungen, die nicht nur Sicherheitslücken
+      schließen oder Fehler beseitigen, sondern auch die neuesten Funktionen und Entwicklungen
+      widerspiegeln, z. B. neue Kernel, neue Treiber und aktuelle Versionen der Desktop-Umgebung.\n"
 preconfigured_qcow_image: Vorkonfiguriertes Image (qcow)
-choosing_media_micro_p2: "Das Offline ISO Image sollte von denen benutzt werden, die
-  eine angepasste Partitionierung benötigen.\n"
+choosing_media_micro_p2: "Leap Micro wird nicht mehr mit einem herkömmlichen Installationsprogramm
+  ausgeliefert, stattdessen sollen die Benutzer Selbstinstallationsmedien verwenden.\n
+  Das neue Paketabbild ist nur ein Offline-Auszug aus dem Leap Micro rpm-Repositorium
+  für diejenigen, die eine isolierte Umgebung haben.\n"
 choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen für diejenigen,
   die keine angepasste Partitionierung benötigen und über USB booten können.\nEin
   simpler selbst-installierender Assistent schreibt ein vorkonfiguriertes Image auf
@@ -360,3 +384,6 @@ leap_ovw_title: Eine völlig neue Art der Entwicklung von openSUSE und eine neue
   einer hybriden Linux-Distribution
 microos_ovw_title: Micro Service OS mit transaktionalen (atomaren) Aktualisierungen
   auf einem schreibgeschützten btrfs-Wurzeldateisystem
+server_leapmicro_p1: Für Edge-, Embedded-, IoT- und andere Bereitstellungen
+encrypted_image: Vollständig verschlüsseltes Festplattenabbild (roh)
+signature: Signatur

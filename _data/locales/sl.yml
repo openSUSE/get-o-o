@@ -246,9 +246,10 @@ upgrade_table__mac_usb: Kako ustvariti ključek USB, ki se da zagnati, na OS X-u
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Pred uporabo preverite prejeto
 verify_download_p2: "Za vsak odtis ISO ponujamo datoteko z ustrezno nadzorno vsoto
-  SHA256.\n"
-verify_download_p3: "Za dodatno varnost lahko v konzoli uporabite program sha256sum
-  in preverite tudi podpis teh datotek .sha256. \n"
+  SHA256 in datoteko s kriptografskim podpisom.\n"
+verify_download_p3: "Da preverite celovitost prejete datoteke, lahko uporabite program
+  sha256sum za preverjanje nadzorne vsote in program gpgv za preverjanje kriptografskega
+  podpisa.\n"
 verify_download_pubkey: Moralo bi biti
 verify_download_help: Za dodatno pomoč pri preverjanju prejetega si preberite
 verify_download_checksums_help: Pomoč glede nadzornih vsot
@@ -423,3 +424,5 @@ leap_micro_ovw_desc_p3: Poskusite Leap Micro v navideznih računalnikih, ki teč
   s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> zapisanim
   na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo zaščite spreminjanja
   s privzetim geslom.
+signature: Podpis
+encrypted_image: Odtis povsem šifriranega diska (surov)

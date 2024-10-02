@@ -101,9 +101,10 @@ verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació 
   baixada. \nVerificar la baixada pot ser important, ja que comprova que tingueu realment\n
   el fitxer ISO que volíeu baixar i no alguna versió trencada.\n"
 verify_download_p2: "Per a cada ISO, oferim un fitxer de comprovació amb la suma SHA256
-  corresponent.\n"
-verify_download_p3: "Per a més seguretat, podeu usar l'ordre sha256sum per verificar
-  qui va signar els fitxers .sha256. \n"
+  corresponent i un fitxer amb una signatura criptogràfica.\n"
+verify_download_p3: "Per garantir la integritat del fitxer descarregat, podeu usar
+  sha256sum per verificar la suma de verificació i gpgv per verificar la signatura
+  criptogràfica.\n"
 verify_download_pubkey: Hauria de ser
 verify_download_help: Per obtenir més ajuda per verificar la baixada, llegiu
 verify_download_checksums_help: Ajuda de les sumes de comprovació
@@ -459,3 +460,5 @@ microos_ovw_desc_p2: El MicroSO ofereix una imatge fora de línia. La principal 
 packages_image: Imatge de paquets
 packages_image_desc: Mitjans que contenen un repositori fora de línia amb paquets.
 leap_156_ovw_video_desc: Una emissió en directe del llançament del Leap 15.6
+signature: Signatura
+encrypted_image: Imatge de disc totalment encriptada (en cru)

@@ -197,7 +197,8 @@ verify_download_p1: "Veel applicaties kunnen de controlesom verifiëren. Het ver
   is belangrijk\nom na te gaan of je wel het gewenste ISO-bestand hebt en niet een
   kapotte\ndownload.\n"
 verify_download_p2: "Voor elk ISO-bestand bieden we een controlesom bestand met de
-  corresponderende SHA256 som.\n"
+  corresponderende SHA256 som en een ondertekeningsbestand met een cryptografische
+  ondertekening.\n"
 verify_download_pubkey: Deze zou moeten zijn
 verify_download_help: Voor meer hulp bij het controleren van uw download, lees alstublieft
 installation: Installeer het zoals je wilt
@@ -298,8 +299,9 @@ MicroOS_features:
     description: "### Hulpmiddelen container voor debuggen\n* Start gepriviligeerde
       container\n* Root bestandssysteem onder `/media/root`\n* Zypper, om de noodzakelijke
       hulpmiddelen te installeren zonder herstart\n* Onveranderd tussen het gebruik\n"
-verify_download_p3: "Voor extra veiligheid, kunt u sha256sum gebruiken om te controleren
-  wie de .sha256 bestanden signeerde. \n"
+verify_download_p3: "Om de integriteit van het gedownloade bestand te verzekeren,
+  kunt u sha256sum gebruiken om de controlesom te verifiëren en gpgv om de cryptografische
+  ondertekening te verifiëren.\n"
 Tumbleweed_features:
   update:
     name: Continue geüpdatet
@@ -434,3 +436,5 @@ microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a href="https://ww
   zijn bedoeld om gebruikt te worden met <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   geschreven naar een USB, die is gemaakt om configuratie te bieden bij elke eerste
   keer opstarten, met de standaard optie voor beschermde wijziging van het wachtwoord.
+signature: Ondetekening
+encrypted_image: Volledig versleutelde schijf-image (raw)

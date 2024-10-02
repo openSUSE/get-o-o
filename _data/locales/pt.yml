@@ -15,10 +15,10 @@ pick_mirror: Escolher Servidor(Mirror)
 checksum: Soma de Controlo
 torrent_file: Ficheiro Torrent
 offline_image: Imagem offline
-offline_desc: "Contêm uma larga coleção de aplicações informáticas para uso em computador\
-  \ pessoal ou servidor.\nAdequado para instalação ou atualização.\n"
+offline_desc: "Contêm uma larga coleção de aplicações informáticas para uso em computador
+  pessoal ou servidor.\nAdequado para instalação ou atualização.\n"
 network_image: Imagem de Rede
-network_desc: "Descarrega o sistema de instalação e todos os pacotes através de repositórios\n\
+network_desc: "Descarrega o sistema de instalação e todos os pacotes através de repositórios\n
   online. Adequado para instalação ou atualização.\n"
 kvm_image: KVM e XEN
 kvm_desc: Para uso em hypervisors KVM ou XEN HVM
@@ -32,29 +32,28 @@ openstack_image: OpenStack-Cloud
 openstack_desc: Para correr máquinas virtuais no OpenStack
 installation_images: Instalação
 ports_images: Ports (Adaptações)
-ports_info: "Ports do openSUSE Leap para arquiteturas diferentes do tradicional PC\
-  \ que\nsão mantidas por equipas comunitárias separadas, com recursos limitados.\n"
+ports_info: "Ports do openSUSE Leap para arquiteturas diferentes do tradicional PC
+  que\nsão mantidas por equipas comunitárias separadas, com recursos limitados.\n"
 jeos_images: JeOS
 live_images: Vivo(Live)
 gnome_cd: LiveCD GNOME
 kde_cd: LiveCD KDE
 xfce_cd: LiveCD Xfce
 rescue_cd: LiveCD Rescue
-tumbleweed_live_info: "Por favor tenha atenção às limitações das imagens live:\n*\
-  \ Não devem ser utilizadas para instalar ou atualizar o Tumbleweed. Por favor utilize\
-  \ o [Tumbleweed media](/tumbleweed) em vez\n*  Têm pacotes e drivers de seleção\
-  \ limitada, portanto não podem ser consideradas como reflexões fiáveis para garantir\
-  \ que o Tumbleweed irá ou não funcionar no seu hardware\n"
+tumbleweed_live_info: "Por favor tenha atenção às limitações das imagens live:\n*
+  Não devem ser utilizadas para instalar ou atualizar o Tumbleweed. Por favor utilize
+  o [Tumbleweed media](/tumbleweed) em vez\n*  Têm pacotes e drivers de seleção limitada,
+  portanto não podem ser consideradas como reflexões fiáveis para garantir que o Tumbleweed
+  irá ou não funcionar no seu hardware\n"
 microos_desc: SO baseado no openSUSE Tumbleweed que providencia Atualizações Transacionais
   (Atómicas) com um sistema de ficheiros apenas de leitura root de btrfs
 choosing_media: Escolher qual Media a Descarregar
-choosing_media_p1: "O DVD/pen USB é tipicamente recomendado pois contêm a maioria\
-  \ dos\npacotes disponíveis na distribuição e não necessita de conexão\nde rede durante\
-  \ a instalação.\n"
-choosing_media_p2: "O CD/pen USB de rede é recomendado para utilizadores que têm uma\
-  \ largura\nde banda limitada nas sua conexão à Internet, pois faz apenas a descarga\
-  \ dos\npacotes que escolherem instalar, que é muito provável que seja\nmenos de\
-  \ 4.7GB.\n"
+choosing_media_p1: "O DVD/pen USB é tipicamente recomendado pois contêm a maioria
+  dos\npacotes disponíveis na distribuição e não necessita de conexão\nde rede durante
+  a instalação.\n"
+choosing_media_p2: "O CD/pen USB de rede é recomendado para utilizadores que têm uma
+  largura\nde banda limitada nas sua conexão à Internet, pois faz apenas a descarga
+  dos\npacotes que escolherem instalar, que é muito provável que seja\nmenos de 4.7GB.\n"
 documentation: Documentação
 documentation_startup_guide: Guia de Inicialização openSUSE
 documentation_release_notes: Notas de Lançamento
@@ -62,9 +61,9 @@ documentation_license: Licença
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentação completa
 leap_switch: Maneiras Fáceis de Mudar para o openSUSE Leap
-leap_switch_p1: "Se já estiver a correr openSUSE pode atualizar ao inicializar pelo\n\
-  DVD/USB e escolher atualizar, ou pode realizar uma 'Atualização Online' em poucos\
-  \ comandos.\n"
+leap_switch_p1: "Se já estiver a correr openSUSE pode atualizar ao inicializar pelo\n
+  DVD/USB e escolher atualizar, ou pode realizar uma 'Atualização Online' em poucos
+  comandos.\n"
 leap_switch_instructions: Instruções de Atualização Online.
 leap_switch_instructions_link: https://pt.opensuse.org/SDB:System_upgrade
 requirements: Requisitos de Sistema Recomendados
@@ -75,9 +74,9 @@ requirements_dvd: Ou um leitor de DVD ou uma porta USB para o média de instala�
 requirements_net: Acesso à Internet é útil, e obrigatório no caso do Instalador de
   Rede
 tw_switch: Maneiras Fáceis de mudar para o openSUSE Tumbleweed
-tw_switch_p1: "Se já estiver a correr openSUSE pode atualizar ao inicializar pelo\n\
-  DVD/USB e escolher atualizar, ou pode realizar uma 'Atualização Online' em poucos\
-  \ comandos.\n"
+tw_switch_p1: "Se já estiver a correr openSUSE pode atualizar ao inicializar pelo\n
+  DVD/USB e escolher atualizar, ou pode realizar uma 'Atualização Online' em poucos
+  comandos.\n"
 tw_switch_instructions: Instruções de Atualização.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: De uma versão anterior ou de outra distribuição Linux
@@ -92,70 +91,71 @@ upgrade_table_mac_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando
 upgrade_table_linux_usb: Como criar uma pen USB inicializável no Linux.
 upgrade_table_linux_usb_link: https://pt.opensuse.org/SDB:Live_USB
 upgrade_table_windows_usb: Como criar uma pen USB inicializável no Windows.
-upgrade_table_windows_usb_link: https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
+upgrade_table_windows_usb_link: 
+  https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
 upgrade_table__mac_usb: Como criar uma pen USB inicializável no OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verificar a Sua Transferência Antes de Usar
-verify_download_p1: "Muitas aplicações podem verificar a soma de verificação (checksum)\
-  \ de uma transferência. Verificar\na sua transferência pode ser importante para\
-  \ ter realmente a certeza que recebeu\no ficheiro ISO que pretendia descarregar\
-  \ e não uma versão qualquer corrompida.\n"
-verify_download_p2: "Para cada ISO, oferecemos um ficheiro com a soma de verificação\
-  \ correspondente à soma SHA256.\n"
-verify_download_p3: "Para segurança extra, pode utilizar GPG para verificar quem assinou\
-  \ esses ficheiros .sha256.\n"
+verify_download_p1: "Muitas aplicações podem verificar a soma de verificação (checksum)
+  de uma transferência. Verificar\na sua transferência pode ser importante para ter
+  realmente a certeza que recebeu\no ficheiro ISO que pretendia descarregar e não
+  uma versão qualquer corrompida.\n"
+verify_download_p2: "Para cada ISO, oferecemos um ficheiro com a soma de verificação
+  correspondente à soma SHA256.\n"
+verify_download_p3: "Para segurança extra, pode utilizar GPG para verificar quem assinou
+  esses ficheiros .sha256.\n"
 verify_download_pubkey: Deve ser
 verify_download_help: Para mais ajuda sobre como verificar a sua transferência por
   favor leia
 verify_download_checksums_help: Ajuda Soma de Verificação
 verify_download_checksums_help_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Verifica.C3.A7.C3.A3o_de_somas
 desktops: Muitos ambientes de trabalho, três por padrão
-desktops_p1: "O processo de contribuição do openSUSE capacita o desenvolvimento de\
-  \ ambientes de trabalho para\ntodos, portanto é livre de escolher o seu favorito\
-  \ no\ninstalador. Apresentamos ativamente três ambientes de trabalho, e oferecemos\
-  \ ainda mais na visualização expandida dentro do instalador.\n"
+desktops_p1: "O processo de contribuição do openSUSE capacita o desenvolvimento de
+  ambientes de trabalho para\ntodos, portanto é livre de escolher o seu favorito no\n
+  instalador. Apresentamos ativamente três ambientes de trabalho, e oferecemos ainda
+  mais na visualização expandida dentro do instalador.\n"
 installation: Instale-o como desejar
-installation_p1: "O processo de Instalação do openSUSE providencia-lhe com todas as\
-  \ opções\nque alguma vez irá precisar. Quer instalar um sistema com rato e teclado?\n\
-  Carregue o instalador em modo gráfico. Não têm um rato à mão? Ative o cliente\n\
-  por terminal e instale-lo dessa maneira. Só tem acesso físico à maquina? \nLigue\
-  \ o instalador remotamente e siga com a instalação. \nÉ tão simples quanto isto.\n"
+installation_p1: "O processo de Instalação do openSUSE providencia-lhe com todas as
+  opções\nque alguma vez irá precisar. Quer instalar um sistema com rato e teclado?\n
+  Carregue o instalador em modo gráfico. Não têm um rato à mão? Ative o cliente\n
+  por terminal e instale-lo dessa maneira. Só tem acesso físico à maquina? \nLigue
+  o instalador remotamente e siga com a instalação. \nÉ tão simples quanto isto.\n"
 points_transparent: Tudo é transparente
-points_transparent_p1: "Desde o início ao fim, cada pacote que vai nas distribuições\n\
-  tem todo o seu código fonte e scripts de construção abertos e visíveis para todos\n\
+points_transparent_p1: "Desde o início ao fim, cada pacote que vai nas distribuições\n
+  tem todo o seu código fonte e scripts de construção abertos e visíveis para todos\n
   poderem ver. Duvida de uma fonte? Analise a mesma no serviço de construção.\n"
 points_free: Aplicações Informáticas (Software) livre? A escolha é sua
-points_free_p1: "Os pacotes nas distribuições estão divididos entre repositórios livres\
-  \ e não-livres. Não quer utilizar pacotes não-livres? Pode facilmente desativar\
-  \ o repositório não-livre. A escolha é sua, não nossa.\n"
+points_free_p1: "Os pacotes nas distribuições estão divididos entre repositórios livres
+  e não-livres. Não quer utilizar pacotes não-livres? Pode facilmente desativar o
+  repositório não-livre. A escolha é sua, não nossa.\n"
 points_welcoming: Bem-vindos contribuidores
-points_welcoming_p1: "Tentamos ao máximo agradar à comunidade, e só podemos fazer\
-  \ isto\nacontecer quando a comunidade fala sobre o que precisa. É por isso que nós\n\
+points_welcoming_p1: "Tentamos ao máximo agradar à comunidade, e só podemos fazer
+  isto\nacontecer quando a comunidade fala sobre o que precisa. É por isso que nós\n
   nos certificamos que o processo de contribuição seja o mais simples possível.\n"
 snapper: O sistema ficou corrompido? Isso já não representa um problema
-snapper_p1: "A funcionalidade Filesystem Snapshots mantém o seu sistema em ordem ao\n\
-  fazer cópias de segurança contínuas automaticamente quando instala\nnovas atualizações\
-  \ ou aplicações. Simplesmente inicie o sistema de uma dessas cópias e meta\no seu\
-  \ sistema outra vez num estado funcional numa questão de minutos.\n"
+snapper_p1: "A funcionalidade Filesystem Snapshots mantém o seu sistema em ordem ao\n
+  fazer cópias de segurança contínuas automaticamente quando instala\nnovas atualizações
+  ou aplicações. Simplesmente inicie o sistema de uma dessas cópias e meta\no seu
+  sistema outra vez num estado funcional numa questão de minutos.\n"
 software: Arranjar aplicações informáticas não poderia ser mais simples
-software_p1: "Aqui entre nós, ter de andar a saltar de sítio web em  sítio web para\
-  \ arranjar\ntodas as aplicações informáticas que necessita dá imenso trabalho. O\
-  \ Centro de Software Online\ntorna todo este processo muito simples, ao incorporar\
-  \ as aplicações de uma infinidade de\nfontes apenas num lugar comum.\n"
+software_p1: "Aqui entre nós, ter de andar a saltar de sítio web em  sítio web para
+  arranjar\ntodas as aplicações informáticas que necessita dá imenso trabalho. O Centro
+  de Software Online\ntorna todo este processo muito simples, ao incorporar as aplicações
+  de uma infinidade de\nfontes apenas num lugar comum.\n"
 software_get: Arranje Software
 transactional: Servidor Transacional
-transactional_p1: "O instalador agora suporta um novo cargo o Servidor Transacional,\n\
-  que é o resultado do esforço openSUSE Kubic. Este cargo de sistema\ncontêm uma nova\
-  \ funcionalidade que aplica atualizações atomicamente (como\numa operação singular)\
-  \ e torna fácil reverter as mesmas caso seja necessário.\nEstas funcionalidades\
-  \ são baseadas nas ferramentas de gestão de pacotes\ndas quais todas as outras distribuições\
-  \ SUSE e openSUSE dependem. Isto significa\nque a vasta maioria dos pacotes RPM\
-  \ que funcionam em outros cargos dos distribuições\nopenSUSE também funcionam com\
-  \ o cargo de\nServidor Transacional.\n"
+transactional_p1: "O instalador agora suporta um novo cargo o Servidor Transacional,\n
+  que é o resultado do esforço openSUSE Kubic. Este cargo de sistema\ncontêm uma nova
+  funcionalidade que aplica atualizações atomicamente (como\numa operação singular)
+  e torna fácil reverter as mesmas caso seja necessário.\nEstas funcionalidades são
+  baseadas nas ferramentas de gestão de pacotes\ndas quais todas as outras distribuições
+  SUSE e openSUSE dependem. Isto significa\nque a vasta maioria dos pacotes RPM que
+  funcionam em outros cargos dos distribuições\nopenSUSE também funcionam com o cargo
+  de\nServidor Transacional.\n"
 yast: YaST, a melhor escolha para o utilizador ~~experiente~~
-yast_p1: "Uma das melhores ferramentas de configuração de sistema que ajuda-o, a si\
-  \ o utilizador, a\nconfigurar cada aspeto do seu sistema. Você já não necessita\
-  \ de atravessar\numa infinidade de scripts de configuração ou inserir comandos duvidosos\n\
+yast_p1: "Uma das melhores ferramentas de configuração de sistema que ajuda-o, a si
+  o utilizador, a\nconfigurar cada aspeto do seu sistema. Você já não necessita de
+  atravessar\numa infinidade de scripts de configuração ou inserir comandos duvidosos\n
   para meter o sistema configurado como pretende.\n"
 yast_firewall: Firewall
 yast_fonts: Fontes
@@ -166,11 +166,10 @@ yast_scanner: Digitalizador
 yast_sound: Som
 yast_software: Software
 zypper: Zypper,  o seu novo gestor de pacotes favorito
-zypper_p1: "É rápido e fácil de aprender. Providencia o zypper-apt, uma camada\nde\
-  \ compatibilidade para utilizar comandos apt e apt-get. É baseado no libsolv,\n\
-  que garante tanto velocidade como resolução de dependências. A interface é clara\
-  \ e colorida apropriadamente, para uma leitura mais fácil. É perfeito, o que mais\
-  \ pode ser dito?\n"
+zypper_p1: "É rápido e fácil de aprender. Providencia o zypper-apt, uma camada\nde
+  compatibilidade para utilizar comandos apt e apt-get. É baseado no libsolv,\nque
+  garante tanto velocidade como resolução de dependências. A interface é clara e colorida
+  apropriadamente, para uma leitura mais fácil. É perfeito, o que mais pode ser dito?\n"
 index: Distribuições openSUSE
 index_p1: Para computador, servidor, e tudo pelo meio
 index_desktop: Computador

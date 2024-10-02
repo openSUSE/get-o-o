@@ -240,7 +240,7 @@ jeos_images: JeOS
 live_images: Live
 verify_download: Verifiera din nedladdning före användning
 verify_download_p2: "För varje ISO erbjuder vi en kontrollsummafil med motsvarande
-  SHA256-summa.\n"
+  SHA256-summa, och en signaturfil med en kryptografisk signatur.\n"
 points_welcoming: Välkomnar bidrag
 kvm_ch_image: KVM och XEN behållare värd
 requirements_hdd_swap_info: swap utrymme inaktiverad för att Kubernetes ska fungera
@@ -264,8 +264,9 @@ tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta frå
 verify_download_p1: "Många program kan verifiera kontrollsumman för en nedladdning.
   Att verifiera\nDin nedladdning kan vara viktig eftersom det verifierar att du verkligen
   har fått den\nISO-fil du ville ladda ner och inte någon trasig version.\n"
-verify_download_p3: "För extra säkerhet kan du använda sha256summa för att verifiera
-  vem som signerade dessa .sha256-filer. \n"
+verify_download_p3: "För att säkerställa integriteten hos den nedladdade filen kan
+  du använda sha256sum för att verifiera kontrollsumman och gpgv för att verifiera
+  den kryptografiska signaturen.\n"
 verify_download_pubkey: Det ska vara
 points_transparent: Allting är transparent
 index_desktop_p1: Val av distributioner för skrivbordsanvändning
@@ -429,3 +430,5 @@ microos_ovw_desc_p1: Designat för att vara värd för containerarbetsbelastning
 packages_image: Paketavbild
 packages_image_desc: Media som innehåller ett offlineförråd med paket.
 leap_156_ovw_video_desc: En Leap 15.6-släpp liveström
+signature: Signatur
+encrypted_image: Helt krypterad diskavbildning (rå)
