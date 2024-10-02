@@ -57,7 +57,7 @@ points_welcoming: I contributi sono benvenuti
 software: Ottenere il software non potrebbe essere più semplice
 site_title: Ottieni openSUSE
 site_title_short: Ottieni
-site_copyright: © 2023 dei contributori di openSUSE
+site_copyright: © 2024 dei contributori di openSUSE
 learn_more: Per saperne di più
 pick_mirror: Scegli mirror
 checksum: Codice di controllo
@@ -91,10 +91,10 @@ leap_switch_instructions: Istruzioni per l'aggiornamento in linea.
 verify_download_p1: "Molte applicazioni possono verificare il codice di controllo
   di uno scaricamento.\nQuesta verifica può essere importante come la certezza di
   avere avuto\nil file ISO che si voleva scaricare, e non una sua versione non funzionante.\n"
-verify_download_p2: "Per ciascuna ISO è fornito un file di controllo con il codice
-  SHA256 corrispondente.\n"
-verify_download_p3: "Per ulteriore sicurezza, può essere usato sha256sum per verificare
-  chi ha firmato quei file .sha256. \n"
+verify_download_p2: "Per ciascuna ISO viene fornito un file di controllo con il codice
+  SHA256 corrispondente, e di un file di firma con una firma crittografica.\n"
+verify_download_p3: "Per assicurare l'integrità del file scaricato si può utilizzare
+  sha256sum per verificare il codice di controllo, e gpgv la verificare la firma crittografica.\n"
 verify_download_help: Come ulteriore aiuto sulla verifica dello scaricamento, leggere
 verify_download_checksums_help: Aiuto sui codici di controllo
 desktops_p1: "Il processo di contribuzione a openSUSE autorizza lo sviluppo del desktop
@@ -277,6 +277,11 @@ Tumbleweed_features:
       più preoccupare di massicci aggiornamenti di sistema ogni sei mesi, che rischiano
       di corrompere il sistema.\n"
     name: Aggiornato continuamente
+  gamepad:
+    name: Gioco
+    description: "Tumbleweed fornisce agli utenti l'ultimo software relativo al gioco.
+      Con il supporto di Linux al gioco in rapido miglioramento, questo è un aspetto
+      importante per un'esperienza di gioco fluida, performante e senza problemi.\n"
 MicroOS_features:
   shield:
     name: Rollback
@@ -361,3 +366,14 @@ server_x86_64: Server Intel o AMD a 64 bit (x86_64)
 choosing_media_micro_p2: "L'immagine non in linea dovrebbe essere scelta da chi ha
   bisogno di un partizionamento personalizzato.\n"
 preconfigured_qcow_image: Immagine preconfigurata (qcow)
+signature: Firma
+leap_ovw_desc: Leap utilizza i sorgenti di SUSE Linux Enterprise (SLE), che gli conferiscono
+  un livello di stabilità non paragonabile ad altre distribuzioni Linux, e li combina
+  con lo sviluppo della comunità per dare agli utenti, agli sviluppatori, e agli amministratori
+  di sistema, la miglior esperienza di stabilità disponibile.
+tumbleweed_ovw_desc: 'Con Tumbleweed non devi prendere delle decisioni difficili sulle
+  cose a cui tieni (stabilità o libertà? controllo o sicurezza? tecnologia o stabilità?):
+  Tumbleweed ti permette di avere tutto questo!'
+packages_image: Immagine dei pacchetti
+leap_ovw_title: Una nuova modalità per creare openSUSE, e un nuovo tipo di distribuzione
+  Linux ibrida
