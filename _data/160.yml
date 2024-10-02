@@ -1,0 +1,76 @@
+---
+name: Leap
+version: 16.0
+bg-color: leap
+fg-color: black
+logo: logos/leap.svg
+choosing-media: true
+leap-switch: true
+downloads:
+- name: installation_images
+  display: all
+  arches:
+  - name: x86_64
+    types:
+    - name: agama_image
+      desc: agama_desc
+      primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.sha256.asc"
+      - name: torrent_file
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.torrent"
+  - name: aarch64
+    types:
+    - name: agama_image
+      desc: agama_desc
+      primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.sha256.asc"
+      - name: torrent_file
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.torrent"
+  - name: ppc64le
+    types:
+    - name: agama_image
+      desc: agama_desc
+      primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.sha256.asc"
+      - name: torrent_file
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.torrent"
+  - name: s390x
+    types:
+    - name: agama_image
+      desc: agama_image
+      primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.sha256.asc"
+      - name: torrent_file
+        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.torrent"

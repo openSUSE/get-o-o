@@ -1,4 +1,9 @@
 ---
+- version: 16.0
+  order: 10
+  releases:
+  - date: '2024-10-02 12:00:00 UTC'
+    state: 'preAlpha'
 - version: 15.6
   order: 9
   releases:
