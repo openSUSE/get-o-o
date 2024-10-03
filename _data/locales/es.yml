@@ -2,7 +2,7 @@ site_title: Consigue openSUSE
 site_title_short: Obtener
 site_description: Aprenda acerca de las distribuciones de openSUSE y descárguelas
   libremente
-site_copyright: © 2022 colaboradores de openSUSE
+site_copyright: © 2024 colaboradores de openSUSE
 search: Buscar
 translate: Traducir
 source_code: Código fuente
@@ -21,13 +21,13 @@ offline_desc: "Contiene una amplia colección de software para uso en equipos de
 network_image: Imagen de red
 network_desc: "Descarga el sistema de instalación y todos los paquetes desde repositorios\n
   en línea. Indicado para instalación o actualización.\n"
-kvm_image: KVM y XEN
+kvm_image: imagen KVM y XEN
 kvm_desc: Para uso en KVE o hipervisores XEN HVM
 xen_image: XEN
 xen_desc: Para uso en hipervisores XEN PV
-hyperv_image: MS HyperV
+hyperv_image: imagen MS HyperV
 hyperv_desc: Para ejecutar máquinas virtuales en MS HyperV
-vmware_image: VMware
+vmware_image: imagen VMware
 vmware_desc: Para ejecución en máquinas virtuales en VMware
 openstack_image: OpenStack-Cloud
 openstack_desc: Para ejecución en máquinas virtuales en OpenStack
@@ -100,10 +100,12 @@ verify_download_p1: "Hay muchas aplicaciones que pueden verificar la suma de com
   de una descarga. La comprobación \nde su descarga puede ser importante, ya que confirma
   que realmente ha recibido el \narchivo ISO que quería descargar y no una versión
   dañada.\n"
-verify_download_p2: "Para cada ISO, ofrecemos un archivo de suma de comprobación con
-  la correspondiente suma SHA256.\n"
-verify_download_p3: "Para una seguridad extra, puedes utilizar sha256sum para verificar
-  quién firmó los archivos .sha256. \n"
+verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo de suma de verificación
+  (checksum) con la suma correspondiente SHA256, y un archivo de firma con una firma
+  criptográfica.\n"
+verify_download_p3: "Para asegurar la integridad del archivo descargado puede usar
+  sha256sum para verificar la suma de comprobación, y gpgv para verificar la firma
+  criptográfica.\n"
 verify_download_pubkey: Debería ser
 verify_download_help: Para más ayuda sobre cómo verificar su descarga, lea la
 verify_download_checksums_help: ayuda sobre las sumas de comprobación
@@ -336,6 +338,8 @@ Tumbleweed_features:
       distribuciones Linux envidian. No solamente se prueba cada nueva versión de
       un paquete de manera individual, sino que se prueban diferentes grupos de versiones
       entre sí, asegurándonos que su sistema sea internamente consistente.\n"
+  gamepad:
+    name: Gaming
 hyperv_ch_image: Sistema anfitrión de contenedores MS HyperV
 vmware_ch_image: Sistema anfitrión de contenedores VMware
 requirements_net_desc: El acceso a internet es útil y necesario para el instalador
@@ -345,10 +349,10 @@ requirements_net_mac: Nombre de anfitrión y dirección MAC únicos para cada no
 download: Descargar
 alternative_downloads: Descargas alternativas
 overview: Descripción
-jeos_info: Para imágenes de JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
+jeos_info: Imágenes de VM Mínimas. Para imágenes de JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
   página wiki de Arm</a>
-selfinstall_image: Imagen auto instalable
-preconfigured_image: Imagen preconfigurada
+selfinstall_image: Imagen autoinstalable
+preconfigured_image: Imagen preconfigurada (raw)
 selfinstalling_images: Imágenes auto instalables
 live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágenes
   en vivo:\n* No se deberían usar para instalar o actualizar. Por favor use en su
@@ -359,5 +363,39 @@ live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágen
 selfinstalling_ch_image: Host de contenedor auto instalable
 selfinstall_rt_image: Imagen en tiempo real auto instalable
 selfinstalling_k3s_image: Host k3s auto instalable
-preconfigured_rt_image: Imagen en tiempo real preconfigurada
+preconfigured_rt_image: Imagen de Tiempo Real Preconfigurada (raw)
 ppc64: Servidores PowerPC, big-endian (ppc64)
+server_x86_64: servidores Intel o AMD 64-bit (x86_64)
+packages_image_desc: Medios que contienen un repositorio sin conexión a la red con
+  paquetes.
+minimal_vm_images: Máquina Virtual Mínima
+cloud_image: imagen Cloud
+cloud_minimal_desc: imagen Mínima KVM y Xen con cloud-init
+packages_image: Imagen de Paquetes
+preconfigured_qcow_image: Imagen Preconfigurada (qcow)
+kvm_sdboot_image: imagen KVM con systemd-boot
+minimal_vm_info: Similar a las imágenes SUSE Linux Enterprise Server para VM Mínima.
+  Para imágenes JeOS para Arm, por favor visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
+  página en la Wiki sobre Arm</a>
+signature: Firma
+offline_updated_image: Imagen sin conexión actualizada
+choosing_media_micro_p2: "Leap Micro ya no viene con un instalador tradicional, los
+  usuarios deberán usar medios autoinstalables en su lugar.\nLa nueva Imagen de Paquetes
+  es nada más un volcado fuera de línea del repositorio rpm de Leap Micro para aquellos
+  con entornos aislados.\n"
+offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
+  Apto para instalación o actualización.\n"
+server_aarch64: servidores y placas UEFI Arm 64-bit (aarch64)
+encrypted_image: Imagen de Disco Completamente Cifrada (raw)
+choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferida
+  para instalaciones basadas en USB o DVD.\nUn sencillo asistente de autoinstalación
+  descarga una imagen preconfigurada al disco, y aumenta la partición al tamaño del
+  disco.\n<br>\nUsuarios con Raspberry Pi y similares sin arranque por USB pueden
+  directamente escribir la imagen preconfigurada a la tarjeta SD.\nSe recomienda a
+  los usuarios buscando más control sobre el despliegue que utilizen <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nUna demo de un despliegue basado en Combustion puede verse
+  <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n<br>\nEl jeos-firstboot
+  saludará a aquellos que no configuraron su sistema usando Combustion.\n"
+server_leapmicro_p1: Para edge, embebidos, IoT y otros despliegues
+server_leapmicro_p2: Sistema operativo liviano y ultra confiable construido para cargas
+  de trabajo virtualizadas y contenedores.
