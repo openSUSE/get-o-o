@@ -114,8 +114,8 @@ desktops_p1: "El proceso de contribución de openSUSE potencia el desarrollo de 
   la vista de software expandida dentro del instalador.\n"
 installation: Instale como usted prefiera
 installation_p1: "El proceso de instalación de openSUSE le proporciona todas las opciones\n
-  que posiblemente necesite. ¿Quiere instalar su sistema con el ratón y\nteclado?
-  Cargue el instalador en modo gráfico. ¿No tiene un raton\na mano? Habilite el cliente
+  que posiblemente necesite. ¿Quiere instalar su sistema con el mouse y\nteclado?
+  Cargue el instalador en modo gráfico. ¿No tiene un mouse\na mano? Habilite el cliente
   de terminal e instálelo de esa manera. ¿Solo tiene\nacceso físico a la máquina?
   Conéctese al instalador de forma remota y\ncontinue con la instalación. Es así de
   simple.\n"
@@ -143,7 +143,7 @@ snapper_p1: "La función Instantáneas del sistema de archivos (Filesystem Snaps
   inicie desde una instantánea (snapshot) anterior y traiga\nsu sistema a un estado
   de funcionamiento en cuestión de minutos.\n"
 software: Obtener el software no puede ser más sencillo
-software_p1: "Entre nosotros, tener que pasar por todos los sitios web para obtener
+software_p1: "Entre nosotros, tener que pasar por todas las páginas web para obtener
   todo\nel software que pueda necesitar es mucho trabajo. El centro de software en
   línea\nhace esto más sencillo, incorporando software de una plétora de\nfuentes
   en un solo lugar.\n"
@@ -186,8 +186,8 @@ index_server_p1: Selección de distribuciones para uso de servidor
 index_full: O vaya directamente a las páginas de descarga de las distribuciones
 desktop: Distribuciones de openSUSE para escritorio
 desktop_p1: "Las dos distribuciones para gobernarlas a todas.\n"
-desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE y entusiastas
-  de Linux y el software libre y de código abierto
+desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, Gamers y entusiastas
+  de Linux/FOSS
 desktop_tumbleweed_p2: Desarrollo continuo con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 desktop_tumbleweed_view: Ver Tumbleweed
@@ -285,3 +285,27 @@ live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágen
   limitada, por tanto no se deben considerarse un reflejo exacto de si la distribución
   funcionará o no en su hardware\n* El kernel e initrd no se pueden actualizar, por
   tanto no se deberían usar como una instalación persistente\n"
+selfinstall_image: Imagen autoinstalable
+minimal_vm_info: Similar a las imágenes SUSE Linux Enterprise Server para VM Mínima.
+  Para imágenes JeOS para Arm, por favor visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
+  página en la Wiki sobre Arm</a>
+preconfigured_image: Imagen preconfigurada (raw)
+armv7l: Servidores UEFI Arm 32-bit, comuptadoras de escritorio, laptops y placas (armv7l)
+x86_64: Computadoras de escritorio, laptops y servidores Intel o AMD 64-bit (x86_64)
+server_leapmicro_p1: Para edge, embebidos, IoT y otros despliegues
+aarch64: Servidores UEFI Arm 64-bit, computadoras de escritorio, laptops y placas
+  (aarch64)
+ppc64le: Servidores PowerPC, little-endian (ppc64le)
+ppc64: Servidores PowerPC, big-endian (ppc64)
+s390x: IBM zSystems y LinuxONE (s390x)
+overview: Descripción general
+download: Descargar
+alternative_downloads: Descargas alternativas
+jeos_info: Imágenes de VM Mínimas. Para imágenes de JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la
+  página wiki de Arm</a>
+preconfigured_qcow_image: Imagen Preconfigurada (qcow)
+preconfigured_rt_image: Imagen de Tiempo Real Preconfigurada (raw)
+selfinstall_rt_image: Imagen en tiempo real autoinstalable
+i686: Computadoras de escritorio, laptops y servidores AMD 32-bit (i686)
+server_leapmicro_p2: Sistema operativo liviano y ultra confiable hecho para cargas
+  de trabajo virtualizadas y contenedores.
