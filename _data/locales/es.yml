@@ -340,6 +340,10 @@ Tumbleweed_features:
       entre sí, asegurándonos que su sistema sea internamente consistente.\n"
   gamepad:
     name: Gaming
+    description: "Tumbleweed ofrece a los usuarios el último software relacionado
+      con los videojuegos. Con la rápida mejora de Linux para videojuegos, este es
+      un aspecto importante para tener una experiencia fluida, de alto rendimiento
+      y libre de problemas en sus juegos favoritos.\n"
 hyperv_ch_image: Sistema anfitrión de contenedores MS HyperV
 vmware_ch_image: Sistema anfitrión de contenedores VMware
 requirements_net_desc: El acceso a internet es útil y necesario para el instalador
@@ -399,3 +403,57 @@ choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferi
 server_leapmicro_p1: Para edge, embebidos, IoT y otros despliegues
 server_leapmicro_p2: Sistema operativo liviano y ultra confiable construido para cargas
   de trabajo virtualizadas y contenedores.
+leap_ovw_title: Una nueva forma de crear openSUSE y un nuevo tipo de distribución
+  híbrida de Linux
+tumbleweed_ovw_title: Sistema operativo de escritorio y servidor de última generación
+leap_micro_ovw_title: Leap Micro es un sistema operativo ultra confiable y liviano
+  hecho para cargas de trabajo virtualizadas y contenedores.
+leap_micro_ovw_video_desc: Una demostración corta de una instalación de Leap Micro
+  con combustion y cockpit.
+leap_156_ovw_video_desc: Una transmisión en vivo del lanzamiento de Leap 15.6
+microos_ovw_title: Sistema Operativo de Microservicios proporcionando Actualizaciones
+  Transaccionales (Atómicas) sobre un sistema de archivos btrfs de sólo lectura
+tumbleweed_ovw_desc: Con Tumbleweed no tiene que tomar decisiones difíciles sobre
+  las cosas que valora, sea libertad o seguridad, control o protección, tecnología
+  o estabilidad -- ¡Tumbleweed le permite tener lo mejor de dos mundos!
+leap_micro_ovw_desc_p1: Esta versión comunitaria está basada en SUSE Linux Micro,
+  que aprovecha los componentes de seguridad y cumplimiento reforzados para empresas
+  por SUSE Linux Enterprise. Esta mezcla de tecnologías provee una plataforma de SO
+  moderna, inmutable y amigable para desarrolladores.
+microos_ovw_desc_p2: MicroOS ofrece una imagen sin conexión. La diferencia principal
+  entre las imágenes autoinstalables/raw y las sin conexión es que la imagen sin conexión
+  tiene un instalador. Las autoinstalables y raw permiten la personalización utilizando
+  combustion o manualmente en la imagen luego de ser grabada en el disco. Existe una
+  opción para un kernel en tiempo real.
+leap_ovw_desc: Leap usa como fuente SUSE Linux Enterprise (SLE), lo que le da a Leap
+  un nivel de estabilidad inigualable por otras distribuciones de Linux, y lo combina
+  con desarrollos de la comunidad para brindar a los usuarios, desarrolladores y administradores
+  de sistemas la mejor experiencia estable de Linux disponible.
+microos_ovw_desc_p3: Pruebe Leap Micro en Máquinas Virtuales (VMs) funcionando con
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. Si utiliza
+  una Raspberry Pi u otro hardware de Sistema en Chip, puede utilizar la imagen preconfigurada
+  en conjunto con la funcionalidad  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  para el proceso de arranque. Tanto las imágenes preconfiguradas como las autoinstalables
+  están hechas para ser usadas con  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  grabado
+  en un USB, que está diseñado para permitir la configuración en cualquier primer
+  arranque, con la opción de realizar cambios protegidos con contraseña predeterminada.
+leap_micro_ovw_desc_p2: Leap Micro, desde la versión 6.0, ofrece una imagen autoinstalable,
+  una imagen sin procesar (raw), y un DVD de Paquetes que puede funcionar como repositorio
+  sin conexión. La imagen autoinstalable es nuestra recomendación para cualquier instalación
+  basada en USB debido a que ya no utilizamos instaladores tradicionales. Los usuarios
+  pueden automatizar y personalizar su instalación con <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
+  o <a href="https://github.com/openSUSE/combustion">Combustion</a> , o usando el
+  asistente jeos-firstboot. Pruebe <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a>, nuetro generador de configuración Ignition en línea.
+leap_micro_ovw_desc_p3: Pruebe Leap Micro en Máquinas Virtuales (VMs) funcionando
+  con <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. Si utiliza
+  una Raspberry Pi u otro hardware de Sistema en Chip, puede utilizar la imagen preconfigurada.
+  Tanto las imágenes preconfiguradas como las autoinstalables están hechas para ser
+  usadas con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  grabado en un USB, que está diseñado para permitir la configuración en cualquier
+  primer arranque, con la opción de realizar cambios protegidos con contraseña predeterminada.
+microos_ovw_desc_p1: Diseñado para alojar cargas de trabajo de contenedores con administración
+  y aplicación de parches automatizada. Al instalar openSUSE MicroOS, obtendrá un
+  entorno pequeño y rápido para desplegar Contenedores, o cualquier orta carga de
+  trabajo que se beneficie de Actualizaciones Transaccionales. Siendo una distribución
+  de lanzamiento continuo (rolling release), el software siempre está actualizado.
