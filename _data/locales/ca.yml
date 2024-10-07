@@ -462,3 +462,14 @@ packages_image_desc: Mitjans que contenen un repositori fora de línia amb paque
 leap_156_ovw_video_desc: Una emissió en directe del llançament del Leap 15.6
 signature: Signatura
 encrypted_image: Imatge de disc totalment encriptada (en cru)
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  és el nou instal·lador que es pot usar per instal·lar el Leap 16 i el Tumbleweed.\n
+  Hi ha un pla per donar suport a la instal·lació fora de línia a Agama. Més endavant
+  s'hi afegiran altres mitjans d'instal·lació, com ara la imatge d'autoinstal·lació.\n"
+leap_16_coming_soon: "Es pot esperar la publicació del Leap 16.0, successor del Leap
+  15.6, a la tardor del 2025. No hi ha previst fer cap Leap 15.7.<br/>\nConsulteu
+  periòdicament les actualitzacions del nostre <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >full de ruta</a> i <a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
+  per a més informació.\n"
+agama_image: Instal·lador Agama
+agama_desc: El nou instal·lador en línia Agama per a openSUSE
