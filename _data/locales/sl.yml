@@ -432,3 +432,7 @@ leap_16_coming_soon: "Javni izid Leap 16.0, naslednika Leap 15.6, lahko pričaku
   >news.opensuse.org</a>.\n"
 agama_image: Namestilnik Agama
 agama_desc: Novi omrežni namestilnik Agama za openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  je novi namestilnik, ki ga lahko uporabite za namestitev Leap 16 in Tumbleweed.\n
+  Podpora za nameščanje brez omrežne povezave je v načrtu. Drugi namestitveni nosilci,
+  npr. samo-namestilni odtis, bodo dodani kasneje.\n"
