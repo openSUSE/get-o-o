@@ -7,14 +7,22 @@
       {% if distro.name == "Leap Micro" or distro.name =="MicroOS" %}
       {{ locale.choosing_media_micro_p1 }}
       {% else %}
+      {% if distro.name == "Leap" and distro.version == 16.0 %}
+      {{ locale.choosing_media_agama_p1 }}
+      {% else %}
       {{ locale.choosing_media_p1 }}
+      {% endif %}
       {% endif %}
     </p>
     <p>
       {% if distro.name == "Leap Micro" or distro.name =="MicroOS" %}
       {{ locale.choosing_media_micro_p2 }}
       {% else %}
+      {% if distro.name == "Leap" and distro.version == 16.0 %}
+	  <!-- SKIP FOR LEAP 16 -->
+      {% else %}
       {{ locale.choosing_media_p2 }}
+      {% endif %}
       {% endif %}
     </p>
   </div>

@@ -97,6 +97,9 @@ choosing_media_p1: |
   The Offline Image is typically recommended as it contains most of the
   packages available in the distribution and does not require a network
   connection during the installation.
+choosing_media_agama_p1: |
+  <a href="https://github.com/agama-project/agama">Agama</a> is the new installer that can be used to install Leap 16 and Tumbleweed.
+  There is a plan to support offline installation in Agama. Other installation media such as self-install image will be added later.
 choosing_media_micro_p1: |
   The new self-install image is the goto choice for USB or DVD based installations.
   A simple self-install wizard dumps a preconfigured image to the drive, and grows the partition to the size of the disk.
