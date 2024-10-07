@@ -432,3 +432,14 @@ packages_image_desc: Media som innehåller ett offlineförråd med paket.
 leap_156_ovw_video_desc: En Leap 15.6-släpp liveström
 signature: Signatur
 encrypted_image: Helt krypterad diskavbildning (rå)
+leap_16_coming_soon: "Offentlig lansering av Leap 16.0, en efterföljare till Leap
+  15.6, kan förväntas under hösten 2025. Det finns inga planer på att släppa Leap
+  15.7.<br/>\nKolla regelbundet uppdateringar till våran <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> och <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  för mer information.\n"
+agama_image: Agama installationsprogram
+agama_desc: Det nya Agama onlineinstallationsprogrammet för openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  är ett nytt installationsprogram som kan användas för att installera Leap 16 och
+  Tumbleweed.\nDet finns en plan för att stödja offlineinstallation med Agama. Andra
+  installationsmedia som självinstallationsavbild kommer att läggas till senare.\n"
