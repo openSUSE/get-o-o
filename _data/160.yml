@@ -24,8 +24,8 @@ downloads:
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.sha256.asc"
-      - name: torrent_file
-        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.torrent"
+#      - name: torrent_file # Torrents only for GM boo#1231361
+#        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-openSUSE.iso.torrent"
   - name: aarch64
     types:
     - name: agama_image
@@ -40,8 +40,8 @@ downloads:
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.sha256.asc"
-      - name: torrent_file
-        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.torrent"
+#      - name: torrent_file
+#        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-openSUSE.iso.torrent"
   - name: ppc64le
     types:
     - name: agama_image
@@ -56,8 +56,8 @@ downloads:
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.sha256.asc"
-      - name: torrent_file
-        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.torrent"
+#      - name: torrent_file
+#        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-openSUSE.iso.torrent"
   - name: s390x
     types:
     - name: agama_image
@@ -72,5 +72,5 @@ downloads:
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.sha256.asc"
-      - name: torrent_file
-        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.torrent"
+#      - name: torrent_file
+#        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-openSUSE.iso.torrent"
