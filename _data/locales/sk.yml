@@ -442,3 +442,13 @@ packages_image: Obraz balíkov
 leap_156_ovw_video_desc: Priamy prenos vydania Leap 15.6
 signature: Podpis
 encrypted_image: Plne zašifrovaný obraz disku (raw)
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  je nový inštalátor, ktorý možno použiť na inštaláciu Leap 16 a Tumbleweed.\nV systéme
+  Agama sa plánuje podpora offline inštalácie. Ďalšie inštalačné médiá, ako napríklad
+  samoinštalačný obraz, budú pridané neskôr.\n"
+leap_16_coming_soon: "Verejné vydanie Leap 16.0, nástupcu Leap 15.6, možno očakávať
+  na jeseň 2025. V pláne nie je vydanie Leap 15.7.<br/>\nPre viac informácií pravidelne
+  kontrolujte aktualizácie v našom <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >pláne</a> a <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>.\n"
+agama_image: Inštalátor Agama
+agama_desc: Nový online inštalátor Agama pre openSUSE
