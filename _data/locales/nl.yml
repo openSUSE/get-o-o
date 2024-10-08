@@ -438,3 +438,14 @@ microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a href="https://ww
   keer opstarten, met de standaard optie voor beschermde wijziging van het wachtwoord.
 signature: Ondetekening
 encrypted_image: Volledig versleutelde schijf-image (raw)
+leap_16_coming_soon: "Publieke uitgave van Leap 16.0, de opvolger van Leap 15.6, is
+  te verwachten in de herfst van 2025. Er is geen plan voor het maken van Leap 15.7.<br/>\n
+  Controleer regelmatig op bijwerken op onze <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> en <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  voor meer informatie.\n"
+agama_image: Agama installatieprogramma
+agama_desc: Het nieuwe Agama online installatieprogramma voor openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  is het nieuwe installatieprogramma dat gebruikt kan worden om Leap 16 en Tumbleweed
+  te installeren.\nEr is een plan om offline installatie in Agama te ondersteunen.
+  Andere installatiemedia zoals zelfinstallatie-image zallater worden toegevoegd.\n"
