@@ -457,3 +457,14 @@ microos_ovw_desc_p1: Diseñado para alojar cargas de trabajo de contenedores con
   entorno pequeño y rápido para desplegar Contenedores, o cualquier orta carga de
   trabajo que se beneficie de Actualizaciones Transaccionales. Siendo una distribución
   de lanzamiento continuo (rolling release), el software siempre está actualizado.
+leap_16_coming_soon: "La publicación de Leap 16.0, sucesora de Leap 15.6, está prevista
+  para otoño del 2025. No está previsto el desarrollo de Leap 15.7.<br/>\nConsulta
+  periódicamente las actualizaciones de nuestra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >hoja de ruta</a> y <a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
+  para más información.\n"
+agama_image: Instalador Agama
+agama_desc: El nuevo instalador en línea Agama para openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  es el nuevo instalador que se puede utilizar para instalar Leap 16 y Tumbleweed.\n
+  Existe un plan para dar soporte a la instalación sin conexión en Agama. Más adelante
+  se añadirán otros medios de instalación, como la imagen de autoinstalación.\n"
