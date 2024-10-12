@@ -431,3 +431,13 @@ microos_ovw_desc_p3: Vyzkoušejte MicroOS ve virtuálních počítačích běž�
   použití s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém prvním
   spuštění s možností výchozích změn chráněných heslem.
+leap_16_coming_soon: "Veřejné vydání Leap 16.0, nástupce Leap 15.6, lze očekávat na
+  podzim 2025. Není v plánu vytvořit verzi Leap 15.7.<br/>\nPravidelně kontrolujte
+  aktualizace na našem <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">plánu</a>
+  a další informace najdete v <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>.\n"
+agama_image: Instalátor Agama
+agama_desc: Nový online instalátor Agama pro openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  je nový instalátor, který lze použít k instalaci programů Leap 16 a Tumbleweed.\n
+  V plánu je podpora offline instalace v Agamě. Další instalační média, například
+  samoinstalační obraz, budou přidána později.\n"
