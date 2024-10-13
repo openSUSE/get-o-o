@@ -165,7 +165,7 @@ downloads:
       - name: signature
         url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256.asc"
 - name: minimal_vm_images
-  display: server
+  display: all
   info: minimal_vm_info
   arches:
   - name: server_x86_64
@@ -269,7 +269,7 @@ downloads:
       - name: signature
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2.sha256.asc"
 - name: live_images
-  display: desktop
+  display: all
   info: live_info
   arches:
   - name: x86_64
