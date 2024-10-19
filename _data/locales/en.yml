@@ -105,7 +105,7 @@ choosing_media_micro_p1: |
   A simple self-install wizard dumps a preconfigured image to the drive, and grows the partition to the size of the disk.
   <br>
   Users with Raspberry Pi and similar without usb-boot support can directly write the pre-conifgured image to the SD card.
-  Users seeking more control over deployment are adviced to use <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+  Users seeking more control over deployment are advised to use <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
   <br>
   A demo of a combustion based deployment can be seen <a href="https://www.youtube.com/watch?v=ft8UVx9elKc">here</a>.
   <br>
