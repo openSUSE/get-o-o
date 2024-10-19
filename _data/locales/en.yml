@@ -64,7 +64,7 @@ openstack_image: OpenStack-Cloud
 openstack_ch_image: OpenStack-Cloud Container Host
 openstack_desc: For running virtual machines in OpenStack
 virtualbox_image: VirtualBox
-installation_images: Installation
+installation_images: Installation media
 ports_images: Ports
 ports_info: |
   Ports of openSUSE Leap to architectures other than the PC are
@@ -94,9 +94,12 @@ microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Upda
   upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
 choosing_media_p1: |
-  The Offline Image is typically recommended as it contains most of the
+
+  The Offline Installation Image is typically recommended as it contains most of the
   packages available in the distribution and does not require a network
-  connection during the installation.
+  connection during installation.
+  The Minimal Image works perfectly with Harvester.
+  The LiveCD is a good choice if you just want to try out the distribution without installing it.
 choosing_media_agama_p1: |
   <a href="https://github.com/agama-project/agama">Agama</a> is the new installer that can be used to install Leap 16 and Tumbleweed.
   There is a plan to support offline installation in Agama. Other installation media such as self-install image will be added later.
@@ -308,6 +311,7 @@ overview: Overview
 download: Download
 alternative_downloads: Alternative Downloads
 alternative_downloads_desc: We also have $options images. Check out $alternative_downloads!
+download_server_desc: Still haven't found image you were looking for? Check out <a href="https://download.opensuse.org/distribution/$distro">download server</a>!
 MicroOS_features:
   idea:
     name: Philosophy
