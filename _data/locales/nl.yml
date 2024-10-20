@@ -413,7 +413,7 @@ choosing_media_micro_p2: "Leap Micro komt niet langer met een traditioneel insta
   De nieuw Packages Image is gewoon een offline dump van de rpm opslagruimte van Leap
   Micro voor diegenen met een geïsoleerde omgeving.\n"
 choosing_media_micro_p1: "De nieuwe zichzelf installerende image is de keuze op te
-  gebruiken voor op USB of DVD gebaseerde installaties.\nEen simpele zichzelf installerende
+  gebruiken voor op USB of DVD gebaseerde installaties.\nEen eenvoudige zichzelf installerende
   assistent dumpt een voorgeconfigureerde image op het opslagapparaat en laat de partitie
   groeien tot de grootte van het apparaat.\n<br>\nGebruikers met een Raspberry Pi
   en iets soortgelijks zonder ondersteuning van opstarten van usb kunnen direct de
