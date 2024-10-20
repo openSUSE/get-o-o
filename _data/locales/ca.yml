@@ -391,13 +391,13 @@ choosing_media_micro_p2: "La versió de Leap Micro ja no inclou un instal·lador
 choosing_media_micro_p1: "La nova imatge d'autoinstal·lació és la millor opció per
   a instal·lacions basades en USB o DVD.\nUn assistent senzill d'autoinstal·lació
   aboca una imatge preconfigurada a la unitat i fa créixer la partició a la mida del
-  disc.\n<br>\nEls usuaris amb Raspberry Pi i similars sense suport d'arrencada USB
-  poden escriure directament la imatge preconfigurada a la targeta SD.\nEs recomana
+  disc.\n<br>\nEls usuaris de Raspberry Pi i similars sense suport d'arrencada per
+  USB poden escriure directament la imatge preconfigurada a la targeta SD.\nEs recomana
   als usuaris que busquen més control sobre el desplegament que usin <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
-  >Combustion</a>.\n <br>\nEs pot veure una demostració d'un desplegament basat en
+  >Combustió</a>.\n <br>\nEs pot veure una demostració d'un desplegament basat en
   la Combustió <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n
   <br>\nEl jeos-firstboot s'oferirà com a benvinguda a qui no hagi configurat el sistema
-  mitjançant Combustion.\n"
+  mitjançant Combustió.\n"
 preconfigured_qcow_image: Imatge preconfigurada (qcow)
 server_leapmicro_p1: Per a desplegaments punters, encastats, IoT i altres
 server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a càrregues
