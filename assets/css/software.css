@@ -27,16 +27,16 @@
   background: url('/assets/images/backgrounds/wallpaper.jpg') bottom right no-repeat;
   background-size: cover;
   background-color: #0b212e;
-  border-radius: 10px;
-  margin: 10px;
+  border-radius: 22px;
+  margin: 30px;
 }
 
 .bg-server {
   background: url('/assets/images/backgrounds/server-bg.jpg') bottom right no-repeat;
   background-size: cover;
   background-color: #06140d;
-  border-radius: 10px;
-  margin: 10px;
+  border-radius: 22px;
+  margin: 30px;
 }
 
 .bg-tumbleweed-tint {
