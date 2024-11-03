@@ -1,7 +1,7 @@
 site_title: Dapatkan openSUSE
 site_title_short: Dapatkan
 site_description: Pelajari tentang distribusi openSUSE dan unduh secara gratis
-site_copyright: © 2023 Kontributor openSUSE
+site_copyright: © 2024 Kontributor openSUSE
 search: Cari
 translate: Terjemahkan
 source_code: Kode Sumber
@@ -437,3 +437,19 @@ leap_micro_ovw_desc_p2: Leap Micro menawarkan citra luring. Perbedaan utama anta
   secara manual pada citra setelah ditulis ke diska. Ada opsi untuk kernel real-time.
 microos_ovw_title: OS Micro Service menyediakan Pemutakhiran Transaksional (Atomik)
   pada sistem berkas root btrfs hanya baca
+packages_image: Image Paket
+packages_image_desc: Media yang berisi repositori luring dengan paket-paket.
+leap_156_ovw_video_desc: Siaran langsung perilisan Leap 15.6
+encrypted_image: Fully Encrypted Disk Image (raw)
+leap_16_coming_soon: "Rilis publik Leap 16.0, penerus Leap 15.6, dapat diharapkan
+  pada Musim Gugur 2025. Tidak ada rencana untuk membuat Leap 15.7.<br/>\nPeriksa
+  pembaruan secara berkala di <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> dan <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  untuk informasi lebih lanjut.\n"
+agama_image: Penginstal Agama
+agama_desc: Penginstalasi daring Agama yang baru untuk openSUSE
+signature: Tanda tangan
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  adalah penginstal baru yang dapat digunakan untuk menginstal Leap 16 dan Tumbleweed.\n
+  Ada rencana untuk mendukung instalasi secara luring di Agama. Media instalasi lain
+  seperti citra instalasi mandiri akan ditambahkan kemudian.\n"
