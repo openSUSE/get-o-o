@@ -385,16 +385,16 @@ preconfigured_qcow_image: Imagem pré-configurada (qcow)
 choosing_media_micro_p2: "O Leap Micro não vem mais com um instalador tradicional;
   os usuários devem usar a mídia de auto-instalação.\nA nova imagem de pacotes é apenas
   um dump offline do repositório Leap Micro rpm para aqueles com ambiente isolado.\n"
-choosing_media_micro_p1: "A nova imagem de auto-instalação é a escolha certa para
-  instalações baseadas em USB ou DVD.\nUm simples assistente de instalação automática
-  despeja uma imagem pré-configurada na unidade e aumenta a partição até o tamanho
-  do disco.\n<br>\nUsuários com Raspberry Pi e similares sem suporte para inicialização
-  USB podem gravar diretamente a imagem pré-configurada no cartão SD.\nOs usuários
-  que buscam mais controle sobre a implantação são aconselhados a usar o <a href=\"\
-  https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n<br>\nUma demonstração
-  de uma implantação baseada em combustão pode ser vista <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
-  >aqui</a>.\n<br>\nO jeos-firstboot cumprimentará aqueles que não configuraram seu
-  sistema usando o Combustion.\n"
+choosing_media_micro_p1: "A nova imagem de autoinstalação é a escolha ideal para instalações
+  baseadas em USB ou DVD.\nUm assistente de autoinstalação simples despeja uma imagem
+  pré-configurada na unidade e aumenta a partição para o tamanho do disco.\n<br>\n
+  Usuários com Raspberry Pi e similares sem suporte a usb-boot podem gravar diretamente
+  a imagem pré-configurada no cartão SD.\nUsuários que buscam mais controle sobre
+  a implantação são aconselhados a usar <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nUma demonstração de uma implantação baseada em combustion
+  pode ser vista <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aqui</a>.\n
+  <br>\nO jeos-firstboot cumprimentará aqueles que não configuraram seu sistema usando
+  o Combustion.\n"
 server_leapmicro_p1: Para implantações de borda, incorporadas, IoT e outras
 server_leapmicro_p2: Sistema operacional leve e ultraconfiável desenvolvido para cargas
   de trabalho em contêineres e virtualizadas.
@@ -455,3 +455,14 @@ microos_ovw_desc_p2: MicroOS oferece uma imagem offline. A principal diferença 
 leap_156_ovw_video_desc: Transmissão ao vivo do lançamento do Leap 15.6
 signature: Assinatura
 encrypted_image: Imagem de disco totalmente criptografada (bruta)
+leap_16_coming_soon: "O lançamento público do Leap 16.0, um sucessor do Leap 15.6,
+  pode ser esperado no outono de 2025. Não há planos para fazer o Leap 15.7.<br/>\n
+  Verifique regularmente as atualizações em nosso<a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roteiro</a> e <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  para mais informações.\n"
+agama_image: Instalador Agama
+agama_desc: O novo instalador online Agama para openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  é o novo instalador que pode ser usado para instalar o Leap 16 e o Tumbleweed.\n
+  Há um plano para dar suporte à instalação offline no Agama. Outras mídias de instalação,
+  como a imagem de autoinstalação, serão adicionadas posteriormente.\n"
