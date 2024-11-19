@@ -1,3 +1,9 @@
+- version: 6.1
+  order:  6
+  releases:
+  - date: '2024-11-19 12:00:00 UTC'
+    state: 'Alpha'
+
 - version: 6.0
   order:  5
   releases:
@@ -20,6 +26,8 @@
   - date: '2023-10-03 12:00:00 UTC'
     state: 'RC'
   - date: '2023-10-12 12:00:00 UTC'
+    state: 'Stable'
+  - date: '2024-11-11 12:00:00 UTC'
     state: 'Stable'
 
 - version: 5.4
