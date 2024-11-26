@@ -1,6 +1,8 @@
 - version: 6.1
   order:  6
   releases:
+  - date: '2024-11-27 12:00:00 UTC'
+    state: 'Beta'
   - date: '2024-11-19 12:00:00 UTC'
     state: 'Alpha'
 
