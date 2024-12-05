@@ -1,6 +1,8 @@
 - version: 6.1
   order:  6
   releases:
+  - date: '2024-12-05 12:00:00 UTC'
+    state: 'Stable'
   - date: '2024-12-04 12:00:00 UTC'
     state: 'RC'
   - date: '2024-11-27 12:00:00 UTC'
