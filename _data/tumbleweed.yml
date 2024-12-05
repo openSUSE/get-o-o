@@ -138,32 +138,6 @@ downloads:
         url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256"
       - name: signature
         url: "/ports/zsystems/tumbleweed/iso/openSUSE-Tumbleweed-NET-s390x-Current.iso.sha256.asc"
-  - name: ppc64
-    types:
-    - name: offline_image
-      desc: offline_desc
-      primary_link: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso"
-      links:
-      - name: metalink
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.meta4"
-      - name: pick_mirror
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso?mirrorlist"
-      - name: checksum
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.sha256"
-      - name: signature
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-DVD-ppc64-Current.iso.sha256.asc"
-    - name: network_image
-      desc: network_desc
-      primary_link: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso"
-      links:
-      - name: metalink
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.meta4"
-      - name: pick_mirror
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso?mirrorlist"
-      - name: checksum
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256"
-      - name: signature
-        url: "/ports/ppc/tumbleweed/iso/openSUSE-Tumbleweed-NET-ppc64-Current.iso.sha256.asc"
 - name: minimal_vm_images
   display: server
   info: minimal_vm_info
