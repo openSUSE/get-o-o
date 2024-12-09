@@ -395,7 +395,7 @@ choosing_media_micro_p1: "La nova imatge d'autoinstal·lació és la millor opci
   USB poden escriure directament la imatge preconfigurada a la targeta SD.\nEs recomana
   als usuaris que busquen més control sobre el desplegament que usin <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustió</a>.\n <br>\nEs pot veure una demostració d'un desplegament basat en
-  la Combustió <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n
+  la Combustió <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aquí</a>.\n
   <br>\nEl jeos-firstboot s'oferirà com a benvinguda a qui no hagi configurat el sistema
   mitjançant Combustió.\n"
 preconfigured_qcow_image: Imatge preconfigurada (qcow)

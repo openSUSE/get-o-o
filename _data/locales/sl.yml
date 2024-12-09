@@ -290,7 +290,7 @@ choosing_media_micro_p1: "Novi odtis za samo-nameščanje je prva izbira za name
   Pi in podobnimi brez podpore za zagon z USB-ja, lahko pred-nastavljen odtis zapišejo
   na krtico SD.\nUporabnikom, ki želijo več nadzora nad namestitvijo, priporočamo
   uporabo <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nPrikaz namestitve na osnovi Combustion si lahko ogledate <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  <br>\nPrikaz namestitve na osnovi Combustion si lahko ogledate <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >tukaj</a>.\n<br>\nTe, ki sistema niso nastavili z uporabo Combustion, bo pozdravil
   jeos-firstboot.\n"
 upgrade_table_linux_dvd: Kako zapisati DVD na GNU/Linux-u.

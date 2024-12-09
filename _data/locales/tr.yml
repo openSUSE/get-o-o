@@ -244,7 +244,7 @@ choosing_media_micro_p1: "Yeni kendi kendine kurulum imajı, özel bölümlemeye
   cihazlara sahip kullanıcılar, önceden yapılandırılmış imajı doğrudan SD karta yazabilirler.\n
   Dağıtım üzerinde daha fazla kontrol isteyen kullanıcıların şunları kullanması önerilir:
   <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nCombustion tabanlı konuşlandırmanın bir demosu görülebilir <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  <br>\nCombustion tabanlı konuşlandırmanın bir demosu görülebilir <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >buradan</a>.\n<br>\nSistemini Combustion kullanarak yapılandırmamış olanları jeos-firstboot
   karşılayacaktır.\n"
 choosing_media_micro_p2: "Leap Micro artık geleneksel bir yükleyici ile gelmiyor,

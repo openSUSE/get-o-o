@@ -370,7 +370,7 @@ choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för
   avbilden till SD-kortet.\nAnvändare som vill ha mer kontroll över implementeringen
   rekommenderas att använda <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a>.\n<br>\nEn demo av en combustionbaserad implementering kan ses <a
-  href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">här</a>.\n<br>\njeos-firstboot
+  href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">här</a>.\n<br>\njeos-firstboot
   kommer att hälsa dem som inte har konfigurerat sitt system genom att använda Combustion.\n"
 preconfigured_qcow_image: Förkonfigurerad avbild (qcow)
 server_leapmicro_p1: För edge, inbäddade system, IoT och andra implementeringar

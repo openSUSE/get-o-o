@@ -305,7 +305,7 @@ cloud_minimal_desc: cloud-init を含む KVM および Xen 対応最小限イメ
 choosing_media_micro_p1: "新しい自己インストール型のイメージは、 USB メモリや DVD からのインストールに利用できます。\nこのイメージは、シンプルなインストールウイザードがドライブ内に事前設定済みのイメージを展開したあと、ディスクサイズに合わせてパーティションサイズの拡張を行います。\n
   <br>\nRaspberry Pi 等の機器をご利用で、 USB からの起動に対応していない場合は、 SD カード内に事前設定済みのイメージを直接書き込んで利用することもできます。\n
   インストールに対してより細かい制御を行いたい場合は、 <a href=\"https://ja.opensuse.org/Portal:MicroOS/Combustion\"\
-  >Combustion</a> をお使いになることをお勧めします。\n<br>\nCombustion ベースでのインストールのデモは <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  >Combustion</a> をお使いになることをお勧めします。\n<br>\nCombustion ベースでのインストールのデモは <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >こちら</a> (英語) で公開されています。\n<br>\nなお、 Combustion を利用してシステムをインストールしていない場合、システムの初回起動時に
   jeos-firstboot が動作します。\n"
 choosing_media_micro_p2: "Leap Micro には従来型のインストーラは付属しておりません。インストールを行いたい場合は自己インストールメディアをお使いください。\n

@@ -380,7 +380,7 @@ choosing_media_micro_p1: "Nový samoinštalačný obraz je najlepšou voľbou pr
   obraz na kartu SD.\nPoužívateľom, ktorí chcú mať väčšiu kontrolu nad nasadením,
   odporúčame použiť <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"
   >Combustion</a>.\n<br>\nUkážku nasadenia založeného na combution si môžete pozrieť
-  na <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">here</a>.\n<br>\njeos-firstboot
+  na <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">here</a>.\n<br>\njeos-firstboot
   privíta tých, ktorí nekonfigurovali svoj systém pomocou Combustion.\n"
 preconfigured_qcow_image: Predkonfigurovaný obraz (qcow)
 server_leapmicro_p1: Pre hraničné, zabudované, IoT a iné nasadenia
