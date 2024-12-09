@@ -329,7 +329,7 @@ choosing_media_micro_p1: "Naująjį savaiminio diegimo atvaizdį gali naudoti di
   galimybės paleisti USB, iš anksto sukonfigūruotą atvaizdį galite įrašyti tiesiai
   į SD kortelę.\nNaudotojams, kurie norėtų labiau kontroliuoti diegimą, siūloma galimybę
   naudoti <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  <br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >čia</a>.\n<br>\nBe to, naudotojams, nesukonfigūravusiems savo sistemoje naudoti
   \"Combustion\", bus paraginta „jeos-firstboot“.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade

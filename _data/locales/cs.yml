@@ -276,7 +276,7 @@ choosing_media_micro_p1: "Nová samoinstalační bitová kopie je vhodnou volbou
   a podobnými zařízeními bez podpory USB-bootu mohou přímo zapsat předkonfigurovaný
   obraz na kartu SD.\nUživatelům, kteří chtějí mít větší kontrolu nad nasazením, doporučujeme
   použít <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nUkázku nasazení na bázi Combustion si můžete prohlédnout <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\"\
+  <br>\nUkázku nasazení na bázi Combustion si můžete prohlédnout <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >zde</a>.\n<br>\nJeos-firstboot přivítá ty, kteří svůj systém nenakonfigurovali
   pomocí Combustion.\n"
 preconfigured_qcow_image: Předkonfigurovaný obraz (qcow)

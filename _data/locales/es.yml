@@ -398,7 +398,7 @@ choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferi
   directamente escribir la imagen preconfigurada a la tarjeta SD.\nSe recomienda a
   los usuarios buscando más control sobre el despliegue que utilizen <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a>.\n<br>\nUna demo de un despliegue basado en Combustion puede verse
-  <a href=\"https://www.youtube.com/watch?v=ft8UVx9elKc\">aquí</a>.\n<br>\nEl jeos-firstboot
+  <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aquí</a>.\n<br>\nEl jeos-firstboot
   saludará a aquellos que no configuraron su sistema usando Combustion.\n"
 server_leapmicro_p1: Para edge, embebidos, IoT y otros despliegues
 server_leapmicro_p2: Sistema operativo liviano y ultra confiable construido para cargas

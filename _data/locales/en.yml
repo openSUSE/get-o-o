@@ -107,7 +107,7 @@ choosing_media_micro_p1: |
   Users with Raspberry Pi and similar without usb-boot support can directly write the pre-conifgured image to the SD card.
   Users seeking more control over deployment are advised to use <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
   <br>
-  A demo of a combustion based deployment can be seen <a href="https://www.youtube.com/watch?v=ft8UVx9elKc">here</a>.
+  A demo of a combustion based deployment can be seen <a href="https://www.youtube.com/watch?v=ANh5FHZDOxo">here</a>.
   <br>
   The jeos-firstboot will greet those who did not configure their system by using Combustion.
 
