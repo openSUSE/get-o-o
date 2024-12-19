@@ -98,10 +98,11 @@ verify_download: Verifikasi Unduhan Anda Sebelum Digunakan
 verify_download_p1: "Banyak aplikasi dapat memverifikasi checksum unduhan. Memverifikasi\n
   unduhan Anda bisa menjadi penting karena memverifikasi bahwa Anda benar-benar telah
   mendapatkan\nberkas ISO yang ingin Anda unduh dan bukan beberapa versi yang rusak.\n"
-verify_download_p2: "Untuk setiap ISO, kami menawarkan berkas checksum dengan jumlah
-  SHA256 yang sesuai.\n"
-verify_download_p3: "Untuk keamanan ekstra, Anda dapat menggunakan sha256sum untuk
-  memverifikasi siapa yang menandatangani berkas .sha256 tersebut. \n"
+verify_download_p2: "Untuk setiap ISO, kami menawarkan file checksum dengan sum SHA256
+  yang sesuai, dan berkas tanda tangan dengan tanda tangan kriptografi.\n"
+verify_download_p3: "Untuk memastikan integritas file yang telah diunduh, Anda bisa
+  menggunakan sha256sum untuk memverifikasi checksum, dan gpgv untuk memverifikasi
+  tanda tangan kriptografi.\n"
 verify_download_pubkey: seharusnya
 verify_download_help: Untuk bantuan lebih lanjut tentang memverifikasi unduhan Anda,
   silakan baca
@@ -369,8 +370,10 @@ alternative_downloads_desc: Kami juga memiliki citra $options. Lihat $alternativ
 overview: Ringkasan
 armv7l: Peladen, destop, laptop, dan papan UEFI Arm 32-bit (armv7l)
 selfinstall_image: Citra Pemasangan Sendiri
-choosing_media_micro_p2: "Citra ISO Luring harus digunakan oleh mereka yang memerlukan
-  partisi khusus.\n"
+choosing_media_micro_p2: "Leap Micro tidak lagi dilengkapi dengan penginstal tradisional,
+  pengguna harus menggunakan media instalasi mandiri.\nCitra Paket yang baru hanyalah
+  sebuah repositori offline dari repositori rpm Leap Micro untuk mereka yang memiliki
+  lingkungan yang terisolasi.\n"
 choosing_media_micro_p1: "Citra pemasangan mandiri yang baru direkomendasikan untuk
   semua orang yang tidak memerlukan partisi khusus dan dapat melakukan booting dari
   USB.\nWisaya pemasangan mandiri yang sederhana membuang citra yang telah dikonfigurasi
@@ -410,10 +413,10 @@ microos_ovw_desc_p3: Coba MicroOS di VM yang berjalan di <a href="https://www.su
   sendiri dimaksudkan untuk digunakan dengan <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   yang ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap
   boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
-leap_micro_ovw_desc_p1: Versi komunitas ini didasarkan pada SUSE Linux Enterprise
-  Micro, yang memanfaatkan komponen keamanan dan kepatuhan perusahaan yang ditingkatkan
-  dari SUSE Linux Enterprise. Penggabungan teknologi ini menghasilkan platform OS
-  yang modern, tidak dapat diubah, dan ramah pengembang.
+leap_micro_ovw_desc_p1: Versi komunitas ini didasarkan pada SUSE Linux Micro, yang
+  memanfaatkan komponen keamanan dan kepatuhan perusahaan yang ditingkatkan dari SUSE
+  Linux Enterprise. Penggabungan teknologi ini menghasilkan platform OS yang modern,
+  tidak dapat diubah, dan ramah pengembang.
 leap_ovw_desc: Leap menggunakan sumber dari SUSE Linux Enterprise (SLE), yang memberikan
   Leap tingkat stabilitas yang tak tertandingi oleh distribusi Linux lainnya, dan
   menggabungkannya dengan pengembangan komunitas untuk memberikan pengalaman Linux
