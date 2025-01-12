@@ -309,3 +309,173 @@ selfinstall_rt_image: Imagen en tiempo real autoinstalable
 i686: Computadoras de escritorio, laptops y servidores AMD 32-bit (i686)
 server_leapmicro_p2: Sistema operativo liviano y ultra confiable hecho para cargas
   de trabajo virtualizadas y contenedores.
+MicroOS_features:
+  idea:
+    name: Filosofía
+    description: "### Es predecible\n* No se altera durante el tiempo de ejecución\n
+      * Ejecutará los mismos artefactos en cada inicio\n\n### Es escalable\n* Elimina
+      el esfuerzo de configurar instancias individuales durante el tiempo de ejecución\n
+      * Puede ser desplegado fácil repetidamente con un resultado predecible\n\n###
+      Es fiable\n* Recuperación automática debida a actualizaciones defectuosas\n"
+  key:
+    description: "* Obtén actualizaciones a través de HTTPS\n* Los paquetes y repositorios
+      son firmados por nuestro sistema de compilación\n* Los paquetes son verificados\n
+      * No se realizan actualizaciones en caso de conflictos de dependencias\n* No
+      se desperdicia espacio: Las instantáneas del sistema de archivos son eliminadas
+      en caso de actualizaciones fallidas\n"
+    name: Actualizaciones seguras
+  work:
+    name: Cargas de trabajo
+    description: "Las aplicaciones son instaladas en contenedores en vez de en el
+      sistema de archivos raíz:\n* Aisladas del sistema de archivos central\n* Habilidad
+      reducida para aplicaciones maliciosas que comprometan el sistema\n* Instalación
+      nueva sin reiniciar\n* Posibilidad de actualizar de manera atómica (crear nueva,
+      eliminar antigua)\n* Reversión fácil\n"
+  tool:
+    name: Depuración
+    description: "### Contenedor de caja de herramientas de depuración\n* Lanza un
+      contenedor con privilegios\n* El sistema de archivos raíz está disponible en
+      `/media/root`\n* zypper para instalar las herramientas necesarias, disponible
+      sin reiniciar\n* Persistente entre usos\n"
+  update:
+    name: Actualizaciones atómicas
+    description: "###  Actualizaciones transaccionales\n\n#### Únicas\nAl usar btrfs
+      con instantáneas, MicroOS usa de manera eficiente\nespacio para almacenar el
+      historial del sistema de archivos. Todos los archivos de\nconfiguración en `/etc`
+      son parte de la instantánea y de la reversión.\n\n#### Flexible\n* No se necesita
+      un formato de paquete nuevo, hace uso de los RPM estándar para openSUSE\n* No
+      hay límite de tamaño, ni para particiones ni para el sistema operativo\n* Fácil
+      de mejorar\n"
+  shield:
+    name: Reversión
+    description: "### MicroOS es un SO inmutable, la reversión es simple\n* Inmutable:
+      No hay cambios en el disco\n* La reversión se hace al reiniciar en una instantánea
+      de BTRFS anterior\n"
+Tumbleweed_features:
+  gamepad:
+    name: Videojuegos
+    description: "Tumbleweed provee a los usuarios con el más reciente software en
+      torno a los videojuegos. Con el soporte de videojuegos en Linux mejorando rápidamente,
+      esto es un aspecto importante para una experiencia fluida, rendidora y libre
+      de problemas en tus videojuegos favoritos.\n"
+  key:
+    name: Segura
+    description: "En caso de que algo que no quieras haya ocurrido, puedes revertir
+      a un estado anterior y encontrar tus archivos y programas justo como estaban
+      antes de una actualización agitada.\n"
+  update:
+    name: Actualizada continuamente
+    description: "La instalas una vez y disfrutas por siempre. No te tienes que preocupar
+      cada seis meses por las actualizaciones de sistema masivas que podrían romper
+      tu sistema.\n"
+  user:
+    name: Sencilla de usar
+    description: "Con un solo comando puedes actualizar miles de paquetes, revertir
+      a la instantánea de la semana pasada, avanzar de nuevo, e incluso darle una
+      vista previa a lanzamientos venideros.\n"
+  cpu:
+    name: Funciona bien con tu hardware
+    description: "Gracias a su naturaleza vanguardista y minucioso testeo, Tumbleweed
+      funciona en tu hardware y con tus dispositivos como pocas otras distribuciones
+      de Linux, haciendo que sea excelente para estaciones de trabajo y computadoras
+      portátiles.\n"
+  plant:
+    description: "Tumbleweed se desarrolla gracias a décadas de uso, testeo y depuración
+      de cientos de usuarios experimentados, desarrolladores, administradores de sistema
+      y personas exigentes que no pueden permitirse poner en peligro su ritmo de trabajo.
+      La solidez de Tumbleweed se ve reflejada en varios paquetes centrales que tienen
+      ADN cuyo origen está en la venerable SUSE Linux Enterprise Server.\n"
+    name: De pie en suelo firme
+  home:
+    name: Estable
+    description: "Las actualizaciones son testeadas minuciosamente con estándares
+      de calidad de grado industrial, tomando ventaja del servicio de compilación
+      que otras distribuciones de Linux nos envidian. No solo cada nueva versión de
+      un paquete es testeada individualmente, sino que diferentes grupos de versiones
+      son testeadas unas con otras, asegurándose de que tu sistema es consistente
+      internamente.\n"
+  shield:
+    name: Protegida
+    description: "Con los últimos lanzamientos del kernel, compilada con los últimos
+      parches de mitigación de Spectre / Meltdown, con cortafuegos y políticas de
+      seguridad fuertes activados por defecto; tu protección está cubierta desde el
+      inicio.\n"
+  knife:
+    description: "Obtienes actualizaciones frecuentes que no solamente se encargan
+      de parchear vulnerabilidades o de corregir errores, sino que también traen las
+      últimas características y desarrollos; como kernels y controladores nuevos,
+      y versiones recientes de los entornos de escritorio.\n"
+    name: A la vanguardia
+  power:
+    name: Poderosa
+    description: "Aprovechando tecnologías por las que openSUSE es renombrada, como
+      el sistema de archivos `Btrfs`, la utilidad de la línea de comandos `snapper`,
+      así como el panel de control `YaST`; Tumbleweed te empodera con control completo
+      sobre tu sistema, dejándote definir las configuraciones que quieres. Ya no te
+      tienes que preocupar de que un sistema interfiera con tu ritmo de trabajo.\n"
+leap_micro_ovw_video_desc: Una demo corta de instalación de Leap Micro con combustion
+  y cockpit.
+leap_ovw_title: Una nueva manera de construir openSUSE y un nuevo tipo de distribución
+  de Linux híbrida
+tumbleweed_ovw_desc: Con Tumbleweed no tienes que tomar decisiones difíciles sobre
+  las cosas que valores, ya sea libertad o protección, control o seguridad, tecnología
+  o estabilidad -- ¡Tumbleweed permite que lo tengas todo!
+leap_micro_ovw_title: Leap Micro es un sistema operativo ultra fiable y ligero hecho
+  para cargas de trabajo en contenedores y virtualizadas.
+leap_micro_ovw_desc_p1: Esta versión de la comunidad está basada en SUSE Linux Micro,
+  que aprovecha la seguridad de nivel empresarial y los componentes de SUSE Linux
+  Enterprise. Esta mezcla de tecnologías provee una plataforma de SO moderna, inmutable
+  y amigable al desarrollador.
+leap_156_ovw_video_desc: Una transmisión en vivo del lanzamiento de Leap 15.6
+microos_ovw_title: Sistema operativo de microservicio que provee actualizaciones transaccionales
+  (atómicas) en un sistema de archivos raíz btrfs de solo lectura
+microos_ovw_desc_p2: MicroOS ofrece una imagen fuera de línea. La principal diferencia
+  entre las imágenes fuera de línea y de autoinstalación/sin procesar es que la imagen
+  fuera de línea tiene un instalador. La imagen sin procesar y la de autoinstalación
+  permiten la personalización a través de combustion o manualmente en la imagen luego
+  de que está en el disco. Hay una opción para un kernel de tiempo real.
+tumbleweed_ovw_title: Sistema operativo de escritorio y servidor de última generación
+leap_micro_ovw_desc_p2: Leap Micro ofrece desde la versión 6.0 una imagen de autoinstalación,
+  una imagen sin procesar, y un DVD de Paquetes que puede servir como un repositorio
+  fuera de línea. La imagen de autoinstalación es nuestra recomendación para cualquier
+  instalación basada en USB, dado que ya no usamos instaladores tradicionales. Los
+  usuarios pueden automatizar y personalizar su instalación ya sea con <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
+  o <a href="https://github.com/openSUSE/combustion">Combustion</a>, o usando el asistente
+  jeos-firstboot. Puedes probar <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a>, nuestro generador en línea de configuración para Ignition.
+microos_ovw_desc_p1: Diseñado para alojar cargas de trabajo en contenedores con administración
+  y parcheo automatizado. Instalando openSUSE MicroOS obtienes un entorno rápido y
+  pequeño para desplegar contenedores u otras cargas de trabajo que se beneficien
+  de actualizaciones transaccionales. Al ser una distribución de actualización continua,
+  el software siempre está actualizado.
+leap_ovw_desc: Leap usa código de SUSE Linux Enterprise (SLE), lo que le da a Leap
+  un nivel de estabilidad inigualable por otras distribuciones de Linux, y combina
+  eso con los desarrollos de la comunidad para darle a los usuarios, desarrolladores
+  y administradores de sistema la mejor experiencia estable disponible en Linux.
+leap_micro_ovw_desc_p3: Prueba Leap Micro en máquinas virtuales ejecutándola en <a
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. Usar una Raspberry
+  Pi u otro hardware SoC podría usar la imagen preconfigurada. Tanto las imágenes
+  preconfiguradas como las de autoinstalación están pensadas para ser usadas con <a
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> en una USB,
+  impulsado para permitir la configuración en el primer inicio, con la opción de cambios
+  protegidos con contraseña por defecto.
+microos_ovw_desc_p3: Prueba MicroOS en máquinas virtuales ejecutándola en <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  o KVM. Usar una Raspberry Pi u otro hardware SoC podrían usar la imagen preconfigurada
+  en conjunto con las funcionalidades de <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  para el proceso de arranque. Tanto las imágenes preconfiguradas como las de autoinstalación
+  están pensadas para ser usadas con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  en una USB, impulsado para permitir la configuración en cualquier primer arranque,
+  con la opción de cambios protegidos con contraseña por defecto.
+alternative_downloads_desc: También tenemos imágenes $options. ¡Dale un vistazo a
+  las $alternative_downloads!
+leap_16_coming_soon: "El lanzamiento al público de Leap 16.0, sucesora de Leap 15.6,
+  está previsto para otoño (hemisferio norte) de 2025. No hay planes para hacer Leap
+  15.7.<br/>\nRevisa regularmente las actualizaciones en nuestra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >hoja de ruta</a> y <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  para más información.\n"
+agama_image: Instalador Agama
+agama_desc: El nuevo instalador en línea "Agama" para openSUSE
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  es el nuevo instalador para Leap 16 y Tumbleweed.\nHay plan para dar soporte a instalaciones
+  fuera de línea en Agama. Otros medios de instalación, como las imágenes autoinstalables,
+  serán añadidos después.\n"
