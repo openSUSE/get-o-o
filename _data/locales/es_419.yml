@@ -8,11 +8,11 @@ translate: Traducir
 source_code: Código fuente
 license: Licencia
 learn_more: Aprenda más
-cd_desc: Para CD y llave USB
-dvd_desc: Para DVD y llave USB
-usb_desc: Para llave USB
-metalink: Enlace Metalink
-pick_mirror: Escoger el centro de descargas
+cd_desc: Para CD y memoria USB
+dvd_desc: Para DVD y memoria USB
+usb_desc: Para memoria USB
+metalink: Metalink
+pick_mirror: Escoger espejo
 torrent_file: Archivo Torrent
 offline_image: Imagen sin conexión
 offline_desc: "Contiene una larga colección de software para uso de escritorio o servidores.\n
@@ -20,7 +20,7 @@ offline_desc: "Contiene una larga colección de software para uso de escritorio 
 network_image: Imagen de red
 network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde
   repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
-checksum: Suma de comprobación
+checksum: Suma de verificación
 kvm_image: imagen KVM y XEN
 kvm_desc: Para uso en los supervisores KVM o XEN HVM
 xen_image: XEN
@@ -32,8 +32,8 @@ vmware_desc: Para ejecutar máquinas virtuales en VMware
 openstack_desc: Para ejecutar máquinas virtuales en OpenStack
 installation_images: Instalación
 ports_images: Adaptaciones
-ports_info: "Las adaptaciones de openSUSE Leap hacia otras arquitecturas son mantenidas
-  por comunidades separadas, con recursos limitados.\n"
+ports_info: "Los porteos de openSUSE Leap a arquitecturas diferentes a las de PC son\n
+  mantenidos por equipos comunitarios separados, con recursos limitados.\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: LiveCD de GNOME
@@ -60,9 +60,9 @@ documentation_release_notes: Notas de lanzamiento
 documentation_license: Licencia
 documentation_full_documentation: Toda la documentación
 leap_switch: Formas sencillas para migrar a openSUSE Leap
-leap_switch_p1: "Si usted ya usa openSUSE en su PC/portátil entonces puede actualizar
-  iniciando el sistema desde su DVD/USB, o haciendo una \"Actualización en Línea\"\
-  \ con unos cuantos comandos.\n"
+leap_switch_p1: "Si ya estás usando openSUSE, puedes actualizar arrancando desde el\n
+  DVD o la USB, y seleccionando \"actualizar\"; o llevando a cabo una \"actualización
+  en línea\" con unos cuantos\ncomandos.\n"
 leap_switch_instructions: Instrucciones para actualizar en línea.
 requirements: Requisitos del sistema
 requirements_cpu: CPU
@@ -70,9 +70,9 @@ requirements_mem: Memoria
 requirements_hd: 40 GB de espacio de almacenamiento disponible
 requirements_net: Red
 tw_switch: Formas sencillas de migrar a openSUSE Tumbleweed
-tw_switch_p1: "Si ya usa openSUSE en su PC/portátil, puede actualizar a través de
-  su DVD/USB  y elegir \"actualizar\", o hacer una \"Actualización en Línea\" con
-  unos cuantos comandos.\n"
+tw_switch_p1: "Si ya estás usando openSUSE, puedes actualizar arrancando desde el\n
+  DVD o la USB, y seleccionando \"actualizar\"; o llevando a cabo una \"actualización
+  en línea\" con unos cuantos\ncomandos.\n"
 tw_switch_instructions: Instrucciones para actualizar.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Desde una versión anterior u otra distribución de Linux
@@ -91,12 +91,9 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Como crear una llave USB "arrancable" en OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Antes de utilizar, verifique su archivo descargado
-verify_download_p1: "Muchas aplicaciones pueden comprobar la firma de verificación
-  (checksum) de una descarga. Verificar su descarga es importante ya que verifica
-  que descargó el archivo ISO deseado y no una versión rota o corrupta. Puede comprobar
-  el archivo en el proceso de descarga. Por ejemplo : una suma de verificación (SHA256)
-  será utilizada automáticamente si escoge Metalink en la descripción más abajo y
-  usa la extensión \"DownThemAll!\" de Firefox.\n"
+verify_download_p1: "Muchas aplicaciones pueden comprobar la suma de verificación
+  de una descarga. Verificar\ntu descarga puede ser importante dado que verifica que
+  en realidad recibiste el\narchivo ISO que querías descargar y no una versión rota.\n"
 verify_download_p2: "Para cada archivo ISO, ofrecemos un archivo de suma de verificación
   (checksum) con la suma correspondiente SHA256, y un archivo de firma con una firma
   criptográfica.\n"
@@ -191,10 +188,10 @@ desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, Gamers y
 desktop_tumbleweed_p2: Desarrollo continuo con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 desktop_tumbleweed_view: Ver Tumbleweed
-desktop_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios medios de equipos de escritorio
-desktop_leap_p2: Publicaciones regulares  con los beneficios tanto de la ingeniería
-  de nivel empresarial y la innovación desarrollada por la comunidad.
+desktop_leap_p1: Para administradores de sistemas, desarrolladores profesionales,
+  y usuarios "regulares" de escritorio
+desktop_leap_p2: Lanzamiento regular con los beneficios tanto de la ingeniería de
+  nivel empresarial como de la innovación desarrollada por la comunidad.
 desktop_leap_view: Ver Leap
 server: Distribuciones de servidor de openSUSE
 server_p1: "Cuatro distribuciones cómodamente aburridas, como siempre debería ser\n"
@@ -203,10 +200,10 @@ server_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE y entusias
 server_tumbleweed_p2: Desarrollo continuo con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 server_tumbleweed_view: Ver Tumbleweed
-server_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios medios de equipos de escritorio
-server_leap_p2: Publicaciones regulares  con los beneficios tanto de la ingeniería
-  de nivel empresarial y la innovación desarrollada por la comunidad.
+server_leap_p1: Para administradores de sistemas, desarrolladores profesionales, y
+  usuarios "regulares" de servidor
+server_leap_p2: Lanzamiento regular con los beneficios tanto de la ingeniería de nivel
+  empresarial como de la innovación desarrollada por la comunidad.
 server_leap_view: Ver Leap
 server_microos_p1: Para aplicaciones de servidor de uso único
 server_microos_p2: Diseñado para alojar cargas de trabajo de contenedores con administración
@@ -218,7 +215,7 @@ view_distro: Ver $distro_name
 offline_updated_image: Imagen sin conexión actualizada
 offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
   Apto para instalación o actualización.\n"
-selfinstalling_images: Imágenes de instalación automática
+selfinstalling_images: Imágenes auto instalables
 iso_image: imagen ISO
 selfinstalling_k3s_image: Host k3s autoinstalable
 vmware_vmx_ch_image: Host de contenedores VMware VMX
@@ -448,10 +445,10 @@ microos_ovw_desc_p1: Diseñado para alojar cargas de trabajo en contenedores con
   pequeño para desplegar contenedores u otras cargas de trabajo que se beneficien
   de actualizaciones transaccionales. Al ser una distribución de actualización continua,
   el software siempre está actualizado.
-leap_ovw_desc: Leap usa código de SUSE Linux Enterprise (SLE), lo que le da a Leap
-  un nivel de estabilidad inigualable por otras distribuciones de Linux, y combina
-  eso con los desarrollos de la comunidad para darle a los usuarios, desarrolladores
-  y administradores de sistema la mejor experiencia estable disponible en Linux.
+leap_ovw_desc: Leap usa código de SUSE Linux Enterprise (SLE), lo que le da un nivel
+  de estabilidad inigualable por otras distribuciones de Linux, y lo combina con los
+  desarrollos de la comunidad para darle a los usuarios, desarrolladores y administradores
+  de sistemas la mejor experiencia estable disponible en Linux.
 leap_micro_ovw_desc_p3: Prueba Leap Micro en máquinas virtuales ejecutándola en <a
   href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. Usar una Raspberry
   Pi u otro hardware SoC podría usar la imagen preconfigurada. Tanto las imágenes
