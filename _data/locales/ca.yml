@@ -422,8 +422,8 @@ leap_micro_ovw_desc_p2: El Leap Micro, des de la versió 6.0, ofereix una imatge
   o amb <a href="https://github.com/ openSUSE/combustion">Combustió</a> o usant l'assistent
   jeos-firstboot. Proveu <a href="https://opensuse.github.io/fuel-ignition/">Fuel
   Ignition</a>, el nostre generador de configuració d'Ignition en línia.
-leap_micro_ovw_video_desc: Una demostració d'instal·lació de Short Leap Micro amb
-  combustió i cabina.
+leap_micro_ovw_video_desc: Demostració d'instal·lació de Leap Micro 6.1 amb una encriptació
+  de disc complet i una autenticació de dos factors a cockpit.
 microos_ovw_title: Un Micro Service OS que proporciona actualitzacions transaccionals
   (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
 microos_ovw_desc_p1: Dissenyat per allotjar càrregues de treball de contenidors amb
