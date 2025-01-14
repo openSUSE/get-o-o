@@ -78,7 +78,7 @@ xen_image: XEN
 kvm_ch_image: Host Contedor KVM e XEN
 kvm_image: KVM e XEN
 network_desc: "Descarga o sistema de instalación e todos os paquetes dende\nrepositorios
-  online. Apropiado para instalación ou actualización.\n"
+  con conexión. Axeitado para instalación ou actualización.\n"
 offline_desc: "Contén unha grande colección de software para usar en servidor ou en
   escritorio.\nApropiado para instalar ou actualizar.\n"
 iso_image: Imaxe ISO
@@ -88,7 +88,7 @@ usb_desc: Para memoria USB
 learn_more: Aprenda máis
 source_code: Código Fonte
 translate: Traducir
-site_copyright: © 2022 contribuidores openSUSE
+site_copyright: © 2024 contribuidores de openSUSE
 site_description: Aprenda acerca das distribucións openSUSE e descárgueas de balde
 site_title_short: Obter
 documentation_license_link: https://en.opensuse.org/openSUSE:License
@@ -145,3 +145,16 @@ verify_download_p3: "Para máis seguridade, podes usar GPG para verificar quen f
 verify_download_help: Para ter máis axuda de como verificar a túa descarga, por favor
   le
 offline_updated_image: Imaxe actualizada sen conexión
+offline_updated_desc: "Imaxe de instalación sen conexión coas últimas actualizacións.\n
+  Axeitada para instalación ou actualización.\n"
+selfinstalling_ch_image: Host de contedor instalable automaticamente
+selfinstalling_k3s_image: Host k3s de instalación automática
+signature: Sinatura
+leap_16_coming_soon: "A publicación de Leap 16.0, sucesora de Leap 15.6, está prevista
+  para o outono do 2025. Non está previsto o desenvolvemento de Leap 15.7.<br/>\n
+  Consulte periodicamente as actualizacións da nosa <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >folla de ruta</a> ye<a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
+  para máis información.\n"
+agama_image: Instalador Agama
+agama_desc: O novo instalador con conexión Agama para openSUSE
+selfinstalling_images: Imaxes de instalacións automáticas
