@@ -418,7 +418,8 @@ leap_micro_ovw_desc_p3: Vyskúšajte Leap Micro vo VM bežiacich buď na <a href
   na použitie s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   zapísaným na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri akomkoľvek
   prvom spustení, s možnosťou predvolených zmien chránených heslom.
-leap_micro_ovw_video_desc: Ukážka Short Leap Micro inštalácie s combustion a cockpit.
+leap_micro_ovw_video_desc: Demo inštalácie Leap Micro 6.1 s úplným šifrovaním disku
+  a dvojfaktorovým overovaním v cockpit.
 microos_ovw_title: Micro Service OS poskytujúci transakčné ((atomické) aktualizácie
   na koreňovom súborovom systéme btrfs určenom len na čítanie
 microos_ovw_desc_p1: Navrhnutý na hosťovanie kontajnerových pracovných záťaží s automatizovanou
