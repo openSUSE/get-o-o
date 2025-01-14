@@ -379,8 +379,8 @@ tumbleweed_ovw_desc: 'S Tumbleweed vam ni potrebno sprejemati težkih odločitev
   ali stabilnost – Tumbleweed vam omogoča, da hkrati imate torto in da jo pojeste!'
 leap_micro_ovw_title: Leap Micro je ultra-zanesljiv, lahek operacijski sistem, ki
   je zgrajen za uporabe v vsebnikih in navideznih računalnikih.
-leap_micro_ovw_video_desc: Kratka predstavitev namestitve Leap Micro s Combustion
-  in Cockpit.
+leap_micro_ovw_video_desc: Predstavitev namestitve Leap Micro 6.1 s šifriranjem celotnega
+  diska in dvo-delnim overjanjem v Cockpit-u.
 leap_ovw_desc: Leap uporablja izvorno kodo iz SUSE Linux Enterprise (SLE), kar Leap
   daje stopnjo stabilnosti, ki je druge distribucije GNU/Linux ne dosegajo. To združuje
   z razvojem iz skupnosti in tako uporabnikom, razvijalcem in sistemskim skrbnikom
