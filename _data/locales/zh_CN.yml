@@ -285,7 +285,7 @@ tumbleweed_ovw_title: 最为先进的桌面设备与服务器操作系统
 tumbleweed_ovw_desc: 使用 Tumbleweed，您不必在看重的事物上做出艰难抉择，无论自由与安全、可控与保障，还是先进与稳定 —— Tumbleweed
   让您鱼与熊掌兼得！
 leap_micro_ovw_title: Leap Micro 是一款极度可靠、轻量的操作系统，专为容器化与虚拟化工作负载构建。
-leap_micro_ovw_video_desc: 带 Combustion 和 Cockpit 的 Leap Micro 简短安装示例。
+leap_micro_ovw_video_desc: 在 Cockpit 中配置完全磁盘加密和两步认证的 Leap Micro 6.1 安装示例。
 microos_ovw_title: 在只读 Btrfs 根文件系统上提供事务性（原子）更新的微型服务操作系统
 leap_ovw_desc: Leap 使用 SUSE Linux Enterprise （SLE）的源码构建，这也让 Leap 获得了其他 Linux 发行版无可比拟的稳定性，结合社区开发，为用户、开发者和系统管理员提供最佳稳定的
   Linux 体验。
