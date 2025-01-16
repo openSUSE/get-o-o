@@ -418,8 +418,8 @@ leap_micro_ovw_desc_p2: Leap Micro erbjuder sedan 6.0 en självinstallationsavbi
   eller <a href="https://github.com/openSUSE/combustion">Combustion</a> eller genom
   att använda jeos-firstboot guiden. Gör ett försök med <a href="https://opensuse.github.io/fuel-ignition/">Fuel
   Ignition</a> våran online generator för Ignition.
-leap_micro_ovw_video_desc: En kort Leap Micro installationsdemo med combustion och
-  cockpit.
+leap_micro_ovw_video_desc: Leap Micro 6.1 installationsdemo med full diskkryptering
+  och tvåfaktorsautentisering i cockpit.
 microos_ovw_title: OS för mikrotjänster tillhandahåller transaktionsuppdateringar
   (Atomiska) på ett skrivskyddat btrfs-rootfilsystem
 microos_ovw_desc_p1: Designat för att vara värd för containerarbetsbelastningar med
