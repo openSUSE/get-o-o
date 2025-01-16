@@ -158,3 +158,78 @@ leap_16_coming_soon: "A publicación de Leap 16.0, sucesora de Leap 15.6, está 
 agama_image: Instalador Agama
 agama_desc: O novo instalador con conexión Agama para openSUSE
 selfinstalling_images: Imaxes de instalacións automáticas
+Tumbleweed_features:
+  power:
+    description: "Aproveitando as tecnoloxías polas que openSUSE é coñecido, como
+      o sistema de ficheiros `Btrfs`, a utilidade de liña de ordes `snapper` , así
+      como o \"panel de control\" `YaST`, Tumbleweed permítelle un control total sobre
+      o seu sistema, permitíndolle definir a configuración e o acabado que desexe.
+      Xa non ten que preocupartse de que un sistema interfira co seu fluxo de traballo.\n"
+    name: Poderoso
+  key:
+    description: "Se ocorre algo non desexado, sempre pode volver a un estado anterior
+      e atopar os seus ficheiros e programas tal e como estaban antes dunha actualización
+      problemática.\n"
+    name: Fiábel
+  cpu:
+    description: "Grazas á súa natureza de vangarda e completamente probada, Tumbleweed
+      serve o seu hardware e dispositivos como poucas outras distribucións de Linux,
+      o que o converte nunha excelente entrega para estacións de traballo, portátiles
+      e similares.\n"
+    name: Funciona ben co seu equipo
+  home:
+    name: Estábel
+    description: "As actualizacións son probadas a fondo cos máis altos estándares
+      de calidade do sector, aproveitando un servizo de compilación que outras distribucións
+      de Linux envexan. Non só se proba cada nova versión dun paquete individualmente,
+      senón que tamén se proban diferentes grupos de versións entre si, asegurándose
+      de que o seu sistema sexa coherente internamente.\n"
+  knife:
+    description: "Reciba actualizacións frecuentes que non só abordan vulnerabilidades
+      ou corrixen erros, senón que reflicten as últimas características e desenvolvementos,
+      como kernels novos, controladores novos e versións recentes do ambiente de escritorio.\n"
+    name: Á vangarda
+  update:
+    name: Actualizado continuamente
+    description: "Instálao unha vez e goza del para sempre. Xa non ten que preocupartse
+      cada seis meses polas actualizacións masivas do sistema que corren o risco de
+      comprometer o seu sistema.\n"
+  shield:
+    name: Seguro
+    description: "Creado a partir das últimas versións do kernel, compilado cos últimos
+      parches de mitigación de Spectre/Meltdown, con devasas e políticas de seguranza
+      fortes activadas de forma predeterminada, a súa seguranza está cuberta de xeito
+      inmediato.\n"
+  user:
+    name: Simple de usar
+    description: "Cunha soa orde pode actualizar milleiros de paquetes, retroceder
+      á instantánea da semana pasada, avanzar de novo e ata obterunha vista previa
+      das vindeiras versións.\n"
+  plant:
+    name: Está en terreo firme
+    description: "Tumbleweed baséase en décadas de uso, probas e depuración por centos
+      de usuarios avanzados, desenvolvedores, administradores de sistemas e persoas
+      esixentes que non poden permitirse pór en perigo o seu fluxo de traballo. A
+      solidez de Tumbleweed está incorporada en moitos paquetes básicos cuxo ADN deriva
+      do venerábel SUSE Linux Enterprise Server.\n"
+  gamepad:
+    description: "Tumbleweed ofrece aos usuarios o software máis recente relacionado
+      cos xogos. Coa compatibilidade con Linux para os xogos que mellora rapidamente,
+      ese é un aspecto importante para unha experiencia fluida, de alto rendemento
+      e sen problemas nos seus xogos favoritos.\n"
+microos_ovw_desc_p2: MicroOS ofrece unha imaxe sen conexión. A principal diferenza
+  entre as imaxes sen conexión e as de autoinstalación/en bruto é que a imaxe sen
+  conexión ten un instalador. Raw e autoinstalación permite a personalización mediante
+  combustión ou manualmente na imaxe despois de ser gravada no disco. Hai unha opción
+  para un kernel en tempo real.
+microos_ovw_desc_p3: Probe MicroOS en máquinas virtuais (VMs) executadas en  <a href="https://www.suse.com/c/happened-kernel-xen/">
+  Xen</a> ou KVM. Se emprega unha Raspberry Pi ou outro hardware de Sistema en Chip,
+  pode usar a imaxe preconfigurada xunto coa funcionalidade  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  para o proceso de arranque. Tanto as imaxes preconfiguradas como as autoinstaladas
+  están pensadas para ser usadas con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>   gravado
+  nunha USB, que está deseñado para permitir a configuración en calquera primeiro
+  arranque, coa opción de cambios predeterminados protexidos por contrasinal predeterminada.
+tumbleweed_ovw_title: Sistema operativo de escritorio e servidor de última xeración
+tumbleweed_ovw_desc: Con Tumbleweed non ten que tomar decisións difíciles sobre cousas
+  que valora, xa sexa a liberdade ou a seguridade, o control ou a protección, a tecnoloxía
+  ou estabilidade --Tumbleweed permítelle ter o mellor dos dous mundos!
