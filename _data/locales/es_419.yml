@@ -210,7 +210,7 @@ server_microos_p2: Diseñado para alojar cargas de trabajo de contenedores con a
   y parches automatizados
 server_microos_view: Ver MicroOS
 new_version_available: $distro_name está disponible para descarga
-new_version_testing: $distro_name está disponible para descarga y testing
+new_version_testing: $distro_name ya está disponible para descargar y testear
 view_distro: Ver $distro_name
 offline_updated_image: Imagen sin conexión actualizada
 offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
@@ -252,7 +252,7 @@ hyperv_ch_image: Host de contenedores MS HyperV
 vmware_ch_image: Host de contenedores VMware
 pine_image: Pine64
 virtualbox_image: VirtualBox
-requirements_cpu_desc: procesador dual core de 2 Ghz o superior
+requirements_cpu_desc: Procesador de doble núcleo de 2 GHz o mejor
 requirements_hdd_root: partición / (raíz)
 requirements_hdd_var: Partición /var
 requirements_hdd_size_desc: $value de espacio disponible en disco
@@ -374,12 +374,12 @@ Tumbleweed_features:
     name: Funciona bien con tu hardware
     description: "Gracias a su naturaleza vanguardista y minucioso testeo, Tumbleweed
       funciona en tu hardware y con tus dispositivos como pocas otras distribuciones
-      de Linux, haciendo que sea excelente para estaciones de trabajo y computadoras
+      de Linux lo hacen, haciendo que sea excelente para estaciones de trabajo y computadoras
       portátiles.\n"
   plant:
     description: "Tumbleweed se desarrolla gracias a décadas de uso, testeo y depuración
-      de cientos de usuarios experimentados, desarrolladores, administradores de sistema
-      y personas exigentes que no pueden permitirse poner en peligro su ritmo de trabajo.
+      de cientos de usuarios experimentados, desarrolladores, administradores de sistemas
+      y personas exigentes que no pueden permitirse poner en peligro su flujo de trabajo.
       La solidez de Tumbleweed se ve reflejada en varios paquetes centrales que tienen
       ADN cuyo origen está en la venerable SUSE Linux Enterprise Server.\n"
     name: De pie en suelo firme
@@ -410,8 +410,8 @@ Tumbleweed_features:
       así como el panel de control `YaST`; Tumbleweed te empodera con control completo
       sobre tu sistema, dejándote definir las configuraciones que quieres. Ya no te
       tienes que preocupar de que un sistema interfiera con tu ritmo de trabajo.\n"
-leap_micro_ovw_video_desc: Una demo corta de instalación de Leap Micro con combustion
-  y cockpit.
+leap_micro_ovw_video_desc: Demo de instalación de Leap Micro 6.1 con encriptado completo
+  de la unidad de almacenamiento y autenticación en dos pasos en Cockpit.
 leap_ovw_title: Una nueva manera de construir openSUSE y un nuevo tipo de distribución
   de Linux híbrida
 tumbleweed_ovw_desc: Con Tumbleweed no tienes que tomar decisiones difíciles sobre
@@ -473,6 +473,6 @@ leap_16_coming_soon: "El lanzamiento al público de Leap 16.0, sucesora de Leap 
 agama_image: Instalador Agama
 agama_desc: El nuevo instalador en línea "Agama" para openSUSE
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  es el nuevo instalador para Leap 16 y Tumbleweed.\nHay plan para dar soporte a instalaciones
-  fuera de línea en Agama. Otros medios de instalación, como las imágenes autoinstalables,
-  serán añadidos después.\n"
+  es el nuevo instalador para Leap 16 y Tumbleweed.\nSe planea dar soporte a instalaciones
+  fuera de línea en Agama en el futuro. Otros medios de instalación, como las imágenes
+  autoinstalables, serán añadidos después.\n"
