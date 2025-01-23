@@ -408,9 +408,9 @@ leap_ovw_title: Una nueva forma de crear openSUSE y un nuevo tipo de distribuci�
 tumbleweed_ovw_title: Sistema operativo de escritorio y servidor de última generación
 leap_micro_ovw_title: Leap Micro es un sistema operativo ultra confiable y liviano
   hecho para cargas de trabajo virtualizadas y contenedores.
-leap_micro_ovw_video_desc: Una demostración corta de una instalación de Leap Micro
-  con combustion y cockpit.
-leap_156_ovw_video_desc: Una transmisión en vivo del lanzamiento de Leap 15.6
+leap_micro_ovw_video_desc: Demostración de instalación de Leap Micro 6.1 con encriptado
+  completo del disco y autenticación en dos pasos en Cockpit.
+leap_156_ovw_video_desc: Transmisión en vivo del lanzamiento de Leap 15.6
 microos_ovw_title: Sistema Operativo de Microservicios proporcionando Actualizaciones
   Transaccionales (Atómicas) sobre un sistema de archivos btrfs de sólo lectura
 tumbleweed_ovw_desc: Con Tumbleweed no tiene que tomar decisiones difíciles sobre
