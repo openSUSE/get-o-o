@@ -21,7 +21,7 @@ network_image: Imagen de red
 network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde
   repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
 checksum: Suma de verificación
-kvm_image: imagen KVM y XEN
+kvm_image: KVM y XEN
 kvm_desc: Para uso en los supervisores KVM o XEN HVM
 xen_image: XEN
 xen_desc: Para uso en supervisores XEN PV
@@ -78,17 +78,17 @@ tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Desde una versión anterior u otra distribución de Linux
 upgrade_table_windows: Desde Windows
 upgrade_table_mac: Desde OS X
-upgrade_table_linux_dvd: Como grabar un DVD en Linux.
+upgrade_table_linux_dvd: Cómo grabar un DVD en Linux.
 upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd: Como grabar un DVD en Windows.
+upgrade_table_windows_dvd: Cómo grabar un DVD en Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Como grabar un DVD en OS X.
+upgrade_table_mac_dvd: Cómo grabar un DVD en OS X.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_linux_usb: Como crear una llave USB "arrancable" en Linux.
+upgrade_table_linux_usb: Cómo crear una memoria USB de arranque en Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb: Como crear una llave USB "arrancable" en Windows.
+upgrade_table_windows_usb: Cómo crear una memoria USB de arranque en Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Como crear una llave USB "arrancable" en OS X.
+upgrade_table__mac_usb: Cómo crear una memoria USB de arranque en OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Antes de utilizar, verifique su archivo descargado
 verify_download_p1: "Muchas aplicaciones pueden comprobar la suma de verificación
@@ -128,7 +128,7 @@ points_welcoming: Acogiendo contribuciones
 points_welcoming_p1: "Intentamos dar lo mejor para complacer a la comunidad, y solo
   podemos hacer eso \ncuando la comunidad expresa lo que necesita. Por eso \nnos aseguramos
   de que contribuir sea lo más fácil posible.\n"
-snapper: ¿Su sistema se ha corrupto? No es un problema nunca más
+snapper: ¿El sistema se corrompió? Eso ya nunca más será un problema
 openstack_image: OpenStack-Cloud
 choosing_media: Escoger que medio descargar
 documentation_license_link: https://en.opensuse.org/openSUSE:License
@@ -209,14 +209,14 @@ server_microos_p1: Para aplicaciones de servidor de uso único
 server_microos_p2: Diseñado para alojar cargas de trabajo de contenedores con administración
   y parches automatizados
 server_microos_view: Ver MicroOS
-new_version_available: $distro_name está disponible para descarga
+new_version_available: $distro_name ya está disponible para descargar
 new_version_testing: $distro_name ya está disponible para descargar y testear
 view_distro: Ver $distro_name
 offline_updated_image: Imagen sin conexión actualizada
 offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
   Apto para instalación o actualización.\n"
 selfinstalling_images: Imágenes auto instalables
-iso_image: imagen ISO
+iso_image: Imagen ISO
 selfinstalling_k3s_image: Host k3s autoinstalable
 vmware_vmx_ch_image: Host de contenedores VMware VMX
 vagrant_image: Vagrant
@@ -427,14 +427,14 @@ leap_156_ovw_video_desc: Una transmisión en vivo del lanzamiento de Leap 15.6
 microos_ovw_title: Sistema operativo de microservicio que provee actualizaciones transaccionales
   (atómicas) en un sistema de archivos raíz btrfs de solo lectura
 microos_ovw_desc_p2: MicroOS ofrece una imagen fuera de línea. La principal diferencia
-  entre las imágenes fuera de línea y de autoinstalación/sin procesar es que la imagen
-  fuera de línea tiene un instalador. La imagen sin procesar y la de autoinstalación
-  permiten la personalización a través de combustion o manualmente en la imagen luego
-  de que está en el disco. Hay una opción para un kernel de tiempo real.
+  entre las imágenes fuera de línea y autoinstalable/sin procesar es que la imagen
+  fuera de línea tiene un instalador. La imagen sin procesar y la autoinstalable permiten
+  la personalización a través de Combustion o manualmente en la imagen luego de que
+  está en el disco. Hay una opción para un kernel de tiempo real.
 tumbleweed_ovw_title: Sistema operativo de escritorio y servidor de última generación
-leap_micro_ovw_desc_p2: Leap Micro ofrece desde la versión 6.0 una imagen de autoinstalación,
+leap_micro_ovw_desc_p2: Leap Micro ofrece desde la versión 6.0 una imagen autoinstalable,
   una imagen sin procesar, y un DVD de Paquetes que puede servir como un repositorio
-  fuera de línea. La imagen de autoinstalación es nuestra recomendación para cualquier
+  fuera de línea. La imagen autoinstalable es nuestra recomendación para cualquier
   instalación basada en USB, dado que ya no usamos instaladores tradicionales. Los
   usuarios pueden automatizar y personalizar su instalación ya sea con <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
   o <a href="https://github.com/openSUSE/combustion">Combustion</a>, o usando el asistente
@@ -452,19 +452,18 @@ leap_ovw_desc: Leap usa código de SUSE Linux Enterprise (SLE), lo que le da un 
 leap_micro_ovw_desc_p3: Prueba Leap Micro en máquinas virtuales ejecutándola en <a
   href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. Usar una Raspberry
   Pi u otro hardware SoC podría usar la imagen preconfigurada. Tanto las imágenes
-  preconfiguradas como las de autoinstalación están pensadas para ser usadas con <a
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> en una USB,
-  impulsado para permitir la configuración en el primer inicio, con la opción de cambios
-  protegidos con contraseña por defecto.
+  preconfiguradas como las autoinstaladas están pensadas para ser usadas con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  en una USB, impulsado para permitir la configuración en el primer inicio, con la
+  opción de cambios protegidos con contraseña por defecto.
 microos_ovw_desc_p3: Prueba MicroOS en máquinas virtuales ejecutándola en <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   o KVM. Usar una Raspberry Pi u otro hardware SoC podrían usar la imagen preconfigurada
   en conjunto con las funcionalidades de <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  para el proceso de arranque. Tanto las imágenes preconfiguradas como las de autoinstalación
+  para el proceso de arranque. Tanto las imágenes preconfiguradas como las autoinstaladas
   están pensadas para ser usadas con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   en una USB, impulsado para permitir la configuración en cualquier primer arranque,
   con la opción de cambios protegidos con contraseña por defecto.
-alternative_downloads_desc: También tenemos imágenes $options. ¡Dale un vistazo a
-  las $alternative_downloads!
+alternative_downloads_desc: También tenemos imágenes para $options. ¡Dale un vistazo
+  a las $alternative_downloads!
 leap_16_coming_soon: "El lanzamiento al público de Leap 16.0, sucesora de Leap 15.6,
   está previsto para otoño (hemisferio norte) de 2025. No hay planes para hacer Leap
   15.7.<br/>\nRevisa regularmente las actualizaciones en nuestra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
