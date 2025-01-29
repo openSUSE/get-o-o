@@ -434,10 +434,14 @@ leap_micro_ovw_desc_p3: Coba Leap Micro di VM yang berjalan di <a href="https://
   sendiri dimaksudkan untuk digunakan dengan <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Pembakaran</a>
   yang ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap
   boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
-leap_micro_ovw_desc_p2: Leap Micro menawarkan citra luring. Perbedaan utama antara
-  citra luring dan citra yang dipasang sendiri/mentah adalah citra luring memiliki
-  pemasang. Raw dan self-install memungkinkan penyesuaian melalui combustion atau
-  secara manual pada citra setelah ditulis ke diska. Ada opsi untuk kernel real-time.
+leap_micro_ovw_desc_p2: Leap Micro sejak 6.0 menawarkan citra instalasi mandiri, citra
+  mentah, dan DVD Paket yang dapat berfungsi sebagai tempat penyimpanan offline. Citra
+  instal mandiri adalah rekomendasi kami untuk instalasi berbasis USB karena kami
+  tidak lagi menggunakan penginstal tradisional. Pengguna dapat mengotomatiskan dan
+  menyesuaikan instalasi mereka baik dengan <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>,
+  <a href="https://github.com/openSUSE/combustion">Combustion</a> atau menggunakan
+  wizard jeos-firstboot. Cobalah <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a>, generator konfigurasi Ignition online kami.
 microos_ovw_title: OS Micro Service menyediakan Pemutakhiran Transaksional (Atomik)
   pada sistem berkas root btrfs hanya baca
 packages_image: Image Paket
