@@ -29,8 +29,7 @@ requirements_cpu: Procesador
 requirements_mem: Memoria
 requirements_hd: Máis de 40 GB de espazo libre en disco
 requirements_dvd: Ou unha unidade DVD ou un porto USB para o medio de instalación
-requirements_net: O acceso a Internet é útil e necesario para facer unha instalación
-  mediante a rede
+requirements_net: Rede
 tw_switch: Modo sinxelo de cambiar a openSUSE Tumbleweed
 upgrade_table_linux: Desde unha versión máis antiga doutra distribución de Linux
 upgrade_table_windows: Desde Windows
@@ -71,12 +70,12 @@ vagrant_image: Vagrant
 vmware_vmx_ch_image: Host Contedor VMware VMX
 vmware_vmx_image: VMware VMX
 vmware_ch_image: Host Contedor VMware
-vmware_image: VMware
+vmware_image: Imaxe VMware
 hyperv_ch_image: Host Contedor MS HyperV
-hyperv_image: MS HyperV
+hyperv_image: Imaxe MS HyperV
 xen_image: XEN
 kvm_ch_image: Host Contedor KVM e XEN
-kvm_image: KVM e XEN
+kvm_image: Imaxe KVM e XEN
 network_desc: "Descarga o sistema de instalación e todos os paquetes dende\nrepositorios
   con conexión. Axeitado para instalación ou actualización.\n"
 offline_desc: "Contén unha grande colección de software para usar en servidor ou en
@@ -120,7 +119,7 @@ verify_download_p1: "Moitas aplicacións poden verificar a suma de comprobación
   descarga.\nPara verificar a túa descarga pode ser importante xa que verifica que
   realmente\nobtiveches o ficheiro ISO que querías descargar e non unha versión corrupta.\n"
 verify_download_p2: "Para cada ISO, ofrecemos un ficheiro de suma de comprobación
-  coa súa correspondente suma SHA256.\n"
+  coa súa correspondente suma SHA256 e un ficheiro de sinatura con sinatura cifrada.\n"
 desktops: Moitos escritorios, tres por defecto
 requirements_hdd_size_desc: $value de espazo dispoñible en disco
 requirements_net_conn: Completa conectividade entre todas as máquinas do cluster
@@ -140,8 +139,9 @@ tw_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o
   poucos comandos\n"
 tw_switch_instructions: Instrucións da Actualización.
 upgrade_table_windows_dvd_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Microsoft_Windows_2
-verify_download_p3: "Para máis seguridade, podes usar GPG para verificar quen firmou
-  estes ficheiros .sha256.\n"
+verify_download_p3: "Para asegurar a integridade do ficheiro descargado pode usar
+  sha256sum para verificar a suma de comprobación e gpgv para verificar a sinatura
+  cifrada.\n"
 verify_download_help: Para ter máis axuda de como verificar a túa descarga, por favor
   le
 offline_updated_image: Imaxe actualizada sen conexión
@@ -233,3 +233,17 @@ tumbleweed_ovw_title: Sistema operativo de escritorio e servidor de última xera
 tumbleweed_ovw_desc: Con Tumbleweed non ten que tomar decisións difíciles sobre cousas
   que valora, xa sexa a liberdade ou a seguridade, o control ou a protección, a tecnoloxía
   ou estabilidade --Tumbleweed permítelle ter o mellor dos dous mundos!
+packages_image_desc: Medios que conteñen un repositorio sen conexión con paquetes.
+cloud_minimal_desc: Imaxe mínima KVM e XEN con cloud-init
+packages_image: Imaxe de paquetes
+server_aarch64: Servidores e placas UEFI Arm 64-bit (aarch64)
+cloud_image: Imaxe cloud
+kvm_sdboot_image: Imaxe KVM con systemd-boot
+minimal_vm_images: Máquina virtual mínima
+minimal_vm_info: Semellante ás imaxes SUSE Linux Enterprise Server para VM Mínima.
+  Para imaxes JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">
+  a página na Wiki sobre Arm</a>
+jeos_info: Imaxes de VM mínimas. Para imaxes de JeOS para Arm, visite a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">páxina
+  wiki de Arm</a>
+encrypted_image: Imaxe de disco completamente cifrada (raw)
+server_x86_64: Servidores Intel ou AMD 64-bit (x86_64)
