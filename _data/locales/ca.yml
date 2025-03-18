@@ -33,7 +33,7 @@ tumbleweed_live_info: "Sigueu conscients de les següents limitacions de les ima
   utilitzeu el [mitjà Tumbleweed](/tumbleweed).\n* Tenen una selecció de paquets i
   drivers limitada, per tant no poden ser considerades una indicació precisa de si
   la Tumbleweed funcionarà amb el teu maquinari o no.\n"
-choosing_media: Com triar el mitjà per baixar
+choosing_media: Com triar quin mitjà descarregar
 choosing_media_p1: "Normalment recomanem la imatge de fora de línia ja que conté la
   majoria\nde paquets disponibles i no necessita una connexió a Internet durant\n
   la instal·lació.\n"
@@ -67,9 +67,9 @@ rescue_cd: CD autònom de rescat
 microos_desc: SO d'openSUSE basat en Tumbleweed que proporciona actualitzacions transaccionals
   (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
 choosing_media_p2: "La imatge de xarxa es recomana als usuaris que tenen limitada\n\
-  l'amplada de banda a les connexions a Internet, ja que només\nbaixarà els paquets
-  que es triïn instal·lar, un pes que probablement\nsigui significativament menor
-  de 4,7 GB.\n"
+  l'amplada de banda a les connexions a Internet, ja que només\ndescarregarà els paquets
+  que es triïn instal·lar, un pes que\nprobablement sigui significativament inferior
+  a 4,7 GB.\n"
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch: Maneres fàcils de canviar a l'openSUSE Leap
 leap_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador
@@ -84,13 +84,13 @@ tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinado
   amb\npoques ordres.\n"
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Des d'una versió antiga o d'una altra distribució de Linux
-upgrade_table_linux_dvd: Com enregistrar un DVD al Linux.
+upgrade_table_linux_dvd: Com enregistrar un DVD a Linux.
 upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd: Com enregistrar un DVD al Windows.
+upgrade_table_windows_dvd: Com enregistrar un DVD a Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Com enregistrar un DVD al macOS.
+upgrade_table_mac_dvd: Com enregistrar un DVD a macOS.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_linux_usb: Com crear una memòria d'USB arrencable en Linux
+upgrade_table_linux_usb: Com crear una memòria d'USB arrencable a Linux
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Com crear una memòria d'USB arrencable en Windows
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
@@ -99,7 +99,7 @@ upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick
 verify_download: Verifiqueu la baixada abans d'usar-la
 verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació d’una
   baixada. \nVerificar la baixada pot ser important, ja que comprova que tingueu realment\n
-  el fitxer ISO que volíeu baixar i no alguna versió trencada.\n"
+  el fitxer ISO que volíeu descarregar i no alguna versió trencada.\n"
 verify_download_p2: "Per a cada ISO, oferim un fitxer de comprovació amb la suma SHA256
   corresponent i un fitxer amb una signatura criptogràfica.\n"
 verify_download_p3: "Per garantir la integritat del fitxer descarregat, podeu usar
@@ -317,7 +317,7 @@ MicroOS_features:
       \n### És fiable.\n* Recuperació automàtica d’actualitzacions defectuoses\n"
     name: Filosofia
 alternative_downloads_desc: També tenim imatges $options. Consulteu les $alternative_downloads!
-alternative_downloads: Descàrregues alternatives
+alternative_downloads: descàrregues alternatives
 download: Descàrrega
 overview: Resum
 armv7l: Servidors, escriptoris, portàtils i tauletes de 32 bits Arm UEFI (armv7l)
