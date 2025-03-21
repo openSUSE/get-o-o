@@ -41,11 +41,13 @@ upgrade_table_linux_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usan
 upgrade_table_windows_dvd: Como gravar um DVD no Windows.
 upgrade_table_windows_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Microsoft_Windows
 upgrade_table_mac_dvd: Como gravar um DVD no OS X.
-upgrade_table_mac_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_OS_Mac_X_.2810.3_e_mais_recentes.29
+upgrade_table_mac_dvd_link: 
+  https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_OS_Mac_X_.2810.3_e_mais_recentes.29
 upgrade_table_linux_usb: Como criar uma pen USB de arranque no Linux.
 upgrade_table_linux_usb_link: https://pt.opensuse.org/SDB:Live_USB
 upgrade_table_windows_usb: Como criar uma pen USB de arranque no Windows.
-upgrade_table_windows_usb_link: https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
+upgrade_table_windows_usb_link: 
+  https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
 upgrade_table__mac_usb: Como criar uma pen USB de arranque no OS X.
 upgrade_table__mac_usb_link: https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Mac_OS_X
 verify_download: Verifique a Sua Transferência Antes de Usar
@@ -64,41 +66,41 @@ offline_image: Imagem Offline
 iso_image: Imagem ISO
 site_description: Conhecer as distribuições do openSUSE e transferi-las gratuitamente
 source_code: Código-Fonte
-offline_desc: "Contém uma grande coleção de software para uso no desktop ou no servidor.\n\
+offline_desc: "Contém uma grande coleção de software para uso no desktop ou no servidor.\n
   Indicada para instalação ou atualização.\n"
-network_desc: "Transfere a instalação do sistema e todos os pacotes dos\nrepositórios\
-  \ online. Indicada para instalação ou atualização.\n"
+network_desc: "Transfere a instalação do sistema e todos os pacotes dos\nrepositórios
+  online. Indicada para instalação ou atualização.\n"
 kvm_image: KVM e XEN
 hyperv_image: MS HyperV
 vmware_image: VMware
 jeos_info: Para Imagens ARM do JeOS, por favor vá para a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
   da wiki sobre ARM</a>
 cloud_images: Nuvem
-ports_info: "Portes do openSUSE Leap para arquiteturas diferentes das de PC são\n\
+ports_info: "Portes do openSUSE Leap para arquiteturas diferentes das de PC são\n
   mantidas por equipas comunitárias separadas, com recursos limitados.\n"
 vm_images: Máquina Virtual
 hardware_images: Hardware
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-leap_switch_p1: "Se já está a executar o openSUSE, pode atualizar ao arrancar pelo\n\
-  DVD/USB e escolher \"Upgrade\", ou então levar a cabo uma atualização online com\n\
+leap_switch_p1: "Se já está a executar o openSUSE, pode atualizar ao arrancar pelo\n
+  DVD/USB e escolher \"Upgrade\", ou então levar a cabo uma atualização online com\n
   poucos comandos.\n"
 requirements_rec: Recomendados
 tw_switch_instructions: Instruções de Atualização.
 xfce_cd: LiveCD Xfce
-tumbleweed_live_info: "Por favor tenha em atenção as seguintes limitações das Live\
-  \ Images:\n* Elas não devem de ser usadas para instalar ou atualizar o openSUSE\
-  \ Tumblweed. Por favor use a [ISO do Tumbleweed](/tumbleweed) alternativamente.\n\
-  * Elas têm uma seleção limitada de drivers e pacotes, e por isso não devem ser consideradas\
-  \ uma representação correta sobre se o openSUSE Tumbleweed irá funcionar no seu\
-  \ sistema ou não.\n"
+tumbleweed_live_info: "Por favor tenha em atenção as seguintes limitações das Live
+  Images:\n* Elas não devem de ser usadas para instalar ou atualizar o openSUSE Tumblweed.
+  Por favor use a [ISO do Tumbleweed](/tumbleweed) alternativamente.\n* Elas têm uma
+  seleção limitada de drivers e pacotes, e por isso não devem ser consideradas uma
+  representação correta sobre se o openSUSE Tumbleweed irá funcionar no seu sistema
+  ou não.\n"
 leap_switch_instructions: Instruções para Atualização Online.
 requirements_min: Mínimos
-choosing_media_p1: "A Imagem Offline é tipicamente recomendada, pois contém a maioria\n\
-  dos pacotes disponiveis na distribuição e não necessita de uma ligação\nà rede durante\
-  \ a instalação.\n"
-choosing_media_p2: "A Imagem de Rede é recomendada para utilizadores que têm uma \n\
-  largura de rede limitada nas suas conexões à internet, visto que irá apenas\ntransferir\
-  \ os pacotes escolhidos para instalar, provavelmente bem menos \nde 4.7GB\n"
+choosing_media_p1: "A Imagem Offline é tipicamente recomendada, pois contém a maioria\n
+  dos pacotes disponiveis na distribuição e não necessita de uma ligação\nà rede durante
+  a instalação.\n"
+choosing_media_p2: "A Imagem de Rede é recomendada para utilizadores que têm uma \n
+  largura de rede limitada nas suas conexões à internet, visto que irá apenas\ntransferir
+  os pacotes escolhidos para instalar, provavelmente bem menos \nde 4.7GB\n"
 requirements_hdd: Armazenamento
 requirements_hdd_root: Partição / (root)
 requirements_hdd_var: Partição /var
@@ -109,12 +111,12 @@ requirements_mem_desc: $value memória RAM física + memória adicional para a s
   de trabalho
 requirements_hdd_desc: Mais de 40GB de espaço livre no disco
 requirements_dvd_desc: Ou um leitor de DVD, ou uma porta USB para a media de instalação
-tw_switch_p1: "Se já estiver a usar o openSUSE pode atualizar ao arrancar pelo\nDVD\
-  \ ou pen USB e escolher \"upgrade\", ou então pode levar a cabo uma \"Atualização\
-  \ Online\"\nem alguns comandos.\n"
+tw_switch_p1: "Se já estiver a usar o openSUSE pode atualizar ao arrancar pelo\nDVD
+  ou pen USB e escolher \"upgrade\", ou então pode levar a cabo uma \"Atualização
+  Online\"\nem alguns comandos.\n"
 tw_switch_instructions_link: https://pt.opensuse.org/openSUSE:Tumbleweed_upgrade
-verify_download_p1: "Muitas aplicações podem verificar o CHECKSUM da transferência.\
-  \ Verificar\na sua transferência pode ser importante, pois verifica que realmente\
-  \ tem \na Imagem ISO que pretendia transferir e não uma versão corrompida.\n"
+verify_download_p1: "Muitas aplicações podem verificar o CHECKSUM da transferência.
+  Verificar\na sua transferência pode ser importante, pois verifica que realmente
+  tem \na Imagem ISO que pretendia transferir e não uma versão corrompida.\n"
 translate: Traduzir
 xen_image: XEN
