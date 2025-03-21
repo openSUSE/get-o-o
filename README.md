@@ -4,6 +4,10 @@ Website promoting the openSUSE distribution development effort, explaining what 
 ## How to build?
 
 ```bash
+sudo zypper in ruby3.4-devel ruby3.4-rubygem-bundler gcc-c++
+```
+
+```bash
 bundle install --path vendor/bundle
 bundle exec rake
 bundle exec jekyll build
