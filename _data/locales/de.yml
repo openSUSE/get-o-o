@@ -144,7 +144,7 @@ yast_software: Software
 zypper: Zypper, Ihr neuer favorisierter Paketmanager
 site_description: Lerne die openSUSE Distributionen kennen und lade sie kostenlos
   herunter
-site_copyright: © 2024 openSUSE-Mitwirkende
+site_copyright: © 2025 openSUSE-Mitwirkende
 zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n
   mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n
   das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n
@@ -329,6 +329,10 @@ Tumbleweed_features:
       die standardmäßig aktiviert sind, ist Ihre Sicherheit sofort gewährleistet.\n"
   gamepad:
     name: Spielen
+    description: "Tumbleweed bietet den Nutzern die neueste Software für Spiele. Da
+      sich die Linux-Unterstützung für Spiele schnell verbessert, ist dies ein wichtiger
+      Aspekt für eine reibungslose, performante und problemlose Erfahrung in Ihren
+      Lieblingsspielen.\n"
   update:
     name: Kontinuierlich aktualisiert
     description: "Sie installieren es einmal und können es dann für immer nutzen.
@@ -336,6 +340,10 @@ Tumbleweed_features:
       machen, die Ihr System zerstören könnten.\n"
   cpu:
     name: Verträgt sich gut mit Ihrer Hardware
+    description: "Dank seiner hochmodernen und gründlich getesteten Natur bedient
+      Tumbleweed Ihre Hardware und Geräte wie nur wenige andere Linux-Distributionen,
+      was es zu einer ausgezeichneten Installation für Workstations, Laptops und Notebooks
+      gleichermaßen macht.\n"
   home:
     name: Stabil
     description: "Aktualisierungen werden anhand von Qualitätsstandards auf Industrieniveau
@@ -352,10 +360,16 @@ Tumbleweed_features:
     name: Leistungsstark
   plant:
     name: Steht auf festem Grund
+    description: "Tumbleweed basiert auf jahrzehntelangem Einsatz, Testen und Debuggen
+      durch Hunderte von erfahrenen Benutzern, Entwicklern, Systemadministratoren
+      und anspruchsvollen Anwendern, die es sich nicht leisten können, ihren Arbeitsablauf
+      zu gefährden. Die Solidität von Tumbleweed ist in vielen Kernpaketen verankert,
+      deren DNS dem ehrwürdigen SUSE Linux Enterprise Server entstammt.\n"
   knife:
     description: "Sie erhalten regelmäßige Aktualisierungen, die nicht nur Sicherheitslücken
       schließen oder Fehler beseitigen, sondern auch die neuesten Funktionen und Entwicklungen
       widerspiegeln, z. B. neue Kernel, neue Treiber und aktuelle Versionen der Desktop-Umgebung.\n"
+    name: Hochmodern
 preconfigured_qcow_image: Vorkonfiguriertes Image (qcow)
 choosing_media_micro_p2: "Leap Micro wird nicht mehr mit einem herkömmlichen Installationsprogramm
   ausgeliefert, stattdessen sollen die Benutzer Selbstinstallationsmedien verwenden.\n
@@ -387,3 +401,24 @@ microos_ovw_title: Micro Service OS mit transaktionalen (atomaren) Aktualisierun
 server_leapmicro_p1: Für Edge-, Embedded-, IoT- und andere Bereitstellungen
 encrypted_image: Vollständig verschlüsseltes Festplattenabbild (roh)
 signature: Signatur
+agama_image: Agama-Installationsprogramm
+agama_desc: Das neue Agama-Online-Installationsprogramm für openSUSE
+leap_micro_ovw_video_desc: Leap Micro 6.1 Installations-Demo mit einer vollständigen
+  Festplattenverschlüsselung und einer Zwei-Faktor-Authentifizierung in Cockpit.
+leap_ovw_desc: Leap verwendet den Quellcode von SUSE Linux Enterprise (SLE), der Leap
+  ein von anderen Linux-Distributionen unerreichtes Maß an Stabilität verleiht, und
+  kombiniert dies mit Entwicklungen der Gemeinschaft, um Anwendern, Entwicklern und
+  Systemadministratoren die bestmögliche stabile Linux-Erfahrung zu bieten.
+tumbleweed_ovw_desc: 'Mit Tumbleweed müssen Sie keine schwierigen Entscheidungen treffen,
+  wenn es um Dinge geht, die Ihnen wichtig sind: Freiheit oder Sicherheit, Kontrolle
+  oder Sicherheit, Technologie oder Stabilität – mit Tumbleweed können Sie auf zwei
+  Hochzeiten gleichzeitig tanzen!'
+leap_micro_ovw_desc_p1: Diese Gemeinschaftsversion basiert auf SUSE Linux Micro, das
+  die unternehmenstauglichen Sicherheits- und Konformitätskomponenten von SUSE Linux
+  Enterprise nutzt. Diese Zusammenführung von Technologien sorgt für eine moderne,
+  unveränderliche und entwicklerfreundliche Betriebssystemplattform.
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  ist das neue Installationsprogramm, das zur Installation von Leap 16 und Tumbleweed
+  verwendet werden kann.\nEs ist geplant, die Offline-Installation in Agama zu unterstützen.
+  Andere Installationsmedien, wie z. B. ein selbst installierendes Abbild, werden
+  später hinzugefügt.\n"
