@@ -49,7 +49,7 @@ verify_download: Verifieer uw download alvorens deze te gebruiken
 verify_download_checksums_help: Hulp bij controlesommen
 verify_download_checksums_help_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Controlesommen_.28Checksums.29
 index_desktop: Desktop
-site_copyright: © 2024 openSUSE bijdragers
+site_copyright: © 2025 openSUSE bijdragers
 iso_image: ISO image
 kvm_ch_image: KVM en XEN container host
 vagrant_image: Vagrant
@@ -362,8 +362,8 @@ Tumbleweed_features:
       aspect voor vloeiende, presterende en probleemvrije ervaringen met uw favoriete
       games.\n"
 tumbleweed_ovw_title: Modern bureaublad en server besturinfsysteem
-leap_micro_ovw_video_desc: Een korte Leap Micro installatiedemonstratie met combustion
-  en cockpit.
+leap_micro_ovw_video_desc: Leap Micro 6.1 installatiedemo met volledige versleuteling
+  van de schijf en een twee-factor authenticatie in cockpit.
 microos_ovw_desc_p2: MicroOS biedt een offline image. Het hoofdverschil tussen de
   offline en zichzelf installerende/raw images is dat de offline image een installatieprogramma
   heeft. Raw en zichzelf installeren biedt aanpassen via combustion of handmatig in
