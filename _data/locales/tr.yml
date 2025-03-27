@@ -453,8 +453,6 @@ leap_16_coming_soon: "Leap 15.6'nın devamı niteliğindeki Leap 16.0'ın 2025 S
   Güncellemeleri düzenli olarak kontrol edin <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >yol haritası</a> ve <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   daha fazla bilgi için.\n"
-agama_image: Agama yükleyici
-agama_desc: OpenSUSE için yeni Agama çevrimiçi yükleyici
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   Leap 16 ve Tumbleweed'i yüklemek için kullanılabilen yeni yükleyicidir.\nAgama'da
   çevrimdışı kurulumu destekleme planı var. Self-install image gibi diğer kurulum

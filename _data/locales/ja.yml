@@ -354,7 +354,5 @@ leap_16_coming_soon: "Leap 15.6 の後継バージョンである Leap 16.0 は�
   の提供予定はありません。<br/>\n詳しくは、定期的に更新される <a href=\"https://ja.opensuse.org/%E3%83%AD%E3%83%BC%E3%83%89%E3%83%9E%E3%83%83%E3%83%97\"\
   >ロードマップ</a> と <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   をご覧ください。\n"
-agama_image: Agama インストーラ
-agama_desc: openSUSE 向けの新しい Agama オンラインインストーラ
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   は Leap 16.0 および Tumbleweed のインストールに使用できる新しいインストーラです。\nAgama ではオフラインインストールへの対応も提供されるほか、自己インストールイメージなどのその他のインストールメディアも後日追加される予定です。\n"

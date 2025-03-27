@@ -453,8 +453,6 @@ leap_16_coming_soon: "Rilis publik Leap 16.0, penerus Leap 15.6, dapat diharapka
   pembaruan secara berkala di <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >roadmap</a> dan <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   untuk informasi lebih lanjut.\n"
-agama_image: Penginstal Agama
-agama_desc: Penginstalasi daring Agama yang baru untuk openSUSE
 signature: Tanda tangan
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   adalah penginstal baru yang dapat digunakan untuk menginstal Leap 16 dan Tumbleweed.\n
