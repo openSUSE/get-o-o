@@ -437,8 +437,6 @@ leap_16_coming_soon: "Offentlig lansering av Leap 16.0, en efterföljare till Le
   15.7.<br/>\nKolla regelbundet uppdateringar till våran <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >roadmap</a> och <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   för mer information.\n"
-agama_image: Agama installationsprogram
-agama_desc: Det nya Agama onlineinstallationsprogrammet för openSUSE
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   är ett nytt installationsprogram som kan användas för att installera Leap 16 och
   Tumbleweed.\nDet finns en plan för att stödja offlineinstallation med Agama. Andra

@@ -11,8 +11,6 @@ leap_16_coming_soon: |
   Public release of Leap 16.0, a successor to Leap 15.6, can be expected in Fall 2025. There is not plan to make Leap 15.7.<br/>
   Check regularly updates on our <a href="https://en.opensuse.org/openSUSE:Roadmap">roadmap</a> and <a href="https://news.opensuse.org/tag/leap">news.opensuse.org</a> for more information.
 
-agama_image: Agama installer
-agama_desc: The new Agama online installer for openSUSE
 cd_desc: For CD and USB stick
 dvd_desc: For DVD and USB stick
 usb_desc: For USB stick

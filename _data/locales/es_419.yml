@@ -469,8 +469,6 @@ leap_16_coming_soon: "El lanzamiento al público de Leap 16.0, sucesora de Leap 
   15.7.<br/>\nRevisa regularmente las actualizaciones en nuestra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >hoja de ruta</a> y <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   para más información.\n"
-agama_image: Instalador Agama
-agama_desc: El nuevo instalador en línea "Agama" para openSUSE
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   es el nuevo instalador para Leap 16 y Tumbleweed.\nSe planea dar soporte a instalaciones
   fuera de línea en Agama en el futuro. Otros medios de instalación, como las imágenes

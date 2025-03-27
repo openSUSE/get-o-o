@@ -313,7 +313,5 @@ encrypted_image: 完全加密的磁盘映像 (原始)
 leap_16_coming_soon: "Leap 16.0，即 Leap 15.6 的继任者，预计将于 2025 年秋季面向公众发布。我们没有制作 Leap 15.7
   的计划。<br/>\n请在我们的<a href=\"https://zh.opensuse.org/openSUSE:Roadmap\">路线图</a>网站以及
   <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a> 了解更多信息。\n"
-agama_image: Agama 安装器
-agama_desc: openSUSE 的全新 Agama 在线安装器
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   是用于安装 Leap 16 和 Tumbleweed 的全新在线安装器。\n我们计划后续为其添加离线安装支持。其他安装介质，如自安装映像的支持也将一并跟进添加。\n"

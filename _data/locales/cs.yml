@@ -435,8 +435,6 @@ leap_16_coming_soon: "Veřejné vydání Leap 16.0, nástupce Leap 15.6, lze oč
   podzim 2025. Není v plánu vytvořit verzi Leap 15.7.<br/>\nPravidelně kontrolujte
   aktualizace na našem <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">plánu</a>
   a další informace najdete v <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>.\n"
-agama_image: Instalátor Agama
-agama_desc: Nový online instalátor Agama pro openSUSE
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   je nový instalátor, který lze použít k instalaci programů Leap 16 a Tumbleweed.\n
   V plánu je podpora offline instalace v Agamě. Další instalační média, například

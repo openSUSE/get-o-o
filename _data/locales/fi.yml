@@ -91,8 +91,6 @@ signature: Allekirjoitus
 vmware_image: VMware levykuva
 vmware_vmx_image: VMWare VMX
 points_free: Vapaa ohjelmisto? Sinun valintasi
-agama_image: Agama asentaja
-agama_desc: openSUSE:n uusi online-asentaja Agama
 hyperv_image: MS HyperV levykuva
 rpi_image: RaspberryPi
 virtualbox_image: VirtualBox
