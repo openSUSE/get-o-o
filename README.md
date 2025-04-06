@@ -3,8 +3,11 @@ Website promoting the openSUSE distribution development effort, explaining what 
 
 ## How to build?
 
+Instructions assume openSUSE Tumbleweed base:
+
 ```bash
-bundle install --path vendor/bundle
+bundle config --local path vendor/bundle
+bundle install
 bundle exec rake
 bundle exec jekyll build
 ```
@@ -13,8 +16,11 @@ Resulting site will be in `_site` directory.
 
 ## How to serve locally?
 
+Instructions assume openSUSE Tumbleweed base:
+
 ```bash
-bundle install --path vendor/bundle
+bundle config --local path vendor/bundle
+bundle install
 bundle exec rake
 bundle exec jekyll serve
 ```
