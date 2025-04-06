@@ -95,7 +95,8 @@
         {% assign default = distro.downloads | where_exp: "item", "item.display" %}
         {% for tab in default %}
           <div {% if tab.display == 'all' %}{% elsif tab.display %}class="only-{{ tab.display }}" style="display: none"{% endif %}>
-            {% if forloop.first == false %}<h1 class="display-4">{{ locale[tab.name] }}</h1>{% endif %}
+            <!-- Hide initial install media heading only for distros without a single page download layout-->
+            {% if forloop.first == false or (distro.name == "Leap" or distro.name == "Tumbleweed" %}<h1 class="display-4">{{ locale[tab.name] }}</h1>{% endif %}
             {% if tab.info %}
               <div class="alert alert-{{ distro.bg-color }}">
                 {{ locale[tab.info] | markdownify }}
@@ -113,10 +114,14 @@
             </div>
           </div>
         {% endfor %}
-        {% if distro.downloads.size > 1 %}
+        <!-- We would like to displays downloadables on a single page for Leap and Tumbleweed from now on -->
+        {% if distro.downloads.size > 1 and (distro.name != "Leap" and distro.name != "Tumbleweed") %}
           {% capture alternative_downloads %}<a href="#" data-toggle="modal" data-target="#downloadModal">{{ locale.alternative_downloads }}</a>{% endcapture %}
           {% capture options %}<b>{% for tab in distro.downloads offset: 1 %}<span {% if tab.display %}class="not-{{ tab.display }}"{% endif %}>{{ locale[tab.name] }}{% if forloop.last == false %}, {% endif %}</span>{% endfor %}</b>{% endcapture %}
           <div class="lead">{{ locale.alternative_downloads_desc | replace: '$alternative_downloads', alternative_downloads | replace: '$options', options }}</div>
+        {% else %}
+        <!-- Show a link to explore download server for all distros without the alterantive downloads view -->
+        <div class="lead">{{locale.download_server_desc | replace: '$distro', distro.name.downcase}}</div>
         {% endif %}
       </div>
     </section>
