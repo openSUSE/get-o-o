@@ -187,7 +187,7 @@ desktop_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, aficiona
 desktop_tumbleweed_p2: Actualización continua con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 desktop_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios comunes de escritorio.
+  usuarios comunes de escritorio
 desktop_leap_p2: Publicaciones periódicas con los beneficios de la ingeniería de nivel
   profesional como de la innovación desarrollada por la comunidad.
 server: Distribuciones para servidor de openSUSE
@@ -197,7 +197,7 @@ server_tumbleweed_p1: Para desarrolladores, colaboradores de openSUSE, aficionad
 server_tumbleweed_p2: Actualización continua con los paquetes de software más recientes
   ofrecidos por el proyecto openSUSE.
 server_leap_p1: Para administradores de sistemas, desarrolladores profesionales y
-  usuarios de servidores regulares.
+  usuarios de servidores regulares
 server_leap_p2: Publicaciones periódicas con los beneficios de la ingeniería de nivel
   profesional como de la innovación desarrollada por la comunidad.
 server_microos_p1: Para aplicaciones de servidor de un solo propósito
@@ -339,7 +339,7 @@ Tumbleweed_features:
       un paquete de manera individual, sino que se prueban diferentes grupos de versiones
       entre sí, asegurándonos que su sistema sea internamente consistente.\n"
   gamepad:
-    name: Gaming
+    name: Juego
     description: "Tumbleweed ofrece a los usuarios el último software relacionado
       con los videojuegos. Con la rápida mejora de Linux para videojuegos, este es
       un aspecto importante para tener una experiencia fluida, de alto rendimiento
@@ -364,7 +364,7 @@ live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágen
   limitada, por tanto no se deben considerar como indicación de que la distribución
   funcionará o no en su hardware\n* El kernel e initrd no se pueden actualizar, por
   tanto no se deberían usar como una instalación persistente\n"
-selfinstalling_ch_image: Host de contenedor auto instalable
+selfinstalling_ch_image: Hospedaje de contenedor auto instalable
 selfinstall_rt_image: Imagen en tiempo real auto instalable
 selfinstalling_k3s_image: Host k3s auto instalable
 preconfigured_rt_image: Imagen de Tiempo Real Preconfigurada (raw)
