@@ -113,3 +113,27 @@ choosing_media_micro_p1: "Det nye selvinstallerende bildet er anbefalt for USB e
   kan bli sett <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">her</a>.\n
   <br>\njeos-firstboot vil bli vist til de som ikke konfigurerte systemet deres med
   Combustion.\n"
+requirements_hdd_desc: Over 40 GB av ledig plass på disken
+requirements_hdd: Lagring
+requirements: Systemkrav
+requirements_min: Minimum
+requirements_rec: Anbefalt
+requirements_cpu: CPU
+requirements_cpu_desc: 2 Ghz tokjerneprosessor eller bedre
+requirements_mem: Minne
+documentation_startup_guide: openSUSE-oppstartsveiledning
+choosing_media_micro_p2: "Leap Micro kommer ikke lenger med et tradisjonelt installasjonsprogram.
+  Brukere skal bruke selvinstallasjonsprogrammet istedenfor.\nDet nye pakkebildet
+  er bare en avkoblet dump av Leap Micros RPM-pakkebrønne for de som har et isolert
+  miljø.\n"
+documentation_release_notes: Utgivelsesnotater
+documentation_full_documentation: Full dokumentasjon
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch: Enkle måter å bytte til openSUSE Leap
+documentation_license: Lisens
+requirements_mem_desc: $value fysisk RAM + ekstra minne for dine arbeidsoppgaver
+requirements_hdd_var: /var-partisjon
+requirements_hdd_size_desc: $value tilgjengelig lagringsplass
+requirements_hdd_swap_info: swaprom deaktivert for at Kubernetes skal fungere riktig
+requirements_hdd_root: / (root) partisjon
+documentation: Dokumentasjon
