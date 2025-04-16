@@ -103,3 +103,13 @@ vagrant_ch_image: Vagrant-kontainervert
 rpi_image: RaspberryPi
 rpi_ch_image: RaspberryPi-kontainervert
 pine_image: Pine64
+choosing_media_micro_p1: "Det nye selvinstallerende bildet er anbefalt for USB eller
+  DVD-baserte installasjoner.\nEn enkel selvinstallasjonsveiviser dumper en ferdigkonfigurert
+  bilde til disken, og øker partisjonens størrelse til størrelsen av disken.\n<br>\n
+  Brukere med Raspberry Pi og lignende uten støtte for USB-oppstart kan skrive det
+  ferdigkonfigurerte bildet til SD-kortet.\nBrukere som ønsker mer kontroll over implementering
+  er anbefalt til å bruke <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nEn demonstrasjon av en Combustion-basert implementasjon
+  kan bli sett <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">her</a>.\n
+  <br>\njeos-firstboot vil bli vist til de som ikke konfigurerte systemet deres med
+  Combustion.\n"
