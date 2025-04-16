@@ -164,8 +164,9 @@ documentation_release_notes: یادداشت‌های انتشار
 documentation_license: مجوز
 documentation_full_documentation: مستندات کامل
 leap_switch: روش‌های آسان برای تغییر به openSUSE Leap
-leap_switch_p1: "چنانچه از قبل openSUSE را اجرا می‌کنید می‌توانید با بوت شدن\nاز DVD/USB
-  و انتخاب ارتقا، یا انجام یک ‘ارتقای آنلاین‘ در چند\nفرمان ارتقا را انجام دهید.\n"
+leap_switch_p1: "Om du allerede kjører openSUSE, kan du oppgradere ved å starte opp
+  fra\nDVD/USB-en og å velge oppgradere, eller ved å kjøre en \"Online-oppgradering\"\
+  \nmed kun noen få kommandoer.\n"
 leap_switch_instructions: دستورالعمل‌های ارتقا آنلاین.
 requirements_min: حداقل
 requirements_rec: پیشنهادی
