@@ -1,7 +1,7 @@
 site_title: Skaff openSUSE
-site_title_short: Få
-site_description: Lær om openSUSE distribusjonene og last dem ned gratis
-site_copyright: © 2022 openSUSE bidragsytere
+site_title_short: Skaff
+site_description: Lær om openSUSE-distribusjonene og last dem ned gratis
+site_copyright: © 2025 openSUSE-bidragsytere
 search: Søk
 translate: Oversett
 source_code: Kildekode
@@ -14,3 +14,92 @@ metalink: Metalenke
 pick_mirror: Velg en speilserver
 checksum: Kontrollsum
 torrent_file: Torrentfil
+offline_updated_image: Oppdatert offlinebilde
+kvm_ch_image: KVM og XEN-kontainervert
+openstack_image: OpenStack-Cloud
+virtualbox_image: VirtualBox
+live_images: Live
+vmware_desc: For å kjøre virtuelle maskiner på VMware
+gnome_cd: GNOME LiveCD
+offline_image: Offlinebilde
+network_desc: "Laster ned installasjonssystemet og alle pakker fra pakkebrønner\n
+  på nett. Passer for installasjon eller oppgradering.\n"
+selfinstalling_images: Selvinstallerende bilder
+kvm_desc: For bruk i KVM eller XEN HVM-hypervisorer
+rescue_cd: Rescue LiveCD
+software_p1: "Mellom oss, å måtte gå gjennom flere nettsider for å skaffe\nalle de
+  programmene du trenger er mye arbeid. Programvaresentret på nett\ngjør dette mye
+  enklere, siden den inneholder programvare fra\nflere kilder på en plass.\n"
+index_p1: For skrivebord, server og alt i mellom
+cloud_images: Sky
+cloud_minimal_desc: Minimal KVM og Xen-bilde med cloud-init
+xfce_cd: Xfce LiveCD
+kde_cd: KDE LiveCD
+jeos_images: JeOS
+jeos_info: Minimale VM-bilder. For ARM-baserte JeOS-bilder, vennligst gå til <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wikisiden
+  for ARM</a>
+packages_image_desc: Medium som inneholder en offlinepakkebrønne med pakker.
+openstack_desc: For å kjøre virtuelle maskiner i OpenStack
+installation_images: Installasjon
+ports_images: Porter
+ports_info: "Porter av openSUSE Leap til andre arkitekturer enn PC er\nvedlikeholdt
+  av separate team i felleskapet, med begrenset resurser.\n"
+packages_image: Pakkebilde
+minimal_vm_images: Minimal virtuell maskin
+kvm_image: KVM og XEN-bilde
+server_aarch64: UEFI Arm 64-bits-servere og kort (aarch64)
+server_x86_64: Intel eller AMD 64-bitsservere (x86_64)
+cloud_image: Skybilde
+kvm_sdboot_image: KVM-bilde med systemd-boot
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  er det nye installasjonsprogrammet som kan bli brukt for å installere Leap 16 og
+  Tumbleweed.\nDet er planlagt å støtte offlineinstallasjon i Agama. Andre installasjonsmedium
+  som et selvinstallasjons-bilde vil bli lagt til senere.\n"
+choosing_media_p1: "Offline-bildet er oftest anbefalt siden det inneholder mesteparten
+  av\npakkene som er tilgjengelig i distribusjonen og krever ikke nettverks\ntilkobling
+  under installasjonen.\n"
+vagrant_image: Vagrant
+signature: Signatur
+offline_desc: "Inkluderer en stor samling av programvare for skrivebord- og serverbruk.\n
+  Passer for installasjon eller oppgradering.\n"
+offline_updated_desc: "Offline installasjonsbilde med de siste oppdateringene.\nPasser
+  for installasjon eller oppgradering.\n"
+network_image: Nettverksbilde
+selfinstalling_ch_image: Selvinstallerende kontainervert
+selfinstalling_k3s_image: Selvinstallerende k3s-vert
+xen_image: XEN
+encrypted_image: Helkryptert diskbilde (rå)
+minimal_vm_info: Ligner på SUSE Linux Enterprise Server Minimal-VM-bildene. For ARM-baserte
+  JeOS-bilder, vennligst gå til <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wikisiden
+  for ARM</a>
+hardware_images: Maskinvare
+live_info: "Vennligst bemerk deg de følgende begrensninger av live-bildene:\n* De
+  bør ikke brukes for å installere eller til å oppgradere. Bruk installasjonsmediet
+  istedenfor\n* De har et begrenset utvalg av pakker og drivere, så de kan ikke bli
+  tenkt på som en nøyaktig refleksjon om distribusjonen kommer til å fungere på din
+  maskinvare eller ikke\n* Kjernen og initrd kan ikke bli oppdatert, så de bør ikke
+  bli brukt som en persistent installasjon\n"
+pine_ch_image: Pine64-kontainervert
+openstack_ch_image: OpenStack-Cloud-kontainervert
+vm_images: Virtuell maskin
+microos_desc: Operativsystem basert på openSUSE Tumbleweed som tilbyr transaksjonelle
+  (atomiske) oppdateringer på et skrivebeskyttet btrfs-rotfilsystem
+choosing_media: Velg hvilket medium til å laste ned
+leap_16_coming_soon: "Offentlig lansering av Leap 16.0, en etterfølger til Leap 15.6,
+  kan bli forventet i høst 2025. Det er ingen planer om å lage Leap 15.7.<br/>\nSjekk
+  ofte for oppdateringer på vår <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> og <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  for mer informasjon.\n"
+iso_image: ISO-bilde
+xen_desc: For bruk i XEN PV-hypervisorer
+hyperv_image: MS HyperV-bilde
+hyperv_ch_image: MS HyperV-kontainervert
+hyperv_desc: For å kjøre virtuelle maskiner på MS HyperV
+vmware_image: VMware-bilde
+vmware_ch_image: VMware-kontainervert
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX-kontainervert
+vagrant_ch_image: Vagrant-kontainervert
+rpi_image: RaspberryPi
+rpi_ch_image: RaspberryPi-kontainervert
+pine_image: Pine64
