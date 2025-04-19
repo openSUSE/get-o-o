@@ -271,7 +271,7 @@ Tumbleweed_features:
   key:
     description: "Gdyby stało się coś niepożądanego, możesz zawsze przywrócić do poprzedniego
       stanu i znaleźć swoje pliki i programy tak jak były tuż przed wyboistą aktualizacją.\n"
-    name: Bezpieczny
+    name: Pewny
   power:
     name: Potężny
     description: "Wykorzystując technologie z których openSUSE jest znane, takie jak
@@ -370,3 +370,24 @@ server_leapmicro_p1: Dla wdrożeń brzegowych, wbudowanych, IoT i innych
 server_leapmicro_p2: Ekstremalnie niezawodny, lekki system operacyjny zaprojektowany
   dla środowisk kontenerowych i wirtualizowanych.
 signature: Podpis
+microos_ovw_desc_p1: Zaprojektowany do hostowania środowisk kontenerowych z automatyczną
+  administracją i łataniem. Instalując openSUSE MicroOS otrzymujesz szybkie i małe
+  środowisko do wdrożenia kontenerów lub dowolnego innego rozwiązania, które skorzysta
+  z Transakcyjnych Aktualizacji. Dzięki ciągłej dystrybucji oprogramowanie jest zawsze
+  aktualne.
+microos_ovw_desc_p2: MicroOS oferuje obraz offline. Główną różnicą między obrazem
+  offline, a obrazami samoinstalowanymi/raw, jest to, że obraz offline zawiera instalator.
+  Obrazy raw i samoinstalowane pozwalają na dostosowanie za pomocą combustion lub
+  ręcznie po zapisaniu obrazu na dysku. Istnieje opcja wykorzystania jądra czasu rzeczywistego.
+packages_image: Obraz Pakietów
+packages_image_desc: Nośnik zawierający repozytorium z pakietami offline.
+microos_ovw_desc_p3: Spróbuj MicroOS na maszynach wirtualnych działających na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  lub KVM. Dla Raspberry Pi lub innych układów System on Chip możesz wykorzystać prekonfigurowany
+  obraz w połączeniu z <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  dla procesu uruchamiania. Zarówno prekonfigurowane, jak i samodzielnie zainstalowane
+  obrazy są przeznaczone do użytku z   <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  zapisanym
+  na pendrive, który umożliwia konfigurację podczas pierwszego uruchomienia, z opcją
+  zmian chronionych hasłem.
+microos_ovw_title: Micro Service OS oferujący Transakcyjne (Atomowe) Aktualizacje
+  na głównym systemie plików btrfs w trybie tylko do odczytu
+encrypted_image: Całkowicie Zaszyfrowany Obraz Dysku (raw)
