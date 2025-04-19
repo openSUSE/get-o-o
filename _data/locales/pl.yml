@@ -1,5 +1,5 @@
 site_description: Dowiedz się o dystrybucjach openSUSE i pobierz je za darmo
-site_copyright: © 2022 Współtwórcy openSUSE
+site_copyright: © 2025 Współtwórcy openSUSE
 search: Szukaj
 translate: Przetłumacz
 source_code: Kod źródłowy
@@ -74,8 +74,9 @@ verify_download_p1: "Wiele aplikacji może zweryfikować sumy kontrolne pobranyc
   plik ISO, a nie jakąś zepsutą wersję.\n"
 verify_download_p2: "Do każdego ISO, oferujemy plik sumy kontrolnej z odpowiadającą
   sumą SHA256.\n"
-verify_download_p3: "Dla dodatkowego bezpieczeństwa, możesz użyć sha256sum by zweryfikować
-  kto podpisał te pliki .sha256. \n"
+verify_download_p3: "Aby zapewnić integralność pobranego pliku, możesz użyć polecenia
+  sha256sum do weryfikacji sumy kontrolnej oraz polecenia gpgv do weryfikacji kryptograficznego
+  podpisu.\n"
 verify_download_pubkey: Powinna być
 verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczytaj
 verify_download_checksums_help: pomoc z sumami kontrolnymi
@@ -296,6 +297,12 @@ Tumbleweed_features:
       i wymagających użytkowników, którzy nie mogą pozwolić sobie na narażenie swojej
       pracy. Solidność Tumbleweeda jest wcielona w wielu podstawowych paczkach których
       DNA pochodzi z doświadczonego SUSE Linux Enterprise Server.\n"
+  gamepad:
+    name: Gry
+    description: "Tumbleweed zapewnia użytkownikom najnowsze oprogramowanie związane
+      z grami. Z uwagi na szybko rosnące wsparcie Linuksa dla gier, jest to ważny
+      aspekt gwarantujący płynne, wydajne i bezproblemowe doświadczenie w Twoich ulubionych
+      grach.\n"
 selfinstalling_ch_image: Samo instalujący się host kontenera
 vmware_ch_image: Host kontenera VMware
 vmware_vmx_image: VMware VMX
@@ -334,8 +341,8 @@ requirements_mem_desc: $value fizycznej pamięci RAM + dodatkowa pamięć dla tw
 requirements_hdd_desc: Ponad 40GB wolnego miejsca na dysku pamięci
 requirements_hdd_size_desc: $value dostępnego miejsca na dysku
 requirements_net_conn: Pełne połączenie pomiędzy maszynami w grupie
-preconfigured_image: Obrazy prekonfigurowane
-preconfigured_rt_image: Obrazy prekonfigurowane RealTime
+preconfigured_image: Obraz Prekonfigurowany (raw)
+preconfigured_rt_image: Obraz Prekonfigurowany RealTime (raw)
 requirements_hdd: Pamięć stała
 requirements_hdd_root: partycja / (root)
 requirements_hdd_ssd_info: dysk SSD wysokiej klasy prędkości
@@ -357,3 +364,9 @@ server_x86_64: 64-bitowe serwery Intel lub AMD (x86_64)
 server_aarch64: 64-bitowe serwery i urządzenia ARM UEFI (aarch64)
 cloud_image: Obraz Cloud
 cloud_minimal_desc: Minimalne obrazy KVM i XEN z cloud-init
+preconfigured_qcow_image: Obraz Prekonfigurowany (qcow)
+kvm_sdboot_image: Obraz KVM z systemd-boot
+server_leapmicro_p1: Dla wdrożeń brzegowych, wbudowanych, IoT i innych
+server_leapmicro_p2: Ekstremalnie niezawodny, lekki system operacyjny zaprojektowany
+  dla środowisk kontenerowych i wirtualizowanych.
+signature: Podpis
