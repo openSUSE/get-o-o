@@ -137,3 +137,9 @@ requirements_hdd_size_desc: $value tilgjengelig lagringsplass
 requirements_hdd_swap_info: swaprom deaktivert for at Kubernetes skal fungere riktig
 requirements_hdd_root: / (root) partisjon
 documentation: Dokumentasjon
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+leap_switch_instructions: Instruksjoner for oppgradering fra nett.
+leap_switch_p1: "Hvis du allerede bruker openSUSE, kan du oppgradere med å starte
+  fra\nDVD/USB-en og velge Oppgrader, eller kjøre en \"Online-oppdatering\" med\n
+  noen få kommandoer.\n"
+requirements_hdd_ssd_info: SSD med høy skrivehastighet
