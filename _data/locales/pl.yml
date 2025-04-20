@@ -391,3 +391,54 @@ microos_ovw_desc_p3: Spróbuj MicroOS na maszynach wirtualnych działających na
 microos_ovw_title: Micro Service OS oferujący Transakcyjne (Atomowe) Aktualizacje
   na głównym systemie plików btrfs w trybie tylko do odczytu
 encrypted_image: Całkowicie Zaszyfrowany Obraz Dysku (raw)
+leap_ovw_title: Zupełnie nowy sposób budowania openSUSE i nowy typ hybrydowej dystrybucji
+  Linuksa
+leap_ovw_desc: Leap korzysta z kodu źródłowego SUSE Linux Enterprise (SLE), co zapewnia
+  wysoki poziom stabilności nieporównywalnej do innych dystrybucji Linuksa, a ponadto
+  łączy go z rozwojem społeczności, zapewniając użytkownikom, programistom i administratorom
+  systemu najlepsze dostępne stabilne doświadczenie z Linuksem.
+tumbleweed_ovw_desc: Z Tumbleweed nie musisz podejmować trudnych decyzji dotyczących
+  rzeczy, które cenisz. Wolność czy bezpieczeństwo, kontrola czy stabilność, technologia
+  czy bezpieczeństwo - Tumbleweed pozwala ci mieć ciastko i je zjeść!
+leap_micro_ovw_title: Leap Micro to niezwykle niezawodny, lekki system operacyjny
+  zaprojektowany dla środowisk kontenerowych i zwirtualizowanych.
+leap_micro_ovw_desc_p1: Ta wersja społecznościowa jest oparta na SUSE Linux Micro,
+  który wykorzystuje zaawansowane komponenty bezpieczeństwa i zgodności SUSE Linux
+  Enterprise. To połączenie technologii zapewnia nowoczesny, niezmienny i przyjazny
+  dla deweloperów system operacyjny.
+leap_micro_ovw_desc_p2: Leap Micro od wersji 6.0 oferuje obraz samoinstalujący, obraz
+  surowy i płytę DVD z pakietami, która może służyć jako repozytorium offline. Obraz
+  samoinstalujący jest zalecany dla każdej instalacji opartej na USB, ponieważ nie
+  używamy już tradycyjnych instalatorów. Użytkownicy mogą zautomatyzować i dostosowywać
+  swoją instalację za pomocą <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
+  lub <a href="https://github.com/openSUSE/combustion">Combustion</a>, czy też za
+  pomocą kreatora jeos-firstboot. Wypróbuj <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a> nasz internetowy generator konfiguracji Ignition.
+tumbleweed_ovw_title: Najnowocześniejszy system operacyjny dla komputerów i serwerów
+minimal_vm_info: Podobnie jak w przypadku obrazów SUSE Linux Enterprise Server Minimal-VM.
+  Dla obrazów Arm JeOS przejdź do <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">strony
+  wiki Arm</a>
+choosing_media_micro_p1: "Nowy samoinstalujący się obraz jest zalecanym wyborem dla
+  instalacji z użyciem pendrive'a lub DVD.\nProsty kreator samoinstalacji zrzutuje
+  prekonfigurowany obraz na dysk i rozszerzy partycję do rozmiaru dysku.\n<br>\nUżytkownicy
+  z Raspberry Pi i podobnymi urządzeniami bez obsługi uruchamiania z USB mogą bezpośrednio
+  wgrać prekonfigurowany obraz na kartę SD.\nUżytkownikom szukającym większej kontroli
+  nad wdrożeniem zaleca się użycie <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nDemonstrację wdrożenia opartego na Combustion można zobaczyć
+  <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">tutaj</a>.\n<br>\nJeos-firstboot
+  powita tych, którzy nie skonfigurowali swojego systemu za pomocą Combustion.\n"
+leap_156_ovw_video_desc: Transmisja na żywo z premiery Leap 15.6
+leap_micro_ovw_video_desc: Demonstracja instalacji Leap Micro 6.1 z pełnym szyfrowaniem
+  dysku i dwuskładnikowym uwierzytelnianiem w Cockpit.
+leap_16_coming_soon: "Publicznego wydania Leap 16.0, następcy Leap 15.6, można spodziewać
+  się jesienią 2025 r. Nie ma planów wydania Leap 15.7.<br/>\nAby uzyskać więcej informacji,
+  regularnie sprawdzaj aktualizacje na <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >planach zmian</a> i <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>.\n"
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  to nowy instalator, który może zostać użyty do instalacji Leap 16 oraz Tumbleweed.\n
+  Istnieje plan wsparcia instalacji w trybie offline w Agama. Inne nośniki instalacyjne,
+  takie jak samoinstalujący się obraz, zostaną dodane później.\n"
+choosing_media_micro_p2: "Leap Micro nie jest już dostarczany z tradycyjnym programem
+  instalacyjnym, zamiast tego użytkownicy powinni używać nośników samoinstalacyjnych.\n
+  Nowy Obraz Pakietów jest po prostu zrzutem offline repozytorium rpm Leap Micro,
+  przeznaczonym do użycia w izolowanym środowisku.\n"
