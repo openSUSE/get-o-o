@@ -109,95 +109,96 @@ tw_switch_p1: "Jeśli już korzystasz z openSUSE, możesz wykonać aktualizację
 upgrade_table_linux_usb: Jak stworzyć uruchamialną pamięć USB w systemie Linux.
 upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB w systemie Windows.
 upgrade_table__mac_usb: Jak stworzyć uruchamialną pamięć USB w systemie OS X.
-desktops_p1: "Proces udziału w openSUSE wspiera rozwój pulpitów dla wszystkich, więc
+desktops_p1: "Proces współtworzenia openSUSE wspiera rozwój pulpitu dla każdego, więc
   masz możliwość wyboru swojego ulubionego w instalatorze. My aktywnie wspieramy trzy
   z nich i oferujemy więcej w rozszerzonym widoku oprogramowania w instalatorze.\n"
-installation: Pobierz tak jak chcesz
-installation_p1: "Proces instalacji openSUSE daje Ci wszystkie opcje jakie tylko potrzebujesz.
-  Chcesz zainstalować system za pomocą myszki i klawiatury? Załaduj instalator w trybie
-  graficznym. Nie masz myszki pod ręką? Uruchom tryb tekstowy i zainstaluj w ten sposób.
-  Nie masz fizycznego dostępu do maszyny? Połącz się z instalatorem sieciowo i rozpocznij
-  instalację. To takie proste.\n"
-points_transparent: Wszystko jest przeźroczyste
-points_transparent_p1: "Od początku do końca, każda paczka która trafia do dystrybucji
-  ma wszystkie swoje źródła i skrypty widoczne dla każdego do zobaczenia. Wątpisz
-  w źródło? Sprawdź je w systemie budowania paczek.\n"
+installation: Zainstaluj tak jak chcesz
+installation_p1: "Proces instalacji openSUSE zapewnia Ci wszystkie niezbędne opcje
+  jakich możesz potrzebować.\nChcesz zainstalować system za pomocą myszki i klawiatury?
+  Załaduj instalator w trybie graficznym.\nNie masz myszki pod ręką? Uruchom tryb
+  tekstowy i zainstaluj w ten sposób.\nNie masz fizycznego dostępu do maszyny? Połącz
+  się zdalnie z instalatorem i rozpocznij instalację. To takie proste.\n"
+points_transparent: Wszystko jest przejrzyste
+points_transparent_p1: "Od początku do końca, każdy pakiet który trafia do dystrybucji
+  ma wszystkie swoje źródła i skrypty otwarcie widoczne dla wszystkich. Wątpisz w
+  źródło? Po prostu sprawdź je w usłudze budowania.\n"
 points_free: Wolne oprogramowanie? Twój wybór
-points_free_p1: "Paczki w dystrybucji podzielone są w wolne i nie wolne repozytoria.
-  Nie chcesz używać nie wolnych paczek? Możesz łatwo wyłączyć nie wolne repozytorium.
+points_free_p1: "Pakiety w dystrybucjach podzielone są na wolne i nie-wolne repozytoria.
+  Nie chcesz używać nie-wolnych paczek? Możesz łatwo wyłączyć nie-wolne repozytorium.
   To Twój wybór, nie nasz.\n"
-points_welcoming: Witanie brania udziału
-points_welcoming_p1: "Staramy się najlepiej by zadowolić społeczność i jesteśmy to
-  w stanie zrobić tylko gdy społeczność jest wokalna o tym czego potrzebują. Z tego
-  powodu zapewniamy branie udziału jest tak proste jak to tylko możliwe.\n"
+points_welcoming: Zapraszamy do współpracy
+points_welcoming_p1: "Staramy się jak najlepiej sprostać oczekiwaniom społeczności,
+  a możemy to osiągnąć tylko wtedy, gdy społeczność wyraźnie mówi o tym, czego potrzebuje.
+  Dlatego dbamy o to, by współtworzenie było jak najłatwiejsze.\n"
 snapper: System się zepsuł? To już nie problem
-snapper_p1: "Funkcja Migawek dysku zachowuje twój system plików pod kontrolą poprzez
-  przeprowadzanie automatycznych kopii zapasowych podczas instalacji oprogramowania
-  i aktualizacji. Po prostu uruchom system z poprzeniej migawki i przywróć swój system
-  na nogi w kilka minut.\n"
+snapper_p1: "Funkcja Migawek systemu plików zabezpiecza Twój system plików, wykonując
+  automatyczne kopie zapasowe podczas instalowania oprogramowania i aktualizacji.
+  W przypadku problemów po prostu uruchom system z wcześniejszej Migawki i przywróć
+  swój system do stanu używalności w ciągu kilku minut.\n"
 software: Znajdowanie oprogramowania nie mogło być łatwiejsze
-software_p1: "Mówiąc między nami, konieczność wchodzenia na każdą stronę żeby znaleźć
-  całe oprogramowanie którego potrzebujesz to dużo pracy. Internetowe centrum oprogramowania
-  powoduje, że jest to dużo prostsze, poprzez zebranie oprogramowania z dużej ilości
-  źródeł w jednym miejscu.\n"
-software_get: Złap oprogramowanie
-transactional: Serwer tranzakcjonalny
-transactional_p1: "Instaler wspiera teraz nową rolę systemu, Serwer Tranzakcjonalny,
-  który powstał poprzez openSUSE Kubic. Ta rola pozwala posiada funkcję aktualizacji
-  systemu atomicznie (w jednej operacji) i pozwala na łatwe powrócenie do poprzedniego
-  stanu jeśli potrzeba. Te funkcje oparte są na tych samych menadżerach paczek jak
-  i reszta dystrybucji od SUSE i openSUSE. To znaczy że zdecydowana większość paczek
-  RPM które działają z innymi rolami na dystrybucjach openSUSE będzie działała również
-  z rolą Serwera Tranzakcjonalnego.\n"
+software_p1: "Mówiąc między nami, przeglądanie każdej strony internetowej, aby znaleźć
+  wszystkie potrzebne oprogramowanie, to spory wysiłek. Centrum oprogramowania online
+  ułatwia to, gromadząc oprogramowanie z wielu źródeł w jednym miejscu.\n"
+software_get: Zdobądź oprogramowanie
+transactional: Serwer transakcyjny
+transactional_p1: "Instalator obsługuje teraz nową rolę systemu Transactional Server,
+  która jest efektem prac nad openSUSE Kubic. Ta rola systemu posiada nowy system
+  aktualizacji, który stosuje aktualizacje atomowo (jako jedną operację) i ułatwia
+  ich wycofanie w przypadku potrzeby. Funkcje te opierają się na narzędziach zarządzania
+  pakietami, na których opierają się wszystkie inne dystrybucje SUSE i openSUSE. Oznacza
+  to, że ogromna większość pakietów RPM, które działają z innymi rolami systemu w
+  dystrybucjach openSUSE, również działa z rolą systemu Transactional Server.\n"
 yast: YaST, nalepszy wybór dla ~~zaawansowanego~~ użytkownika
 yast_p1: "Jedno z najlepszych narzędzi do konfiguracji systemu pomaga tobie, użytkownikowi,
-  ustawić każdy aspekt twojego systemu. Nie musisz już przechodzić przez wiele skryptów
-  konfiguracyjnych przez wątpliwe komendy by ustawić swój system tak jak go potrzebujesz.\n"
+  ustawić każdy aspekt twojego systemu. Nie musisz już przeglądać wielu skryptów konfiguracyjnych
+  ani wprowadzać podejrzanych poleceń, aby system został skonfigurowany zgodnie z
+  Twoimi potrzebami.\n"
 yast_firewall: Zapora Sieciowa
 yast_fonts: Czcionki
 yast_hardware: Sprzęt
-yast_partitioner: Partycjoner
+yast_partitioner: Partycjonowanie
 yast_printer: Drukarka
 yast_scanner: Skaner
 yast_sound: Dźwięk
 yast_software: Oprogramowanie
-zypper: Zypper, Twój nowy ulubiony menadżer paczek
+zypper: Zypper, Twój nowy ulubiony menadżer pakietów
 zypper_p1: "Jest szybki i prosty w obsłudze. Dostarcza zypper-apt, powłokę kompatybilności
-  do użytku z komendami apt i apt-get. Jest oparty o libsolv, który gwarantuje szybkość
-  i powtarzalność tranzakcji zależności. Interfejs jest przejrzysty i odpowiednio
-  pokolorowany, dla najlepszej czytelności. Jest perfekcyjny, co więcej można powiedzieć.\n"
+  do użytku z komendami apt i apt-get. Opiera się na libsolv, co gwarantuje zarówno
+  szybkość, jak i powtarzalność rozwiązywania zależności. Interfejs jest przejrzysty
+  i odpowiednio pokolorowany, co ułatwia czytanie. Jest perfekcyjny, co więcej można
+  powiedzieć?\n"
 index: Dystrybucje openSUSE
 index_p1: Na komputery stacjonarne, serwery i wszystko pomiędzy
-index_desktop: Komputer Stacjonarny
+index_desktop: Komputer
 index_desktop_p1: Wybór dystrybucji do użytku na komputerach stacjonarnych
 index_server: Serwer
 index_server_p1: Wybór dystrybucji do użytku na serwerach
-index_full: Lub idź bezpośrednio na strony do pobrania dystrybucji
+index_full: Lub przejdź bezpośrednio do stron pobierania dla dystrybucji
 desktop: Dystrybucje openSUSE na komputery stacjonarne
 desktop_p1: "Dwie dystrybucje by rządzić nimi wszystkimi (teraz również w zieleni!)\n"
-desktop_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
-  Linuksa/wolnego oprogramowania
-desktop_tumbleweed_p2: Tocząca dystrybucja z najnoszymi paczkami dostarczonymi przez
-  projekt openSUSE.
-desktop_leap_p1: Dla sysadminów, deweloperów przedsiębiorczych i 'zwykłych' użytkowników
-  komputerów stacjonarnych
-desktop_leap_p2: Zwykłe wydanie z zaletami zarówno profesjonalnej inżynierii jak i
-  innowacji społeczności.
+desktop_tumbleweed_p1: Dla Deweloperów, Współtwórców openSUSE, Graczy i Entuzjastów
+  Linuksa/Wolnego Oprogramowania
+desktop_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi pakietami
+  dostarczonymi przez projekt openSUSE.
+desktop_leap_p1: Dla Administratorów Systemów, Programistów Korporacyjnych i 'Zwykłych'
+  Użytkowników komputerów stacjonarnych
+desktop_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii klasy
+  korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
 server: Dystrybucje openSUSE dla serwerów
-server_p1: "Cztery wygodnie nudne dystrybucje, tak jak to powinno być\n"
-server_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
-  Linuksa/wolnego oprogramowania
-server_tumbleweed_p2: Tocząca dystrybucja z najnoszymi paczkami dostarczonymi przez
-  projekt openSUSE.
-server_leap_p1: Dla sysadminów, deweloperów przedsiębiorczych i 'zwykłych' użytkowników
-  komputerów stacjonarnych
-server_leap_p2: Zwykłe wydanie z zaletami zarówno profesjonalnej inżynierii jak i
-  innowacji społeczności.
+server_p1: "Cztery komfortowo nudne dystrybucje, tak jak to zawsze powinno być\n"
+server_tumbleweed_p1: Dla Deweloperów, Współtwórców openSUSE, Graczy i Entuzjastów
+  Linuksa/Wolnego Oprogramowania
+server_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi pakietami
+  dostarczonymi przez projekt openSUSE.
+server_leap_p1: Dla Administratorów Systemów, Programistów Korporacyjnych i 'Zwykłych'
+  Użytkowników serwerowych
+server_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii klasy
+  korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
 server_microos_p1: Dla jednozadaniowych aplikacji serwerowych
-server_microos_p2: Zaprojektowany do hostowania kontenerowych trybów zadań z automatyczną
-  administracją i aktualizacjami
-new_version_available: $distro_name jest dostępne do pobrania
-new_version_testing: $distro_name jest teraz dostępne do pobrania i testowania
+server_microos_p2: Zaprojektowane do hostowania kontenerów z automatyczną administracją
+  i łataniami
+new_version_available: $distro_name jest dostępny do pobrania
+new_version_testing: $distro_name jest teraz dostępny do pobrania i testowania
 view_distro: Zobacz $distro_name
 x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit (x86_64)
 i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit (i686)
@@ -210,95 +211,96 @@ hyperv_ch_image: Host Kontenera MS HyperV
 requirements_net_mac: Unikalna nazwa hosta i adres MAC dla każdego węzła
 MicroOS_features:
   idea:
-    description: "### Jest przewidywalny\n* Nie zmienia się w trakcie działania\n
-      * Będzie uruchamiał te same wersje konsekwentnie za każdym uruchomieniem\n\n
-      ### Skaluje się\n* Usuwa potrzeby próby konfiguracji indywidualnych instancji
-      w trakcie działania\n* Może być wdrożony łatwo i wielokrotnie z przewidywalnym
-      skutkiem\n\n### Jest niezawodny\n* Automatyczne wycofanie po nieudanych aktualizacjach\n"
+    description: "### Jest przewidywalny\n* Nie jest modyfikowany w czasie wykonywania\n
+      * Zawsze uruchamia te same pliki wykonywalne w sposób ciągły przy każdym starcie\n
+      \n### Jest skalowalny\n* Eliminuje konieczność ręcznej konfiguracji poszczególnych
+      instancji w trakcie działania\n* Może być łatwo i wielokrotnie wdrożony z przewidywalnym
+      wynikiem\n\n### Jest niezawodny\n* Automatyczne przywracanie po błędnych aktualizacjach\n"
     name: Filozofia
   update:
-    name: Aktualizacje atomiczne
-    description: "### Aktualizacje tranzakcyjne\n\n#### Unikalny\nPoprzez użycie btrfs
-      z migawkami, MicroOS używa miejsca\noszczędnie by gromadzić historię systemu
-      plików. Cała konfiguracja\nplików w `/etc` jest częścią migawek i przywracania.\n
-      \n#### Elastyczny\n* Nie używa się żadnego nowego formatu, a standardowe pliki
-      RPM openSUSE\n* Nie ma ograniczeń miejsca, ani na partycje ani na system operacyjny\n
-      * Łatwy do ulepszania\n"
+    name: Atomowe Aktualizacje
+    description: "### Transakcyjne Aktualizacje\n\n#### Unikalny\nDzięki użyciu btrfs
+      z migawkami, MicroOS wykorzystuje bardzo wydajny sposób\nprzechowywania historii
+      systemu plików. Wszystkie pliki\nkonfiguracyjne w /etc są częścią migawki i
+      procedury przywracania.\n\n#### Elastyczny\n* Nie wymaga nowego formatu pakietów,
+      używa standardowych pakietów RPM openSUSE\n* Nie posiada ograniczeń rozmiaru,
+      zarówno dla partycji, jak i systemu operacyjnego\n* Łatwy do ulepszania\n"
   shield:
     name: Przywracanie
-    description: "### MicroOS jest niezmiennym systemem operacyjnym, przywracanie
-      jest proste\n* Niezmienny: Żadnych zmian na dysku\n* Przywracanie poprzez uruchamianie
-      ponownie do starej migawki btrfs\n"
+    description: "### MicroOS jest systemem niezmiennym, a przywracanie jest proste\n
+      * Niezmienny: Żadnych zmian na dysku\n* Wycofanie poprzez ponowne uruchomienie
+      do starej migawki BTRFS\n"
   key:
-    description: "* Pobierz aplikacje przez HTTPS\n* Paczki i repozytoria podpisane
-      przez nasz system budujący paczki\n* Paczki są weryfikowane\n* Żadne aktualizacje
-      nie są wykonywane w wypadku konfliktów zależności\n* Brak straty miejsca: Migawki
-      systemu plików są usuwane w wypadku nieudanych aktualizacji\n"
-    name: Aktualizacje bezpieczeństwa
+    description: "* Pobiera aktualizacje za pomocą HTTPS\n* Pakiety i repozytoria
+      są podpisane przez nasz system budowania\n* Pakiety są zweryfikowane\n* Aktualizacje
+      nie są wykonywane w przypadku konfliktów zależności\n* Nie marnuje miejsca:
+      Migawki systemu plików są kasowane w przypadku nieudanych aktualizacji\n"
+    name: Bezpieczne Aktualizacje
   work:
     name: Obciążenia
     description: "Aplikacje są instalowane w kontenerach zamiast na głównym systemie
-      plików:\n* Odizolowane od podstawy systemu plików\n* Zmniejszona możliwość dla
-      złośliwych aplikacji na narażenie systemu\n* Nowa instalacja bez restartu\n
-      * Możliwość aktualizacji w atomiczny sposób (stwórz nowy, zabij stary)\n* Łatwe
+      plików:\n* Odizolowane od głównego systemu plików\n* Zmniejszona możliwość naruszenia
+      systemu przez złośliwe aplikacje\n* Nowa instalacja bez konieczności restartu\n
+      * Możliwość aktualizacji w sposób atomowy (utwórz nowy, zabij stary)\n* Łatwe
       przywracanie\n"
   tool:
-    description: "### Kontener Toolbox do debugowania\n* Uruchamia uprzywilejowany
-      kontener\n* Główny system plików dostępny pod `/media/root`\n* Zypper do instalowania
-      potrzebnych narzędzi, dostępny bez restartu\n* Niezmienny między użyciami\n"
+    description: "### Narzędzie debugowania w kontenerze\n* Uruchamia uprzywilejowany
+      kontener\n* Główny system plików dostępny pod `/media/root`\n* Zypper do instalacji
+      niezbędnych narzędzi, dostępnych bez konieczności restartu\n* Niezmienny między
+      użyciami\n"
     name: Debugowanie
 Tumbleweed_features:
   knife:
     name: Wiodący
-    description: "Dostajesz częste aktualizacje które nie dość że adresują luki i
-      naprawiają błędy, ale również odzwierciedlają najnowsze funkcje i rozwój, jak
-      świeży kernel, świeże sterowniki i najnowsze wersje środowisk graficznych.\n"
+    description: "Otrzymujesz częste aktualizacje, które nie tylko rozwiązują problemy
+      z bezpieczeństwem i usuwają błędy, ale także odzwierciedlają najnowsze funkcje
+      i rozwój, takie jak najnowsze jądra, sterowniki i wersje środowiska pulpitu.\n"
   home:
     name: Stabilny
-    description: "Aktualizacje są dokładnie testowane z branżowej klasy standardami
-      jakości, wykorzystując serwis budowania paczek, pozazdroszczony przez inne dystrybucje
-      Linuksa. Nie dość że każda nowa wersja paczek jest indywidualnie testowana,
-      to różne wersje są testowane wobec siebie, upewniając się że twój system jest
-      wewnętrznie spójny.\n"
+    description: "Aktualizacje są starannie testowane zgodnie z branżowymi standardami
+      jakości, wykorzystując usługę budowania, której pozazdroszczą nam inne dystrybucje
+      Linuksa. Nie tylko każda nowa wersja pakietu jest testowana indywidualnie, ale
+      również różne klastry wersji są testowane względem siebie, zapewniając spójność
+      wewnętrzną Twojego systemu.\n"
   user:
-    name: Łatwy w użytku
-    description: "Jedną komendą jesteś w stanie zaktualizować tysiące paczek, przywrócić
-      do migawki z poprzedniego tygodnia, przewinąć z powrotem do przodu a nawet sprawdzić
+    name: Łatwy w Użyciu
+    description: "Za pomocą jednej komendy możesz zaktualizować tysiące pakietów,
+      cofnąć się do migawki z zeszłego tygodnia, przewinąć do przodu i nawet sprawdzić
       przyszłe wydania.\n"
   cpu:
-    name: Wspaniale współgra z twoim sprzętem
-    description: "Dzięki swojemu wiodącej naturze i dokładnemu przetestowaniu, Tumbleweed
-      służy twojemu sprzętowi i urządzeniom jak niewiele innych dystrybucji Linuksa,
-      sprawiając że jest wspaniałym wyborem dla stacji roboczych, laptopów i notebooków.\n"
+    name: Współgra z Twoim Sprzętem
+    description: "Dzięki swojej wiodącej i starannie przetestowanej naturze, Tumbleweed
+      obsługuje Twój sprzęt i urządzenia lepiej niż wiele innych dystrybucji Linuksa,
+      czyniąc go doskonałym wyborem dla stacji roboczych, laptopów i notebooków.\n"
   key:
-    description: "Gdyby stało się coś niepożądanego, możesz zawsze przywrócić do poprzedniego
-      stanu i znaleźć swoje pliki i programy tak jak były tuż przed wyboistą aktualizacją.\n"
+    description: "Jeśli wystąpi coś niepożądanego, zawsze możesz cofnąć się do poprzedniego
+      stanu i znaleźć swoje pliki i programy w stanie, w jakim były przed nieudaną
+      aktualizacją.\n"
     name: Pewny
   power:
     name: Potężny
-    description: "Wykorzystując technologie z których openSUSE jest znane, takie jak
-      system plików `Btrfs`, komenda `snapper`, jak i również sprawdzony \"panel sterowania\"\
-      \ `YaST`, Tumbleweed umożliwia Ci na pełną kontrolę nad twoim systemem, pozwalając
-      Tobie zdefiniować ustawienia które chcesz jak najszybciej. Nie musisz już martwić
-      się o Twój system przeszkadzający Ci w twojej pracy.\n"
+    description: "Wykorzystując technologi z których openSUSE jest znane, takie jak
+      system plików `Btrfs`, narzędzie wiersza poleceń `snapper`, jak również sprawdzony
+      \"panel sterowania\" `YaST`, Tumbleweed daje Ci pełną kontrolę nad Twoim systemem,
+      pozwalając Ci określić ustawienia według Twoich potrzeb i nie martwić się o
+      nie. Nie musisz już obawiać się, że system będzie ingerował w Twoją pracę.\n"
   shield:
     name: Bezpieczny
-    description: "Zbudowany z najnowszych wersji kernela, skompilowany z najnowszymi
-      łatkami łagodzącymi efekty Spectre / Meltdown, z zaporą sieciową i mocnymi zasadami
-      bezpieczeństwa włączonymi domyślnie, twoje bezpieczeństwo jest zapewnione od
-      razu.\n"
+    description: "Zbudowany z najnowszych wydań jądra, skompilowany z najnowszymi
+      łatkami łagodzącymi Spectre i Meltdown, z domyślnie włączonym firewallem i silnymi
+      politykami bezpieczeństwa, Twoje bezpieczeństwo jest zapewnione od samego początku.\n"
   update:
-    name: Stale aktualizowany
-    description: "Instalujesz go raz i cieszysz się z niego zawsze. Nie musisz już
-      martwić się o gigantyczne aktualizacje systemu co sześć miesięcy, którymi ryzykujesz
-      rozwalenie swojego systemu.\n"
+    name: Stale Aktualizowany
+    description: "Instalujesz raz i cieszysz się nim na zawsze. Nie musisz już martwić
+      się o gigantyczne aktualizacje systemu co sześć miesięcy, które mogą spowodować
+      uszkodzenie Twojego systemu.\n"
   plant:
-    name: Stoi na twardym podłożu
-    description: "Tumbleweed buduje na dekadach użytkowania, testowania i debugowania
-      przez setki zaawansowanych użytkowników, deweloperów, administratorów systemów
-      i wymagających użytkowników, którzy nie mogą pozwolić sobie na narażenie swojej
-      pracy. Solidność Tumbleweeda jest wcielona w wielu podstawowych paczkach których
-      DNA pochodzi z doświadczonego SUSE Linux Enterprise Server.\n"
+    name: O Mocnych Fundamentach
+    description: "Tumbleweed opiera się na dziesięcioleciach użytkowania, testowania
+      i debugowania przez setki zaawansowanych użytkowników, deweloperów, administratorów
+      systemów i wymagających osób, które nie mogą pozwolić sobie na narażenie swojej
+      pracy. Solidność Tumbleweed jest uosobiona w wielu podstawowych pakietach, których
+      DNA pochodzi z renomowanego serwera SUSE Linux Enterprise.\n"
   gamepad:
     name: Gry
     description: "Tumbleweed zapewnia użytkownikom najnowsze oprogramowanie związane
@@ -353,10 +355,10 @@ requirements_net_desc: Dostęp do Internetu jest pomocny i wymagany do działani
   sieciowego
 armv7l: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 32-bit
   (armv7l)
-alternative_downloads: Alternatywne opcje pobierania
+alternative_downloads: Alternatywne Opcje Pobierania
 requirements_rec: Zalecane
-selfinstall_image: Obrazy samo instalujące się
-selfinstall_rt_image: Obrazy samo instalujące się RealTime
+selfinstall_image: Obrazy Samoinstalujący
+selfinstall_rt_image: Obraz Samoinstalujący RealTime
 overview: Przegląd
 offline_updated_image: Zaktualizowany Obraz Offline
 offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\n
@@ -369,7 +371,7 @@ cloud_image: Obraz Chmury
 cloud_minimal_desc: Minimalne obrazy KVM i XEN z cloud-init
 preconfigured_qcow_image: Obraz Prekonfigurowany (qcow)
 kvm_sdboot_image: Obraz KVM z systemd-boot
-server_leapmicro_p1: Dla wdrożeń brzegowych, wbudowanych, IoT i innych
+server_leapmicro_p1: Dla urządzeń brzegowych, wbudowanych, IoT i innych
 server_leapmicro_p2: Ekstremalnie niezawodny, lekki system operacyjny zaprojektowany
   dla środowisk kontenerowych i wirtualizowanych.
 signature: Podpis
@@ -379,12 +381,12 @@ microos_ovw_desc_p1: Zaprojektowany do hostowania środowisk kontenerowych z aut
   z Transakcyjnych Aktualizacji. Dzięki ciągłej dystrybucji oprogramowanie jest zawsze
   aktualne.
 microos_ovw_desc_p2: MicroOS oferuje obraz offline. Główną różnicą między obrazem
-  offline, a obrazami samoinstalowanymi/raw, jest to, że obraz offline zawiera instalator.
-  Obrazy raw i samoinstalowane pozwalają na dostosowanie za pomocą combustion lub
+  offline, a obrazami samoinstalującymi/raw, jest to, że obraz offline zawiera instalator.
+  Obrazy raw i samoinstalujące pozwalają na dostosowanie za pomocą combustion lub
   ręcznie po zapisaniu obrazu na dysku. Istnieje opcja wykorzystania jądra czasu rzeczywistego.
 packages_image: Obraz Pakietów
 packages_image_desc: Nośnik zawierający repozytorium z pakietami offline.
-microos_ovw_desc_p3: Spróbuj MicroOS na maszynach wirtualnych działających na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+microos_ovw_desc_p3: Wypróbuj MicroOS na maszynach wirtualnych <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   lub KVM. Dla Raspberry Pi lub innych układów System on Chip możesz wykorzystać prekonfigurowany
   obraz w połączeniu z <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
   dla procesu uruchamiania. Zarówno prekonfigurowane, jak i samodzielnie zainstalowane
@@ -445,3 +447,9 @@ choosing_media_micro_p2: "Leap Micro nie jest już dostarczany z tradycyjnym pro
   instalacyjnym, zamiast tego użytkownicy powinni używać nośników samoinstalacyjnych.\n
   Nowy Obraz Pakietów jest po prostu zrzutem offline repozytorium rpm Leap Micro,
   przeznaczonym do użycia w izolowanym środowisku.\n"
+leap_micro_ovw_desc_p3: Wypróbuj Leap Micro na maszynach wirtualnych <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  lub KVM. Dla Raspberry Pi lub innych układów System on Chip możesz wykorzystać prekonfigurowany
+  obraz. Zarówno prekonfigurowane, jak i samoinstalujące obrazy są przeznaczone do
+  użycia z <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  zapisanym na pendrive, który umożliwia konfigurację podczas pierwszego uruchomienia,
+  z opcją zmian chronionych hasłem.
