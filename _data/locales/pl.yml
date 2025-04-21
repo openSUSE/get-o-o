@@ -82,14 +82,14 @@ verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczyt
 verify_download_checksums_help: pomoc z sumami kontrolnymi
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Wiele pulpitów, trzy domyślnie
-site_title: Złap openSUSE
-site_title_short: Złap
+site_title: Zdobądź openSUSE
+site_title_short: Zdobądź
 cd_desc: Na płyty CD i pamięć USB
 dvd_desc: Na płyty DVD i pamięć USB
 usb_desc: Na pamięć USB
 pick_mirror: Wybierz serwer lustrzany
 checksum: Suma kontrolna
-torrent_file: Plik torrent
+torrent_file: Plik Torrent
 offline_image: Obraz bezsieciowy
 choosing_media_p1: "Obraz bezsieciowy jest zwykle rekomendowany, ponieważ zawiera
   on większość\npaczek dostępnych w dystrybucji i nie wymaga połączenia z siecią w
