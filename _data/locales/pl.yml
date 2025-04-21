@@ -6,25 +6,25 @@ source_code: Kod źródłowy
 license: Licencja
 learn_more: Dowiedz się więcej
 metalink: Metalink
-offline_desc: "Zawiera dużą ilość oprogramowania do użytku na komputerach domowych
-  i serwerach.\nDobry wybór przy instalacji lub aktualizacji.\n"
+offline_desc: "Zawiera dużą kolekcję oprogramowania do użytku na komputerach i serwerach.\n
+  Odpowiedni do instalacji lub aktualizacji.\n"
 network_image: Obraz Sieciowy
-network_desc: "Pobiera system instalacyjny i wszystkie paczki z repozytoriów.\nDobry
-  wybór przy instalacji lub aktualizacji.\n"
+network_desc: "Pobiera system instalacyjny i wszystkie pakiety z repozytoriów.\nOdpowiedni
+  do instalacji lub aktualizacji.\n"
 kvm_image: Obraz KVM i XEN
 kvm_desc: Do użytku w hiperwizorach KVM lub XEN HVM
 xen_image: XEN
 xen_desc: Do użytku w hiperwizorach XEN PV
 hyperv_image: Obraz MS HyperV
-hyperv_desc: Do użytku w maszynach wirtualnych na MS HyperV
+hyperv_desc: Do użytku w maszynach wirtualnych MS HyperV
 vmware_image: Obraz VMware
-vmware_desc: Do użytku w maszynach wirtualnych na VMware
+vmware_desc: Do użytku w maszynach wirtualnych VMware
 openstack_image: OpenStack-Cloud
-openstack_desc: Do użytku w maszynach wirtualnych na OpenStack
+openstack_desc: Do użytku w maszynach wirtualnych OpenStack
 installation_images: Instalacja
 ports_images: Porty
 ports_info: "Porty openSUSE Leap na architektury inne niż Komputery Personalne są\n
-  wspierane przez oddzielne zespoły społeczności, z mniejszymi zasobami\n"
+  wspierane przez oddzielne zespoły społeczności, które dysponują ograniczonymi zasobami\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: GNOME LiveCD
@@ -36,51 +36,53 @@ tumbleweed_live_info: "Weź pod uwagę wymienione limitacje obrazów live:\n* Ni
   Tumbleweeda](/tumbleweed)\n* Mają okrojoną selekcję paczek i sterowników, więc nie
   są dokładnym odzwierciedleniem tego czy Tumbleweed będzie działał na twoim sprzęcie\n"
 microos_desc: System operacyjny oparty o openSUSE Tumbleweed dostarczający Transakcyjne
-  (Atomiczne) aktualizacje na bazowym systemie plików btrfs w trybie tylko do odczytu
-choosing_media: Wybierz medium do pobrania
+  (Atomiczne) aktualizacje na głównym systemie plików btrfs w trybie tylko do odczytu
+choosing_media: Wybór mediów do pobrania
 documentation: Dokumentacja
-documentation_startup_guide: Przewodnik startowy openSUSE
-documentation_release_notes: Informacje o wydaniu
+documentation_startup_guide: Przewodnik Startowy openSUSE
+documentation_release_notes: Informacje o Wydaniu
 documentation_license: Licencja
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Pełna Dokumentacja
-leap_switch: Łatwe sposoby by przerzucić się na openSUSE Leap
-leap_switch_instructions: Instrukcje aktualizacji sieciowej.
+leap_switch: Łatwe sposoby przejścia na openSUSE Leap
+leap_switch_instructions: Instrukcje Aktualizacji Sieciowej.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements: Wymagania sprzętowe
+requirements: Wymagania Sprzętowe
 requirements_cpu: Procesor
-requirements_mem: Pamięć operacyjna
+requirements_mem: Pamięć
 requirements_hd: Ponad 40GB wolnego miejsca na dysku twardym
 requirements_dvd: Napęd DVD lub port USB na medium instalacyjne
 requirements_net: Sieć
-tw_switch: Łatwe sposoby by przerzucić się na openSUSE Tumbleweed
-tw_switch_instructions: Instrukcje aktualizacji.
+tw_switch: Łatwe sposoby przejścia na openSUSE Tumbleweed
+tw_switch_instructions: Instrukcje Aktualizacji.
 tw_switch_instructions_link: https://pl.opensuse.org/openSUSE:Aktualizacja_do_Tumbleweed
 upgrade_table_linux: Ze starszej wersji lub z innej dystrybucji
-upgrade_table_windows: Z Windowsa
+upgrade_table_windows: Z Windows
 upgrade_table_mac: Z OS X
-upgrade_table_linux_dvd: Jak wypalić obraz DVD na Linuksie.
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd: Jak wypalić obraz DVD na Windowsie.
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Jak wypalić obraz DVD na OS X.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_dvd: Jak nagrać płytę DVD w systemie Linux.
+upgrade_table_linux_dvd_link: https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_Linuksa_2
+upgrade_table_windows_dvd: Jak nagrać płytę DVD w systemie Windows.
+upgrade_table_windows_dvd_link: 
+  https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_Microsoft_Windows_2
+upgrade_table_mac_dvd: Jak nagrać płytę DVD w systemie OS X.
+upgrade_table_mac_dvd_link: 
+  https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_MacOS_X_.2810.3_i_powy.C5.BCej.29
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Zweryfikuj pobrany obraz zanim go użyjesz
 verify_download_p1: "Wiele aplikacji może zweryfikować sumy kontrolne pobranych plików.
-  Weryfikacja\npliku może być ważna, gdyż weryfikuje ona czy naprawdę pobrano\nprawidłowy
-  plik ISO, a nie jakąś zepsutą wersję.\n"
-verify_download_p2: "Do każdego ISO, oferujemy plik sumy kontrolnej z odpowiadającą
-  sumą SHA256.\n"
+  Weryfikacja\npliku może być ważna, gdyż weryfikuje ona czy pobrano\nprawidłowy i
+  w pełni sprawny plik ISO.\n"
+verify_download_p2: "Dla każdego obrazu ISO oferujemy plik z sumą kontrolną SHA256
+  oraz plik z kryptograficznym podpisem.\n"
 verify_download_p3: "Aby zapewnić integralność pobranego pliku, możesz użyć polecenia
   sha256sum do weryfikacji sumy kontrolnej oraz polecenia gpgv do weryfikacji kryptograficznego
   podpisu.\n"
-verify_download_pubkey: Powinna być
+verify_download_pubkey: Powinien być
 verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczytaj
-verify_download_checksums_help: pomoc z sumami kontrolnymi
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help: Pomoc Sum Kontrolnych
+verify_download_checksums_help_link: https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#Sumy_kontrolne
 desktops: Wiele pulpitów, trzy domyślnie
 site_title: Zdobądź openSUSE
 site_title_short: Zdobądź
@@ -90,23 +92,23 @@ usb_desc: Na pamięć USB
 pick_mirror: Wybierz serwer lustrzany
 checksum: Suma kontrolna
 torrent_file: Plik Torrent
-offline_image: Obraz bezsieciowy
+offline_image: Obraz Bezsieciowy
 choosing_media_p1: "Obraz bezsieciowy jest zwykle rekomendowany, ponieważ zawiera
-  on większość\npaczek dostępnych w dystrybucji i nie wymaga połączenia z siecią w
-  czasie instalacji.\n"
+  on większość\npakietów dostępnych w dystrybucji i nie wymaga połączenia z internetem
+  w czasie instalacji.\n"
 choosing_media_p2: "Obraz sieciowy jest rekomendowany dla użytkowników, którzy mają
-  ograniczoną\nprzepustowość łącza internetowego, ponieważ pobiera on tylko paczki
-  wybrane w czasie instalacji, co w\nwiększości wypadków będzie zdecydowanie mniej
-  niż 4.7GB.\n"
-leap_switch_p1: "Jeśli już korzystasz z openSUSE, możesz zaaktualizować poprzez uruchomienie\n
-  wypalonego obrazu na płycie DVD/pamięci USB i wybranie opcji aktualizacji,\nlub
-  przeprowadzenie 'Aktualizacji przez Internet' w kilku komendach.\n"
-tw_switch_p1: "Jeśli już korzystasz z openSUSE, możesz zaaktualizować poprzez uruchomienie\n
-  wypalonego obrazu na płycie DVD/pamięci USB i wybranie opcji aktualizacji,\nlub
-  przeprowadzenie 'Aktualizacji przez Internet' w kilku komendach.\n"
-upgrade_table_linux_usb: Jak stworzyć uruchamialną pamięć USB na Linuksie.
-upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB na Windowsie.
-upgrade_table__mac_usb: Jak stworzyć uruchamialną pamięć USB na OS X.
+  ograniczoną\nprzepustowość połączenia internetowego, ponieważ pobiera on tylko te
+  pakiety,\nktóre zostały wybrane w czasie instalacji, co w większości wypadków wyniesie\n
+  zdecydowanie mniej niż 4.7GB.\n"
+leap_switch_p1: "Jeśli już korzystasz z openSUSE, możesz wykonać aktualizację poprzez
+  uruchomienie\nobrazu z płyty DVD/pamięci USB i wybranie opcji aktualizacji,\nlub
+  wykonując 'Aktualizację Sieciową' za pomocą kilku komend.\n"
+tw_switch_p1: "Jeśli już korzystasz z openSUSE, możesz wykonać aktualizację poprzez
+  uruchomienie\nobrazu z płyty DVD/pamięci USB i wybranie opcji aktualizacji,\nlub
+  wykonując 'Aktualizację Sieciową' za pomocą kilku komend.\n"
+upgrade_table_linux_usb: Jak stworzyć uruchamialną pamięć USB w systemie Linux.
+upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB w systemie Windows.
+upgrade_table__mac_usb: Jak stworzyć uruchamialną pamięć USB w systemie OS X.
 desktops_p1: "Proces udziału w openSUSE wspiera rozwój pulpitów dla wszystkich, więc
   masz możliwość wyboru swojego ulubionego w instalatorze. My aktywnie wspieramy trzy
   z nich i oferujemy więcej w rozszerzonym widoku oprogramowania w instalatorze.\n"
@@ -203,9 +205,9 @@ aarch64: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 64-
   (aarch64)
 ppc64le: Serwery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
-kvm_ch_image: Host kontenera KVM i XEN
-hyperv_ch_image: Host kontenera MS HyperV
-requirements_net_mac: Unikalna nazwa hosta i adres MAC dla każdej maszyny
+kvm_ch_image: Host Kontenera KVM i XEN
+hyperv_ch_image: Host Kontenera MS HyperV
+requirements_net_mac: Unikalna nazwa hosta i adres MAC dla każdego węzła
 MicroOS_features:
   idea:
     description: "### Jest przewidywalny\n* Nie zmienia się w trakcie działania\n
@@ -303,66 +305,67 @@ Tumbleweed_features:
       z grami. Z uwagi na szybko rosnące wsparcie Linuksa dla gier, jest to ważny
       aspekt gwarantujący płynne, wydajne i bezproblemowe doświadczenie w Twoich ulubionych
       grach.\n"
-selfinstalling_ch_image: Samo instalujący się host kontenera
-vmware_ch_image: Host kontenera VMware
+selfinstalling_ch_image: Samoinstalujący Host Kontenera
+vmware_ch_image: Host Kontenera VMware
 vmware_vmx_image: VMware VMX
 vagrant_image: Vagrant
-vagrant_ch_image: Host kontenera Vagrant
+vagrant_ch_image: Host Kontenera Vagrant
 rpi_image: RaspberryPi
-rpi_ch_image: Host kontenera RaspberryPi
+rpi_ch_image: Host Kontenera RaspberryPi
 pine_image: Pine64
-pine_ch_image: Host kontenera Pine64
+pine_ch_image: Host Kontenera Pine64
 virtualbox_image: VirtualBox
-vm_images: Maszyna wirtualna
+vm_images: Maszyna Wirtualna
 cloud_images: Chmura
 hardware_images: Sprzęt
-iso_image: Plik ISO
+iso_image: Obraz ISO
 requirements_hdd_var: partycja /var
-requirements_hdd_swap_info: miejsce swap wyłączone by kubernetes działało poprawnie
-selfinstalling_images: Samo instalujące się obrazy
-selfinstalling_k3s_image: Samo instalujący się Host k3s
-vmware_vmx_ch_image: Host kontenera VMware VMX
-openstack_ch_image: Host kontenera OpenStack-Cloud
+requirements_hdd_swap_info: wyłączona przestrzeń wymiany (swap), aby Kubernetes działał
+  prawidłowo
+selfinstalling_images: Obrazy Samoinstalujące
+selfinstalling_k3s_image: Samoinstalujący Host k3s
+vmware_vmx_ch_image: Host Kontenera VMware VMX
+openstack_ch_image: Host Kontenera OpenStack-Cloud
 jeos_info: Minimalne obrazy VM. By znaleźć obrazy Arm JeOS, odwiedź <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">stronę
-  wiki o Arm</a>
-live_info: "Proszę bądź świadomy poniższych limitacji obrazów Live:\n* Nie powinny
-  one być używane do instalacji lub aktualizacji. W zamian, użyj obrazów instalacyjnych\n
-  * Mają ograniczoną selekcję paczek i sterowników, więc nie mogą być brane pod uwagę
-  jako dokładne odzwierciedlenie tego czy dystrybucja będzie działa na danym sprzęcie\n
-  * Kernel i initrd nie mogą być aktualizowane, więc nie powinny być używane jako
-  stała instalacja\n"
-requirements_dvd_desc: Dysk DVD lub port USB na obraz instalacyjny
+  wiki Arm</a>
+live_info: "Należy pamiętać o następujących ograniczeniach obrazów na żywo:\n* Nie
+  należy ich używać do instalacji lub aktualizacji. Zamiast tego należy użyć nośnika
+  instalacyjnego\n* Mają one ograniczony wybór pakietów i sterowników, więc nie można
+  ich uznać za dokładne odzwierciedlenie tego, czy dystrybucja będzie działać na Twoim
+  sprzęcie, czy nie\n* Jądro i initrd nie mogą być aktualizowane, więc nie należy
+  ich używać jako trwałej instalacji\n"
+requirements_dvd_desc: Napęd DVD lub port USB na nośnik instalacyjny
 download: Pobierz
 alternative_downloads_desc: Mamy również obrazy $options. Sprawdź $alternative_downloads!
 requirements_min: Minimalne
 requirements_cpu_desc: Dwurdzeniowy procesor o taktowaniu 2 GHz lub lepszy
 requirements_mem_desc: $value fizycznej pamięci RAM + dodatkowa pamięć dla twojego
-  obciążenia
-requirements_hdd_desc: Ponad 40GB wolnego miejsca na dysku pamięci
+  środowiska
+requirements_hdd_desc: Ponad 40GB wolnego miejsca na dysku
 requirements_hdd_size_desc: $value dostępnego miejsca na dysku
-requirements_net_conn: Pełne połączenie pomiędzy maszynami w grupie
+requirements_net_conn: Pełna łączność między wszystkimi maszynami w klastrze
 preconfigured_image: Obraz Prekonfigurowany (raw)
 preconfigured_rt_image: Obraz Prekonfigurowany RealTime (raw)
-requirements_hdd: Pamięć stała
-requirements_hdd_root: partycja / (root)
-requirements_hdd_ssd_info: dysk SSD wysokiej klasy prędkości
-requirements_net_desc: Połączenie z internetem jest przydatne, a wymagane dla instalacji
-  sieciowej
+requirements_hdd: Składowanie
+requirements_hdd_root: partycja / (główna)
+requirements_hdd_ssd_info: dysk SSD o dużej szybkości zapisu
+requirements_net_desc: Dostęp do Internetu jest pomocny i wymagany do działania instalatora
+  sieciowego
 armv7l: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 32-bit
   (armv7l)
 alternative_downloads: Alternatywne opcje pobierania
-requirements_rec: Rekomendowane
+requirements_rec: Zalecane
 selfinstall_image: Obrazy samo instalujące się
 selfinstall_rt_image: Obrazy samo instalujące się RealTime
 overview: Przegląd
 offline_updated_image: Zaktualizowany Obraz Offline
 offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\n
-  Przystosowany do instalacji lub aktualizacji.\n"
+  Odpowiedni do instalacji lub aktualizacji.\n"
 ppc64: Serwery PowerPC, big-endian (ppc64)
 minimal_vm_images: Minimalna Maszyna Wirtualna
 server_x86_64: 64-bitowe serwery Intel lub AMD (x86_64)
 server_aarch64: 64-bitowe serwery i urządzenia ARM UEFI (aarch64)
-cloud_image: Obraz Cloud
+cloud_image: Obraz Chmury
 cloud_minimal_desc: Minimalne obrazy KVM i XEN z cloud-init
 preconfigured_qcow_image: Obraz Prekonfigurowany (qcow)
 kvm_sdboot_image: Obraz KVM z systemd-boot
