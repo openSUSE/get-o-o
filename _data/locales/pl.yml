@@ -109,19 +109,20 @@ tw_switch_p1: "Jeśli już korzystasz z openSUSE, możesz wykonać aktualizację
 upgrade_table_linux_usb: Jak stworzyć uruchamialną pamięć USB w systemie Linux.
 upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB w systemie Windows.
 upgrade_table__mac_usb: Jak stworzyć uruchamialną pamięć USB w systemie OS X.
-desktops_p1: "Proces współtworzenia openSUSE wspiera rozwój pulpitu dla każdego, więc
-  masz możliwość wyboru swojego ulubionego w instalatorze. My aktywnie wspieramy trzy
-  z nich i oferujemy więcej w rozszerzonym widoku oprogramowania w instalatorze.\n"
-installation: Zainstaluj tak jak chcesz
+desktops_p1: "Proces współpracy z openSUSE umożliwia rozwój środowiska pulpitu dla
+  każdego, więc masz możliwość wyboru swojego ulubionego środowiska w instalatorze.
+  Aktywnie wspieramy trzy środowiska pulpitu, a w rozszerzonym widoku oprogramowania
+  w instalatorze znajdziesz ich więcej.\n"
+installation: Instaluj tak jak chcesz
 installation_p1: "Proces instalacji openSUSE zapewnia Ci wszystkie niezbędne opcje
   jakich możesz potrzebować.\nChcesz zainstalować system za pomocą myszki i klawiatury?
   Załaduj instalator w trybie graficznym.\nNie masz myszki pod ręką? Uruchom tryb
   tekstowy i zainstaluj w ten sposób.\nNie masz fizycznego dostępu do maszyny? Połącz
   się zdalnie z instalatorem i rozpocznij instalację. To takie proste.\n"
 points_transparent: Wszystko jest przejrzyste
-points_transparent_p1: "Od początku do końca, każdy pakiet który trafia do dystrybucji
-  ma wszystkie swoje źródła i skrypty otwarcie widoczne dla wszystkich. Wątpisz w
-  źródło? Po prostu sprawdź je w usłudze budowania.\n"
+points_transparent_p1: "Od samego początku do końca, każdy pakiet który trafia do
+  dystrybucji ma wszystkie swoje źródła i skrypty otwarcie widoczne dla wszystkich.
+  Wątpisz w źródło? Po prostu sprawdź je w usłudze budowania.\n"
 points_free: Wolne oprogramowanie? Twój wybór
 points_free_p1: "Pakiety w dystrybucjach podzielone są na wolne i nie-wolne repozytoria.
   Nie chcesz używać nie-wolnych paczek? Możesz łatwo wyłączyć nie-wolne repozytorium.
@@ -129,25 +130,25 @@ points_free_p1: "Pakiety w dystrybucjach podzielone są na wolne i nie-wolne rep
 points_welcoming: Zapraszamy do współpracy
 points_welcoming_p1: "Staramy się jak najlepiej sprostać oczekiwaniom społeczności,
   a możemy to osiągnąć tylko wtedy, gdy społeczność wyraźnie mówi o tym, czego potrzebuje.
-  Dlatego dbamy o to, by współtworzenie było jak najłatwiejsze.\n"
+  Dlatego dbamy o to, by współpraca z nami była najłatwiejsza.\n"
 snapper: System się zepsuł? To już nie problem
 snapper_p1: "Funkcja Migawek systemu plików zabezpiecza Twój system plików, wykonując
   automatyczne kopie zapasowe podczas instalowania oprogramowania i aktualizacji.
   W przypadku problemów po prostu uruchom system z wcześniejszej Migawki i przywróć
   swój system do stanu używalności w ciągu kilku minut.\n"
-software: Znajdowanie oprogramowania nie mogło być łatwiejsze
-software_p1: "Mówiąc między nami, przeglądanie każdej strony internetowej, aby znaleźć
-  wszystkie potrzebne oprogramowanie, to spory wysiłek. Centrum oprogramowania online
-  ułatwia to, gromadząc oprogramowanie z wielu źródeł w jednym miejscu.\n"
+software: Pobieranie oprogramowania nie może być łatwiejsze
+software_p1: "Między nami, przeglądanie każdej strony w poszukiwaniu wszystkich potrzebnych
+  programów to sporo pracy. Centrum oprogramowania online ułatwia to, gromadząc oprogramowanie
+  z wielu źródeł w jednym miejscu.\n"
 software_get: Zdobądź oprogramowanie
 transactional: Serwer transakcyjny
-transactional_p1: "Instalator obsługuje teraz nową rolę systemu Transactional Server,
+transactional_p1: "Instalator obsługuje teraz nową rolę systemu Serwer Transakcyjny,
   która jest efektem prac nad openSUSE Kubic. Ta rola systemu posiada nowy system
-  aktualizacji, który stosuje aktualizacje atomowo (jako jedną operację) i ułatwia
-  ich wycofanie w przypadku potrzeby. Funkcje te opierają się na narzędziach zarządzania
-  pakietami, na których opierają się wszystkie inne dystrybucje SUSE i openSUSE. Oznacza
-  to, że ogromna większość pakietów RPM, które działają z innymi rolami systemu w
-  dystrybucjach openSUSE, również działa z rolą systemu Transactional Server.\n"
+  aktualizacji, który stosuje je atomowo (jako jedną operację) i ułatwia ich wycofanie
+  w razie potrzeby. Funkcje te opierają się na narzędziach zarządzania pakietami,
+  na których bazują wszystkie inne dystrybucje SUSE i openSUSE. Oznacza to, że znaczna
+  większość pakietów RPM, które działają z innymi rolami systemu w dystrybucjach openSUSE,
+  również działa z rolą Serwera Transakcyjnego.\n"
 yast: YaST, nalepszy wybór dla ~~zaawansowanego~~ użytkownika
 yast_p1: "Jedno z najlepszych narzędzi do konfiguracji systemu pomaga tobie, użytkownikowi,
   ustawić każdy aspekt twojego systemu. Nie musisz już przeglądać wielu skryptów konfiguracyjnych
@@ -169,29 +170,29 @@ zypper_p1: "Jest szybki i prosty w obsłudze. Dostarcza zypper-apt, powłokę ko
   powiedzieć?\n"
 index: Dystrybucje openSUSE
 index_p1: Na komputery stacjonarne, serwery i wszystko pomiędzy
-index_desktop: Komputer
+index_desktop: Komputer Stacjonarny
 index_desktop_p1: Wybór dystrybucji do użytku na komputerach stacjonarnych
 index_server: Serwer
 index_server_p1: Wybór dystrybucji do użytku na serwerach
 index_full: Lub przejdź bezpośrednio do stron pobierania dla dystrybucji
 desktop: Dystrybucje openSUSE na komputery stacjonarne
 desktop_p1: "Dwie dystrybucje by rządzić nimi wszystkimi (teraz również w zieleni!)\n"
-desktop_tumbleweed_p1: Dla Deweloperów, Współtwórców openSUSE, Graczy i Entuzjastów
-  Linuksa/Wolnego Oprogramowania
+desktop_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
+  Linuksa/wolnego oprogramowania
 desktop_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi pakietami
   dostarczonymi przez projekt openSUSE.
-desktop_leap_p1: Dla Administratorów Systemów, Programistów Korporacyjnych i 'Zwykłych'
-  Użytkowników komputerów stacjonarnych
+desktop_leap_p1: Dla administratorów systemów, programistów korporacyjnych i 'zwykłych'
+  użytkowników komputerów stacjonarnych
 desktop_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii klasy
   korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
 server: Dystrybucje openSUSE dla serwerów
 server_p1: "Cztery komfortowo nudne dystrybucje, tak jak to zawsze powinno być\n"
-server_tumbleweed_p1: Dla Deweloperów, Współtwórców openSUSE, Graczy i Entuzjastów
-  Linuksa/Wolnego Oprogramowania
+server_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
+  Linuksa/wolnego oprogramowania
 server_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi pakietami
   dostarczonymi przez projekt openSUSE.
-server_leap_p1: Dla Administratorów Systemów, Programistów Korporacyjnych i 'Zwykłych'
-  Użytkowników serwerowych
+server_leap_p1: Dla administratorów systemów, programistów korporacyjnych i 'zwykłych'
+  użytkowników serwerowych
 server_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii klasy
   korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
 server_microos_p1: Dla jednozadaniowych aplikacji serwerowych
@@ -258,7 +259,7 @@ Tumbleweed_features:
   home:
     name: Stabilny
     description: "Aktualizacje są starannie testowane zgodnie z branżowymi standardami
-      jakości, wykorzystując usługę budowania, której pozazdroszczą nam inne dystrybucje
+      jakości, wykorzystując usługę budowania której pozazdroszczą nam inne dystrybucje
       Linuksa. Nie tylko każda nowa wersja pakietu jest testowana indywidualnie, ale
       również różne klastry wersji są testowane względem siebie, zapewniając spójność
       wewnętrzną Twojego systemu.\n"
@@ -279,30 +280,31 @@ Tumbleweed_features:
     name: Pewny
   power:
     name: Potężny
-    description: "Wykorzystując technologi z których openSUSE jest znane, takie jak
-      system plików `Btrfs`, narzędzie wiersza poleceń `snapper`, jak również sprawdzony
-      \"panel sterowania\" `YaST`, Tumbleweed daje Ci pełną kontrolę nad Twoim systemem,
-      pozwalając Ci określić ustawienia według Twoich potrzeb i nie martwić się o
-      nie. Nie musisz już obawiać się, że system będzie ingerował w Twoją pracę.\n"
+    description: "Wykorzystując technologie z których openSUSE jest znane, takie jak
+      system plików `Btrfs`, narzędzie wiersza poleceń `snapper`, czy też sprawdzony
+      \"panel sterowania\" `YaST`, Tumbleweed daje Ci pełną kontrolę nad systemem,
+      dzięki czemu możesz zdefiniować pożądane ustawienia i o nich zapomnieć. Już
+      nie musisz martwić się, że system będzie ingerował w Twoją pracę.\n"
   shield:
     name: Bezpieczny
     description: "Zbudowany z najnowszych wydań jądra, skompilowany z najnowszymi
-      łatkami łagodzącymi Spectre i Meltdown, z domyślnie włączonym firewallem i silnymi
-      politykami bezpieczeństwa, Twoje bezpieczeństwo jest zapewnione od samego początku.\n"
+      łatkami łagodzącymi Spectre i Meltdown, z domyślnie włączoną zaporą sieciową
+      i silnymi politykami bezpieczeństwa, Twoje bezpieczeństwo jest zapewnione od
+      samego początku.\n"
   update:
     name: Stale Aktualizowany
-    description: "Instalujesz raz i cieszysz się nim na zawsze. Nie musisz już martwić
-      się o gigantyczne aktualizacje systemu co sześć miesięcy, które mogą spowodować
-      uszkodzenie Twojego systemu.\n"
+    description: "Instalujesz raz i cieszysz się nim na zawsze. Już nie musisz martwić
+      się o gigantyczne aktualizacje systemu co sześć miesięcy, które mogłyby spowodować
+      awarię Twojego systemu.\n"
   plant:
-    name: O Mocnych Fundamentach
+    name: O Solidnych Fundamentach
     description: "Tumbleweed opiera się na dziesięcioleciach użytkowania, testowania
       i debugowania przez setki zaawansowanych użytkowników, deweloperów, administratorów
       systemów i wymagających osób, które nie mogą pozwolić sobie na narażenie swojej
       pracy. Solidność Tumbleweed jest uosobiona w wielu podstawowych pakietach, których
       DNA pochodzi z renomowanego serwera SUSE Linux Enterprise.\n"
   gamepad:
-    name: Gry
+    name: Grywalny
     description: "Tumbleweed zapewnia użytkownikom najnowsze oprogramowanie związane
       z grami. Z uwagi na szybko rosnące wsparcie Linuksa dla gier, jest to ważny
       aspekt gwarantujący płynne, wydajne i bezproblemowe doświadczenie w Twoich ulubionych
@@ -364,7 +366,7 @@ offline_updated_image: Zaktualizowany Obraz Offline
 offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\n
   Odpowiedni do instalacji lub aktualizacji.\n"
 ppc64: Serwery PowerPC, big-endian (ppc64)
-minimal_vm_images: Minimalna Maszyna Wirtualna
+minimal_vm_images: Minimalnych Maszyn Wirtualnych
 server_x86_64: 64-bitowe serwery Intel lub AMD (x86_64)
 server_aarch64: 64-bitowe serwery i urządzenia ARM UEFI (aarch64)
 cloud_image: Obraz Chmury
@@ -403,7 +405,7 @@ leap_ovw_desc: Leap korzysta z kodu źródłowego SUSE Linux Enterprise (SLE), c
   łączy go z rozwojem społeczności, zapewniając użytkownikom, programistom i administratorom
   systemu najlepsze dostępne stabilne doświadczenie z Linuksem.
 tumbleweed_ovw_desc: Z Tumbleweed nie musisz podejmować trudnych decyzji dotyczących
-  rzeczy, które cenisz. Wolność czy bezpieczeństwo, kontrola czy stabilność, technologia
+  rzeczy które cenisz. Wolność czy bezpieczeństwo, kontrola czy stabilność, technologia
   czy bezpieczeństwo - Tumbleweed pozwala ci mieć ciastko i je zjeść!
 leap_micro_ovw_title: Leap Micro to niezwykle niezawodny, lekki system operacyjny
   zaprojektowany dla środowisk kontenerowych i zwirtualizowanych.
@@ -412,7 +414,7 @@ leap_micro_ovw_desc_p1: Ta wersja społecznościowa jest oparta na SUSE Linux Mi
   Enterprise. To połączenie technologii zapewnia nowoczesny, niezmienny i przyjazny
   dla deweloperów system operacyjny.
 leap_micro_ovw_desc_p2: Leap Micro od wersji 6.0 oferuje obraz samoinstalujący, obraz
-  surowy i płytę DVD z pakietami, która może służyć jako repozytorium offline. Obraz
+  raw i płytę DVD z pakietami, która może służyć jako repozytorium offline. Obraz
   samoinstalujący jest zalecany dla każdej instalacji opartej na USB, ponieważ nie
   używamy już tradycyjnych instalatorów. Użytkownicy mogą zautomatyzować i dostosowywać
   swoją instalację za pomocą <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
