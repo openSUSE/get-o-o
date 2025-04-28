@@ -1,7 +1,7 @@
 site_title: 取得 openSUSE
 site_title_short: Get
 site_description: 了解 openSUSE 發行版並且免費下載
-site_copyright: © 2024 openSUSE 貢獻者
+site_copyright: © 2025 openSUSE 貢獻者
 search: 搜尋
 translate: 翻譯
 source_code: 原始碼
@@ -80,8 +80,8 @@ upgrade_table__mac_usb: 如何在 OS X 上建立一個可開機的 USB 隨身碟
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: 在使用前驗證您的下載
 verify_download_p1: "很多應用程式可以驗證下載的正確性。驗證您的下載可以確保您得到所需的 ISO 檔案而非損壞的版本。\n"
-verify_download_p2: "針對每一個 ISO ，我們提供了一個含有對應 SHA256 的校驗碼檔案。\n"
-verify_download_p3: "為額外的安全性考量，您可以使用 GPG 來驗證誰簽署了這些 .sha256 檔案。\n"
+verify_download_p2: "對於每個 ISO，我們都會提供一個包含對應 SHA256 和的校驗和檔，以及一個包含加密簽章的簽章檔。\n"
+verify_download_p3: "為確保下載檔案的完整性，您可以使用 sha256sum 來驗證校驗和，並使用 gpgv 來驗證加密簽章。\n"
 verify_download_pubkey: 它應該是
 verify_download_help: 需要有關驗證您的下載檔案的說明，請閱讀
 verify_download_checksums_help: 校驗碼說明文件
@@ -221,8 +221,8 @@ Tumbleweed_features:
       的堅固性體現在許多核心套件，其 DNA 來自久負盛名的 SUSE Linux Enterprise Server。\n"
     name: 堅實基礎
   power:
-    description: "採用了 openSUSE 著名的技術如 `Btrfs` 檔案系統、`snapper` 命令列工具，以及經戰場驗證的 `YaST`
-      控制中心，Tumbleweed 賦予您對系統的完整控制，讓您定義您想要的組態並使用它來完成。您再也不需擔心系統會干擾您的工作流程。\n"
+    description: "Tumbleweed 運用 openSUSE 聞名的技術，例如 `Btrfs` 檔案系統、`snapper` 指令列工具以及經過實戰驗證的
+      `YaST` 控制面板，讓您能夠完全控制您的系統，讓您定義想要的設定，並完成它。您再也不用擔心系統干擾您的工作流程。\n"
     name: 功能強大
   shield:
     description: "從最新版本的作業系統核心建構，包含最新緩和 Spectre / Meltdown 問題的修補程式，與預設開啟防火牆及強固的安全策略，從一開始您的安全即受到保障。\n"
@@ -240,7 +240,7 @@ Tumbleweed_features:
     description: "只需一道指令，您可以更新上千個套件、回復至上個星期的快照、再次快速前進至新快照，甚至是預覽將來的版本。\n"
     name: 容易使用
   home:
-    description: "每個更新都通過工業等級品質標準的完整測試，並仰賴其他 Linux 發行版本都羡慕的建構服務。不只是每個新版本的套件都經獨立測試，並且不同版本的集合也會相互測試，以確保您系統內部的一致性。\n"
+    description: "我們利用其他 Linux 發行版本所羨慕的建立服務，根據業界等級的品質標準，徹底測試更新。不僅每個套件的新版本都經過單獨測試，不同版本的群組也會互相測試，確保您的系統內部一致。\n"
     name: 穩定
   update:
     description: "您只需安裝一次即可永久享受。再也不需擔心每六個月的大量系統升級會有讓您的系統掛掉的風險。\n"
@@ -265,3 +265,17 @@ minimal_vm_info: 與 SUSE Linux Enterprise Server 最小虛擬機器映像檔相
 cloud_minimal_desc: 包含 cloud-init 的最小化 KVM 與 Xen 映像檔
 live_info: "請注意 live 映像檔的以下限制：\n* live 映像檔無法使用於安裝或升級。請改用安裝媒體進行安裝或升級。\n* live 映像檔只收錄了有限的套件與驅動程式，是故不能夠當作發行版能否在您的硬體上運作的準確判斷依據。\n
   * live 映像檔的內核與 initrd 無法更新，是故它們不應該作為永久安裝使用。\n"
+choosing_media_micro_p2: "Leap Micro 不再提供傳統的安裝程式，使用者必須使用 Self-install 媒體。\n新的 軟體包
+  只是 Leap Micro rpm 儲存庫的離線轉儲，用於那些有獨立環境的用戶。\n"
+preconfigured_rt_image: 預先設定的即時影像 (raw)
+preconfigured_image: 預先設定的影像(raw)
+preconfigured_qcow_image: 預先設定的映像 (qcow)
+signature: 簽名
+encrypted_image: 完全加密的磁碟映像 (raw)
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  是新的安裝程式，可用於安裝 Leap 16 和 Tumbleweed。\n有計劃在 Agama 中支援離線安裝。其他的安裝媒介，如自動安裝映像檔，將在稍後加入。\n"
+choosing_media_micro_p1: "新的自動安裝映像檔是 USB 或 DVD 安裝的最佳選擇。\n簡單的自我安裝精靈會將預先設定好的映像檔儲存到硬碟機，並將磁碟分割擴大到磁碟大小。\n
+  <br>\n使用 Raspberry Pi 及類似產品且不支援 USB 開機的使用者，可以直接將預設映像檔寫入 SD 卡。\n若使用者希望對部署進行更多控制，建議使用
+  <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>。\n
+  <br>\n您可以在<a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">這裡</a>看到基於燃燒的部署示範。\n
+  <br>\njeos-firstboot 會迎接那些沒有使用 Combustion 設定系統的使用者。\n"
