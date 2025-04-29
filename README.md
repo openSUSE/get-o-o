@@ -4,7 +4,7 @@ Website promoting the openSUSE distribution development effort, explaining what 
 ## How to build?
 
 ```bash
-sudo zypper in ruby3.4-devel ruby3.4-rubygem-bundler gcc-c++
+sudo zypper in ruby-devel 'rubygem(bundler)' gcc-c++
 ```
 
 ```bash
