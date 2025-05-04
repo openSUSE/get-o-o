@@ -12,20 +12,20 @@ downloads:
   arches:
   - name: x86_64
     types:
-#    - name: offline_image
-#      desc: offline_desc
-#      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso"
-#      links:
-#      - name: metalink
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.meta4"
-#      - name: pick_mirror
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso?mirrorlist"
-#      - name: checksum
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.sha256"
-#      - name: signature
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.sha256.asc"
+    - name: offline_image
+      desc: offline_desc
+      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.sha256.asc"
 #      - name: torrent_file # Torrents only for GM boo#1231361
-##        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.torrent"
+#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.torrent"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-Leap.iso"
@@ -42,20 +42,20 @@ downloads:
 #        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.x86_64-Leap.iso.torrent"
   - name: aarch64
     types:
-#    - name: offline_image
-#      desc: offline_desc
-#      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso"
-#      links:
-#      - name: metalink
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.meta4"
-#      - name: pick_mirror
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso?mirrorlist"
-#      - name: checksum
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.sha256"
-#      - name: signature
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.sha256.asc"
+    - name: offline_image
+      desc: offline_desc
+      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.sha256.asc"
 #      - name: torrent_file # Torrents only for GM boo#1231361
-##        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.torrent"
+#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.torrent"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-Leap.iso"
@@ -72,20 +72,20 @@ downloads:
 #        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.aarch64-Leap.iso.torrent"
   - name: ppc64le
     types:
-#    - name: offline_image
-#      desc: offline_desc
-#      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso"
-#      links:
-#      - name: metalink
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.meta4"
-#      - name: pick_mirror
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso?mirrorlist"
-#      - name: checksum
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.sha256"
-#      - name: signature
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.sha256.asc"
+    - name: offline_image
+      desc: offline_desc
+      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.sha256.asc"
 #      - name: torrent_file # Torrents only for GM boo#1231361
-##        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.torrent"
+#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-ppc64le.install.iso.torrent"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-Leap.iso"
@@ -102,20 +102,20 @@ downloads:
 #        url: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.ppc64le-Leap.iso.torrent"
   - name: s390x
     types:
-#    - name: offline_image
-#      desc: offline_desc
-#      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso"
-#      links:
-#      - name: metalink
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.meta4"
-#      - name: pick_mirror
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso?mirrorlist"
-#      - name: checksum
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.sha256"
-#      - name: signature
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.sha256.asc"
+    - name: offline_image
+      desc: offline_desc
+      primary_link: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.sha256.asc"
 #      - name: torrent_file # Torrents only for GM boo#1231361
-##        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.torrent"
+#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-s390x.install.iso.torrent"
     - name: network_image
       desc: network_image
       primary_link: "/distribution/leap/16.0/installer/iso/agama-installer-Leap.s390x-Leap.iso"
