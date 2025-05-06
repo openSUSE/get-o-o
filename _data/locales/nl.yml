@@ -234,7 +234,7 @@ zypper_p1: "Het is snel en makkelijk te leren. Het bevat zypper-apt, een compati
   De interface is helder en toepasselijk gekleurd voor leesgemak.\nHet is perfect,
   wat kan er nog meer gezegd worden?\n"
 index_server: Server
-index_full: Of ga direct naar de download pagina's voor de distributies
+index_full: Of ga direct naar de downloadpagina's van de distributies
 desktop: De openSUSE Desktop distributies
 desktop_tumbleweed_p1: Voor ontwikkelaars, openSUSE bijdragers, Gamers en Linux/FOSS
   enthousiastelingen
