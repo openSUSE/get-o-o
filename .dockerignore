@@ -1,0 +1,7 @@
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+_data/snapshots.csv
+_data/sizes.yml
+vendor/
