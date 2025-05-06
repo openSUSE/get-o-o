@@ -7,8 +7,12 @@ group :jekyll_plugins do
   gem 'jekyll-redirect-from'
   gem 'jekyll-theme-opensuse', git: 'https://github.com/opensuse/jekyll-theme.git', branch: 'l10n-feat'
 end
+gem 'base64'
+gem 'bigdecimal'
+gem 'csv'
 gem 'faraday'
 gem 'faraday_middleware'
 gem 'human_size'
+gem 'logger'
 gem 'rake'
 gem 'webrick'
