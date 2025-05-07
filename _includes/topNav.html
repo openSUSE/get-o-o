@@ -1,0 +1,30 @@
+<script>
+    function handleScroll() {
+        if (typeof window !== "undefined" && window?.pageYOffset !== 0) {
+            document.querySelector(".topNav").classList.add("hasScrolled");
+        } else {
+            document.querySelector(".topNav").classList.remove("hasScrolled");
+        }
+    }
+    window.addEventListener('scroll', handleScroll);
+
+    function toggleMenu() {
+        document.querySelector(".menuOverlay").classList.toggle("menuOverlayOpen");
+        document.body.classList.toggle('modalOpen');
+    }
+</script>
+
+<div class="menuOverlay">
+    {% include topNavImageLinks.html %}
+    <div class="textLinks">
+        {% include topNavTextLinks.html %}
+    </div>
+</div>
+<div class="topNav">
+    <div class="container">
+        <div class="topNavInner">
+            {% include topNavImageLinks.html %}
+            {% include topNavTextLinks.html %}
+        </div>
+    </div>
+</div>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <meta name="description" content="{{ page.description }}">
+    {% if page.stylesheet %}
+    <link rel="stylesheet" href="/assets/css/{{ page.stylesheet }}.css">
+    {% else %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% endif %}
+    <link rel="icon" href="/assets/img/favicon.png" sizes="192x192">
+    <link rel="icon" href="/assets/img/favicon.ico" sizes="48x48">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    {{ content }}
+    <div class="footerHolder">
+        <div class="container">
+            <footer>
+                <ul class="links">
+                    <li><a href="https://news.opensuse.org/">News</a></li>
+                    <li><a href="https://doc.opensuse.org/">Documentation</a></li>
+                    <li><a href="https://en.opensuse.org/Main_Page">Wiki</a></li>
+                    <li><a href="https://forums.opensuse.org/">Forums</a></li>
+                    <li><a href="https://software.opensuse.org/">Software center</a></li>
+                    <li><a href="https://lists.opensuse.org/">Mailing lists</a></li>
+                    <li><a href="https://shop.opensuse.org/">Merch store</a></li>
+                    <li><a href="https://planet.opensuse.org/">Blogs</a></li>
+                    <li><a href="mailto:press@opensuse.org">Press inquiries</a></li>
+                    <li><a href="https://en.opensuse.org/openSUSE:Artwork_brand#Trademark">Trademark</a></li>
+                    <li><a href="https://endof10.org/" target="_blank">End of 10</a></li>
+                </ul>
+                <div class="bottomBar">
+                    <div class="legalDisclaimer">
+                        <a href="https://www.opensuse.org">
+                            <img class="wordmark" alt="openSUSE wordmark" src="/assets/img/monochrome/wordmark.svg">
+                        </a>
+                        &copy; 2015-{{ site.time | date:"%Y" }} SUSE LLC. All Rights Reserved.
+                        <a href="https://en.opensuse.org/Imprint">Imprint</a>
+                    </div>
+                    <div class="socials">
+                        {% include socialAccount.html name="Mastodon" href="https://fosstodon.org/@opensuse" %}
+                        {% include socialAccount.html name="Reddit" href="https://www.reddit.com/r/openSUSE/" %}
+                        {% include socialAccount.html name="YouTube" href="https://www.youtube.com/user/opensusetv" %}
+                        {% include socialAccount.html name="Facebook" href="https://www.facebook.com/en.openSUSE" %}
+                        {% include socialAccount.html name="Twitter" href="https://twitter.com/opensuse" %}
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>

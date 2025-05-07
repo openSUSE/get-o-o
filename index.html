@@ -1,66 +1,114 @@
 ---
+title: openSUSE ­— Open source OS for desktops, servers and containers
+description: openSUSE is an open source operating system based on Linux.
+stylesheet: homepage
+layout: default2025
 ---
-<link rel="stylesheet" href="/assets/css/software.css">
-<div class="container text-center py-4">
-  <h1 class="display-3">{{ locale.index }}</h1>
-  <p class="lead">{{ locale.index_p1 }}</p>
-</div>
-<div class="bg-light">
-  <div class="container">
-    <div class="row">
-      <a href="{{ '/desktop/' | prefix_locale }}" class="col bg-wallpaper text-white text-center p-5">
-        <div class="p-4 m-auto">{% include icons/desktop.svg %}</div>
-        <h2>{{ locale.index_desktop }}</h2>
-        <h6>{{ locale.index_desktop_p1 }}</h6>
-      </a>
-      <a href="{{ '/server/' | prefix_locale }}" class="col bg-server text-white text-center p-5">
-        <div class="p-4 m-auto">{% include icons/server.svg %}</div>
-        <h2>{{ locale.index_server }}</h2>
-        <h6>{{ locale.index_server_p1 }}</h6>
-      </a>
+
+<div class="page">
+  {% include topNav.html %}
+  <div class="introHolder">
+    <div class="container">
+      <div class="intro">
+        <div class="introPrimary">
+          <h1>Free your desktop</h1>
+          <div class="introPrimaryDescription">openSUSE is a free open source OS for desktops, servers and
+            containers.</div>
+        </div>
+        <div class="screenshot">
+          <img width="600" height="375" src="/assets/img/screenshots/kde-light-welcome.png" alt="openSUSE KDE desktop">
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="container text-center py-4">
-  <h2 class="m-0">{{ locale.index_full }}</h2>
-</div>
-<div class="bg-wallpaper">
   <div class="container">
-    <div class="row">
-      <a href="{{ '/tumbleweed/' | prefix_locale }}" class="col bg-tumbleweed-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/tumbleweed.svg %}</div>
-        <h4>Tumbleweed</h4>
-      </a>
-      {% if site.releases.leap.current != nil %}
-      <a href="{{ '/leap/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-        <h4>Leap {{ site.releases.leap[site.releases.leap.current].version }}</h4>
-      </a>
-      {% endif %}
-      {% if site.releases.leap.testing %}
-        <a href="{{ '/testing/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-          {% assign leap_id = site.releases.leap.testing %}
-          <h4>Leap {{ site.releases.leap[leap_id].version }} <sup>{{ site.releases.leap[leap_id].state }}</sup></h4>
-        </a>
-      {% endif %}
-      {% if site.releases.leap_micro.current != nil %}
-        <a href="{{ '/leapmicro/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
-          <h4>Leap Micro {{ site.releases.leap_micro[site.releases.leap_micro.current].version }}</h4>
-        </a>
-      {% endif %}
-      {% if site.releases.leap_micro.testing %}
-        <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
-          {% assign leap_micro_id = site.releases.leap_micro.testing %}
-          <h4>Leap Micro {{ site.releases.leap_micro[leap_micro_id].version }} <sup>{{ site.releases.leap_micro[leap_micro_id].state }}</sup></h4>
-        </a>
-      {% endif %}
-      <a href="{{ '/microos/' | prefix_locale }}" class="col bg-microos-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/microos.svg %}</div>
-        <h4>MicroOS</h4>
-      </a>
+    <div class="propositions">
+      {% include proposition.html
+        imgName="drive"
+        altText="Disk"
+        title="Lean back while our installer does the work"
+        description="Deep dives into wikis and forums are completely optional."
+      %}
+      {% include proposition.html
+        imgName="relieved"
+        altText="Relaxed person"
+        title="Free to use, with no strings attached"
+        description="Yours to keep with no upsells, ads or mandatory accounts."
+      %}
+      {% include proposition.html
+        imgName="iceCreamCone"
+        altText="Ice cream cone"
+        title="Available in several different flavors"
+        description="Rolling release? Immutable distro? We've got you covered."
+      %}
+      {% include proposition.html
+        imgName="gpu"
+        altText="GPU"
+        title="Opt-in access to proprietary packages"
+        description="Restricted codecs and drivers are available when needed."
+      %}
+      {% include proposition.html
+        imgName="community"
+        altText="Community"
+        title="Regular international community events"
+        description="Share the joy of openSUSE with fellow users at <a href=\"https://events.opensuse.org/\">our
+          meetups</a>."
+      %}
+      {% include proposition.html
+        imgName="company"
+        altText="Office building"
+        title="Industry-backed and community-supported"
+        description="We're here to stay, thanks to <a href=\"https://en.opensuse.org/Sponsors\">our sponsors</a> and
+        community."
+      %}
+    </div>
+    <div class="builtins">
+      <div class="builtinsPrimary">
+        <h3>Installer options</h3>
+      </div>
+      <ul class="builtinsSecondary">
+        <li>KDE, GNOME and XFCE</li>
+        <li>Desktop and server configurations</li>
+        <li>Full disk encryption</li>
+        <li>Btrfs with snapshots</li>
+        <li>LVM partitioning</li>
+        <li>Secure Boot</li>
+      </ul>
+    </div>
+  </div>
+  <div class="flavorsBg">
+    <div class="container">
+      <h3>Meet the flavors</h3>
+      <div class="flavors">
+        <div class="content">
+          <div class="flavorHolder">
+            {% include flavor.html
+              name="Tumbleweed"
+              identifier="tumbleweed"
+              description="Always on the cutting edge"
+            %}
+            {% include flavor.html
+              name="Leap"
+              identifier="leap"
+              description="Stability above all else"
+            %}
+            {% include flavor.html
+              name="MicroOS"
+              identifier="microOs"
+              description="Immutable rolling-release container OS"
+            %}
+            {% include flavor.html
+              name="Leap Micro"
+              identifier="leapMicro"
+              description="Rock solid immutable container OS"
+            %}
+          </div>
+          <div class="experimental">
+            Looking for our <a href="https://en.opensuse.org/Portal:Distribution">experimental
+              distributions</a>?
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

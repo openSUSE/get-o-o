@@ -1,0 +1,9 @@
+<a class="flavor" href="https://get.opensuse.org/{{ include.identifier || downcase }}/">
+    <img src="/assets/img/monochrome/{{ include.identifier }}.svg" alt="{{ include.name }} logo">
+    <div>
+        <div class="name">{{ include.name }}</div>
+        <div class="description">
+            {{ include.description }}
+        </div>
+    </div>
+</a>
