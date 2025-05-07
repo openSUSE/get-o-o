@@ -57,9 +57,20 @@ a {
 
     .topNavInner {
         display: flex;
-        align-items: center;
         flex-direction: row;
-        gap: 1.75rem;
+        align-items: center;
+        justify-content: space-between;
+
+        >* {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+            gap: 1.75rem;
+        }
+
+        .home {
+            filter: invert(86%) sepia(28%) saturate(185%) hue-rotate(124deg) brightness(85%) contrast(92%);
+        }
     }
 
 
