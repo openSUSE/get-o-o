@@ -4,4 +4,4 @@ COPY Gemfile /build
 COPY Gemfile.lock /build
 RUN bundle install
 COPY . /build
-RUN bundle exec jekyll build
+CMD bundle exec jekyll build

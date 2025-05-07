@@ -1,0 +1,23 @@
+name: Generate website
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: Generate the build image
+      run: docker build -t tmp .
+    - name: Build the website
+      run: docker run -v ${{ github.workspace }}/site:/build/_site tmp
+    - name: Save artifacts
+      uses: actions/upload-artifact@v4
+      with:
+        name: website
+        path: ${{ github.workspace }}/site
