@@ -1,3 +1,47 @@
+homepage_intro_title: Free your desktop
+homepage_intro_subtitle: openSUSE is a free open source OS for desktops, servers and containers.
+homepage_screenshot_alttext: openSUSE KDE desktop
+homepage_proposition_installer_title: Lean back while our installer does the work
+homepage_proposition_installer_subtitle: Deep dives into wikis and forums are completely optional. 
+homepage_proposition_installer_alttext: Disk
+homepage_proposition_no_strings_title: Free to use, with no strings attached
+homepage_proposition_no_strings_subtitle: Yours to keep with no upsells, ads or mandatory accounts.
+homepage_proposition_no_strings_alttext: Relaxed person
+homepage_proposition_flavors_title: Available in several different flavors
+homepage_proposition_flavors_subtitle: Rolling release? Immutable distro? We've got you covered.
+homepage_proposition_flavors_alttext: Ice cream cone
+homepage_proposition_restricted_packages_title: Opt-in access to proprietary packages
+homepage_proposition_restricted_packages_subtitle: Restricted codecs and drivers are available when needed.
+homepage_proposition_restricted_packages_alttext: GPU
+homepage_proposition_community_events_title: Regular international community events
+homepage_proposition_community_events_subtitle: Share the joy of openSUSE with fellow users at <a href="https://events.opensuse.org/">our meetups</a>.
+homepage_proposition_community_events_alttext: Community
+homepage_proposition_industry_backed_title: Industry-backed and community-supported
+homepage_proposition_industry_backed_subtitle: We're here to stay, thanks to <a href="https://en.opensuse.org/Sponsors">our sponsors</a> and community.
+homepage_proposition_industry_backed_alttext: Office building
+homepage_options_title: Installer options
+homepage_options_desktop_environments: KDE, GNOME and XFCE
+homepage_options_desktop_and_server: Desktop and server configurations
+homepage_options_full_disk_encryption: Full disk encryption
+homepage_options_btrfs_snapshots: Btrfs with snapshots
+homepage_options_lvm: LVM partitioning
+homepage_options_secure_boot: Secure Boot
+homepage_flavors_title: Meet the flavors
+homepage_flavors_tumbleweed_description: Always on the cutting edge
+homepage_flavors_leap_description: Stability above all else
+homepage_flavors_microos_description: Immutable rolling-release server OS
+homepage_flavors_leap_micro_description: Rock solid immutable server OS
+homepage_flavors_experimental_distributions: Looking for our <a href="https://en.opensuse.org/Portal:Distribution">experimental distributions</a>?
+footer_news: News
+footer_docs: Documentation
+footer_wiki: Wiki
+footer_forums: Forums
+footer_software: Software center
+footer_mailing_lists: Mailing lists
+footer_merch: Merch store
+footer_planet: Blogs
+footer_press_inquiries: Press inquiries
+footer_trademark: Trademark
 site_title: Get openSUSE
 site_title_short: Get
 site_description: Learn about the openSUSE distributions and download them for free
