@@ -1,19 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <meta name="description" content="{{ page.description }}">
-    {% if page.stylesheet %}
-    <link rel="stylesheet" href="/assets/css/{{ page.stylesheet }}.css">
-    {% else %}
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% endif %}
-    <link rel="icon" href="/assets/img/favicon.png" sizes="192x192">
-    <link rel="icon" href="/assets/img/favicon.ico" sizes="48x48">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
+{% include head2025.html %}
 
 <body>
     {{ content }}
@@ -38,7 +26,7 @@
                         <a href="https://www.opensuse.org">
                             <img class="wordmark" alt="openSUSE wordmark" src="/assets/img/monochrome/wordmark.svg">
                         </a>
-                        &copy; 2015-{{ site.time | date:"%Y" }} SUSE LLC. All Rights Reserved.
+                        &copy; 2015-{{ site.time | date:"%Y" }} openSUSE Contributors
                         <a href="https://en.opensuse.org/Imprint">Imprint</a>
                     </div>
                     <div class="socials">
