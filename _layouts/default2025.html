@@ -10,8 +10,9 @@
             <footer>
                 <ul class="links">
                     {% for category in universe %}
-                        {% assign category_ids_to_show = "main,development,information,other" | split:"," %}
-                        {% if category_ids_to_show contains category.id %}
+                        {% assign category_ids_to_hide = "community,social_media" | split:"," %}
+                        {% if category_ids_to_hide contains category.id %}
+                        {% else %}
                             {% for link in category.links %}
                               <li><a href="{{ link.url }}">{{ link.title }}</a></li>
                             {% endfor %}
