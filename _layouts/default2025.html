@@ -10,11 +10,9 @@
             <footer>
                 <ul class="links">
                     {% for category in universe %}
-                        {% assign category_ids_to_hide = "community,social_media" | split:"," %}
-                        {% if category_ids_to_hide contains category.id %}
-                        {% else %}
+                        {% if category.id != "social_media" %}
                             {% for link in category.links %}
-                              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                                <li><a href="{{ link.url }}"{% if category.id == 'community' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
                             {% endfor %}
                         {% endif %}
                     {% endfor %}
@@ -28,11 +26,13 @@
                         <a href="https://en.opensuse.org/Imprint">Imprint</a>
                     </div>
                     <div class="socials">
-                        {% include socialAccount.html name="Mastodon" href="https://fosstodon.org/@opensuse" %}
-                        {% include socialAccount.html name="Reddit" href="https://www.reddit.com/r/openSUSE/" %}
-                        {% include socialAccount.html name="YouTube" href="https://www.youtube.com/user/opensusetv" %}
-                        {% include socialAccount.html name="Facebook" href="https://www.facebook.com/en.openSUSE" %}
-                        {% include socialAccount.html name="Twitter" href="https://twitter.com/opensuse" %}
+                        {% for category in universe %}
+                            {% if category.id == 'social_media' %}
+                                {% for link in category.links %}
+                                    {% include socialAccount.html name=link.title href=link.url %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
                     </div>
                 </div>
             </footer>
