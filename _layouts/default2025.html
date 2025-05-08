@@ -9,17 +9,14 @@
         <div class="container">
             <footer>
                 <ul class="links">
-                    <li><a href="https://news.opensuse.org/">{{ locale.footer_news }}</a></li>
-                    <li><a href="https://doc.opensuse.org/">{{ locale.footer_docs }}</a></li>
-                    <li><a href="https://en.opensuse.org/Main_Page">{{ locale.footer_wiki }}</a></li>
-                    <li><a href="https://forums.opensuse.org/">{{ locale.footer_forums }}</a></li>
-                    <li><a href="https://software.opensuse.org/">{{ locale.footer_software }}</a></li>
-                    <li><a href="https://lists.opensuse.org/">{{ locale.mailing_lists }}</a></li>
-                    <li><a href="https://shop.opensuse.org/">{{ locale.footer_merch }}</a></li>
-                    <li><a href="https://planet.opensuse.org/">{{ locale.footer_planet }}</a></li>
-                    <li><a href="mailto:press@opensuse.org">{{ locale.footer_press_inquiries }}</a></li>
-                    <li><a href="https://en.opensuse.org/openSUSE:Artwork_brand#Trademark">{{ locale.footer_trademark }}</a></li>
-                    <li><a href="https://endof10.org/" target="_blank">End of 10</a></li>
+                    {% for category in universe %}
+                        {% assign category_ids_to_show = "main,development,information,other" | split:"," %}
+                        {% if category_ids_to_show contains category.id %}
+                            {% for link in category.links %}
+                              <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
                 </ul>
                 <div class="bottomBar">
                     <div class="legalDisclaimer">
