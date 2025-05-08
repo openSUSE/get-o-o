@@ -3,13 +3,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   
     <title>
-      {% if page.title %}
-      {{ page.title | escape }} —
+      {% if page.title_translation_key %}
+      {{ locale[page.title_translation_key] | escape }}
       {% endif %}
-      {{ locale.site_title | default: site.title | escape }}
+      {% if page.hide_title_suffix != 1 %}
+      — {{ locale.site_title | default: site.title | escape }}
+      {% endif %}
     </title>
     <meta name="description"
-      content="{{ page.excerpt | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+      content="{{ locale[page.description_translation_key] | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
   
     <!-- stylesheet -->
     {% if page.stylesheet %}
@@ -45,7 +47,7 @@
     <meta property="og:site_name" content="{{ locale.site_title | default: site.title | escape }}">
     <meta property="og:title" content="{{ page.title | default: locale.site_title | default: site.title | escape }}">
     <meta property="og:description"
-      content="{{ page.excerpt | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+      content="{{ locale[page.description_translation_key] | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
     <meta property=" og:url" content="{{ page.path | replace:'index.html','' | absolute_url }}">
     {% if page.layout == 'post' %}
     <meta property="og:type" content="article">
