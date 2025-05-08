@@ -66,11 +66,11 @@ $foreground: #ccedea;
 
   .screenshot {
     position: relative;
-    
+
     &::before {
       content: '';
       width: 600px;
-      height: 375px;
+      height: 374px;
       position: absolute;
       clip-path: polygon(15% 100%, 100% 100%, 85% 0%, 0% 0%);
       background: #CCEDEA;
@@ -217,7 +217,7 @@ $foreground: #ccedea;
     $fadeVLength: 120px;
     mask-image: linear-gradient(to bottom, transparent 0%, white $fadeVLength, white calc(100% - $fadeVLength), transparent 100%);
     mask-composite: intersect;
-    
+
     @include xxlAndUp {
       mask-image: linear-gradient(to left, transparent 0%, white $fadeHLength, white calc(100% - $fadeHLength), transparent 100%), linear-gradient(to bottom, transparent 0%, white $fadeVLength, white calc(100% - $fadeVLength), transparent 100%);
     }
