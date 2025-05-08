@@ -4,10 +4,13 @@
   
     <title>
       {% if page.title_translation_key %}
-      {{ locale[page.title_translation_key] | escape }}
+        {{ locale[page.title_translation_key] | escape }}
+      {% endif %}
+      {% if page.title_translation_key and page.hide_title_suffix != 1 %}
+        -
       {% endif %}
       {% if page.hide_title_suffix != 1 %}
-      — {{ locale.site_title | default: site.title | escape }}
+        {{ locale.site_title | default: site.title | escape }}
       {% endif %}
     </title>
     <meta name="description"
