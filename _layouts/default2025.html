@@ -29,7 +29,7 @@
                         {% for category in universe %}
                             {% if category.id == 'social_media' %}
                                 {% for link in category.links %}
-                                    {% include socialAccount.html name=link.title href=link.url %}
+                                    {% include socialAccount.html name=link.title href=link.url svg=link.icon %}
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
