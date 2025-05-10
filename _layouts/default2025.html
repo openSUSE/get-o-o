@@ -8,15 +8,27 @@
     <div class="footerHolder">
         <div class="container">
             <footer>
-                <ul class="links">
+                <nav class="links">
                     {% for category in universe %}
                         {% if category.id != "social_media" %}
-                            {% for link in category.links %}
-                                <li><a href="{{ link.url }}"{% if category.id == 'community' %} target="_blank"{% endif %}>{{ link.title }}</a></li>
-                            {% endfor %}
+                            <div class="linkSet">
+                                <h4 class="linkSetHeading">{{ category.id |  replace: "_", " " | captialize }}</h4>
+                                <ul>
+                                    {% for link in category.links %}
+                                        {% if link.title %}
+                                            <li>
+                                                <a href="{{ link.url }}"{% if category.id == 'community' %} target="_blank"{% endif %}>
+                                                    <div class="linkIcon">{{ link.icon }}</div>
+                                                    {{ link.title }}
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
                         {% endif %}
                     {% endfor %}
-                </ul>
+                </nav>
                 <div class="bottomBar">
                     <div class="legalDisclaimer">
                         <a href="https://www.opensuse.org">
