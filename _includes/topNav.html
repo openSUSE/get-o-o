@@ -1,0 +1,37 @@
+<script>
+    function handleScroll() {
+        if (typeof window !== "undefined" && window?.pageYOffset !== 0) {
+            document.querySelector(".topNav").classList.add("hasScrolled");
+        } else {
+            document.querySelector(".topNav").classList.remove("hasScrolled");
+        }
+    }
+    window.addEventListener('scroll', handleScroll);
+
+    function toggleMenu() {
+        document.querySelector(".menuOverlay").classList.toggle("menuOverlayOpen");
+        document.body.classList.toggle('modalOpen');
+    }
+</script>
+
+<div class="menuOverlay">
+    {% include topNavImageLinks.html %}
+    <div class="textLinks">
+        {% include topNavTextLinks.html %}
+    </div>
+</div>
+<nav class="topNav">
+    <div class="container">
+        <div class="topNavInner">
+            <div>
+                {% include topNavImageLinks.html %}
+                {% include topNavTextLinks.html %}
+            </div>
+            <div>
+                <a href="https://www.opensuse.org/" title="Back to opensuse.org">
+                    <img class="home" width="25" height="22" src="/assets/img/monochrome/home.svg" alt="Home" />
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
