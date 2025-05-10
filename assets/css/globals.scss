@@ -194,6 +194,11 @@ a {
                 flex-direction: row;
                 gap: 1rem;
                 align-items: center;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                }
             }
 
             .wordmark {
