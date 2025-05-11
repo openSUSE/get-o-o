@@ -226,7 +226,7 @@
     position: absolute;
     z-index: -1;
 
-    $patternColor: #d4f1eb;
+    $patternColor: #d9f5ef;
     background: linear-gradient(135deg, #0000 18.75%, $patternColor 0 31.25%, #0000 0),
       repeating-linear-gradient(45deg, $patternColor -6.25% 6.25%, rgba(255, 255, 255, 0) 0 18.75%);
     background-size: 70px 70px;
@@ -259,12 +259,6 @@
 }
 
 .flavors {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: stretch;
-  gap: 1rem;
-
   $corner-radius: 10px;
 
   .content {
