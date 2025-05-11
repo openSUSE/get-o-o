@@ -154,8 +154,8 @@
 }
 
 .builtins {
-  background: color.adjust(colors.$background-light, $lightness: -7%, $saturation: -30%);
-  box-shadow: inset -10px -10px 40px -10px #00000011;
+  background: color.adjust(colors.$background-light, $lightness: -5%, $saturation: -30%);
+  box-shadow: inset -10px -10px 40px -10px #00000019;
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 2rem;
