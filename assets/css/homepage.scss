@@ -5,17 +5,19 @@
 @use 'colors';
 @use 'sass:color';
 
-$foreground: #ccedea;
-
 .introHolder {
   --_gradient-blend-mode: normal;
   --_gradient-blur: 20px;
 
-  background: radial-gradient(at 64% 27%, #0C7A6E 0px, transparent 50%), radial-gradient(at 71% 60%, #264C5C 0px, transparent 40%), radial-gradient(at 11% 41%, #45875B 0px, transparent 50%) #0C322C;
+  background: radial-gradient(at 64% 27%, #a9e9e1 0px, transparent 50%), radial-gradient(at 71% 60%, #70c4e7 0px, transparent 40%), radial-gradient(at 11% 41%, #cdecd7 0px, transparent 50%) colors.$background-light;
   ;
   mix-blend-mode: var(--_gradient-blend-mode);
   backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
   -webkit-backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
+  
+  @include colors.dark {
+    background: radial-gradient(at 64% 27%, #0C7A6E 0px, transparent 50%), radial-gradient(at 71% 60%, #264C5C 0px, transparent 40%), radial-gradient(at 11% 41%, #45875B 0px, transparent 50%) #0C322C;
+  }
 }
 
 .intro {
@@ -28,12 +30,15 @@ $foreground: #ccedea;
   height: 600px;
 
   h1 {
-    text-shadow: 1px 2px 5px #00000055;
     font-size: 3.25rem;
     line-height: 90%;
 
     @include xsAndUp {
       font-size: 5.5rem;
+    }
+    
+    @include colors.dark {
+      text-shadow: 1px 2px 5px #00000055;
     }
   }
 
@@ -54,16 +59,6 @@ $foreground: #ccedea;
     }
   }
 
-  .logo {
-    background: colors.$foreground2;
-    box-shadow: 1px 2px 5px #00000055;
-    padding: 0.5rem;
-    border-radius: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
   .screenshot {
     position: relative;
 
@@ -73,7 +68,11 @@ $foreground: #ccedea;
       height: 374px;
       position: absolute;
       clip-path: polygon(15% 100%, 100% 100%, 85% 0%, 0% 0%);
-      background: #CCEDEA;
+      background: #9eddd8;
+      
+      @include colors.dark {
+        background: #CCEDEA;
+      }
     }
 
     img {
@@ -130,24 +129,33 @@ $foreground: #ccedea;
 
 
     .image {
-      background: color.adjust(colors.$background, $lightness: 3%);
+      background: color.adjust(colors.$background-light, $lightness: -5%, $saturation: -30%);
       padding: 0.5rem;
-      box-shadow: inset -10px 10px 20px -20px #ffffff55;
+      box-shadow: inset -10px -10px 20px -20px #00000055;
       border-radius: 10px;
       display: flex;
       align-items: center;
       justify-content: center;
 
       img {
-        filter: invert(98%) sepia(65%) saturate(267%) hue-rotate(93deg) brightness(97%) contrast(91%);
+        filter: colors.$topnav-foreground-filter-light;
+      }
+      
+      @include colors.dark {
+        background: color.adjust(colors.$background-dark, $lightness: 3%);
+        box-shadow: inset -10px 10px 20px -20px #ffffff55;
+        
+        img {
+          filter: invert(98%) sepia(65%) saturate(267%) hue-rotate(93deg) brightness(97%) contrast(91%);
+        }
       }
     }
   }
 }
 
 .builtins {
-  background: color.adjust(colors.$background, $lightness: 5%);
-  box-shadow: inset 10px -10px 40px -10px #00000055;
+  background: color.adjust(colors.$background-light, $lightness: -7%, $saturation: -30%);
+  box-shadow: inset -10px -10px 40px -10px #00000011;
   border-radius: 10px;
   padding: 1.5rem;
   margin-bottom: 2rem;
@@ -161,6 +169,11 @@ $foreground: #ccedea;
     gap: 3rem;
     flex-direction: row;
     align-items: center;
+  }
+  
+  @include colors.dark {
+    background: color.adjust(colors.$background-dark, $lightness: 5%);
+    box-shadow: inset 10px -10px 40px -10px #00000055;
   }
 
   .builtinsPrimary {
@@ -191,7 +204,12 @@ $foreground: #ccedea;
       break-inside: avoid;
 
       &:nth-child(2n) {
-        color: color.adjust(colors.$foreground, $lightness: -7%, $alpha: -0.1);
+        color: colors.$foreground1-light;
+        opacity: 0.8;
+        
+        @include colors.dark {
+          color: colors.$foreground1-dark;
+        }
       }
     }
   }
@@ -208,8 +226,7 @@ $foreground: #ccedea;
     position: absolute;
     z-index: -1;
 
-    // clip-path: polygon(90% 0%, 10% 0%, 20% 50%, 10% 100%, 90% 100%, 80% 50%);
-    $patternColor: #0a3d32;
+    $patternColor: #d4f1eb;
     background: linear-gradient(135deg, #0000 18.75%, $patternColor 0 31.25%, #0000 0),
       repeating-linear-gradient(45deg, $patternColor -6.25% 6.25%, rgba(255, 255, 255, 0) 0 18.75%);
     background-size: 70px 70px;
@@ -221,12 +238,23 @@ $foreground: #ccedea;
     @include xxlAndUp {
       mask-image: linear-gradient(to left, transparent 0%, white $fadeHLength, white calc(100% - $fadeHLength), transparent 100%), linear-gradient(to bottom, transparent 0%, white $fadeVLength, white calc(100% - $fadeVLength), transparent 100%);
     }
+    
+    @include colors.dark {
+      $patternColor: #0a3d32;
+      background: linear-gradient(135deg, #0000 18.75%, $patternColor 0 31.25%, #0000 0),
+        repeating-linear-gradient(45deg, $patternColor -6.25% 6.25%, rgba(255, 255, 255, 0) 0 18.75%);
+      background-size: 70px 70px;
+    }
   }
 
   h3 {
     font-size: 1.5rem;
     padding: 3rem 2rem 1rem 2rem;
-    color: colors.$foreground2;
+    color: colors.$foreground2-light;
+
+    @include colors.dark {
+      color: colors.$foreground2-dark;
+    }
   }
 }
 
@@ -238,9 +266,15 @@ $foreground: #ccedea;
   gap: 1rem;
 
   .content {
-    background: color.change(colors.$background, $alpha: 0.8);
+    background: color.change(colors.$background-light, $alpha: 0.6);
     border-radius: 10px;
+    border: solid 1px color.change(colors.$background-dark, $alpha: 0.05);
     backdrop-filter: blur(2px);
+    
+    @include colors.dark {
+      border: solid 1px color.change(colors.$background-light, $alpha: 0.05);
+      background: color.change(colors.$background-dark, $alpha: 0.8);
+    }
 
     .flavorHolder {
       display: flex;
@@ -257,12 +291,20 @@ $foreground: #ccedea;
 
         &:hover {
           text-decoration: none;
-          background: color.change(colors.$foreground, $alpha: 0.05);
+          background: color.change(colors.$foreground1-light, $alpha: 0.03);
+
+          @include colors.dark {
+            background: color.change(colors.$foreground1-dark, $alpha: 0.03);
+          }
         }
 
         img {
           max-width: 4rem;
-          filter: invert(91%) sepia(17%) saturate(305%) hue-rotate(117deg) brightness(96%) contrast(92%);
+          filter: colors.$topnav-foreground-filter-light;
+          
+          @include colors.dark {
+            filter: colors.$topnav-foreground-filter-dark;
+          }
         }
 
         .name {

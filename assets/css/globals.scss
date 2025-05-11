@@ -3,10 +3,6 @@
 @use 'fonts';
 @use 'sass:color';
 
-html {
-    color-scheme: dark;
-}
-
 html,
 body {
     max-width: 100vw;
@@ -14,11 +10,16 @@ body {
 }
 
 body {
-    color: colors.$foreground;
-    background: colors.$background;
+    color: colors.$foreground1-light;
+    background: colors.$background-light;
     font-family: "Source Sans";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    
+    @include colors.dark {
+        color: colors.$foreground1-dark;
+        background: colors.$background-dark;
+    }
 
     &.modalOpen {
         position: fixed;
@@ -47,8 +48,13 @@ a {
     z-index: 10000;
 
     &.hasScrolled {
-        background: colors.$background;
-        border-bottom: solid 1px color.adjust(colors.$background, $lightness: 3%);
+        background: colors.$background-light;
+        border-bottom: solid 1px color.adjust(colors.$background-light, $lightness: -12%, $saturation: -40%);
+        
+        @include colors.dark {
+            background: color.adjust(colors.$background-dark, $lightness: -3%);
+            border-bottom: solid 1px color.adjust(colors.$background-dark, $lightness: 3%);
+        }
 
         .textLink {
             opacity: 0.8;
@@ -69,10 +75,13 @@ a {
         }
 
         .home {
-            filter: invert(86%) sepia(28%) saturate(185%) hue-rotate(124deg) brightness(85%) contrast(92%);
+            filter: colors.$topnav-foreground-filter-light;
+            
+            @include colors.dark {
+                filter: colors.$topnav-foreground-filter-dark;
+            }
         }
     }
-
 
     .textLink {
         font-weight: 700;
@@ -94,7 +103,11 @@ a {
     >* {
         display: flex;
         align-items: center;
-        filter: invert(86%) sepia(28%) saturate(185%) hue-rotate(124deg) brightness(85%) contrast(92%);
+        filter: colors.$topnav-foreground-filter-light;
+        
+        @include colors.dark {
+            filter: colors.$topnav-foreground-filter-dark;
+        }
     }
 }
 
@@ -120,9 +133,13 @@ a {
     left: 0;
     width: 100vw;
     min-height: 100vh;
-    background: colors.$background;
+    background: colors.$background-light;
     padding: 0.3rem 2rem;
     z-index: 10001;
+    
+    @include colors.dark {
+        background: colors.$background-dark;
+    }
 
     &.menuOverlayOpen {
         opacity: 1;
@@ -145,14 +162,18 @@ a {
 }
 
 .footerHolder {
-    background: color.adjust(colors.$background, $lightness: -3%);
+    background: color.adjust(colors.$background-light, $saturation: -20%);
     padding: 2rem 0;
 
     footer {
         display: flex;
         flex-direction: column;
         gap: 1rem;
-        color: color.adjust(colors.$foreground, $lightness: -5%);
+        color: color.adjust(colors.$foreground1-light, $lightness: -5%);
+        
+        @include colors.dark {
+            color: color.adjust(colors.$foreground1-dark, $lightness: -5%);
+        }
 
         .links {
             display: flex;
@@ -196,7 +217,11 @@ a {
                         width: max-content;
 
                         &:hover {
-                            color: colors.$foreground;
+                            color: colors.$foreground1-light;
+
+                            @include colors.dark {
+                                color: colors.$foreground1-dark;
+                            }
                         }
                     }
                 }
@@ -208,14 +233,22 @@ a {
             flex-direction: column;
             align-items: center;
             justify-content: space-between;
-            border-top: solid 1px rgba(255, 255, 255, 0.05);
+            border-top: solid 1px rgba(0, 0, 0, 0.05);
             margin-top: 1rem;
             padding-top: 1.5rem;
             font-size: 0.8rem;
             gap: 1rem;
 
             img {
-                filter: invert(91%) sepia(17%) saturate(305%) hue-rotate(117deg) brightness(96%) contrast(92%);
+                filter: colors.$topnav-foreground-filter-light;
+                
+                @include colors.dark {
+                    filter: colors.$topnav-foreground-filter-dark;
+                }
+            }
+            
+            @include colors.dark {
+                border-top-color: rgba(255, 255, 255, 0.05);
             }
 
             .legalDisclaimer {
@@ -246,7 +279,11 @@ a {
 
                     svg {
                         transform: scale(2);
-                        color: #BDE8E0;
+                        color: colors.$foreground3-light;
+                        
+                        @include colors.dark {
+                            color: colors.$foreground3-dark;
+                        }
                     }
                 }
             }
@@ -259,5 +296,9 @@ a {
                 }
             }
         }
+    }
+    
+    @include colors.dark {
+        background: color.adjust(colors.$background-dark, $lightness: -2%);
     }
 }
