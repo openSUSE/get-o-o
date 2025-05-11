@@ -68,10 +68,12 @@
       height: 374px;
       position: absolute;
       clip-path: polygon(15% 100%, 100% 100%, 85% 0%, 0% 0%);
-      background: #9eddd8;
+      $baseColor: #9eddd8;
+      background: linear-gradient(to bottom, $baseColor 5%, color.adjust($baseColor, $lightness: -10%) 50%, $baseColor 95%);
       
       @include colors.dark {
-        background: #CCEDEA;
+        $baseColor: #ccedea;
+        background: linear-gradient(to bottom, $baseColor 5%, color.adjust($baseColor, $lightness: -15%) 50%, $baseColor 95%);
       }
     }
 
