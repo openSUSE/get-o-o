@@ -265,9 +265,11 @@
   justify-content: stretch;
   gap: 1rem;
 
+  $corner-radius: 10px;
+
   .content {
     background: color.change(colors.$background-light, $alpha: 0.6);
-    border-radius: 10px;
+    border-radius: $corner-radius;
     border: solid 1px color.change(colors.$background-dark, $alpha: 0.05);
     backdrop-filter: blur(2px);
     
@@ -288,6 +290,11 @@
         flex-direction: row;
         gap: 1rem;
         align-items: center;
+
+        &:first-child {
+          border-top-left-radius: $corner-radius;
+          border-top-right-radius: $corner-radius;
+        }
 
         &:hover {
           text-decoration: none;
