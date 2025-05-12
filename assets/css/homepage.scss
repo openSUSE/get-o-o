@@ -10,7 +10,6 @@
   --_gradient-blur: 20px;
 
   background: radial-gradient(at 64% 27%, #a9e9e1 0px, transparent 50%), radial-gradient(at 71% 60%, #70c4e7 0px, transparent 40%), radial-gradient(at 11% 41%, #cdecd7 0px, transparent 50%) colors.$background-light;
-  ;
   mix-blend-mode: var(--_gradient-blend-mode);
   backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
   -webkit-backdrop-filter: blur(var(--_gradient-blur)) contrast(100%) brightness(100%);
