@@ -6,6 +6,13 @@
     <h3 id="recommended-system-requirements">{{ locale.requirements }}</h3>
     <ul>
       <li>{{ locale.requirements_cpu_desc }}</li>
+      {% if distro.version == 16.0 %}
+        <ul>
+          <li><a href="{{ locale.requirements_cpu_slfo_x86_64_link }}">{{ locale.requirements_cpu_slfo_x86_64 }}</a></li>
+          <li>{{ locale.requirements_cpu_slfo_ppc64le }}</li>
+          <li>{{ locale.requirements_cpu_slfo_s390x }}</li>
+        </ul>
+      {% endif %}
       <li>{{ locale.requirements_mem_desc | replace: '$value', '2GB' }}</li>
       <li>{{ locale.requirements_hdd_desc }}</li>
       <li>{{ locale.requirements_dvd_desc }}</li>
