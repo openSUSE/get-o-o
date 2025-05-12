@@ -42,12 +42,22 @@ a {
 }
 
 .opensuseBar {
-    opacity: 0.4;
     padding: 0.3rem 0;
-    background: color.adjust(colors.$background-light, $lightness: -5%, $saturation: -50%);
+    background: #C7E1DD;
+    color: #4D7D86;
 
     @include colors.dark {
-        background: color.adjust(colors.$background-dark, $lightness: -5%, $saturation: -10%);
+        color: #7DC1AE;
+        background: #0B2E28;
+    }
+}
+
+.siteName {
+    color: #0F4030;
+    font-weight: bold;
+
+    @include colors.dark {
+        color: #A5C7C3;
     }
 }
 
@@ -65,7 +75,26 @@ a {
     }
 
     .textLink {
-        opacity: 0.8;
+        color: #4D7D86;
+
+        @include colors.dark {
+            color: #7DC1AE;
+        }
+    }
+    
+    .textLinkSeparator {
+        display: none;
+        width: 1px;
+        background: #c2e5ec;
+        height: 100%;
+        
+        @include colors.dark {
+            background: color.adjust(colors.$background-dark, $lightness: 5%);
+        }
+
+        @include mediumAndUp {
+            display: block;
+        }
     }
 
     .topNavInner {
@@ -105,10 +134,13 @@ a {
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
-
-    >* {
+    
+    > * {
         display: flex;
         align-items: center;
+    }
+
+    .menuToggle, .logo {
         filter: colors.$topnav-foreground-filter-light;
         
         @include colors.dark {

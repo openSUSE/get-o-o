@@ -2,7 +2,7 @@ header_back_to_opensuseorg: Back to opensuse.org
 homepage_page_title: openSUSE - Open operating systems for desktops and servers
 homepage_page_description: openSUSE makes open source operating systems based on Linux.
 homepage_intro_title: Free your desktop
-homepage_intro_subtitle: openSUSE is a free open source OS for desktops, servers and containers.
+homepage_intro_subtitle: openSUSE Linux is a free open source OS for desktops, servers and containers.
 homepage_screenshot_alttext: openSUSE desktop
 homepage_proposition_installer_title: Lean back while our installer does the work
 homepage_proposition_installer_subtitle: Deep dives into wikis and forums are completely optional. 
@@ -45,8 +45,8 @@ footer_merch: Merch store
 footer_planet: Blogs
 footer_press_inquiries: Press inquiries
 footer_trademark: Trademark
-site_title: Get openSUSE
-site_title_short: Get
+site_title: openSUSE Linux
+site_title_short: Linux
 site_description: Learn about the openSUSE distributions and download them for free
 site_copyright: © 2025 openSUSE contributors
 search: Search
