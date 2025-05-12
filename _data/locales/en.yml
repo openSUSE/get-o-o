@@ -6,7 +6,7 @@ homepage_intro_subtitle: openSUSE Linux is a free open source OS for desktops, s
 homepage_screenshot_alttext: openSUSE desktop
 homepage_proposition_installer_title: Lean back while our installer does the work
 homepage_proposition_installer_subtitle: Deep dives into wikis and forums are completely optional. 
-homepage_proposition_installer_alttext: Disk
+homepage_proposition_installer_alttext: Installer
 homepage_proposition_no_strings_title: Free to use, with no strings attached
 homepage_proposition_no_strings_subtitle: Yours to keep with no upsells, ads or mandatory accounts.
 homepage_proposition_no_strings_alttext: Relaxed person
@@ -15,7 +15,7 @@ homepage_proposition_flavors_subtitle: Rolling release? Immutable distro? We've 
 homepage_proposition_flavors_alttext: Ice cream cone
 homepage_proposition_restricted_packages_title: Opt-in access to proprietary packages
 homepage_proposition_restricted_packages_subtitle: Restricted codecs and drivers are available when needed.
-homepage_proposition_restricted_packages_alttext: GPU
+homepage_proposition_restricted_packages_alttext: Chipset
 homepage_proposition_community_events_title: Regular international community events
 homepage_proposition_community_events_subtitle: Share the joy of openSUSE with fellow users at <a href="https://events.opensuse.org/">our meetups</a>.
 homepage_proposition_community_events_alttext: Community
