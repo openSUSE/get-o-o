@@ -41,27 +41,35 @@ a {
     }
 }
 
+.opensuseBar {
+    opacity: 0.4;
+    padding: 0.3rem 0;
+    background: color.adjust(colors.$background-light, $lightness: -5%, $saturation: -50%);
+
+    @include colors.dark {
+        background: color.adjust(colors.$background-dark, $lightness: -5%, $saturation: -10%);
+    }
+}
+
 .topNav {
     position: fixed;
     width: 100%;
-    padding: 0.3rem 0rem;
     z-index: 10000;
 
-    &.hasScrolled {
-        background: colors.$background-light;
-        border-bottom: solid 1px color.adjust(colors.$background-light, $lightness: -12%, $saturation: -40%);
-        
-        @include colors.dark {
-            background: color.adjust(colors.$background-dark, $lightness: -3%);
-            border-bottom: solid 1px color.adjust(colors.$background-dark, $lightness: 3%);
-        }
+    background: colors.$background-light;
+    border-bottom: solid 1px color.adjust(colors.$background-light, $lightness: -12%, $saturation: -40%);
+    
+    @include colors.dark {
+        background: colors.$background-dark;
+        border-bottom: solid 1px color.adjust(colors.$background-dark, $lightness: 3%);
+    }
 
-        .textLink {
-            opacity: 0.8;
-        }
+    .textLink {
+        opacity: 0.8;
     }
 
     .topNavInner {
+        padding: 0.3rem 0rem;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -91,8 +99,6 @@ a {
             display: flex;
         }
     }
-
-
 }
 
 .imageLinks {
@@ -128,13 +134,11 @@ a {
     transition: opacity 0.1s ease-in-out;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     top: 0;
     left: 0;
     width: 100vw;
     min-height: 100vh;
     background: colors.$background-light;
-    padding: 0.3rem 2rem;
     z-index: 10001;
     
     @include colors.dark {
@@ -145,8 +149,13 @@ a {
         opacity: 1;
         visibility: visible;
     }
+    
+    > * {
+        padding: 0.3rem 2rem;
+    }
 
     .textLinks {
+        margin-top: 1rem;
         display: flex;
         flex-direction: column;
         font-size: 2.25rem;
