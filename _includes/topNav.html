@@ -1,11 +1,4 @@
-<script>
-    function toggleMenu() {
-        document.querySelector(".menuOverlay").classList.toggle("menuOverlayOpen");
-        document.body.classList.toggle('modalOpen');
-    }
-</script>
-
-<div class="menuOverlay">
+<dialog class="menuOverlay">
     <div class="opensuseBar">
         {% include opensuseBar.html %}
     </div>
@@ -13,7 +6,26 @@
     <div class="textLinks">
         {% include topNavTextLinks.html %}
     </div>
-</div>
+</dialog>
+<script>
+    const menuDialog = document.querySelector(".menuOverlay");
+    function toggleMenu() {
+        if (menuDialog.open) {
+            menuDialog.close();
+        } else {
+            menuDialog.showModal();
+        }
+    }
+
+    menuDialog.addEventListener('click', function(event) {
+      const rect = menuDialog.getBoundingClientRect();
+      const isInDialog = (rect.top <= event.clientY && event.clientY <= rect.top + rect.height &&
+        rect.left <= event.clientX && event.clientX <= rect.left + rect.width);
+      if (!isInDialog) {
+        menuDialog.close();
+      }
+    });
+</script>
 <nav class="topNav">
     <div class="opensuseBar">
         <div class="container">

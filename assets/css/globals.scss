@@ -20,10 +20,6 @@ body {
         color: colors.$foreground1-dark;
         background: colors.$background-dark;
     }
-
-    &.modalOpen {
-        position: fixed;
-    }
 }
 
 * {
@@ -163,24 +159,26 @@ a {
 .menuOverlay {
     position: fixed;
     opacity: 0;
-    visibility: hidden;
-    transition: opacity 0.1s ease-in-out;
     display: flex;
     flex-direction: column;
     top: 0;
     left: 0;
-    width: 100vw;
     min-height: 100vh;
     background: colors.$background-light;
     z-index: 10001;
+    border: none;
+    color: inherit;
+
+    &:open {
+        opacity: 1;
+    }
+    
+    &::backdrop {
+        background: rgba(0,0,0,0.4);
+    }
     
     @include colors.dark {
         background: colors.$background-dark;
-    }
-
-    &.menuOverlayOpen {
-        opacity: 1;
-        visibility: visible;
     }
     
     > * {
