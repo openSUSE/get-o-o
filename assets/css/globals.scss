@@ -159,6 +159,7 @@ a {
 .menuOverlay {
     position: fixed;
     opacity: 0;
+    visibility: hidden;
     display: flex;
     flex-direction: column;
     top: 0;
@@ -171,6 +172,7 @@ a {
 
     &:open {
         opacity: 1;
+        visibility: visible;
     }
     
     &::backdrop {
