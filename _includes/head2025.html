@@ -29,9 +29,9 @@
       const shortcutIcon = document.querySelector('link[rel="shortcut icon"]');
       const faviconEl = document.querySelector('link[rel="icon"]');
       const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
-      mediaQuery.addEventListener('change', themeChange);
-      function themeChange(event) {
-        if (event.matches) {
+      mediaQuery.addEventListener('change', (event) => setDarkThemeEnabled(event.matches));
+      function setDarkThemeEnabled(value) {
+        if (value) {
           shortcutIcon.setAttribute('href', '/assets/img/favicon-for-dark.ico');
           faviconEl.setAttribute('href', '/assets/img/favicon-for-dark-192.png');
         } else {
@@ -39,7 +39,7 @@
           faviconEl.setAttribute('href', '/assets/img/favicon-for-light-192.png');
         }
       }
-      themeChange();
+      setDarkThemeEnabled(mediaQuery.matches);
     </script>
   
     <!-- apple-touch-icon -->
