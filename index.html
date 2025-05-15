@@ -1,66 +1,114 @@
 ---
+stylesheet: homepage
+layout: default2025
 ---
-<link rel="stylesheet" href="/assets/css/software.css">
-<div class="container text-center py-4">
-  <h1 class="display-3">{{ locale.index }}</h1>
-  <p class="lead">{{ locale.index_p1 }}</p>
-</div>
-<div class="bg-light">
-  <div class="container">
-    <div class="row">
-      <a href="{{ '/desktop/' | prefix_locale }}" class="col bg-wallpaper text-white text-center p-5">
-        <div class="p-4 m-auto">{% include icons/desktop.svg %}</div>
-        <h2>{{ locale.index_desktop }}</h2>
-        <h6>{{ locale.index_desktop_p1 }}</h6>
-      </a>
-      <a href="{{ '/server/' | prefix_locale }}" class="col bg-server text-white text-center p-5">
-        <div class="p-4 m-auto">{% include icons/server.svg %}</div>
-        <h2>{{ locale.index_server }}</h2>
-        <h6>{{ locale.index_server_p1 }}</h6>
-      </a>
+
+<div class="page">
+  {% include topNav.html %}
+  <div class="introHolder">
+    <div class="container">
+      <div class="intro">
+        <div class="introPrimary">
+          <h1>{{ locale.homepage_intro_title }}</h1>
+          <div class="introPrimaryDescription">{{ locale.homepage_intro_subtitle }}</div>
+        </div>
+        <div class="screenshot">
+          <img width="600" height="374" src="/assets/img/screenshots/kde-welcome.png" alt="{{ locale.homepage_screenshot_alttext }}">
+          <script>
+            const imgElement = document.querySelector('.screenshot img');
+            const desktopEnvironments = ['kde', 'gnome', 'xfce'];
+            const environment = desktopEnvironments[Math.floor(Math.random() * desktopEnvironments.length)];
+            imgElement.src = imgElement.src.replace('kde', environment);
+          </script>
+        </div>
+      </div>
     </div>
   </div>
-</div>
-<div class="container text-center py-4">
-  <h2 class="m-0">{{ locale.index_full }}</h2>
-</div>
-<div class="bg-wallpaper">
   <div class="container">
-    <div class="row">
-      <a href="{{ '/tumbleweed/' | prefix_locale }}" class="col bg-tumbleweed-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/tumbleweed.svg %}</div>
-        <h4>Tumbleweed</h4>
-      </a>
-      {% if site.releases.leap.current != nil %}
-      <a href="{{ '/leap/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-        <h4>Leap {{ site.releases.leap[site.releases.leap.current].version }}</h4>
-      </a>
-      {% endif %}
-      {% if site.releases.leap.testing %}
-        <a href="{{ '/testing/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-          {% assign leap_id = site.releases.leap.testing %}
-          <h4>Leap {{ site.releases.leap[leap_id].version }} <sup>{{ site.releases.leap[leap_id].state }}</sup></h4>
-        </a>
-      {% endif %}
-      {% if site.releases.leap_micro.current != nil %}
-        <a href="{{ '/leapmicro/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
-          <h4>Leap Micro {{ site.releases.leap_micro[site.releases.leap_micro.current].version }}</h4>
-        </a>
-      {% endif %}
-      {% if site.releases.leap_micro.testing %}
-        <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
-          {% assign leap_micro_id = site.releases.leap_micro.testing %}
-          <h4>Leap Micro {{ site.releases.leap_micro[leap_micro_id].version }} <sup>{{ site.releases.leap_micro[leap_micro_id].state }}</sup></h4>
-        </a>
-      {% endif %}
-      <a href="{{ '/microos/' | prefix_locale }}" class="col bg-microos-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/microos.svg %}</div>
-        <h4>MicroOS</h4>
-      </a>
+    <div class="propositions">
+      {% include proposition.html
+        imgName="installer"
+        altText=locale.homepage_proposition_installer_alttext
+        title=locale.homepage_proposition_installer_title
+        description=locale.homepage_proposition_installer_subtitle
+      %}
+      {% include proposition.html
+        imgName="calm"
+        altText=homepage_proposition_no_strings_alttext
+        title=locale.homepage_proposition_no_strings_title
+        description=locale.homepage_proposition_no_strings_subtitle
+      %}
+      {% include proposition.html
+        imgName="iceCreamCone"
+        altText=locale.homepage_proposition_flavors_alttext
+        title=locale.homepage_proposition_flavors_title
+        description=locale.homepage_proposition_flavors_subtitle
+      %}
+      {% include proposition.html
+        imgName="chipset"
+        altText=locale.homepage_proposition_restricted_packages_alttext
+        title=locale.homepage_proposition_restricted_packages_title
+        description=locale.homepage_proposition_restricted_packages_subtitle
+      %}
+      {% include proposition.html
+        imgName="community"
+        altText=locale.homepage_proposition_community_events_alttext
+        title=locale.homepage_proposition_community_events_title
+        description=locale.homepage_proposition_community_events_subtitle
+      %}
+      {% include proposition.html
+        imgName="industry"
+        altText=locale.homepage_proposition_industry_backed_alttext
+        title=locale.homepage_proposition_industry_backed_title
+        description=locale.homepage_proposition_industry_backed_subtitle
+      %}
+    </div>
+    <div class="builtins">
+      <div class="builtinsPrimary">
+        <h3>{{ locale.homepage_options_title }}</h3>
+      </div>
+      <ul class="builtinsSecondary">
+        <li>{{ locale.homepage_options_desktop_environments }}</li>
+        <li>{{ locale.homepage_options_desktop_and_server }}</li>
+        <li>{{ locale.homepage_options_full_disk_encryption }}</li>
+        <li>{{ locale.homepage_options_btrfs_snapshots }}</li>
+        <li>{{ locale.homepage_options_lvm }}</li>
+        <li>{{ locale.homepage_options_secure_boot }}</li>
+      </ul>
+    </div>
+  </div>
+  <div class="flavorsBg">
+    <div class="container">
+      <h3>{{ locale.homepage_flavors_title }}</h3>
+      <div class="flavors">
+        <div class="content">
+          <div class="flavorHolder">
+            {% include flavor.html
+              name="Tumbleweed"
+              identifier="tumbleweed"
+              description=locale.homepage_flavors_tumbleweed_description
+            %}
+            {% include flavor.html
+              name="Leap"
+              identifier="leap"
+              description=locale.homepage_flavors_leap_description
+            %}
+            {% include flavor.html
+              name="MicroOS"
+              identifier="microOs"
+              description=locale.homepage_flavors_microos_description
+            %}
+            {% include flavor.html
+              name="Leap Micro"
+              identifier="leapMicro"
+              description=locale.homepage_flavors_leap_micro_description
+            %}
+          </div>
+          <div class="experimental">
+            {{ locale.homepage_flavors_experimental_distributions }}
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </div>

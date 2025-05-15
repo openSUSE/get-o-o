@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+{% include head2025.html %}
+
+<body>
+    {{ content }}
+    <div class="footerHolder">
+        <div class="container">
+            <footer>
+                <nav class="links">
+                    {% for category in universe %}
+                        {% if category.id != "social_media" %}
+                            <div class="linkSet">
+                                <h4 class="linkSetHeading">{{ category.id |  replace: "_", " " | captialize }}</h4>
+                                <ul>
+                                    {% for link in category.links %}
+                                        {% if link.title %}
+                                            <li>
+                                                <a href="{{ link.url }}"{% if category.id == 'community' %} target="_blank"{% endif %}>
+                                                    <div class="linkIcon">{{ link.icon }}</div>
+                                                    {{ link.title }}
+                                                </a>
+                                            </li>
+                                        {% endif %}
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        {% endif %}
+                    {% endfor %}
+                </nav>
+                <div class="bottomBar">
+                    <div class="legalDisclaimer">
+                        <a href="https://www.opensuse.org">
+                            <img class="wordmark" alt="openSUSE wordmark" src="/assets/img/monochrome/wordmark.svg">
+                        </a>
+                        &copy; 2015-{{ site.time | date:"%Y" }} openSUSE Contributors
+                        <a href="https://en.opensuse.org/Imprint">Imprint</a>
+                    </div>
+                    <div class="socials">
+                        {% for category in universe %}
+                            {% if category.id == 'social_media' %}
+                                {% for link in category.links %}
+                                    {% include socialAccount.html name=link.title href=link.url svg=link.icon %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+
+</html>
