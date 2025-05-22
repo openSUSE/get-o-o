@@ -57,7 +57,7 @@ points_welcoming: I contributi sono benvenuti
 software: Ottenere il software non potrebbe essere più semplice
 site_title: Ottieni openSUSE
 site_title_short: Ottieni
-site_copyright: © 2024 dei contributori di openSUSE
+site_copyright: © 2025, Contributori di openSUSE
 learn_more: Per saperne di più
 pick_mirror: Scegli mirror
 checksum: Codice di controllo
@@ -297,6 +297,9 @@ MicroOS_features:
       \n### È affidabile\n* Recupero automatico da aggiornamenti difettosi\n"
   tool:
     name: Debug
+    description: "### Container Toolbox per il Debug\n* Avvia un container privilegiato\n
+      * Filesystem root disponibile sotto `/media/root`\n* zypper per installare gli
+      strumenti necessari, disponibili senza riavviare\n* Persistente tra gli utilizzi\n"
   key:
     description: "* Ottieni gli aggiornamenti tramite HTTPS\n* I pacchetti e i repository
       sono firmati dal nostro sistema di build\n* I pacchetti sono verificati\n* Nessun
@@ -306,8 +309,20 @@ MicroOS_features:
     name: Aggiornamenti sicuri
   update:
     name: Aggiornamenti atomici
+    description: "### Aggiornamenti Transazionali\n\n#### Unico\nMicroOS sfrutta btrfs
+      con snapshot, offrendo un metodo estremamente\nefficiente in termini di spazio
+      per gestire la cronologia del file system.\nTutti i file di configurazione presenti
+      in `/etc` sono inclusi negli snapshot e nel rollback.\n\n#### Flessibile\n*
+      Non è necessario un nuovo formato di pacchetto: vengono utilizzati i normali
+      RPM di openSUSE\n* Nessuna limitazione di dimensione, né per le partizioni né
+      per il sistema operativo  \n* Facile da estendere\n"
   work:
     name: Carichi di lavoro
+    description: "Le applicazioni vengono installate in container anziché nel filesystem
+      root:\n• Isolate dal filesystem principale\n• Ridotta capacità per le applicazioni
+      malevole di compromettere il sistema\n• Nuova installazione senza riavvio\n
+      • Aggiornamento atomico possibile (crea nuovo, elimina vecchio)\n• Rollback
+      semplificato\n"
 armv7l: Server, desktop, portatili e schede UEFI Arm a 32 bit (armv7l)
 aarch64: Server, desktop, portatili e schede UEFI Arm a 64 bit (aarch64)
 transactional_p1: "Il programma d'installazione adesso supporta un nuovo ruolo di
@@ -363,8 +378,10 @@ cloud_image: Immagine cloud
 cloud_minimal_desc: Immagine KVM e Xen con cloud-init
 ppc64: Server PowerPC, big-endian (ppc64)
 server_x86_64: Server Intel o AMD a 64 bit (x86_64)
-choosing_media_micro_p2: "L'immagine non in linea dovrebbe essere scelta da chi ha
-  bisogno di un partizionamento personalizzato.\n"
+choosing_media_micro_p2: "Leap Micro non include più un installer tradizionale; gli
+  utenti devono utilizzare i supporti di installazione Self-install.\nLa nuova \"
+  Packages Image\" è un semplice archivio offline del repository RPM di Leap Micro,
+  pensato per ambienti isolati.\n"
 preconfigured_qcow_image: Immagine preconfigurata (qcow)
 signature: Firma
 leap_ovw_desc: Leap utilizza i sorgenti di SUSE Linux Enterprise (SLE), che gli conferiscono
@@ -377,3 +394,61 @@ tumbleweed_ovw_desc: 'Con Tumbleweed non devi prendere delle decisioni difficili
 packages_image: Immagine dei pacchetti
 leap_ovw_title: Una nuova modalità per creare openSUSE, e un nuovo tipo di distribuzione
   Linux ibrida
+leap_micro_ovw_desc_p1: Questa versione community è basata su SUSE Linux Micro, che
+  sfrutta i componenti di sicurezza e conformità di livello enterprise di SUSE Linux
+  Enterprise. Questa fusione di tecnologie fornisce una piattaforma OS moderna, immutabile
+  e user-friendly per gli sviluppatori.
+microos_ovw_desc_p2: MicroOS offre un'immagine offline. La differenza principale tra
+  l'immagine offline e le immagini "self-install" o "raw" è che l'immagine offline
+  include un installer. Le immagini "raw" e "self-install", invece, permettono una
+  maggiore personalizzazione tramite "combustion" o modificando manualmente l'immagine
+  dopo averla scritta sul disco. È inoltre disponibile un'opzione per un kernel real-time.
+microos_ovw_desc_p3: Prova MicroOS su macchine virtuali che utilizzano <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  o KVM. Se usi un Raspberry Pi o altro hardware System on Chip, puoi usare l'immagine
+  preconfigurata insieme alla funzionalità <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  per il processo di avvio. Sia le immagini preconfigurate che quelle auto-installate
+  sono pensate per essere usate con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  scritto su una USB, che serve a permettere la configurazione al primo avvio, con
+  l'opzione di modifiche protette da password predefinite.
+tumbleweed_ovw_title: Sistema operativo desktop e server all'avanguardia
+microos_ovw_title: Sistema operativo per microservizi che fornisce aggiornamenti transazionali
+  (atomici) su un filesystem root btrfs di sola lettura
+microos_ovw_desc_p1: Progettato per ospitare carichi di lavoro containerizzati con
+  amministrazione e patching automatizzati. Installando openSUSE MicroOS ottieni un
+  ambiente veloce e compatto per distribuire container, o qualsiasi altro carico di
+  lavoro che benefici degli aggiornamenti transazionali. Come distribuzione rolling
+  release, il software è sempre aggiornato.
+leap_156_ovw_video_desc: Una diretta streaming del rilascio di Leap 15.6
+kvm_sdboot_image: Immagine KVM con systemd-boot
+server_leapmicro_p1: Per edge, embedded, IoT e altre tipologie di deployment
+encrypted_image: Immagine disco totalmente crittata (raw)
+leap_micro_ovw_title: Leap Micro è un sistema operativo ultra-affidabile e leggero
+  progettato per carichi di lavoro containerizzati e virtualizzati.
+server_leapmicro_p2: Sistema operativo ultra-affidabile e leggero, progettato per
+  carichi di lavoro containerizzati e virtualizzati.
+leap_micro_ovw_desc_p2: Leap Micro dalla versione 6.0 offre un'immagine self-install,
+  un'immagine raw e un DVD Packages che può fungere da repository offline. L'immagine
+  Self-install è la nostra raccomandazione per qualsiasi installazione basata su USB,
+  dato che non utilizziamo più installatori tradizionali. Gli utenti possono automatizzare
+  e personalizzare la loro installazione con <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
+  o <a href="https://github.com/openSUSE/combustion">Combustion</a> oppure usando
+  il wizard jeos-firstboot. Prova <a href="https://opensuse.github.io/fuel-ignition/">Fuel
+  Ignition</a>, il nostro generatore online di configurazioni Ignition.
+leap_micro_ovw_desc_p3: Prova Leap Micro in VM che girano su <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
+  o KVM. Per Raspberry Pi o altro hardware System on Chip è possibile utilizzare l'immagine
+  preconfigurata. Sia le immagini preconfigurate che quelle auto-installanti sono
+  progettate per essere utilizzate con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+  scritto su USB, che consente la configurazione al primo avvio, con l'opzione di
+  modifiche protette da password predefinita.
+leap_micro_ovw_video_desc: Demo di installazione di Leap Micro 6.1 con crittografia
+  completa del disco e autenticazione a due fattori in Cockpit.
+leap_16_coming_soon: "Il rilascio pubblico di Leap 16.0, successore di Leap 15.6,
+  è previsto per l’autunno 2025. Non è previsto alcun rilascio di Leap 15.7.<br/>\n
+  Consulta regolarmente la nostra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> e il sito <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  per rimanere aggiornato.\n"
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  è il nuovo programma di installazione utilizzabile per installare Leap 16 e Tumbleweed.\n
+  È prevista l’introduzione del supporto per l’installazione offline in Agama, mentre
+  altri tipi di supporti di installazione, come l’immagine self-install, saranno aggiunti
+  successivamente.\n"
