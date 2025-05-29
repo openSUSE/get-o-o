@@ -1,4 +1,3 @@
----
 site_title: Awi
 search: Rechercher
 license: Turagt
@@ -21,3 +20,28 @@ verify_download: G leɛnaya-k, pre-ẓer ibeddlen inek uqbel ad tesmektiḍ!
 verify_download_checksums_help: "&Tallalt..."
 yast_software: Aseɣẓan
 index_desktop: Bureau
+virtualbox_image: VirtualBox
+jeos_images: JeOS
+yast_hardware: Arrum
+torrent_file: Afaylu torrent
+learn_more: Issin ugar
+metalink: Metalink
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+yast_printer: Tasaggazt
+yast_fonts: Tisefsiyin
+download: Zdem
+upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+xen_image: XEN
+pine_image: Pine64
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_net: Aẓeṭṭa
+source_code: Tangalut taɣbalut
+site_title_short: Awi-d
+hardware_images: Arrum
+openstack_image: OpenStack-Cloud
+live_images: Live
+vagrant_image: Vagrant
+rpi_image: RaspberryPi
+index_server: Aqeddac
