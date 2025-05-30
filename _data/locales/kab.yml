@@ -19,7 +19,7 @@ upgrade_table_mac: Interface Mac OS X minimale
 verify_download: G leɛnaya-k, pre-ẓer ibeddlen inek uqbel ad tesmektiḍ!
 verify_download_checksums_help: "&Tallalt..."
 yast_software: Aseɣẓan
-index_desktop: Bureau
+index_desktop: Tanarit
 virtualbox_image: VirtualBox
 jeos_images: JeOS
 yast_hardware: Arrum
@@ -45,3 +45,23 @@ live_images: Live
 vagrant_image: Vagrant
 rpi_image: RaspberryPi
 index_server: Aqeddac
+index_full: Neɣ ddu srid ɣer yisebtar n wezdam n yizuzar
+desktop: Tizuzar n OpenSUSE i tnarit
+translate: Suqel
+desktops: Aṭas n tnariyin, kraḍ s wudem amezwer
+index_desktop_p1: Afran n yizuzar i useqdec n tnarit
+index_p1: I tnarit, i uqeddac d wayen akk yellan gar-asen
+server: Tizuzar n OpenSUSE i uqeddac
+index_server_p1: Afran n yizuzar i useqdec n uqeddac
+desktop_p1: "Sin-nni n yizuzar i ten-iferrun akken ma llan (tura s wadal!)\n"
+Tumbleweed_features:
+  shield:
+    name: D aɣelsan
+  gamepad:
+    name: Urar
+  user:
+    name: Fessus i useqdec
+index: Tizuzar n OpenSUSE
+MicroOS_features:
+  key:
+    name: Ileqman iɣelsanen
