@@ -1,23 +1,23 @@
-site_title: Awi
-search: Rechercher
+site_title: Awi-d openSUSE
+search: Nadi
 license: Turagt
-cd_desc: Err amagrad-agi ɣer sdat deg usebter agejdan
-dvd_desc: DVD
-pick_mirror: Mirroir
+cd_desc: I uCD akked t tsarut USB
+dvd_desc: I uDVD akked tsarut USB
+pick_mirror: Fren lemri
 checksum: Siḍen adisemdayen
-network_image: "&Réseau"
-installation_images: Asbeddi n %s inezri
+network_image: "Tugna n uẓeṭṭa"
+installation_images: Asebded
 documentation: Tasemlit
-documentation_startup_guide: A&mnir...
-documentation_release_notes: Tizmilin n leqqem
+documentation_startup_guide: Amnir n tazwara n openSUSE
+documentation_release_notes: Tizmilin n lqem
 documentation_license: Turagt
-documentation_full_documentation: Tase&mlit
-requirements: Yettuwelleh
-requirements_mem: "%1$.2f GAṬ / %2$.2f GAṬ"
-upgrade_table_windows: Isfuyla
-upgrade_table_mac: Interface Mac OS X minimale
-verify_download: G leɛnaya-k, pre-ẓer ibeddlen inek uqbel ad tesmektiḍ!
-verify_download_checksums_help: "&Tallalt..."
+documentation_full_documentation: Tasemlit tummidt
+requirements: Tuttriwin n unagraw
+requirements_mem: "Takatut"
+upgrade_table_windows: Seg Windows
+upgrade_table_mac: Seg OS X
+verify_download: Ssenqed asider-ik·im send aseqdec
+verify_download_checksums_help: ""
 yast_software: Aseɣẓan
 index_desktop: Tanarit
 virtualbox_image: VirtualBox
@@ -45,15 +45,15 @@ live_images: Live
 vagrant_image: Vagrant
 rpi_image: RaspberryPi
 index_server: Aqeddac
-index_full: Neɣ ddu srid ɣer yisebtar n wezdam n yizuzar
+index_full: Neɣ ddu srid ɣer yisebtar n wezdam n tizuzar
 desktop: Tizuzar n OpenSUSE i tnarit
 translate: Suqel
 desktops: Aṭas n tnariyin, kraḍ s wudem amezwer
-index_desktop_p1: Afran n yizuzar i useqdec n tnarit
+index_desktop_p1: Tarant n tizuzar i useqdec n tnarit
 index_p1: I tnarit, i uqeddac d wayen akk yellan gar-asen
 server: Tizuzar n OpenSUSE i uqeddac
-index_server_p1: Afran n yizuzar i useqdec n uqeddac
-desktop_p1: "Sin-nni n yizuzar i ten-iferrun akken ma llan (tura s wadal!)\n"
+index_server_p1: Tafrant n tizuzar i useqdec n uqeddac
+desktop_p1: "Snat-nni n tzuzar i ten-iferrun akken ma llan (tura s wadal!)\n"
 Tumbleweed_features:
   shield:
     name: D aɣelsan
@@ -61,7 +61,56 @@ Tumbleweed_features:
     name: Urar
   user:
     name: Fessus i useqdec
+  update:
+    name: Amucceḍ yettkemmilen
+  home:
+    name: Urkid
 index: Tizuzar n OpenSUSE
 MicroOS_features:
   key:
     name: Ileqman iɣelsanen
+  tool:
+    name: Aseɣti
+  shield:
+    name: Tuɣalin ɣer deffir
+iso_image: Tugna ISO
+offline_updated_image: Tuggna s war tuqqna tettwalessem
+vmware_image: Tugna n VMware
+vmware_vmx_image: VMware VMX
+software_get: Awi-d iseɣẓanen
+yast_sound: Ameslaw
+offline_image: Tugna s war tuqqna
+usb_desc: I tsarut USB
+site_description: Issin ugar ɣef izuzar n openSUSE u sider-iten-id baṭel
+requirements_rec: Yettuwelleh
+requirements_hdd: Aḥraz
+upgrade_table_linux: Seg lqem aqbur neɣ seg uzuzer n Linux nniḍen
+upgrade_table_windows_dvd: Amek ara tesserɣeḍ adividi deg Windows.
+upgrade_table_mac_dvd: Amek ara tesserɣeḍ adividi deg OS X.
+upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+installation: Sbedd-it akken tebɣiḍ
+points_transparent: Kullec d afrawan
+points_free: Iseɣẓanen ilelliyen? D lebɣi-nwen·nkent
+yast_scanner: Anafraḍ
+site_copyright: © 2025 Imttekkiyen n openSUSE
+cloud_images: Asigna
+s390x: IBM zSystems d LinuxONE (s390x)
+kvm_image: Tugna n KVM d XEN
+requirements_cpu: CPU
+upgrade_table_linux_dvd: Amek ara tesserɣeḍ adividi deg Linux.
+ppc64le: Iqeddacen n PowerPC, little-endian (ppc64le)
+cloud_image: Tugna n usigna
+requirements_hdd_root: Aḥric / (root)
+upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+transactional: Aseqdac anigaw
+signature: Azmul
+kde_cd: LiveCD KDE
+xfce_cd: LiveCD Xfce
+choosing_media: Fren anwa amidya ara d-tzedmeḍ
+selfinstalling_images: Tugniwin n usebded awurman
+gnome_cd: LiveCD GNOME
+requirements_hdd_var: Aḥric /var
+view_distro: Wali $distro_name
