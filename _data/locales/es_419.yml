@@ -15,8 +15,8 @@ metalink: Metalink
 pick_mirror: Escoger espejo
 torrent_file: Archivo Torrent
 offline_image: Imagen sin conexión
-offline_desc: "Contiene una larga colección de software para uso de escritorio o servidores.\n
-  Adecuado para instalaciones o actualizaciones del sistema.\n"
+offline_desc: "Contiene una larga colección de software para uso de escritorio o servidores.\n\
+  \ Adecuado para instalaciones o actualizaciones del sistema.\n"
 network_image: Imagen de red
 network_desc: "Descarga el sistema de instalación y todos los otros paquetes desde
   repositorios en línea. \nAdecuado para instalaciones o actualizaciones del sistema.\n"
@@ -32,8 +32,8 @@ vmware_desc: Para ejecutar máquinas virtuales en VMware
 openstack_desc: Para ejecutar máquinas virtuales en OpenStack
 installation_images: Instalación
 ports_images: Adaptaciones
-ports_info: "Los porteos de openSUSE Leap a arquitecturas diferentes a las de PC son\n
-  mantenidos por equipos comunitarios separados, con recursos limitados.\n"
+ports_info: "Los porteos de openSUSE Leap a arquitecturas diferentes a las de PC son\n\
+  \ mantenidos por equipos comunitarios separados, con recursos limitados.\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: LiveCD de GNOME
@@ -60,8 +60,8 @@ documentation_release_notes: Notas de lanzamiento
 documentation_license: Licencia
 documentation_full_documentation: Toda la documentación
 leap_switch: Formas sencillas para migrar a openSUSE Leap
-leap_switch_p1: "Si ya estás usando openSUSE, puedes actualizar arrancando desde el\n
-  DVD o la USB, y seleccionando \"actualizar\"; o llevando a cabo una \"actualización
+leap_switch_p1: "Si ya estás usando openSUSE, puedes actualizar arrancando desde el\n\
+  \ DVD o la USB, y seleccionando \"actualizar\"; o llevando a cabo una \"actualización
   en línea\" con unos cuantos\ncomandos.\n"
 leap_switch_instructions: Instrucciones para actualizar en línea.
 requirements: Requisitos del sistema
@@ -70,8 +70,8 @@ requirements_mem: Memoria
 requirements_hd: 40 GB de espacio de almacenamiento disponible
 requirements_net: Red
 tw_switch: Formas sencillas de migrar a openSUSE Tumbleweed
-tw_switch_p1: "Si ya estás usando openSUSE, puedes actualizar arrancando desde el\n
-  DVD o la USB, y seleccionando \"actualizar\"; o llevando a cabo una \"actualización
+tw_switch_p1: "Si ya estás usando openSUSE, puedes actualizar arrancando desde el\n\
+  \ DVD o la USB, y seleccionando \"actualizar\"; o llevando a cabo una \"actualización
   en línea\" con unos cuantos\ncomandos.\n"
 tw_switch_instructions: Instrucciones para actualizar.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
@@ -110,20 +110,20 @@ desktops_p1: "El proceso de contribución de openSUSE potencia el desarrollo de 
   Contamos con tres entornos de escritorio de forma activa, y ofrecemos\naún más en
   la vista de software expandida dentro del instalador.\n"
 installation: Instale como usted prefiera
-installation_p1: "El proceso de instalación de openSUSE le proporciona todas las opciones\n
-  que posiblemente necesite. ¿Quiere instalar su sistema con el mouse y\nteclado?
+installation_p1: "El proceso de instalación de openSUSE le proporciona todas las opciones\n\
+  \ que posiblemente necesite. ¿Quiere instalar su sistema con el mouse y\nteclado?
   Cargue el instalador en modo gráfico. ¿No tiene un mouse\na mano? Habilite el cliente
   de terminal e instálelo de esa manera. ¿Solo tiene\nacceso físico a la máquina?
   Conéctese al instalador de forma remota y\ncontinue con la instalación. Es así de
   simple.\n"
 points_transparent: Todo es transparente
-points_transparent_p1: "De principio al fin, cada paquete que se incluye las distribuciones\n
-  tienen todas sus fuentes y \"scripts\" de compilado visible para todas las personas.\n
-  ¿Duda de una fuente? Simplemente revíselo con en el servicio de compilado de openSUSE.\n"
+points_transparent_p1: "De principio al fin, cada paquete que se incluye las distribuciones\n\
+  \ tienen todas sus fuentes y \"scripts\" de compilado visible para todas las personas.\n\
+  \ ¿Duda de una fuente? Simplemente revíselo con en el servicio de compilado de openSUSE.\n"
 points_free: ¿Software libre? Su decisión
 points_free_p1: "Los paquetes en nuestras distribuciones están divididos en libre
-  y no libre. \n¿No quiere usar paquetes no libres? Puede desactivar fácilmente\n
-  el repositorio no libre. Es su decisión, no la nuestra.\n"
+  y no libre. \n¿No quiere usar paquetes no libres? Puede desactivar fácilmente\n\
+  \ el repositorio no libre. Es su decisión, no la nuestra.\n"
 points_welcoming: Acogiendo contribuciones
 points_welcoming_p1: "Intentamos dar lo mejor para complacer a la comunidad, y solo
   podemos hacer eso \ncuando la comunidad expresa lo que necesita. Por eso \nnos aseguramos
@@ -213,8 +213,8 @@ new_version_available: $distro_name ya está disponible para descargar
 new_version_testing: $distro_name ya está disponible para descargar y testear
 view_distro: Ver $distro_name
 offline_updated_image: Imagen sin conexión actualizada
-offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
-  Apto para instalación o actualización.\n"
+offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n\
+  \ Apto para instalación o actualización.\n"
 selfinstalling_images: Imágenes auto instalables
 iso_image: Imagen ISO
 selfinstalling_k3s_image: Host k3s autoinstalable
@@ -309,16 +309,16 @@ server_leapmicro_p2: Sistema operativo liviano y ultra confiable hecho para carg
 MicroOS_features:
   idea:
     name: Filosofía
-    description: "### Es predecible\n* No se altera durante el tiempo de ejecución\n
-      * Ejecutará los mismos artefactos en cada inicio\n\n### Es escalable\n* Elimina
-      el esfuerzo de configurar instancias individuales durante el tiempo de ejecución\n
-      * Puede ser desplegado fácil repetidamente con un resultado predecible\n\n###
-      Es fiable\n* Recuperación automática debida a actualizaciones defectuosas\n"
+    description: "### Es predecible\n* No se altera durante el tiempo de ejecución\n\
+      \ * Ejecutará los mismos artefactos en cada inicio\n\n### Es escalable\n* Elimina
+      el esfuerzo de configurar instancias individuales durante el tiempo de ejecución\n\
+      \ * Puede ser desplegado fácil repetidamente con un resultado predecible\n\n\
+      ### Es fiable\n* Recuperación automática debida a actualizaciones defectuosas\n"
   key:
     description: "* Obtén actualizaciones a través de HTTPS\n* Los paquetes y repositorios
-      son firmados por nuestro sistema de compilación\n* Los paquetes son verificados\n
-      * No se realizan actualizaciones en caso de conflictos de dependencias\n* No
-      se desperdicia espacio: Las instantáneas del sistema de archivos son eliminadas
+      son firmados por nuestro sistema de compilación\n* Los paquetes son verificados\n\
+      \ * No se realizan actualizaciones en caso de conflictos de dependencias\n*
+      No se desperdicia espacio: Las instantáneas del sistema de archivos son eliminadas
       en caso de actualizaciones fallidas\n"
     name: Actualizaciones seguras
   work:
