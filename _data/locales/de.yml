@@ -10,8 +10,8 @@ pick_mirror: Spiegelserver auswählen
 checksum: Checksumme
 torrent_file: Torrent Datei
 offline_image: Offline-Image
-offline_desc: "Enthält eine große Anzahl an Software für Desktop- oder Server-Benutzung.\n
-  Zur Installation oder Aktualisierung geeignet.\n"
+offline_desc: "Enthält eine große Anzahl an Software für Desktop- oder Server-Benutzung.\n\
+  \ Zur Installation oder Aktualisierung geeignet.\n"
 network_image: Netzwerk-Image
 network_desc: "Lädt das Installationssystem und alle Pakete aus Online-Repositories
   herunter.\nGeeignet zur Installation oder Aktualisierung.\n"
@@ -29,20 +29,20 @@ live_images: Live
 gnome_cd: GNOME Live-CD
 kde_cd: KDE Live-CD
 xfce_cd: Xfce Live-CD
-tumbleweed_live_info: "Bitte beachten Sie die folgenden Einschränkungen der Live-Images:\n
-  * Sie können nicht zum Installieren oder Upgraden von Tumbleweed verwendet werden.
+tumbleweed_live_info: "Bitte beachten Sie die folgenden Einschränkungen der Live-Images:\n\
+  \ * Sie können nicht zum Installieren oder Upgraden von Tumbleweed verwendet werden.
   Bitte verwenden Sie stattdessen [Tumbleweed Medien](/tumbleweed)\n* Sie haben eine
   begrenzte Paket- und Treiber-Auswahl, weshalb keine genaue Aussage getroffen werden
   kann, ob Tumbleweed auf Ihrer Hardware laufen wird oder nicht\n"
 microos_desc: Auf openSUSE Tumbleweed basierendes OS, das Transaktionale (Atomare)
   Updates auf einem nur lesbarem btrfs Wurzeldateisystem bereitstellt
 choosing_media: Auswahl des Mediums zum Herunterladen
-choosing_media_p1: "Das Offline Image wird normalerweise empfohlen, da es die meisten\n
-  der Pakete, die in der Distribution verfügbar sind enthalten und keine\nNetzwerkverbindung
+choosing_media_p1: "Das Offline Image wird normalerweise empfohlen, da es die meisten\n\
+  \ der Pakete, die in der Distribution verfügbar sind enthalten und keine\nNetzwerkverbindung
   während der Installation benötigen.\n"
-choosing_media_p2: "Das Netzwerk Image wird für Benutzer empfohlen, die nur begrenzte\n
-  Internet-Bandbreite zur Verfügung haben, da nur die Pakete heruntergeladen werden\n
-  die zuvor ausgewählt wurden, was wahrscheinlich weniger als 4.7GB sein wird.\n"
+choosing_media_p2: "Das Netzwerk Image wird für Benutzer empfohlen, die nur begrenzte\n\
+  \ Internet-Bandbreite zur Verfügung haben, da nur die Pakete heruntergeladen werden\n\
+  \ die zuvor ausgewählt wurden, was wahrscheinlich weniger als 4.7GB sein wird.\n"
 documentation: Dokumentation
 documentation_startup_guide: openSUSE Startup-Anleitung
 documentation_release_notes: Versionshinweise
@@ -82,9 +82,9 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Wie man einen bootbaren USB Stick unter OS X erstellt.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Überprüfen Sie vor der Benutzung Ihre heruntergeladenen Dateien
-verify_download_p1: "Viele Anwendungen können die Prüfsumme eines Downloads überprüfen.\n
-  Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas Medium
-  nicht beschädigt heruntergeladen wurde.\n"
+verify_download_p1: "Viele Anwendungen können die Prüfsumme eines Downloads überprüfen.\n\
+  \ Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas
+  Medium nicht beschädigt heruntergeladen wurde.\n"
 verify_download_p2: "Für jedes ISO bieten wir eine Prüfsummendatei mit der entsprechenden
   SHA256-Summe und eine Signaturdatei mit einer kryptografischen Signatur an.\n"
 verify_download_p3: "Um die Integrität der heruntergeladenen Datei sicherzustellen,
@@ -106,14 +106,14 @@ points_free_p1: "Pakete in den Distributionen sind in freie und unfreie Reposito
   einfach\nvon Ihnen deaktiviert werden. Es ist Ihre Entscheidung, nicht unsere.\n"
 points_welcoming: Mitarbeit willkommen
 points_welcoming_p1: "Wir versuchen unser Bestes, um die Community zufriedenzustellen
-  und wir\nkönnen dies nur möglich machen, wenn die Community sich dazu äußert, was\n
-  sie benötigt. Das ist der Grund, warum wir sicherstellen, dass das Mitwirken\nso
-  einfach wie möglich ist.\n"
+  und wir\nkönnen dies nur möglich machen, wenn die Community sich dazu äußert, was\n\
+  \ sie benötigt. Das ist der Grund, warum wir sicherstellen, dass das Mitwirken\n\
+  so einfach wie möglich ist.\n"
 snapper: Das System ist fehlerhaft? Kein Problem mehr
-snapper_p1: "Das Dateisystem Snapshots Feature erhält Ihr Dateisystem, indem es regelmäßig\n
-  Backups automatisch erstellt, sobald neue Software oder Updates installiert werden.\n
-  Booten Sie einfach von einem früheren Snapshot, um Ihr System innerhalb weniger\n
-  Minuten wieder in einen arbeitsfähigen Zustand zu bringen.\n"
+snapper_p1: "Das Dateisystem Snapshots Feature erhält Ihr Dateisystem, indem es regelmäßig\n\
+  \ Backups automatisch erstellt, sobald neue Software oder Updates installiert werden.\n\
+  \ Booten Sie einfach von einem früheren Snapshot, um Ihr System innerhalb weniger\n\
+  \ Minuten wieder in einen arbeitsfähigen Zustand zu bringen.\n"
 software: Software beschaffen könnte nicht einfacher sein
 software_p1: "Unter uns, jede Webseite zu durchforsten, um all\ndie Software zu beschaffen,
   die Sie brauchen könnten, ist eine Menge Arbeit. Das Online Software Center\nmacht
@@ -129,8 +129,8 @@ transactional_p1: "Das Installationsprogramm unterstützt nun eine neue Systemro
   alle SUSE und openSUSE Distributionen\nbauen. Dies bedeutet, dass die große Mehrheit
   an RPM Paketen, die mit anderen Systemrollen\nder openSUSE Distributionen funktionieren,
   auch mit der Systemrolle Transaktionaler Server\nfunktionieren.\n"
-yast_p1: "Eines der besten Systemkonfigurationswerkzeuge hilft Ihnen, dem Benutzer,\n
-  jeden einzelnen Aspekt Ihres Systems einzurichten. Sie brauchen nicht mehr\neine
+yast_p1: "Eines der besten Systemkonfigurationswerkzeuge hilft Ihnen, dem Benutzer,\n\
+  \ jeden einzelnen Aspekt Ihres Systems einzurichten. Sie brauchen nicht mehr\neine
   Menge an Konfigurationsskripten oder dubiosen Kommandos, um das\nSystem so einzurichten,
   wie Sie es brauchen.\n"
 yast_firewall: Firewall
@@ -145,11 +145,11 @@ zypper: Zypper, Ihr neuer favorisierter Paketmanager
 site_description: Lerne die openSUSE Distributionen kennen und lade sie kostenlos
   herunter
 site_copyright: © 2025 openSUSE-Mitwirkende
-zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n
-  mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n
-  das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n
-  Das Interface ist klar und angemessen koloriert, für eine einfache Lesbarkeit. Es
-  ist\nperfekt, was könnte man sonst sagen?\n"
+zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n\
+  \ mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n\
+  \ das Geschwindigkeit und eine reproduzierbare Auflösung von Abhängigkeiten garantiert.\n\
+  \ Das Interface ist klar und angemessen koloriert, für eine einfache Lesbarkeit.
+  Es ist\nperfekt, was könnte man sonst sagen?\n"
 index: openSUSE Distributionen
 index_p1: Für Desktop, Server, und alles dazwischen
 index_desktop: Desktop
@@ -189,8 +189,8 @@ xen_desc: Zur Verwendung in XEN PV Hypervisoren
 preconfigured_image: Vorkonfiguriertes Image (raw)
 preconfigured_rt_image: Vorkonfiguriertes RealTime Image (raw)
 ports_images: Portierungen
-ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n
-  von separaten Community Teams gepflegt, mit limitierten Resourcen.\n"
+ports_info: "Portierungen von openSUSE Leap auf andere Architekturen als PC werden\n\
+  \ von separaten Community Teams gepflegt, mit limitierten Resourcen.\n"
 rescue_cd: Rettungs Live-CD
 selfinstall_image: Selbst-installierendes Image
 selfinstall_rt_image: Selbst installierendes RealTime Image
@@ -249,8 +249,8 @@ minimal_vm_images: Minimale Virtuelle Maschine
 requirements_hdd_swap_info: swap deaktiviert, damit Kubernetes korrekt funktioniert
 MicroOS_features:
   idea:
-    description: "### Ist vorhersagbar\n* Wird während der Laufzeit nicht verändert\n
-      * Wird bei jedem Start konsistent die gleichen Artefakte starten\n\n### Ist
+    description: "### Ist vorhersagbar\n* Wird während der Laufzeit nicht verändert\n\
+      \ * Wird bei jedem Start konsistent die gleichen Artefakte starten\n\n### Ist
       skalierbar\n* Eliminiert die Notwendigkeit, individuelle Instanzen während der
       Laufzeit zu konfigurieren\n* Kann einfach und wiederholt mit vorhersagbarem
       Ausgang ausgerollt werden\n\n### Ist zuverlässig\n* Automatische Wiederherstellung
@@ -279,8 +279,8 @@ MicroOS_features:
     name: Debugging
   work:
     name: Arbeitslast
-    description: "Anwendung werden in Containern statt im Hauptdateisystem installiert:\n
-      * isoliert vom zentralen Dateisystem\n* reduziert die Möglichkeit für bösartige
+    description: "Anwendung werden in Containern statt im Hauptdateisystem installiert:\n\
+      \ * isoliert vom zentralen Dateisystem\n* reduziert die Möglichkeit für bösartige
       Anwendungen Ihr System zu kompromitieren\n* Neuinstallation ohne Reboot\n* atomare
       Updates möglich (neuen erstellen, alten töten)\n* einfaches Rollback\n"
 offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet
@@ -372,8 +372,8 @@ Tumbleweed_features:
     name: Hochmodern
 preconfigured_qcow_image: Vorkonfiguriertes Image (qcow)
 choosing_media_micro_p2: "Leap Micro wird nicht mehr mit einem herkömmlichen Installationsprogramm
-  ausgeliefert, stattdessen sollen die Benutzer Selbstinstallationsmedien verwenden.\n
-  Das neue Paketabbild ist nur ein Offline-Auszug aus dem Leap Micro rpm-Repositorium
+  ausgeliefert, stattdessen sollen die Benutzer Selbstinstallationsmedien verwenden.\n\
+  \ Das neue Paketabbild ist nur ein Offline-Auszug aus dem Leap Micro rpm-Repositorium
   für diejenigen, die eine isolierte Umgebung haben.\n"
 choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen für diejenigen,
   die keine angepasste Partitionierung benötigen und über USB booten können.\nEin
