@@ -6,8 +6,8 @@ source_code: Kod źródłowy
 license: Licencja
 learn_more: Dowiedz się więcej
 metalink: Metalink
-offline_desc: "Zawiera dużą kolekcję oprogramowania do użytku na komputerach i serwerach.\n
-  Odpowiedni do instalacji lub aktualizacji.\n"
+offline_desc: "Zawiera dużą kolekcję oprogramowania do użytku na komputerach i serwerach.\n\
+  \ Odpowiedni do instalacji lub aktualizacji.\n"
 network_image: Obraz Sieciowy
 network_desc: "Pobiera system instalacyjny i wszystkie pakiety z repozytoriów.\nOdpowiedni
   do instalacji lub aktualizacji.\n"
@@ -23,8 +23,9 @@ openstack_image: OpenStack-Cloud
 openstack_desc: Do użytku w maszynach wirtualnych OpenStack
 installation_images: Instalacja
 ports_images: Porty
-ports_info: "Porty openSUSE Leap na architektury inne niż Komputery Personalne są\n
-  wspierane przez oddzielne zespoły społeczności, które dysponują ograniczonymi zasobami\n"
+ports_info: "Porty openSUSE Leap na architektury inne niż Komputery Personalne są\n\
+  \ wspierane przez oddzielne zespoły społeczności, które dysponują ograniczonymi
+  zasobami\n"
 jeos_images: JeOS
 live_images: Live
 gnome_cd: GNOME LiveCD
@@ -98,8 +99,8 @@ choosing_media_p1: "Obraz bezsieciowy jest zwykle rekomendowany, ponieważ zawie
   w czasie instalacji.\n"
 choosing_media_p2: "Obraz sieciowy jest rekomendowany dla użytkowników, którzy mają
   ograniczoną\nprzepustowość połączenia internetowego, ponieważ pobiera on tylko te
-  pakiety,\nktóre zostały wybrane w czasie instalacji, co w większości wypadków wyniesie\n
-  zdecydowanie mniej niż 4.7GB.\n"
+  pakiety,\nktóre zostały wybrane w czasie instalacji, co w większości wypadków wyniesie\n\
+  \ zdecydowanie mniej niż 4.7GB.\n"
 leap_switch_p1: "Jeśli już korzystasz z openSUSE, możesz wykonać aktualizację poprzez
   uruchomienie\nobrazu z płyty DVD/pamięci USB i wybranie opcji aktualizacji,\nlub
   wykonując 'Aktualizację Sieciową' za pomocą kilku komend.\n"
@@ -212,9 +213,9 @@ hyperv_ch_image: Host Kontenera MS HyperV
 requirements_net_mac: Unikalna nazwa hosta i adres MAC dla każdego węzła
 MicroOS_features:
   idea:
-    description: "### Jest przewidywalny\n* Nie jest modyfikowany w czasie wykonywania\n
-      * Zawsze uruchamia te same pliki wykonywalne w sposób ciągły przy każdym starcie\n
-      \n### Jest skalowalny\n* Eliminuje konieczność ręcznej konfiguracji poszczególnych
+    description: "### Jest przewidywalny\n* Nie jest modyfikowany w czasie wykonywania\n\
+      \ * Zawsze uruchamia te same pliki wykonywalne w sposób ciągły przy każdym starcie\n\
+      \ \n### Jest skalowalny\n* Eliminuje konieczność ręcznej konfiguracji poszczególnych
       instancji w trakcie działania\n* Może być łatwo i wielokrotnie wdrożony z przewidywalnym
       wynikiem\n\n### Jest niezawodny\n* Automatyczne przywracanie po błędnych aktualizacjach\n"
     name: Filozofia
@@ -228,8 +229,8 @@ MicroOS_features:
       zarówno dla partycji, jak i systemu operacyjnego\n* Łatwy do ulepszania\n"
   shield:
     name: Przywracanie
-    description: "### MicroOS jest systemem niezmiennym, a przywracanie jest proste\n
-      * Niezmienny: Żadnych zmian na dysku\n* Wycofanie poprzez ponowne uruchomienie
+    description: "### MicroOS jest systemem niezmiennym, a przywracanie jest proste\n\
+      \ * Niezmienny: Żadnych zmian na dysku\n* Wycofanie poprzez ponowne uruchomienie
       do starej migawki BTRFS\n"
   key:
     description: "* Pobiera aktualizacje za pomocą HTTPS\n* Pakiety i repozytoria
@@ -241,8 +242,8 @@ MicroOS_features:
     name: Obciążenia
     description: "Aplikacje są instalowane w kontenerach zamiast na głównym systemie
       plików:\n* Odizolowane od głównego systemu plików\n* Zmniejszona możliwość naruszenia
-      systemu przez złośliwe aplikacje\n* Nowa instalacja bez konieczności restartu\n
-      * Możliwość aktualizacji w sposób atomowy (utwórz nowy, zabij stary)\n* Łatwe
+      systemu przez złośliwe aplikacje\n* Nowa instalacja bez konieczności restartu\n\
+      \ * Możliwość aktualizacji w sposób atomowy (utwórz nowy, zabij stary)\n* Łatwe
       przywracanie\n"
   tool:
     description: "### Narzędzie debugowania w kontenerze\n* Uruchamia uprzywilejowany
@@ -363,8 +364,8 @@ selfinstall_image: Obrazy Samoinstalujący
 selfinstall_rt_image: Obraz Samoinstalujący RealTime
 overview: Przegląd
 offline_updated_image: Zaktualizowany Obraz Offline
-offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\n
-  Odpowiedni do instalacji lub aktualizacji.\n"
+offline_updated_desc: "Obraz instalacyjny offline z najnowszymi aktualizacjami.\n\
+  \ Odpowiedni do instalacji lub aktualizacji.\n"
 ppc64: Serwery PowerPC, big-endian (ppc64)
 minimal_vm_images: Minimalnych Maszyn Wirtualnych
 server_x86_64: 64-bitowe serwery Intel lub AMD (x86_64)
@@ -442,12 +443,12 @@ leap_16_coming_soon: "Publicznego wydania Leap 16.0, następcy Leap 15.6, można
   regularnie sprawdzaj aktualizacje na <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >planach zmian</a> i <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  to nowy instalator, który może zostać użyty do instalacji Leap 16 oraz Tumbleweed.\n
-  Istnieje plan wsparcia instalacji w trybie offline w Agama. Inne nośniki instalacyjne,
+  to nowy instalator, który może zostać użyty do instalacji Leap 16 oraz Tumbleweed.\n\
+  \ Istnieje plan wsparcia instalacji w trybie offline w Agama. Inne nośniki instalacyjne,
   takie jak samoinstalujący się obraz, zostaną dodane później.\n"
 choosing_media_micro_p2: "Leap Micro nie jest już dostarczany z tradycyjnym programem
-  instalacyjnym, zamiast tego użytkownicy powinni używać nośników samoinstalacyjnych.\n
-  Nowy Obraz Pakietów jest po prostu zrzutem offline repozytorium rpm Leap Micro,
+  instalacyjnym, zamiast tego użytkownicy powinni używać nośników samoinstalacyjnych.\n\
+  \ Nowy Obraz Pakietów jest po prostu zrzutem offline repozytorium rpm Leap Micro,
   przeznaczonym do użycia w izolowanym środowisku.\n"
 leap_micro_ovw_desc_p3: Wypróbuj Leap Micro na maszynach wirtualnych <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
   lub KVM. Dla Raspberry Pi lub innych układów System on Chip możesz wykorzystać prekonfigurowany
