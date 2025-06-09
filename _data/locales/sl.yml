@@ -21,14 +21,14 @@ kde_cd: ŽiviCD KDE
 xfce_cd: ŽiviCD Xfce
 rescue_cd: Reševalni ŽiviCD
 software: Pridobivanje programov ne more biti lažje
-software_p1: "Iskanje programov, ki jih potrebujete, po različnih spletnih straneh\n
-  je zamudno in zahteva veliko dela. Središče za programsko opremo\nna spletu to zelo
-  poenostavi. Programi z raznih koncev so zbrani\nna enem mestu.\n"
+software_p1: "Iskanje programov, ki jih potrebujete, po različnih spletnih straneh\n\
+  \ je zamudno in zahteva veliko dela. Središče za programsko opremo\nna spletu to
+  zelo poenostavi. Programi z raznih koncev so zbrani\nna enem mestu.\n"
 software_get: Pridobite programe
 transactional: Transakcijski strežnik
 yast: YaST, najboljša izbira za ~~zahtevnega~~ uporabnika
-yast_p1: "En izmed najboljših orodij za nastavljanje sistema pomaga vam, uporabniku,\n
-  da nastavite vsak posamezni aspekt sistema. Ni vam več potrebno urejati\nvelikega
+yast_p1: "En izmed najboljših orodij za nastavljanje sistema pomaga vam, uporabniku,\n\
+  \ da nastavite vsak posamezni aspekt sistema. Ni vam več potrebno urejati\nvelikega
   števila nastavitvenih skriptov ali vnašati dvomljivih ukazov, da bi\nsistem nastavili,
   kot potrebujete.\n"
 yast_firewall: Požarni zid
@@ -92,9 +92,9 @@ MicroOS_features:
       sistem\n* Preprost za izboljševanje\n"
   shield:
     name: Povrnitev
-    description: "### MicroOS je nespremenljiv operacijski sistem, povrnitev je preprosta\n
-      * Nespremenljiv: brez sprememb na disku\n* Povrnitev s ponovnim zagonom na starejši
-      posnetek btrfs\n"
+    description: "### MicroOS je nespremenljiv operacijski sistem, povrnitev je preprosta\n\
+      \ * Nespremenljiv: brez sprememb na disku\n* Povrnitev s ponovnim zagonom na
+      starejši posnetek btrfs\n"
   key:
     name: Varne posodobitve
     description: "* Posodobitve dobite prek HTTPS\n* Paketi in viri so podpisani s
@@ -102,9 +102,9 @@ MicroOS_features:
       odvisnosti se ne izvede nobena posodobitev\n* Brez potrate prostora: posnetki
       datotečnega sistema se v primeru neuspelih posodobitev izbrišejo\n"
   work:
-    description: "Programi se namestijo v vsebnike in ne v korenski datotečni sistem:\n
-      * Izolirano od jedrnega sistema\n* Zmanjšana možnost škodljivih programov, da
-      bi okvarili sistem\n* Nova namestitev brez ponovnega zagona\n* Možna atomična
+    description: "Programi se namestijo v vsebnike in ne v korenski datotečni sistem:\n\
+      \ * Izolirano od jedrnega sistema\n* Zmanjšana možnost škodljivih programov,
+      da bi okvarili sistem\n* Nova namestitev brez ponovnega zagona\n* Možna atomična
       posodobitev (ustvari novo, ubij staro)\n* Preprosta povrnitev\n"
     name: Uporabe
   tool:
@@ -116,11 +116,11 @@ MicroOS_features:
 pick_mirror: Izberite zrcalni strežnik
 live_info: "Zavedajte se naslednjih omejitev živih odtisov:\n* Niso namenjeni za namestitev
   ali nadgradnjo. Za to uporabite namestitvene nosilce.\n* Vsebujejo omejen nabor
-  paketov in gonilnikov in ne predstavljajo pravega stanja podprtosti strojne opreme.\n
-  * Jedra in initrd ni moč posodobiti in zato niso primerni za stalno namestitev.\n"
+  paketov in gonilnikov in ne predstavljajo pravega stanja podprtosti strojne opreme.\n\
+  \ * Jedra in initrd ni moč posodobiti in zato niso primerni za stalno namestitev.\n"
 requirements_dvd_desc: Pogon DVD ali priključek USB za namestitveni nosilec
-tw_switch_p1: "Če že uporabljate openSUSE, lahko opravite nadgradnjo z zagonom z DVD-ja\n
-  ali USB-ja in izborom nadgradnje. Z nekaj ukazi lahko izvedete tudi\n»Internetno
+tw_switch_p1: "Če že uporabljate openSUSE, lahko opravite nadgradnjo z zagonom z DVD-ja\n\
+  \ ali USB-ja in izborom nadgradnje. Z nekaj ukazi lahko izvedete tudi\n»Internetno
   nadgradnjo«.\n"
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 selfinstall_image: Samo-namestilni odtis
@@ -135,8 +135,8 @@ desktop_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in na
   nad Linux-om ter FOSS-om
 ppc64le: Strežniki PowerPC, mali konec (ppc64le)
 alternative_downloads_desc: Imamo tudi odtise $options. Oglejte si $alternative_downloads!
-offline_desc: "Vsebuje ogromno zbirko programske opreme za namizno in strežniško uporabo.\n
-  Primerno za namestitev in nadgradnjo.\n"
+offline_desc: "Vsebuje ogromno zbirko programske opreme za namizno in strežniško uporabo.\n\
+  \ Primerno za namestitev in nadgradnjo.\n"
 hyperv_desc: Za poganjanje navideznih računalnikov na MS HyperV
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 preconfigured_qcow_image: Pred-nastavljen odtis (qcow)
@@ -166,8 +166,8 @@ torrent_file: Datoteka torrent
 offline_updated_image: Posodobljen ne-omrežni odtis
 offline_image: Ne-omrežni odtis
 iso_image: Odtis ISO
-offline_updated_desc: "Ne-omrežni namestitveni odtis z najnovejšimi posodobitvami.\n
-  Primerno za namestitev in nadgradnjo.\n"
+offline_updated_desc: "Ne-omrežni namestitveni odtis z najnovejšimi posodobitvami.\n\
+  \ Primerno za namestitev in nadgradnjo.\n"
 network_image: Omrežni odtis
 selfinstalling_images: Samo-namestilni odtisi
 selfinstalling_ch_image: Samo-namestilni gostitelj vsebnika
@@ -193,8 +193,8 @@ pine_image: Pine64
 microos_desc: Operacijski sistem, ki temelji na openSUSE Tumbleweed in ponuja transakcijske
   (atomične) posodobitve na korenski datotečni sistem btrfs, ki je samo za branje
 choosing_media: Izbiranje nosilcev za prejemanje
-choosing_media_p2: "Omrežni odtis priporočamo uporabnikom, ki imajo omejen prenos\n
-  podatkov prek internetne povezave. Prejeti bodo samo paketi, ki jih\nboste izbrali
+choosing_media_p2: "Omrežni odtis priporočamo uporabnikom, ki imajo omejen prenos\n\
+  \ podatkov prek internetne povezave. Prejeti bodo samo paketi, ki jih\nboste izbrali
   za namestitev in to bo verjetno manj kot 4,7 GiB.\n"
 choosing_media_micro_p2: "Leap Micro ne prihaja več s tradicionalnim namestilnikom.
   Uporabnikom priporočamo samo-namestilne\nnosilce. Novi odtis s paketi je samo brez-omrežna
@@ -257,9 +257,9 @@ desktops: Veliko namiznih okolij, tri privzeta
 installation: Namestite po svojih željah
 points_transparent: Vse je transparentno
 points_free: Svobodna programska oprema? Vaša izbira
-points_free_p1: "Paketi v distribucijah so razdeljeni v vire s prosto in ne-prosto\n
-  programsko opremo. Ali ne želite uporabljati ne-svobodnih\npaketov? Preprosto lahko
-  onemogočite ne-prosti vir. Izbira je vaša.\n"
+points_free_p1: "Paketi v distribucijah so razdeljeni v vire s prosto in ne-prosto\n\
+  \ programsko opremo. Ali ne želite uporabljati ne-svobodnih\npaketov? Preprosto
+  lahko onemogočite ne-prosti vir. Izbira je vaša.\n"
 points_welcoming: Prispevki so dobrodošli
 points_welcoming_p1: "Po najboljših močeh se trudimo ustreči skupnosti in to je možno
   storiti le,\nko skupnost na glas izrazi svoje želje in potrebe. Zato zagotavljamo,
@@ -271,16 +271,16 @@ network_desc: "Namestilni sistem in vse pakete prenese iz internetnih virov.\nPr
 pine_ch_image: Gostitelj vsebnika Pine64
 packages_image: Odtis s paketi
 packages_image_desc: Nosilec, ki vsebuje ne-omrežni vir s paketi.
-ports_info: "Prenose openSUSE Leap na arhitekture, ki niso v osebnih računalnikih,\n
-  vzdržujejo ločene ekipe skupnosti z omejenimi viri.\n"
+ports_info: "Prenose openSUSE Leap na arhitekture, ki niso v osebnih računalnikih,\n\
+  \ vzdržujejo ločene ekipe skupnosti z omejenimi viri.\n"
 minimal_vm_info: Podobno odtisom SUSE Linux Enterprise Server Minimal-VM. Za odtise
   JeOS za ARM obiščite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki
   stran Arm</a>
-verify_download_p1: "Nadzorno vsoto prejetega lahko preverite z več programi. Preverjanje\n
-  prejetega je pomembno, saj ste tako lahko prepričani, da imate res\ncelovito datoteko
+verify_download_p1: "Nadzorno vsoto prejetega lahko preverite z več programi. Preverjanje\n\
+  \ prejetega je pomembno, saj ste tako lahko prepričani, da imate res\ncelovito datoteko
   ISO in da ni pokvarjena.\n"
-installation_p1: "Postopek nameščanja openSUSE vam ponuja vse možnosti, ki bi jih\n
-  lahko želeli. Ali želite namestiti sistem z miško in tipkovnico? Zaženite\nnamestilnik
+installation_p1: "Postopek nameščanja openSUSE vam ponuja vse možnosti, ki bi jih\n\
+  \ lahko želeli. Ali želite namestiti sistem z miško in tipkovnico? Zaženite\nnamestilnik
   v grafičnem načinu. Miške nimate pri roki? Zaženite\nnamestitev v besedilnem načinu.
   Ali morda nimate fizičnega dostopa\ndo računalnika? Z namestilnikom se povežite
   na daljavo in nadaljujte\nnamestitev. Tako preprosto je.\n"
@@ -289,22 +289,22 @@ choosing_media_micro_p1: "Novi odtis za samo-nameščanje je prva izbira za name
   odloži na disk in razdelek poveča na velikost diska.\n<br>\nUporabniki z Raspberry
   Pi in podobnimi brez podpore za zagon z USB-ja, lahko pred-nastavljen odtis zapišejo
   na krtico SD.\nUporabnikom, ki želijo več nadzora nad namestitvijo, priporočamo
-  uporabo <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nPrikaz namestitve na osnovi Combustion si lahko ogledate <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
+  uporabo <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n\
+  \ <br>\nPrikaz namestitve na osnovi Combustion si lahko ogledate <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >tukaj</a>.\n<br>\nTe, ki sistema niso nastavili z uporabo Combustion, bo pozdravil
   jeos-firstboot.\n"
 upgrade_table_linux_dvd: Kako zapisati DVD na GNU/Linux-u.
-desktops_p1: "Postopek prispevanja k openSUSE opolnomoči razvoj namiznih okolij za\n
-  vsakogar. V namestilniku imate možnost izbrati svojega priljubljenega.\nDejavno
+desktops_p1: "Postopek prispevanja k openSUSE opolnomoči razvoj namiznih okolij za\n\
+  \ vsakogar. V namestilniku imate možnost izbrati svojega priljubljenega.\nDejavno
   ponujamo tri namizna okolja, ostala pa so na voljo v razširjenem\nprikazu namestilnika.\n"
 server_p1: "Štiri udobno dolgočasne distribucije, kakor bi vedno moralo biti\n"
-snapper_p1: "Zmožnost posnetkov datotečnega sistema ohranja celovitost datotečnega\n
-  sistema z rednimi varnostnimi kopijami, ki se samodejno ustvarijo pri\nnameščanju
+snapper_p1: "Zmožnost posnetkov datotečnega sistema ohranja celovitost datotečnega\n\
+  \ sistema z rednimi varnostnimi kopijami, ki se samodejno ustvarijo pri\nnameščanju
   in posodabljanju programov. Preprosto zaženite sistem iz\nstarejšega posnetka in
   povrnite sistem na delujoče stanje v nekaj minutah.\n"
 points_transparent_p1: "Od začetka do konca ima vsak paket, ki je del distribucij,
-  na voljo vso\nizvorno kodo in skripti za grajenje. Vse je prosto dostopno vsem.\n
-  Ali dvomite v izvor? Preverite ga na storitvi za gradnjo.\n"
+  na voljo vso\nizvorno kodo in skripti za grajenje. Vse je prosto dostopno vsem.\n\
+  \ Ali dvomite v izvor? Preverite ga na storitvi za gradnjo.\n"
 zypper_p1: "Hitro in preprosto se ga naučite. Ponuja zypper-apt, plast za\nzdružljivost
   z ukazi apt in apt-get. Temelji na libsolv, kar zagotavlja\ntako hitrost kot tudi
   ponovljivo razreševanje odvisnosti. Vmesnik je\njasen in primerno obarvan za lažje
@@ -431,6 +431,6 @@ leap_16_coming_soon: "Javni izid Leap 16.0, naslednika Leap 15.6, lahko pričaku
   <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">načrta</a> in <a href=\"https://news.opensuse.org/tag/leap\"\
   >news.opensuse.org</a>.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  je novi namestilnik, ki ga lahko uporabite za namestitev Leap 16 in Tumbleweed.\n
-  Podpora za nameščanje brez omrežne povezave je v načrtu. Drugi namestitveni nosilci,
+  je novi namestilnik, ki ga lahko uporabite za namestitev Leap 16 in Tumbleweed.\n\
+  \ Podpora za nameščanje brez omrežne povezave je v načrtu. Drugi namestitveni nosilci,
   npr. samo-namestilni odtis, bodo dodani kasneje.\n"
