@@ -19,8 +19,8 @@ offline_image: Imagen fuera de línea
 offline_desc: "Contiene una amplia colección de software para uso en equipos de escritorio
   o servidores.\nIndicado para instalación o actualización.\n"
 network_image: Imagen de red
-network_desc: "Descarga el sistema de instalación y todos los paquetes desde repositorios\n
-  en línea. Indicado para instalación o actualización.\n"
+network_desc: "Descarga el sistema de instalación y todos los paquetes desde repositorios\n\
+  \ en línea. Indicado para instalación o actualización.\n"
 kvm_image: imagen KVM y XEN
 kvm_desc: Para uso en KVE o hipervisores XEN HVM
 xen_image: XEN
@@ -62,8 +62,8 @@ documentation_license: Licencia
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentación completa
 leap_switch: Maneras sencillas de cambiar a openSUSE Leap
-leap_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando \n
-  desde la unidad de DVD/USB y escogiendo la opción de actualizar, o realizar una
+leap_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando \n\
+  \ desde la unidad de DVD/USB y escogiendo la opción de actualizar, o realizar una
   actualización en línea \ncon unos pocos comandos.\n"
 leap_switch_instructions: Instrucciones para actualizar en línea.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
@@ -116,11 +116,12 @@ desktops_p1: "El proceso de contribución de openSUSE permite el desarrollo de e
   instalación. Ofrecemos tres entornos de escritorio y ofrecemos\naún más en la vista
   de software expandida dentro del instalador.\n"
 installation: Puedes instalarlo como tu quieras
-installation_p1: "El proceso de instalación de openSUSE le ofrece todas las opciones\n
-  que probablemente necesita. ¿Quiere instalar su sistema usando el ratón y\nel teclado?
-  Cargue el instalador en modo gráfico. ¿No tiene un ratón\na mano? Utilice el cliente
-  para la terminal e instale de esa manera. ¿No tiene\nacceso físico al equipo? Conecte
-  con el instalador de manera remota y\ncontinúe con la instalación. Es así de simple.\n"
+installation_p1: "El proceso de instalación de openSUSE le ofrece todas las opciones\n\
+  \ que probablemente necesita. ¿Quiere instalar su sistema usando el ratón y\nel
+  teclado? Cargue el instalador en modo gráfico. ¿No tiene un ratón\na mano? Utilice
+  el cliente para la terminal e instale de esa manera. ¿No tiene\nacceso físico al
+  equipo? Conecte con el instalador de manera remota y\ncontinúe con la instalación.
+  Es así de simple.\n"
 points_transparent: Todo es transparente
 points_transparent_p1: "Desde el comienzo hasta el final, cada paquete que se integra
   en las distribuciones\ntiene todo su código fuente y hay scripts que los compilan
@@ -149,15 +150,16 @@ transactional: Servidor transaccional
 transactional_p1: "El instalador ahora admite un nuevo papel del sistema Servidor
   Transaccional,\nque es un resultado de los esfuerzos abiertos openSUSE Kubic. Esta
   función del sistema\ncuenta con un nuevo sistema de actualización que aplica actualizaciones
-  atómicamente (como\nuna operación única) y las hace fáciles de revertir si es necesario.\n
-  Estas características se basan en las herramientas de gestión de paquetes\nque todas
-  las demás distribuciones SUSE y openSUSE dependen. Esto significa\nque la gran mayoría
-  de los paquetes RPM que trabajan con otro sistema\nfunciones de las distribuciones
-  de openSUSE también funcionan con el papel del sistema\nServidor Transaccional.\n"
+  atómicamente (como\nuna operación única) y las hace fáciles de revertir si es necesario.\n\
+  \ Estas características se basan en las herramientas de gestión de paquetes\nque
+  todas las demás distribuciones SUSE y openSUSE dependen. Esto significa\nque la
+  gran mayoría de los paquetes RPM que trabajan con otro sistema\nfunciones de las
+  distribuciones de openSUSE también funcionan con el papel del sistema\nServidor
+  Transaccional.\n"
 yast: YaST, la mejor opción para el usuario ~~avanzado~~
 yast_p1: "Una de las herramientas de configuración más grandes del sistema te ayuda,
-  como usuario, a\nconfigurar cada aspecto de tu sistema. Ya no necesitas pasar por\n
-  una plétora de scripts de configuración o introducir comandos dudosos\npara conseguir
+  como usuario, a\nconfigurar cada aspecto de tu sistema. Ya no necesitas pasar por\n\
+  \ una plétora de scripts de configuración o introducir comandos dudosos\npara conseguir
   la configuración del sistema como lo necesitas.\n"
 yast_firewall: Cortafuegos
 yast_fonts: Fuentes
@@ -168,11 +170,11 @@ yast_scanner: Escáner
 yast_sound: Sonido
 yast_software: Software
 zypper: Zypper, tu nuevo gestor favorito de paquetes de software
-zypper_p1: "Es sencillo y fácil de aprender. Dispone de zypper-apt, una capa de\n
-  compatibilidad de uso con los comandos apt y apt-get. Está basado en libsolv,\n
-  que garantiza tanto velocidad como una resolución reproducible de dependencias.\n
-  La interfaz es sencilla y con colores que facilitan la lectura y la información.\n
-  Es perfecta ¿qué más podríamos decir?\n"
+zypper_p1: "Es sencillo y fácil de aprender. Dispone de zypper-apt, una capa de\n\
+  \ compatibilidad de uso con los comandos apt y apt-get. Está basado en libsolv,\n\
+  \ que garantiza tanto velocidad como una resolución reproducible de dependencias.\n\
+  \ La interfaz es sencilla y con colores que facilitan la lectura y la información.\n\
+  \ Es perfecta ¿qué más podríamos decir?\n"
 index: Distribuciones de openSUSE
 index_p1: Para equipos de escritorios, servidores y todo lo que hay en medio
 index_desktop: Escritorio
@@ -245,9 +247,9 @@ alternative_downloads_desc: También tenemos imágenes $options. ¡Consulte las 
 MicroOS_features:
   idea:
     description: "### Es previsible\n* No se altera durante la ejecución.\n* Ejecutará
-      los mismos artefactos de manera consistente en cada arranque.\n\n### Es escalable\n
-      * Elimina los esfuerzos por configurar instancias individuales durante el tiempo
-      de ejecución.\n* Puede ser implementado fácil y repetidamente con resultados
+      los mismos artefactos de manera consistente en cada arranque.\n\n### Es escalable\n\
+      \ * Elimina los esfuerzos por configurar instancias individuales durante el
+      tiempo de ejecución.\n* Puede ser implementado fácil y repetidamente con resultados
       previsibles.\n\n### Es fiable\n*Recuperación automatizada de actualizaciones
       defectuosas.\n"
     name: Filosofía
@@ -268,15 +270,15 @@ MicroOS_features:
     description: "### Actualizaciones transaccionales\n\n#### Único\nAl usar Btrfs
       con instantáneas, MicroOS usa el espacio eficientemente \npara almacenar el
       historial del sistema de archivos. Todos los archivos \nde configuración de
-      `/etc` forman parte de la instantánea y de la reversión.\n\n#### Flexible\n
-      * No es necesario un nuevo formato de paquete, use el RPM estándar de \nopenSUSE.\n
-      * No existe límite de tamaño, ni para las particiones ni para el sistema\noperativo.\n
-      * Fácil de mejorar.\n"
+      `/etc` forman parte de la instantánea y de la reversión.\n\n#### Flexible\n\
+      \ * No es necesario un nuevo formato de paquete, use el RPM estándar de \nopenSUSE.\n\
+      \ * No existe límite de tamaño, ni para las particiones ni para el sistema\n\
+      operativo.\n * Fácil de mejorar.\n"
     name: Actualizaciones atómicas
   shield:
     name: Retroceso
-    description: "### MicroOS es un sistema operativo inmutable, de recuperación simple.\n
-      * Inmutable: sin cambios en el disco.\n* Reversible, reiniciándolo a una instantánea
+    description: "### MicroOS es un sistema operativo inmutable, de recuperación simple.\n\
+      \ * Inmutable: sin cambios en el disco.\n* Reversible, reiniciándolo a una instantánea
       anterior de BTRFS.\n"
   key:
     name: Actualizaciones seguras
@@ -387,8 +389,8 @@ choosing_media_micro_p2: "Leap Micro ya no viene con un instalador tradicional, 
   usuarios deberán usar medios autoinstalables en su lugar.\nLa nueva Imagen de Paquetes
   es nada más un volcado fuera de línea del repositorio rpm de Leap Micro para aquellos
   con entornos aislados.\n"
-offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n
-  Apto para instalación o actualización.\n"
+offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n\
+  \ Apto para instalación o actualización.\n"
 server_aarch64: servidores y placas UEFI Arm 64-bit (aarch64)
 encrypted_image: Imagen de Disco Completamente Cifrada (raw)
 choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferida
@@ -463,6 +465,6 @@ leap_16_coming_soon: "La publicación de Leap 16.0, sucesora de Leap 15.6, está
   >hoja de ruta</a> y <a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
   para más información.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  es el nuevo instalador que se puede utilizar para instalar Leap 16 y Tumbleweed.\n
-  Existe un plan para dar soporte a la instalación sin conexión en Agama. Más adelante
+  es el nuevo instalador que se puede utilizar para instalar Leap 16 y Tumbleweed.\n\
+  \ Existe un plan para dar soporte a la instalación sin conexión en Agama. Más adelante
   se añadirán otros medios de instalación, como la imagen de autoinstalación.\n"
