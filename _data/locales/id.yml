@@ -15,8 +15,8 @@ pick_mirror: Pilih Cermin
 checksum: Ceksum
 torrent_file: Berkas Torrent
 offline_image: Citra Luring
-offline_desc: "Berisi koleksi besar perangkat lunak untuk penggunaan destop atau peladen.
-  \nCocok untuk pemasangan atau peningkatan.\n"
+offline_desc: "Berisi koleksi besar perangkat lunak untuk penggunaan destop atau peladen.\
+  \ \nCocok untuk pemasangan atau peningkatan.\n"
 network_image: Citra Jaringan
 network_desc: "Unduh sistem pemasangan dan semua paket dari repositori daring.\nCocok
   untuk pemasangan atau peningkatan.\n"
@@ -40,8 +40,8 @@ gnome_cd: LiveCD GNOME
 kde_cd: LiveCD KDE
 xfce_cd: LiveCD XFCE
 rescue_cd: LiveCD Penyelamatan
-tumbleweed_live_info: "Harap diperhatikan tentang keterbatasan citra live berikut:\n
-  * Tidak boleh digunakan untuk memasang atau meningkatkan Tumbleweed. Silakan gunakan
+tumbleweed_live_info: "Harap diperhatikan tentang keterbatasan citra live berikut:\n\
+  \ * Tidak boleh digunakan untuk memasang atau meningkatkan Tumbleweed. Silakan gunakan
   [media Tumbleweed](/tumbleweed) sebagai gantinya\n* Memiliki paket terbatas dan
   pemilihan penggerak, jadi tidak dapat dianggap sebagai refleksi yang akurat apakah
   Tumbleweed akan bekerja pada perangkat keras Anda atau tidak\n"
@@ -95,9 +95,10 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Cara membuat stik USB Bootable pada OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifikasi Unduhan Anda Sebelum Digunakan
-verify_download_p1: "Banyak aplikasi dapat memverifikasi checksum unduhan. Memverifikasi\n
-  unduhan Anda bisa menjadi penting karena memverifikasi bahwa Anda benar-benar telah
-  mendapatkan\nberkas ISO yang ingin Anda unduh dan bukan beberapa versi yang rusak.\n"
+verify_download_p1: "Banyak aplikasi dapat memverifikasi checksum unduhan. Memverifikasi\n\
+  \ unduhan Anda bisa menjadi penting karena memverifikasi bahwa Anda benar-benar
+  telah mendapatkan\nberkas ISO yang ingin Anda unduh dan bukan beberapa versi yang
+  rusak.\n"
 verify_download_p2: "Untuk setiap ISO, kami menawarkan file checksum dengan sum SHA256
   yang sesuai, dan berkas tanda tangan dengan tanda tangan kriptografi.\n"
 verify_download_p3: "Untuk memastikan integritas file yang telah diunduh, Anda bisa
@@ -109,8 +110,8 @@ verify_download_help: Untuk bantuan lebih lanjut tentang memverifikasi unduhan A
 verify_download_checksums_help: Bantuan Ceksum
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Banyak destop, tiga bawaan
-desktops_p1: "Proses kontribusi openSUSE memberdayakan pengembangan destop untuk\n
-  semua orang, sehingga Anda memiliki pilihan untuk memilih favorit Anda di\nPemasang.
+desktops_p1: "Proses kontribusi openSUSE memberdayakan pengembangan destop untuk\n\
+  \ semua orang, sehingga Anda memiliki pilihan untuk memilih favorit Anda di\nPemasang.
   Kami secara aktif memiliki tiga lingkungan destop, dan menawarkan\nbahkan lebih
   dalam tampilan perangkat lunak yang diperluas dalam pemasang.\n"
 installation: Instal seperti yang Anda inginkan
@@ -120,8 +121,8 @@ installation_p1: "Proses Pemasangan openSUSE memberi Anda semua opsi yang\nAnda 
   dan pasang seperti itu. Tidak memiliki\nakses fisik ke mesin? Sambungkan ke pemasang
   dari jarak jauh dan\nlanjutkan pemasangan. Sesederhana itu.\n"
 points_transparent: Semuanya transparan
-points_transparent_p1: "Dari awal hingga akhir, setiap paket yang masuk ke distribusi\n
-  memiliki semua sumber dan skrip bangun yang terlihat secara terbuka untuk semua
+points_transparent_p1: "Dari awal hingga akhir, setiap paket yang masuk ke distribusi\n\
+  \ memiliki semua sumber dan skrip bangun yang terlihat secara terbuka untuk semua
   orang\nuntuk melihat. Meragukan sumber? Periksa hanya pada layanan bangun.\n"
 points_free: Perangkat lunak gratis? Pilihan Anda
 points_free_p1: "Paket dalam distribusi dibagi menjadi repositori gratis dan\ntidak
@@ -132,19 +133,19 @@ points_welcoming_p1: "Kami mencoba yang terbaik untuk menyenangkan komunitas, da
   kami hanya bisa membuat ini\nterjadi ketika komunitas vokal tentang apa yang mereka
   butuhkan. Itu sebabnya kami\nmemastikan berkontribusi semudah mungkin.\n"
 snapper: Sistemnya rusak? Tidak masalah lagi
-snapper_p1: "Fitur Sistem Berkas Snapshot membuat sistem berkas Anda tetap terkendali\n
-  memiliki pencadangan berkelanjutan yang dilakukan secara otomatis saat memasang\n
-  perangkat lunak dan pemutakhiran. Cukup boot dari snapshot sebelumnya dan bawa\n
-  sistem Anda ke keadaan kerja dalam hitungan menit.\n"
+snapper_p1: "Fitur Sistem Berkas Snapshot membuat sistem berkas Anda tetap terkendali\n\
+  \ memiliki pencadangan berkelanjutan yang dilakukan secara otomatis saat memasang\n\
+  \ perangkat lunak dan pemutakhiran. Cukup boot dari snapshot sebelumnya dan bawa\n\
+  \ sistem Anda ke keadaan kerja dalam hitungan menit.\n"
 software: Mendapatkan perangkat lunak tidak bisa lebih mudah
-software_p1: "Di antara kita, harus melalui setiap situs web untuk mendapatkan semua\n
-  perangkat lunak yang mungkin Anda butuhkan adalah banyak pekerjaan. Pusat perangkat
+software_p1: "Di antara kita, harus melalui setiap situs web untuk mendapatkan semua\n\
+  \ perangkat lunak yang mungkin Anda butuhkan adalah banyak pekerjaan. Pusat perangkat
   lunak daring\nmembuat cara ini lebih mudah, dengan menggabungkan perangkat lunak
   dari sejumlah besar\nsumber di satu tempat.\n"
 software_get: Dapatkan Perangkat Lunak
 transactional: Peladen Transaksional (Transactional Server)
-transactional_p1: "Pemasang sekarang mendukung peran sistem baru Peladen Transaksional,\n
-  yang merupakan hasil dari upaya openSUSE Kubic. Peran sistem ini memiliki\nfitur
+transactional_p1: "Pemasang sekarang mendukung peran sistem baru Peladen Transaksional,\n\
+  \ yang merupakan hasil dari upaya openSUSE Kubic. Peran sistem ini memiliki\nfitur
   sistem pemutakhiran baru yang menerapkan pemutakhiran secara atomik (sebagai\noperasi
   tunggal) dan membuatnya mudah untuk kembali jika \ndiperlukan. Fitur-fitur ini didasarkan
   pada perkakas manajemen paket\nbahwa semua distribusi SUSE dan openSUSE lainnya
@@ -164,8 +165,8 @@ yast_scanner: Pemindai
 yast_sound: Suara
 yast_software: Perangkat Lunak
 zypper: Zypper, manajer paket favorit baru Anda
-zypper_p1: "Ini cepat dan mudah dipelajari. Menyediakan zypper-apt, sebuah lapisan\n
-  kompatibilitas untuk penggunaan dengan perintah apt dan apt-get. Hal ini didasarkan
+zypper_p1: "Ini cepat dan mudah dipelajari. Menyediakan zypper-apt, sebuah lapisan\n\
+  \ kompatibilitas untuk penggunaan dengan perintah apt dan apt-get. Hal ini didasarkan
   pada libsolv,\nyang menjamin kecepatan dan penyelesaian\ndependensi. Antarmukanya
   jelas dan berwarna tepat, untuk\nkemudahan membaca. Ini sempurna, apa lagi yang
   bisa dikatakan?\n"
@@ -267,10 +268,10 @@ MicroOS_features:
   idea:
     name: Filosofi
     description: "### Dapat diprediksi\n* Tidak diubah selama runtime\n* Akan menjalankan
-      artefak yang sama secara konsisten di setiap boot\n\n### Dapat diskalakan\n
-      * Menghilangkan upaya dalam mengkonfigurasi instance individual selama runtime\n
-      * Dapat diluncurkan berulang kali dengan mudah dengan hasil yang dapat diprediksi\n
-      \n### Dapat diandalkan\n* Pemulihan otomatis dari pemutakhiran yang salah\n"
+      artefak yang sama secara konsisten di setiap boot\n\n### Dapat diskalakan\n\
+      \ * Menghilangkan upaya dalam mengkonfigurasi instance individual selama runtime\n\
+      \ * Dapat diluncurkan berulang kali dengan mudah dengan hasil yang dapat diprediksi\n\
+      \ \n### Dapat diandalkan\n* Pemulihan otomatis dari pemutakhiran yang salah\n"
   update:
     name: Pemutakhiran Atomik
     description: "### Pemutakhiran Transaksional\n\n#### Unik\nDengan menggunakan
@@ -287,8 +288,8 @@ MicroOS_features:
       penggunaan\n"
   work:
     name: Beban Kerja
-    description: "Aplikasi dipasang dalam kontainer alih-alih sistem berkas root:\n
-      * Terisolasi dari sistem berkas inti\n* Mengurangi kemampuan aplikasi jahat
+    description: "Aplikasi dipasang dalam kontainer alih-alih sistem berkas root:\n\
+      \ * Terisolasi dari sistem berkas inti\n* Mengurangi kemampuan aplikasi jahat
       yang membahayakan sistem\n* Pemasangan baru tanpa mulai ulang\n* Mutakhirkan
       dengan cara atomik yang mungkin (buat yang baru, bunuh yang lama)\n* Kembalikan
       dengan mudah\n"
@@ -455,6 +456,6 @@ leap_16_coming_soon: "Rilis publik Leap 16.0, penerus Leap 15.6, dapat diharapka
   untuk informasi lebih lanjut.\n"
 signature: Tanda tangan
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  adalah penginstal baru yang dapat digunakan untuk menginstal Leap 16 dan Tumbleweed.\n
-  Ada rencana untuk mendukung instalasi secara luring di Agama. Media instalasi lain
-  seperti citra instalasi mandiri akan ditambahkan kemudian.\n"
+  adalah penginstal baru yang dapat digunakan untuk menginstal Leap 16 dan Tumbleweed.\n\
+  \ Ada rencana untuk mendukung instalasi secara luring di Agama. Media instalasi
+  lain seperti citra instalasi mandiri akan ditambahkan kemudian.\n"
