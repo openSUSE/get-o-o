@@ -11,8 +11,8 @@ vmware_image: Immagine VMware
 vmware_desc: Per eseguire macchine virtuali con VMware
 installation_images: Installazione
 ports_images: Port
-ports_info: "I port di openSUSE Leap su architetture diverse dal PC sono gestiti\n
-  da squadre di comunità separate, con risorse limitate.\n"
+ports_info: "I port di openSUSE Leap su architetture diverse dal PC sono gestiti\n\
+  \ da squadre di comunità separate, con risorse limitate.\n"
 jeos_images: JeOS
 gnome_cd: CD Live con GNOME
 kde_cd: CD Live con KDE
@@ -34,8 +34,8 @@ requirements_hd: Più di 40 GB di spazio libero su disco
 requirements_dvd: Lettore DVD o porta USB per il supporto d'installazione
 requirements_net: Rete
 tw_switch: Modi semplici per passare a openSUSE Tumbleweed
-tw_switch_p1: "Se si sta già eseguendo openSUSE è possibile aggiornare avviando da\n
-  DVD o da USB scegliendo di aggiornare, oppure si può effettuare un\n'Aggiornamento
+tw_switch_p1: "Se si sta già eseguendo openSUSE è possibile aggiornare avviando da\n\
+  \ DVD o da USB scegliendo di aggiornare, oppure si può effettuare un\n'Aggiornamento
   Online' con pochi comandi.\n"
 tw_switch_instructions: Istruzione per l'aggiornamento.
 tw_switch_instructions_link: https://it.opensuse.org/openSUSE:Passaggio_a_Tumbleweed
@@ -61,8 +61,8 @@ site_copyright: © 2025, Contributori di openSUSE
 learn_more: Per saperne di più
 pick_mirror: Scegli mirror
 checksum: Codice di controllo
-offline_desc: "Contiene un'ampia collezione di programmi per uso desktop o server.\n
-  Appropriato per installazione e aggiornamento.\n"
+offline_desc: "Contiene un'ampia collezione di programmi per uso desktop o server.\n\
+  \ Appropriato per installazione e aggiornamento.\n"
 network_image: Immagine di rete
 network_desc: "Scarica il sistema di installazione e tutti i pacchetti dai repository
   in internet.\nIdoneo per l'installazione o l'aggiornamento.\n"
@@ -75,8 +75,8 @@ openstack_desc: Per eseguire macchine virtuali in OpenStack
 live_images: Live
 choosing_media: Scelta del supporto da scaricare
 choosing_media_p1: "Tipicamente si raccomanda l'immagine offline, in quanto contiene
-  la maggior parte\ndei pacchetti disponibili nella distribuzione e non richiede una\n
-  connessione di rete durante l'installazione.\n"
+  la maggior parte\ndei pacchetti disponibili nella distribuzione e non richiede una\n\
+  \ connessione di rete durante l'installazione.\n"
 choosing_media_p2: "L'immagine di rete è raccomandata per gli utenti che hanno connessioni
   internet\na banda limitata, in quanto verranno scaricati solo i pacchetti per cui
   viene\nrichiesta l'installazione, con una dimensione probabilmente molto\nminore
@@ -98,13 +98,13 @@ verify_download_p3: "Per assicurare l'integrità del file scaricato si può util
 verify_download_help: Come ulteriore aiuto sulla verifica dello scaricamento, leggere
 verify_download_checksums_help: Aiuto sui codici di controllo
 desktops_p1: "Il processo di contribuzione a openSUSE autorizza lo sviluppo del desktop
-  per\ntutti, quindi è possibile scegliere il preferito nel programma d'installazione.\n
-  Disponiamo attivamente di tre ambienti desktop, e offriamo ancora di più nella \n
-  visualizzazione estesa del software all'interno del programma di installazione.\n"
+  per\ntutti, quindi è possibile scegliere il preferito nel programma d'installazione.\n\
+  \ Disponiamo attivamente di tre ambienti desktop, e offriamo ancora di più nella\
+  \ \n visualizzazione estesa del software all'interno del programma di installazione.\n"
 installation: Installalo come vuoi
 points_free_p1: "I pacchetti nella distribuzione sono divisi in repository liberi
-  e in altri\nnon liberi. Non si vogliono usare i pacchetti non liberi? Si può disabilitare\n
-  facilmente i repository non liberi. È una scelta dell'utente, non la nostra.\n"
+  e in altri\nnon liberi. Non si vogliono usare i pacchetti non liberi? Si può disabilitare\n\
+  \ facilmente i repository non liberi. È una scelta dell'utente, non la nostra.\n"
 snapper: Il sistema è danneggiato? Non è più un problema
 snapper_p1: "La funzionalità di istantanee del file system tiene sotto controollo
   il file system,\ncreando automaticamente dei backup quando si installa del software
@@ -172,20 +172,20 @@ points_transparent_p1: "Dall'inizio alla fine, tutti i suoi sorgenti e gli scrip
 points_welcoming_p1: "Facciamo del nostro meglio per accontentare la comunità, ma
   questo\naccade se la comunità dice di cosa ha bisogno. Ecco perché\ngarantiamo che
   contribuire sia il più semplice possibile.\n"
-software_p1: "Detto fra di noi, dover andare in ogni sito per ottenere tutto il software\n
-  di cui si potrebbe aver bisogno richiede un gran lavoro. Il centro\nsoftware online
+software_p1: "Detto fra di noi, dover andare in ogni sito per ottenere tutto il software\n\
+  \ di cui si potrebbe aver bisogno richiede un gran lavoro. Il centro\nsoftware online
   rende tutto questo molto più semplice, incorporando\nin un unico posto il software
   da una gran varietà di sorgenti.\n"
 yast: Yast, la scelta migliore per gli utenti ~~esperti~~
 yast_p1: "Uno dei migliori strumenti di configurazione del sistema aiuta te, l'utente,
-  a\nconfigurare ogni singolo aspetto del tuo sistema. Non è più necessario passare\n
-  attraverso una pletora di script di configurazione, oppure immettere degli\nequivoci
+  a\nconfigurare ogni singolo aspetto del tuo sistema. Non è più necessario passare\n\
+  \ attraverso una pletora di script di configurazione, oppure immettere degli\nequivoci
   comandi per ottenere la configurazione di sistema desiderata.\n"
-zypper_p1: "È veloce e semplice da imparare. Fornisce zypper-apt, un livello di\n
-  compatibilità per l'uso con i comandi apt e apt-get. È basato su libsolv,\nche garantisce
-  velocità e risoluzione riproducibile delle dipendenze.\nL'interfaccia è chiara e
-  opportunamente colorata, per facilitarne\nla lettura. È perfetto, cos'altro si potrebbe
-  dire?\n"
+zypper_p1: "È veloce e semplice da imparare. Fornisce zypper-apt, un livello di\n\
+  \ compatibilità per l'uso con i comandi apt e apt-get. È basato su libsolv,\nche
+  garantisce velocità e risoluzione riproducibile delle dipendenze.\nL'interfaccia
+  è chiara e opportunamente colorata, per facilitarne\nla lettura. È perfetto, cos'altro
+  si potrebbe dire?\n"
 desktop_p1: "Le due distribuzioni per dominarle tutte (ora in verde!)\n"
 leap_switch_instructions_link: https://it.opensuse.org/SDB:Aggiornamento_del_sistema_ad_una_nuova_versione
 upgrade_table_windows_dvd_link: https://it.opensuse.org/SDB:Aiuto_per_lo_scaricamento#Usando_Microsoft_Windows
@@ -291,15 +291,16 @@ MicroOS_features:
   idea:
     name: Filosofia
     description: "### È prevedibile\n* Non viene alterato durante l'esecuzione\n*
-      Eseguirà gli stessi artefatti in modo coerente ad ogni avvio\n\n### È scalabile\n
-      * Elimina gli sforzi di configurazione delle singole istanze durante il runtime\n
-      * Può essere facilmente implementato ripetutamente con risultati prevedibili\n
-      \n### È affidabile\n* Recupero automatico da aggiornamenti difettosi\n"
+      Eseguirà gli stessi artefatti in modo coerente ad ogni avvio\n\n### È scalabile\n\
+      \ * Elimina gli sforzi di configurazione delle singole istanze durante il runtime\n\
+      \ * Può essere facilmente implementato ripetutamente con risultati prevedibili\n\
+      \ \n### È affidabile\n* Recupero automatico da aggiornamenti difettosi\n"
   tool:
     name: Debug
-    description: "### Container Toolbox per il Debug\n* Avvia un container privilegiato\n
-      * Filesystem root disponibile sotto `/media/root`\n* zypper per installare gli
-      strumenti necessari, disponibili senza riavviare\n* Persistente tra gli utilizzi\n"
+    description: "### Container Toolbox per il Debug\n* Avvia un container privilegiato\n\
+      \ * Filesystem root disponibile sotto `/media/root`\n* zypper per installare
+      gli strumenti necessari, disponibili senza riavviare\n* Persistente tra gli
+      utilizzi\n"
   key:
     description: "* Ottieni gli aggiornamenti tramite HTTPS\n* I pacchetti e i repository
       sono firmati dal nostro sistema di build\n* I pacchetti sono verificati\n* Nessun
@@ -320,17 +321,17 @@ MicroOS_features:
     name: Carichi di lavoro
     description: "Le applicazioni vengono installate in container anziché nel filesystem
       root:\n• Isolate dal filesystem principale\n• Ridotta capacità per le applicazioni
-      malevole di compromettere il sistema\n• Nuova installazione senza riavvio\n
-      • Aggiornamento atomico possibile (crea nuovo, elimina vecchio)\n• Rollback
+      malevole di compromettere il sistema\n• Nuova installazione senza riavvio\n\
+      \ • Aggiornamento atomico possibile (crea nuovo, elimina vecchio)\n• Rollback
       semplificato\n"
 armv7l: Server, desktop, portatili e schede UEFI Arm a 32 bit (armv7l)
 aarch64: Server, desktop, portatili e schede UEFI Arm a 64 bit (aarch64)
 transactional_p1: "Il programma d'installazione adesso supporta un nuovo ruolo di
   Transactional\nServer, che è il risultato degli sforzi per openSUSE Kubic. Questo
-  ruolo di\nsistema presenta un nuovo sistema di aggiornamento, che applica gli\n
-  aggiornamenti in modo atomico (come una singola operazione) e li rende semplici\n
-  da ripristinare in caso di necessità. Queste funzionalità sono basate sugli\nstrumenti
-  di gestione dei pacchetti su cui fanno affidamento tutte le altre\ndistribuzioni
+  ruolo di\nsistema presenta un nuovo sistema di aggiornamento, che applica gli\n\
+  \ aggiornamenti in modo atomico (come una singola operazione) e li rende semplici\n\
+  \ da ripristinare in caso di necessità. Queste funzionalità sono basate sugli\n\
+  strumenti di gestione dei pacchetti su cui fanno affidamento tutte le altre\ndistribuzioni
   di SUSE e di openSUSE. Questo significa che la maggior parte\ndei pacchetti RPM
   che funzionano con gli altri ruoli di sistema delle\ndistribuzioni di openSUSE funziona
   anche col ruolo di Transactional Server.\n"
@@ -354,21 +355,21 @@ rpi_ch_image: RaspberryPi Container Host
 server_microos_p1: Per applicazioni server a scopo singolo
 server_microos_p2: Progettato per ospitare carichi di lavoro di container con amministrazione
   e patch automatizzate
-live_info: "Si deve essere consapevoli delle seguenti limitazioni delle immagini live:\n
-  * non dovrebbero essere usate per installazioni o per aggiornamenti. Utilizzare
+live_info: "Si deve essere consapevoli delle seguenti limitazioni delle immagini live:\n\
+  \ * non dovrebbero essere usate per installazioni o per aggiornamenti. Utilizzare
   piuttosto il supporto per l'installazione;\n* hanno un numero di pacchetti limitato,
   oltre a una selezione di driver limitata. Non dovrebbero quindi essere considerate
-  una buona scelta per vedere se la distribuzione funziona o meno sull'hardware;\n
-  * Kernel e initrd non possono essere aggiornati, quindi non dovrebbero essere usate
-  come un'installazione persistente.\n"
+  una buona scelta per vedere se la distribuzione funziona o meno sull'hardware;\n\
+  \ * Kernel e initrd non possono essere aggiornati, quindi non dovrebbero essere
+  usate come un'installazione persistente.\n"
 preconfigured_image: Immagine preconfigurata (raw)
 preconfigured_rt_image: Immagine preconfigurata RealTime (raw)
 selfinstalling_images: Immagini auto installanti
 selfinstall_image: Immagine auto installante
 selfinstall_rt_image: Immagine auto installante RealTime
 offline_updated_image: Immagine offline aggiornata
-offline_updated_desc: "Immagine d'installazione offline con gli ultimi aggiornamenti.\n
-  Adatta per installazione o upgrade.\n"
+offline_updated_desc: "Immagine d'installazione offline con gli ultimi aggiornamenti.\n\
+  \ Adatta per installazione o upgrade.\n"
 minimal_vm_images: Macchina virtuale minima
 server_aarch64: Server UEFI Arm a 64 bit e schede (aarch64)
 minimal_vm_info: Simile alle immagini SUSE Linux Enterprise Server Minimal-VM. Per
@@ -379,8 +380,8 @@ cloud_minimal_desc: Immagine KVM e Xen con cloud-init
 ppc64: Server PowerPC, big-endian (ppc64)
 server_x86_64: Server Intel o AMD a 64 bit (x86_64)
 choosing_media_micro_p2: "Leap Micro non include più un installer tradizionale; gli
-  utenti devono utilizzare i supporti di installazione Self-install.\nLa nuova \"
-  Packages Image\" è un semplice archivio offline del repository RPM di Leap Micro,
+  utenti devono utilizzare i supporti di installazione Self-install.\nLa nuova \"\
+  \ Packages Image\" è un semplice archivio offline del repository RPM di Leap Micro,
   pensato per ambienti isolati.\n"
 preconfigured_qcow_image: Immagine preconfigurata (qcow)
 signature: Firma
@@ -443,12 +444,12 @@ leap_micro_ovw_desc_p3: Prova Leap Micro in VM che girano su <a href="https://ww
 leap_micro_ovw_video_desc: Demo di installazione di Leap Micro 6.1 con crittografia
   completa del disco e autenticazione a due fattori in Cockpit.
 leap_16_coming_soon: "Il rilascio pubblico di Leap 16.0, successore di Leap 15.6,
-  è previsto per l’autunno 2025. Non è previsto alcun rilascio di Leap 15.7.<br/>\n
-  Consulta regolarmente la nostra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  è previsto per l’autunno 2025. Non è previsto alcun rilascio di Leap 15.7.<br/>\n\
+  \ Consulta regolarmente la nostra <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >roadmap</a> e il sito <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   per rimanere aggiornato.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  è il nuovo programma di installazione utilizzabile per installare Leap 16 e Tumbleweed.\n
-  È prevista l’introduzione del supporto per l’installazione offline in Agama, mentre
+  è il nuovo programma di installazione utilizzabile per installare Leap 16 e Tumbleweed.\n\
+  \ È prevista l’introduzione del supporto per l’installazione offline in Agama, mentre
   altri tipi di supporti di installazione, come l’immagine self-install, saranno aggiunti
   successivamente.\n"
