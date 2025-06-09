@@ -91,9 +91,9 @@ site_copyright: © 2024 contribuidores de openSUSE
 site_description: Aprenda acerca das distribucións openSUSE e descárgueas de balde
 site_title_short: Obter
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-leap_switch_p1: "Se xa está a usar openSUSE, pode actualizar arrincando dende o DVD/USB\n
-  e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cunhas\n
-  poucas ordes.\n"
+leap_switch_p1: "Se xa está a usar openSUSE, pode actualizar arrincando dende o DVD/USB\n\
+  \ e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cunhas\n\
+  \ poucas ordes.\n"
 leap_switch_instructions: Instrucións para a actualización con conexión.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_min: Mínimo
@@ -128,15 +128,15 @@ microos_desc: SO baseado en openSUSE Tumbleweed que proporciona Actualizacións 
 choosing_media_p1: "A imaxe sen conexión é a recomendada habitualmente xa que contén
   a maioría dos\npaquetes dispoñibles na distribución e non require de conexión de
   rede\ndurante a instalación.\n"
-choosing_media_p2: "A Imaxe de Rede recoméndase para usuarios que teñen limitacións\n
-  no espacio de banda das súas conexións a internet, xa que só descargará\nos paquetes
+choosing_media_p2: "A Imaxe de Rede recoméndase para usuarios que teñen limitacións\n\
+  \ no espacio de banda das súas conexións a internet, xa que só descargará\nos paquetes
   que se seleccionen para instalar, o que será seguramente\nmoito menos de 4,7 GB.\n"
 requirements_hdd_swap_info: espacio de intercambio inhabilitado para permitir que
   kubernetes traballe adecuadamente
 verify_download_checksums_help_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Sumas_de_verificaci.C3.B3n
-tw_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o DVD/USB\n
-  e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cuns\n
-  poucos comandos\n"
+tw_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o DVD/USB\n\
+  \ e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cuns\n\
+  \ poucos comandos\n"
 tw_switch_instructions: Instrucións da Actualización.
 upgrade_table_windows_dvd_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Microsoft_Windows_2
 verify_download_p3: "Para asegurar a integridade do ficheiro descargado pode usar
@@ -145,14 +145,14 @@ verify_download_p3: "Para asegurar a integridade do ficheiro descargado pode usa
 verify_download_help: Para ter máis axuda de como verificar a túa descarga, por favor
   le
 offline_updated_image: Imaxe actualizada sen conexión
-offline_updated_desc: "Imaxe de instalación sen conexión coas últimas actualizacións.\n
-  Axeitada para instalación ou actualización.\n"
+offline_updated_desc: "Imaxe de instalación sen conexión coas últimas actualizacións.\n\
+  \ Axeitada para instalación ou actualización.\n"
 selfinstalling_ch_image: Host de contedor instalable automaticamente
 selfinstalling_k3s_image: Host k3s de instalación automática
 signature: Sinatura
 leap_16_coming_soon: "A publicación de Leap 16.0, sucesora de Leap 15.6, está prevista
-  para o outono do 2025. Non está previsto o desenvolvemento de Leap 15.7.<br/>\n
-  Consulte periodicamente as actualizacións da nosa <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  para o outono do 2025. Non está previsto o desenvolvemento de Leap 15.7.<br/>\n\
+  \ Consulte periodicamente as actualizacións da nosa <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >folla de ruta</a> ye<a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
   para máis información.\n"
 selfinstalling_images: Imaxes de instalacións automáticas
