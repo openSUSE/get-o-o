@@ -109,9 +109,9 @@ software: 软件获取，简单便捷
 software_p1: "对于我们每一个人，访问各种网站来获取全部需要的软件都是件很\n麻烦的工作。而有了在线软件中心，能够将众多来源的软件整合到\n一块，事情就变得容易多了。\n"
 software_get: 获取软件
 transactional: 事务性服务器
-transactional_p1: "安装程序现在支持新的系统角色——事务性服务器，这是 openSUSE Kubic\n努力的结果。这个系统角色搭载新的更新系统，（当作单个操作）原子化\n
-  地应用更新，并使其在需要时易于还原。这些功能基于所有其他 SUSE 和\nopenSUSE 发行版都依赖的软件包管理工具。这表示 openSUSE 发行版的其\n
-  他系统角色上的绝大多数 RPM 软件包，都能在事务性服务器上工作。\n"
+transactional_p1: "安装程序现在支持新的系统角色——事务性服务器，这是 openSUSE Kubic\n努力的结果。这个系统角色搭载新的更新系统，（当作单个操作）原子化\n\
+  \ 地应用更新，并使其在需要时易于还原。这些功能基于所有其他 SUSE 和\nopenSUSE 发行版都依赖的软件包管理工具。这表示 openSUSE 发行版的其\n\
+  \ 他系统角色上的绝大多数 RPM 软件包，都能在事务性服务器上工作。\n"
 yast: YaST，~~超级~~用户的最佳选择
 yast_p1: "最棒的系统配置工具之一，可以帮助作为用户的你，设置系统的方方面面。\n你不用再执行过多的配置脚本或者输入可疑的命令，来设置系统成为你需\n要的样子。\n"
 yast_firewall: 防火墙
@@ -189,17 +189,17 @@ Tumbleweed_features:
     name: 游戏
 MicroOS_features:
   tool:
-    description: "### 调试工具箱容器\n* 启动特权容器\n* 根文件系统位于 `/media/root` 目录下\n* zypper 安装所需工具无需重启\n
-      * 使用时不用暂停容器\n"
+    description: "### 调试工具箱容器\n* 启动特权容器\n* 根文件系统位于 `/media/root` 目录下\n* zypper 安装所需工具无需重启\n\
+      \ * 使用时不用暂停容器\n"
     name: 调试功能
   update:
-    description: "###  事务性更新\n\n#### 独特\n通过 Btrfs 和快照，MicroOS 可以非常高效的方式存储文件系统的历史。\n
-      所有在 `/etc` 中的配置文件都包含在快照和回滚内。\n\n#### 灵活\n* 无需新的包格式，使用标准的 openSUSE RPM 包\n* 无空间大小限制，不论分区或操作系统\n
-      * 易于提升\n"
+    description: "###  事务性更新\n\n#### 独特\n通过 Btrfs 和快照，MicroOS 可以非常高效的方式存储文件系统的历史。\n\
+      \ 所有在 `/etc` 中的配置文件都包含在快照和回滚内。\n\n#### 灵活\n* 无需新的包格式，使用标准的 openSUSE RPM 包\n\
+      * 无空间大小限制，不论分区或操作系统\n * 易于提升\n"
     name: 原子更新
   work:
-    description: "应用程序将安装在容器内，而不是根文件系统：\n* 与核心文件系统隔离\n* 降低恶意程序危害系统的能力\n* 安装新容器无需重启\n
-      * 可以原子方式更新（新建容器后再结束旧容器）\n* 易于回滚\n"
+    description: "应用程序将安装在容器内，而不是根文件系统：\n* 与核心文件系统隔离\n* 降低恶意程序危害系统的能力\n* 安装新容器无需重启\n\
+      \ * 可以原子方式更新（新建容器后再结束旧容器）\n* 易于回滚\n"
     name: 工作负载
   key:
     description: "* 通过 HTTPS 获取更新\n* 软件包和仓库由我们的构建系统签名\n* 软件包已验证\n* 依赖冲突时不进行更新\n* 不浪费空间：更新不成功时将删掉文件系统快照\n"
@@ -208,8 +208,8 @@ MicroOS_features:
     description: "### MicroOS 是个不可变的操作系统，可轻松回滚\n* 不可变：磁盘上不会有更改\n* 可重启到旧的 BTRFS 快照来回滚\n"
     name: 回滚
   idea:
-    description: "### 可预测\n* 运行期间不会更改\n* 每次启动运行的项目都将一致\n\n### 可扩展\n* 运行期间无需费力配置每个实例\n
-      * 可以轻松地重复部署并可预测效果\n\n### 可靠\n* 可从错误更新中自动恢复\n"
+    description: "### 可预测\n* 运行期间不会更改\n* 每次启动运行的项目都将一致\n\n### 可扩展\n* 运行期间无需费力配置每个实例\n\
+      \ * 可以轻松地重复部署并可预测效果\n\n### 可靠\n* 可从错误更新中自动恢复\n"
     name: 哲学
 alternative_downloads_desc: 我们也提供 $options 映像。请查看 $alternative_downloads！
 alternative_downloads: 其他下载
@@ -254,19 +254,19 @@ selfinstall_image: 自安装映像
 selfinstall_rt_image: 自安装的实时映像
 preconfigured_image: 预配置映像 (原始)
 preconfigured_rt_image: 预配置的实时映像 (原始)
-live_info: "请注意 Live 映像的以下限制：\n* 它们不应用于安装或升级。请改用安装媒体\n* 它们所含的软件包和驱动有限，因而不能准确反映该发行版能否在你的硬件上正常工作\n
-  * 内核和 initrd 不能更新，所以它们不应作为永久安装使用\n"
+live_info: "请注意 Live 映像的以下限制：\n* 它们不应用于安装或升级。请改用安装媒体\n* 它们所含的软件包和驱动有限，因而不能准确反映该发行版能否在你的硬件上正常工作\n\
+  \ * 内核和 initrd 不能更新，所以它们不应作为永久安装使用\n"
 selfinstalling_images: 自安装映像
 selfinstalling_ch_image: 自安装容器主机
 selfinstalling_k3s_image: 自安装 k3s 主机
 ppc64: PowerPC 服务器，大端（ppc64）
 offline_updated_image: 已更新的离线映像
 offline_updated_desc: "包含最新更新的离线安装映像。\n适用于安装或升级。\n"
-choosing_media_micro_p1: "采用 USB 或 DVD 进行安装的用户应首选新的自安装映像。\n简易的自安装向导将会把预配置的映像转储到驱动器，然后将分区扩大到整个磁盘的大小。\n
-  <br>\n使用树莓派和其他类似无 USB 启动支持设备的用户可直接将预配置映像写入 SD 卡。\n寻求对部署过程有更多控制的用户，建议使用 <a href=\"\
+choosing_media_micro_p1: "采用 USB 或 DVD 进行安装的用户应首选新的自安装映像。\n简易的自安装向导将会把预配置的映像转储到驱动器，然后将分区扩大到整个磁盘的大小。\n\
+  \ <br>\n使用树莓派和其他类似无 USB 启动支持设备的用户可直接将预配置映像写入 SD 卡。\n寻求对部署过程有更多控制的用户，建议使用 <a href=\"\
   https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion 功能</a>。\n<br>\n基于
-  Combustion 功能进行部署的演示可见<a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">此处</a>。\n
-  <br>\n对于未使用 Combustion 功能进行系统配置的用户，首次启动时 jeos-firstboot 向导将会显示。\n"
+  Combustion 功能进行部署的演示可见<a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">此处</a>。\n\
+  \ <br>\n对于未使用 Combustion 功能进行系统配置的用户，首次启动时 jeos-firstboot 向导将会显示。\n"
 choosing_media_micro_p2: "Leap Micro 不再附带传统安装程序，用户应改为使用自安装介质。\n新的软件包映像仅为 Leap Micro
   rpm 软件源的离线转储，适用于具备网络隔离环境的用户。\n"
 minimal_vm_images: 最小化虚拟机
