@@ -160,16 +160,16 @@ MicroOS_features:
   update:
     name: 原子更新
     description: "### 交易型更新\n\n#### 獨一無二的\n藉由 btrfs 的快照功能，MicroOS 能夠以非常省空間的方式儲存檔案系統的修改歷史。在
-      `/etc` 下的所有組態檔都是快照與回復的一部分。\n\n#### 具彈性的\n* 不需要新的套件格式，只要使用標準的 openSUSE RPM 即可\n
-      * 沒有大小的限制，不論對分割區或是作業系統皆然\n* 容易改進\n"
+      `/etc` 下的所有組態檔都是快照與回復的一部分。\n\n#### 具彈性的\n* 不需要新的套件格式，只要使用標準的 openSUSE RPM 即可\n\
+      \ * 沒有大小的限制，不論對分割區或是作業系統皆然\n* 容易改進\n"
   idea:
-    description: "### 可預測的\n* 在執行時期不會更改\n* 每次開機都會執行相同的組合\n\n### 可擴展的\n* 在執行時期，不需花費精力設定每個實體\n
-      * 能夠容易地重覆佈署，並產出可預測的結果\n\n### 可靠的\n* 當更新失敗時，能夠自動回復\n"
+    description: "### 可預測的\n* 在執行時期不會更改\n* 每次開機都會執行相同的組合\n\n### 可擴展的\n* 在執行時期，不需花費精力設定每個實體\n\
+      \ * 能夠容易地重覆佈署，並產出可預測的結果\n\n### 可靠的\n* 當更新失敗時，能夠自動回復\n"
     name: 哲學
   key:
     name: 安全地更新
-    description: "* 透過 HTTPS 獲取您的更新\n* 套件與套件庫皆經過我們的建構系統簽章\n* 套件經過驗證\n* 若發生相依性衝突，更新將不會被執行\n
-      * 不浪費空間：若更新失敗，檔案系統快照會被刪除\n"
+    description: "* 透過 HTTPS 獲取您的更新\n* 套件與套件庫皆經過我們的建構系統簽章\n* 套件經過驗證\n* 若發生相依性衝突，更新將不會被執行\n\
+      \ * 不浪費空間：若更新失敗，檔案系統快照會被刪除\n"
   shield:
     description: "### MicroOS 是一個不可變更的作業系統，且回復相當容易\n* 不可變更：沒有修改會寫入磁碟\n* 從舊的 BTRFS
       快照開機來進行回復\n"
@@ -179,8 +179,8 @@ MicroOS_features:
       zypper 安裝需要的工具，不需重開機\n* 使用時做的修改會被保留\n"
     name: 除錯
   work:
-    description: "應用程式安裝在容器內，而非 root 檔案系統：\n* 和核心檔案系統隔離\n* 降低惡意應用程式破壞系統的能力\n* 新安裝不需重開機\n
-      * 能夠以原子方式更新 (建立新容器，移除舊容器)\n* 容易回復\n"
+    description: "應用程式安裝在容器內，而非 root 檔案系統：\n* 和核心檔案系統隔離\n* 降低惡意應用程式破壞系統的能力\n* 新安裝不需重開機\n\
+      \ * 能夠以原子方式更新 (建立新容器，移除舊容器)\n* 容易回復\n"
     name: 工作負載
 alternative_downloads_desc: 我們也提供 $options 映像檔。請查看 $alternative_downloads！
 alternative_downloads: 其他下載
@@ -263,8 +263,8 @@ server_x86_64: Intel 或 AMD 64 位元伺服器 (x86_64)
 minimal_vm_info: 與 SUSE Linux Enterprise Server 最小虛擬機器映像檔相似。請造訪 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   wiki page</a> 以了解 Arm JeOS 映像檔。
 cloud_minimal_desc: 包含 cloud-init 的最小化 KVM 與 Xen 映像檔
-live_info: "請注意 live 映像檔的以下限制：\n* live 映像檔無法使用於安裝或升級。請改用安裝媒體進行安裝或升級。\n* live 映像檔只收錄了有限的套件與驅動程式，是故不能夠當作發行版能否在您的硬體上運作的準確判斷依據。\n
-  * live 映像檔的內核與 initrd 無法更新，是故它們不應該作為永久安裝使用。\n"
+live_info: "請注意 live 映像檔的以下限制：\n* live 映像檔無法使用於安裝或升級。請改用安裝媒體進行安裝或升級。\n* live 映像檔只收錄了有限的套件與驅動程式，是故不能夠當作發行版能否在您的硬體上運作的準確判斷依據。\n\
+  \ * live 映像檔的內核與 initrd 無法更新，是故它們不應該作為永久安裝使用。\n"
 choosing_media_micro_p2: "Leap Micro 不再提供傳統的安裝程式，使用者必須使用 Self-install 媒體。\n新的 軟體包
   只是 Leap Micro rpm 儲存庫的離線轉儲，用於那些有獨立環境的用戶。\n"
 preconfigured_rt_image: 預先設定的即時影像 (raw)
@@ -274,8 +274,8 @@ signature: 簽名
 encrypted_image: 完全加密的磁碟映像 (raw)
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   是新的安裝程式，可用於安裝 Leap 16 和 Tumbleweed。\n有計劃在 Agama 中支援離線安裝。其他的安裝媒介，如自動安裝映像檔，將在稍後加入。\n"
-choosing_media_micro_p1: "新的自動安裝映像檔是 USB 或 DVD 安裝的最佳選擇。\n簡單的自我安裝精靈會將預先設定好的映像檔儲存到硬碟機，並將磁碟分割擴大到磁碟大小。\n
-  <br>\n使用 Raspberry Pi 及類似產品且不支援 USB 開機的使用者，可以直接將預設映像檔寫入 SD 卡。\n若使用者希望對部署進行更多控制，建議使用
-  <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>。\n
-  <br>\n您可以在<a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">這裡</a>看到基於燃燒的部署示範。\n
-  <br>\njeos-firstboot 會迎接那些沒有使用 Combustion 設定系統的使用者。\n"
+choosing_media_micro_p1: "新的自動安裝映像檔是 USB 或 DVD 安裝的最佳選擇。\n簡單的自我安裝精靈會將預先設定好的映像檔儲存到硬碟機，並將磁碟分割擴大到磁碟大小。\n\
+  \ <br>\n使用 Raspberry Pi 及類似產品且不支援 USB 開機的使用者，可以直接將預設映像檔寫入 SD 卡。\n若使用者希望對部署進行更多控制，建議使用
+  <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>。\n\
+  \ <br>\n您可以在<a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">這裡</a>看到基於燃燒的部署示範。\n\
+  \ <br>\njeos-firstboot 會迎接那些沒有使用 Combustion 設定系統的使用者。\n"
