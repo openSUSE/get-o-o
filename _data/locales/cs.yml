@@ -15,8 +15,8 @@ pick_mirror: Zvolit zrcadlo
 checksum: Kontrolní součet
 torrent_file: Soubor Torrent
 offline_image: Offline obraz
-offline_desc: "Obsahuje velkou sbírku softwaru pro použití na ploše nebo serveru.\n
-  Vhodné pro instalaci nebo upgrade.\n"
+offline_desc: "Obsahuje velkou sbírku softwaru pro použití na ploše nebo serveru.\n\
+  \ Vhodné pro instalaci nebo upgrade.\n"
 network_image: Síťový obraz
 network_desc: "Stáhne instalační systém a všechny balíčky z online\núložiště. Vhodné
   pro instalaci nebo upgrade.\n"
@@ -47,10 +47,10 @@ tumbleweed_live_info: "Uvědomte si prosím následující omezení živých obr
 microos_desc: OS založený na openSUSE Tumbleweed poskytující transakční (nedělitelné)
   aktualizace na kořenovém souborovém systému btrfs jen pro čtení
 choosing_media: Výběr média ke stažení
-choosing_media_p1: "Typicky se doporučuje DVD / USB Stick, protože obsahuje většinu\n
-  balíčků dostupných v distribuci a nevyžaduje při instalaci síťové připojení.\n"
-choosing_media_p2: "Síťové CD/USB paměť se doporučuje uživatelům, kteří mají omezenou\n
-  šířku pásma připojení k internetu, protože pouze stáhne balíčky,\nkteré se rozhodnou
+choosing_media_p1: "Typicky se doporučuje DVD / USB Stick, protože obsahuje většinu\n\
+  \ balíčků dostupných v distribuci a nevyžaduje při instalaci síťové připojení.\n"
+choosing_media_p2: "Síťové CD/USB paměť se doporučuje uživatelům, kteří mají omezenou\n\
+  \ šířku pásma připojení k internetu, protože pouze stáhne balíčky,\nkteré se rozhodnou
   nainstalovat, což pravděpodobně bude výrazně\nméně než 4,7 GB.\n"
 documentation: Dokumentace
 documentation_startup_guide: Průvodce spuštěním openSUSE
@@ -59,8 +59,8 @@ documentation_license: Licence
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Úplná dokumentace
 leap_switch: Snadné způsoby přechodu na openSUSE Leap
-leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním systému\n
-  z DVD/USB a výběrem upgrade, nebo proveďte 'Online upgrade\"\nněkolika málo příkazy.\n"
+leap_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním systému\n\
+  \ z DVD/USB a výběrem upgrade, nebo proveďte 'Online upgrade\"\nněkolika málo příkazy.\n"
 leap_switch_instructions: Pokyny k upgradu online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements: Požadavky na systém
@@ -70,8 +70,8 @@ requirements_hd: Více než 40 GB volného místa na pevném disku
 requirements_dvd: Jednotka DVD nebo USB port pro instalační médium
 requirements_net: Síť
 tw_switch: Snadné způsoby přechodu na openSUSE Tumbleweed
-tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním systému\n
-  z DVD/USB a výběrem upgrade, nebo proveďte „online upgrade“\nněkolika málo příkazy.\n"
+tw_switch_p1: "Pokud již používáte openSUSE, můžete upgradovat spuštěním systému\n\
+  \ z DVD/USB a výběrem upgrade, nebo proveďte „online upgrade“\nněkolika málo příkazy.\n"
 tw_switch_instructions: Pokyny k upgradu.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Ze starší verze nebo jiné distribuce Linuxu
@@ -90,9 +90,9 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: Jak vytvořit zaváděcí USB paměť v OS X.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Před použitím ověřte ssprávnost staženého obrazu
-verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n
-  si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a správný
-  soubor ISO, který jste chtěli stáhnout.\n"
+verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n\
+  \ si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a
+  správný soubor ISO, který jste chtěli stáhnout.\n"
 verify_download_p2: "Ke každému obrazu ISO nabízíme soubor s kontrolním součtem SHA256
   a podpisový soubor s kryptografickým podpisem.\n"
 verify_download_p3: "Pro zajištění integrity staženého souboru můžete použít sha256sum
@@ -106,9 +106,9 @@ desktops_p1: "Příspěvkový systém openSUSE umožňuje vývoj desktopových s
   každého, takže si v instalátoru můžete vybrat svůj oblíbený. Aktivně\nnabízíme tři
   desktopová prostředí a ještě více v rozšířeném zobrazení\nsoftwaru v instalátoru.\n"
 installation: Instalujte ho, jak ho chcete mít
-installation_p1: "Proces instalace openSUSE Vám poskytuje všechny možnosti, které\n
-  byste mohli potřebovat. Chcete nainstalovat systém pomocí myši a\nklávesnice? Načtěte
-  instalační program v grafickém režimu. Nemáte myš\npo ruce? Aktivujte terminálový
+installation_p1: "Proces instalace openSUSE Vám poskytuje všechny možnosti, které\n\
+  \ byste mohli potřebovat. Chcete nainstalovat systém pomocí myši a\nklávesnice?
+  Načtěte instalační program v grafickém režimu. Nemáte myš\npo ruce? Aktivujte terminálový
   klient a instalujte systém pomocí příkazů.\nNemáte fyzický přístup ke stroji? Připojte
   se k instalačnímu programu\nna dálku a instalujte systém vzdáleně. Tak jednoduché
   to je.\n"
@@ -117,13 +117,13 @@ points_transparent_p1: "Od začátku do konce: každý balíček, který jde do 
   má\nvšechny své zdroje a sestavovací skripty otevřeně viditelné všem.\nPochybujete
   o zdroji? Stačí zkontrolovat službu sestavení.\n"
 points_free: Svobodný software? Vaše volba
-points_free_p1: "Balíčky v distribucích jsou ukládány buď do úložišť bezplatných,\n
-  nebo nesvobodných balíčků. Nechcete použít nesvobodné balíčky?\nMůžete snadno deaktivovat
-  nesvobodné úložiště. Je to Vaše volba.\n"
+points_free_p1: "Balíčky v distribucích jsou ukládány buď do úložišť bezplatných,\n\
+  \ nebo nesvobodných balíčků. Nechcete použít nesvobodné balíčky?\nMůžete snadno
+  deaktivovat nesvobodné úložiště. Je to Vaše volba.\n"
 points_welcoming: Vítáme příspěvky
 points_welcoming_p1: "Snažíme se ze všech sil potěšit komunitu a můžeme to dělat,
-  jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n
-  bylo co nejjednodušší.\n"
+  jen když\nnám komunita dá najevo, co potřebuje. Proto se snažíme, aby přispívání\n\
+  \ bylo co nejjednodušší.\n"
 preconfigured_image: Předkonfigurovaný obraz (raw)
 preconfigured_rt_image: Předkonfigurovaný RealTime obraz (raw)
 selfinstall_image: Samoinstalační obraz
@@ -139,8 +139,8 @@ software_p1: "Mezi námi, muset projít všechny webové stránky a získat vše
   usnadňuje tento způsob\nzařazením softwaru z mnoha zdrojů na jediné místo.\n"
 software_get: Získejte software
 transactional: Transakční server
-transactional_p1: "Instalační program nyní podporuje novou systémovou roli Transakční\n
-  server, která je výsledkem úsilí openSUSE Kubic. Tato role představuje\nnový aktualizační
+transactional_p1: "Instalační program nyní podporuje novou systémovou roli Transakční\n\
+  \ server, která je výsledkem úsilí openSUSE Kubic. Tato role představuje\nnový aktualizační
   systém, který pracuje atomicky (jako jediná operace)\na usnadňuje vrácení změn v
   případě neúspěchu. Funkce jsou založeny na\nnástrojích správy balíčků, na které
   se spoléhají všechny ostatní distribuce\nSUSE a openSUSE. To znamená, že drtivá
@@ -159,8 +159,8 @@ yast_scanner: Skener
 yast_sound: Zvuk
 yast_software: Software
 zypper: Zypper, váš nový a oblíbený správce balíčků
-zypper_p1: "Je rychlé a snadné se ho naučit. Poskytuje zypper-apt, kompatibilní\n
-  vrstvu pro použití s příkazy apt a apt-get. Je založen na libsolv,\ncož zaručuje
+zypper_p1: "Je rychlé a snadné se ho naučit. Poskytuje zypper-apt, kompatibilní\n\
+  \ vrstvu pro použití s příkazy apt a apt-get. Je založen na libsolv,\ncož zaručuje
   jak rychlost, tak reprodukovatelné řešení závislostí.\nRozhraní je jasné a vhodně
   barevné, například pro snadné čtení.\nJe perfektní, co dodat?\n"
 index: Distribuce openSUSE
@@ -275,8 +275,8 @@ choosing_media_micro_p1: "Nová samoinstalační bitová kopie je vhodnou volbou
   bitovou kopii a zvětší oddíl na velikost disku.\n<br>\nUživatelé s Raspberry Pi
   a podobnými zařízeními bez podpory USB-bootu mohou přímo zapsat předkonfigurovaný
   obraz na kartu SD.\nUživatelům, kteří chtějí mít větší kontrolu nad nasazením, doporučujeme
-  použít <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nUkázku nasazení na bázi Combustion si můžete prohlédnout <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
+  použít <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n\
+  \ <br>\nUkázku nasazení na bázi Combustion si můžete prohlédnout <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >zde</a>.\n<br>\nJeos-firstboot přivítá ty, kteří svůj systém nenakonfigurovali
   pomocí Combustion.\n"
 preconfigured_qcow_image: Předkonfigurovaný obraz (qcow)
@@ -293,10 +293,10 @@ MicroOS_features:
     name: Atomické aktualizace
     description: "### Transakční aktualizace\n\n#### Jedinečné \nPoužitím btrfs se
       snímky MicroOS používá prostorově velmi \núsporný způsob ukládání historie souborového
-      systému. Všechny konfigurační \nsoubory v `/etc` jsou součástí snapshotu a rollbacku.\n
-      \n#### Flexibilní\n* Není potřeba žádný nový formát balíčků, používají se standardní
-      openSUSE RPM\n* Žádné omezení velikosti pro oddíly ani pro operační systém\n
-      * Snadné vylepšení\n"
+      systému. Všechny konfigurační \nsoubory v `/etc` jsou součástí snapshotu a rollbacku.\n\
+      \ \n#### Flexibilní\n* Není potřeba žádný nový formát balíčků, používají se
+      standardní openSUSE RPM\n* Žádné omezení velikosti pro oddíly ani pro operační
+      systém\n * Snadné vylepšení\n"
   shield:
     name: Zpětná obnova
     description: "### MicroOS je neměnný operační systém, návrat je jednoduchý\n*
@@ -304,8 +304,8 @@ MicroOS_features:
       snímku BTRFS\n"
   tool:
     name: Ladění
-    description: "### Debugging Toolbox Container\n* Spustí privilegovaný kontejner\n
-      * Kořenový souborový systém je dostupný pod `/media/root`\n* zypper pro instalaci
+    description: "### Debugging Toolbox Container\n* Spustí privilegovaný kontejner\n\
+      \ * Kořenový souborový systém je dostupný pod `/media/root`\n* zypper pro instalaci
       potřebných nástrojů je dostupný bez restartu\n* Stav mezi použitími setrvává\n"
   key:
     name: Bezpečné aktualizace
@@ -317,8 +317,8 @@ MicroOS_features:
     name: Pracovní zátěž
     description: "Aplikace se instalují do kontejnerů, ne do kořenového souborového
       systému:\n* Jsou izolované od základního souborového systému\n* Snížená možnost
-      poškození systému škodlivými aplikacemi\n* Nová instalace bez restartu systému\n
-      * Aktualizace atomickým způsobem (vytvořit nový, zničit starý)\n* Snadný návrat
+      poškození systému škodlivými aplikacemi\n* Nová instalace bez restartu systému\n\
+      \ * Aktualizace atomickým způsobem (vytvořit nový, zničit starý)\n* Snadný návrat
       k předchozímu stavu.\n"
 Tumbleweed_features:
   update:
@@ -436,6 +436,6 @@ leap_16_coming_soon: "Veřejné vydání Leap 16.0, nástupce Leap 15.6, lze oč
   aktualizace na našem <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">plánu</a>
   a další informace najdete v <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  je nový instalátor, který lze použít k instalaci programů Leap 16 a Tumbleweed.\n
-  V plánu je podpora offline instalace v Agamě. Další instalační média, například
+  je nový instalátor, který lze použít k instalaci programů Leap 16 a Tumbleweed.\n\
+  \ V plánu je podpora offline instalace v Agamě. Další instalační média, například
   samoinstalační obraz, budou přidána později.\n"
