@@ -19,8 +19,8 @@ offline_image: Image hors-ligne
 offline_desc: "Contient une large collection de logiciels pour un usage bureau ou
   serveur.\nConvient pour l'installation comme pour la mise à niveau.\n"
 network_image: Image réseau
-network_desc: "Télécharge le système d'installation et tous les paquets depuis les
-  \ndépôts en ligne. Convient pour l'installation comme pour la mise à niveau.\n"
+network_desc: "Télécharge le système d'installation et tous les paquets depuis les\
+  \ \ndépôts en ligne. Convient pour l'installation comme pour la mise à niveau.\n"
 kvm_image: Image KVM et XEN
 kvm_desc: Pour une utilisation dans des hyperviseurs KVM ou XEN
 xen_image: XEN
@@ -50,8 +50,8 @@ microos_desc: Système d'exploitation basé sur openSUSE Tumbleweed permettant d
   à jour transactionnelles (atomiques) à partir d'un système de fichiers btrfs en
   lecture-seule
 choosing_media: Choisir quel support télécharger
-choosing_media_p1: "L'image hors ligne est généralement recommandée car elle contient\n
-  la plupart des paquets disponibles dans la distribution et ne requiert\npas une
+choosing_media_p1: "L'image hors ligne est généralement recommandée car elle contient\n\
+  \ la plupart des paquets disponibles dans la distribution et ne requiert\npas une
   connexion au réseau durant l'installation.\n"
 choosing_media_p2: "L'image réseau est recommandée pour les utilisateurs ayant\nune
   bande passante limitée sur leur connexion internet, étant donné\nqu'elle ne téléchargera
@@ -107,8 +107,8 @@ points_transparent_p1: "Du début à la fin, chaque paquet qui entre dans les di
   sur une source ? Accédez-y simplement sur le build service.\n"
 points_free: Logiciels libres ? Votre choix
 points_free_p1: "Les paquets des distributions sont divisés en un dépôt libre (free)
-  et un dépôt\nnon-libre (non-free). Vous ne voulez pas de paquets non-libres ?\n
-  Vous pouvez facilement désactiver le dépôt correspondant. C'est votre choix, pas
+  et un dépôt\nnon-libre (non-free). Vous ne voulez pas de paquets non-libres ?\n\
+  \ Vous pouvez facilement désactiver le dépôt correspondant. C'est votre choix, pas
   le nôtre.\n"
 transactional: Serveur transactionnel
 yast_firewall: Pare-feu
@@ -136,23 +136,23 @@ server_microos_view: Voir MicroOS
 leap_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau votre
   installation\nen démarrant sur l'image DVD/clé USB et en choisissant la l'option
   de mise\nà niveau, ou bien effectuer une mise à niveau en ligne en quelques commandes.\n"
-tw_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau votre installation\n
-  en démarrant sur l'image DVD/clé USB et en choisissant la l'option de mise\nà niveau,
-  ou bien effectuer une mise à niveau en ligne en quelques commandes.\n"
+tw_switch_p1: "Si vous utilisez déjà openSUSE, vous pouvez mettre à niveau votre installation\n\
+  \ en démarrant sur l'image DVD/clé USB et en choisissant la l'option de mise\nà
+  niveau, ou bien effectuer une mise à niveau en ligne en quelques commandes.\n"
 verify_download_p1: "Beaucoup d'applications permettent de vérifier la somme de contrôle
   d'un téléchargement.\nVérifier votre téléchargement est important car cela permet
   de s'assurer que vous\navez obtenu réellement le fichier ISO que vous vouliez et
   pas une version corrompue.\n"
-desktops_p1: "Le processus de contribution à openSUSE favorise le développement des\n
-  environnements de bureau. Ainsi vous pouvez choisir celui que vous préférez\ndans
-  l'installateur. Nous mettons en valeur trois bureaux et en offrons encore\nplus
-  dans la vue « logiciels » détaillée de l'installateur.\n"
+desktops_p1: "Le processus de contribution à openSUSE favorise le développement des\n\
+  \ environnements de bureau. Ainsi vous pouvez choisir celui que vous préférez\n\
+  dans l'installateur. Nous mettons en valeur trois bureaux et en offrons encore\n\
+  plus dans la vue « logiciels » détaillée de l'installateur.\n"
 installation: Installez-la comme vous le voulez
 installation_p1: "Le processus d'installation d'openSUSE vous offre toutes les options
-  dont\nvous pourriez avoir besoin. Envie d'installer votre système avec une souris\n
-  et un clavier ? Chargez l'installateur en mode graphique. Pas de souris à\nportée
-  de main ? Activez le client en mode terminal et installez la distribution ainsi.\n
-  Pas d'accès physique à la machine ? Connectez l'installateur à distance\net lancez
+  dont\nvous pourriez avoir besoin. Envie d'installer votre système avec une souris\n\
+  \ et un clavier ? Chargez l'installateur en mode graphique. Pas de souris à\nportée
+  de main ? Activez le client en mode terminal et installez la distribution ainsi.\n\
+  \ Pas d'accès physique à la machine ? Connectez l'installateur à distance\net lancez
   l'installation. C'est aussi simple que cela.\n"
 points_welcoming: Accueillir les contributions
 points_welcoming_p1: "Nous faisons de notre mieux pour satisfaire la communauté et
@@ -171,8 +171,8 @@ software_p1: "Entre nous, avoir à parcourir tous les sites web pour récupérer
   rend cela plus facile, en regroupant en un seul\nendroit les logiciels venant d'une
   multitude de sources.\n"
 software_get: Obtenir des logiciels
-transactional_p1: "L'installateur supporte maintenant un nouveau rôle système de serveur\n
-  transactionnel, qui est le résultat des efforts d'openSUSE Kubic. Ce rôle\nsystème
+transactional_p1: "L'installateur supporte maintenant un nouveau rôle système de serveur\n\
+  \ transactionnel, qui est le résultat des efforts d'openSUSE Kubic. Ce rôle\nsystème
   fournit un nouvel système de mise à jour qui applique les mises à\njour de façon
   atomique (c'est-à-dire en une seule opération) et qui permet de\nfacilement les
   annuler si le besoin s'en fait sentir. Ces fonctionnalités sont\nbasées sur les
@@ -257,31 +257,31 @@ MicroOS_features:
       d'un ancien snapshot BTRFS en redémarrant.\n"
   work:
     description: "Les applications sont installées dans des conteneurs plutôt que
-      dans le système de fichiers racine :\n* Isolation du système de fichiers principal\n
-      * Réduction de la capacité des applications malveillantes à compromettre le
+      dans le système de fichiers racine :\n* Isolation du système de fichiers principal\n\
+      \ * Réduction de la capacité des applications malveillantes à compromettre le
       système.\n* Nouvelle installation sans redémarrage\n* Mise à jour de manière
       atomique (créer le nouveau, tuer l'ancien)\n* Retour en arrière facile\n"
     name: Charge de travail
   key:
     description: "* Obtenez vos mises à jour via HTTPS\n* Les paquets et les dépôts
-      sont signés par notre système de construction.\n* Les paquets sont vérifiés\n
-      * Aucune mise à jour n'est effectuée en cas de conflits de dépendances.\n* Pas
-      de gaspillage d'espace : les instantanés du système de fichiers sont supprimés
+      sont signés par notre système de construction.\n* Les paquets sont vérifiés\n\
+      \ * Aucune mise à jour n'est effectuée en cas de conflits de dépendances.\n\
+      * Pas de gaspillage d'espace : les instantanés du système de fichiers sont supprimés
       en cas d'échec des mises à jour.\n"
     name: Mises à jour sécurisées
   update:
     description: "### Mises à jour transactionnelles\n\n#### Unique\nEn utilisant
       btrfs avec des instantanés, MicroOS utilise un moyen très efficace en termes
       d'espace\npour stocker l'historique du système de fichiers. Tous les fichiers
-      de configuration \ndans `/etc` font partie de l'instantané et de la récupération.\n
-      \n#### Flexible\n* Aucun nouveau format de paquet n'est nécessaire, utilisez
+      de configuration \ndans `/etc` font partie de l'instantané et de la récupération.\n\
+      \ \n#### Flexible\n* Aucun nouveau format de paquet n'est nécessaire, utilisez
       les RPMs standards d'openSUSE.\n* Pas de limitation de taille, ni pour les partitions,
       ni pour le système d'exploitation.\n* Facile à améliorer\n"
     name: Mises à jour atomiques
   idea:
     description: "#### Est prévisible\n* N'est pas modifié pendant l'exécution\n*
-      Exécutera les mêmes artefacts de manière cohérente sur chaque démarrage.\n\n
-      ### Est évolutif\n* Élimine les efforts de configuration des instances individuelles
+      Exécutera les mêmes artefacts de manière cohérente sur chaque démarrage.\n\n\
+      \ ### Est évolutif\n* Élimine les efforts de configuration des instances individuelles
       pendant l'exécution.\n* Peut être facilement déployé de manière répétée avec
       des résultats prévisibles.\n\n### Est fiable\n* Récupération automatisée des
       mises à jour défectueuses\n"
@@ -370,8 +370,8 @@ selfinstall_image: Image d'auto-installation
 selfinstall_rt_image: Image d'auto-installation Temps-Réel
 preconfigured_image: Image préconfigurée
 preconfigured_rt_image: Image préconfigurée avec noyau Temps-Réel
-live_info: "Veuillez prendre en compte les limitations suivantes des images live :\n
-  * Elles ne doivent pas être utilisées pour installer ou mettre à niveau. Veuillez
+live_info: "Veuillez prendre en compte les limitations suivantes des images live :\n\
+  \ * Elles ne doivent pas être utilisées pour installer ou mettre à niveau. Veuillez
   utiliser le support d'installation à la place\n* Elles ont une sélection limitée
   de paquets et de pilotes, et ne peuvent donc pas être considérées comme un reflet
   exact du fonctionnement de la distribution sur votre matériel.\n* Noyau et initrd
