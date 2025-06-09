@@ -41,8 +41,8 @@ translate: Översätt
 learn_more: Läs mer
 network_desc: "Laddar ned installationssystemet och alla paket via online\nförråd.
   Lämplig för installation eller uppgradering.\n"
-offline_desc: "Innehåller en stor samling programvara för skrivbords eller serveranvändning.\n
-  Lämplig för installation eller uppgradering.\n"
+offline_desc: "Innehåller en stor samling programvara för skrivbords eller serveranvändning.\n\
+  \ Lämplig för installation eller uppgradering.\n"
 offline_image: Offline avbild
 site_title_short: Skaffa
 usb_desc: För USB-stickor
@@ -55,19 +55,19 @@ xfce_cd: Xfce LiveCD
 microos_desc: openSUSE Tumbleweed-baserat OS som tillhandahåller Transaktionella (Atomic)
   uppdateringar på ett skrivskyddat btrfs-rotfilsystem
 choosing_media_p1: "Offlinavebilden rekommenderas vanligtvis eftersom den innehåller
-  det mesta\nav paketen tillgängliga i distributionen och kräver inte en nätverks\n
-  anslutning under installationen.\n"
-choosing_media_p2: "Nätverksavbilden rekommenderas för användare som har begränsad\n
-  bandbredd på deras internetanslutning, eftersom den bara kommer att ladda ner\n
-  det paket som de väljer att installera, vilket sannolikt kommer att vara avsevärt\n
-  mindre än 4,7 GB.\n"
+  det mesta\nav paketen tillgängliga i distributionen och kräver inte en nätverks\n\
+  \ anslutning under installationen.\n"
+choosing_media_p2: "Nätverksavbilden rekommenderas för användare som har begränsad\n\
+  \ bandbredd på deras internetanslutning, eftersom den bara kommer att ladda ner\n\
+  \ det paket som de väljer att installera, vilket sannolikt kommer att vara avsevärt\n\
+  \ mindre än 4,7 GB.\n"
 documentation_release_notes: Utgivningsmeddelande
 requirements_rec: Rekommenderat
 vm_images: Virtuell maskin
 cloud_images: Moln
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-leap_switch_p1: "Om du redan kör openSUSE kan du uppgradera genom att starta från\n
-  DVD/USB och välja uppgradera, eller utföra en \"Online-uppgradering\" med några
+leap_switch_p1: "Om du redan kör openSUSE kan du uppgradera genom att starta från\n\
+  \ DVD/USB och välja uppgradera, eller utföra en \"Online-uppgradering\" med några
   få\nkommandon.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_min: Minimum
@@ -205,14 +205,14 @@ MicroOS_features:
       raderas vid misslyckade uppdateringar\n"
   work:
     name: Arbetsbelastningar
-    description: "Applikationer installeras i behållare snarare än rootfilsystemet:\n
-      * Isolerad från kärnfilsystemet\n* Minskad möjlighet för skadliga applikationer
+    description: "Applikationer installeras i behållare snarare än rootfilsystemet:\n\
+      \ * Isolerad från kärnfilsystemet\n* Minskad möjlighet för skadliga applikationer
       som kan äventyra systemet\n* Ny installation utan omstart\n* Uppdatera på ett
       sådant atomärt sätt som möjligt (skapa nytt, döda gammalt)\n* Enkel återställning\n"
   tool:
     name: Felsökning
-    description: "###Avlusa Toolbox behållare\n* Startar privilegierad behållare\n
-      * Rootfilsystem tillgängligt under `/media/root`\n* zypper för att installera
+    description: "###Avlusa Toolbox behållare\n* Startar privilegierad behållare\n\
+      \ * Rootfilsystem tillgängligt under `/media/root`\n* zypper för att installera
       nödvändiga verktyg, tillgängligt utan omstart\n* Persistent mellan användningar\n"
   update:
     name: Atomiska uppdateringar
@@ -258,9 +258,9 @@ server: openSUSE Server distributioner
 server_p1: "Fyra bekvämt tråkiga distributioner, hur det alltid borde vara\n"
 server_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls av
   OpenSUSE projektet.
-tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta från\n
-  DVD/USB och välja uppgradera, eller genomföra en \"online -uppgradering\" med några
-  få\nkommandon.\n"
+tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta från\n\
+  \ DVD/USB och välja uppgradera, eller genomföra en \"online -uppgradering\" med
+  några få\nkommandon.\n"
 verify_download_p1: "Många program kan verifiera kontrollsumman för en nedladdning.
   Att verifiera\nDin nedladdning kan vara viktig eftersom det verifierar att du verkligen
   har fått den\nISO-fil du ville ladda ner och inte någon trasig version.\n"
@@ -285,8 +285,8 @@ ports_info: "Portar för openSUSE Leap till andra arkitekturer än PC är\nuppr�
   av separata gemenskapsteam, med begränsade resurser.\n"
 site_description: Lär dig mer om openSUSE-distributionerna och ladda ner dem gratis
 offline_updated_image: Uppdaterad Offline avbild
-offline_updated_desc: "Offline installationsavbild med dom senaste uppdateringar.\n
-  Lämplig för installation eller uppgradering.\n"
+offline_updated_desc: "Offline installationsavbild med dom senaste uppdateringar.\n\
+  \ Lämplig för installation eller uppgradering.\n"
 server_x86_64: Intel eller AMD 64-bitars servrar (x86_64)
 cloud_minimal_desc: Minimala KVM och Xen avbilder med cloud-init
 selfinstall_image: Själv-installerande avbild
@@ -305,26 +305,26 @@ desktop_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad in
   och gemenskapsutvecklad innovation.
 transactional: Transaktionell server
 live_info: "Var medveten om följande begränsningar för liveavbilder:\n* De ska inte
-  användas för att installera eller uppgradera. Använd installationsmediet istället\n
-  * De har ett begränsat urval av paket och drivrutiner, så det kan inte betraktas
+  användas för att installera eller uppgradera. Använd installationsmediet istället\n\
+  \ * De har ett begränsat urval av paket och drivrutiner, så det kan inte betraktas
   som en korrekt reflektion av om distributionen kommer att fungera på din hårdvara
   eller inte\n* Kärnan och initrd kan inte uppdateras, så de bör inte användas som
   en beständig installation\n"
-snapper_p1: "Funktionen Filsystem Snapshots håller ditt filsystem i schack genom\n
-  att kontinuerliga säkerhetskopieringar utförs automatiskt vid installation av\n
-  programvara och uppdateringar. Starta bara från en tidigare ögonblicksbild och ta\n
-  ditt system tillbaka till ett fungerande tillstånd på några minuter.\n"
-zypper_p1: "Det är snabbt och enkelt att lära sig. zypper-apt ger dig, ett kompatibilitets\n
-  lager för användning med kommandon apt och apt-get. Det är baserat på libsolv,\n
-  vilket garanterar både snabbhet och reproducerbar upplösning av\nberoenden. Gränssnittet
+snapper_p1: "Funktionen Filsystem Snapshots håller ditt filsystem i schack genom\n\
+  \ att kontinuerliga säkerhetskopieringar utförs automatiskt vid installation av\n\
+  \ programvara och uppdateringar. Starta bara från en tidigare ögonblicksbild och
+  ta\n ditt system tillbaka till ett fungerande tillstånd på några minuter.\n"
+zypper_p1: "Det är snabbt och enkelt att lära sig. zypper-apt ger dig, ett kompatibilitets\n\
+  \ lager för användning med kommandon apt och apt-get. Det är baserat på libsolv,\n\
+  \ vilket garanterar både snabbhet och reproducerbar upplösning av\nberoenden. Gränssnittet
   är tydligt och lämpligt färgat, för att vara\nlätt att läsa. Det är perfekt, vad
   mer kan man säga?\n"
-points_transparent_p1: "Från början till slut, varje paket som ingår in i distributionerna\n
-  har alla sina källor och byggskripts öppet synliga för alla\natt se. Tveksam till
+points_transparent_p1: "Från början till slut, varje paket som ingår in i distributionerna\n\
+  \ har alla sina källor och byggskripts öppet synliga för alla\natt se. Tveksam till
   en källa? Kolla bara in det på byggtjänsten.\n"
 snapper: Har systemet blivit korrupt? Inget problem längre
-points_free_p1: "Paketen i distributionerna är uppdelade i gratis och icke-gratis\n
-  förråd. Vill du inte använda icke-gratispaket? Du kan enkelt\ninaktivera det icke-fria
+points_free_p1: "Paketen i distributionerna är uppdelade i gratis och icke-gratis\n\
+  \ förråd. Vill du inte använda icke-gratispaket? Du kan enkelt\ninaktivera det icke-fria
   förrådet. Det är ditt val, inte vårt.\n"
 points_welcoming_p1: "Vi gör vårt bästa för att tillfredsställa gemenskapen, och vi
   kan bara få detta\natt hända när gemenskap är högljudd om vad de behöver. Det är
@@ -344,9 +344,9 @@ transactional_p1: "Installationsprogrammet stöder nu en ny systemroll Transakti
   system\nroller för openSUSE-distributioner fungerar också med transaktionell server
   systemrollen.\n"
 yast_p1: "Ett av de bästa systemkonfigurationsverktygen hjälper dig som användare
-  att\nkonfigurera varje enskild aspekt av ditt system. Du behöver inte längre gå\n
-  genom en uppsjö av konfigurationsskript eller ange tvivelaktiga kommandon\nför att
-  få systeminstallationen som du behöver den.\n"
+  att\nkonfigurera varje enskild aspekt av ditt system. Du behöver inte längre gå\n\
+  \ genom en uppsjö av konfigurationsskript eller ange tvivelaktiga kommandon\nför
+  att få systeminstallationen som du behöver den.\n"
 yast_partitioner: Partitionerare
 server_microos_p1: För serverapplikationer med enstaka ändamål
 server_aarch64: UEFI Arm 64-bitars servrar och moderkort (aarch64)
