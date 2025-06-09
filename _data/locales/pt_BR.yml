@@ -15,8 +15,8 @@ pick_mirror: Escolha o mirror
 checksum: Soma de verificação
 torrent_file: Arquivo de torrent
 offline_image: Imagem offline
-offline_desc: "Contém uma grande coleção de software para uso em desktop ou servidor.\n
-  Adequado para instalação ou atualização.\n"
+offline_desc: "Contém uma grande coleção de software para uso em desktop ou servidor.\n\
+  \ Adequado para instalação ou atualização.\n"
 network_image: Imagem de Rede
 network_desc: "Baixa o sistema de instalação e todos os pacotes online\nrepositórios.
   Adequado para instalação ou atualização.\n"
@@ -40,8 +40,8 @@ gnome_cd: LiveCD do GNOME
 kde_cd: LiveCD do KDE
 xfce_cd: LiveCD do Xfce
 rescue_cd: LiveCD de recuperação
-tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao vivo:\n
-  * Eles não devem ser usados para instalar ou atualizar o Tumbleweed. Use a [Tumbleweed
+tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao vivo:\n\
+  \ * Eles não devem ser usados para instalar ou atualizar o Tumbleweed. Use a [Tumbleweed
   media] (/tumbleweed) em vez\n* Eles têm um pacote limitado e seleção de driver,
   portanto, não pode ser considerado uma reflexão precisa se o Tumbleweed funcionará
   em seu hardware ou não\n"
@@ -51,10 +51,10 @@ choosing_media: Escolhendo qual mídia baixar
 choosing_media_p1: "A imagem offline é normalmente recomendada, pois contém a maioria
   dos\npacotes disponíveis na distribuição e não requer uma conexão de rede\ndurante
   a instalação.\n"
-choosing_media_p2: "A imagem de rede é recomendada para usuários que têm limitações\n
-  largura de banda em suas conexões de internet, pois só irá baixar os\npacotes que
-  escolher instalar, o que provavelmente será significativamente\nmenos do que 4,7
-  GB.\n"
+choosing_media_p2: "A imagem de rede é recomendada para usuários que têm limitações\n\
+  \ largura de banda em suas conexões de internet, pois só irá baixar os\npacotes
+  que escolher instalar, o que provavelmente será significativamente\nmenos do que
+  4,7 GB.\n"
 documentation: Documentação
 documentation_startup_guide: Guia inicial do openSUSE
 documentation_release_notes: Notas de lançamento
@@ -119,13 +119,13 @@ installation_p1: "O processo de instalação do openSUSE oferece todas as opçõ
   e instale-o dessa forma. Não tem\nacesso físico à máquina? Conecte-se ao instalador
   remotamente e\ncontinue com a instalação. É simples assim.\n"
 points_transparent: Tudo é transparente
-points_transparent_p1: "Do início ao fim, cada pacote que vai para as distribuições\n
-  tem todas as suas fontes e scripts de construção abertamente visíveis para todos\n
-  ver. Tem dúvidas sobre a origem? Basta verificar no serviço de compilação.\n"
+points_transparent_p1: "Do início ao fim, cada pacote que vai para as distribuições\n\
+  \ tem todas as suas fontes e scripts de construção abertamente visíveis para todos\n\
+  \ ver. Tem dúvidas sobre a origem? Basta verificar no serviço de compilação.\n"
 points_free: Software livre? Sua escolha
-points_free_p1: "Os pacotes nas distribuições são divididos em gratuitos e não livres\n
-  repositórios. Não quer usar pacotes não livres? Você pode facilmente\ndesative o
-  repositório non-free. É sua escolha, não nossa.\n"
+points_free_p1: "Os pacotes nas distribuições são divididos em gratuitos e não livres\n\
+  \ repositórios. Não quer usar pacotes não livres? Você pode facilmente\ndesative
+  o repositório non-free. É sua escolha, não nossa.\n"
 points_welcoming: Boas contribuições
 points_welcoming_p1: "Nós tentamos nosso melhor para agradar a comunidade, e só podemos
   fazer isso\nacontecem quando a comunidade fala sobre o que eles precisam. É por
@@ -133,12 +133,12 @@ points_welcoming_p1: "Nós tentamos nosso melhor para agradar a comunidade, e s�
 snapper: O sistema foi corrompido? Não é um problema mais
 snapper_p1: "O recurso Filesystem Snapshots mantém seu sistema de arquivos sob controle
   por\ntendo backups contínuos executados automaticamente durante a instalação\nsoftware
-  e atualizações. Basta inicializar a partir de um instantâneo anterior e trazer\n
-  seu sistema a um estado de funcionamento em questão de minutos.\n"
+  e atualizações. Basta inicializar a partir de um instantâneo anterior e trazer\n\
+  \ seu sistema a um estado de funcionamento em questão de minutos.\n"
 software: Obter software não poderia ser mais fácil
 software_p1: "Entre nós, ter que passar por todos os sites para obter todos os\no
-  software de que você pode precisar dá muito trabalho. O centro de software online\n
-  torna isso mais fácil, incorporando software de uma infinidade de\nfontes em um
+  software de que você pode precisar dá muito trabalho. O centro de software online\n\
+  \ torna isso mais fácil, incorporando software de uma infinidade de\nfontes em um
   só lugar.\n"
 software_get: Obter Software
 transactional: Servidor transacional
@@ -164,8 +164,8 @@ yast_scanner: Escaner
 yast_sound: Som
 yast_software: Aplicação
 zypper: Zypper, seu novo gerenciador de pacotes favorito
-zypper_p1: "É rápido e fácil de aprender. Fornece zypper-apt, uma compatibilidade\n
-  camada para uso com os comandos apt e apt-get. É baseado em libsolv,\no que garante
+zypper_p1: "É rápido e fácil de aprender. Fornece zypper-apt, uma compatibilidade\n\
+  \ camada para uso com os comandos apt e apt-get. É baseado em libsolv,\no que garante
   velocidade e resolução reproduzível de\ndependências. A interface é clara e com
   cores adequadas, para\nfacilidade de leitura. É perfeito, o que mais poderia ser
   dito?\n"
@@ -283,13 +283,13 @@ MicroOS_features:
     name: Cargas de trabalho
     description: "Os aplicativos são instalados em containers ao invés do sistema
       de arquivos:\n* Isolados o sistema de arquivos central\n* Capacidade reduzida
-      para aplicativos maliciosos comprometerem o sistema\n* Nova instalação sem reiniciar\n
-      * A atualização de forma atômica é possível (cria novo, mata o antigo)\n* Fácil
-      reversão\n"
+      para aplicativos maliciosos comprometerem o sistema\n* Nova instalação sem reiniciar\n\
+      \ * A atualização de forma atômica é possível (cria novo, mata o antigo)\n*
+      Fácil reversão\n"
   key:
     description: "* Baixe suas atualizações via HTTPS\n* Os pacotes e repositórios
-      são assinados pelo nosso sistema de compilação\n* Os pacotes são verificados\n
-      * Nenhuma atualização é feita em caso de conflitos de dependência\n* Sem desperdício
+      são assinados pelo nosso sistema de compilação\n* Os pacotes são verificados\n\
+      \ * Nenhuma atualização é feita em caso de conflitos de dependência\n* Sem desperdício
       de espaço: Os instantâneos do sistema de arquivos são excluídos no caso de atualizações
       mal sucedidas\n"
     name: Atualizações seguras
@@ -361,8 +361,8 @@ preconfigured_rt_image: Imagem pré-configurada com RealTime (raw)
 selfinstall_rt_image: Autoinstalação com RealTime
 selfinstall_image: Imagem de autoinstalação
 live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas não devem
-  ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n
-  * Elas tem uma seleção limitada de pacotes e drivers, por isto não podem ser considerados
+  ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n\
+  \ * Elas tem uma seleção limitada de pacotes e drivers, por isto não podem ser considerados
   como um reflexo preciso sobre se a distribuição irá funcionar em seu hardware ou
   não\n* Kernel e initrd não podem ser atualizados, por isto não podem ser usados
   como instalação persistente\n"
@@ -370,8 +370,8 @@ selfinstalling_images: Imagens de autoinstalação
 selfinstalling_ch_image: Host de contêiner de autoinstalação
 selfinstalling_k3s_image: Host k3s de autoinstalação
 offline_updated_image: Imagem atualizada offline
-offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n
-  Adequada para instalação ou atualização.\n"
+offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n\
+  \ Adequada para instalação ou atualização.\n"
 ppc64: Servidores PowerPC, big-endian (ppc64)
 minimal_vm_images: Máquina virtual mínima
 minimal_vm_info: Similar as imagens do SUSE Linux Enterprise Server Minimal-VM. Para
@@ -387,14 +387,14 @@ choosing_media_micro_p2: "O Leap Micro não vem mais com um instalador tradicion
   um dump offline do repositório Leap Micro rpm para aqueles com ambiente isolado.\n"
 choosing_media_micro_p1: "A nova imagem de autoinstalação é a escolha ideal para instalações
   baseadas em USB ou DVD.\nUm assistente de autoinstalação simples despeja uma imagem
-  pré-configurada na unidade e aumenta a partição para o tamanho do disco.\n<br>\n
-  Usuários com Raspberry Pi e similares sem suporte a usb-boot podem gravar diretamente
+  pré-configurada na unidade e aumenta a partição para o tamanho do disco.\n<br>\n\
+  \ Usuários com Raspberry Pi e similares sem suporte a usb-boot podem gravar diretamente
   a imagem pré-configurada no cartão SD.\nUsuários que buscam mais controle sobre
   a implantação são aconselhados a usar <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a>.\n<br>\nUma demonstração de uma implantação baseada em combustion
-  pode ser vista <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aqui</a>.\n
-  <br>\nO jeos-firstboot cumprimentará aqueles que não configuraram seu sistema usando
-  o Combustion.\n"
+  pode ser vista <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aqui</a>.\n\
+  \ <br>\nO jeos-firstboot cumprimentará aqueles que não configuraram seu sistema
+  usando o Combustion.\n"
 server_leapmicro_p1: Para implantações de borda, incorporadas, IoT e outras
 server_leapmicro_p2: Sistema operacional leve e ultraconfiável desenvolvido para cargas
   de trabalho em contêineres e virtualizadas.
@@ -456,11 +456,11 @@ leap_156_ovw_video_desc: Transmissão ao vivo do lançamento do Leap 15.6
 signature: Assinatura
 encrypted_image: Imagem de disco totalmente criptografada (bruta)
 leap_16_coming_soon: "O lançamento público do Leap 16.0, um sucessor do Leap 15.6,
-  pode ser esperado no outono de 2025. Não há planos para fazer o Leap 15.7.<br/>\n
-  Verifique regularmente as atualizações em nosso<a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  pode ser esperado no outono de 2025. Não há planos para fazer o Leap 15.7.<br/>\n\
+  \ Verifique regularmente as atualizações em nosso<a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >roteiro</a> e <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   para mais informações.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
-  é o novo instalador que pode ser usado para instalar o Leap 16 e o Tumbleweed.\n
-  Há um plano para dar suporte à instalação offline no Agama. Outras mídias de instalação,
+  é o novo instalador que pode ser usado para instalar o Leap 16 e o Tumbleweed.\n\
+  \ Há um plano para dar suporte à instalação offline no Agama. Outras mídias de instalação,
   como a imagem de autoinstalação, serão adicionadas posteriormente.\n"
