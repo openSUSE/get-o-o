@@ -88,8 +88,8 @@ kvm_image: KVM en XEN image
 hyperv_image: MS HyperV image
 vmware_image: VMware image
 ports_images: Ports
-ports_info: "De ports van openSUSE Leap naar architecturen anders dan de PC worden\n
-  onderhouden door aparte communicty teams, met beperkte middelen.\n"
+ports_info: "De ports van openSUSE Leap naar architecturen anders dan de PC worden\n\
+  \ onderhouden door aparte communicty teams, met beperkte middelen.\n"
 points_transparent: Alles is transparant
 points_welcoming: Bijdragen zijn welkom
 transactional: Transactionele server
@@ -103,39 +103,39 @@ minimal_vm_info: Vergelijkbaar met de SUSE Linux Enterprise Server Minimale-VM i
 jeos_info: Minimale VM images. Voor de JeOS Arm images, ga alstublieft naar de <a
   href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal_vm_images: Minimale Virtuele Machine
-live_info: "Houd er alstublieft rekening met de beperkingen van de live images:\n
-  * Ze moeten niet gebruikt worden om te installeren of upgraden. Gebruikt hiervoor
+live_info: "Houd er alstublieft rekening met de beperkingen van de live images:\n\
+  \ * Ze moeten niet gebruikt worden om te installeren of upgraden. Gebruikt hiervoor
   de installatiemedia\n* Ze hebben een beperkt pakketten en drivers aanbod. Deze images
   kunnen dus niet gebruikt worden om vast te stellen of je apparatuur wel of niet
   werkt met deze distributie.\n* De kernel en initrd kunnen niet geüpdatet worden.
   Het is niet verstandig om deze als voortdurende installatie te gebruiken.\n"
 desktops: Meerdere bureaubladen, standaard drie
-choosing_media_p2: "Het Netwerk image is bedoeld voor gebruikers met beperkte bandbreedte
-  \nvan hun internetverbinding. Deze downloadt namelijk alleen de benodigde \npakketten
+choosing_media_p2: "Het Netwerk image is bedoeld voor gebruikers met beperkte bandbreedte\
+  \ \nvan hun internetverbinding. Deze downloadt namelijk alleen de benodigde \npakketten
   en vaak is dat behoorlijk minder dan 4,7GB\n"
 requirements_hdd_size_desc: $value beschikbare schijfruimte
 leap_switch_p1: "Wanneer u reeds openSUSE gebruikt kunt u upgraden door middel van
   de DVD/USB \nen voor upgrade kiezen of een 'Online Upgrade' uitvoeren met een paar
   commando's.\n"
 desktops_p1: "Het proces van bijdragen bij openSUSE zorgt voor bureaublad ontwikkeling
-  voor\nallen, zodat iedereen zijn favoriete bureaublad kan kiezen in de installer.
-  \nStandaard laten we drie bureaubladen zien. De installer laat er ook meer zien\n
-  in het gedetailleerde software overzicht.\n"
+  voor\nallen, zodat iedereen zijn favoriete bureaublad kan kiezen in de installer.\
+  \ \nStandaard laten we drie bureaubladen zien. De installer laat er ook meer zien\n\
+  \ in het gedetailleerde software overzicht.\n"
 points_free_p1: "Pakketten in de distributies zijn verdeeld in vrije en niet-vrije
   opslagruimtes\nWilt u alleen vrije pakketten? U kunt dan de niet-vrije opslagruimte
   eenvoudig\nuitzetten. Aan u de keus.\n"
 requirements_net_conn: Volledige connectiviteit tussen alle machines in het cluster
-snapper_p1: "De bestandssysteem snapshots houden uw bestandssysteem onder controle\n
-  Doordat er continue automatische backups worden gemaakt wanneer men \nsoftware en
-  updates installeert. Boot van een eerder snapshot en breng uw\nsysteem weer in een
-  werkende staat binnen een paar minuten.\n"
+snapper_p1: "De bestandssysteem snapshots houden uw bestandssysteem onder controle\n\
+  \ Doordat er continue automatische backups worden gemaakt wanneer men \nsoftware
+  en updates installeert. Boot van een eerder snapshot en breng uw\nsysteem weer in
+  een werkende staat binnen een paar minuten.\n"
 software: Het krijgen van software kan niet makkelijker
-software_p1: "Tussen ons, om voor de software die je wilt allerlei websites te doorzoeken\n
-  is veel werk. Het online software center maakt het veel eenvoudiger, door\nhet op
-  een plek brengen van software uit een veelvoud van bronnen.\n"
+software_p1: "Tussen ons, om voor de software die je wilt allerlei websites te doorzoeken\n\
+  \ is veel werk. Het online software center maakt het veel eenvoudiger, door\nhet
+  op een plek brengen van software uit een veelvoud van bronnen.\n"
 transactional_p1: "De installer ondersteunt nu een nieuwe systeem rol, transactionele
-  server,\nwelke een gevolg is van fr openSUSE Kubic inspanning. Deze systeemrol\n
-  bevat een nieuw update systeem dat de updates atomisch (als een enkele\noperatie)
+  server,\nwelke een gevolg is van fr openSUSE Kubic inspanning. Deze systeemrol\n\
+  \ bevat een nieuw update systeem dat de updates atomisch (als een enkele\noperatie)
   en maakt het makkelijk om ongedaan gemaakt te worden indien\nnodig. Deze opties
   maken gebruik van de pakket management hulpmiddelen\ndie alle SUSE en openSUSE distributies
   op vertrouwen. Dit betekent dat de\novergrote meerderheid van RPM-pakketten dat
@@ -153,12 +153,12 @@ desktop_tumbleweed_p2: Rollende release met de nieuwste pakketten geleverd door 
 microos_desc: openSUSE Tumbleweed gebaseerd OS met transactionele (Atomic) updates
   op een alleen-lezen btrfs root bestandssysteem
 choosing_media_p1: "Het Offline image is het meest aan te raden omdat het de meeste
-  pakketten \nin de distributie bevat die nodig zijn en waarvoor geen netwerkverbinding
-  \nnodig is tijdens de installatie.\n"
+  pakketten \nin de distributie bevat die nodig zijn en waarvoor geen netwerkverbinding\
+  \ \nnodig is tijdens de installatie.\n"
 zypper: Zypper, uw nieuwe favoriete pakket manager
 index: De distributies van openSUSE
-yast_p1: "Een van de beste systeem configuratie hulpmiddelen helpt u, de gbruiker,\n
-  om elk aspect van uw systeem in te stellen. U hoeft niet langer door een\ngrote
+yast_p1: "Een van de beste systeem configuratie hulpmiddelen helpt u, de gbruiker,\n\
+  \ om elk aspect van uw systeem in te stellen. U hoeft niet langer door een\ngrote
   hoeveelheid van configuratiescripts te gaan of twijfelachtige commando's\nin te
   voeren om het systeem te krijgen zoals u wil.\n"
 jeos_images: JeOS
@@ -202,17 +202,17 @@ verify_download_p2: "Voor elk ISO-bestand bieden we een controlesom bestand met 
 verify_download_pubkey: Deze zou moeten zijn
 verify_download_help: Voor meer hulp bij het controleren van uw download, lees alstublieft
 installation: Installeer het zoals je wilt
-installation_p1: "Het openSUSE installatieproces biedt u alle opties die u maar enigszins\n
-  nodig heeft. Wilt u uw systeem installeren met muis en toetsenbord? Laad \nde installer
-  in grafische modus. Geen muis in de buurt? Gebruik de terminal\ncliënt en installeer
-  het op die manier. Geen fysieke toegang tot de machine?\nVerbind vanaf afstand met
-  de installer en ga verder met de installatie. Het is\nzo eenvoudig.\n"
+installation_p1: "Het openSUSE installatieproces biedt u alle opties die u maar enigszins\n\
+  \ nodig heeft. Wilt u uw systeem installeren met muis en toetsenbord? Laad \nde
+  installer in grafische modus. Geen muis in de buurt? Gebruik de terminal\ncliënt
+  en installeer het op die manier. Geen fysieke toegang tot de machine?\nVerbind vanaf
+  afstand met de installer en ga verder met de installatie. Het is\nzo eenvoudig.\n"
 points_transparent_p1: "Van begin tot eind, elk pakket dat in onze distributies komt
-  heeft al zijn\nbronbestanden en build scripts open en zichtbaar voor iedereen. Twijfels\n
-  over de bron? Controleer het op onze build service.\n"
+  heeft al zijn\nbronbestanden en build scripts open en zichtbaar voor iedereen. Twijfels\n\
+  \ over de bron? Controleer het op onze build service.\n"
 points_welcoming_p1: "Wij doen ons best om de community tevreden te houden en dat
-  kan alleen\nwanneer de community aangeeft wat er nodig is. Daarom hebben we ervoor\n
-  gezorgd dat bijdragen zo makkeljik mogelijk is.\n"
+  kan alleen\nwanneer de community aangeeft wat er nodig is. Daarom hebben we ervoor\n\
+  \ gezorgd dat bijdragen zo makkeljik mogelijk is.\n"
 preconfigured_image: Voorgeconfigureerd image (ruw)
 preconfigured_rt_image: Voorgeconfigureerd RealTime image (ruw)
 selfinstall_image: Zelf-installerend image
@@ -228,11 +228,11 @@ yast_printer: Printer
 yast_scanner: Scanner
 yast_sound: Geluid
 yast_software: Software
-zypper_p1: "Het is snel en makkelijk te leren. Het bevat zypper-apt, een compatibiliteitslaag\n
-  voor gebruik met de apt en apt-get commandoś. Het is gebaseerd op libsolv\nwat zowel
-  de snelheid en reproduceerbaarheid van het oplossen van afhankelijkheden\ngarandeert.
-  De interface is helder en toepasselijk gekleurd voor leesgemak.\nHet is perfect,
-  wat kan er nog meer gezegd worden?\n"
+zypper_p1: "Het is snel en makkelijk te leren. Het bevat zypper-apt, een compatibiliteitslaag\n\
+  \ voor gebruik met de apt en apt-get commandoś. Het is gebaseerd op libsolv\nwat
+  zowel de snelheid en reproduceerbaarheid van het oplossen van afhankelijkheden\n\
+  garandeert. De interface is helder en toepasselijk gekleurd voor leesgemak.\nHet
+  is perfect, wat kan er nog meer gezegd worden?\n"
 index_server: Server
 index_full: Of ga direct naar de downloadpagina's van de distributies
 desktop: De openSUSE Desktop distributies
@@ -263,10 +263,10 @@ MicroOS_features:
   idea:
     name: Filosofie
     description: "### Is voorspelbaar\n* Wordt niet veranderd tijdens runtime\n* Start
-      steeds dezelfde artefacten op, op een consistente manier\n\n### Is schaalbaar\n
-      * Onnodig om individuele instances te configureren tijdens runtime\n* Kan herhaaldelijk
-      uitgerold worden met een voorspelbare uitkomst\n\n### Is betrouwbaar\n* Geautomatiseerde
-      recuperatie na defecte updates\n"
+      steeds dezelfde artefacten op, op een consistente manier\n\n### Is schaalbaar\n\
+      \ * Onnodig om individuele instances te configureren tijdens runtime\n* Kan
+      herhaaldelijk uitgerold worden met een voorspelbare uitkomst\n\n### Is betrouwbaar\n\
+      * Geautomatiseerde recuperatie na defecte updates\n"
   update:
     name: Atomische updates
     description: "### Transactionele Updates\n\n###Uniek\nDoor gebruik te maken van
@@ -291,9 +291,9 @@ MicroOS_features:
     name: Werklast
     description: "Applicaties worden geïnstalleerd in containers in plaats van het
       root bestandssysteem:\n* Geïsoleerd van het kern bestandssysteem\n* Beperkte
-      mogelijkheid voor kwaadwillende applicaties om het systeem te compromitteren.\n
-      * Nieuwe installatie zonder herstart\n* Updaten op atomische wijze (creëer opnieuw,
-      verwijder oude)\n* Gemakkelijke rollback\n"
+      mogelijkheid voor kwaadwillende applicaties om het systeem te compromitteren.\n\
+      \ * Nieuwe installatie zonder herstart\n* Updaten op atomische wijze (creëer
+      opnieuw, verwijder oude)\n* Gemakkelijke rollback\n"
   tool:
     name: Debuggen
     description: "### Hulpmiddelen container voor debuggen\n* Start gepriviligeerde
@@ -306,8 +306,8 @@ Tumbleweed_features:
   update:
     name: Continue geüpdatet
     description: "U installeert het een keer en geniet er altijd van. Niet langer
-      hoeft u elke zes maanden na te denken over grote systeem upgrades die het vastlopen\n
-      van uw systeem riskeren\n"
+      hoeft u elke zes maanden na te denken over grote systeem upgrades die het vastlopen\n\
+      \ van uw systeem riskeren\n"
   home:
     name: Stabiel
     description: "Updates zijn grondig getest tegen industriële kwaliteitsstandaarden,
@@ -322,20 +322,20 @@ Tumbleweed_features:
       voor de update.\n"
   knife:
     description: "U krijg regelmatige updates die niet alleen zwakheden en bugs verhelpen,
-      maar ook een de nieuwste features en ontwikkelingen bevatten, zoals nieuwe\n
-      kernels, nieuwe driver en recente versies van bureaublad omgevingen.\n"
+      maar ook een de nieuwste features en ontwikkelingen bevatten, zoals nieuwe\n\
+      \ kernels, nieuwe driver en recente versies van bureaublad omgevingen.\n"
     name: Koploper
   user:
     name: Eenvoudig in gebruik
     description: "Met een enkel commando kunt u duizenden pakketten updaten, een rollback
-      doen naar de snapshot van vorige week, weer naar voren, en zelf aankomende\n
-      releases bekijken\n"
+      doen naar de snapshot van vorige week, weer naar voren, en zelf aankomende\n\
+      \ releases bekijken\n"
   cpu:
     name: Functioneert met uw hardware
     description: "Dankzij het zijn van een grondig getest koploper, is het mogelijk
-      voor Tumbleweed om uw hardware en randapparatuur te bedienen zoals weinig andere\n
-      Linux distributies. Hierdoor is het bijzonder beschikt voor werkstations, laptops
-      en soortgelijken\n"
+      voor Tumbleweed om uw hardware en randapparatuur te bedienen zoals weinig andere\n\
+      \ Linux distributies. Hierdoor is het bijzonder beschikt voor werkstations,
+      laptops en soortgelijken\n"
   shield:
     description: "Gebouwd met de laatste kernel releases, gecompileerd met de laatste
       Spectre/Meltdown beperkings patches, met een firewall en sterk veiligheidsbeleid
@@ -409,9 +409,9 @@ leap_micro_ovw_desc_p3: Probeer Leap Micro in VM's die draaien op ofwel <a href=
 leap_156_ovw_video_desc: Een Leap 15.6 uitgave livestream
 kvm_sdboot_image: KVM image met systemd-boot
 choosing_media_micro_p2: "Leap Micro komt niet langer met een traditioneel installatieprogramma,
-  gebruikers moeten in plaats daarvan de zichzelf installerende media gebruiken.\n
-  De nieuw Packages Image is gewoon een offline dump van de rpm opslagruimte van Leap
-  Micro voor diegenen met een geïsoleerde omgeving.\n"
+  gebruikers moeten in plaats daarvan de zichzelf installerende media gebruiken.\n\
+  \ De nieuw Packages Image is gewoon een offline dump van de rpm opslagruimte van
+  Leap Micro voor diegenen met een geïsoleerde omgeving.\n"
 choosing_media_micro_p1: "De nieuwe zichzelf installerende image is de keuze op te
   gebruiken voor op USB of DVD gebaseerde installaties.\nEen eenvoudige zichzelf installerende
   assistent dumpt een voorgeconfigureerde image op het opslagapparaat en laat de partitie
@@ -420,8 +420,8 @@ choosing_media_micro_p1: "De nieuwe zichzelf installerende image is de keuze op 
   voorgeconifgureerde image naar de SD-kaart schrijven.\nGebruikers die meer controle
   willen over gebruik worden geadviseerd om <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a> te gebruiken.\n<br>\nEen demo van een op combustion gebaseerd gebruik
-  is te zien op <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">here</a>.\n
-  <br>\nDe jeos-firstboot zal diegenen begroeten die hun systeem niet hebben geconfigureerd
+  is te zien op <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">here</a>.\n\
+  \ <br>\nDe jeos-firstboot zal diegenen begroeten die hun systeem niet hebben geconfigureerd
   door Combustion te gebruiken.\n"
 server_leapmicro_p2: Extreem betrouwbaar, lichtgewicht besturingssysteem gebouwd voor
   werklasten in containers en gevirtualiseerd.
