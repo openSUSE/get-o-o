@@ -378,7 +378,7 @@ Tumbleweed_features:
   home:
     name: Stable
     description: |
-      Updates are thoroughly tested against industry-grade quality standards, taking advantage of a build service other Linux distributions envy us. Not only is each new version of a package individually tested, but different clusters of versions are tested against each other, making sure your system is internally consistent.
+      Updates are thoroughly tested against industry-grade quality standards, taking advantage of a build service other Linux distributions envy us for. Not only is each new version of a package individually tested, but different clusters of versions are tested against each other, making sure your system is internally consistent.
   user:
     name: Simple to Use
     description: |
