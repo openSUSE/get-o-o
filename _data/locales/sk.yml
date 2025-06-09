@@ -53,8 +53,8 @@ metalink: Metalink
 offline_image: Offline obraz
 offline_desc: "Obsahuje veľkú zbierku softvéru pre desktopy alebo servery.\nVhodné
   na inštaláciu alebo zvýšenie verzie.\n"
-network_desc: "Stiahne inštalačný systém a všetky balíčky z online repozitárov.\n
-  Vhodné pre inštaláciu alebo zvýšenie verzie.\n"
+network_desc: "Stiahne inštalačný systém a všetky balíčky z online repozitárov.\n\
+  \ Vhodné pre inštaláciu alebo zvýšenie verzie.\n"
 kvm_image: KVM a XEN obraz
 xen_image: XEN
 hyperv_image: MS HyperV obraz
@@ -67,26 +67,26 @@ live_images: Live
 gnome_cd: GNOME LiveCD
 kde_cd: KDE LiveCD
 xfce_cd: Xfce LiveCD
-tumbleweed_live_info: "Uvedomte si, prosím, nasledujúce obmedzenia live obrazov:\n
-  * Nemali by byť použité na inštaláciu alebo zvýšenie verzie Tumbleweed. Použite,
+tumbleweed_live_info: "Uvedomte si, prosím, nasledujúce obmedzenia live obrazov:\n\
+  \ * Nemali by byť použité na inštaláciu alebo zvýšenie verzie Tumbleweed. Použite,
   prosím, namiesto toho [Tumbleweed media](/tumbleweed)\n* Majú obmedzený výber balíkov
   a ovládačov, takže ich nemožno považovať za korektný obraz toho, či Tumbleweed bude
   fungovať na vašom hardvéri alebo nie\n"
 microos_desc: OS založený na openSUSE Tumbleweed poskytujúci transakčné (atomické)
   aktualizácie na koreňovom súborovom systéme btrfs iba na čítanie
-choosing_media_p1: "Odporúča sa zvyčajne Offline obraz, pretože obsahuje väčšinu\n
-  balíkov dostupných v distribúcii a počas inštalácie nevyžaduje\nsieťové pripojenie.\n"
+choosing_media_p1: "Odporúča sa zvyčajne Offline obraz, pretože obsahuje väčšinu\n\
+  \ balíkov dostupných v distribúcii a počas inštalácie nevyžaduje\nsieťové pripojenie.\n"
 choosing_media_p2: "Sieťový obraz sa odporúča pre používateľov, ktorí majú \nna internetových
   pripojeniach obmedzenú šírku pásma, pretože\nsi stiahnu len balíky, ktoré si zvolili
   pre nainštalovanie, čo je\npravdepodobne podstatne menej ako 4,7 GB.\n"
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-leap_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n
-  z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých
+leap_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n\
+  \ z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých
   príkazoch.\n"
 leap_switch_instructions: Pokyny pre zvýšenie verzie online.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-tw_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n
-  z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých
+tw_switch_p1: "Ak už používate openSUSE, môžete zvýšiť verziu spustením systému\n\
+  \ z DVD/USB a vybrať zvýšenie verzie alebo vykonať 'Online Upgrade'\nv niekoľkých
   príkazoch.\n"
 tw_switch_instructions: Pokyny pre zvýšenie verzie.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
@@ -97,8 +97,8 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
-verify_download_p1: "Kontrolný súčet sťahovania môže overiť veľa aplikácií. Overenie\n
-  stiahnutia môže byť dôležité, pretože overuje, že skutočne máte súbor\nISO, ktorý
+verify_download_p1: "Kontrolný súčet sťahovania môže overiť veľa aplikácií. Overenie\n\
+  \ stiahnutia môže byť dôležité, pretože overuje, že skutočne máte súbor\nISO, ktorý
   ste chceli stiahnuť, a nie nejakú poškodenú verziu.\n"
 verify_download_p2: "Pre každé ISO ponúkame súbor s kontrolným súčtom s príslušným
   súčtom SHA256 a podpisový súbor s kryptografickým podpisom.\n"
@@ -114,22 +114,22 @@ desktops_p1: "Proces prispievania do openSUSE umožňuje vývoj desktopov\npre v
   v inštalátore.\n"
 installation: Nainštalujte si ho, ako ho potrebujete
 installation_p1: "Proces inštalácie openSUSE vám poskytuje všetky možnosti, ktoré
-  by ste \npravdepodobne potrebovali. Chcete si nainštalovať váš systém pomocou\n
-  myši a klávesnice? Načítajte inštalačný program v grafickom režime.\nNemáte po ruke
-  myš? Povoľte terminálového klienta a nainštalujte ho týmto\nspôsobom. Nemáte fyzický
-  prístup k počítaču? Pripojte sa k inštalátoru\nna diaľku a pokračujte v inštalácii.
-  Je to také jednoduché.\n"
+  by ste \npravdepodobne potrebovali. Chcete si nainštalovať váš systém pomocou\n\
+  \ myši a klávesnice? Načítajte inštalačný program v grafickom režime.\nNemáte po
+  ruke myš? Povoľte terminálového klienta a nainštalujte ho týmto\nspôsobom. Nemáte
+  fyzický prístup k počítaču? Pripojte sa k inštalátoru\nna diaľku a pokračujte v
+  inštalácii. Je to také jednoduché.\n"
 points_transparent: Všetko je transparentné
 points_transparent_p1: "Od začiatku do konca má každý balík, ktorý ide do distribúcií,
   všetky\nsvoje zdroje a zostavovacie skripty otvorene viditeľné pre všetkých.\nPochybujete
   o zdroji? Stačí si to preveriť na službe zostavenia.\n"
 points_free: Slobodný softvér? Vaša voľba
-points_free_p1: "Balíky v distribúciách sú rozdelené do slobodných a neslobodných\n
-  repozitárov. Nechcete používať neslobodné balíčky? Neslobodný\nrepozitár môžete
+points_free_p1: "Balíky v distribúciách sú rozdelené do slobodných a neslobodných\n\
+  \ repozitárov. Nechcete používať neslobodné balíčky? Neslobodný\nrepozitár môžete
   ľahko zakázať. Je to vaša voľba, nie naša.\n"
 points_welcoming: Vítané prispievanie
-points_welcoming_p1: "Snažíme sa čo najviac vyhovieť komunite a dosiahnuť to môžeme,\n
-  iba keď komunita hovorí o tom, čo potrebuje. Preto zabezpečujeme,\naby bolo prispievanie
+points_welcoming_p1: "Snažíme sa čo najviac vyhovieť komunite a dosiahnuť to môžeme,\n\
+  \ iba keď komunita hovorí o tom, čo potrebuje. Preto zabezpečujeme,\naby bolo prispievanie
   čo najjednoduchšie.\n"
 snapper: Systém je poškodený? Už nie je problém
 snapper_p1: "Vďaka funkcii snímok súborového systému je váš súborový systém\npod kontrolou,
@@ -137,17 +137,17 @@ snapper_p1: "Vďaka funkcii snímok súborového systému je váš súborový sy
   zálohovanie. Stačí spustiť systém z predchádzajúcej\nsnímky a uviesť váš systém
   do funkčného stavu v priebehu niekoľkých minút.\n"
 software: Získanie softvéru už nemôže byť jednoduchšie
-software_p1: "Medzi nami, dá to veľa práce, keď musíte prejsť každú webovú stránku,\n
-  aby ste získali všetok softvér, ktorý by ste mohli potrebovať. Online\nsoftvérové
+software_p1: "Medzi nami, dá to veľa práce, keď musíte prejsť každú webovú stránku,\n\
+  \ aby ste získali všetok softvér, ktorý by ste mohli potrebovať. Online\nsoftvérové
   centrum to uľahčuje, pretože na jednom mieste obsahuje\nsoftvér z množstva zdrojov.\n"
 software_get: Získajte softvér
 transactional: Transakčný server
-transactional_p1: "Inštalátor teraz podporuje novú systémovú rolu Transakčný server,\n
-  ktorý je výsledkom úsilia openSUSE Kubic. Táto systémová rola\nobsahuje nový aktualizačný
+transactional_p1: "Inštalátor teraz podporuje novú systémovú rolu Transakčný server,\n\
+  \ ktorý je výsledkom úsilia openSUSE Kubic. Táto systémová rola\nobsahuje nový aktualizačný
   systém, ktorý aplikuje aktualizácie\natomicky (ako jedinú operáciu) a uľahčuje ich
-  návrat, ak je to\npotrebné. Tieto funkcie sú založené na nástrojoch na správu balíkov,\n
-  na ktoré sa spoliehajú všetky ostatné distribúcie SUSE a openSUSE.\nTo znamená to,
-  že drvivá väčšina RPM balíkov, ktoré pracujú s inými\nsystémovými rolami distribúcií
+  návrat, ak je to\npotrebné. Tieto funkcie sú založené na nástrojoch na správu balíkov,\n\
+  \ na ktoré sa spoliehajú všetky ostatné distribúcie SUSE a openSUSE.\nTo znamená
+  to, že drvivá väčšina RPM balíkov, ktoré pracujú s inými\nsystémovými rolami distribúcií
   openSUSE, pracuje aj so systémovou\nrolou Transakčný server.\n"
 yast: YaST, najlepšia voľba pre ~~náročného~~ používateľa
 yast_p1: "Jeden z najlepších nástrojov na konfiguráciu systému pomáha vám,\npoužívateľovi,
@@ -256,10 +256,10 @@ MicroOS_features:
     name: Atomické aktualizácie
   idea:
     description: "###Je predvídateľný\n* Počas behu sa nezmení\n* Pri každom štarte
-      systému bude konzistentne spúšťať rovnaké artefakty\n\n### Je škálovateľný\n
-      * Odstraňuje úsilie pri konfigurácii jednotlivých inštancií počas behu\n* Dá
-      sa ľahko a opakovane uviesť s predvídateľným výsledkom\n\n### Je spoľahlivý\n
-      * Automatická obnova z chybných aktualizácií\n"
+      systému bude konzistentne spúšťať rovnaké artefakty\n\n### Je škálovateľný\n\
+      \ * Odstraňuje úsilie pri konfigurácii jednotlivých inštancií počas behu\n*
+      Dá sa ľahko a opakovane uviesť s predvídateľným výsledkom\n\n### Je spoľahlivý\n\
+      \ * Automatická obnova z chybných aktualizácií\n"
     name: Filozofia
   work:
     description: "Aplikácie sa inštalujú skôr v kontajneroch ako na koreňovom súborovom
@@ -275,13 +275,13 @@ MicroOS_features:
       V prípade neúspešných aktualizácií sa snímky súborového systému vymažú\n"
     name: Bezpečené aktualizácie
   shield:
-    description: "### MicroOS je nezmeniteľný OS, vrátenie sa späť je jednoduché\n
-      * Nezmeniteľný: Žiadne zmeny na disku\n* Vrátenie sa späť reštartovaním na starú
-      snímku BTRFS\n"
+    description: "### MicroOS je nezmeniteľný OS, vrátenie sa späť je jednoduché\n\
+      \ * Nezmeniteľný: Žiadne zmeny na disku\n* Vrátenie sa späť reštartovaním na
+      starú snímku BTRFS\n"
     name: Vrátenie sa späť
   tool:
-    description: "### Kontajner ladiacich nástrojov\n* Spustí privilegovaný kontajner\n
-      * Koreňový súborový systém je dostupný pod `/media/root`\n* zypper na inštaláciu
+    description: "### Kontajner ladiacich nástrojov\n* Spustí privilegovaný kontajner\n\
+      \ * Koreňový súborový systém je dostupný pod `/media/root`\n* zypper na inštaláciu
       potrebných nástrojov, ktoré sú k dispozícii bez reštartu\n* Trvalý medzi použitiami\n"
     name: Ladenie
 Tumbleweed_features:
@@ -378,8 +378,8 @@ choosing_media_micro_p1: "Nový samoinštalačný obraz je najlepšou voľbou pr
   obraz a zväčší oddiel na veľkosť disku.\n<br>\nPoužívatelia s Raspberry Pi a podobnými
   zariadeniami bez podpory zavádzania cez USB môžu priamo zapísať predkonfigurovaný
   obraz na kartu SD.\nPoužívateľom, ktorí chcú mať väčšiu kontrolu nad nasadením,
-  odporúčame použiť <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"
-  >Combustion</a>.\n<br>\nUkážku nasadenia založeného na combution si môžete pozrieť
+  odporúčame použiť <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  \ >Combustion</a>.\n<br>\nUkážku nasadenia založeného na combution si môžete pozrieť
   na <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">here</a>.\n<br>\njeos-firstboot
   privíta tých, ktorí nekonfigurovali svoj systém pomocou Combustion.\n"
 preconfigured_qcow_image: Predkonfigurovaný obraz (qcow)
