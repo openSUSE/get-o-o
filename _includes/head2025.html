@@ -1,0 +1,128 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+    <title>
+      {% if page.title_translation_key %}
+        {{ locale[page.title_translation_key] | escape }}
+      {% endif %}
+      {% if page.title_translation_key and page.hide_title_suffix != 1 %}
+        -
+      {% endif %}
+      {% if page.hide_title_suffix != 1 %}
+        {{ locale.site_title | default: site.title | escape }}
+      {% endif %}
+    </title>
+    <meta name="description" content="{{ locale[page.description_translation_key] | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+  
+    <!-- stylesheet -->
+    {% if page.stylesheet %}
+    <link rel="stylesheet" href="/assets/css/{{ page.stylesheet }}.css">
+    {% else %}
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    {% endif %}
+  
+    <!-- favicon -->
+    <link rel="shortcut icon" href="/assets/img/favicon-for-light.ico">
+    <link rel="icon" href="/assets/img/favicon-for-light-192.png">
+    <script>
+      const shortcutIcon = document.querySelector('link[rel="shortcut icon"]');
+      const faviconEl = document.querySelector('link[rel="icon"]');
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      mediaQuery.addEventListener('change', (event) => setDarkThemeEnabled(event.matches));
+      function setDarkThemeEnabled(value) {
+        if (value) {
+          shortcutIcon.setAttribute('href', '/assets/img/favicon-for-dark.ico');
+          faviconEl.setAttribute('href', '/assets/img/favicon-for-dark-192.png');
+        } else {
+          shortcutIcon.setAttribute('href', '/assets/img/favicon-for-light.ico');
+          faviconEl.setAttribute('href', '/assets/img/favicon-for-light-192.png');
+        }
+      }
+      setDarkThemeEnabled(mediaQuery.matches);
+    </script>
+  
+    <!-- apple-touch-icon -->
+    <link rel="apple-touch-icon" href="/assets/img/favicon-for-light-144.png" sizes="144x144">
+    <link rel="apple-touch-icon" href="/assets/img/favicon-for-light-192.png" sizes="192x192">
+    <link rel="mask-icon" href="https://static.opensuse.org/mask-icon.svg" color="#73ba25">
+  
+    <!-- mobile web app data -->
+    <link href="{{ '/manifest.json' | absolute_url }}" rel="manifest">
+    <meta name="mobile-web-app-capable" content="yes">
+    {% if page.color %}
+    <meta name="theme-color" content="{{ page.color }}">
+    {% else %}
+    <meta name="theme-color" content="#73ba25">
+    {% endif %}
+  
+    <!-- open graph meta -->
+    <meta property="og:site_name" content="{{ locale.site_title | default: site.title | escape }}">
+    <meta property="og:title" content="{{ page.title | default: locale.site_title | default: site.title | escape }}">
+    <meta property="og:description"
+      content="{{ locale[page.description_translation_key] | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta property=" og:url" content="{{ page.path | replace:'index.html','' | absolute_url }}">
+    {% if page.layout == 'post' %}
+    <meta property="og:type" content="article">
+    <meta property="og:article:author" content="{{ page.author | escape }}">
+    <meta property="og:article:published_time" content="{{ page.date | date_to_xmlschema }}">
+    {% for tag in page.tags %}
+    <meta property="og:article:tag" content="{{ tag | escape }}">
+    {% endfor %} {% endif %} {% if page.icon %}
+    <meta property="og:image" content="{{ page.icon | absolute_url }}">
+    {% elsif page.image %}
+    <meta property="og:image" content="{{ page.image | absolute_url }}">
+    {% else %}
+    <meta property="og:image" content="https://static.opensuse.org/favicon-192.png">
+    {% endif %}
+  
+    <!-- twitter meta -->
+    {% if page.image %}
+    <meta name="twitter:card" content="summary_large_image">
+    {% else %}
+    <meta name="twitter:card" content="summary">
+    {% endif %}
+    <meta name="twitter:title" content="{{ page.title | default: locale.site_title | default: site.title | escape }}">
+    <meta name="twitter:description"
+      content="{{ page.excerpt | default: locale.site_description | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <meta name="twitter:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
+    {% if page.image %}
+    <meta name="twitter:image" content="{{ page.image | absolute_url }}">
+    {% elsif page.icon %}
+    <meta name="twitter:image" content="{{ page.icon | absolute_url }}">
+    {% else %}
+    <meta name="twitter:image" content="https://static.opensuse.org/favicon-192.png">
+    {% endif %}
+  
+    {% if site.piwik_site_id %}
+    <!-- Piwik -->
+    <script>
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+      (function () {
+        var u =
+          ("https:" == document.location.protocol ? "https" : "http") +
+          "://" +
+          "beans.opensuse.org/matomo/";
+        _paq.push(["setTrackerUrl", u + "matomo.php"]);
+        _paq.push(["setSiteId", "{{ site.piwik_site_id }}"]);
+        var d = document,
+          g = d.createElement("script"),
+          s = d.getElementsByTagName("script")[0];
+        g.type = "text/javascript";
+        g.defer = true;
+        g.async = true;
+        g.src = u + "piwik.js";
+        s.parentNode.insertBefore(g, s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+    {% endif %}
+  
+    {% if site.enable_feed %}
+    <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="/feed/">
+    {% endif %}
+  
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+</head>

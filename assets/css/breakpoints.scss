@@ -1,0 +1,41 @@
+@mixin xxsAndUp {
+    @media screen and (min-width: 300px) {
+        @content
+    }
+}
+
+@mixin xsAndUp {
+    @media screen and (min-width: 400px) {
+        @content
+    }
+}
+
+@mixin smallAndUp {
+    @media screen and (min-width: 500px) {
+        @content
+    }
+}
+
+@mixin mediumAndUp {
+    @media screen and (min-width: 700px) {
+        @content
+    }
+}
+
+@mixin largeAndUp {
+    @media screen and (min-width: 800px) {
+        @content
+    }
+}
+
+@mixin xlAndUp {
+    @media screen and (min-width: 1000px) {
+        @content
+    }
+}
+
+@mixin xxlAndUp {
+    @media screen and (min-width: 1200px) {
+        @content
+    }
+}
