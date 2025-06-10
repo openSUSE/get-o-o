@@ -7,6 +7,12 @@
       <div class="col">
         <h4>{{ locale.requirements_min }}</h4>
         <ul class="list-unstyled">
+          <li><b>{{ locale.requirements_cpu }}</b>:</li>
+          <ul>
+            <li><a href="{{ locale.requirements_cpu_slfo_x86_64_link }}">{{ locale.requirements_cpu_slfo_x86_64 }}</a></li>
+            <li>{{ locale.requirements_cpu_slfo_ppc64le }}</li>
+            <li>{{ locale.requirements_cpu_slfo_s390x }}</li>
+          </ul>
           <li><b>{{ locale.requirements_mem }}</b>: {{ locale.requirements_mem_desc | replace: '$value', '1GB' }}</li>
           <li><b>{{ locale.requirements_hdd }}</b>:
             <ul>
@@ -19,6 +25,12 @@
       <div class="col">
         <h4>{{ locale.requirements_rec }}</h4>
         <ul class="list-unstyled">
+          <li><b>{{ locale.requirements_cpu }}</b>:</li>
+          <ul>
+            <li><a href="{{ locale.requirements_cpu_slfo_x86_64_link }}">{{ locale.requirements_cpu_slfo_x86_64 }}</a></li>
+            <li>{{ locale.requirements_cpu_slfo_ppc64le }}</li>
+            <li>{{ locale.requirements_cpu_slfo_s390x }}</li>
+          </ul>
           <li><b>{{ locale.requirements_mem }}</b>: {{ locale.requirements_mem_desc | replace: '$value', '2GB' }}</li>
           <li><b>{{ locale.requirements_hdd }}</b>:
             <ul>

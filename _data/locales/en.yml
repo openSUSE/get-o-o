@@ -135,6 +135,10 @@ requirements_min: Minimum
 requirements_rec: Recommended
 requirements_cpu: CPU
 requirements_cpu_desc: 2 Ghz dual core processor or better
+requirements_cpu_slfo_x86_64: "For x86_64: microarchitecture level x86-64-v2 or higher"
+requirements_cpu_slfo_x86_64_link: https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: "For ppc64le: POWER9 or higher"
+requirements_cpu_slfo_s390x: "For s390x: z14 or higher"
 requirements_mem: Memory
 requirements_mem_desc: $value physical RAM + additional memory for your workload
 requirements_hdd: Storage
