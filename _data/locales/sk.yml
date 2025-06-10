@@ -308,7 +308,7 @@ Tumbleweed_features:
     name: Jednoduché použitie
   home:
     description: "Aktualizácie sú dôkladne testované podľa štandardov kvality priemyselnej
-      úrovne, využívajúc výhody služby zostavenia, ktorú nám iné linuxové distribúcie
+      úrovne, využívajúc výhody služby zostavenia, ktoré nám iné linuxové distribúcie
       závidia. Nielenže sa každá nová verzia balíka testuje individuálne, ale aj rôzne
       klastre verzií sa testujú navzájom pre uistenie sa, že je váš systém vnútorne
       konzistentný.\n"
