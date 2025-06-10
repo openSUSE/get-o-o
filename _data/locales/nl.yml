@@ -311,10 +311,10 @@ Tumbleweed_features:
   home:
     name: Stabiel
     description: "Updates zijn grondig getest tegen industriële kwaliteitsstandaarden,
-      gebruik makend van een build service waar andere Linux distributies jaloers
-      op zijn.\nNiet alleen is elke nieuwe versie of een pakket individueel getest,
-      maar verschillende clusters van versies worden tegen elkaar getest . Op die
-      manier verzekerd dat\nuw systeem intern consistent is.\n"
+      gebruik makend van een bouwservice waar andere Linux distributies jaloers op
+      zijn. Niet alleen is elke nieuwe versie of een pakket individueel getest, maar
+      verschillende clusters van versies worden tegen elkaar getest . Op die manier
+      verzekerd dat uw systeem intern consistent is.\n"
   key:
     name: Veilig
     description: "Mocht er iets ongewenst gebeuren dan kunt u altijd een rollback
