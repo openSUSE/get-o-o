@@ -143,9 +143,9 @@ Tumbleweed_features:
   home:
     name: Stabil
     description: "Uppdateringar testas noggrant mot branschkvalitetsstandarder och
-      drar fördel av en byggtjänst som andra Linux distributioner avundas oss. Inte
-      bara varje ny version av ett paket testas individuellt, utan olika kluster av
-      versioner testas mot varandra, vilket säkerställer att ditt system är internt
+      drar fördel av en byggtjänst som andra Linux distributioner avundas oss. För
+      inte bara varje ny version av ett paket testas individuellt, utan olika kluster
+      av versioner testas mot varandra, vilket säkerställer att ditt system är internt
       konsekvent.\n"
   key:
     name: Säker
