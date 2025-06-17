@@ -1,0 +1,17 @@
+$background-light: #ecfff8;
+$foreground1-light: #0c322c;
+$foreground2-light: #123f38;
+$foreground3-light: #0F4030;  // Same color as filter below
+$topnav-foreground-filter-light: invert(14%) sepia(14%) saturate(5295%) hue-rotate(137deg) brightness(97%) contrast(88%);
+
+$background-dark: #0c322c;
+$foreground1-dark: #ccedea;
+$foreground2-dark: #bfe8e1;
+$foreground3-dark: #A5C7C3;  // Same color as filter below
+$topnav-foreground-filter-dark: invert(86%) sepia(28%) saturate(185%) hue-rotate(124deg) brightness(85%) contrast(92%);
+
+@mixin dark {
+    @media screen and (prefers-color-scheme: dark) {
+        @content;
+    }
+}
