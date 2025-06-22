@@ -7,7 +7,7 @@ cd_desc: Für CD und USB-Stick
 dvd_desc: Für DVD und USB-Stick
 usb_desc: Für USB-Stick
 pick_mirror: Spiegelserver auswählen
-checksum: Checksumme
+checksum: Prüfsumme
 torrent_file: Torrent Datei
 offline_image: Offline-Image
 offline_desc: "Enthält eine große Anzahl an Software für Desktop- oder Server-Benutzung.\n\
@@ -151,8 +151,8 @@ yast_scanner: Scanner
 yast_sound: Audio
 yast_software: Software
 zypper: Zypper, Ihr neuer favorisierter Paketmanager
-site_description: Lerne die openSUSE Distributionen kennen und lade sie 
-  kostenlos herunter
+site_description: Erfahren Sie mehr über die openSUSE Distributionen und laden 
+  Sie sie kostenlos herunter
 site_copyright: © 2025 openSUSE-Mitwirkende
 zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n\
   \ mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n\
@@ -221,8 +221,8 @@ view_distro: $distro_name ansehen
 new_version_testing: $distro_name ist jetzt zum Herunterladen und Testen 
   verfügbar
 new_version_available: $distro_name ist jetzt zum Herunterladen verfügbar
-iso_image: ISO-Image
-site_title_short: Herunterladen
+iso_image: ISO Abbild
+site_title_short: Erhalten
 site_title: openSUSE holen
 live_info: "Sei Dir der folgenden Einschränkungen der Live Images bewusst:\n* Sie
   sind nicht zur Installation oder als Upgrade-Medium bestimmt. Nutze stattdessen
@@ -291,6 +291,9 @@ MicroOS_features:
       Dateisystem-Snapshots werden im Fall von nicht erfolgreichen Updates gelöscht\n"
   tool:
     name: Debugging
+    description: "### Debugging Toolbox Container\n* Startet einen privilegierten
+      Container\n* Root-Dateisystem verfügbar unter `/media/root`\n* zypper zur Installation
+      der notwendigen Tools, verfügbar ohne Neustart\n* Persistent zwischen den Verwendungen\n"
   work:
     name: Arbeitslast
     description: "Anwendung werden in Containern statt im Hauptdateisystem installiert:\n\
@@ -375,8 +378,14 @@ Tumbleweed_features:
       eine Vorschau auf kommende Versionen anzeigen.\n"
   power:
     name: Leistungsstark
+    description: "Tumbleweed nutzt Technologien, für die openSUSE bekannt ist, wie
+      das `Btrfs`-Dateisystem, das `snapper`-Befehlszeilendienstprogramm sowie das
+      bewährte `YaST`-Kontrollfeld, und gibt Ihnen die volle Kontrolle über Ihr System,
+      indem es Ihnen die Möglichkeit gibt, die gewünschten Einstellungen zu definieren
+      und damit fertig zu werden. Sie müssen sich nicht mehr darum sorgen, dass ein
+      System Ihren Arbeitsprozess stört.\n"
   plant:
-    name: Steht auf festem Grund
+    name: Steht auf festem Boden
     description: "Tumbleweed basiert auf jahrzehntelangem Einsatz, Testen und Debuggen
       durch Hunderte von erfahrenen Benutzern, Entwicklern, Systemadministratoren
       und anspruchsvollen Anwendern, die es sich nicht leisten können, ihren Arbeitsablauf
@@ -443,3 +452,9 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   verwendet werden kann.\nEs ist geplant, die Offline-Installation in Agama zu unterstützen.
   Andere Installationsmedien, wie z. B. ein selbst installierendes Abbild, werden
   später hinzugefügt.\n"
+microos_ovw_desc_p1: Entwickelt für den Betrieb von Container- Anwendungen mit 
+  automatisierter Verwaltung und Patching. Mit der Installation von openSUSE 
+  MicroOS erhalten Sie eine schnelle, kleine Umgebung für die Bereitstellung von
+  Containern oder anderen Aufgaben, die von transaktionalen Updates profitieren.
+  Als Rolling-Release-Distribution ist die Software immer auf dem neuesten 
+  Stand.
