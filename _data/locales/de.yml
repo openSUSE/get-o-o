@@ -34,8 +34,8 @@ tumbleweed_live_info: "Bitte beachten Sie die folgenden Einschränkungen der Liv
   Bitte verwenden Sie stattdessen [Tumbleweed Medien](/tumbleweed)\n* Sie haben eine
   begrenzte Paket- und Treiber-Auswahl, weshalb keine genaue Aussage getroffen werden
   kann, ob Tumbleweed auf Ihrer Hardware laufen wird oder nicht\n"
-microos_desc: Auf openSUSE Tumbleweed basierendes OS, das Transaktionale (Atomare)
-  Updates auf einem nur lesbarem btrfs Wurzeldateisystem bereitstellt
+microos_desc: Auf openSUSE Tumbleweed basierendes OS, das Transaktionale 
+  (Atomare) Updates auf einem nur lesbarem btrfs Wurzeldateisystem bereitstellt
 choosing_media: Auswahl des Mediums zum Herunterladen
 choosing_media_p1: "Das Offline Image wird normalerweise empfohlen, da es die meisten\n\
   \ der Pakete, die in der Distribution verfügbar sind enthalten und keine\nNetzwerkverbindung
@@ -58,7 +58,8 @@ requirements: Systemanforderungen
 requirements_cpu: CPU
 requirements_mem: Arbeitsspeicher
 requirements_hd: Mehr als 40GB freier Festplattenspeicher
-requirements_dvd: Entweder ein DVD-Laufwerk oder USB-Port für das Installationsmedium
+requirements_dvd: Entweder ein DVD-Laufwerk oder USB-Port für das 
+  Installationsmedium
 requirements_net: Netzwerk
 tw_switch: Einfache Wege, um zu openSUSE Tumbleweed zu wechseln
 tw_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSie im
@@ -66,21 +67,28 @@ tw_switch_p1: "Wenn Sie schon openSUSE verwenden, können Sie upgraden indem\nSi
   Kommandos durchführen.\n"
 tw_switch_instructions: Upgrade Anweisungen.
 tw_switch_instructions_link: https://de.opensuse.org/openSUSE:Tumbleweed-Upgrade
-upgrade_table_linux: Von einer älteren Version oder einer anderen Linux Distribution
+upgrade_table_linux: Von einer älteren Version oder einer anderen Linux 
+  Distribution
 upgrade_table_windows: Von Windows
 upgrade_table_mac: Von OS X
 upgrade_table_linux_dvd: Wie man eine DVD unter Linux brennt.
-upgrade_table_linux_dvd_link: https://de.opensuse.org/SDB:Download-Hilfe#Unter_Linux_2
+upgrade_table_linux_dvd_link: 
+  https://de.opensuse.org/SDB:Download-Hilfe#Unter_Linux_2
 upgrade_table_windows_dvd: Wie man eine DVD unter Windows brennt.
-upgrade_table_windows_dvd_link: https://de.opensuse.org/SDB:Download-Hilfe#Unter_Microsoft.C2.AE_Windows.C2.AE_2
+upgrade_table_windows_dvd_link: 
+  https://de.opensuse.org/SDB:Download-Hilfe#Unter_Microsoft.C2.AE_Windows.C2.AE_2
 upgrade_table_mac_dvd: Wie man eine DVD unter OS X brennt.
-upgrade_table_mac_dvd_link: https://de.opensuse.org/SDB:Download-Hilfe#Unter_MacOS_X_10.3_und_neuer
+upgrade_table_mac_dvd_link: 
+  https://de.opensuse.org/SDB:Download-Hilfe#Unter_MacOS_X_10.3_und_neuer
 upgrade_table_linux_usb: Wie man einen bootbaren USB Stick unter Linux erstellt.
 upgrade_table_linux_usb_link: https://de.opensuse.org/SDB:Live_USB_Stick
-upgrade_table_windows_usb: Wie man einen bootbaren USB Stick unter Windows erstellt.
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb: Wie man einen bootbaren USB Stick unter Windows 
+  erstellt.
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Wie man einen bootbaren USB Stick unter OS X erstellt.
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Überprüfen Sie vor der Benutzung Ihre heruntergeladenen Dateien
 verify_download_p1: "Viele Anwendungen können die Prüfsumme eines Downloads überprüfen.\n\
   \ Eine Überprüfung des Downloads kann wichtig sein, um sicherzustellen dass\ndas
@@ -91,10 +99,11 @@ verify_download_p3: "Um die Integrität der heruntergeladenen Datei sicherzustel
   können Sie sha256sum zur Überprüfung der Prüfsumme und gpgv zur Überprüfung der
   kryptografischen Signatur verwenden.\n"
 verify_download_pubkey: Es sollte
-verify_download_help: Weitere Hilfe um Ihren Download zu überprüfen erhalten Sie in
-  der
+verify_download_help: Weitere Hilfe um Ihren Download zu überprüfen erhalten Sie
+  in der
 verify_download_checksums_help: Checksummen-Hilfe
-verify_download_checksums_help_link: https://de.opensuse.org/SDB:Download-Hilfe#Pr.C3.BCfsummen
+verify_download_checksums_help_link: 
+  https://de.opensuse.org/SDB:Download-Hilfe#Pr.C3.BCfsummen
 installation: Installieren Sie es so, wie Sie es wünschen
 points_transparent: Alles ist transparent
 points_transparent_p1: "Vom Anfang bis zum Ende. Für jedes Paket, das in die Distributionen
@@ -142,8 +151,8 @@ yast_scanner: Scanner
 yast_sound: Audio
 yast_software: Software
 zypper: Zypper, Ihr neuer favorisierter Paketmanager
-site_description: Lerne die openSUSE Distributionen kennen und lade sie kostenlos
-  herunter
+site_description: Lerne die openSUSE Distributionen kennen und lade sie 
+  kostenlos herunter
 site_copyright: © 2025 openSUSE-Mitwirkende
 zypper_p1: "Es ist schnell und einfach zu erlernen. Inkludiert zypper-apt, eine Kompatibilitätsebene,\n\
   \ mit der apt und apt-get Kommandos verwendet werden können. Es basiert auf libsolv,\n\
@@ -159,29 +168,31 @@ index_server_p1: Auswahl an Distributionen für die Verwendung als Server
 index_full: Oder gehe direkt zu den Download Seiten für die Distributionen
 desktop: openSUSE Desktop Distributionen
 desktop_p1: "Die zwei Distributionen, um alles zu beherrschen (jetzt in grün!)\n"
-desktop_tumbleweed_p1: Für Entwickler, openSUSE Mitwirkende, Spieler und Linux/FOSS
-  Enthusiasten
-desktop_tumbleweed_p2: Rolling Release mit den neuesten Paketen, bereitgestellt vom
-  openSUSE Projekt.
+desktop_tumbleweed_p1: Für Entwickler, openSUSE Mitwirkende, Spieler und 
+  Linux/FOSS Enthusiasten
+desktop_tumbleweed_p2: Rolling Release mit den neuesten Paketen, bereitgestellt 
+  vom openSUSE Projekt.
 desktop_tumbleweed_view: Tumbleweed anschauen
-desktop_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale" Desktop-Anwender
-desktop_leap_p2: Reguläres Release mit den Vorteilen von Technik auf Enterprise-Niveau
-  und von der Community entwickelten Innovationen.
+desktop_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale"
+  Desktop-Anwender
+desktop_leap_p2: Reguläres Release mit den Vorteilen von Technik auf 
+  Enterprise-Niveau und von der Community entwickelten Innovationen.
 desktop_leap_view: Leap anschauen
 server: openSUSE Server Distributionen
 server_p1: "Vier komfortabel langweilige Distributionen, so wie es immer sein sollte\n"
-server_tumbleweed_p1: Für Entwickler, openSUSE Mitwirkende, Spieler und Linux/FOSS
-  Enthusiasten
-server_tumbleweed_p2: Rolling Release mit den neuesten Paketen, bereitgestellt vom
-  openSUSE Projekt.
+server_tumbleweed_p1: Für Entwickler, openSUSE Mitwirkende, Spieler und 
+  Linux/FOSS Enthusiasten
+server_tumbleweed_p2: Rolling Release mit den neuesten Paketen, bereitgestellt 
+  vom openSUSE Projekt.
 server_tumbleweed_view: Tumbleweed anschauen
-server_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale" Desktop-Anwender
-server_leap_p2: Reguläres Release mit den Vorteilen von Technik auf Enterprise-Niveau
-  und von der Community entwickelten Innovationen.
+server_leap_p1: Für Systemadministratoren, Unternehmensentwickler und "normale" 
+  Desktop-Anwender
+server_leap_p2: Reguläres Release mit den Vorteilen von Technik auf 
+  Enterprise-Niveau und von der Community entwickelten Innovationen.
 server_leap_view: Leap anschauen
 server_microos_p1: Für Einzweck-Serveranwendungen
-server_microos_p2: Entwickelt, um Container-Arbeitslasten mit automatisierter Administration
-  und Patching zu betreiben
+server_microos_p2: Entwickelt, um Container-Arbeitslasten mit automatisierter 
+  Administration und Patching zu betreiben
 server_microos_view: MicroOS anschauen
 metalink: Metalink
 kvm_desc: Zur Verwendung in KVM oder XEN HVM Hypervisoren
@@ -207,11 +218,12 @@ aarch64: Desktops, Laptops und Server mit Arm-64-bit und UEFI (aarch64)
 i686: Desktops, Laptops und Server mit Intel- oder AMD-32-bit (i686)
 x86_64: Desktops, Laptops und Server mit Intel- oder AMD-64-bit (x86_64)
 view_distro: $distro_name ansehen
-new_version_testing: $distro_name ist jetzt zum Herunterladen und Testen verfügbar
+new_version_testing: $distro_name ist jetzt zum Herunterladen und Testen 
+  verfügbar
 new_version_available: $distro_name ist jetzt zum Herunterladen verfügbar
 iso_image: ISO-Image
 site_title_short: Herunterladen
-site_title: openSUSE herunterladen
+site_title: openSUSE holen
 live_info: "Sei Dir der folgenden Einschränkungen der Live Images bewusst:\n* Sie
   sind nicht zur Installation oder als Upgrade-Medium bestimmt. Nutze stattdessen
   die Installationsmedien.\n* Sie beinhalten nur eine begrenzte Auswahl an Treibern,
@@ -235,8 +247,9 @@ pine_image: Pine64
 pine_ch_image: Pine64 Container-Host
 openstack_ch_image: OpenStack-Cloud-Container-Host
 virtualbox_image: VirtualBox
-jeos_info: Minimale VM Images. Für Arm JeOS-Images, gehen Sie bitte zur <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  Wiki Seite</a>
+jeos_info: Minimale VM Images. Für Arm JeOS-Images, gehen Sie bitte zur <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm Wiki
+  Seite</a>
 vm_images: Virtuelle Maschine
 hardware_images: Hardware
 ppc64: Server mit PowerPC, big-endian (ppc64)
@@ -246,7 +259,8 @@ download: Download
 alternative_downloads: Alternative Downloads
 requirements_hdd_root: / (root) Partition
 minimal_vm_images: Minimale Virtuelle Maschine
-requirements_hdd_swap_info: swap deaktiviert, damit Kubernetes korrekt funktioniert
+requirements_hdd_swap_info: swap deaktiviert, damit Kubernetes korrekt 
+  funktioniert
 MicroOS_features:
   idea:
     description: "### Ist vorhersagbar\n* Wird während der Laufzeit nicht verändert\n\
@@ -285,11 +299,12 @@ MicroOS_features:
       Updates möglich (neuen erstellen, alten töten)\n* einfaches Rollback\n"
 offline_updated_desc: "Offline Installationsimage mit den neuesten Updates.\nGeeignet
   für Installation oder Upgrade.\n"
-minimal_vm_info: Ähnlich der SUSE Linux Enterprise Server Minimal-VM Images. Für Arm
-  JeOS-Images, gehen Sie bitte zur <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  Wiki Seite</a>
-requirements_mem_desc: $value physikalischer RAM + zusätzlicher Arbeitsspeicher für
-  Ihre Arbeitslast
+minimal_vm_info: Ähnlich der SUSE Linux Enterprise Server Minimal-VM Images. Für
+  Arm JeOS-Images, gehen Sie bitte zur <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm Wiki
+  Seite</a>
+requirements_mem_desc: $value physikalischer RAM + zusätzlicher Arbeitsspeicher 
+  für Ihre Arbeitslast
 offline_updated_image: Aktualisiertes Offline Image
 server_aarch64: UEFI Arm 64-bit Server und Platinen (aarch64)
 requirements_hdd_ssd_info: SSD mit hoher Schreibgeschwindigkeit
@@ -300,8 +315,8 @@ installation_p1: "Der openSUSE Installationsprozess gibt Ihnen alle Optionen\ndi
   Zugriff zur Maschine? Verbinden Sie sich zum Installer aus der Ferne und\nfahren
   Sie mit der Installation fort. Es ist so einfach.\n"
 armv7l: UEFI Arm 32-bit Server, Desktops, Laptops und Boards (armv7l)
-alternative_downloads_desc: Wir haben auch $options Images. Sehen Sie sich $alternative_downloads
-  an!
+alternative_downloads_desc: Wir haben auch $options Images. Sehen Sie sich 
+  $alternative_downloads an!
 server_x86_64: Intel oder AMD 64-bit Server (x86_64)
 cloud_image: Cloud Image
 cloud_minimal_desc: Minimales KVM und Xen Image mit cloud-init
@@ -311,10 +326,12 @@ requirements_cpu_desc: 2 GHz Dual-Core-Prozessor oder besser
 requirements_hdd: Speicher
 requirements_hdd_desc: Mehr als 40GB freier Festplattenspeicher
 requirements_hdd_size_desc: $value verfügbarer Plattenplatz
-requirements_dvd_desc: Entweder ein DVD-Laufwerk oder ein USB-Port für das Installationsmedium
-requirements_net_desc: Ein Internetzugang ist hilfreich und wird für den Netzwerk-Installer
-  benötigt
-requirements_net_conn: Vollständige Verbindung zwischen allen Maschinen im Cluster
+requirements_dvd_desc: Entweder ein DVD-Laufwerk oder ein USB-Port für das 
+  Installationsmedium
+requirements_net_desc: Ein Internetzugang ist hilfreich und wird für den 
+  Netzwerk-Installer benötigt
+requirements_net_conn: Vollständige Verbindung zwischen allen Maschinen im 
+  Cluster
 requirements_net_mac: Eindeutige Hostnamen und MAC-Adressen für jeden Knoten
 Tumbleweed_features:
   key:
@@ -389,34 +406,38 @@ choosing_media_micro_p1: "Das neue selbst-installierende Image ist empfohlen fü
 tumbleweed_ovw_title: Modernes Desktop- und Server-Betriebssystem
 kvm_sdboot_image: KVM-Abbild mit systemd-boot
 packages_image: Abbild von Paketen
-leap_micro_ovw_title: Leap Micro ist ein extrem zuverlässiges, leichtgewichtiges Betriebssystem,
-  das für containerisierte und virtualisierte Arbeitsbelastungen entwickelt wurde.
+leap_micro_ovw_title: Leap Micro ist ein extrem zuverlässiges, leichtgewichtiges
+  Betriebssystem, das für containerisierte und virtualisierte Arbeitsbelastungen
+  entwickelt wurde.
 packages_image_desc: Medien, das ein Offline-Repositorium mit Paketen enthält.
-server_leapmicro_p2: Extrem zuverlässiges, leichtgewichtiges Betriebssystem für containerisierte
-  und virtualisierte Arbeitsbelastungen.
-leap_ovw_title: Eine völlig neue Art der Entwicklung von openSUSE und eine neue Art
-  einer hybriden Linux-Distribution
-microos_ovw_title: Micro Service OS mit transaktionalen (atomaren) Aktualisierungen
-  auf einem schreibgeschützten btrfs-Wurzeldateisystem
+server_leapmicro_p2: Extrem zuverlässiges, leichtgewichtiges Betriebssystem für 
+  containerisierte und virtualisierte Arbeitsbelastungen.
+leap_ovw_title: Eine völlig neue Art der Entwicklung von openSUSE und eine neue 
+  Art einer hybriden Linux-Distribution
+microos_ovw_title: Micro Service OS mit transaktionalen (atomaren) 
+  Aktualisierungen auf einem schreibgeschützten btrfs-Wurzeldateisystem
 server_leapmicro_p1: Für Edge-, Embedded-, IoT- und andere Bereitstellungen
 encrypted_image: Vollständig verschlüsseltes Festplattenabbild (roh)
 signature: Signatur
 agama_image: Agama-Installationsprogramm
 agama_desc: Das neue Agama-Online-Installationsprogramm für openSUSE
-leap_micro_ovw_video_desc: Leap Micro 6.1 Installations-Demo mit einer vollständigen
-  Festplattenverschlüsselung und einer Zwei-Faktor-Authentifizierung in Cockpit.
-leap_ovw_desc: Leap verwendet den Quellcode von SUSE Linux Enterprise (SLE), der Leap
-  ein von anderen Linux-Distributionen unerreichtes Maß an Stabilität verleiht, und
-  kombiniert dies mit Entwicklungen der Gemeinschaft, um Anwendern, Entwicklern und
-  Systemadministratoren die bestmögliche stabile Linux-Erfahrung zu bieten.
+leap_micro_ovw_video_desc: Leap Micro 6.1 Installations-Demo mit einer 
+  vollständigen Festplattenverschlüsselung und einer 
+  Zwei-Faktor-Authentifizierung in Cockpit.
+leap_ovw_desc: Leap verwendet den Quellcode von SUSE Linux Enterprise (SLE), der
+  Leap ein von anderen Linux-Distributionen unerreichtes Maß an Stabilität 
+  verleiht, und kombiniert dies mit Entwicklungen der Gemeinschaft, um 
+  Anwendern, Entwicklern und Systemadministratoren die bestmögliche stabile 
+  Linux-Erfahrung zu bieten.
 tumbleweed_ovw_desc: 'Mit Tumbleweed müssen Sie keine schwierigen Entscheidungen treffen,
   wenn es um Dinge geht, die Ihnen wichtig sind: Freiheit oder Sicherheit, Kontrolle
   oder Sicherheit, Technologie oder Stabilität – mit Tumbleweed können Sie auf zwei
   Hochzeiten gleichzeitig tanzen!'
-leap_micro_ovw_desc_p1: Diese Gemeinschaftsversion basiert auf SUSE Linux Micro, das
-  die unternehmenstauglichen Sicherheits- und Konformitätskomponenten von SUSE Linux
-  Enterprise nutzt. Diese Zusammenführung von Technologien sorgt für eine moderne,
-  unveränderliche und entwicklerfreundliche Betriebssystemplattform.
+leap_micro_ovw_desc_p1: Diese Gemeinschaftsversion basiert auf SUSE Linux Micro,
+  das die unternehmenstauglichen Sicherheits- und Konformitätskomponenten von 
+  SUSE Linux Enterprise nutzt. Diese Zusammenführung von Technologien sorgt für 
+  eine moderne, unveränderliche und entwicklerfreundliche 
+  Betriebssystemplattform.
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   ist das neue Installationsprogramm, das zur Installation von Leap 16 und Tumbleweed
   verwendet werden kann.\nEs ist geplant, die Offline-Installation in Agama zu unterstützen.
