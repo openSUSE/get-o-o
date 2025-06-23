@@ -1,7 +1,7 @@
 site_title: Dapatkan openSUSE
 site_title_short: Dapatkan
 site_description: Pelajari tentang distribusi openSUSE dan unduh secara gratis
-site_copyright: © 2024 Kontributor openSUSE
+site_copyright: © 2025 Kontributor openSUSE
 search: Cari
 translate: Terjemahkan
 source_code: Kode Sumber
@@ -45,8 +45,8 @@ tumbleweed_live_info: "Harap diperhatikan tentang keterbatasan citra live beriku
   [media Tumbleweed](/tumbleweed) sebagai gantinya\n* Memiliki paket terbatas dan
   pemilihan penggerak, jadi tidak dapat dianggap sebagai refleksi yang akurat apakah
   Tumbleweed akan bekerja pada perangkat keras Anda atau tidak\n"
-microos_desc: OS berbasis openSUSE Tumbleweed yang menyediakan Pemutakhiran Transaksional
-  (Atomic) pada sistem berkas root btrfs baca-saja
+microos_desc: OS berbasis openSUSE Tumbleweed yang menyediakan Pemutakhiran 
+  Transaksional (Atomic) pada sistem berkas root btrfs baca-saja
 choosing_media: Memilih Media yang Akan Diunduh
 choosing_media_p1: "Citra luring biasanya direkomendasikan karena berisi sebagian
   besar\npaket yang tersedia dalam distribusi dan tidak memerlukan\nkoneksi jaringan
@@ -83,17 +83,22 @@ upgrade_table_linux: Dari versi yang lebih lama atau distro Linux lainnya
 upgrade_table_windows: Dari Windows
 upgrade_table_mac: Dari OS X
 upgrade_table_linux_dvd: Cara membakar DVD pada Linux.
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Cara membakar DVD pada Windows.
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: Cara membakar DVD pada OS X.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Cara membuat stik USB Bootable pada Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Cara membuat stik USB Bootable pada Windows.
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Cara membuat stik USB Bootable pada OS X.
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifikasi Unduhan Anda Sebelum Digunakan
 verify_download_p1: "Banyak aplikasi dapat memverifikasi checksum unduhan. Memverifikasi\n\
   \ unduhan Anda bisa menjadi penting karena memverifikasi bahwa Anda benar-benar
@@ -105,10 +110,11 @@ verify_download_p3: "Untuk memastikan integritas file yang telah diunduh, Anda b
   menggunakan sha256sum untuk memverifikasi checksum, dan gpgv untuk memverifikasi
   tanda tangan kriptografi.\n"
 verify_download_pubkey: seharusnya
-verify_download_help: Untuk bantuan lebih lanjut tentang memverifikasi unduhan Anda,
-  silakan baca
+verify_download_help: Untuk bantuan lebih lanjut tentang memverifikasi unduhan 
+  Anda, silakan baca
 verify_download_checksums_help: Bantuan Ceksum
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Banyak destop, tiga bawaan
 desktops_p1: "Proses kontribusi openSUSE memberdayakan pengembangan destop untuk\n\
   \ semua orang, sehingga Anda memiliki pilihan untuk memilih favorit Anda di\nPemasang.
@@ -179,25 +185,27 @@ index_server_p1: Pemilihan distribusi untuk penggunaan peladen
 index_full: Atau langsung masuk ke halaman unduhan untuk distribusi
 desktop: Distribusi destop openSUSE
 desktop_p1: "Dua distribusi untuk semua (sekarang dalam warna hijau!)\n"
-desktop_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan dan
-  Penggemar Linux/FOSS
-desktop_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh Proyek
-  openSUSE.
-desktop_leap_p1: Untuk Sysadmin, Pengembang Perusahaan, dan Pengguna Destop 'Biasa'
-desktop_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan inovasi
-  yang dikembangkan komunitas.
+desktop_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan 
+  dan Penggemar Linux/FOSS
+desktop_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh 
+  Proyek openSUSE.
+desktop_leap_p1: Untuk Sysadmin, Pengembang Perusahaan, dan Pengguna Destop 
+  'Biasa'
+desktop_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan 
+  inovasi yang dikembangkan komunitas.
 server: Distribusi Peladen openSUSE
 server_p1: "Empat distribusi yang membosankan dengan nyaman, bagaimana seharusnya\n"
-server_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan dan
-  Penggemar Linux/FOSS
-server_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh Proyek
-  openSUSE.
-server_leap_p1: Untuk Sysadmins, Pengembang Perusahaan, dan Pengguna peladen 'Reguler'
-server_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan inovasi
-  yang dikembangkan komunitas.
+server_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan 
+  dan Penggemar Linux/FOSS
+server_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh 
+  Proyek openSUSE.
+server_leap_p1: Untuk Sysadmins, Pengembang Perusahaan, dan Pengguna peladen 
+  'Reguler'
+server_leap_p2: Rilis reguler dengan manfaat teknik tingkat perusahaan dan 
+  inovasi yang dikembangkan komunitas.
 server_microos_p1: Untuk aplikasi peladen tujuan tunggal
-server_microos_p2: Dirancang untuk meng-host beban kerja kontainer dengan administrasi
-  otomatis & penambalan
+server_microos_p2: Dirancang untuk meng-host beban kerja kontainer dengan 
+  administrasi otomatis & penambalan
 new_version_available: $distro_name sekarang tersedia untuk diunduh
 new_version_testing: $distro_name sekarang tersedia untuk diunduh dan diuji
 view_distro: Lihat $distro_name
@@ -211,7 +219,8 @@ vmware_ch_image: Host Kontainer VMware
 hyperv_ch_image: Host Kontainer MS HyperV
 kvm_ch_image: Host Kontainer KVM dan XEN
 iso_image: Citra ISO
-jeos_info: Citra VM minimal. Untuk citra JeOS Arm, kunjungi <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
+jeos_info: Citra VM minimal. Untuk citra JeOS Arm, kunjungi <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman 
   wiki Arm</a>
 vmware_vmx_ch_image: Host Kontainer VMware VMX
 vm_images: Mesin Virtual
@@ -229,19 +238,20 @@ virtualbox_image: VirtualBox
 requirements_min: Minimum
 requirements_rec: Direkomendasikan
 minimal_vm_images: Mesin Virtual Minimal
-minimal_vm_info: Mirip dengan citra SUSE Linux Enterprise Server Minimal-VM. Untuk
-  citra Arm JeOS, buka <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman
+minimal_vm_info: Mirip dengan citra SUSE Linux Enterprise Server Minimal-VM. 
+  Untuk citra Arm JeOS, buka <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">halaman 
   wiki Arm</a>
 server_aarch64: Peladen dan papan UEFI Arm 64-bit (aarch64)
 cloud_image: Citra awan
 cloud_minimal_desc: Citra KVM dan Xen minimal dengan cloud-init
 requirements_mem_desc: RAM fisik $value + memori tambahan untuk beban kerja Anda
 requirements_hdd_desc: Lebih dari 40GB ruang diska tersedia
-requirements_hdd_swap_info: ruang swap dinonaktifkan agar kubernetes berfungsi dengan
-  baik
+requirements_hdd_swap_info: ruang swap dinonaktifkan agar kubernetes berfungsi 
+  dengan baik
 requirements_dvd_desc: Baik drive DVD atau port USB untuk media instalasi
-requirements_net_desc: Akses internet sangat membantu, dan diperlukan untuk Pemasang
-  Jaringan
+requirements_net_desc: Akses internet sangat membantu, dan diperlukan untuk 
+  Pemasang Jaringan
 requirements_net_conn: Konektivitas penuh antara semua mesin di klaster
 offline_updated_image: Citra Luring yang Dimutakhirkan
 server_x86_64: Peladen Intel atau AMD 64-bit (x86_64)
@@ -367,7 +377,8 @@ alternative_downloads: Unduhan Alternatif
 preconfigured_rt_image: Citra Waktu Nyata Terprakonfigurasi (raw)
 selfinstall_rt_image: Citra Waktu Nyata Pemasangan Sendiri
 preconfigured_image: Citra Terprakonfigurasi (raw)
-alternative_downloads_desc: Kami juga memiliki citra $options. Lihat $alternative_downloads!
+alternative_downloads_desc: Kami juga memiliki citra $options. Lihat 
+  $alternative_downloads!
 overview: Ringkasan
 armv7l: Peladen, destop, laptop, dan papan UEFI Arm 32-bit (armv7l)
 selfinstall_image: Citra Pemasangan Sendiri
@@ -388,63 +399,73 @@ choosing_media_micro_p1: "Citra pemasangan mandiri yang baru direkomendasikan un
   Combustion.\n"
 preconfigured_qcow_image: Citra Terprakonfigurasi (qcow)
 server_leapmicro_p1: Untuk penggelaran edge, embedded, IoT, dan lainnya
-server_leapmicro_p2: Sistem operasi yang sangat andal dan ringan yang dibuat untuk
-  beban kerja dalam kontainer dan tervirtualisasi.
+server_leapmicro_p2: Sistem operasi yang sangat andal dan ringan yang dibuat 
+  untuk beban kerja dalam kontainer dan tervirtualisasi.
 kvm_sdboot_image: Citra KVM dengan systemd-boot
-leap_ovw_title: Sebuah cara baru dalam membangun openSUSE dan distribusi Linux hibrida
-  tipe baru
+leap_ovw_title: Sebuah cara baru dalam membangun openSUSE dan distribusi Linux 
+  hibrida tipe baru
 tumbleweed_ovw_title: Sistem operasi destop dan peladen yang canggih
-tumbleweed_ovw_desc: Dengan Tumbleweed Anda tidak perlu mengambil keputusan sulit
-  mengenai hal-hal yang Anda hargai, baik kebebasan atau keselamatan, baik kendali
-  atau keamanan, teknologi atau stabilitas -- Tumbleweed memungkinkan Anda menikmati
-  kue dan memakannya juga!
-leap_micro_ovw_title: Leap Micro adalah sistem operasi ringan dan sangat andal yang
-  dibuat untuk beban kerja dalam kontainer dan virtualisasi.
-leap_micro_ovw_video_desc: Demo singkat pemasangan Leap Micro dengan combustion dan
-  cockpit.
-microos_ovw_desc_p2: MicroOS menawarkan citra luring. Perbedaan utama antara citra
-  luring dan citra yang dipasang sendiri/mentah adalah citra luring memiliki pemasang.
-  Raw dan self-install memungkinkan penyesuaian melalui combustion atau secara manual
-  pada citra setelah ditulis ke diska. Ada opsi untuk kernel real-time.
-microos_ovw_desc_p3: Coba MicroOS di VM yang berjalan di <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  atau KVM. Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat
-  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan fungsionalitas
-  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk
-  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang dipasang
-  sendiri dimaksudkan untuk digunakan dengan <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  yang ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap
+tumbleweed_ovw_desc: Dengan Tumbleweed Anda tidak perlu mengambil keputusan 
+  sulit mengenai hal-hal yang Anda hargai, baik kebebasan atau keselamatan, baik
+  kendali atau keamanan, teknologi atau stabilitas -- Tumbleweed memungkinkan 
+  Anda menikmati kue dan memakannya juga!
+leap_micro_ovw_title: Leap Micro adalah sistem operasi ringan dan sangat andal 
+  yang dibuat untuk beban kerja dalam kontainer dan virtualisasi.
+leap_micro_ovw_video_desc: Demo singkat pemasangan Leap Micro dengan combustion 
+  dan cockpit.
+microos_ovw_desc_p2: MicroOS menawarkan citra luring. Perbedaan utama antara 
+  citra luring dan citra yang dipasang sendiri/mentah adalah citra luring 
+  memiliki pemasang. Raw dan self-install memungkinkan penyesuaian melalui 
+  combustion atau secara manual pada citra setelah ditulis ke diska. Ada opsi 
+  untuk kernel real-time.
+microos_ovw_desc_p3: Coba MicroOS di VM yang berjalan di <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> atau KVM. 
+  Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat 
+  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan 
+  fungsionalitas <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk 
+  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang 
+  dipasang sendiri dimaksudkan untuk digunakan dengan <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> yang 
+  ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap 
   boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
-leap_micro_ovw_desc_p1: Versi komunitas ini didasarkan pada SUSE Linux Micro, yang
-  memanfaatkan komponen keamanan dan kepatuhan perusahaan yang ditingkatkan dari SUSE
-  Linux Enterprise. Penggabungan teknologi ini menghasilkan platform OS yang modern,
-  tidak dapat diubah, dan ramah pengembang.
-leap_ovw_desc: Leap menggunakan sumber dari SUSE Linux Enterprise (SLE), yang memberikan
-  Leap tingkat stabilitas yang tak tertandingi oleh distribusi Linux lainnya, dan
-  menggabungkannya dengan pengembangan komunitas untuk memberikan pengalaman Linux
-  stabil terbaik yang tersedia kepada pengguna, pengembang, dan sysadmin.
-microos_ovw_desc_p1: Dirancang untuk menampung beban kerja kontainer dengan administrasi
-  & penambalan otomatis. Dengan memasang openSUSE MicroOS Anda mendapatkan lingkungan
-  yang cepat dan kecil untuk menggelar Kontainer, atau beban kerja lainnya yang mendapat
-  manfaat dari Pemutakhiran Transaksional. Sebagai distribusi rilis bergulir, perangkat
-  lunaknya selalu mutakhir.
-leap_micro_ovw_desc_p3: Coba Leap Micro di VM yang berjalan di <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  atau KVM. Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat
-  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan fungsionalitas
-  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk
-  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang dipasang
-  sendiri dimaksudkan untuk digunakan dengan <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Pembakaran</a>
-  yang ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap
+leap_micro_ovw_desc_p1: Versi komunitas ini didasarkan pada SUSE Linux Micro, 
+  yang memanfaatkan komponen keamanan dan kepatuhan perusahaan yang ditingkatkan
+  dari SUSE Linux Enterprise. Penggabungan teknologi ini menghasilkan platform 
+  OS yang modern, tidak dapat diubah, dan ramah pengembang.
+leap_ovw_desc: Leap menggunakan sumber dari SUSE Linux Enterprise (SLE), yang 
+  memberikan Leap tingkat stabilitas yang tak tertandingi oleh distribusi Linux 
+  lainnya, dan menggabungkannya dengan pengembangan komunitas untuk memberikan 
+  pengalaman Linux stabil terbaik yang tersedia kepada pengguna, pengembang, dan
+  sysadmin.
+microos_ovw_desc_p1: Dirancang untuk menampung beban kerja kontainer dengan 
+  administrasi & penambalan otomatis. Dengan memasang openSUSE MicroOS Anda 
+  mendapatkan lingkungan yang cepat dan kecil untuk menggelar Kontainer, atau 
+  beban kerja lainnya yang mendapat manfaat dari Pemutakhiran Transaksional. 
+  Sebagai distribusi rilis bergulir, perangkat lunaknya selalu mutakhir.
+leap_micro_ovw_desc_p3: Coba Leap Micro di VM yang berjalan di <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> atau KVM. 
+  Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat 
+  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan 
+  fungsionalitas <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk 
+  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang 
+  dipasang sendiri dimaksudkan untuk digunakan dengan <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Pembakaran</a> yang 
+  ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap 
   boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
-leap_micro_ovw_desc_p2: Leap Micro sejak 6.0 menawarkan citra instalasi mandiri, citra
-  mentah, dan DVD Paket yang dapat berfungsi sebagai tempat penyimpanan offline. Citra
-  instal mandiri adalah rekomendasi kami untuk instalasi berbasis USB karena kami
-  tidak lagi menggunakan penginstal tradisional. Pengguna dapat mengotomatiskan dan
-  menyesuaikan instalasi mereka baik dengan <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>,
-  <a href="https://github.com/openSUSE/combustion">Combustion</a> atau menggunakan
-  wizard jeos-firstboot. Cobalah <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a>, generator konfigurasi Ignition online kami.
-microos_ovw_title: OS Micro Service menyediakan Pemutakhiran Transaksional (Atomik)
-  pada sistem berkas root btrfs hanya baca
+leap_micro_ovw_desc_p2: Leap Micro sejak 6.0 menawarkan citra instalasi mandiri,
+  citra mentah, dan DVD Paket yang dapat berfungsi sebagai tempat penyimpanan 
+  offline. Citra instal mandiri adalah rekomendasi kami untuk instalasi berbasis
+  USB karena kami tidak lagi menggunakan penginstal tradisional. Pengguna dapat 
+  mengotomatiskan dan menyesuaikan instalasi mereka baik dengan <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>, <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> atau menggunakan 
+  wizard jeos-firstboot. Cobalah <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>, generator 
+  konfigurasi Ignition online kami.
+microos_ovw_title: OS Micro Service menyediakan Pemutakhiran Transaksional 
+  (Atomik) pada sistem berkas root btrfs hanya baca
 packages_image: Image Paket
 packages_image_desc: Media yang berisi repositori luring dengan paket-paket.
 leap_156_ovw_video_desc: Siaran langsung perilisan Leap 15.6
