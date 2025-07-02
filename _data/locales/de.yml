@@ -458,3 +458,45 @@ microos_ovw_desc_p1: Entwickelt für den Betrieb von Container- Anwendungen mit
   Containern oder anderen Aufgaben, die von transaktionalen Updates profitieren.
   Als Rolling-Release-Distribution ist die Software immer auf dem neuesten 
   Stand.
+microos_ovw_desc_p2: MicroOS bietet ein Offline-Image an. Der Hauptunterschied 
+  zwischen den Offline- und den Selbstinstallations-/Raw-Images besteht darin, 
+  dass das Offline-Image einen Installer enthält. Raw- und 
+  Selbstinstallations-Images ermöglichen Anpassungen über Combustion oder 
+  manuell im Image, nachdem es auf die Festplatte geschrieben wurde. Es gibt 
+  eine Option für einen Echtzeit-Kernel.
+leap_micro_ovw_desc_p3: Probieren Sie Leap Micro in VMs aus, die entweder unter 
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> oder KVM laufen.
+  Für den Einsatz auf einem Raspberry Pi oder anderer System-on-Chip-Hardware 
+  kann das vorkonfigurierte Image genutzt werden. Sowohl vorkonfigurierte als 
+  auch selbst installierte Images sind für die Verwendung mit <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  vorgesehen, das auf einen USB-Stick geschrieben wird und so konzipiert ist, 
+  dass es die Konfiguration bei jedem ersten Start ermöglicht, mit der Option 
+  für standardmäßige passwortgeschützte Änderungen.
+leap_156_ovw_video_desc: Ein Leap 15.6 Release-Livestream
+microos_ovw_desc_p3: Probieren Sie MicroOS in VMs aus, die entweder auf <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> oder KVM laufen. 
+  Bei Verwendung eines Raspberry Pi oder anderer System-on-Chip-Hardware kann 
+  das vorkonfigurierte Image zusammen mit der <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>-Funktionalität
+  für den Bootvorgang genutzt werden. Sowohl vorkonfigurierte als auch selbst 
+  installierte Images sind dafür vorgesehen, mit <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  verwendet zu werden, das auf einen USB-Stick geschrieben wird, um die 
+  Konfiguration bei jedem ersten Start zu ermöglichen, mit der Option für 
+  standardmäßig passwortgeschützte Änderungen.
+leap_micro_ovw_desc_p2: Leap Micro bietet seit Version 6.0 ein 
+  Selbstinstallations-Image, ein Raw-Image und eine Packages-DVD, die als 
+  Offline-Repository dienen kann. Das Selbstinstallations-Image ist unsere 
+  Empfehlung für jede USB-basierte Installation, da wir keine traditionellen 
+  Installer mehr verwenden. Benutzer können ihre Installation entweder mit <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> oder <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> oder mithilfe des
+  jeos-firstboot-Assistenten automatisieren und anpassen. Probieren Sie <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> aus, 
+  unseren Online-Ignition-Konfigurationsgenerator.
+leap_16_coming_soon: "Die Veröffentlichung von Leap 16.0, dem Nachfolger von Leap
+  15.6, wird für Herbst 2025 erwartet. Leap 15.7 ist nicht geplant.<br/>\nSchau regelmäßig
+  auf unserer <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">Roadmap</a> und
+  <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a> nach Updates
+  für mehr weitere Informationen.\n"
