@@ -4,9 +4,10 @@ virtualbox_image: VirtualBox
 installation_images: Namestitveni
 ports_images: Prenosi
 jeos_images: JeOS
-jeos_info: Minimalni odtisi za navidezne računalnike. Za odtise JeOS za ARM obiščite
-  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki stran
-  Arm</a>
+jeos_info: Minimalni odtisi za navidezne računalnike. Za odtise JeOS za ARM 
+  obiščite <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki 
+  stran Arm</a>
 minimal_vm_images: Minimalni navidezni računalniki
 server_aarch64: 64-bitni strežniki in plošče UEFI ARM (aarch64)
 server_x86_64: 64-bitni strežniki AMD ali Intel (x86_64)
@@ -49,26 +50,29 @@ index_server_p1: Nabor distribucij za strežniško uporabo
 desktop: Distribucije openSUSE za namizje
 desktop_p1: "Dve distribuciji, ki vladata vsem (sedaj v zelenem!)\n"
 desktop_tumbleweed_p2: Kotaleča izdaja z najnovejšimi paketi projekta openSUSE.
-desktop_leap_p1: Za sistemske skrbnike, razvijalce v podjetjih, in »navadne« uporabnike
-  namizja
-desktop_leap_p2: Redna izdaja s koristmi od razvoja za potrebe podjetij in inovacij
-  iz razvoja s strani skupnosti.
+desktop_leap_p1: Za sistemske skrbnike, razvijalce v podjetjih, in »navadne« 
+  uporabnike namizja
+desktop_leap_p2: Redna izdaja s koristmi od razvoja za potrebe podjetij in 
+  inovacij iz razvoja s strani skupnosti.
 server: Strežniške distribucije openSUSE
-server_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in navdušence
-  nad Linux-om ter FOSS-om
+server_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in 
+  navdušence nad Linux-om ter FOSS-om
 server_tumbleweed_p2: Kotaleča izdaja z najnovejšimi paketi projekta openSUSE.
-server_leap_p2: Redna izdaja s koristmi od razvoja za potrebe podjetij in inovacij
-  iz razvoja s strani skupnosti.
+server_leap_p2: Redna izdaja s koristmi od razvoja za potrebe podjetij in 
+  inovacij iz razvoja s strani skupnosti.
 server_microos_p1: Za eno-namenske strežniške aplikacije
-server_microos_p2: Zasnovana za gostovanje vsebnikov z avtomatizirano administracijo
-  in uveljavljanjem poravkov
+server_microos_p2: Zasnovana za gostovanje vsebnikov z avtomatizirano 
+  administracijo in uveljavljanjem poravkov
 server_leapmicro_p1: Za rob, vgrajene sisteme, IoT in druge uvedbe
 new_version_testing: $distro_name je sedaj na voljo za prejem in preizkušanje
 new_version_available: $distro_name je sedaj na voljo za prejem
 view_distro: Oglejte si $distro_name
-x86_64: 64-bitni namizni računalniki, prenosniki in strežniki AMD ali Intel (x86_64)
-aarch64: 64-bitni strežniki, namizni računalniki, prenosniki in plošče UEFI ARM (aarch64)
-armv7l: 32-bitni strežniki, namizni računalniki, prenosniki in plošče UEFI ARM (armv7l)
+x86_64: 64-bitni namizni računalniki, prenosniki in strežniki AMD ali Intel 
+  (x86_64)
+aarch64: 64-bitni strežniki, namizni računalniki, prenosniki in plošče UEFI ARM 
+  (aarch64)
+armv7l: 32-bitni strežniki, namizni računalniki, prenosniki in plošče UEFI ARM 
+  (armv7l)
 ppc64: Strežniki PowerPC, veliki konec (ppc64)
 s390x: IBM zSystems in LinuxONE (s390x)
 overview: Pregled
@@ -122,23 +126,27 @@ requirements_dvd_desc: Pogon DVD ali priključek USB za namestitveni nosilec
 tw_switch_p1: "Če že uporabljate openSUSE, lahko opravite nadgradnjo z zagonom z DVD-ja\n\
   \ ali USB-ja in izborom nadgradnje. Z nekaj ukazi lahko izvedete tudi\n»Internetno
   nadgradnjo«.\n"
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 selfinstall_image: Samo-namestilni odtis
 snapper: Se je sistem okvaril? To ni več težava
 site_description: Izvedite o distribucijah openSUSE in jih prenesite brezplačno
 openstack_desc: Za poganjanje navideznih računalnikov v OpenStack
 choosing_media_p1: "Običajno je priporočljiv Ne-omrežni odtis, ker vsebuje večino
   razpoložljivih\npaketov distribucije in med nameščanjem ne potrebuje omrežne povezave.\n"
-upgrade_table_windows_usb: Kako ustvariti ključek USB, ki se da zagnati, na Windows-ih.
+upgrade_table_windows_usb: Kako ustvariti ključek USB, ki se da zagnati, na 
+  Windows-ih.
 preconfigured_rt_image: Pred-nastavljen odtis RealTime (surov)
-desktop_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in navdušence
-  nad Linux-om ter FOSS-om
+desktop_tumbleweed_p1: Za razvijalce, prispevajoče openSUSE, igralce iger in 
+  navdušence nad Linux-om ter FOSS-om
 ppc64le: Strežniki PowerPC, mali konec (ppc64le)
-alternative_downloads_desc: Imamo tudi odtise $options. Oglejte si $alternative_downloads!
+alternative_downloads_desc: Imamo tudi odtise $options. Oglejte si 
+  $alternative_downloads!
 offline_desc: "Vsebuje ogromno zbirko programske opreme za namizno in strežniško uporabo.\n\
   \ Primerno za namestitev in nadgradnjo.\n"
 hyperv_desc: Za poganjanje navideznih računalnikov na MS HyperV
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 preconfigured_qcow_image: Pred-nastavljen odtis (qcow)
 selfinstall_rt_image: Samo-namestilni odtis RealTime
 transactional_p1: "Namestilnik sedaj ponuja novo vlogo Transakcijski strežnik, ki
@@ -148,8 +156,8 @@ transactional_p1: "Namestilnik sedaj ponuja novo vlogo Transakcijski strežnik, 
   katere se zanašajo vse\ndruge distribucije openSUSE in SUSE. To pomeni, da velika
   večina paketov,\nki delujejo z drugimi sistemskimi vlogami distribucij openSUSE,
   deluje\ntudi s sistemsko vlogo Transakcijski strežnik.\n"
-server_leap_p1: Za sistemske skrbnike, razvijalce v podjetjih, in »navadne« uporabnike
-  namizja
+server_leap_p1: Za sistemske skrbnike, razvijalce v podjetjih, in »navadne« 
+  uporabnike namizja
 site_title_short: Dobite
 site_copyright: © 2025 ekipa openSUSE
 search: Iskanje
@@ -190,8 +198,9 @@ vagrant_ch_image: Gostitelj vsebnika Vagrant
 rpi_image: RaspberryPi
 rpi_ch_image: Gostitelj vsebnika RaspberryPi
 pine_image: Pine64
-microos_desc: Operacijski sistem, ki temelji na openSUSE Tumbleweed in ponuja transakcijske
-  (atomične) posodobitve na korenski datotečni sistem btrfs, ki je samo za branje
+microos_desc: Operacijski sistem, ki temelji na openSUSE Tumbleweed in ponuja 
+  transakcijske (atomične) posodobitve na korenski datotečni sistem btrfs, ki je
+  samo za branje
 choosing_media: Izbiranje nosilcev za prejemanje
 choosing_media_p2: "Omrežni odtis priporočamo uporabnikom, ki imajo omejen prenos\n\
   \ podatkov prek internetne povezave. Prejeti bodo samo paketi, ki jih\nboste izbrali
@@ -217,33 +226,42 @@ requirements_rec: Priporočene
 requirements_cpu: CPE
 requirements_cpu_desc: 2 GHz procesor z dvema jedroma ali boljši
 requirements_mem: Pomnilnik
-requirements_mem_desc: $value fizičnega RAM-a + dodatni pomnilnik glede na uporabo
+requirements_mem_desc: $value fizičnega RAM-a + dodatni pomnilnik glede na 
+  uporabo
 requirements_hdd: Disk
 requirements_hdd_desc: Več kot 40 GiB prostora na disku
 requirements_hdd_root: Razdelek / (korenski)
 requirements_hdd_var: Razdelek /var
 requirements_hdd_size_desc: $value prostora na disku
-requirements_hdd_swap_info: Izmenjalni prostor izklopljen, da Kubernetes deluje pravilno
+requirements_hdd_swap_info: Izmenjalni prostor izklopljen, da Kubernetes deluje 
+  pravilno
 requirements_hdd_ssd_info: SSD z visoko hitrostjo zapisovanja
 requirements_net: Omrežje
-requirements_net_desc: Omrežni dostop pomaga in je za omrežni namestilnik obvezen
+requirements_net_desc: Omrežni dostop pomaga in je za omrežni namestilnik 
+  obvezen
 requirements_net_conn: Polna povezljivost med računalniki v gruči
-requirements_net_mac: Edinstveno ime gostitelja in strojni naslov za vsako vozlišče
+requirements_net_mac: Edinstveno ime gostitelja in strojni naslov za vsako 
+  vozlišče
 tw_switch: Preprosti načini za prehod na openSUSE Tumbleweed
 tw_switch_instructions: Navodila za nadgradnjo.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: S starejše različice ali druge distribucije GNU/Linux
 upgrade_table_windows: Z Windows
 upgrade_table_mac: Z OS X
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Kako zapisatu DVD na Windows-ih.
 upgrade_table_mac_dvd: Kako zapisati DVD na OS X-u.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_linux_usb: Kako ustvariti ključek USB, ki se da zagnati, na GNU/Linux-u.
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Kako ustvariti ključek USB, ki se da zagnati, na 
+  GNU/Linux-u.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Kako ustvariti ključek USB, ki se da zagnati, na OS X-u.
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Pred uporabo preverite prejeto
 verify_download_p2: "Za vsak odtis ISO ponujamo datoteko z ustrezno nadzorno vsoto
   SHA256 in datoteko s kriptografskim podpisom.\n"
@@ -273,8 +291,9 @@ packages_image: Odtis s paketi
 packages_image_desc: Nosilec, ki vsebuje ne-omrežni vir s paketi.
 ports_info: "Prenose openSUSE Leap na arhitekture, ki niso v osebnih računalnikih,\n\
   \ vzdržujejo ločene ekipe skupnosti z omejenimi viri.\n"
-minimal_vm_info: Podobno odtisom SUSE Linux Enterprise Server Minimal-VM. Za odtise
-  JeOS za ARM obiščite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki
+minimal_vm_info: Podobno odtisom SUSE Linux Enterprise Server Minimal-VM. Za 
+  odtise JeOS za ARM obiščite <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Wiki 
   stran Arm</a>
 verify_download_p1: "Nadzorno vsoto prejetega lahko preverite z več programi. Preverjanje\n\
   \ prejetega je pomembno, saj ste tako lahko prepričani, da imate res\ncelovito datoteko
@@ -310,8 +329,8 @@ zypper_p1: "Hitro in preprosto se ga naučite. Ponuja zypper-apt, plast za\nzdru
   ponovljivo razreševanje odvisnosti. Vmesnik je\njasen in primerno obarvan za lažje
   branje. Perfekten je, kaj drugega reči?\n"
 index_full: Ali pa se odpravite naravnost na stran za prejemanje distribucij
-server_leapmicro_p2: Ultra-zanesljiv, lahek operacijski sistem, zgrajen za uporabo
-  v vsebnikih in navideznih računalnikih.
+server_leapmicro_p2: Ultra-zanesljiv, lahek operacijski sistem, zgrajen za 
+  uporabo v vsebnikih in navideznih računalnikih.
 i686: 32-bitni namizni računalniki, prenosniki in strežniki AMD ali Intel (i686)
 Tumbleweed_features:
   shield:
@@ -371,59 +390,65 @@ Tumbleweed_features:
     description: "Tumbleweed uporabnikom ponuja najnovejšo programsko opremo za računalniške
       igre. S hitrim razvojem Linuxove podpore za računalniške igre je to pomemben
       aspekt tekoče in zmogljive izkušnje v vaših najbolj priljubljenih igrah.\n"
-leap_ovw_title: Povsem nov način gradnje openSUSE in nova vrsta hibridne distribucije
-  GNU/Linux
+leap_ovw_title: Povsem nov način gradnje openSUSE in nova vrsta hibridne 
+  distribucije GNU/Linux
 tumbleweed_ovw_title: Višek razvoja operacijskih sistemov za namizje in strežnik
 tumbleweed_ovw_desc: 'S Tumbleweed vam ni potrebno sprejemati težkih odločitev glede
   stvari, ki jih cenite: svoboda ali zanesljivost, nadzor ali varnost, tehnologija
   ali stabilnost – Tumbleweed vam omogoča, da hkrati imate torto in da jo pojeste!'
-leap_micro_ovw_title: Leap Micro je ultra-zanesljiv, lahek operacijski sistem, ki
-  je zgrajen za uporabe v vsebnikih in navideznih računalnikih.
-leap_micro_ovw_video_desc: Predstavitev namestitve Leap Micro 6.1 s šifriranjem celotnega
-  diska in dvo-delnim overjanjem v Cockpit-u.
-leap_ovw_desc: Leap uporablja izvorno kodo iz SUSE Linux Enterprise (SLE), kar Leap
-  daje stopnjo stabilnosti, ki je druge distribucije GNU/Linux ne dosegajo. To združuje
-  z razvojem iz skupnosti in tako uporabnikom, razvijalcem in sistemskim skrbnikom
-  ponuja najboljšo stabilno izkušnjo.
+leap_micro_ovw_title: Leap Micro je ultra-zanesljiv, lahek operacijski sistem, 
+  ki je zgrajen za uporabe v vsebnikih in navideznih računalnikih.
+leap_micro_ovw_video_desc: Predstavitev namestitve Leap Micro 6.1 s šifriranjem 
+  celotnega diska in dvo-delnim overjanjem v Cockpit-u.
+leap_ovw_desc: Leap uporablja izvorno kodo iz SUSE Linux Enterprise (SLE), kar 
+  Leap daje stopnjo stabilnosti, ki je druge distribucije GNU/Linux ne dosegajo.
+  To združuje z razvojem iz skupnosti in tako uporabnikom, razvijalcem in 
+  sistemskim skrbnikom ponuja najboljšo stabilno izkušnjo.
 leap_156_ovw_video_desc: Prenos v živo ob izidu Leap 15.6
-microos_ovw_desc_p3: Poskusite MicroOS v navideznih računalnikih, ki tečejo na <a
-  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali KVM. Za Raspberry
-  Pi ali drugo strojno opremo sistem-na-čipu lahko uporabite v naprej pripravljen
-  odtis skupaj s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  za zagonski postopek. Oba odtisa, v naprej pripravljen in samo-namestitveni, sta
-  mišljena za uporabo s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  zapisanim na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo zaščite
-  spreminjanja s privzetim geslom.
-leap_micro_ovw_desc_p1: Ta različica od skupnosti je osnovana na SUSE Linux Micro,
-  ki vključuje preizkušene komponente varnosti in skladnosti iz SUSE Linux Enterprise.
-  Ta združitev tehnologij ustvari moderno, nespremenljivo in razvijalcem prijazno
-  okolje operacijskega sistema.
-leap_micro_ovw_desc_p2: Leap Micro od različice 6.0 dalje ponuja samo-namestitven
-  odtis, surov odtis in DVD s paketi, ki lahko služi kot vir brez omrežne povezave.
-  Za nameščanje z USB priporočamo odtis za samo-namestitev, ker tradicionalnih namestilnikov
-  ne uporabljamo več. Uporabniki lahko namestitev avtomatizirajo in prilagodijo z
-  <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ali <a href="https://github.com/openSUSE/combustion">Combustion</a>
-  ali pa z uporabo čarovnika jeos-firstboot. Poskusite lahko tudi <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a>, naš spletni ustvarjalnik nastavitev za Ignition.
-microos_ovw_title: OS z mikro-storitvami, ki ponuja transakcijske (atomične) posodobitve
-  na korenski datotečni sistem btrfs samo za branje
-microos_ovw_desc_p1: Zasnovan je kot gostitelj delovnih nalog prek vsebnikov, z avtomatizirano
-  administracijo in uveljavljanjem popravkov. Z namestitvijo openSUSE MicroOS dobite
-  hitro in malo okolje za uvedbe vsebnikov ali druge delovne naloge, katerim koristijo
-  transakcijske posodobitve. Ker je to distribucija s »kotalečimi izdajami«, je programska
-  oprema vedno najnovejša.
-microos_ovw_desc_p2: MicroOS ponuja odtis brez omrežne povezave. Glavna razlika med
-  njim in odtisom za samo-namestitev ali surovim odtisom je, da ima odtis brez omrežne
-  povezave vključen namestilnik. Surovi in samo-namestitveni odtis omogočata prilagajanje
-  s Combustion ali ročno, ko je odtis zapisan na disk. Na voljo je možnost za realno-časovno
-  jedro.
-leap_micro_ovw_desc_p3: Poskusite Leap Micro v navideznih računalnikih, ki tečejo
-  na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali KVM. Za Raspberry
-  Pi ali drugo strojno opremo sistem-na-čipu lahko uporabite v naprej pripravljen
-  odtis. Oba odtisa, v naprej pripravljen in samo-namestitveni, sta mišljena za uporabo
-  s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> zapisanim
-  na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo zaščite spreminjanja
-  s privzetim geslom.
+microos_ovw_desc_p3: Poskusite MicroOS v navideznih računalnikih, ki tečejo na 
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali KVM. Za 
+  Raspberry Pi ali drugo strojno opremo sistem-na-čipu lahko uporabite v naprej 
+  pripravljen odtis skupaj s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> za 
+  zagonski postopek. Oba odtisa, v naprej pripravljen in samo-namestitveni, sta 
+  mišljena za uporabo s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  zapisanim na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo 
+  zaščite spreminjanja s privzetim geslom.
+leap_micro_ovw_desc_p1: Ta različica od skupnosti je osnovana na SUSE Linux 
+  Micro, ki vključuje preizkušene komponente varnosti in skladnosti iz SUSE 
+  Linux Enterprise. Ta združitev tehnologij ustvari moderno, nespremenljivo in 
+  razvijalcem prijazno okolje operacijskega sistema.
+leap_micro_ovw_desc_p2: Leap Micro od različice 6.0 dalje ponuja 
+  samo-namestitven odtis, surov odtis in DVD s paketi, ki lahko služi kot vir 
+  brez omrežne povezave. Za nameščanje z USB priporočamo odtis za 
+  samo-namestitev, ker tradicionalnih namestilnikov ne uporabljamo več. 
+  Uporabniki lahko namestitev avtomatizirajo in prilagodijo z <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ali <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> ali pa z uporabo 
+  čarovnika jeos-firstboot. Poskusite lahko tudi <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>, naš 
+  spletni ustvarjalnik nastavitev za Ignition.
+microos_ovw_title: OS z mikro-storitvami, ki ponuja transakcijske (atomične) 
+  posodobitve na korenski datotečni sistem btrfs samo za branje
+microos_ovw_desc_p1: Zasnovan je kot gostitelj delovnih nalog prek vsebnikov, z 
+  avtomatizirano administracijo in uveljavljanjem popravkov. Z namestitvijo 
+  openSUSE MicroOS dobite hitro in malo okolje za uvedbe vsebnikov ali druge 
+  delovne naloge, katerim koristijo transakcijske posodobitve. Ker je to 
+  distribucija s »kotalečimi izdajami«, je programska oprema vedno najnovejša.
+microos_ovw_desc_p2: MicroOS ponuja odtis brez omrežne povezave. Glavna razlika 
+  med njim in odtisom za samo-namestitev ali surovim odtisom je, da ima odtis 
+  brez omrežne povezave vključen namestilnik. Surovi in samo-namestitveni odtis 
+  omogočata prilagajanje s Combustion ali ročno, ko je odtis zapisan na disk. Na
+  voljo je možnost za realno-časovno jedro.
+leap_micro_ovw_desc_p3: Poskusite Leap Micro v navideznih računalnikih, ki 
+  tečejo na <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali 
+  KVM. Za Raspberry Pi ali drugo strojno opremo sistem-na-čipu lahko uporabite v
+  naprej pripravljen odtis. Oba odtisa, v naprej pripravljen in 
+  samo-namestitveni, sta mišljena za uporabo s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  zapisanim na USB, ki omogoča nastavljanje ob prvem zagonu in z možnostjo 
+  zaščite spreminjanja s privzetim geslom.
 signature: Podpis
 encrypted_image: Odtis povsem šifriranega diska (surov)
 leap_16_coming_soon: "Javni izid Leap 16.0, naslednika Leap 15.6, lahko pričakujete
@@ -434,3 +459,9 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   je novi namestilnik, ki ga lahko uporabite za namestitev Leap 16 in Tumbleweed.\n\
   \ Podpora za nameščanje brez omrežne povezave je v načrtu. Drugi namestitveni nosilci,
   npr. samo-namestilni odtis, bodo dodani kasneje.\n"
+requirements_cpu_slfo_x86_64: 'Za x86_64: mikro-arhitekturna stopnja x86-64-v2 ali
+  višja'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Za ppc64le: POWER9 ali višje'
+requirements_cpu_slfo_s390x: 'Za s390x: z14 ali višje'
