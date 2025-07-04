@@ -40,8 +40,8 @@ rescue_cd: レスキューライブ CD
 tumbleweed_live_info: "ライブイメージをご利用になる場合は、下記の制限事項に注意してください:\n* Tumbleweed のインストールやアップグレードにはお使いいただけません。
   Tumbleweed をインストールもしくはアップグレードしたい場合は、 [Tumbleweed メディア](/tumbleweed) をお使いください。\n\
   \ * ライブイメージには含まれていないパッケージやドライバ類があります。そのため、お使いのハードウエアで Tumbleweed が動作するかどうかを確認する目的には不向きです。\n"
-microos_desc: 読み込み専用の btrfs ルートファイルシステムを利用してトランザクション型 (アトミック) 更新を行う、 openSUSE Tumbleweed
-  ベースの OS
+microos_desc: 読み込み専用の btrfs ルートファイルシステムを利用してトランザクション型 (アトミック) 更新を行う、 openSUSE 
+  Tumbleweed ベースの OS
 choosing_media: ダウンロードするメディアの選択
 choosing_media_p1: "オフラインイメージにはディストリビューション内の多くのパッケージが\n含まれているため、インストール時にネットワークを使用する必要がありません。\n\
   通常はこちらをダウンロードしてください。\n"
@@ -51,7 +51,8 @@ documentation: ドキュメンテーション
 documentation_startup_guide: openSUSE スタートアップガイド
 documentation_release_notes: リリースノート
 documentation_license: ライセンス
-documentation_license_link: https://ja.opensuse.org/openSUSE:%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9
+documentation_license_link: 
+  https://ja.opensuse.org/openSUSE:%E3%83%A9%E3%82%A4%E3%82%BB%E3%83%B3%E3%82%B9
 documentation_full_documentation: 完全なドキュメンテーション
 leap_switch: openSUSE Leap に切り替えるための簡単な方法
 leap_switch_p1: "既に openSUSE をお使いの場合は、 DVD/USB メモリ向けイメージを利用して起動し、\nアップグレードを選択するだけでアップグレードを行うことができます。それ以外にも、\n\
@@ -156,7 +157,8 @@ index_full: ディストリビューションの直接選択
 desktop: openSUSE デスクトップディストリビューション
 desktop_p1: "2 種類のディストリビューションから選んでください\n"
 desktop_tumbleweed_p1: 開発者, openSUSE 貢献者, ゲーマー, Linux/FOSS 愛好家向け
-desktop_tumbleweed_p2: ローリングリリースモデルを採用したディストリビューションで、 openSUSE プロジェクトが提供する最新のパッケージをお使いいただけます。
+desktop_tumbleweed_p2: ローリングリリースモデルを採用したディストリビューションで、 openSUSE 
+  プロジェクトが提供する最新のパッケージをお使いいただけます。
 desktop_tumbleweed_view: Tumbleweed の表示
 desktop_leap_p1: システム管理者, 企業内開発者, '一般的な' デスクトップユーザ向け
 desktop_leap_p2: 定期リリースモデルを採用したディストリビューションで、企業グレードの品質とコミュニティによる革新性の両方を備えています。
@@ -164,7 +166,8 @@ desktop_leap_view: Leap の表示
 server: openSUSE サーバディストリビューション
 server_p1: "4 種類の快適なディストリビューションから選択してください\n"
 server_tumbleweed_p1: 開発者, openSUSE 貢献者, ゲーマー, Linux/FOSS 愛好家向け
-server_tumbleweed_p2: ローリングリリースモデルを採用したディストリビューションで、 openSUSE プロジェクトが提供する最新のパッケージをお使いいただけます。
+server_tumbleweed_p2: ローリングリリースモデルを採用したディストリビューションで、 openSUSE 
+  プロジェクトが提供する最新のパッケージをお使いいただけます。
 server_tumbleweed_view: Tumbleweed の表示
 server_leap_p1: システム管理者, 企業内開発者, '一般的な' サーバユーザ向け
 server_leap_p2: 定期リリースモデルを採用したディストリビューションで、企業グレードの品質とコミュニティによる革新性の両方を備えています。
@@ -279,8 +282,9 @@ vmware_ch_image: VMware コンテナホスト
 hyperv_ch_image: MS HyperV コンテナホスト
 kvm_ch_image: KVM および XEN コンテナホスト
 iso_image: ISO イメージ
-jeos_info: 最小限のパッケージのみをインストールしたイメージです。 Arm JeOS イメージに関しては、 <a href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  Wiki ページ</a> をご覧ください
+jeos_info: 最小限のパッケージのみをインストールしたイメージです。 Arm JeOS イメージに関しては、 <a 
+  href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm Wiki
+  ページ</a> をご覧ください
 preconfigured_rt_image: 事前構築済みのリアルタイム版イメージ (raw 形式)
 preconfigured_image: 事前構築済みイメージ (raw 形式)
 selfinstall_image: 自己インストールイメージ
@@ -295,8 +299,9 @@ offline_updated_desc: "最新の更新が適用されているオフラインイ
 offline_updated_image: 更新済みオフラインイメージ
 ppc64: PowerPC サーバ (ppc64, ビッグエンディアン)
 minimal_vm_images: 最小限のパッケージのみをインストールした仮想マシン
-minimal_vm_info: SUSE Linux Enterprise Server の最小限 VM イメージに似た仕組みです。 Arm JeOS イメージに関しては、
-  <a href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm Wiki
+minimal_vm_info: SUSE Linux Enterprise Server の最小限 VM イメージに似た仕組みです。 Arm JeOS 
+  イメージに関しては、 <a 
+  href="https://ja.opensuse.org/Portal:Arm#Release_supported_platforms">Arm Wiki
   ページ</a> をご覧ください
 server_aarch64: UEFI Arm 64 ビットサーバおよびシングルボード (aarch64)
 server_x86_64: Intel または AMD の 64 ビットサーバ (x86_64)
@@ -315,35 +320,46 @@ server_leapmicro_p1: エッジ, 組み込み, IoT などの環境向け
 server_leapmicro_p2: 非常に信頼性が高く、コンテナ／仮想環境向けに構築された軽量型オペレーティングシステムです。
 kvm_sdboot_image: systemd-boot を利用する KVM イメージ
 tumbleweed_ovw_title: 最先端のデスクトップおよびサーバ向けオペレーティングシステム
-leap_micro_ovw_video_desc: 完全なディスク暗号化と Cockpit による二要素認証を設定した、 Leap Micro 6.1 のインストールデモです。
+leap_micro_ovw_video_desc: 完全なディスク暗号化と Cockpit による二要素認証を設定した、 Leap Micro 6.1 
+  のインストールデモです。
 leap_micro_ovw_title: Leap Micro は非常に信頼性の高い軽量型オペレーティングシステムで、主にコンテナ化や仮想化の環境で有用です。
-microos_ovw_title: Micro Service OS は、読み込み専用の btrfs ファイルシステムを利用してトランザクション型の (アトミックな)
-  更新を行います
+microos_ovw_title: Micro Service OS は、読み込み専用の btrfs ファイルシステムを利用してトランザクション型の 
+  (アトミックな) 更新を行います
 leap_ovw_title: 新たにハイブリッド型の Linux ディストリビューションとなった openSUSE とその全く新しい構築手法
 leap_ovw_desc: Leap では SUSE Linux Enterprise (SLE) 
   との間でソースコードを共有しているため、ユーザや開発者、そしてシステム管理者に対して、他のディストリビューションでは見られないような安定性と、コミュニティによる先進性の両方を兼ね備えています。
-tumbleweed_ovw_desc: Tumbleweed を利用することで、お使いの環境を構成するのに難しい選択は不要となります。自由と安全性、制御性とセキュリティ、先進性と安定性など、
-  Tumbleweed では両方を実現することができます！
-leap_micro_ovw_desc_p1: このコミュニティ版は SUSE Linux Micro をベースにしていて、 SUSE Linux Enterprise
+tumbleweed_ovw_desc: Tumbleweed 
+  を利用することで、お使いの環境を構成するのに難しい選択は不要となります。自由と安全性、制御性とセキュリティ、先進性と安定性など、 Tumbleweed 
+  では両方を実現することができます！
+leap_micro_ovw_desc_p1: このコミュニティ版は SUSE Linux Micro をベースにしていて、 SUSE Linux 
+  Enterprise 
   におけるエンタープライズ向けの強化されたセキュリティと標準準拠レベルの両方を達成しています。このような技術の統合により、モダンで不可変、そして開発者にも優しい
   OS プラットフォームになっています。
-leap_micro_ovw_desc_p2: Leap Micro バージョン 6.0 もしくはそれ以降では、自己インストールイメージのほか、純粋イメージとオフラインリポジトリとして利用できるパッケージ
-  DVD が提供されています。自己インストールイメージでは従来型のインストーラは使用していないため、任意の USB デバイスからのインストールができるお勧めの選択肢となっています。また、インストール作業を自動化したりカスタマイズしたりしたい場合は、
-  <a href="https://ja.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> や <a href="https://github.com/openSUSE/combustion">Combustion</a>
-  等のほか、 jeos-firstboot ウイザードを利用することができます。また、オンラインで Ignition の設定を生成する手段として、 <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a> もお使いいただけます。
+leap_micro_ovw_desc_p2: Leap Micro バージョン 6.0 
+  もしくはそれ以降では、自己インストールイメージのほか、純粋イメージとオフラインリポジトリとして利用できるパッケージ DVD 
+  が提供されています。自己インストールイメージでは従来型のインストーラは使用していないため、任意の USB 
+  デバイスからのインストールができるお勧めの選択肢となっています。また、インストール作業を自動化したりカスタマイズしたりしたい場合は、 <a 
+  href="https://ja.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> や <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> 等のほか、 
+  jeos-firstboot ウイザードを利用することができます。また、オンラインで Ignition の設定を生成する手段として、 <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> もお使いいただけます。
 microos_ovw_desc_p1: システムの管理や修正の適用を自動化するホストコンテナ向けに設計されています。 openSUSE MicroOS 
   は、コンテナなどのトランザクション型更新の有用な環境に対して、素早く小さな環境を提供します。またローリングリリース型のディストリビューションであることから、常に最新版にもなります。
 microos_ovw_desc_p2: MicroOS 
   ではオフラインイメージを提供しています。オフラインイメージと自己インストール／純粋イメージの大きな違いとして、オフラインイメージにはインストーラ本体が存在していることがあげられます。純粋イメージや自己インストールイメージの場合、イメージをディスクに書き込んだ後に
   combustion 等の手段でカスタマイズを実施することになります。このほか、リアルタイムカーネルを含む版も用意されています。
-leap_micro_ovw_desc_p3: 仮想マシン内で Leap Micro を動作させる場合は、 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、
-  USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+leap_micro_ovw_desc_p3: 仮想マシン内で Leap Micro を動作させる場合は、 <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> または KVM をお使いください。 
+  Raspberry Pi やその他のシステムオンチップ (SoC) 
+  マシンをお使いの場合は、事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a
+  href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
-microos_ovw_desc_p3: 仮想マシン内で MicroOS を動作させる場合は、 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  または KVM をお使いください。 Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、起動時に <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  機能を含む事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+microos_ovw_desc_p3: 仮想マシン内で MicroOS を動作させる場合は、 <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> または KVM をお使いください。 
+  Raspberry Pi やその他のシステムオンチップ (SoC) マシンをお使いの場合は、起動時に <a 
+  href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  機能を含む事前構築済みイメージを利用することもできます。また、事前構築済みイメージや自己インストールイメージの場合は、 USB メモリに <a 
+  href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   機能を含むイメージを書き込みますので、ユーザに対するパスワード設定などの基本的な設定を初回の起動時に実施することができます。
 packages_image: パッケージイメージ
 packages_image_desc: パッケージを含むオフラインリポジトリのメディアです。
@@ -356,3 +372,8 @@ leap_16_coming_soon: "Leap 15.6 の後継バージョンである Leap 16.0 は�
   をご覧ください。\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   は Leap 16.0 および Tumbleweed のインストールに使用できる新しいインストーラです。\nAgama ではオフラインインストールへの対応も提供されるほか、自己インストールイメージなどのその他のインストールメディアも後日追加される予定です。\n"
+requirements_cpu_slfo_x86_64_link: 
+  https://ja.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'ppc64le の場合: POWER9 もしくはそれ以降'
+requirements_cpu_slfo_s390x: 's390x の場合: z14 もしくはそれ以降'
+requirements_cpu_slfo_x86_64: 'x86_64 の場合: マイクロアーキテクチャレベル x86-64-v2 もしくはそれ以上'
