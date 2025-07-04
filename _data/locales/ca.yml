@@ -1,6 +1,6 @@
 site_title: Obtingueu l'openSUSE
-site_description: Informeu-vos sobre les distribucions de l’openSUSE i baixeu-les
-  gratuïtament
+site_description: Informeu-vos sobre les distribucions de l’openSUSE i 
+  baixeu-les gratuïtament
 site_copyright: © 2025 Col·laboradors de l'openSUSE
 search: Cerca
 translate: Tradueix
@@ -64,8 +64,9 @@ gnome_cd: CD autònom amb GNOME
 kde_cd: CD autònom amb KDE
 xfce_cd: CD autònom amb Xfce
 rescue_cd: CD autònom de rescat
-microos_desc: SO d'openSUSE basat en Tumbleweed que proporciona actualitzacions transaccionals
-  (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
+microos_desc: SO d'openSUSE basat en Tumbleweed que proporciona actualitzacions 
+  transaccionals (atòmiques) en un sistema de fitxers d'arrel btrfs només de 
+  lectura
 choosing_media_p2: "La imatge de xarxa es recomana als usuaris que tenen limitada\n\
   l'amplada de banda a les connexions a Internet, ja que només\ndescarregarà els paquets
   que es triïn instal·lar, un pes que\nprobablement sigui significativament inferior
@@ -76,7 +77,8 @@ leap_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordina
   des d'un\nDVD / USB i triar l'opció d'actualització o feu una actualització en línia
   amb\npoques ordres.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
-requirements_dvd: O bé una unitat de DVD o bé un port d'USB per al mitjà d'instal·lació
+requirements_dvd: O bé una unitat de DVD o bé un port d'USB per al mitjà 
+  d'instal·lació
 requirements_net: Xarxa
 tw_switch: Maneres fàcils de canviar a l'openSUSE Tumbleweed
 tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinador
@@ -85,17 +87,22 @@ tw_switch_p1: "Si ja teniu l'openSUSE, podeu actualitzar-lo arrencant l'ordinado
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Des d'una versió antiga o d'una altra distribució de Linux
 upgrade_table_linux_dvd: Com enregistrar un DVD a Linux.
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Com enregistrar un DVD a Windows.
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: Com enregistrar un DVD a macOS.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Com crear una memòria d'USB arrencable a Linux
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Com crear una memòria d'USB arrencable en Windows
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Com crear una memòria d'USB arrencable en OS X
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifiqueu la baixada abans d'usar-la
 verify_download_p1: "Moltes aplicacions poden verificar la suma de comprovació d’una
   baixada. \nVerificar la baixada pot ser important, ja que comprova que tingueu realment\n\
@@ -108,7 +115,8 @@ verify_download_p3: "Per garantir la integritat del fitxer descarregat, podeu us
 verify_download_pubkey: Hauria de ser
 verify_download_help: Per obtenir més ajuda per verificar la baixada, llegiu
 verify_download_checksums_help: Ajuda de les sumes de comprovació
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Diversos escriptoris, tres per defecte
 desktops_p1: "El procés de contribució d'openSUSE impulsa el desenvolupament d'escriptoris\n\
   \ per a tothom, de manera que teniu la possibilitat de triar el vostre escriptori\n\
@@ -176,43 +184,45 @@ index_desktop: Escriptori
 index_desktop_p1: Selecció de distribucions per a ús d'escriptori
 index_server: Servidor
 index_server_p1: Selecció de distribucions per a ús de servidor
-index_full: O bé aneu directament a les pàgines de descàrrega de les distribucions
+index_full: O bé aneu directament a les pàgines de descàrrega de les 
+  distribucions
 desktop: Distribucions d'escriptori d'openSUSE
 desktop_p1: "Les dues distribucions per governar-les totes (ara en verd!)\n"
-desktop_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE, jugadors
-  i entusiastes de Linux / FOSS
-desktop_tumbleweed_p2: Versió contínua amb els darrers paquets proporcionats pel Projecte
-  openSUSE.
+desktop_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE, 
+  jugadors i entusiastes de Linux / FOSS
+desktop_tumbleweed_p2: Versió contínua amb els darrers paquets proporcionats pel
+  Projecte openSUSE.
 desktop_tumbleweed_view: Vegeu el Tumbleweed
-desktop_leap_p1: Per a administradors de sistemes, desenvolupadors empresarials i
-  usuaris d'escriptori "regulars"
-desktop_leap_p2: Versió regular amb els avantatges de l'enginyeria de nivell empresarial
-  i la innovació desenvolupada a la comunitat.
+desktop_leap_p1: Per a administradors de sistemes, desenvolupadors empresarials 
+  i usuaris d'escriptori "regulars"
+desktop_leap_p2: Versió regular amb els avantatges de l'enginyeria de nivell 
+  empresarial i la innovació desenvolupada a la comunitat.
 desktop_leap_view: Vegeu el Leap
 server: Distribucions de servidor d'openSUSE
 server_p1: "Quatre distribucions còmodament avorrides, com hauria de ser sempre\n"
-server_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE, jugadors
-  i entusiastes de Linux / FOSS
-server_tumbleweed_p2: Versió contínua amb els darrers paquets proporcionats pel Projecte
-  openSUSE.
+server_tumbleweed_p1: Per als desenvolupadors, col·laboradors d'openSUSE, 
+  jugadors i entusiastes de Linux / FOSS
+server_tumbleweed_p2: Versió contínua amb els darrers paquets proporcionats pel 
+  Projecte openSUSE.
 server_tumbleweed_view: Vegeu el Tumbleweed
-server_leap_p1: Per a administradors de sistemes, desenvolupadors empresarials i usuaris
-  de servidors "regulars"
-server_leap_p2: Versió regular amb els avantatges de l'enginyeria de nivell empresarial
-  i la innovació desenvolupada a la comunitat.
+server_leap_p1: Per a administradors de sistemes, desenvolupadors empresarials i
+  usuaris de servidors "regulars"
+server_leap_p2: Versió regular amb els avantatges de l'enginyeria de nivell 
+  empresarial i la innovació desenvolupada a la comunitat.
 server_leap_view: Vegeu el Leap
 server_microos_p1: Per a aplicacions de servidor d’un sol propòsit
-server_microos_p2: Dissenyat per allotjar càrregues de treball de contenidors amb
-  administració i pedaços automatitzats
+server_microos_p2: Dissenyat per allotjar càrregues de treball de contenidors 
+  amb administració i pedaços automatitzats
 server_microos_view: Vegeu el Micro SO
 new_version_available: $distro_name ara està disponible per descarregar.
 new_version_testing: $distro_name ara està disponible per descarregar i provar.
 view_distro: Vegeu $distro_name
-x86_64: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 64 bits
-  (x86_64)
-i686: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 32 bits (i686)
-aarch64: Servidors, ordinadors de sobretaula, portàtils i tauletes de 64 bits amb
-  UEFI Arm (aarch64)
+x86_64: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 64 
+  bits (x86_64)
+i686: Ordinadors de sobretaula, portàtils i servidors amb Intel o AMD de 32 bits
+  (i686)
+aarch64: Servidors, ordinadors de sobretaula, portàtils i tauletes de 64 bits 
+  amb UEFI Arm (aarch64)
 ppc64le: Servidors PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
 Tumbleweed_features:
@@ -316,26 +326,30 @@ MicroOS_features:
       d'execució.\n* Es pot desplegar fàcilment i repetidament amb resultats previsibles.\n\
       \ \n### És fiable.\n* Recuperació automàtica d’actualitzacions defectuoses\n"
     name: Filosofia
-alternative_downloads_desc: També tenim imatges $options. Consulteu les $alternative_downloads!
+alternative_downloads_desc: També tenim imatges $options. Consulteu les 
+  $alternative_downloads!
 alternative_downloads: descàrregues alternatives
 download: Descàrrega
 overview: Resum
-armv7l: Servidors, escriptoris, portàtils i tauletes de 32 bits Arm UEFI (armv7l)
+armv7l: Servidors, escriptoris, portàtils i tauletes de 32 bits Arm UEFI 
+  (armv7l)
 requirements_net_mac: Nom d'amfitrió i adreça MAC exclusius per a cada node
-requirements_net_conn: Connectivitat completa entre totes les màquines del clúster
-requirements_net_desc: L'accés a Internet és útil, però necessari per a l'instal·lador
-  per xarxa.
-requirements_dvd_desc: Una unitat de DVD o un port USB per al suport d’instal·lació
+requirements_net_conn: Connectivitat completa entre totes les màquines del 
+  clúster
+requirements_net_desc: L'accés a Internet és útil, però necessari per a 
+  l'instal·lador per xarxa.
+requirements_dvd_desc: Una unitat de DVD o un port USB per al suport 
+  d’instal·lació
 requirements_hdd_ssd_info: SSD d'alta velocitat d'escriptura
-requirements_hdd_swap_info: espai d'intercanvi inhabilitat per tal que kubernetes
-  funcioni correctament
+requirements_hdd_swap_info: espai d'intercanvi inhabilitat per tal que 
+  kubernetes funcioni correctament
 requirements_hdd_size_desc: $value d'espai disponible al disc
 requirements_hdd_var: Partició /var
 requirements_hdd_root: 'Partició / (root: arrel)'
 requirements_hdd_desc: Més de 40 GB d’espai lliure al disc dur
 requirements_hdd: Emmagatzematge
-requirements_mem_desc: $value de RAM física + memòria addicional per a la vostra càrrega
-  de feina
+requirements_mem_desc: $value de RAM física + memòria addicional per a la vostra
+  càrrega de feina
 requirements_cpu_desc: Processador de doble nucli de 2 Ghz o superior
 requirements_rec: Recomanat
 requirements_min: Mínim
@@ -356,9 +370,10 @@ vmware_ch_image: Amfitrió de contenidors VMware
 hyperv_ch_image: Amfitrió de contenidors MS HyperV
 kvm_ch_image: Amfitrió de contenidors KVM i XEN
 iso_image: Imatge ISO
-jeos_info: Imatges mínimes de MV. Per a les imatges Arm JeOS, si us plau, visiteu
-  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la pàgina
-  wiki d'Arm</a>
+jeos_info: Imatges mínimes de MV. Per a les imatges Arm JeOS, si us plau, 
+  visiteu <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">la 
+  pàgina wiki d'Arm</a>
 preconfigured_image: Imatge preconfigurada (crua)
 preconfigured_rt_image: Imatge preconfigurada de Temps Real (crua)
 selfinstall_image: Imatge d'autoinstal·lació
@@ -380,8 +395,9 @@ server_x86_64: Servidors Intel o AMD de 64 bits (x86_64)
 cloud_image: Imatge de núvol
 cloud_minimal_desc: Imatge KVM i Xen mínima amb cloud-init
 ppc64: Servidors PowerPC, big-endian (ppc64)
-minimal_vm_info: Similar a les imatges de SUSE Linux Enterprise Server Minimal-VM.
-  Per obtenir imatges d'Arm JeOS, aneu a la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">pàgina
+minimal_vm_info: Similar a les imatges de SUSE Linux Enterprise Server 
+  Minimal-VM. Per obtenir imatges d'Arm JeOS, aneu a la <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">pàgina 
   wiki d'Arm</a>
 minimal_vm_images: Màquina virtual mínima
 choosing_media_micro_p2: "La versió de Leap Micro ja no inclou un instal·lador tradicional.
@@ -400,65 +416,77 @@ choosing_media_micro_p1: "La nova imatge d'autoinstal·lació és la millor opci
   sistema mitjançant Combustió.\n"
 preconfigured_qcow_image: Imatge preconfigurada (qcow)
 server_leapmicro_p1: Per a desplegaments punters, encastats, IoT i altres
-server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a càrregues
-  de treball virtualitzades i en contenidors.
+server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a 
+  càrregues de treball virtualitzades i en contenidors.
 kvm_sdboot_image: Imatge de KVM amb arrencada de systemd
-leap_ovw_title: Una nova manera de construir l'openSUSE i un nou tipus de distribució
-  híbrida de Linux
-leap_ovw_desc: La versió Leap usa la font de SUSE Linux Enterprise (SLE), que li proporciona
-  al Leap un nivell d'estabilitat incomparable amb altres distribucions de Linux i
-  ho combina amb els desenvolupaments de la comunitat per oferir als usuaris, desenvolupadors
-  i administradors de sistemes la millor experiència estable de Linux disponible.
-tumbleweed_ovw_title: Sistema operatiu d'escriptori i servidor d'última generació
+leap_ovw_title: Una nova manera de construir l'openSUSE i un nou tipus de 
+  distribució híbrida de Linux
+leap_ovw_desc: La versió Leap usa la font de SUSE Linux Enterprise (SLE), que li
+  proporciona al Leap un nivell d'estabilitat incomparable amb altres 
+  distribucions de Linux i ho combina amb els desenvolupaments de la comunitat 
+  per oferir als usuaris, desenvolupadors i administradors de sistemes la millor
+  experiència estable de Linux disponible.
+tumbleweed_ovw_title: Sistema operatiu d'escriptori i servidor d'última 
+  generació
 tumbleweed_ovw_desc: "Amb la versió Tumbleweed no cal que prengueu decisions difícils
   sobre les coses que valoreu, ja sigui la llibertat o la seguretat, el control o
   la seguretat, la tecnologia o l'estabilitat: el Tumbleweed us permet tenir la dona
   borratxa i el vi al celler!"
-leap_micro_ovw_desc_p2: El Leap Micro, des de la versió 6.0, ofereix una imatge d'autoinstal·lació,
-  una imatge en brut i un DVD de paquets que pot servir com a repositori fora de línia.
-  La imatge d'autoinstal·lació és la nostra recomanació per a qualsevol instal·lació
-  basada en USB, ja que ja no fem servir instal·ladors tradicionals. Els usuaris poden
-  automatitzar i personalitzar la seva instal·lació amb <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
-  o amb <a href="https://github.com/ openSUSE/combustion">Combustió</a> o usant l'assistent
-  jeos-firstboot. Proveu <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a>, el nostre generador de configuració d'Ignition en línia.
-leap_micro_ovw_video_desc: Demostració d'instal·lació de Leap Micro 6.1 amb una encriptació
-  de disc complet i una autenticació de dos factors a cockpit.
-microos_ovw_title: Un Micro Service OS que proporciona actualitzacions transaccionals
-  (atòmiques) en un sistema de fitxers d'arrel btrfs només de lectura
-microos_ovw_desc_p1: Dissenyat per allotjar càrregues de treball de contenidors amb
-  administració i pedaços automatitzats. En instal·lar l'openSUSE MicroSO, obtindreu
-  un entorn ràpid i petit per desplegar contenidors o qualsevol altra càrrega de treball
-  que es beneficiï de les actualitzacions transaccionals. Com a distribució contínua,
-  el programari està sempre actualitzat.
-microos_ovw_desc_p3: Proveu el MicroSO en màquines virtuals que s'executen amb <a
-  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o amb KVM. L'ús d'un
-  Raspberry Pi o un altre maquinari System on Chip pot fer servir la imatge preconfigurada
-  juntament amb la funcionalitat <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a>
-  per al procés d'arrencada . Tant les imatges preconfigurades com les autoinstal·lades
-  estan pensades per usar-se amb <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a>
-  escrites en un USB, que s'activa per permetre configuració en qualsevol primera
+leap_micro_ovw_desc_p2: El Leap Micro, des de la versió 6.0, ofereix una imatge 
+  d'autoinstal·lació, una imatge en brut i un DVD de paquets que pot servir com 
+  a repositori fora de línia. La imatge d'autoinstal·lació és la nostra 
+  recomanació per a qualsevol instal·lació basada en USB, ja que ja no fem 
+  servir instal·ladors tradicionals. Els usuaris poden automatitzar i 
+  personalitzar la seva instal·lació amb <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> o amb <a 
+  href="https://github.com/ openSUSE/combustion">Combustió</a> o usant 
+  l'assistent jeos-firstboot. Proveu <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>, el nostre 
+  generador de configuració d'Ignition en línia.
+leap_micro_ovw_video_desc: Demostració d'instal·lació de Leap Micro 6.1 amb una 
+  encriptació de disc complet i una autenticació de dos factors a cockpit.
+microos_ovw_title: Un Micro Service OS que proporciona actualitzacions 
+  transaccionals (atòmiques) en un sistema de fitxers d'arrel btrfs només de 
+  lectura
+microos_ovw_desc_p1: Dissenyat per allotjar càrregues de treball de contenidors 
+  amb administració i pedaços automatitzats. En instal·lar l'openSUSE MicroSO, 
+  obtindreu un entorn ràpid i petit per desplegar contenidors o qualsevol altra 
+  càrrega de treball que es beneficiï de les actualitzacions transaccionals. Com
+  a distribució contínua, el programari està sempre actualitzat.
+microos_ovw_desc_p3: Proveu el MicroSO en màquines virtuals que s'executen amb 
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o amb KVM. L'ús 
+  d'un Raspberry Pi o un altre maquinari System on Chip pot fer servir la imatge
+  preconfigurada juntament amb la funcionalitat <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a> per al 
+  procés d'arrencada . Tant les imatges preconfigurades com les autoinstal·lades
+  estan pensades per usar-se amb <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a> 
+  escrites en un USB, que s'activa per permetre configuració en qualsevol 
+  primera arrencada, amb l'opció de canvis protegits amb contrasenya per 
+  defecte.
+leap_micro_ovw_title: El Leap Micro és un sistema operatiu lleuger i ultrafiable
+  creat per a càrregues de treball virtualitzades i en contenidors.
+leap_micro_ovw_desc_p1: Aquesta versió de la comunitat es basa en SUSE Linux 
+  Micro, que aprofita els components de seguretat i compatibilitat empresarial 
+  reforçats de SUSE Linux Enterprise. Aquesta fusió de tecnologies ofereix una 
+  plataforma de SO moderna, immutable i fàcil de desenvolupar.
+leap_micro_ovw_desc_p3: Proveu el Leap Micro en màquines virtuals que s'executen
+  amb <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. L'ús 
+  d'un Raspberry Pi o un altre maquinari del tipus de sistema en un xit pot usar
+  la imatge preconfigurada. Tant les imatges preconfigurades com les 
+  autoinstal·lables estan pensades per usar-se amb <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a> escrit 
+  en un USB, que s'activa per permetre la configuració en qualsevol primera 
   arrencada, amb l'opció de canvis protegits amb contrasenya per defecte.
-leap_micro_ovw_title: El Leap Micro és un sistema operatiu lleuger i ultrafiable creat
-  per a càrregues de treball virtualitzades i en contenidors.
-leap_micro_ovw_desc_p1: Aquesta versió de la comunitat es basa en SUSE Linux Micro,
-  que aprofita els components de seguretat i compatibilitat empresarial reforçats
-  de SUSE Linux Enterprise. Aquesta fusió de tecnologies ofereix una plataforma de
-  SO moderna, immutable i fàcil de desenvolupar.
-leap_micro_ovw_desc_p3: Proveu el Leap Micro en màquines virtuals que s'executen amb
-  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. L'ús d'un Raspberry
-  Pi o un altre maquinari del tipus de sistema en un xit pot usar la imatge preconfigurada.
-  Tant les imatges preconfigurades com les autoinstal·lables estan pensades per usar-se
-  amb <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustió</a> escrit
-  en un USB, que s'activa per permetre la configuració en qualsevol primera arrencada,
-  amb l'opció de canvis protegits amb contrasenya per defecte.
-microos_ovw_desc_p2: El MicroSO ofereix una imatge fora de línia. La principal diferència
-  entre les imatges fora de línia i les d'autoinstal·lació / en brut és que la imatge
-  fora de línia té un instal·lador. La instal·lació en brut i automàtica permet la
-  personalització mitjançant Combustió o manualment a la imatge després d'escriure-la
-  al disc. Hi ha una opció per a un nucli en temps real.
+microos_ovw_desc_p2: El MicroSO ofereix una imatge fora de línia. La principal 
+  diferència entre les imatges fora de línia i les d'autoinstal·lació / en brut 
+  és que la imatge fora de línia té un instal·lador. La instal·lació en brut i 
+  automàtica permet la personalització mitjançant Combustió o manualment a la 
+  imatge després d'escriure-la al disc. Hi ha una opció per a un nucli en temps 
+  real.
 packages_image: Imatge de paquets
-packages_image_desc: Mitjans que contenen un repositori fora de línia amb paquets.
+packages_image_desc: Mitjans que contenen un repositori fora de línia amb 
+  paquets.
 leap_156_ovw_video_desc: Una emissió en directe del llançament del Leap 15.6
 signature: Signatura
 encrypted_image: Imatge de disc totalment encriptada (en cru)
@@ -471,3 +499,9 @@ leap_16_coming_soon: "Es pot esperar la publicació del Leap 16.0, successor del
   periòdicament les actualitzacions del nostre <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >full de ruta</a> i <a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
   per a més informació.\n"
+requirements_cpu_slfo_x86_64: 'Per a x86_64: nivell de microarquitectura x86-64-v2
+  o superior'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Per a ppc64le: POWER9 o superior'
+requirements_cpu_slfo_s390x: 'Per a s390x: z14 o superior'
