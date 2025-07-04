@@ -500,3 +500,5 @@ leap_16_coming_soon: "Die Veröffentlichung von Leap 16.0, dem Nachfolger von Le
   auf unserer <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">Roadmap</a> und
   <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a> nach Updates
   für mehr weitere Informationen.\n"
+requirements_cpu_slfo_s390x: 'Für s390x: z14 oder höher'
+requirements_cpu_slfo_x86_64: 'Für x86_64: Mikroarchitektur Level x86-64-v2 oder höher'
