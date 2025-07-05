@@ -18,7 +18,8 @@ leap_switch: Enkla sätt att byta till openSUSE Leap
 requirements: Systemkrav
 requirements_cpu: Processor
 requirements_mem: Minne
-requirements_dvd: Antingen en DVD-spelare eller en USB-kontakt för installationsmediat
+requirements_dvd: Antingen en DVD-spelare eller en USB-kontakt för 
+  installationsmediat
 tw_switch: Enkla sätt att byta till openSUSE Tumbleweed
 upgrade_table_linux: Från en äldre version eller annan Linux distro
 upgrade_table_windows: Från Windows
@@ -46,14 +47,15 @@ offline_desc: "Innehåller en stor samling programvara för skrivbords eller ser
 offline_image: Offline avbild
 site_title_short: Skaffa
 usb_desc: För USB-stickor
-jeos_info: Minimala VM avbilder. för ARM JeOS avbilder, gå till <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  wiki sidan</a>
+jeos_info: Minimala VM avbilder. för ARM JeOS avbilder, gå till <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki
+  sidan</a>
 hardware_images: Hårdvara
 gnome_cd: GNOME LiveCD
 kde_cd: KDE LiveCD
 xfce_cd: Xfce LiveCD
-microos_desc: openSUSE Tumbleweed-baserat OS som tillhandahåller Transaktionella (Atomic)
-  uppdateringar på ett skrivskyddat btrfs-rotfilsystem
+microos_desc: openSUSE Tumbleweed-baserat OS som tillhandahåller Transaktionella
+  (Atomic) uppdateringar på ett skrivskyddat btrfs-rotfilsystem
 choosing_media_p1: "Offlinavebilden rekommenderas vanligtvis eftersom den innehåller
   det mesta\nav paketen tillgängliga i distributionen och kräver inte en nätverks\n\
   \ anslutning under installationen.\n"
@@ -79,34 +81,42 @@ requirements_hdd_root: / (root) partition
 requirements_hdd_size_desc: $value tillgängligt diskutrymme
 requirements_hdd_var: /var partition
 requirements_hdd_ssd_info: SSD med hög skrivhastighet
-requirements_dvd_desc: Antingen en DVD-enhet eller USB-port för installationsmediet
+requirements_dvd_desc: Antingen en DVD-enhet eller USB-port för 
+  installationsmediet
 requirements_net: Nätverk
 requirements_net_mac: Unikt värdnamn och MAC-adress för varje nod
-desktop_leap_p1: För Systemadministratörer, företagsutvecklare och "vanliga" datoranvändare
+desktop_leap_p1: För Systemadministratörer, företagsutvecklare och "vanliga" 
+  datoranvändare
 requirements_net_conn: Full anslutning mellan alla maskiner i klustret
 tw_switch_instructions: Uppgraderingsinstruktioner.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 points_free: Fri programvara? Ditt val
 preconfigured_image: Förkonfigurerad avbild (rå)
 software_get: Skaffa programvara
 yast_firewall: Brandvägg
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 desktops: Många skrivbordsmiljöer, tre som standard
 preconfigured_rt_image: Förkonfigurerad realtidsavbild (rå)
 yast_fonts: Teckensnitt
 yast_sound: Ljud
 index_p1: För skrivbord, server och allt däremellan
 index_server: Server
-aarch64: UEFI Arm 64-bitarsservrar, stationära datorer, bärbara datorer och enkortsdatorer
-  (aarch64)
-armv7l: UEFI Arm 32-bitarsservrar, stationära datorer, bärbara datorer och enkortsdatorer
-  (armv7l)
+aarch64: UEFI Arm 64-bitarsservrar, stationära datorer, bärbara datorer och 
+  enkortsdatorer (aarch64)
+armv7l: UEFI Arm 32-bitarsservrar, stationära datorer, bärbara datorer och 
+  enkortsdatorer (armv7l)
 s390x: IBM zSystems och LinuxONE (s390x)
 overview: Översikt
 download: Ladda ner
@@ -116,13 +126,17 @@ yast_printer: Skrivare
 yast_scanner: Skanner
 zypper: Zypper, din nya favoritpakethanterare
 index: openSUSE distributioner
-desktop_tumbleweed_p1: För utvecklare, openSUSE bidragsgivare, gamers och Linux/FOSS-entusiaster
-server_tumbleweed_p1: För utvecklare, openSUSE bidragsgivare, gamers och Linux/FOSS-entusiaster
-server_leap_p1: För systemadministratörer, företagsutvecklare och "vanliga" serveranvändare
+desktop_tumbleweed_p1: För utvecklare, openSUSE bidragsgivare, gamers och 
+  Linux/FOSS-entusiaster
+server_tumbleweed_p1: För utvecklare, openSUSE bidragsgivare, gamers och 
+  Linux/FOSS-entusiaster
+server_leap_p1: För systemadministratörer, företagsutvecklare och "vanliga" 
+  serveranvändare
 new_version_available: $distro_name är nu tillgänglig för nedladdning
-x86_64: Intel eller AMD 64-bitars stationära datorer, bärbara datorer och servrar
-  (x86_64)
-i686: Intel eller AMD 32-bitars stationära datorer, bärbara datorer och servrar (i686)
+x86_64: Intel eller AMD 64-bitars stationära datorer, bärbara datorer och 
+  servrar (x86_64)
+i686: Intel eller AMD 32-bitars stationära datorer, bärbara datorer och servrar 
+  (i686)
 ppc64le: PowerPC-servrar, little-endian (ppc64le)
 Tumbleweed_features:
   user:
@@ -222,7 +236,8 @@ MicroOS_features:
       en del av ögonblicksbilden och återställningen.\n\n#### Flexibel\n* Inget nytt
       paketformat behövs, använd standard openSUSE RPM\n* Ingen storleksbegränsning,
       varken för partitioner eller operativsystem\n* Lätt att förbättra\n"
-alternative_downloads_desc: Vi har också $options avbilder. Kolla in $alternative_downloads!
+alternative_downloads_desc: Vi har också $options avbilder. Kolla in 
+  $alternative_downloads!
 leap_switch_instructions: Online uppgraderingsinstruktioner.
 selfinstalling_images: Självinstallerande avbilder
 kvm_image: KVM och XEN avbild
@@ -243,21 +258,23 @@ verify_download_p2: "För varje ISO erbjuder vi en kontrollsummafil med motsvara
   SHA256-summa, och en signaturfil med en kryptografisk signatur.\n"
 points_welcoming: Välkomnar bidrag
 kvm_ch_image: KVM och XEN behållare värd
-requirements_hdd_swap_info: swap utrymme inaktiverad för att Kubernetes ska fungera
-  korrekt
-requirements_net_desc: Internetåtkomst hjälpsamt och krävs för nätverksinstallatören
-verify_download_help: För mer hjälp med att verifiera din nedladdning, vänligen läs
+requirements_hdd_swap_info: swap utrymme inaktiverad för att Kubernetes ska 
+  fungera korrekt
+requirements_net_desc: Internetåtkomst hjälpsamt och krävs för 
+  nätverksinstallatören
+verify_download_help: För mer hjälp med att verifiera din nedladdning, vänligen 
+  läs
 software: Skaffa programvara kunde inte vara enklare
 yast: YaST, det bästa valet för ~ ~ expert ~ ~ -användaren
 index_server_p1: Val av distributioner för serveranvändning
 index_full: Eller gå direkt till nedladdningssidorna för distributionerna
 desktop: openSUSE Skrivbordsdistributioner
-desktop_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls av
-  OpenSUSE projektet.
+desktop_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls 
+  av OpenSUSE projektet.
 server: openSUSE Server distributioner
 server_p1: "Fyra bekvämt tråkiga distributioner, hur det alltid borde vara\n"
-server_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls av
-  OpenSUSE projektet.
+server_tumbleweed_p2: Rullande släpp med de senaste paketen som tillhandahålls 
+  av OpenSUSE projektet.
 tw_switch_p1: "Om du redan kör OpenSUSE kan du uppgradera genom att starta från\n\
   \ DVD/USB och välja uppgradera, eller genomföra en \"online -uppgradering\" med
   några få\nkommandon.\n"
@@ -283,7 +300,8 @@ pine_ch_image: Pine64 behållare värd
 openstack_ch_image: Openstack-Moln behållare värd
 ports_info: "Portar för openSUSE Leap till andra arkitekturer än PC är\nupprätthålls
   av separata gemenskapsteam, med begränsade resurser.\n"
-site_description: Lär dig mer om openSUSE-distributionerna och ladda ner dem gratis
+site_description: Lär dig mer om openSUSE-distributionerna och ladda ner dem 
+  gratis
 offline_updated_image: Uppdaterad Offline avbild
 offline_updated_desc: "Offline installationsavbild med dom senaste uppdateringar.\n\
   \ Lämplig för installation eller uppgradering.\n"
@@ -295,14 +313,15 @@ ppc64: PowerPC servrar, big-endian (ppc64)
 minimal_vm_images: Minimal virtuell maskin
 cloud_image: Molnavbilder
 installation: Installera det hur du vill ha det
-minimal_vm_info: Liknande som SUSE Linux Enterprise Server Minimal-VM avbildningar.
-  För Arm JeOS avbilder, snälla gå till <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  wiki sidan</a>
-server_microos_p2: Designad för att vara värd för behållararbetsbelastningar med automatiserad
-  administration och patchning
+minimal_vm_info: Liknande som SUSE Linux Enterprise Server Minimal-VM 
+  avbildningar. För Arm JeOS avbilder, snälla gå till <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki
+  sidan</a>
+server_microos_p2: Designad för att vara värd för behållararbetsbelastningar med
+  automatiserad administration och patchning
 documentation_startup_guide: openSUSE Uppstartsguide
-desktop_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad ingenjörskonst
-  och gemenskapsutvecklad innovation.
+desktop_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad 
+  ingenjörskonst och gemenskapsutvecklad innovation.
 transactional: Transaktionell server
 live_info: "Var medveten om följande begränsningar för liveavbilder:\n* De ska inte
   användas för att installera eller uppgradera. Använd installationsmediet istället\n\
@@ -332,8 +351,8 @@ points_welcoming_p1: "Vi gör vårt bästa för att tillfredsställa gemenskapen
 software_p1: "Mellan oss att gå igenom varje webbplats för att få all\nprogramvara
   du kan behöva är mycket arbete. Programvarucentret online\ngör detta enklare genom
   att införliva programvara från en uppsjö av\nkällor på ett ställe.\n"
-server_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad ingenjörskonst
-  och gemenskapsutvecklad innovation.
+server_leap_p2: Regelbundna släpp med fördelarna av både företagsklassad 
+  ingenjörskonst och gemenskapsutvecklad innovation.
 desktop_p1: "De två distributionerna att härska dom alla (nu i grönt!)\n"
 transactional_p1: "Installationsprogrammet stöder nu en ny systemroll Transaktionell
   server\nvilket är ett resultat av openSUSE Kubic-arbetet. Denna systemroll\nhar
@@ -374,59 +393,70 @@ choosing_media_micro_p1: "Den nya självinstallationsavbilden rekommenderas för
   kommer att hälsa dem som inte har konfigurerat sitt system genom att använda Combustion.\n"
 preconfigured_qcow_image: Förkonfigurerad avbild (qcow)
 server_leapmicro_p1: För edge, inbäddade system, IoT och andra implementeringar
-server_leapmicro_p2: Ultra-pålitligt, lättviktigt operativsystem byggt för behållarbaserade
-  och virtualiserade arbetsbelastningar.
+server_leapmicro_p2: Ultra-pålitligt, lättviktigt operativsystem byggt för 
+  behållarbaserade och virtualiserade arbetsbelastningar.
 kvm_sdboot_image: KVM avbild med systemd-boot
-tumbleweed_ovw_desc: Med Tumbleweed behöver du inte ta svåra beslut om saker du värdesätter,
-  varken frihet eller säkerhet, vare sig kontroll eller säkerhet, teknik eller stabilitet
-  - Tumbleweed låter dig ha din kaka och äta den också!
-leap_micro_ovw_desc_p3: Prova Leap Micro i Virtuella maskiner antingen <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  eller KVM. Användning av en Raspberry Pi eller annan System on Chip-hårdvara kan
-  använda den förkonfigurerade avbilden. Både förkonfigurerade och självinstallerade
-  avbilder är avsedda att användas med <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  skrivet till en USB, som drivs för att tillåta konfiguration vid första uppstart,
-  med möjlighet för standard lösenordsskyddade ändringar.
-leap_micro_ovw_desc_p1: Den här gemenskapsversionen är baserad på SUSE Linux Micro,
-  vilket utnyttjar de förstärkta säkerhets och efterlevnadskomponenterna för SUSE
-  Linux Enterprise. Denna sammanslagning av teknologier ger en modern, oföränderlig,
-  och utvecklarvänlig OS-plattform.
-microos_ovw_desc_p2: MicroOS erbjuder en offlineavbild. Huvudskillnaden mellan offline
-  och självinstallations/råavbilden är att offline avbildningen har ett installationsprogram.
-  Rå och självinstallation möjliggör anpassning via combustion eller manuellt i avbilden
-  efter att den skrivits till disken. Det finns ett alternativ för en realtidskärna.
-microos_ovw_desc_p3: Prova Leap Micro i Virtuella maskiner antingen <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  eller KVM. Användning av en Raspberry Pi eller annan System on Chip-hårdvara kan
-  använda den förkonfigurerade avbilden tillsammans med <a 
+tumbleweed_ovw_desc: Med Tumbleweed behöver du inte ta svåra beslut om saker du 
+  värdesätter, varken frihet eller säkerhet, vare sig kontroll eller säkerhet, 
+  teknik eller stabilitet - Tumbleweed låter dig ha din kaka och äta den också!
+leap_micro_ovw_desc_p3: Prova Leap Micro i Virtuella maskiner antingen <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> eller KVM. 
+  Användning av en Raspberry Pi eller annan System on Chip-hårdvara kan använda 
+  den förkonfigurerade avbilden. Både förkonfigurerade och självinstallerade 
+  avbilder är avsedda att användas med <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  skrivet till en USB, som drivs för att tillåta konfiguration vid första 
+  uppstart, med möjlighet för standard lösenordsskyddade ändringar.
+leap_micro_ovw_desc_p1: Den här gemenskapsversionen är baserad på SUSE Linux 
+  Micro, vilket utnyttjar de förstärkta säkerhets och efterlevnadskomponenterna 
+  för SUSE Linux Enterprise. Denna sammanslagning av teknologier ger en modern, 
+  oföränderlig, och utvecklarvänlig OS-plattform.
+microos_ovw_desc_p2: MicroOS erbjuder en offlineavbild. Huvudskillnaden mellan 
+  offline och självinstallations/råavbilden är att offline avbildningen har ett 
+  installationsprogram. Rå och självinstallation möjliggör anpassning via 
+  combustion eller manuellt i avbilden efter att den skrivits till disken. Det 
+  finns ett alternativ för en realtidskärna.
+microos_ovw_desc_p3: Prova Leap Micro i Virtuella maskiner antingen <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> eller KVM. 
+  Användning av en Raspberry Pi eller annan System on Chip-hårdvara kan använda 
+  den förkonfigurerade avbilden tillsammans med <a 
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>-funktionen
-  för uppstartsprocessen . Både förkonfigurerade och självinstallerade avbilder är
-  avsedda att användas med <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  skrivet till en USB, som drivs för att tillåta konfiguration vid första uppstart,
-  med möjlighet för standard lösenordsskyddade ändringar.
-leap_ovw_title: Ett helt nytt sätt att bygga openSUSE och en ny typ av hybrid Linux-distribution
-leap_ovw_desc: Leap använder källkod från SUSE Linux Enterprise (SLE), vilket ger
-  Leap en stabilitetsnivå oöverträffad av andra Linux-distributioner, och kombinerar
-  det med gemenskapsutveckling för att ge användare, utvecklare och systemadministratörer
-  den bästa stabila Linux-upplevelsen som finns.
-tumbleweed_ovw_title: Toppmodernt operativsystem för stationära datorer och servrar
-leap_micro_ovw_title: Leap Micro är ett extremt pålitligt, lättviktigt operativsystem
-  byggt för containeriserade och virtualiserade arbetsbelastningar.
-leap_micro_ovw_desc_p2: Leap Micro erbjuder sedan 6.0 en självinstallationsavbildning,
-  en råavbildning och en paket-DVD som kan fungera som ett offlineförråd. Självinstallationsavbilden
-  är vår rekommendation för alla USB-baserade installationer eftersom vi inte längre
-  använder traditionella installatörer. Användare kan automatisera och anpassa sin
-  installation med antingen <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
-  eller <a href="https://github.com/openSUSE/combustion">Combustion</a> eller genom
-  att använda jeos-firstboot guiden. Gör ett försök med <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a> våran online generator för Ignition.
-leap_micro_ovw_video_desc: Leap Micro 6.1 installationsdemo med full diskkryptering
-  och tvåfaktorsautentisering i cockpit.
-microos_ovw_title: OS för mikrotjänster tillhandahåller transaktionsuppdateringar
-  (Atomiska) på ett skrivskyddat btrfs-rootfilsystem
-microos_ovw_desc_p1: Designat för att vara värd för containerarbetsbelastningar med
-  automatiserad administration och patchning. När du installerar openSUSE MicroOS
-  får du en snabb, liten miljö för att distribuera behållare eller någon annan arbetsbelastning
-  som drar nytta av transaktionsuppdateringar. Som rullande releasedistribution är
-  mjukvaran alltid uppdaterad.
+  för uppstartsprocessen . Både förkonfigurerade och självinstallerade avbilder 
+  är avsedda att användas med <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  skrivet till en USB, som drivs för att tillåta konfiguration vid första 
+  uppstart, med möjlighet för standard lösenordsskyddade ändringar.
+leap_ovw_title: Ett helt nytt sätt att bygga openSUSE och en ny typ av hybrid 
+  Linux-distribution
+leap_ovw_desc: Leap använder källkod från SUSE Linux Enterprise (SLE), vilket 
+  ger Leap en stabilitetsnivå oöverträffad av andra Linux-distributioner, och 
+  kombinerar det med gemenskapsutveckling för att ge användare, utvecklare och 
+  systemadministratörer den bästa stabila Linux-upplevelsen som finns.
+tumbleweed_ovw_title: Toppmodernt operativsystem för stationära datorer och 
+  servrar
+leap_micro_ovw_title: Leap Micro är ett extremt pålitligt, lättviktigt 
+  operativsystem byggt för containeriserade och virtualiserade 
+  arbetsbelastningar.
+leap_micro_ovw_desc_p2: Leap Micro erbjuder sedan 6.0 en 
+  självinstallationsavbildning, en råavbildning och en paket-DVD som kan fungera
+  som ett offlineförråd. Självinstallationsavbilden är vår rekommendation för 
+  alla USB-baserade installationer eftersom vi inte längre använder 
+  traditionella installatörer. Användare kan automatisera och anpassa sin 
+  installation med antingen <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> eller <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> eller genom att 
+  använda jeos-firstboot guiden. Gör ett försök med <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> våran 
+  online generator för Ignition.
+leap_micro_ovw_video_desc: Leap Micro 6.1 installationsdemo med full 
+  diskkryptering och tvåfaktorsautentisering i cockpit.
+microos_ovw_title: OS för mikrotjänster tillhandahåller 
+  transaktionsuppdateringar (Atomiska) på ett skrivskyddat btrfs-rootfilsystem
+microos_ovw_desc_p1: Designat för att vara värd för containerarbetsbelastningar 
+  med automatiserad administration och patchning. När du installerar openSUSE 
+  MicroOS får du en snabb, liten miljö för att distribuera behållare eller någon
+  annan arbetsbelastning som drar nytta av transaktionsuppdateringar. Som 
+  rullande releasedistribution är mjukvaran alltid uppdaterad.
 packages_image: Paketavbild
 packages_image_desc: Media som innehåller ett offlineförråd med paket.
 leap_156_ovw_video_desc: En Leap 15.6-släpp liveström
@@ -441,3 +471,8 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   är ett nytt installationsprogram som kan användas för att installera Leap 16 och
   Tumbleweed.\nDet finns en plan för att stödja offlineinstallation med Agama. Andra
   installationsmedia som självinstallationsavbild kommer att läggas till senare.\n"
+requirements_cpu_slfo_x86_64: 'För x86_64: mikroarkitekturnivå x86-64-v2 eller högre'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'För ppc64le: POWER9 eller högre'
+requirements_cpu_slfo_s390x: 'För s390x: z14 eller högre'
