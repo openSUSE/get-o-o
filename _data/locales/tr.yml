@@ -15,10 +15,11 @@ translate: Çeviri yap
 iso_image: ISO imajı
 network_image: Ağdan Kurulan İmaj
 site_title: openSUSE Edinin
-site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak indirin
+site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak 
+  indirin
 kde_cd: KDE Çalışan CD
 rescue_cd: Kurtarma İçin Çalışan CD
-site_copyright: © 2024 openSUSE'ye katkı sağlayanlar
+site_copyright: © 2025 openSUSE'ye katkı sağlayanlar
 offline_desc: "Masaüstü veya sunucu kullanımı için geniş bir yazılım koleksiyonu içerir.\n\
   \ Kurulum veya yükseltme için uygundur.\n"
 network_desc: "Kurulum dosyalarını ve tüm paketleri çevrimiçi olarak indirmek için
@@ -36,8 +37,9 @@ live_info: "Lütfen, çalışan görüntülerin aşağıdaki sınırlamalarını
   ve sürücülere sahiptir, bu nedenle kullandığınız dağıtımın donanımınız üzerinde
   çalışıp çalışmayacağı konusunda doğru bir bilgi elde edemezsiniz.\n* Çekirdek ve
   initrd güncellenemez, bu nedenle kalıcı bir kurulum olarak kullanılmamalıdır.\n"
-microos_desc: OpenSuse Tumbleweed tabanlı işletim sistemi için, salt okunur BTRFS
-  kök dosya sistemi üzerinde işlemsel (Atomik) güncellemeler sağlayan sürüm
+microos_desc: OpenSuse Tumbleweed tabanlı işletim sistemi için, salt okunur 
+  BTRFS kök dosya sistemi üzerinde işlemsel (Atomik) güncellemeler sağlayan 
+  sürüm
 documentation_startup_guide: OpenSUSE Başlangıç Kılavuzu
 choosing_media: Hangi Medya İmajını İndireceğinizi Seçiniz
 documentation: Belgeler
@@ -183,7 +185,8 @@ installation_images: Kurulum
 selfinstalling_k3s_image: Kendiliğinden Kurulan k3s Sunucusu
 rpi_ch_image: RaspberryPi Konteyner Sunucusu
 requirements_mem_desc: $value fiziksel RAM + iş yükünüz için ek bellek
-upgrade_table_linux_usb: Linux'ta önyüklenebilir bir USB bellek nasıl oluşturulur.
+upgrade_table_linux_usb: Linux'ta önyüklenebilir bir USB bellek nasıl 
+  oluşturulur.
 points_free: Özgür yazılım mı? Senin seçimin
 jeos_info: 'Minimal VM imajları. Arm JeOS imajları için lütfen şuraya gidin: <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
   wiki sayfası</a>'
@@ -202,7 +205,8 @@ requirements_hdd_desc: 40 GB'tan fazla boş sabit disk alanı
 tw_switch_p1: "Zaten openSUSE çalıştırıyorsanız, DVD/USB'den önyükleme yaparak ve\n\
   \ yükseltmeyi seçerek yükseltme yapabilir veya birkaç komutla 'Çevrimiçi\nYükseltme'
   gerçekleştirebilirsiniz.\n"
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 verify_download_p1: "Birçok uygulama bir indirme işleminin sağlama toplamını doğrulayabilir.\n\
   \ İndirme işleminizi doğrulamak önemli olabilir, çünkü indirmek istediğiniz ISO
   dosyasına\n gerçekten sahip olduğunuzu ve bozuk bir sürüme sahip olmadığınızı doğrular.\n"
@@ -211,8 +215,10 @@ verify_download_p3: "İndirilen dosyanın bütünlüğünü sağlamak için, sa�
   kullanabilirsiniz.\n"
 cloud_images: Bulut
 requirements_min: Minimum
-requirements_net_desc: İnternet erişimi faydalıdır ve Ağ Kurulum Aracı için gereklidir
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+requirements_net_desc: İnternet erişimi faydalıdır ve Ağ Kurulum Aracı için 
+  gereklidir
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 zypper: Zypper, yeni favori paket yöneticiniz
 desktop_p1: "Hepsine hükmedecek iki dağıtım (şimdi yeşil!)\n"
@@ -222,19 +228,19 @@ requirements_rec: Tavsiye edilen
 requirements_cpu: İşlemci
 desktops: Birçok masaüstü, varsayılan olarak üç
 installation: Nasıl istiyorsan öyle yükle
-desktop_tumbleweed_p1: Geliştiriciler, openSUSE Katkıda Bulunanlar, Oyuncular ve Linux/FOSS
-  Meraklıları için
+desktop_tumbleweed_p1: Geliştiriciler, openSUSE Katkıda Bulunanlar, Oyuncular ve
+  Linux/FOSS Meraklıları için
 yast_sound: Ses
 yast_software: Yazılım
 index_desktop: Masaüstü
 index_full: Veya dağıtımlar için doğrudan indirme sayfalarına gidin
-desktop_tumbleweed_p2: openSUSE Projesi tarafından sağlanan en son paketlerle birlikte
-  sürekli sürüm.
-server_tumbleweed_p2: openSUSE Projesi tarafından sağlanan en son paketlerle birlikte
-  sürekli sürüm.
+desktop_tumbleweed_p2: openSUSE Projesi tarafından sağlanan en son paketlerle 
+  birlikte sürekli sürüm.
+server_tumbleweed_p2: openSUSE Projesi tarafından sağlanan en son paketlerle 
+  birlikte sürekli sürüm.
 new_version_testing: $distro_name artık indirilebilir ve test edilebilir
-x86_64: Intel veya AMD 64-bit masaüstü bilgisayarlar, dizüstü bilgisayarlar ve sunucular
-  (x86_64)
+x86_64: Intel veya AMD 64-bit masaüstü bilgisayarlar, dizüstü bilgisayarlar ve 
+  sunucular (x86_64)
 server_microos_p1: Tek amaçlı sunucu uygulamaları için
 new_version_available: $distro_name artık indirilmeye hazır
 choosing_media_micro_p1: "Yeni kendi kendine kurulum imajı, özel bölümlemeye ihtiyaç
@@ -264,10 +270,11 @@ requirements_hdd: Depolama
 requirements_hdd_root: / (root) bölümü
 requirements_hdd_var: /var bölümü
 requirements_hdd_size_desc: $value kullanılabilir disk alanı
-requirements_hdd_swap_info: Kubernet'lerin düzgün çalışması için takas alanı devre
-  dışı bırakıldı
+requirements_hdd_swap_info: Kubernet'lerin düzgün çalışması için takas alanı 
+  devre dışı bırakıldı
 requirements_hdd_ssd_info: yüksek yazma hızına sahip SSD
-requirements_dvd_desc: Kurulum ortamı için bir DVD sürücüsü veya USB bağlantı noktası
+requirements_dvd_desc: Kurulum ortamı için bir DVD sürücüsü veya USB bağlantı 
+  noktası
 tw_switch: openSUSE Tumbleweed'e Geçiş Yapmanın Kolay Yolları
 tw_switch_instructions: Yükseltme Talimatları.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
@@ -276,20 +283,25 @@ upgrade_table_windows: Windows'tan
 upgrade_table_mac: OS X'ten
 upgrade_table_linux_dvd: Linux'ta DVD nasıl yazılır.
 upgrade_table_windows_dvd: Windows'ta DVD nasıl yazılır.
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: OS X'te DVD nasıl yazılır.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_windows_usb: Windows'ta Önyüklenebilir bir USB bellek nasıl oluşturulur.
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_windows_usb: Windows'ta Önyüklenebilir bir USB bellek nasıl 
+  oluşturulur.
 upgrade_table__mac_usb: OS X'te önyüklenebilir bir USB bellek nasıl oluşturulur.
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: İndirmenizi Kullanmadan Önce Doğrulayın
 verify_download_p2: "Her ISO için, karşılık gelen SHA256 toplamına sahip bir sağlama
   toplamı dosyası ve kriptografik imzaya sahip bir imza dosyası sunuyoruz.\n"
 verify_download_pubkey: Bu şekilde olmalı
-verify_download_help: İndirme işleminizi doğrulama konusunda daha fazla yardım için
-  lütfen okuyun
+verify_download_help: İndirme işleminizi doğrulama konusunda daha fazla yardım 
+  için lütfen okuyun
 verify_download_checksums_help: Sağlama Toplamları Yardımı
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops_p1: "openSUSE katkı süreci herkes için masaüstü geliştirme olanağı sağlar,\
   \ \nböylece yükleyicide en beğendiğinizi seçme seçeneğiniz olur. Aktif\nolarak üç
   masaüstü ortamı sunuyoruz ve yükleyicideki genişletilmiş\nyazılım görünümünde daha
@@ -335,14 +347,14 @@ zypper_p1: "Öğrenmesi hızlı ve kolaydır. apt ve apt-get komutlarıyla kulla
   de tekrarlanabilir şekilde çözümlenmesini garanti eden libsolv'u\ntemel alır. Arayüz,
   okumayı kolaylaştırmak için net ve uygun renktedir.\nMükemmel, başka ne söylenebilir
   ki?\n"
-alternative_downloads_desc: Ayrıca $options images bunada sahibiz. $alternative_downloads
-  Kontrol et!
+alternative_downloads_desc: Ayrıca $options images bunada sahibiz. 
+  $alternative_downloads Kontrol et!
 preconfigured_rt_image: Önceden Yapılandırılmış Gerçek Zamanlı İmaj (ham)
-desktop_leap_p2: Hem kurumsal düzeyde mühendisliğin hem de topluluk tarafından geliştirilen
-  yeniliğin faydalarını içeren düzenli sürüm.
+desktop_leap_p2: Hem kurumsal düzeyde mühendisliğin hem de topluluk tarafından 
+  geliştirilen yeniliğin faydalarını içeren düzenli sürüm.
 ppc64: PowerPC sunucuları, big-endian (ppc64)
-server_tumbleweed_p1: Geliştiriciler, openSUSE Katkıda Bulunanlar, Oyuncular ve Linux/FOSS
-  Meraklıları için
+server_tumbleweed_p1: Geliştiriciler, openSUSE Katkıda Bulunanlar, Oyuncular ve 
+  Linux/FOSS Meraklıları için
 preconfigured_qcow_image: Önceden Yapılandırılmış İmaj (qcow)
 selfinstall_image: Kendi kurulan İmaj
 selfinstall_rt_image: Kendi kurulan Gerçek zamanlı İmaj
@@ -361,17 +373,17 @@ yast_printer: Yazıcı
 yast_scanner: Tarayıcı
 index: openSUSE Dağıtımları
 index_p1: Masaüstü, sunucu ve aradaki her şey için
-desktop_leap_p1: Sistem Yöneticileri, Kurumsal Geliştiriciler ve 'Normal' Masaüstü
-  Kullanıcıları için
+desktop_leap_p1: Sistem Yöneticileri, Kurumsal Geliştiriciler ve 'Normal' 
+  Masaüstü Kullanıcıları için
 server_p1: "Rahatça sıkıcı dört dağıtım, her zaman olması gerektiği gibi\n"
-server_leap_p1: Sistem Yöneticileri, Kurumsal Geliştiriciler ve 'Normal' sunucu Kullanıcıları
-  için
-server_leap_p2: Hem kurumsal düzeyde mühendisliğin hem de topluluk tarafından geliştirilen
-  yeniliğin faydalarını içeren düzenli sürüm.
-server_microos_p2: Otomatik yönetim ve yama uygulamasıyla konteyner iş yüklerini barındırmak
-  için tasarlandı
-i686: Intel veya AMD 32 bit masaüstü bilgisayarlar, dizüstü bilgisayarlar ve sunucular
-  (i686)
+server_leap_p1: Sistem Yöneticileri, Kurumsal Geliştiriciler ve 'Normal' sunucu 
+  Kullanıcıları için
+server_leap_p2: Hem kurumsal düzeyde mühendisliğin hem de topluluk tarafından 
+  geliştirilen yeniliğin faydalarını içeren düzenli sürüm.
+server_microos_p2: Otomatik yönetim ve yama uygulamasıyla konteyner iş yüklerini
+  barındırmak için tasarlandı
+i686: Intel veya AMD 32 bit masaüstü bilgisayarlar, dizüstü bilgisayarlar ve 
+  sunucular (i686)
 points_free_p1: "Dağıtımlardaki paketler ücretsiz ve ücretsiz olmayan depolara ayrılmıştır.\n\
   \ Ücretsiz olmayan paketleri kullanmak istemiyor musunuz? Özgür olmayan depoyu\n\
   kolayca devre dışı bırakabilirsiniz. Bu sizin seçiminiz, bizim değil.\n"
@@ -381,73 +393,82 @@ points_welcoming_p1: "Topluluğu memnun etmek için elimizden gelenin en iyisini
   sağlıyoruz.\n"
 yast_firewall: Güvenlik Duvarı
 view_distro: $distro_name Görünüm
-server_leapmicro_p2: Konteynerleştirilmiş ve sanallaştırılmış iş yükleri için tasarlanmış,
-  ultra güvenilir ve hafif işletim sistemi.
-aarch64: UEFI Arm 64-bit sunucular, masaüstü bilgisayarlar, dizüstü bilgisayarlar
-  ve anakartlar (aarch64)
-armv7l: UEFI Arm 32-bit sunucular, masaüstü bilgisayarlar, dizüstü bilgisayarlar ve
-  anakartlar (armv7l)
+server_leapmicro_p2: Konteynerleştirilmiş ve sanallaştırılmış iş yükleri için 
+  tasarlanmış, ultra güvenilir ve hafif işletim sistemi.
+aarch64: UEFI Arm 64-bit sunucular, masaüstü bilgisayarlar, dizüstü 
+  bilgisayarlar ve anakartlar (aarch64)
+armv7l: UEFI Arm 32-bit sunucular, masaüstü bilgisayarlar, dizüstü bilgisayarlar
+  ve anakartlar (armv7l)
 ppc64le: PowerPC sunucuları, little-endian (ppc64le)
 s390x: IBM zSystems ve LinuxONE (s390x)
 tumbleweed_ovw_title: Son teknoloji masaüstü ve sunucu işletim sistemi
-leap_ovw_title: OpenSUSE'yi oluşturmanın yepyeni bir yolu ve yeni bir tür hibrit Linux
-  dağıtımı
-leap_micro_ovw_video_desc: Combustion ve kokpit içeren Short Leap Micro kurulum demosu.
+leap_ovw_title: OpenSUSE'yi oluşturmanın yepyeni bir yolu ve yeni bir tür hibrit
+  Linux dağıtımı
+leap_micro_ovw_video_desc: Cockpit Tam Disk Şifreleme ve iki faktörlü kimlik 
+  doğrulama ile Leap Micro 6.1 kurulum demosu.
 packages_image: Paketler İmajı
 packages_image_desc: Paketleri içeren çevrimdışı bir deponun bulunduğu medya.
-microos_ovw_title: Salt okunur btrfs kök dosya sisteminde İşlemsel (Atomik) Güncellemeler
-  sağlayan Mikro Servis İşletim Sistemi
+microos_ovw_title: Salt okunur btrfs kök dosya sisteminde İşlemsel (Atomik) 
+  Güncellemeler sağlayan Mikro Servis İşletim Sistemi
 leap_156_ovw_video_desc: Leap 15.6 sürümü canlı yayın akışı
 encrypted_image: Tam Şifrelenmiş Disk İmajı (ham)
 kvm_sdboot_image: systemd-boot ile KVM imajı
-tumbleweed_ovw_desc: Tumbleweed ile değer verdiğiniz şeyler hakkında zor kararlar
-  almak zorunda değilsiniz; özgürlük ya da güvenlik, kontrol ya da güvenlik, teknoloji
-  ya da istikrar -- Tumbleweed hem pastayı saklamanızı hem de yemenizi sağlar!
-microos_ovw_desc_p3: <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  veya KVM üzerinde çalışan VM'lerde MicroOS'u deneyin. Raspberry Pi veya diğer Sistem
-  Üzerinde Yonga donanımı kullanıldığında, önyükleme işlemi için önceden yapılandırılmış
-  görüntü <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  işleviyle birlikte kullanılabilir. Hem önceden yapılandırılmış hem de kendi kendine
-  yüklenen görüntüler, varsayılan parola korumalı değişiklikler seçeneğiyle herhangi
-  bir ilk önyüklemede yapılandırmaya izin verecek şekilde sürülen bir USB'ye yazılan
-  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> ile kullanılmak
-  üzere tasarlanmıştır.
-leap_micro_ovw_desc_p1: Bu topluluk sürümü, SUSE Linux Enterprise'ın kurumsal düzeyde
-  güçlendirilmiş güvenlik ve uyumluluk bileşenlerinden yararlanan SUSE Linux Micro'ya
-  dayanmaktadır. Bu teknolojilerin birleştirilmesi, modern, değiştirilemez ve geliştirici
-  dostu bir işletim sistemi platformu sağlar.
-leap_ovw_desc: Leap, diğer Linux dağıtımlarının ulaşamadığı bir kararlılık düzeyi
-  sağlayan SUSE Linux Enterprise (SLE) kaynak kodunu kullanır ve bunu topluluk geliştirmeleriyle
-  birleştirerek kullanıcılara, geliştiricilere ve sistem yöneticilerine mümkün olan
-  en kararlı Linux deneyimini sunar.
-leap_micro_ovw_desc_p2: Leap Micro 6.0'dan beri kendi kendine kurulum imajı, ham imaj
-  ve çevrimdışı bir depo görevi görebilen bir Paketler DVD'si sunuyor. Artık geleneksel
-  yükleyicileri kullanmadığımız için kendi kendine kurulum imajı, USB tabanlı kurulumlar
-  için önerimizdir. Kullanıcılar kurulumlarını <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
-  veya <a href="https://github.com/openSUSE/combustion">Combustion</a> ile otomatikleştirebilir
-  ve özelleştirebilir veya jeos-firstboot sihirbazını kullanabilir. Çevrimiçi Ignition
-  yapılandırma oluşturucumuz <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a>'ı deneyin.
-microos_ovw_desc_p2: MicroOS çevrimdışı bir görüntü sunar. Çevrimdışı ve kendi kendine
-  yüklenen/ham görüntüler arasındaki temel fark, çevrimdışı görüntünün bir yükleyiciye
-  sahip olmasıdır. Ham ve kendi kendine yükleme, yanma yoluyla veya diske yazıldıktan
-  sonra görüntüde manuel olarak özelleştirmeye izin verir. Gerçek zamanlı bir çekirdek
-  için bir seçenek vardır.
+tumbleweed_ovw_desc: Tumbleweed ile değer verdiğiniz şeyler hakkında zor 
+  kararlar almak zorunda değilsiniz; özgürlük ya da güvenlik, kontrol ya da 
+  güvenlik, teknoloji ya da istikrar -- Tumbleweed hem pastayı saklamanızı hem 
+  de yemenizi sağlar!
+microos_ovw_desc_p3: <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> veya KVM üzerinde 
+  çalışan VM'lerde MicroOS'u deneyin. Raspberry Pi veya diğer Sistem Üzerinde 
+  Yonga donanımı kullanıldığında, önyükleme işlemi için önceden yapılandırılmış 
+  görüntü <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  işleviyle birlikte kullanılabilir. Hem önceden yapılandırılmış hem de kendi 
+  kendine yüklenen görüntüler, varsayılan parola korumalı değişiklikler 
+  seçeneğiyle herhangi bir ilk önyüklemede yapılandırmaya izin verecek şekilde 
+  sürülen bir USB'ye yazılan <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> ile 
+  kullanılmak üzere tasarlanmıştır.
+leap_micro_ovw_desc_p1: Bu topluluk sürümü, SUSE Linux Enterprise'ın kurumsal 
+  düzeyde güçlendirilmiş güvenlik ve uyumluluk bileşenlerinden yararlanan SUSE 
+  Linux Micro'ya dayanmaktadır. Bu teknolojilerin birleştirilmesi, modern, 
+  değiştirilemez ve geliştirici dostu bir işletim sistemi platformu sağlar.
+leap_ovw_desc: Leap, diğer Linux dağıtımlarının ulaşamadığı bir kararlılık 
+  düzeyi sağlayan SUSE Linux Enterprise (SLE) kaynak kodunu kullanır ve bunu 
+  topluluk geliştirmeleriyle birleştirerek kullanıcılara, geliştiricilere ve 
+  sistem yöneticilerine mümkün olan en kararlı Linux deneyimini sunar.
+leap_micro_ovw_desc_p2: Leap Micro 6.0'dan beri kendi kendine kurulum imajı, ham
+  imaj ve çevrimdışı bir depo görevi görebilen bir Paketler DVD'si sunuyor. 
+  Artık geleneksel yükleyicileri kullanmadığımız için kendi kendine kurulum 
+  imajı, USB tabanlı kurulumlar için önerimizdir. Kullanıcılar kurulumlarını <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> veya <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> ile 
+  otomatikleştirebilir ve özelleştirebilir veya jeos-firstboot sihirbazını 
+  kullanabilir. Çevrimiçi Ignition yapılandırma oluşturucumuz <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>'ı deneyin.
+microos_ovw_desc_p2: MicroOS çevrimdışı bir görüntü sunar. Çevrimdışı ve kendi 
+  kendine yüklenen/ham görüntüler arasındaki temel fark, çevrimdışı görüntünün 
+  bir yükleyiciye sahip olmasıdır. Ham ve kendi kendine yükleme, yanma yoluyla 
+  veya diske yazıldıktan sonra görüntüde manuel olarak özelleştirmeye izin 
+  verir. Gerçek zamanlı bir çekirdek için bir seçenek vardır.
 signature: İmza
-leap_micro_ovw_title: Leap Micro, konteynerleştirilmiş ve sanallaştırılmış iş yükleri
-  için geliştirilmiş, son derece güvenilir ve hafif bir işletim sistemidir.
-leap_micro_ovw_desc_p3: Leap Micro'yu <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  veya KVM üzerinde çalışan VM'lerde deneyin. Raspberry Pi veya diğer Sistem Üzerinde
-  Yonga donanımı kullanıldığında önceden yapılandırılmış görüntü kullanılabilir. Hem
-  önceden yapılandırılmış hem de kendi kendine yüklenen görüntüler, varsayılan parola
-  korumalı değişiklikler seçeneğiyle herhangi bir ilk önyüklemede yapılandırmaya izin
-  verecek şekilde sürülen bir USB'ye yazılmış <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  ile kullanılmak üzere tasarlanmıştır.
-microos_ovw_desc_p1: Otomatik yönetim ve düzeltme ekleriyle konteyner iş yüklerini
-  barındırmak için tasarlanmıştır. openSUSE MicroOS'u kurduğunuzda, Konteynerleri
-  veya İşlemsel Güncellemelerden faydalanan diğer iş yüklerini dağıtmak için hızlı
-  ve küçük bir ortam elde edersiniz. Sürekli sürüm dağıtımı olarak yazılım her zaman
-  günceldir.
+leap_micro_ovw_title: Leap Micro, konteynerleştirilmiş ve sanallaştırılmış iş 
+  yükleri için geliştirilmiş, son derece güvenilir ve hafif bir işletim 
+  sistemidir.
+leap_micro_ovw_desc_p3: Leap Micro'yu <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> veya KVM üzerinde 
+  çalışan VM'lerde deneyin. Raspberry Pi veya diğer Sistem Üzerinde Yonga 
+  donanımı kullanıldığında önceden yapılandırılmış görüntü kullanılabilir. Hem 
+  önceden yapılandırılmış hem de kendi kendine yüklenen görüntüler, varsayılan 
+  parola korumalı değişiklikler seçeneğiyle herhangi bir ilk önyüklemede 
+  yapılandırmaya izin verecek şekilde sürülen bir USB'ye yazılmış <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> ile 
+  kullanılmak üzere tasarlanmıştır.
+microos_ovw_desc_p1: Otomatik yönetim ve düzeltme ekleriyle konteyner iş 
+  yüklerini barındırmak için tasarlanmıştır. openSUSE MicroOS'u kurduğunuzda, 
+  Konteynerleri veya İşlemsel Güncellemelerden faydalanan diğer iş yüklerini 
+  dağıtmak için hızlı ve küçük bir ortam elde edersiniz. Sürekli sürüm dağıtımı 
+  olarak yazılım her zaman günceldir.
 leap_16_coming_soon: "Leap 15.6'nın devamı niteliğindeki Leap 16.0'ın 2025 Sonbaharında
   kamuoyuna duyurulması bekleniyor. Leap 15.7'nin yayınlanması planlanmıyor.<br/>\n\
   \ Güncellemeleri düzenli olarak kontrol edin <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
@@ -457,3 +478,8 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   Leap 16 ve Tumbleweed'i yüklemek için kullanılabilen yeni yükleyicidir.\nAgama'da
   çevrimdışı kurulumu destekleme planı var. Self-install image gibi diğer kurulum
   medyaları daha sonra eklenecek.\n"
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'ppc64le için: POWER9 veya üzeri'
+requirements_cpu_slfo_s390x: 's390x için: z14 veya üzeri'
+requirements_cpu_slfo_x86_64: 'x86_64 için: mikro mimari düzeyi x86-64-v2 veya üzeri'
