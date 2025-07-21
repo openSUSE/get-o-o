@@ -411,8 +411,8 @@ tumbleweed_ovw_desc: Dengan Tumbleweed Anda tidak perlu mengambil keputusan
   Anda menikmati kue dan memakannya juga!
 leap_micro_ovw_title: Leap Micro adalah sistem operasi ringan dan sangat andal 
   yang dibuat untuk beban kerja dalam kontainer dan virtualisasi.
-leap_micro_ovw_video_desc: Demo singkat pemasangan Leap Micro dengan combustion 
-  dan cockpit.
+leap_micro_ovw_video_desc: Demo pemasangan Leap Micro 6.1 dengan Enkripsi Disk 
+  Penuh dan otentikasi dua faktor di cockpit.
 microos_ovw_desc_p2: MicroOS menawarkan citra luring. Perbedaan utama antara 
   citra luring dan citra yang dipasang sendiri/mentah adalah citra luring 
   memiliki pemasang. Raw dan self-install memungkinkan penyesuaian melalui 
@@ -446,14 +446,13 @@ microos_ovw_desc_p1: Dirancang untuk menampung beban kerja kontainer dengan
 leap_micro_ovw_desc_p3: Coba Leap Micro di VM yang berjalan di <a 
   href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> atau KVM. 
   Menggunakan Raspberry Pi atau perangkat keras System on Chip lainnya dapat 
-  menggunakan citra yang telah dikonfigurasi sebelumnya bersama dengan 
-  fungsionalitas <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> untuk 
-  proses booting . Baik citra yang telah dikonfigurasi sebelumnya maupun yang 
-  dipasang sendiri dimaksudkan untuk digunakan dengan <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Pembakaran</a> yang 
-  ditulis ke USB, yang digerakkan untuk memungkinkan konfigurasi pada setiap 
-  boot pertama, dengan opsi untuk perubahan yang dilindungi kata sandi bawaan.
+  menggunakan image yang telah dikonfigurasi sebelumnya. Baik image yang telah 
+  dikonfigurasi sebelumnya maupun yang dipasang sendiri dimaksudkan untuk 
+  digunakan dengan <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> yang 
+  ditulis ke USB. Combustion ini diaktifkan untuk memungkinkan konfigurasi saat 
+  booting pertama kali, dengan opsi untuk melakukan perubahan yang dilindungi 
+  oleh kata sandi default.
 leap_micro_ovw_desc_p2: Leap Micro sejak 6.0 menawarkan citra instalasi mandiri,
   citra mentah, dan DVD Paket yang dapat berfungsi sebagai tempat penyimpanan 
   offline. Citra instal mandiri adalah rekomendasi kami untuk instalasi berbasis
@@ -480,3 +479,9 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   adalah penginstal baru yang dapat digunakan untuk menginstal Leap 16 dan Tumbleweed.\n\
   \ Ada rencana untuk mendukung instalasi secara luring di Agama. Media instalasi
   lain seperti citra instalasi mandiri akan ditambahkan kemudian.\n"
+requirements_cpu_slfo_x86_64: 'Untuk x86_64: tingkat mikroarsitektur x86-64-v2 atau
+  yang lebih tinggi'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Untuk ppc64le: POWER9 atau yang lebih tinggi'
+requirements_cpu_slfo_s390x: 'Untuk s390x: z14 atau yang lebih tinggi'
