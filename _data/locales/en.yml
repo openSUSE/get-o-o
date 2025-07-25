@@ -88,7 +88,8 @@ live_info: |
   * They should not be used to install or upgrade. Please use the installation media instead
   * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether the distribution will work on your hardware or not
   * Kernel and initrd can't be updated, so they shouldn't be used as a persistent installation
-microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
+microos_desc:
+  openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
   upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
 choosing_media_p1: |
@@ -163,21 +164,22 @@ tw_switch_instructions: Upgrade Instructions.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: From an older version or other Linux distro
 upgrade_table_windows: From Windows
-upgrade_table_mac: From OS X
+upgrade_table_mac: From MacOS
 upgrade_table_linux_dvd: How to burn a DVD on Linux.
 upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: How to burn a DVD on Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: How to burn a DVD on OS X.
+upgrade_table_mac_dvd: How to burn a DVD on MacOS.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: How to create a bootable USB stick on Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: How to create a Bootable USB stick on Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: How to create a bootable USB stick on OS X.
+upgrade_table__mac_usb: How to create a bootable USB stick on MacOS.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verify Your Download Before Use
-verify_download_p1: "Many applications can verify the checksum of a download. To verify\n\
+verify_download_p1:
+  "Many applications can verify the checksum of a download. To verify\n\
   your download can be important as it verifies you really have got the\nISO file\
   \ you wanted to download and not some broken version.\n"
 verify_download_p2: |
@@ -195,7 +197,8 @@ desktops_p1: |
   installer. We actively feature three desktop environments, and offer
   even more in the expanded software view within the installer.
 installation: Install it how you want it
-installation_p1: "The openSUSE Installation process provides you with all the options\n\
+installation_p1:
+  "The openSUSE Installation process provides you with all the options\n\
   you would possibly need. Want to install your system with mouse and\nkeyboard? Load\
   \ up the installer in graphical mode. Don't have a mouse\non hand? Enable the terminal\
   \ client and install it that way. Don't have\nphysical access to the machine? Connect\
@@ -221,7 +224,8 @@ preconfigured_rt_image: Preconfigured RealTime Image (raw)
 selfinstall_image: Self-install Image
 selfinstall_rt_image: Self-install RealTime Image
 snapper: System got corrupted? Not a problem anymore
-snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\
+snapper_p1:
+  "The Filesystem Snapshots feature keeps your filesystem in check by\n\
   having continuous backups performed automatically when installing\nsoftware and\
   \ updates. Just boot from an earlier snapshot and bring\nyour system to a working\
   \ state in the matter of minutes.\n"
@@ -274,25 +278,32 @@ index_full: Or go straight to the download pages for the distributions
 desktop: openSUSE Desktop Distributions
 desktop_p1: |
   The two distributions to rule them all (now in green!)
-desktop_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
+desktop_tumbleweed_p1:
+  For Developers, openSUSE Contributors, Gamers and Linux/FOSS
   Enthusiasts
-desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
+desktop_tumbleweed_p2:
+  Rolling release with the latest packages provided by the openSUSE
   Project.
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
-desktop_leap_p2: Regular release with the benefits of both enterprise-grade engineering
+desktop_leap_p2:
+  Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
 server: openSUSE Server Distributions
 server_p1: |
   Four comfortably boring distributions, how it always should be
-server_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
+server_tumbleweed_p1:
+  For Developers, openSUSE Contributors, Gamers and Linux/FOSS
   Enthusiasts
-server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
+server_tumbleweed_p2:
+  Rolling release with the latest packages provided by the openSUSE
   Project.
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
-server_leap_p2: Regular release with the benefits of both enterprise-grade engineering
+server_leap_p2:
+  Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
 server_microos_p1: For single purpose server applications
-server_microos_p2: Designed to host container workloads with automated administration
+server_microos_p2:
+  Designed to host container workloads with automated administration
   & patching
 server_leapmicro_p1: For edge, embedded, IoT and other deployments
 server_leapmicro_p2: Ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
@@ -410,7 +421,7 @@ Tumbleweed_features:
   gamepad:
     name: Gaming
     description: |
-     Tumbleweed provides users with the latest gaming-related software. With the Linux support for gaming improving rapidly, that's an important aspect for smooth, performant and problem free experience in your favorite games.
+      Tumbleweed provides users with the latest gaming-related software. With the Linux support for gaming improving rapidly, that's an important aspect for smooth, performant and problem free experience in your favorite games.
 leap_ovw_title: A brand new way of building openSUSE and a new type of a hybrid Linux distribution
 leap_ovw_desc: Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available.
 tumbleweed_ovw_title: State-of-the-art desktop and server operating system
