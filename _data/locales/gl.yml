@@ -28,7 +28,8 @@ requirements: Requisitos do sistema
 requirements_cpu: Procesador
 requirements_mem: Memoria
 requirements_hd: Máis de 40 GB de espazo libre en disco
-requirements_dvd: Ou unha unidade DVD ou un porto USB para o medio de instalación
+requirements_dvd: Ou unha unidade DVD ou un porto USB para o medio de 
+  instalación
 requirements_net: Rede
 tw_switch: Modo sinxelo de cambiar a openSUSE Tumbleweed
 upgrade_table_linux: Desde unha versión máis antiga doutra distribución de Linux
@@ -37,11 +38,14 @@ upgrade_table_mac: Desde OS X
 upgrade_table_linux_dvd: Como gravar un DVD en Linux.
 upgrade_table_windows_dvd: Como gravar un DVD en Windows.
 upgrade_table_mac_dvd: Como gravar un DVD en OS X.
-upgrade_table_mac_dvd_link: http://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
-upgrade_table_linux_usb: Como crear en Linux unha memoria USB capaz de arrancar openSUSE.
-upgrade_table_windows_usb: Como crear en Windows unha memoria USB capaz de arrancar
+upgrade_table_mac_dvd_link: 
+  http://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: Como crear en Linux unha memoria USB capaz de arrancar 
   openSUSE.
-upgrade_table__mac_usb: Como crear en OS X unha memoria USB capaz de arrancar openSUSE.
+upgrade_table_windows_usb: Como crear en Windows unha memoria USB capaz de 
+  arrancar openSUSE.
+upgrade_table__mac_usb: Como crear en OS X unha memoria USB capaz de arrancar 
+  openSUSE.
 verify_download: Comprobe a súa descarga antes de usar
 verify_download_checksums_help: Axuda sobre as sumas de comprobación
 index_desktop: Escritorio
@@ -88,7 +92,8 @@ learn_more: Aprenda máis
 source_code: Código Fonte
 translate: Traducir
 site_copyright: © 2024 contribuidores de openSUSE
-site_description: Aprenda acerca das distribucións openSUSE e descárgueas de balde
+site_description: Aprenda acerca das distribucións openSUSE e descárgueas de 
+  balde
 site_title_short: Obter
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch_p1: "Se xa está a usar openSUSE, pode actualizar arrincando dende o DVD/USB\n\
@@ -99,22 +104,28 @@ leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_min: Mínimo
 requirements_rec: Recomendado
 requirements_cpu_desc: Procesador Dual-core de 2Ghz ou superior
-requirements_mem_desc: $value RAM física + memoria adicional para a súa carga de traballo
+requirements_mem_desc: $value RAM física + memoria adicional para a súa carga de
+  traballo
 requirements_hdd: Almacenamento
 requirements_hdd_desc: Máis de 40GB de espazo libre no disco duro
 requirements_hdd_root: Partición / (root)
 requirements_hdd_var: Partición /var
 verify_download_pubkey: Debera
 requirements_hdd_ssd_info: ratio alta de velocidade de escritura en SSD
-requirements_dvd_desc: Dispositivo DVD ou ben porto USB para o medio de instalación
-requirements_net_desc: O acceso a internet é útil, e é requirido no caso do instalador
-  en rede
+requirements_dvd_desc: Dispositivo DVD ou ben porto USB para o medio de 
+  instalación
+requirements_net_desc: O acceso a internet é útil, e é requirido no caso do 
+  instalador en rede
 requirements_net_mac: Nome de host e dirección MAC únicas para cada nodo
-tw_switch_instructions_link: https://es.opensuse.org/SDB:Migraci%C3%B3n_de_openSUSE_Leap_a_Tumbleweed
-upgrade_table_linux_dvd_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Linux
+tw_switch_instructions_link: 
+  https://es.opensuse.org/SDB:Migraci%C3%B3n_de_openSUSE_Leap_a_Tumbleweed
+upgrade_table_linux_dvd_link: 
+  https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Linux
 upgrade_table_linux_usb_link: https://es.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb_link: https://es.opensuse.org/SDB:Live_USB_stick#Instrucciones_para_Windows
-upgrade_table__mac_usb_link: https://es.opensuse.org/SDB:Live_USB_stick#Instrucciones_para_OS_X
+upgrade_table_windows_usb_link: 
+  https://es.opensuse.org/SDB:Live_USB_stick#Instrucciones_para_Windows
+upgrade_table__mac_usb_link: 
+  https://es.opensuse.org/SDB:Live_USB_stick#Instrucciones_para_OS_X
 verify_download_p1: "Moitas aplicacións poden verificar a suma de comprobación dunha
   descarga.\nPara verificar a túa descarga pode ser importante xa que verifica que
   realmente\nobtiveches o ficheiro ISO que querías descargar e non unha versión corrupta.\n"
@@ -123,27 +134,29 @@ verify_download_p2: "Para cada ISO, ofrecemos un ficheiro de suma de comprobaci�
 desktops: Moitos escritorios, tres por defecto
 requirements_hdd_size_desc: $value de espazo dispoñible en disco
 requirements_net_conn: Completa conectividade entre todas as máquinas do cluster
-microos_desc: SO baseado en openSUSE Tumbleweed que proporciona Actualizacións Transaccionais
-  (Atómicas) sobre dun sistema de ficheiros btrfs de só-lectura
+microos_desc: SO baseado en openSUSE Tumbleweed que proporciona Actualizacións 
+  Transaccionais (Atómicas) sobre dun sistema de ficheiros btrfs de só-lectura
 choosing_media_p1: "A imaxe sen conexión é a recomendada habitualmente xa que contén
   a maioría dos\npaquetes dispoñibles na distribución e non require de conexión de
   rede\ndurante a instalación.\n"
 choosing_media_p2: "A Imaxe de Rede recoméndase para usuarios que teñen limitacións\n\
   \ no espacio de banda das súas conexións a internet, xa que só descargará\nos paquetes
   que se seleccionen para instalar, o que será seguramente\nmoito menos de 4,7 GB.\n"
-requirements_hdd_swap_info: espacio de intercambio inhabilitado para permitir que
-  kubernetes traballe adecuadamente
-verify_download_checksums_help_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Sumas_de_verificaci.C3.B3n
+requirements_hdd_swap_info: espacio de intercambio inhabilitado para permitir 
+  que kubernetes traballe adecuadamente
+verify_download_checksums_help_link: 
+  https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Sumas_de_verificaci.C3.B3n
 tw_switch_p1: "Se xa estás a usar openSUSE, podes actualizar arrincando dende o DVD/USB\n\
   \ e elixindo actualizar, ou ben levar a cabo unha \"Actualización Online\" cuns\n\
   \ poucos comandos\n"
 tw_switch_instructions: Instrucións da Actualización.
-upgrade_table_windows_dvd_link: https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Microsoft_Windows_2
+upgrade_table_windows_dvd_link: 
+  https://es.opensuse.org/SDB:Ayuda_para_la_descarga#Usando_Microsoft_Windows_2
 verify_download_p3: "Para asegurar a integridade do ficheiro descargado pode usar
   sha256sum para verificar a suma de comprobación e gpgv para verificar a sinatura
   cifrada.\n"
-verify_download_help: Para ter máis axuda de como verificar a túa descarga, por favor
-  le
+verify_download_help: Para ter máis axuda de como verificar a túa descarga, por 
+  favor le
 offline_updated_image: Imaxe actualizada sen conexión
 offline_updated_desc: "Imaxe de instalación sen conexión coas últimas actualizacións.\n\
   \ Axeitada para instalación ou actualización.\n"
@@ -215,33 +228,42 @@ Tumbleweed_features:
       cos xogos. Coa compatibilidade con Linux para os xogos que mellora rapidamente,
       ese é un aspecto importante para unha experiencia fluida, de alto rendemento
       e sen problemas nos seus xogos favoritos.\n"
-microos_ovw_desc_p2: MicroOS ofrece unha imaxe sen conexión. A principal diferenza
-  entre as imaxes sen conexión e as de autoinstalación/en bruto é que a imaxe sen
-  conexión ten un instalador. Raw e autoinstalación permite a personalización mediante
-  combustión ou manualmente na imaxe despois de ser gravada no disco. Hai unha opción
-  para un kernel en tempo real.
-microos_ovw_desc_p3: Probe MicroOS en máquinas virtuais (VMs) executadas en  <a href="https://www.suse.com/c/happened-kernel-xen/">
-  Xen</a> ou KVM. Se emprega unha Raspberry Pi ou outro hardware de Sistema en Chip,
-  pode usar a imaxe preconfigurada xunto coa funcionalidade  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  para o proceso de arranque. Tanto as imaxes preconfiguradas como as autoinstaladas
-  están pensadas para ser usadas con <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>   gravado
-  nunha USB, que está deseñado para permitir a configuración en calquera primeiro
-  arranque, coa opción de cambios predeterminados protexidos por contrasinal predeterminada.
-tumbleweed_ovw_title: Sistema operativo de escritorio e servidor de última xeración
-tumbleweed_ovw_desc: Con Tumbleweed non ten que tomar decisións difíciles sobre cousas
-  que valora, xa sexa a liberdade ou a seguridade, o control ou a protección, a tecnoloxía
-  ou estabilidade --Tumbleweed permítelle ter o mellor dos dous mundos!
-packages_image_desc: Medios que conteñen un repositorio sen conexión con paquetes.
+microos_ovw_desc_p2: MicroOS ofrece unha imaxe sen conexión. A principal 
+  diferenza entre as imaxes sen conexión e as de autoinstalación/en bruto é que 
+  a imaxe sen conexión ten un instalador. Raw e autoinstalación permite a 
+  personalización mediante combustión ou manualmente na imaxe despois de ser 
+  gravada no disco. Hai unha opción para un kernel en tempo real.
+microos_ovw_desc_p3: Probe MicroOS en máquinas virtuais (VMs) executadas en  <a 
+  href="https://www.suse.com/c/happened-kernel-xen/"> Xen</a> ou KVM. Se emprega
+  unha Raspberry Pi ou outro hardware de Sistema en Chip, pode usar a imaxe 
+  preconfigurada xunto coa funcionalidade  <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> para o
+  proceso de arranque. Tanto as imaxes preconfiguradas como as autoinstaladas 
+  están pensadas para ser usadas con <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>   
+  gravado nunha USB, que está deseñado para permitir a configuración en calquera
+  primeiro arranque, coa opción de cambios predeterminados protexidos por 
+  contrasinal predeterminada.
+tumbleweed_ovw_title: Sistema operativo de escritorio e servidor de última 
+  xeración
+tumbleweed_ovw_desc: Con Tumbleweed non ten que tomar decisións difíciles sobre 
+  cousas que valora, xa sexa a liberdade ou a seguridade, o control ou a 
+  protección, a tecnoloxía ou estabilidade --Tumbleweed permítelle ter o mellor 
+  dos dous mundos!
+packages_image_desc: Medios que conteñen un repositorio sen conexión con 
+  paquetes.
 cloud_minimal_desc: Imaxe mínima KVM e XEN con cloud-init
 packages_image: Imaxe de paquetes
 server_aarch64: Servidores e placas UEFI Arm 64-bit (aarch64)
 cloud_image: Imaxe cloud
 kvm_sdboot_image: Imaxe KVM con systemd-boot
 minimal_vm_images: Máquina virtual mínima
-minimal_vm_info: Semellante ás imaxes SUSE Linux Enterprise Server para VM Mínima.
-  Para imaxes JeOS para Arm, visite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">
-  a página na Wiki sobre Arm</a>
-jeos_info: Imaxes de VM mínimas. Para imaxes de JeOS para Arm, visite a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">páxina
+minimal_vm_info: Semellante ás imaxes SUSE Linux Enterprise Server para VM 
+  Mínima. Para imaxes JeOS para Arm, visite <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms"> a 
+  página na Wiki sobre Arm</a>
+jeos_info: Imaxes de VM mínimas. Para imaxes de JeOS para Arm, visite a <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">páxina 
   wiki de Arm</a>
 encrypted_image: Imaxe de disco completamente cifrada (raw)
 server_x86_64: Servidores Intel ou AMD 64-bit (x86_64)
