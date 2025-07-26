@@ -28,11 +28,13 @@ learn_more: Issin ugar
 metalink: Metalink
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 yast_printer: Tasaggazt
 yast_fonts: Tisefsiyin
 download: Zdem
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 xen_image: XEN
 pine_image: Pine64
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
@@ -87,10 +89,13 @@ requirements_hdd: Aḥraz
 upgrade_table_linux: Seg lqem aqbur neɣ seg uzuzer n Linux nniḍen
 upgrade_table_windows_dvd: Amek ara tesserɣeḍ adividi deg Windows.
 upgrade_table_mac_dvd: Amek ara tesserɣeḍ adividi deg OS X.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 installation: Sbedd-it akken tebɣiḍ
 points_transparent: Kullec d afrawan
 points_free: Iseɣẓanen ilelliyen? D lebɣi-nwen·nkent
@@ -104,7 +109,8 @@ upgrade_table_linux_dvd: Amek ara tesserɣeḍ adividi deg Linux.
 ppc64le: Iqeddacen n PowerPC, little-endian (ppc64le)
 cloud_image: Tugna n usigna
 requirements_hdd_root: Aḥric / (root)
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 transactional: Aseqdac anigaw
 signature: Azmul
 kde_cd: LiveCD KDE
