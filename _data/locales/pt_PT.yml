@@ -29,17 +29,19 @@ requirements: Requisitos de Sistema
 requirements_cpu: Processador
 requirements_mem: Memória RAM
 requirements_hd: Mais de 40GB de espaço livre em disco rígido
-requirements_dvd: Ou um leitor de DVD ou uma porta USB necessário para o media de
-  instalação
+requirements_dvd: Ou um leitor de DVD ou uma porta USB necessário para o media 
+  de instalação
 requirements_net: Rede
 tw_switch: Maneiras Fáceis de Mudar para o openSUSE Tumbleweed
 upgrade_table_linux: De uma versão antiga ou de outra distribuição Linux
 upgrade_table_windows: Do Windows
 upgrade_table_mac: Do OS X
 upgrade_table_linux_dvd: Como gravar um DVD no Linux.
-upgrade_table_linux_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Linux_2
+upgrade_table_linux_dvd_link: 
+  https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Linux_2
 upgrade_table_windows_dvd: Como gravar um DVD no Windows.
-upgrade_table_windows_dvd_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Microsoft_Windows
 upgrade_table_mac_dvd: Como gravar um DVD no OS X.
 upgrade_table_mac_dvd_link: 
   https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_OS_Mac_X_.2810.3_e_mais_recentes.29
@@ -49,14 +51,16 @@ upgrade_table_windows_usb: Como criar uma pen USB de arranque no Windows.
 upgrade_table_windows_usb_link: 
   https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
 upgrade_table__mac_usb: Como criar uma pen USB de arranque no OS X.
-upgrade_table__mac_usb_link: https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Mac_OS_X
+upgrade_table__mac_usb_link: 
+  https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Mac_OS_X
 verify_download: Verifique a Sua Transferência Antes de Usar
 verify_download_checksums_help: Ajuda Checksums
-verify_download_checksums_help_link: https://pt.opensuse.org/SDB:Ajuda_de_download#Verifica.C3.A7.C3.A3o_de_somas
+verify_download_checksums_help_link: 
+  https://pt.opensuse.org/SDB:Ajuda_de_download#Verifica.C3.A7.C3.A3o_de_somas
 index_desktop: Computador
 site_copyright: © 2022 Contribuidores do openSUSE
-requirements_hdd_swap_info: Espaço de SWAP desativado para que o Kubernetes funcione
-  corretamente
+requirements_hdd_swap_info: Espaço de SWAP desativado para que o Kubernetes 
+  funcione corretamente
 requirements_hdd_ssd_info: SSD de elevada frequência de escrita
 learn_more: Saber Mais
 usb_desc: Para Pen USB
@@ -64,26 +68,28 @@ metalink: Metalink
 site_title_short: Obter
 offline_image: Imagem Offline
 iso_image: Imagem ISO
-site_description: Conhecer as distribuições do openSUSE e transferi-las gratuitamente
+site_description: Conhecer as distribuições do openSUSE e transferi-las 
+  gratuitamente
 source_code: Código-Fonte
-offline_desc: "Contém uma grande coleção de software para uso no desktop ou no servidor.\n
-  Indicada para instalação ou atualização.\n"
+offline_desc: "Contém uma grande coleção de software para uso no desktop ou no servidor.\n\
+  \ Indicada para instalação ou atualização.\n"
 network_desc: "Transfere a instalação do sistema e todos os pacotes dos\nrepositórios
   online. Indicada para instalação ou atualização.\n"
 kvm_image: KVM e XEN
 hyperv_image: MS HyperV
 vmware_image: VMware
-jeos_info: Para Imagens ARM do JeOS, por favor vá para a <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página
+jeos_info: Para Imagens ARM do JeOS, por favor vá para a <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página 
   da wiki sobre ARM</a>
 cloud_images: Nuvem
-ports_info: "Portes do openSUSE Leap para arquiteturas diferentes das de PC são\n
-  mantidas por equipas comunitárias separadas, com recursos limitados.\n"
+ports_info: "Portes do openSUSE Leap para arquiteturas diferentes das de PC são\n\
+  \ mantidas por equipas comunitárias separadas, com recursos limitados.\n"
 vm_images: Máquina Virtual
 hardware_images: Hardware
 documentation_license_link: https://en.opensuse.org/openSUSE:License
-leap_switch_p1: "Se já está a executar o openSUSE, pode atualizar ao arrancar pelo\n
-  DVD/USB e escolher \"Upgrade\", ou então levar a cabo uma atualização online com\n
-  poucos comandos.\n"
+leap_switch_p1: "Se já está a executar o openSUSE, pode atualizar ao arrancar pelo\n\
+  \ DVD/USB e escolher \"Upgrade\", ou então levar a cabo uma atualização online com\n\
+  \ poucos comandos.\n"
 requirements_rec: Recomendados
 tw_switch_instructions: Instruções de Atualização.
 xfce_cd: LiveCD Xfce
@@ -95,22 +101,24 @@ tumbleweed_live_info: "Por favor tenha em atenção as seguintes limitações da
   ou não.\n"
 leap_switch_instructions: Instruções para Atualização Online.
 requirements_min: Mínimos
-choosing_media_p1: "A Imagem Offline é tipicamente recomendada, pois contém a maioria\n
-  dos pacotes disponiveis na distribuição e não necessita de uma ligação\nà rede durante
-  a instalação.\n"
-choosing_media_p2: "A Imagem de Rede é recomendada para utilizadores que têm uma \n
-  largura de rede limitada nas suas conexões à internet, visto que irá apenas\ntransferir
-  os pacotes escolhidos para instalar, provavelmente bem menos \nde 4.7GB\n"
+choosing_media_p1: "A Imagem Offline é tipicamente recomendada, pois contém a maioria\n\
+  \ dos pacotes disponiveis na distribuição e não necessita de uma ligação\nà rede
+  durante a instalação.\n"
+choosing_media_p2: "A Imagem de Rede é recomendada para utilizadores que têm uma \n\
+  \ largura de rede limitada nas suas conexões à internet, visto que irá apenas\n\
+  transferir os pacotes escolhidos para instalar, provavelmente bem menos \nde 4.7GB\n"
 requirements_hdd: Armazenamento
 requirements_hdd_root: Partição / (root)
 requirements_hdd_var: Partição /var
 requirements_hdd_size_desc: $value de espaço de disco disponível
-requirements_net_desc: Acesso à internet é útil, e necessário para o Instalador Online
+requirements_net_desc: Acesso à internet é útil, e necessário para o Instalador 
+  Online
 requirements_cpu_desc: Processador de 2GHz com dois núcleos ou melhor
-requirements_mem_desc: $value memória RAM física + memória adicional para a sua carga
-  de trabalho
+requirements_mem_desc: $value memória RAM física + memória adicional para a sua 
+  carga de trabalho
 requirements_hdd_desc: Mais de 40GB de espaço livre no disco
-requirements_dvd_desc: Ou um leitor de DVD, ou uma porta USB para a media de instalação
+requirements_dvd_desc: Ou um leitor de DVD, ou uma porta USB para a media de 
+  instalação
 tw_switch_p1: "Se já estiver a usar o openSUSE pode atualizar ao arrancar pelo\nDVD
   ou pen USB e escolher \"upgrade\", ou então pode levar a cabo uma \"Atualização
   Online\"\nem alguns comandos.\n"
