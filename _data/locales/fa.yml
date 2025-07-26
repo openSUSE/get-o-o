@@ -1,7 +1,7 @@
 site_title: دریافت openSUSE
 site_title_short: دریافت
-site_description: درباره‌ی توزیع‌های openSUSE یاد بگیرید و آنها را به رایگان دریافت
-  کنید
+site_description: درباره‌ی توزیع‌های openSUSE یاد بگیرید و آنها را به رایگان 
+  دریافت کنید
 site_copyright: © 2024 مشارکت‌کنندگان openSUSE
 search: جستجو
 translate: ترجمه
@@ -46,8 +46,8 @@ tumbleweed_live_info: "لطفا از محدودیت‌های ذیل برای ا�
   به جای آن استفاده کنید.\n* آنها انتخاب‌های محدودی برای بسته‌ها و راه‌اندازها دارند،
   لذا نمی‌توانند برای بازتاب دقیق برای اینکه آیا Tumbleweed بر روی سخت‌افزار شما کار
   میکند یا نه، باشند.\n"
-microos_desc: سیستم‌عاملی بر پایه‌ی openSUSE Tumbleweed که آپدیت‌های تراکنشی (اتمیک)
-  را بر روی فایل‌سیستم ریشه‌ فقط−خواندنی btrfs فراهم می‌کند
+microos_desc: سیستم‌عاملی بر پایه‌ی openSUSE Tumbleweed که آپدیت‌های تراکنشی 
+  (اتمیک) را بر روی فایل‌سیستم ریشه‌ فقط−خواندنی btrfs فراهم می‌کند
 choosing_media: انتخاب رسانه برای دانلود
 selfinstalling_ch_image: میزبان کانتینر خود نصب شونده
 selfinstalling_k3s_image: میزبان k3s خود نصب شونده
@@ -181,11 +181,12 @@ verify_download_pubkey: باید باشد
 verify_download_help: برای راهنمایی بیشتر جهت تایید دانلود خود لطفاً مطالعه کنید
 software: دریافت نرم‌افزار نمی‌تواند آسان‌تر باشد
 software_get: دریافت نرم‌افزار
-server_tumbleweed_p1: برای توسعه دهندگان، مشارکت کنندگان openSUSE، گیمرها و دوستداران
-  لینوکس/FOSS
+server_tumbleweed_p1: برای توسعه دهندگان، مشارکت کنندگان openSUSE، گیمرها و 
+  دوستداران لینوکس/FOSS
 server_leap_p1: برای مدیران سیستم، توسعه دهندگان سازمانی، و کاربران 'معمول' سرور
 server_microos_p1: برای برنامه‌های کاربردی تک‌منظوره سرور
-server_microos_p2: طراحی شده برای میزبانی بار کاری کانتینر با مدیریت و وصله کردن خودکار
+server_microos_p2: طراحی شده برای میزبانی بار کاری کانتینر با مدیریت و وصله کردن
+  خودکار
 new_version_available: ‎$distro_name اکنون برای دانلود در دسترس است
 new_version_testing: ‎$distro_name اکنون برای دانلود و آزمایش کردن در دسترس است
 view_distro: مشاهده ‎$distro_name
@@ -201,13 +202,14 @@ x86_64: دسکتاپ‌ها، لپتاپ‌ها، و سرورهای ۶۴ بیت�
 ppc64le: سرورهای PowerPC little-endian ‮(‭(ppc64le
 openstack_ch_image: میزبان کانتینر OpenStack-Cloud
 upgrade_table_mac: از OS X
-server_tumbleweed_p2: انتشار غلتان با آخرین بسته‌های ارائه شده توسط پروژه openSUSE.
-server_leap_p2: انتشار منظم با بهره‌مندی از مهندسی در گرید سازمانی و نوآوری توسعه
-  یافته توسط جامعه.
+server_tumbleweed_p2: انتشار غلتان با آخرین بسته‌های ارائه شده توسط پروژه 
+  openSUSE.
+server_leap_p2: انتشار منظم با بهره‌مندی از مهندسی در گرید سازمانی و نوآوری 
+  توسعه یافته توسط جامعه.
 armv7l: سرورها، دسکتاپ‌ها، لپتاپ‌ها و بردهای UEFI Arm ‫۳۲ بیتی (armv7l)
 s390x: LinuxONE و IBM zSystems ‮(‭(s390x
-alternative_downloads_desc: ما همچنین امیج‌های ‭$options ‬ را داریم. ‭$alternative_downloads
-  ‬ را بررسی کنید!
+alternative_downloads_desc: ما همچنین امیج‌های ‭$options ‬ را داریم. 
+  ‭$alternative_downloads ‬ را بررسی کنید!
 aarch64: سرورها، دسکتاپ‌ها، لپتاپ‌ها و بردهای UEFI Arm ‫۶۴ بیتی (aarch64)
 offline_updated_image: ایمیج آفلاین آپدیت شده
 vmware_ch_image: میزبان کانتینر VMware
@@ -226,8 +228,8 @@ preconfigured_image: ایمیج از پیش پیکربندی شده (raw)
 vagrant_image: Vagrant
 rpi_image: RaspberryPi
 pine_image: Pine64
-requirements_hdd_swap_info: برای اینکه kubernetes به درستی کار کند، فضای swap غیرفعال
-  شد
+requirements_hdd_swap_info: برای اینکه kubernetes به درستی کار کند، فضای swap 
+  غیرفعال شد
 tw_switch: روش‌های آسان برای تغییر به openSUSE Tumbleweed
 upgrade_table__mac_usb: نحوه ساخت یک حافظه USB قابل بوت در OS X.
 yast: YaST، بهترین انتخاب برای کاربران ~~حرفه‌ای~~
@@ -254,20 +256,24 @@ tw_switch_p1: "چنانچه از قبل openSUSE را اجرا می‌کنید،
   و انتخاب ارتقا، یا انجام دادن ‘ارتقای آنلاین‘ با چند\nفرمان آنرا ارتقا دهید.\n"
 tw_switch_instructions: دستورالعمل‌های ارتقا.
 desktop: توزیع‌های دسکتاپ openSUSE
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-desktop_tumbleweed_p1: برای توسعه دهندگان، مشارکت کنندگان openSUSE، گیمرها، و دوستداران
-  لینوکس/نرم‌افزار−آزاد
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+desktop_tumbleweed_p1: برای توسعه دهندگان، مشارکت کنندگان openSUSE، گیمرها، و 
+  دوستداران لینوکس/نرم‌افزار−آزاد
 vmware_vmx_image: VMware VMX
 virtualbox_image: VirtualBox
 upgrade_table_linux_dvd: نحوه رایت DVD در لینوکس.
 upgrade_table_windows_dvd: نحوه رایت DVD در ویندوز.
 upgrade_table_linux: از یک نسخه قدیمی یا توزیع لینوکس دیگری
 overview: نمای‌کلی
-jeos_info: ایمیج‌های مینیمال VM. برای ایمیج‌های Arm JeOS، لطفا بروید به صفحه ویکی
-  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm</a>
-minimal_vm_info: مشابه ایمیج‌های VM مینیمال ‫SUSE Linux Enterprise Server . برای ایمیج‌های
-  Arm JeOS، لطفا بروید به صفحه ویکی <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm</a>
+jeos_info: ایمیج‌های مینیمال VM. برای ایمیج‌های Arm JeOS، لطفا بروید به صفحه 
+  ویکی <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm</a>
+minimal_vm_info: مشابه ایمیج‌های VM مینیمال ‫SUSE Linux Enterprise Server . برای
+  ایمیج‌های Arm JeOS، لطفا بروید به صفحه ویکی <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm</a>
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_cpu: CPU
@@ -275,20 +281,25 @@ requirements_hdd_size_desc: فضای دیسک موجود ‭$value
 requirements_hdd_ssd_info: SSD با سرعت نوشتن بالا
 requirements_dvd_desc: یک درایو DVD یا یک پورت USB برای رسانه نصب
 requirements_net: شبکه
-requirements_net_desc: دسترسی به اینترنت مفید است، و برای نصب کننده شبکه لازم است
+requirements_net_desc: دسترسی به اینترنت مفید است، و برای نصب کننده شبکه لازم 
+  است
 requirements_net_conn: اتصال کامل بین تمام ماشین‌ها در کلاستر
 requirements_net_mac: آدرس MAC و hostname منحصربفرد برای هر نود
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: نحوه ساخت یک حافظه USB قابل بوت در لینوکس.
 upgrade_table_windows_usb: نحوه ساخت یک حافظه USB قابل بوت در ویندوز.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 verify_download: دانلود خود را قبل از استفاده بررسی کنید
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download_p2: "برای هر ISO، ما یک فایل چک‌سام با سام SHA256 متناظر ارائه می‌کنیم.\n"
 verify_download_checksums_help: راهنمای چک‌سام
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: میزکارهای بسیار, سه مورد به صورت پیشفرض
 installation: آن را همانطور که می‌خواهید نصب کنید
 points_welcoming_p1: "ما تمام تلاش خود را می‌کنیم تا جامعه راضی باشد، و این فقط زمانی
@@ -320,10 +331,12 @@ index_server: سرور
 index_server_p1: انتخاب توزیع‌ها برای استفاده در سرور
 index_full: یا مستقیما به صفحات دانلود توزیع‌ها بروید
 desktop_p1: "دو توزیع برای حکومت بر همه آنها (اکنون به رنگ سبز!)\n"
-desktop_tumbleweed_p2: انتشار غلتان با آخرین بسته‌های فراهم شده توسط پروژه openSUSE.
-desktop_leap_p1: برای مدیران سیستم، توسعه دهندگان سازمانی، و کاربران ‘عادی‘ دسکتاپ
-desktop_leap_p2: انتشار منظم با بهره‌مندی از مهندسی در سطح سازمانی و نوآوری توسعه
-  یافته در جامعه.
+desktop_tumbleweed_p2: انتشار غلتان با آخرین بسته‌های فراهم شده توسط پروژه 
+  openSUSE.
+desktop_leap_p1: برای مدیران سیستم، توسعه دهندگان سازمانی، و کاربران ‘عادی‘ 
+  دسکتاپ
+desktop_leap_p2: انتشار منظم با بهره‌مندی از مهندسی در سطح سازمانی و نوآوری 
+  توسعه یافته در جامعه.
 server: توزیع‌های سرور openSUSE
 server_p1: "چهار توزیع راحت و کم هیجان، آنگونه که همیشه باید باشد\n"
 points_welcoming: استقبال از مشارکت‌
