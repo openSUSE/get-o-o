@@ -67,17 +67,22 @@ upgrade_table_linux: 從更舊版本或其他 Linux 發行版
 upgrade_table_windows: 從 Windows
 upgrade_table_mac: 從 OS X
 upgrade_table_linux_dvd: 如何在 Linux 上燒錄 DVD。
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: 如何在 Windows 上燒錄 DVD。
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: 如何在 OS X 上燒錄 DVD。
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: 如何在 Linux 上建立一個可開機的 USB 隨身碟。
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: 如何在 Windows 上建立一個可開機的 USB 隨身碟。
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: 如何在 OS X 上建立一個可開機的 USB 隨身碟。
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: 在使用前驗證您的下載
 verify_download_p1: "很多應用程式可以驗證下載的正確性。驗證您的下載可以確保您得到所需的 ISO 檔案而非損壞的版本。\n"
 verify_download_p2: "對於每個 ISO，我們都會提供一個包含對應 SHA256 和的校驗和檔，以及一個包含加密簽章的簽章檔。\n"
@@ -85,7 +90,8 @@ verify_download_p3: "為確保下載檔案的完整性，您可以使用 sha256s
 verify_download_pubkey: 它應該是
 verify_download_help: 需要有關驗證您的下載檔案的說明，請閱讀
 verify_download_checksums_help: 校驗碼說明文件
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: 多種桌面，三種推薦
 installation: 用您想要的方式安裝
 installation_p1: "openSUSE 安裝程序提供所有您可能需要的選項。想要用滑鼠和鍵盤來安裝您的系統？就用圖形模式啟動安裝程式。手邊沒有滑鼠？啟用終端機客戶端，然後就用這個方式安裝。無法碰到實體機器？那就遠端連線到安裝程式，然後繼續安裝。一切就是這麼簡單。\n"
@@ -246,8 +252,9 @@ Tumbleweed_features:
     description: "您只需安裝一次即可永久享受。再也不需擔心每六個月的大量系統升級會有讓您的系統掛掉的風險。\n"
     name: 持續更新
 ppc64: PowerPC 伺服器，big-endian (ppc64)
-jeos_info: 最小虛擬機器映像檔。請造訪 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  wiki page</a> 以了解 Arm JeOS 映像檔
+jeos_info: 最小虛擬機器映像檔。請造訪 <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki
+  page</a> 以了解 Arm JeOS 映像檔
 offline_updated_image: 已更新的離線安裝映像檔
 offline_updated_desc: "收錄最新更新的離線安裝映像檔。\n適用於安裝或升級。\n"
 selfinstalling_k3s_image: 自安裝 k3s 主機
@@ -260,8 +267,9 @@ server_aarch64: UEFI Arm 64 位元伺服器與開發板 (aarch64)
 cloud_image: 雲端映像檔
 kvm_sdboot_image: 包含 systemd-boot 的 KVM 映像檔
 server_x86_64: Intel 或 AMD 64 位元伺服器 (x86_64)
-minimal_vm_info: 與 SUSE Linux Enterprise Server 最小虛擬機器映像檔相似。請造訪 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  wiki page</a> 以了解 Arm JeOS 映像檔。
+minimal_vm_info: 與 SUSE Linux Enterprise Server 最小虛擬機器映像檔相似。請造訪 <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki
+  page</a> 以了解 Arm JeOS 映像檔。
 cloud_minimal_desc: 包含 cloud-init 的最小化 KVM 與 Xen 映像檔
 live_info: "請注意 live 映像檔的以下限制：\n* live 映像檔無法使用於安裝或升級。請改用安裝媒體進行安裝或升級。\n* live 映像檔只收錄了有限的套件與驅動程式，是故不能夠當作發行版能否在您的硬體上運作的準確判斷依據。\n\
   \ * live 映像檔的內核與 initrd 無法更新，是故它們不應該作為永久安裝使用。\n"
