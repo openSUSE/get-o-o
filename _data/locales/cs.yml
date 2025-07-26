@@ -44,8 +44,8 @@ tumbleweed_live_info: "Uvědomte si prosím následující omezení živých obr
   by se používat k instalaci nebo upgradu Tumbleweed. Místo toho použijte [Tumbleweed
   médium](/tumbleweed)\n* Mají omezený výběr balíčků a ovladačů, takže je nelze považovat
   za přesný odraz toho, zda Tumbleweed bude na vašem\nhardwaru fungovat nebo ne\n"
-microos_desc: OS založený na openSUSE Tumbleweed poskytující transakční (nedělitelné)
-  aktualizace na kořenovém souborovém systému btrfs jen pro čtení
+microos_desc: OS založený na openSUSE Tumbleweed poskytující transakční 
+  (nedělitelné) aktualizace na kořenovém souborovém systému btrfs jen pro čtení
 choosing_media: Výběr média ke stažení
 choosing_media_p1: "Typicky se doporučuje DVD / USB Stick, protože obsahuje většinu\n\
   \ balíčků dostupných v distribuci a nevyžaduje při instalaci síťové připojení.\n"
@@ -78,17 +78,22 @@ upgrade_table_linux: Ze starší verze nebo jiné distribuce Linuxu
 upgrade_table_windows: Z Windows
 upgrade_table_mac: Z MacOS X
 upgrade_table_linux_dvd: Jak vypálit DVD na Linuxu.
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Jak vypálit DVD na Windows.
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: Jak vypálit DVD na MacOS X.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Jak vytvořit zaváděcí USB paměť v systému Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Jak vytvořit zaváděcí USB paměť v systému Windows.
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Jak vytvořit zaváděcí USB paměť v OS X.
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Před použitím ověřte ssprávnost staženého obrazu
 verify_download_p1: "Mnoho aplikací může ověřit kontrolní součet stahování. Ověřit\n\
   \ si stahování může být důležité, protože ověří, že opravdu máte\nnepoškozený a
@@ -100,7 +105,8 @@ verify_download_p3: "Pro zajištění integrity staženého souboru můžete pou
 verify_download_pubkey: Mělo by to být
 verify_download_help: Další pomoc s ověřením správnosti stahování viz
 verify_download_checksums_help: Nápověda pro kontrolní součty
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Mnoho stolních počítačů, ve výchozím nastavení tři
 desktops_p1: "Příspěvkový systém openSUSE umožňuje vývoj desktopových systémů\npro
   každého, takže si v instalátoru můžete vybrat svůj oblíbený. Aktivně\nnabízíme tři
@@ -172,31 +178,36 @@ index_server_p1: Výběr distribucí pro použití na serveru
 index_full: Nebo přejděte přímo na stránky pro stahování distribucí
 desktop: Distribuce openSUSE pro stolní PC
 desktop_p1: "Dvě distribuce vládnou všem (nyní zeleně!)\n"
-desktop_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE, hráče a nadšence pro Linux/FOSS
-desktop_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými projektem
-  openSUSE.
-desktop_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele stolních
-  PC
-desktop_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství i komunitou
-  vyvinutých inovací.
+desktop_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE, hráče a nadšence pro
+  Linux/FOSS
+desktop_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými 
+  projektem openSUSE.
+desktop_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele 
+  stolních PC
+desktop_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství i 
+  komunitou vyvinutých inovací.
 server: Distribuce Serveru openSUSE
 server_p1: "Čtyři pohodlně nudné distribuce, jak by to vždy mělo být\n"
-server_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE, hráče a nadšence pro Linux/FOSS
-server_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými projektem
-  openSUSE.
-server_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele serverů
-server_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství a komunitou
-  vyvinutých inovací.
+server_tumbleweed_p1: Pro vývojáře, přispěvatele openSUSE, hráče a nadšence pro 
+  Linux/FOSS
+server_tumbleweed_p2: Postupná vydání s nejnovějšími balíčky poskytovanými 
+  projektem openSUSE.
+server_leap_p1: Pro správce systémů, podnikové vývojáře a 'běžné' uživatele 
+  serverů
+server_leap_p2: Pravidelná vydání s výhodami průmyslového inženýrství a 
+  komunitou vyvinutých inovací.
 server_microos_p1: Pro jednoúčelové serverové aplikace
-server_microos_p2: Navrženo pro hostování kontejnerovaných úloh s automatizovanou
-  správou a opravou
+server_microos_p2: Navrženo pro hostování kontejnerovaných úloh s 
+  automatizovanou správou a opravou
 new_version_available: $distro_name je nyní k dispozici ke stažení
 new_version_testing: $distro_name je nyní k dispozici ke stažení a testování
 view_distro: Zobrazit $distro_name
-x86_64: 64bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD (x86_64)
-i686: 32bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD (i686)
-aarch64: 64bitové servery, stolní počítače, notebooky a jednodeskové počítače UEFI
-  Arm (aarch64)
+x86_64: 64bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD
+  (x86_64)
+i686: 32bitové stolní počítače, notebooky a servery s procesory Intel nebo AMD 
+  (i686)
+aarch64: 64bitové servery, stolní počítače, notebooky a jednodeskové počítače 
+  UEFI Arm (aarch64)
 ppc64le: Servery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems a LinuxONE (s390x)
 ppc64: Servery PowerPC, big-endian (ppc64)
@@ -223,12 +234,14 @@ hyperv_ch_image: Hostitelský kontejner MS HyperV
 vagrant_ch_image: Hostitelský kontejner Vagrant
 rpi_ch_image: Hostitelský kontejner RaspberryPi
 pine_ch_image: Hostitelský kontejner Pine64
-jeos_info: Minimální VM snímky. Snímky Arm JeOS najdete na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+jeos_info: Minimální VM snímky. Snímky Arm JeOS najdete na <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki 
   stránce Arm </a>
 minimal_vm_images: Minimální virtuální stroj
 signature: Podpis
-minimal_vm_info: Podobné minimálním VM snímkům SUSE Linux Enterprise Serveru. Obrazy
-  systému Arm JeOS najdete na <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki
+minimal_vm_info: Podobné minimálním VM snímkům SUSE Linux Enterprise Serveru. 
+  Obrazy systému Arm JeOS najdete na <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wiki 
   stránce Arm</a>
 server_aarch64: UEFI Arm 64-bit servery a desky (aarch64)
 server_x86_64: Intel nebo AMD 64-bit servery (x86_64)
@@ -239,7 +252,8 @@ encrypted_image: Plně šifrovaný obraz/snímek disku (raw)
 cloud_minimal_desc: Minimální KVM a Xen obraz inicializovaný z cloudu
 requirements_cpu_desc: dvoujádrový procesor 2 GHz nebo lepší
 requirements_hdd_root: / (kořenový) oddíl
-requirements_mem_desc: $value fyzické RAM a další paměť pro dané pracovní zatížení
+requirements_mem_desc: $value fyzické RAM a další paměť pro dané pracovní 
+  zatížení
 requirements_hdd: Úložiště
 requirements_hdd_desc: Přes 40 GB volného místa na pevném disku
 requirements_hdd_var: Oddíl /var
@@ -251,10 +265,10 @@ requirements_rec: Doporučené
 requirements_hdd_size_desc: $value dostupného místa na disku
 requirements_hdd_ssd_info: SSD s vysokou rychlostí zápisu
 requirements_dvd_desc: Buď DVD mechanika nebo USB port pro instalační média
-requirements_net_desc: Přístup k internetu je užitečný a pro instalační program ze
-  sítě je nezbytný
-requirements_hdd_swap_info: Odkládací prostor je zakázán, aby kubernetes fungoval
-  správně
+requirements_net_desc: Přístup k internetu je užitečný a pro instalační program 
+  ze sítě je nezbytný
+requirements_hdd_swap_info: Odkládací prostor je zakázán, aby kubernetes 
+  fungoval správně
 live_info: "Upozorňujeme na omezení živých obrazů/snímků:\n* Neměly by se používat
   k instalaci nebo aktualizaci. Místo nich používejte instalační média.\n* Mají omezený
   výběr balíčků a ovladačů, takže je nelze považovat za přesnou indikaci toho, zda
@@ -262,8 +276,8 @@ live_info: "Upozorňujeme na omezení živých obrazů/snímků:\n* Neměly by s
   takže by se neměly používat jako trvalá instalace.\n"
 requirements_min: Minimální
 server_leapmicro_p1: Pro edge, embedded, IoT a další nasazení
-server_leapmicro_p2: Mimořádně spolehlivý, odlehčený operační systém vytvořený pro
-  kontejnerizované a virtualizované pracovní úlohy.
+server_leapmicro_p2: Mimořádně spolehlivý, odlehčený operační systém vytvořený 
+  pro kontejnerizované a virtualizované pracovní úlohy.
 download: Stáhnout
 alternative_downloads: Alternativy stažení
 requirements_net_conn: Plná konektivita mezi všemi počítači v clusteru
@@ -280,7 +294,8 @@ choosing_media_micro_p1: "Nová samoinstalační bitová kopie je vhodnou volbou
   >zde</a>.\n<br>\nJeos-firstboot přivítá ty, kteří svůj systém nenakonfigurovali
   pomocí Combustion.\n"
 preconfigured_qcow_image: Předkonfigurovaný obraz (qcow)
-alternative_downloads_desc: Máme také obrazy/snímky $options. Podívejte se na $alternative_downloads!
+alternative_downloads_desc: Máme také obrazy/snímky $options. Podívejte se na 
+  $alternative_downloads!
 MicroOS_features:
   idea:
     name: Filosofie
@@ -378,59 +393,68 @@ Tumbleweed_features:
       \"ovládací panel\" `YaST, a poskytuje vám tak plnou kontrolu nad systémem, definovat
       požadovaná nastavení a zachovávat je. Již se nemusíte obávat, že by systém narušoval
       váš pracovní postup.\n"
-leap_ovw_title: Zcela nový způsob sestavení openSUSE a nový typ hybridní distribuce
-  Linuxu
-tumbleweed_ovw_title: Nejmodernější operační systém pro stolní počítače a servery
-leap_micro_ovw_desc_p1: Tato komunitní verze je založena na systému SUSE Linux Micro,
-  který využívá součásti systému SUSE Linux Enterprise pro zajištění bezpečnosti a
-  shody s předpisy. Toto spojení technologií poskytuje moderní, neměnnou a vývojářsky
-  přívětivou platformu operačního systému.
-microos_ovw_desc_p1: Navrženo pro hostování kontejnerových pracovních zátěží s automatizovanou
-  správou a záplatováním. Instalací openSUSE MicroOS získáte malé, rychlé prostředí
-  pro nasazení kontejnerů nebo jakékoli jiné zátěže, která využívá transakční aktualizace.
-  Při distribuci s průběžným vydáváním je software vždy aktuální.
+leap_ovw_title: Zcela nový způsob sestavení openSUSE a nový typ hybridní 
+  distribuce Linuxu
+tumbleweed_ovw_title: Nejmodernější operační systém pro stolní počítače a 
+  servery
+leap_micro_ovw_desc_p1: Tato komunitní verze je založena na systému SUSE Linux 
+  Micro, který využívá součásti systému SUSE Linux Enterprise pro zajištění 
+  bezpečnosti a shody s předpisy. Toto spojení technologií poskytuje moderní, 
+  neměnnou a vývojářsky přívětivou platformu operačního systému.
+microos_ovw_desc_p1: Navrženo pro hostování kontejnerových pracovních zátěží s 
+  automatizovanou správou a záplatováním. Instalací openSUSE MicroOS získáte 
+  malé, rychlé prostředí pro nasazení kontejnerů nebo jakékoli jiné zátěže, 
+  která využívá transakční aktualizace. Při distribuci s průběžným vydáváním je 
+  software vždy aktuální.
 leap_156_ovw_video_desc: Živý přenos vydání verze Leap 15.6
-leap_ovw_desc: Leap využívá zdrojové kódy SUSE Linux Enterprise (SLE), které mu dodávají
-  stabilitu nesrovnatelnou s jinými linuxovými distribucemi, a kombinuje je s komunitním
-  vývojem, aby uživatelům, vývojářům a správcům poskytl nejlepší dostupný stabilní
-  Linux.
-tumbleweed_ovw_desc: Se systémem Tumbleweed nemusíte činit obtížná rozhodnutí o věcech,
-  kterých si ceníte, ať už jde o svobodu, nebo bezpečí, kontrolu, nebo zabezpečení,
-  technologii, nebo stabilitu - Tumbleweed vám umožní mít svůj koláč a zároveň ho
-  sníst!
-leap_micro_ovw_desc_p3: Vyzkoušejte Leap Micro ve virtuálních počítačích běžících
-  na <a href="https://www.suse.com/c/happened-kernel-xen/">Xenu</a> nebo KVM. Při
-  použití Raspberry Pi nebo jiného hardwaru "System on Chip" (jednočipový počítač)
-  lze použít předkonfigurovaný obraz. Předkonfigurované i samoistalační obrazy jsou
-  určeny k použití s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém prvním
-  spuštění s možností výchozích změn chráněných heslem.
-leap_micro_ovw_video_desc: Ukázka instalace Short Leap Micro s Combustion a Cockpit.
-microos_ovw_title: Operační systém Micro Service OS poskytující transakční (atomické)
-  aktualizace na kořenovém systému souborů btrfs určeném jen pro čtení
-leap_micro_ovw_desc_p2: Leap Micro od verze 6.0 nabízí samoinstalační obraz (snímek),
-  nezpracovaný obraz a DVD s balíčky, které může sloužit jako offline úložiště. Samoinstalační
-  obraz je naším doporučením pro jakoukoli instalaci z USB, protože tradiční instalační
-  programy již nepoužíváme. Uživatelé si mohou instalaci automatizovat a přizpůsobit
-  pomocí <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> (Zážeh)
-  nebo <a href="https://github.com/openSUSE/combustion">Combustion</a> (Spalování)
-  nebo pomocí průvodce jeos-firstboot. Vyzkoušejte <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  ignition</a> náš online generátor konfigurace Fuel ignition (Zážeh paliva).
-leap_micro_ovw_title: Leap Micro je mimořádně spolehlivý, odlehčený operační systém
-  vytvořený pro kontejnerizované a virtualizované pracovní úlohy.
-microos_ovw_desc_p2: Systém MicroOS nabízí offline obraz/snímek. Hlavní rozdíl mezi
-  offline a samoinstalačními/surovými snímky je ten, že offline snímek má instalační
-  program. Surový a samoinstalační snímek umožňují přizpůsobení pomocí Combustion
-  nebo ručně ve snímku po jeho zápisu na disk. Existuje možnost mít jádro v reálném
-  čase.
-microos_ovw_desc_p3: Vyzkoušejte MicroOS ve virtuálních počítačích běžících na <a
-  href="https://www.suse.com/c/happened-kernel-xen/">Xenu</a> nebo KVM. Při použití
-  Raspberry Pi nebo jiného hardwaru "System on Chip" (jednočipového počítače) lze
-  pro zaváděcí proces použít předkonfigurovaný obraz spolu s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">funkcí
-  Combustion</a>. Předkonfigurované i samočinně nainstalované obrazy jsou určeny k
-  použití s <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém prvním
-  spuštění s možností výchozích změn chráněných heslem.
+leap_ovw_desc: Leap využívá zdrojové kódy SUSE Linux Enterprise (SLE), které mu 
+  dodávají stabilitu nesrovnatelnou s jinými linuxovými distribucemi, a 
+  kombinuje je s komunitním vývojem, aby uživatelům, vývojářům a správcům 
+  poskytl nejlepší dostupný stabilní Linux.
+tumbleweed_ovw_desc: Se systémem Tumbleweed nemusíte činit obtížná rozhodnutí o 
+  věcech, kterých si ceníte, ať už jde o svobodu, nebo bezpečí, kontrolu, nebo 
+  zabezpečení, technologii, nebo stabilitu - Tumbleweed vám umožní mít svůj 
+  koláč a zároveň ho sníst!
+leap_micro_ovw_desc_p3: Vyzkoušejte Leap Micro ve virtuálních počítačích 
+  běžících na <a href="https://www.suse.com/c/happened-kernel-xen/">Xenu</a> 
+  nebo KVM. Při použití Raspberry Pi nebo jiného hardwaru "System on Chip" 
+  (jednočipový počítač) lze použít předkonfigurovaný obraz. Předkonfigurované i 
+  samoistalační obrazy jsou určeny k použití s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém 
+  prvním spuštění s možností výchozích změn chráněných heslem.
+leap_micro_ovw_video_desc: Ukázka instalace Short Leap Micro s Combustion a 
+  Cockpit.
+microos_ovw_title: Operační systém Micro Service OS poskytující transakční 
+  (atomické) aktualizace na kořenovém systému souborů btrfs určeném jen pro 
+  čtení
+leap_micro_ovw_desc_p2: Leap Micro od verze 6.0 nabízí samoinstalační obraz 
+  (snímek), nezpracovaný obraz a DVD s balíčky, které může sloužit jako offline 
+  úložiště. Samoinstalační obraz je naším doporučením pro jakoukoli instalaci z 
+  USB, protože tradiční instalační programy již nepoužíváme. Uživatelé si mohou 
+  instalaci automatizovat a přizpůsobit pomocí <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> (Zážeh) 
+  nebo <a href="https://github.com/openSUSE/combustion">Combustion</a> 
+  (Spalování) nebo pomocí průvodce jeos-firstboot. Vyzkoušejte <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel ignition</a> náš online 
+  generátor konfigurace Fuel ignition (Zážeh paliva).
+leap_micro_ovw_title: Leap Micro je mimořádně spolehlivý, odlehčený operační 
+  systém vytvořený pro kontejnerizované a virtualizované pracovní úlohy.
+microos_ovw_desc_p2: Systém MicroOS nabízí offline obraz/snímek. Hlavní rozdíl 
+  mezi offline a samoinstalačními/surovými snímky je ten, že offline snímek má 
+  instalační program. Surový a samoinstalační snímek umožňují přizpůsobení 
+  pomocí Combustion nebo ručně ve snímku po jeho zápisu na disk. Existuje 
+  možnost mít jádro v reálném čase.
+microos_ovw_desc_p3: Vyzkoušejte MicroOS ve virtuálních počítačích běžících na 
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xenu</a> nebo KVM. Při 
+  použití Raspberry Pi nebo jiného hardwaru "System on Chip" (jednočipového 
+  počítače) lze pro zaváděcí proces použít předkonfigurovaný obraz spolu s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">funkcí 
+  Combustion</a>. Předkonfigurované i samočinně nainstalované obrazy jsou určeny
+  k použití s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  zapsaným na USB, který je řízen tak, aby umožňoval konfiguraci při každém 
+  prvním spuštění s možností výchozích změn chráněných heslem.
 leap_16_coming_soon: "Veřejné vydání Leap 16.0, nástupce Leap 15.6, lze očekávat na
   podzim 2025. Není v plánu vytvořit verzi Leap 15.7.<br/>\nPravidelně kontrolujte
   aktualizace na našem <a href=\"https://en.opensuse.org/openSUSE:Roadmap\">plánu</a>
