@@ -65,17 +65,22 @@ upgrade_table_linux: 從舊版或其他 Linux 作業系統
 upgrade_table_windows: 從 Windows
 upgrade_table_mac: 從 OS X
 upgrade_table_linux_dvd: 在Linux環境下如何燒錄一隻DVD。
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: 在Windows環境下如何燒錄一隻DVD。
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: 在OS X環境下如何燒錄一隻DVD。
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: 在Linux環境下如何制作一隻USB安裝手指。
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: 在Windows環境下如何制作一隻USB安裝手指。
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: 在OS X環境下如何制作一隻USB安裝手指。
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: 使用前請驗證你的下載
 verify_download_p1: "有很多程式可以驗證下載文件的 checksum。驗證你的下載是很重要，因為可以確保你的下載沒有任何錯誤。你可以在下載的過程中驗證文件。例如當你選擇以上的
   Metalink 及使用火狐瀏覽器 (Firefox) 的插件 DownThemAll!，checksum (SHA256) 會被自動使用。\n"
@@ -84,7 +89,8 @@ verify_download_p3: "你可以用 GPG 驗證 .sha256 文件來加強保安\n"
 verify_download_pubkey: 它應該是
 verify_download_help: 如果需要協助驗證你的下載，請參閱
 verify_download_checksums_help: Checksum 幫助
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: 多個桌面環境，三個已預設環境
 desktops_p1: "openSUSE 貢獻程序讓每位用戶都可以享受不同的桌面環境，所以在安裝過程中，你可以自由選擇個人喜愛的桌面環境。我們積極提供三個桌面環境及在安裝程序內的軟件視窗中，提供更多額外的選擇。\n"
 installation: 自由安裝
