@@ -36,8 +36,9 @@ tumbleweed_live_info: "Weź pod uwagę wymienione limitacje obrazów live:\n* Ni
   być używane do instalowania i aktualizowania Tumbleweeda. Proszę użyj [instalator
   Tumbleweeda](/tumbleweed)\n* Mają okrojoną selekcję paczek i sterowników, więc nie
   są dokładnym odzwierciedleniem tego czy Tumbleweed będzie działał na twoim sprzęcie\n"
-microos_desc: System operacyjny oparty o openSUSE Tumbleweed dostarczający Transakcyjne
-  (Atomiczne) aktualizacje na głównym systemie plików btrfs w trybie tylko do odczytu
+microos_desc: System operacyjny oparty o openSUSE Tumbleweed dostarczający 
+  Transakcyjne (Atomiczne) aktualizacje na głównym systemie plików btrfs w 
+  trybie tylko do odczytu
 choosing_media: Wybór mediów do pobrania
 documentation: Dokumentacja
 documentation_startup_guide: Przewodnik Startowy openSUSE
@@ -56,12 +57,14 @@ requirements_dvd: Napęd DVD lub port USB na medium instalacyjne
 requirements_net: Sieć
 tw_switch: Łatwe sposoby przejścia na openSUSE Tumbleweed
 tw_switch_instructions: Instrukcje Aktualizacji.
-tw_switch_instructions_link: https://pl.opensuse.org/openSUSE:Aktualizacja_do_Tumbleweed
+tw_switch_instructions_link: 
+  https://pl.opensuse.org/openSUSE:Aktualizacja_do_Tumbleweed
 upgrade_table_linux: Ze starszej wersji lub z innej dystrybucji
 upgrade_table_windows: Z Windows
 upgrade_table_mac: Z OS X
 upgrade_table_linux_dvd: Jak nagrać płytę DVD w systemie Linux.
-upgrade_table_linux_dvd_link: https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_Linuksa_2
+upgrade_table_linux_dvd_link: 
+  https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_Linuksa_2
 upgrade_table_windows_dvd: Jak nagrać płytę DVD w systemie Windows.
 upgrade_table_windows_dvd_link: 
   https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_Microsoft_Windows_2
@@ -69,8 +72,10 @@ upgrade_table_mac_dvd: Jak nagrać płytę DVD w systemie OS X.
 upgrade_table_mac_dvd_link: 
   https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#U.C5.BCywaj.C4.85c_MacOS_X_.2810.3_i_powy.C5.BCej.29
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Zweryfikuj pobrany obraz zanim go użyjesz
 verify_download_p1: "Wiele aplikacji może zweryfikować sumy kontrolne pobranych plików.
   Weryfikacja\npliku może być ważna, gdyż weryfikuje ona czy pobrano\nprawidłowy i
@@ -83,7 +88,8 @@ verify_download_p3: "Aby zapewnić integralność pobranego pliku, możesz uży�
 verify_download_pubkey: Powinien być
 verify_download_help: By uzyskać więcej pomocy w weryfikacji pobrań, przeczytaj
 verify_download_checksums_help: Pomoc Sum Kontrolnych
-verify_download_checksums_help_link: https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#Sumy_kontrolne
+verify_download_checksums_help_link: 
+  https://pl.opensuse.org/SDB:Pomoc_w_pobraniu#Sumy_kontrolne
 desktops: Wiele pulpitów, trzy domyślnie
 site_title: Zdobądź openSUSE
 site_title_short: Zdobądź
@@ -108,7 +114,8 @@ tw_switch_p1: "Jeśli już korzystasz z openSUSE, możesz wykonać aktualizację
   uruchomienie\nobrazu z płyty DVD/pamięci USB i wybranie opcji aktualizacji,\nlub
   wykonując 'Aktualizację Sieciową' za pomocą kilku komend.\n"
 upgrade_table_linux_usb: Jak stworzyć uruchamialną pamięć USB w systemie Linux.
-upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB w systemie Windows.
+upgrade_table_windows_usb: Jak stworzyć uruchamialną pamięć USB w systemie 
+  Windows.
 upgrade_table__mac_usb: Jak stworzyć uruchamialną pamięć USB w systemie OS X.
 desktops_p1: "Proces współpracy z openSUSE umożliwia rozwój środowiska pulpitu dla
   każdego, więc masz możliwość wyboru swojego ulubionego środowiska w instalatorze.
@@ -178,34 +185,36 @@ index_server_p1: Wybór dystrybucji do użytku na serwerach
 index_full: Lub przejdź bezpośrednio do stron pobierania dla dystrybucji
 desktop: Dystrybucje openSUSE na komputery stacjonarne
 desktop_p1: "Dwie dystrybucje by rządzić nimi wszystkimi (teraz również w zieleni!)\n"
-desktop_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
-  Linuksa/wolnego oprogramowania
-desktop_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi pakietami
-  dostarczonymi przez projekt openSUSE.
-desktop_leap_p1: Dla administratorów systemów, programistów korporacyjnych i 'zwykłych'
-  użytkowników komputerów stacjonarnych
-desktop_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii klasy
-  korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
+desktop_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i 
+  entuzjastów Linuksa/wolnego oprogramowania
+desktop_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi 
+  pakietami dostarczonymi przez projekt openSUSE.
+desktop_leap_p1: Dla administratorów systemów, programistów korporacyjnych i 
+  'zwykłych' użytkowników komputerów stacjonarnych
+desktop_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii
+  klasy korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
 server: Dystrybucje openSUSE dla serwerów
 server_p1: "Cztery komfortowo nudne dystrybucje, tak jak to zawsze powinno być\n"
-server_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i entuzjastów
-  Linuksa/wolnego oprogramowania
-server_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi pakietami
-  dostarczonymi przez projekt openSUSE.
-server_leap_p1: Dla administratorów systemów, programistów korporacyjnych i 'zwykłych'
-  użytkowników serwerowych
-server_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii klasy
-  korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
+server_tumbleweed_p1: Dla deweloperów, współtwórców openSUSE, graczy i 
+  entuzjastów Linuksa/wolnego oprogramowania
+server_tumbleweed_p2: Wydanie z systemem ciągłych aktualizacji, z najnowszymi 
+  pakietami dostarczonymi przez projekt openSUSE.
+server_leap_p1: Dla administratorów systemów, programistów korporacyjnych i 
+  'zwykłych' użytkowników serwerowych
+server_leap_p2: Wydanie regularne, które łączy korzyści wynikające z inżynierii 
+  klasy korporacyjnej oraz innowacyjności rozwijanej przez społeczność.
 server_microos_p1: Dla jednozadaniowych aplikacji serwerowych
-server_microos_p2: Zaprojektowane do hostowania kontenerów z automatyczną administracją
-  i łataniami
+server_microos_p2: Zaprojektowane do hostowania kontenerów z automatyczną 
+  administracją i łataniami
 new_version_available: $distro_name jest dostępny do pobrania
 new_version_testing: $distro_name jest teraz dostępny do pobrania i testowania
 view_distro: Zobacz $distro_name
-x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit (x86_64)
-i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit (i686)
-aarch64: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 64-bit
-  (aarch64)
+x86_64: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 64-bit 
+  (x86_64)
+i686: Komputery stacjonarne, laptopy i serwery oparte o Intel lub AMD 32-bit 
+  (i686)
+aarch64: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 
+  64-bit (aarch64)
 ppc64le: Serwery PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems i LinuxONE (s390x)
 kvm_ch_image: Host Kontenera KVM i XEN
@@ -325,13 +334,14 @@ cloud_images: Chmura
 hardware_images: Sprzęt
 iso_image: Obraz ISO
 requirements_hdd_var: partycja /var
-requirements_hdd_swap_info: wyłączona przestrzeń wymiany (swap), aby Kubernetes działał
-  prawidłowo
+requirements_hdd_swap_info: wyłączona przestrzeń wymiany (swap), aby Kubernetes 
+  działał prawidłowo
 selfinstalling_images: Obrazy Samoinstalujące
 selfinstalling_k3s_image: Samoinstalujący Host k3s
 vmware_vmx_ch_image: Host Kontenera VMware VMX
 openstack_ch_image: Host Kontenera OpenStack-Cloud
-jeos_info: Minimalne obrazy VM. By znaleźć obrazy Arm JeOS, odwiedź <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">stronę
+jeos_info: Minimalne obrazy VM. By znaleźć obrazy Arm JeOS, odwiedź <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">stronę 
   wiki Arm</a>
 live_info: "Należy pamiętać o następujących ograniczeniach obrazów na żywo:\n* Nie
   należy ich używać do instalacji lub aktualizacji. Zamiast tego należy użyć nośnika
@@ -341,11 +351,12 @@ live_info: "Należy pamiętać o następujących ograniczeniach obrazów na żyw
   ich używać jako trwałej instalacji\n"
 requirements_dvd_desc: Napęd DVD lub port USB na nośnik instalacyjny
 download: Pobierz
-alternative_downloads_desc: Mamy również obrazy $options. Sprawdź $alternative_downloads!
+alternative_downloads_desc: Mamy również obrazy $options. Sprawdź 
+  $alternative_downloads!
 requirements_min: Minimalne
 requirements_cpu_desc: Dwurdzeniowy procesor o taktowaniu 2 GHz lub lepszy
-requirements_mem_desc: $value fizycznej pamięci RAM + dodatkowa pamięć dla twojego
-  środowiska
+requirements_mem_desc: $value fizycznej pamięci RAM + dodatkowa pamięć dla 
+  twojego środowiska
 requirements_hdd_desc: Ponad 40GB wolnego miejsca na dysku
 requirements_hdd_size_desc: $value dostępnego miejsca na dysku
 requirements_net_conn: Pełna łączność między wszystkimi maszynami w klastrze
@@ -354,10 +365,10 @@ preconfigured_rt_image: Obraz Prekonfigurowany RealTime (raw)
 requirements_hdd: Składowanie
 requirements_hdd_root: partycja / (główna)
 requirements_hdd_ssd_info: dysk SSD o dużej szybkości zapisu
-requirements_net_desc: Dostęp do Internetu jest pomocny i wymagany do działania instalatora
-  sieciowego
-armv7l: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 32-bit
-  (armv7l)
+requirements_net_desc: Dostęp do Internetu jest pomocny i wymagany do działania 
+  instalatora sieciowego
+armv7l: Serwery, komputery stacjonarne, laptopy i płytki oparte o UEFI Arm 
+  32-bit (armv7l)
 alternative_downloads: Alternatywne Opcje Pobierania
 requirements_rec: Zalecane
 selfinstall_image: Obrazy Samoinstalujący
@@ -375,56 +386,66 @@ cloud_minimal_desc: Minimalne obrazy KVM i XEN z cloud-init
 preconfigured_qcow_image: Obraz Prekonfigurowany (qcow)
 kvm_sdboot_image: Obraz KVM z systemd-boot
 server_leapmicro_p1: Dla urządzeń brzegowych, wbudowanych, IoT i innych
-server_leapmicro_p2: Ekstremalnie niezawodny, lekki system operacyjny zaprojektowany
-  dla środowisk kontenerowych i wirtualizowanych.
+server_leapmicro_p2: Ekstremalnie niezawodny, lekki system operacyjny 
+  zaprojektowany dla środowisk kontenerowych i wirtualizowanych.
 signature: Podpis
-microos_ovw_desc_p1: Zaprojektowany do hostowania środowisk kontenerowych z automatyczną
-  administracją i łataniem. Instalując openSUSE MicroOS otrzymujesz szybkie i małe
-  środowisko do wdrożenia kontenerów lub dowolnego innego rozwiązania, które skorzysta
-  z Transakcyjnych Aktualizacji. Dzięki ciągłej dystrybucji oprogramowanie jest zawsze
-  aktualne.
-microos_ovw_desc_p2: MicroOS oferuje obraz offline. Główną różnicą między obrazem
-  offline, a obrazami samoinstalującymi/raw, jest to, że obraz offline zawiera instalator.
-  Obrazy raw i samoinstalujące pozwalają na dostosowanie za pomocą combustion lub
-  ręcznie po zapisaniu obrazu na dysku. Istnieje opcja wykorzystania jądra czasu rzeczywistego.
+microos_ovw_desc_p1: Zaprojektowany do hostowania środowisk kontenerowych z 
+  automatyczną administracją i łataniem. Instalując openSUSE MicroOS otrzymujesz
+  szybkie i małe środowisko do wdrożenia kontenerów lub dowolnego innego 
+  rozwiązania, które skorzysta z Transakcyjnych Aktualizacji. Dzięki ciągłej 
+  dystrybucji oprogramowanie jest zawsze aktualne.
+microos_ovw_desc_p2: MicroOS oferuje obraz offline. Główną różnicą między 
+  obrazem offline, a obrazami samoinstalującymi/raw, jest to, że obraz offline 
+  zawiera instalator. Obrazy raw i samoinstalujące pozwalają na dostosowanie za 
+  pomocą combustion lub ręcznie po zapisaniu obrazu na dysku. Istnieje opcja 
+  wykorzystania jądra czasu rzeczywistego.
 packages_image: Obraz Pakietów
 packages_image_desc: Nośnik zawierający repozytorium z pakietami offline.
-microos_ovw_desc_p3: Wypróbuj MicroOS na maszynach wirtualnych <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  lub KVM. Dla Raspberry Pi lub innych układów System on Chip możesz wykorzystać prekonfigurowany
-  obraz w połączeniu z <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  dla procesu uruchamiania. Zarówno prekonfigurowane, jak i samodzielnie zainstalowane
-  obrazy są przeznaczone do użytku z   <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  zapisanym
-  na pendrive, który umożliwia konfigurację podczas pierwszego uruchomienia, z opcją
-  zmian chronionych hasłem.
-microos_ovw_title: Micro Service OS oferujący Transakcyjne (Atomowe) Aktualizacje
-  na głównym systemie plików btrfs w trybie tylko do odczytu
+microos_ovw_desc_p3: Wypróbuj MicroOS na maszynach wirtualnych <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> lub KVM. Dla 
+  Raspberry Pi lub innych układów System on Chip możesz wykorzystać 
+  prekonfigurowany obraz w połączeniu z <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> dla 
+  procesu uruchamiania. Zarówno prekonfigurowane, jak i samodzielnie 
+  zainstalowane obrazy są przeznaczone do użytku z   <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  
+  zapisanym na pendrive, który umożliwia konfigurację podczas pierwszego 
+  uruchomienia, z opcją zmian chronionych hasłem.
+microos_ovw_title: Micro Service OS oferujący Transakcyjne (Atomowe) 
+  Aktualizacje na głównym systemie plików btrfs w trybie tylko do odczytu
 encrypted_image: Całkowicie Zaszyfrowany Obraz Dysku (raw)
-leap_ovw_title: Zupełnie nowy sposób budowania openSUSE i nowy typ hybrydowej dystrybucji
-  Linuksa
-leap_ovw_desc: Leap korzysta z kodu źródłowego SUSE Linux Enterprise (SLE), co zapewnia
-  wysoki poziom stabilności nieporównywalnej do innych dystrybucji Linuksa, a ponadto
-  łączy go z rozwojem społeczności, zapewniając użytkownikom, programistom i administratorom
-  systemu najlepsze dostępne stabilne doświadczenie z Linuksem.
-tumbleweed_ovw_desc: Z Tumbleweed nie musisz podejmować trudnych decyzji dotyczących
-  rzeczy które cenisz. Wolność czy bezpieczeństwo, kontrola czy stabilność, technologia
-  czy bezpieczeństwo - Tumbleweed pozwala ci mieć ciastko i je zjeść!
-leap_micro_ovw_title: Leap Micro to niezwykle niezawodny, lekki system operacyjny
-  zaprojektowany dla środowisk kontenerowych i zwirtualizowanych.
-leap_micro_ovw_desc_p1: Ta wersja społecznościowa jest oparta na SUSE Linux Micro,
-  który wykorzystuje zaawansowane komponenty bezpieczeństwa i zgodności SUSE Linux
-  Enterprise. To połączenie technologii zapewnia nowoczesny, niezmienny i przyjazny
-  dla deweloperów system operacyjny.
-leap_micro_ovw_desc_p2: Leap Micro od wersji 6.0 oferuje obraz samoinstalujący, obraz
-  raw i płytę DVD z pakietami, która może służyć jako repozytorium offline. Obraz
-  samoinstalujący jest zalecany dla każdej instalacji opartej na USB, ponieważ nie
-  używamy już tradycyjnych instalatorów. Użytkownicy mogą zautomatyzować i dostosowywać
-  swoją instalację za pomocą <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
-  lub <a href="https://github.com/openSUSE/combustion">Combustion</a>, czy też za
-  pomocą kreatora jeos-firstboot. Wypróbuj <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a> nasz internetowy generator konfiguracji Ignition.
-tumbleweed_ovw_title: Najnowocześniejszy system operacyjny dla komputerów i serwerów
-minimal_vm_info: Podobnie jak w przypadku obrazów SUSE Linux Enterprise Server Minimal-VM.
-  Dla obrazów Arm JeOS przejdź do <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">strony
+leap_ovw_title: Zupełnie nowy sposób budowania openSUSE i nowy typ hybrydowej 
+  dystrybucji Linuksa
+leap_ovw_desc: Leap korzysta z kodu źródłowego SUSE Linux Enterprise (SLE), co 
+  zapewnia wysoki poziom stabilności nieporównywalnej do innych dystrybucji 
+  Linuksa, a ponadto łączy go z rozwojem społeczności, zapewniając użytkownikom,
+  programistom i administratorom systemu najlepsze dostępne stabilne 
+  doświadczenie z Linuksem.
+tumbleweed_ovw_desc: Z Tumbleweed nie musisz podejmować trudnych decyzji 
+  dotyczących rzeczy które cenisz. Wolność czy bezpieczeństwo, kontrola czy 
+  stabilność, technologia czy bezpieczeństwo - Tumbleweed pozwala ci mieć 
+  ciastko i je zjeść!
+leap_micro_ovw_title: Leap Micro to niezwykle niezawodny, lekki system 
+  operacyjny zaprojektowany dla środowisk kontenerowych i zwirtualizowanych.
+leap_micro_ovw_desc_p1: Ta wersja społecznościowa jest oparta na SUSE Linux 
+  Micro, który wykorzystuje zaawansowane komponenty bezpieczeństwa i zgodności 
+  SUSE Linux Enterprise. To połączenie technologii zapewnia nowoczesny, 
+  niezmienny i przyjazny dla deweloperów system operacyjny.
+leap_micro_ovw_desc_p2: Leap Micro od wersji 6.0 oferuje obraz samoinstalujący, 
+  obraz raw i płytę DVD z pakietami, która może służyć jako repozytorium 
+  offline. Obraz samoinstalujący jest zalecany dla każdej instalacji opartej na 
+  USB, ponieważ nie używamy już tradycyjnych instalatorów. Użytkownicy mogą 
+  zautomatyzować i dostosowywać swoją instalację za pomocą <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> lub <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a>, czy też za 
+  pomocą kreatora jeos-firstboot. Wypróbuj <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> nasz 
+  internetowy generator konfiguracji Ignition.
+tumbleweed_ovw_title: Najnowocześniejszy system operacyjny dla komputerów i 
+  serwerów
+minimal_vm_info: Podobnie jak w przypadku obrazów SUSE Linux Enterprise Server 
+  Minimal-VM. Dla obrazów Arm JeOS przejdź do <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">strony 
   wiki Arm</a>
 choosing_media_micro_p1: "Nowy samoinstalujący się obraz jest zalecanym wyborem dla
   instalacji z użyciem pendrive'a lub DVD.\nProsty kreator samoinstalacji zrzutuje
@@ -436,8 +457,8 @@ choosing_media_micro_p1: "Nowy samoinstalujący się obraz jest zalecanym wybore
   <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">tutaj</a>.\n<br>\nJeos-firstboot
   powita tych, którzy nie skonfigurowali swojego systemu za pomocą Combustion.\n"
 leap_156_ovw_video_desc: Transmisja na żywo z premiery Leap 15.6
-leap_micro_ovw_video_desc: Demonstracja instalacji Leap Micro 6.1 z pełnym szyfrowaniem
-  dysku i dwuskładnikowym uwierzytelnianiem w Cockpit.
+leap_micro_ovw_video_desc: Demonstracja instalacji Leap Micro 6.1 z pełnym 
+  szyfrowaniem dysku i dwuskładnikowym uwierzytelnianiem w Cockpit.
 leap_16_coming_soon: "Publicznego wydania Leap 16.0, następcy Leap 15.6, można spodziewać
   się jesienią 2025 r. Nie ma planów wydania Leap 15.7.<br/>\nAby uzyskać więcej informacji,
   regularnie sprawdzaj aktualizacje na <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
@@ -450,9 +471,11 @@ choosing_media_micro_p2: "Leap Micro nie jest już dostarczany z tradycyjnym pro
   instalacyjnym, zamiast tego użytkownicy powinni używać nośników samoinstalacyjnych.\n\
   \ Nowy Obraz Pakietów jest po prostu zrzutem offline repozytorium rpm Leap Micro,
   przeznaczonym do użycia w izolowanym środowisku.\n"
-leap_micro_ovw_desc_p3: Wypróbuj Leap Micro na maszynach wirtualnych <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  lub KVM. Dla Raspberry Pi lub innych układów System on Chip możesz wykorzystać prekonfigurowany
-  obraz. Zarówno prekonfigurowane, jak i samoinstalujące obrazy są przeznaczone do
-  użycia z <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  zapisanym na pendrive, który umożliwia konfigurację podczas pierwszego uruchomienia,
-  z opcją zmian chronionych hasłem.
+leap_micro_ovw_desc_p3: Wypróbuj Leap Micro na maszynach wirtualnych <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> lub KVM. Dla 
+  Raspberry Pi lub innych układów System on Chip możesz wykorzystać 
+  prekonfigurowany obraz. Zarówno prekonfigurowane, jak i samoinstalujące obrazy
+  są przeznaczone do użycia z <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  zapisanym na pendrive, który umożliwia konfigurację podczas pierwszego 
+  uruchomienia, z opcją zmian chronionych hasłem.
