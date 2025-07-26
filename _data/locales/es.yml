@@ -459,7 +459,7 @@ microos_ovw_desc_p3: Pruebe Leap Micro en Máquinas Virtuales (VMs) funcionando
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> para 
   el proceso de arranque. Tanto las imágenes preconfiguradas como las 
   autoinstalables están hechas para ser usadas con  <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   grabado en un USB, que está diseñado para permitir la configuración en 
   cualquier primer arranque, con la opción de realizar cambios protegidos con 
   contraseña predeterminada.
