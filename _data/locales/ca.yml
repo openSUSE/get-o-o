@@ -100,7 +100,7 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Com crear una memòria d'USB arrencable en Windows
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Com crear una memòria d'USB arrencable en OS X
+upgrade_table__mac_usb: Com crear una memòria d'USB arrencable a macOS.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifiqueu la baixada abans d'usar-la
