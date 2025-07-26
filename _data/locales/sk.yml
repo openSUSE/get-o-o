@@ -455,7 +455,7 @@ microos_ovw_desc_p3: Vyskúšajte MicroOS vo VM bežiacich buď na <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> pre 
   štartovací proces. Predkonfigurované aj samoinštalovateľné obrazy sú určené na
   použitie s  <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   zapísaným na USB, ktoré je riadené tak, aby umožňovalo konfiguráciu pri 
   akomkoľvek prvom spustení, s možnosťou predvolených zmien chránených heslom.
 packages_image_desc: Médiá obsahujúce offline repozitár s balíkmi.
