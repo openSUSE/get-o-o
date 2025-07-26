@@ -1,7 +1,7 @@
 site_title: Obtenir openSUSE
 site_title_short: Obtenir
-site_description: En apprendre plus sur les distributions openSUSE et les télécharger
-  gratuitement
+site_description: En apprendre plus sur les distributions openSUSE et les 
+  télécharger gratuitement
 site_copyright: © 2022 Contributeurs openSUSE
 search: Recherche
 translate: Traduire
@@ -46,9 +46,9 @@ tumbleweed_live_info: "Veuillez noter les limites suivantes des images live :\n
   utiliser les [supports Tumbleweed](/tumbleweed) à la place.\n* Elles ont un nombre
   limité de paquets et de pilotes donc ne peuvent pas être considérées comme un moyen
   fiable de déterminer si Tumbleweed fonctionnera sur votre matériel ou non\n"
-microos_desc: Système d'exploitation basé sur openSUSE Tumbleweed permettant des mises
-  à jour transactionnelles (atomiques) à partir d'un système de fichiers btrfs en
-  lecture-seule
+microos_desc: Système d'exploitation basé sur openSUSE Tumbleweed permettant des
+  mises à jour transactionnelles (atomiques) à partir d'un système de fichiers 
+  btrfs en lecture-seule
 choosing_media: Choisir quel support télécharger
 choosing_media_p1: "L'image hors ligne est généralement recommandée car elle contient\n\
   \ la plupart des paquets disponibles dans la distribution et ne requiert\npas une
@@ -75,31 +75,38 @@ requirements_net: Réseau
 tw_switch: Façons faciles de migrer vers openSUSE Tumbleweed
 tw_switch_instructions: Instructions de mise à niveau.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_linux: Depuis une version plus ancienne ou une autre distribution Linux
+upgrade_table_linux: Depuis une version plus ancienne ou une autre distribution 
+  Linux
 upgrade_table_windows: Depuis Windows
 upgrade_table_mac: Depuis OS X
 upgrade_table_linux_dvd: Comment graver un DVD sur Linux.
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Comment graver un DVD sur Windows.
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
 upgrade_table_mac_dvd: Comment graver un DVD sur OS X.
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Comment créer une clé USB amorçable sur Linux.
 upgrade_table_linux_usb_link: https://fr.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Comment créer un clé USB amorçable sur Windows.
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Comment créer un clé USB amorçable sur OS X.
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Vérifier votre téléchargement avant utilisation
 verify_download_p2: "Pour chaque ISO, nous fournissons un fichier contenant la somme
   de contrôle SHA256 correspondante.\n"
 verify_download_p3: "Pour encore plus de sécurité, vous pouvez utiliser sha256sum
   pour vérifier qui a signé ces fichiers .sha256. \n"
 verify_download_pubkey: Ce devrait être
-verify_download_help: Pour plus d'aide sur la vérification de votre téléchargement,
-  veuillez lire
+verify_download_help: Pour plus d'aide sur la vérification de votre 
+  téléchargement, veuillez lire
 verify_download_checksums_help: Aide sur les sommes de contrôle
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 desktops: Plusieurs bureaux, trois par défaut
 points_transparent: Tout est transparent
 points_transparent_p1: "Du début à la fin, chaque paquet qui entre dans les distributions
@@ -188,50 +195,53 @@ yast_p1: "Un des meilleurs outils de configuration système vous aide, vous\nl'u
 index_p1: Pour un usage bureau, serveur, et tout ce qu'il y a entre les deux
 index_desktop: Bureau
 index_desktop_p1: Sélection de distributions pour un usage bureau
-index_full: Ou rendez-vous directement sur les pages de téléchargement des distributions
+index_full: Ou rendez-vous directement sur les pages de téléchargement des 
+  distributions
 desktop: Les distributions openSUSE pour le bureau
 desktop_p1: "Les deux distributions pour les gouverner toutes\n"
-desktop_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE, les joueurs
-  et tous les enthousiastes de Linux et du logiciel libre
-desktop_tumbleweed_p2: Publication en continu (rolling release) avec les derniers
-  paquets fournis par le projet openSUSE.
-desktop_leap_p1: Pour les administrateurs système, les développeurs en entreprise
-  et les utilisateurs « classiques »
-desktop_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
-  qualité professionnelle et d'une innovation cultivée par la communauté.
+desktop_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE, les 
+  joueurs et tous les enthousiastes de Linux et du logiciel libre
+desktop_tumbleweed_p2: Publication en continu (rolling release) avec les 
+  derniers paquets fournis par le projet openSUSE.
+desktop_leap_p1: Pour les administrateurs système, les développeurs en 
+  entreprise et les utilisateurs « classiques »
+desktop_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie
+  de qualité professionnelle et d'une innovation cultivée par la communauté.
 server: Les distributions openSUSE pour le serveur
 server_p1: "Quatre distributions confortablement ennuyeuses, comme cela devrait toujours
   l'être\n"
-server_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE, les joueurs
-  et tous les enthousiastes de Linux et du logiciel libre
-server_tumbleweed_p2: Publication en continu (rolling release) avec les derniers paquets
-  fournis par le projet openSUSE.
-server_leap_p1: Pour les administrateurs système, les développeurs en entreprise et
-  les utilisateurs de serveurs « classiques »
-server_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie de
-  qualité professionnelle et d'une innovation cultivée par la communauté.
+server_tumbleweed_p1: Pour les développeurs, les contributeurs à openSUSE, les 
+  joueurs et tous les enthousiastes de Linux et du logiciel libre
+server_tumbleweed_p2: Publication en continu (rolling release) avec les derniers
+  paquets fournis par le projet openSUSE.
+server_leap_p1: Pour les administrateurs système, les développeurs en entreprise
+  et les utilisateurs de serveurs « classiques »
+server_leap_p2: Publication périodique combinant les bénéfices d'une ingénierie 
+  de qualité professionnelle et d'une innovation cultivée par la communauté.
 server_microos_p1: Pour des applications serveur mono-tâche
-server_microos_p2: Conçu pour héberger vos travaux avec des conteneurs, disposant
-  d'une administration et de mises à jour automatisées
+server_microos_p2: Conçu pour héberger vos travaux avec des conteneurs, 
+  disposant d'une administration et de mises à jour automatisées
 new_version_available: $distro_name est maintenant disponible au téléchargement
-new_version_testing: $distro_name est maintenant disponible au téléchargement et aux
-  tests
+new_version_testing: $distro_name est maintenant disponible au téléchargement et
+  aux tests
 view_distro: Voir $distro_name
 x86_64: Serveurs, ordinateurs fixes et portables Intel ou AMD 64-bit (x86_64)
 i686: Serveurs, ordinateurs fixes et portables Intel ou AMD 32-bit (i686)
-aarch64: Serveurs, ordinateurs fixes et portables, cartes UEFI Arm 64-bit (aarch64)
+aarch64: Serveurs, ordinateurs fixes et portables, cartes UEFI Arm 64-bit 
+  (aarch64)
 ppc64le: Serveurs PowerPC, little-endian (ppc64le)
 s390x: IBM zSystems et LinuxONE (s390x)
 download: Télécharger
 overview: Aperçu
-requirements_net_desc: Un accès à Internet est utile, et est indispensable pour l'installateur
-  réseau
-requirements_dvd_desc: Soit un lecteur DVD, soit un port USB pour le media d'installation
+requirements_net_desc: Un accès à Internet est utile, et est indispensable pour 
+  l'installateur réseau
+requirements_dvd_desc: Soit un lecteur DVD, soit un port USB pour le media 
+  d'installation
 requirements_hdd_size_desc: $value d'espace disque disponible
 requirements_hdd_desc: Plus de 40 Go d'espace libre sur le disque
 requirements_hdd: Stockage
-requirements_mem_desc: $value de RAM physique + de la mémoire supplémentaire pour
-  votre charge
+requirements_mem_desc: $value de RAM physique + de la mémoire supplémentaire 
+  pour votre charge
 requirements_cpu_desc: Double coeur 2 GHz ou mieux
 requirements_rec: Recommandé
 requirements_min: Minimum
@@ -352,19 +362,22 @@ Tumbleweed_features:
       plus à vous préoccuper tous les six mois des mises à jour massives qui risquent
       de bloquer votre système.\n"
     name: Mise à jour continue
-alternative_downloads_desc: Nous avons aussi des images $options. Consultez les $alternative_downloads
-  !
+alternative_downloads_desc: Nous avons aussi des images $options. Consultez les 
+  $alternative_downloads !
 alternative_downloads: Téléchargements alternatifs
-armv7l: Serveurs, ordinateurs de bureau, ordinateurs portables et cartes UEFI Arm
-  32 bits (armv7l)
+armv7l: Serveurs, ordinateurs de bureau, ordinateurs portables et cartes UEFI 
+  Arm 32 bits (armv7l)
 requirements_net_mac: Nom d'hôte et adresse MAC uniques pour chaque nœud
-requirements_net_conn: Connectivité complète entre toutes les machines du cluster
+requirements_net_conn: Connectivité complète entre toutes les machines du 
+  cluster
 requirements_hdd_ssd_info: SSD à haute vitesse d'écriture
-requirements_hdd_swap_info: espace swap désactivé pour que kubernetes fonctionne correctement
+requirements_hdd_swap_info: espace swap désactivé pour que kubernetes fonctionne
+  correctement
 requirements_hdd_var: Partition /var
 requirements_hdd_root: Partition / (root)
-jeos_info: Images VM minimales. Pour les images JeOS Arm, veuillez vous reporter à
-  la <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">du wiki
+jeos_info: Images VM minimales. Pour les images JeOS Arm, veuillez vous reporter
+  à la <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">du wiki 
   pour systèmes Arm</a>
 selfinstall_image: Image d'auto-installation
 selfinstall_rt_image: Image d'auto-installation Temps-Réel
