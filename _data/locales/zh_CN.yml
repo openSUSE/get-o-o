@@ -69,7 +69,8 @@ upgrade_table_linux: 从更旧的版本或其他 Linux 发行版
 upgrade_table_windows: 从 Windows
 upgrade_table_mac: 从 OS X
 upgrade_table_linux_dvd: 如何在 Linux 上烧录 DVD。
-upgrade_table_linux_dvd_link: https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8_Linux_2
+upgrade_table_linux_dvd_link: 
+  https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8_Linux_2
 upgrade_table_windows_dvd: 如何在 Windows 上烧录 DVD。
 upgrade_table_windows_dvd_link: 
   https://zh.opensuse.org/SDB:下载帮助#.E4.BD.BF.E7.94.A8.E5.BE.AE.E8.BD.AF.E8.A7.86.E7.AA.97_2
@@ -79,9 +80,11 @@ upgrade_table_mac_dvd_link:
 upgrade_table_linux_usb: 如何在 Linux 上创建可启动的 U 盘。
 upgrade_table_linux_usb_link: https://zh.opensuse.org/SDB:Live_USB_U盘安装
 upgrade_table_windows_usb: 如何在 Windows 上创建可启动的 U 盘。
-upgrade_table_windows_usb_link: https://zh.opensuse.org/SDB:使用_Windows_创建一个_Live_U_盘
+upgrade_table_windows_usb_link: 
+  https://zh.opensuse.org/SDB:使用_Windows_创建一个_Live_U_盘
 upgrade_table__mac_usb: 如何在 OS X 上创建可启动的 U 盘。
-upgrade_table__mac_usb_link: https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建一个_Live_U_盘
+upgrade_table__mac_usb_link: 
+  https://zh.opensuse.org/SDB:使用_Mac_OS_X_创建一个_Live_U_盘
 verify_download: 请在使用前验证你下载的文件
 verify_download_p1: "许多程序都可以验证已下载文件的校验码。验证你下载的文件比较重要，\n因为它可以验证你是否真的获取到了你想要下载的 ISO
   文件而不是\n一些损坏的版本。\n"
@@ -90,7 +93,8 @@ verify_download_p3: "为了确保已下载文件的完整性，你可以使用 s
 verify_download_pubkey: 它应为
 verify_download_help: 更多验证下载的帮助请参阅
 verify_download_checksums_help: 校验码帮助
-verify_download_checksums_help_link: https://zh.opensuse.org/SDB:下载帮助#.E6.A0.A1.E9.AA.8C.E5.93.88.E5.B8.8C.E5.80.BC
+verify_download_checksums_help_link: 
+  https://zh.opensuse.org/SDB:下载帮助#.E6.A0.A1.E9.AA.8C.E5.93.88.E5.B8.8C.E5.80.BC
 desktops: 各式桌面，首推其三
 desktops_p1: "openSUSE 的贡献流程允许每个人参与进桌面开发，所以你可以在安装程序中\n挑选你最喜欢的桌面环境。我们在安装程序中摆上了三个主要的桌面环境，\n\
   并在展开的软件视图中提供更多选择。\n"
@@ -248,7 +252,8 @@ vmware_ch_image: VMware 容器主机
 hyperv_ch_image: MS HyperV 容器主机
 kvm_ch_image: KVM 和 XEN 容器主机
 iso_image: ISO 映像
-jeos_info: 最小化虚拟机映像。对于 Arm JeOS 映像，请转到 <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+jeos_info: 最小化虚拟机映像。对于 Arm JeOS 映像，请转到 <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 
   维基页面</a>
 selfinstall_image: 自安装映像
 selfinstall_rt_image: 自安装的实时映像
@@ -272,8 +277,10 @@ choosing_media_micro_p2: "Leap Micro 不再附带传统安装程序，用户应�
 minimal_vm_images: 最小化虚拟机
 preconfigured_qcow_image: 预配置映像 (qcow)
 kvm_sdboot_image: 配备 systemd-boot 的 KVM 映像
-minimal_vm_info: 此映像与 SUSE Linux Enterprise Server 的最小化虚拟机映像类似。 对于 Arm JeOS 映像，请转到
-  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 维基页面</a>
+minimal_vm_info: 此映像与 SUSE Linux Enterprise Server 的最小化虚拟机映像类似。 对于 Arm JeOS 
+  映像，请转到 <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 
+  维基页面</a>
 server_aarch64: UEFI Arm 64 位服务器与单片机（aarch64）
 server_x86_64: Intel 或 AMD 64 位服务器（x86_64）
 cloud_image: 云端映像
@@ -282,28 +289,38 @@ server_leapmicro_p1: 适用于边缘计算、嵌入式、物联网和其他部�
 server_leapmicro_p2: 专为容器化和虚拟化工作负载构建的极度可靠、轻量级的操作系统。
 leap_ovw_title: 以全新方式构建的 openSUSE ，同时也是新型的混合 Linux 发行版
 tumbleweed_ovw_title: 最为先进的桌面设备与服务器操作系统
-tumbleweed_ovw_desc: 使用 Tumbleweed，您不必在看重的事物上做出艰难抉择，无论自由与安全、可控与保障，还是先进与稳定 —— Tumbleweed
-  让您鱼与熊掌兼得！
+tumbleweed_ovw_desc: 使用 Tumbleweed，您不必在看重的事物上做出艰难抉择，无论自由与安全、可控与保障，还是先进与稳定 —— 
+  Tumbleweed 让您鱼与熊掌兼得！
 leap_micro_ovw_title: Leap Micro 是一款极度可靠、轻量的操作系统，专为容器化与虚拟化工作负载构建。
 leap_micro_ovw_video_desc: 在 Cockpit 中配置完全磁盘加密和两步认证的 Leap Micro 6.1 安装示例。
 microos_ovw_title: 在只读 Btrfs 根文件系统上提供事务性（原子）更新的微型服务操作系统
-leap_ovw_desc: Leap 使用 SUSE Linux Enterprise （SLE）的源码构建，这也让 Leap 获得了其他 Linux 发行版无可比拟的稳定性，结合社区开发，为用户、开发者和系统管理员提供最佳稳定的
-  Linux 体验。
-leap_micro_ovw_desc_p1: 这一社区版本基于 SUSE Linux Micro，因而利用了 SUSE Linux Enterprise 的企业级强化安全与合规组件。这一技术融合提供了一个现代、不可变且开发者友好的操作系统平台。
-microos_ovw_desc_p2: MicroOS 提供离线映像。离线映像与自安装映像/原始映像的主要区别在于前者具有安装程序。后两者则允许通过 Combustion
-  模块自定义安装，或将映像写入磁盘后手动修改细节。还具备实时内核选项。
-leap_micro_ovw_desc_p2: 自 6.0 版本起，Leap Micro 分别提供自安装映像、原始映像，以及用作离线软件源的软件包映像。由于本版本不再提供传统安装程序，对于使用
-  USB 安装的用户，我们推荐使用自安装映像。用户还可以选择 <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
-  或 <a href="https://github.com/openSUSE/combustion">Combustion</a> 来自动化或定制安装过程，也可以使用
-  jeos-firstboot 向导。另外还可以试试 <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a> ，我们的在线 Ignition 配置生成器。
-microos_ovw_desc_p1: 专为托管容器工作负载而设计，具备自动管理与修补能力。安装 openSUSE MicroOS ，您将得到一个快速、小型的系统环境，用于部署容器或其他受益于事务性更新的工作负载。作为滚动发布的发行版，它的软件始终保持最新。
-leap_micro_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  或 KVM 上运行的虚拟机中试用 Leap Micro。 树莓派或其他片上系统的用户也可以使用预配置映像。预配置映像和自安装映像均可配合写入 U 盘的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+leap_ovw_desc: Leap 使用 SUSE Linux Enterprise （SLE）的源码构建，这也让 Leap 获得了其他 Linux 
+  发行版无可比拟的稳定性，结合社区开发，为用户、开发者和系统管理员提供最佳稳定的 Linux 体验。
+leap_micro_ovw_desc_p1: 这一社区版本基于 SUSE Linux Micro，因而利用了 SUSE Linux Enterprise 
+  的企业级强化安全与合规组件。这一技术融合提供了一个现代、不可变且开发者友好的操作系统平台。
+microos_ovw_desc_p2: MicroOS 提供离线映像。离线映像与自安装映像/原始映像的主要区别在于前者具有安装程序。后两者则允许通过 
+  Combustion 模块自定义安装，或将映像写入磁盘后手动修改细节。还具备实时内核选项。
+leap_micro_ovw_desc_p2: 自 6.0 版本起，Leap Micro 
+  分别提供自安装映像、原始映像，以及用作离线软件源的软件包映像。由于本版本不再提供传统安装程序，对于使用 USB 
+  安装的用户，我们推荐使用自安装映像。用户还可以选择 <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> 或 <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> 来自动化或定制安装过程，也可以使用
+  jeos-firstboot 向导。另外还可以试试 <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> ，我们的在线 
+  Ignition 配置生成器。
+microos_ovw_desc_p1: 专为托管容器工作负载而设计，具备自动管理与修补能力。安装 openSUSE MicroOS 
+  ，您将得到一个快速、小型的系统环境，用于部署容器或其他受益于事务性更新的工作负载。作为滚动发布的发行版，它的软件始终保持最新。
+leap_micro_ovw_desc_p3: 可在 <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> 或 KVM 上运行的虚拟机中试用 
+  Leap Micro。 树莓派或其他片上系统的用户也可以使用预配置映像。预配置映像和自安装映像均可配合写入 U 盘的 <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   功能使用，该功能允许在系统首次启动时执行自定义配置，同时还可更改部分默认由密码保护的选项。
-microos_ovw_desc_p3: 可在 <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  或 KVM 上运行的虚拟机中试用 MicroOS。 树莓派或其他片上系统的用户也可以使用预配置映像与 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  功能来进行启动。预配置映像和自安装映像均可配合写入 U 盘的 <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
+microos_ovw_desc_p3: 可在 <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> 或 KVM 上运行的虚拟机中试用 
+  MicroOS。 树莓派或其他片上系统的用户也可以使用预配置映像与 <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  功能来进行启动。预配置映像和自安装映像均可配合写入 U 盘的 <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   功能使用，该功能允许在系统首次启动时执行自定义配置，同时还可更改部分默认由密码保护的选项。
 packages_image_desc: 包含离线软件源的媒体。
 packages_image: 软件包映像
