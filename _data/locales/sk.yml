@@ -31,13 +31,13 @@ requirements_net: Sieť
 tw_switch: Jednoduché spôsoby, ako prejsť na openSUSE Tumbleweed
 upgrade_table_linux: Zo staršej verzie alebo inej linuxovej distribúcie
 upgrade_table_windows: Z Windows
-upgrade_table_mac: Z OS X
+upgrade_table_mac: Z macOS
 upgrade_table_linux_dvd: Ako napáliť DVD na Linuxe.
 upgrade_table_windows_dvd: Ako napáliť DVD na systéme Windows.
-upgrade_table_mac_dvd: Ako napáliť DVD na OS X.
+upgrade_table_mac_dvd: Ako napáliť DVD na macOS.
 upgrade_table_linux_usb: Ako vytvoriť spustiteľný USB kľúč na Linuxe.
 upgrade_table_windows_usb: Ako vytvoriť spustiteľný USB kľúč na systéme Windows.
-upgrade_table__mac_usb: Ako vytvoriť spustiteľný USB kľúč na OS X.
+upgrade_table__mac_usb: Ako vytvoriť spustiteľný USB kľúč na macOS.
 verify_download: Pred použitím si overte, čo ste stiahli
 verify_download_checksums_help: Pomocník pre kontrolný súčet
 yast_software: Softvér
