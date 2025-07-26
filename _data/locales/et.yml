@@ -1,4 +1,3 @@
----
 site_title: Võtke openSUSE
 search: Otsing
 license: Litsents
@@ -31,7 +30,8 @@ requirements_cpu: 2 GHz kahetuumaline protsessor või parem
 requirements_mem: 2 GB süsteemimälu RAM
 requirements_hd: Üle 40 GB vaba kõvakettaruumi
 requirements_dvd: Kas DVD-seade või USB-port paigaldustarkvara jaoks
-requirements_net: Interneti-juurdepääs on kasulik ja võrgupaigalduse jaoks vajalik
+requirements_net: Interneti-juurdepääs on kasulik ja võrgupaigalduse jaoks 
+  vajalik
 tw_switch: Lihtsad viisid OpenSUSE Tumbleweedi üleminekuks
 upgrade_table_linux: Vanemast versioonist või muust Linuxi distrost tulemine
 upgrade_table_windows: Windows'st tulemine
