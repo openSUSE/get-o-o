@@ -37,23 +37,25 @@ upgrade_table_mac: iš OS X
 upgrade_table_linux_dvd: Kaip Linux sistemoje įrašyti į DVD.
 upgrade_table_windows_dvd: Kaip Windows sistemoje įrašyti į DVD.
 upgrade_table_mac_dvd: Kaip OS X sistemoje įrašyti į DVD.
-upgrade_table_linux_usb: Kaip Linux sistemoje sukurti iš atmintuko paleidžiamą sistemą.
-upgrade_table_windows_usb: Kaip Windows sistemoje sukurti iš atmintuko paleidžiamą
+upgrade_table_linux_usb: Kaip Linux sistemoje sukurti iš atmintuko paleidžiamą 
   sistemą.
-upgrade_table__mac_usb: Kaip OS X sistemoje sukurti iš atmintuko paleidžiamą sistemą.
+upgrade_table_windows_usb: Kaip Windows sistemoje sukurti iš atmintuko 
+  paleidžiamą sistemą.
+upgrade_table__mac_usb: Kaip OS X sistemoje sukurti iš atmintuko paleidžiamą 
+  sistemą.
 verify_download: Parsisiųstųjų rinkmenų tikrinimas
 verify_download_checksums_help: apie kontrolines sumas
 yast_software: Programinė įranga
 index_desktop: Su darbalaukiu
 s390x: IBM zSystems ir LinuxONE (s390x)
-server_leapmicro_p2: Ypač patikima, maža operacinė sistema, pritaikyta konteineriams
-  ir virtualizuotiems darbams.
+server_leapmicro_p2: Ypač patikima, maža operacinė sistema, pritaikyta 
+  konteineriams ir virtualizuotiems darbams.
 site_copyright: © 2024 openSUSE talkininkai
 requirements_hdd_root: / (šakniniame) skaidinyje
 iso_image: ISO atvaizdis
 offline_updated_image: Atnaujintas atvaizdis diegimui be tinklo
-offline_updated_desc: "Atvaizdis diegimui be tinklo su paskiausiais atnaujinimais.\n
-  Tinka diegimui ir naujovinimui.\n"
+offline_updated_desc: "Atvaizdis diegimui be tinklo su paskiausiais atnaujinimais.\n\
+  \ Tinka diegimui ir naujovinimui.\n"
 selfinstalling_images: Atvaizdžiai automatiniam diegimui
 selfinstalling_ch_image: Savaime įsidiegiantis konteinerinis serveris
 kvm_ch_image: KVM ir XEN konteinerinis serveris
@@ -104,81 +106,86 @@ Tumbleweed_features:
     description: "Sukurtas naudojant vieną iš naujausių branduolio versijų, su naujausiais
       „Spectre“ ir „Meltdown“ susilpninimo pataisymais, su numatytuoju atveju įjungta
       užkarda ir griežtomis saugumo politikomis, tad jūsų saugumas užtikrinamas iškart.\n"
-leap_ovw_title: Visiškai naujas „openSUSE“ kūrimo būdas ir naujo tipo hibridinis „Linux“
-  platinimasis paketas
-tumbleweed_ovw_title: Šiuolaikiška stalinių kompiuterių ir serverių operacinė sistema
+leap_ovw_title: Visiškai naujas „openSUSE“ kūrimo būdas ir naujo tipo hibridinis
+  „Linux“ platinimasis paketas
+tumbleweed_ovw_title: Šiuolaikiška stalinių kompiuterių ir serverių operacinė 
+  sistema
 tumbleweed_ovw_desc: 'Naudojant „Tumbleweed“ jums nereikia rinktis tarp dalykų, kuriuos
   vertinate: laisvės ar saugumo, kontrolės ar saugumo, technologijų ar stabilumo -
   „Tumbleweed“ leidžia jums mėgautis!'
 yast_printer: Spausdintuvas
 yast_partitioner: Diskų skaidymas
-aarch64: UEFI Arm 64 bitų serveriams, staliniams bei nešiojamiesiems kompiuteriams,
-  plokštėms (aarch64)
+aarch64: UEFI Arm 64 bitų serveriams, staliniams bei nešiojamiesiems 
+  kompiuteriams, plokštėms (aarch64)
 translate: versti
 learn_more: Plačiau
 kvm_image: KVM ir XEN atvaizdis
 usb_desc: USB atmintukams
 xfce_cd: Xfce demonstracinis CD
-i686: Intel ir AMD 32 bitų staliniams bei nešiojamiesiems kompiuteriams ir serveriams
-  (i686)
+i686: Intel ir AMD 32 bitų staliniams bei nešiojamiesiems kompiuteriams ir 
+  serveriams (i686)
 points_free: Laisvoji programinė įranga? Jūsų pasirinkimas
 site_title_short: Parsisiųsti
-site_description: Sužinokite apie openSUSE platinamuosius paketus ir parsisiųskite
-  juos nemokamai
+site_description: Sužinokite apie openSUSE platinamuosius paketus ir 
+  parsisiųskite juos nemokamai
 offline_image: Atvaizdis diegimui be tinklo
-network_desc: "Diegimo sistemą ir visus paketus parsisiųsti iš nuotolinių saugyklų.\n
-  Tinka diegimui ir naujovinimui.\n"
+network_desc: "Diegimo sistemą ir visus paketus parsisiųsti iš nuotolinių saugyklų.\n\
+  \ Tinka diegimui ir naujovinimui.\n"
 vmware_ch_image: VMware konteinerinis serveris
-offline_desc: "Sutalpinta didelė programinės įrangos kolekcija darbalaukiams ir serveriams.\n
-  Tinka diegimui ir naujovinimui.\n"
+offline_desc: "Sutalpinta didelė programinės įrangos kolekcija darbalaukiams ir serveriams.\n\
+  \ Tinka diegimui ir naujovinimui.\n"
 source_code: Pirminis kodas
 rpi_ch_image: RaspberryPi konteinerinis serveris
-ports_info: "openSUSE Leap kitas nei asmeniniams kompiuteriams skirtas architektūras\n
-  ribotomis galimybėmis palaiko atskiros bendruomenės komandos.\n"
-minimal_vm_info: Panašus į SUSE Linux Enterprise Server Minimal-VM atvaizdžius. Apie
-  Arm JeOS atvaizdžius skaitykite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  viki puslapyje</a>
+ports_info: "openSUSE Leap kitas nei asmeniniams kompiuteriams skirtas architektūras\n\
+  \ ribotomis galimybėmis palaiko atskiros bendruomenės komandos.\n"
+minimal_vm_info: Panašus į SUSE Linux Enterprise Server Minimal-VM atvaizdžius. 
+  Apie Arm JeOS atvaizdžius skaitykite <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm viki
+  puslapyje</a>
 kde_cd: KDE demonstracinis CD
 gnome_cd: GNOME demonstracinis CD
 live_info: "Atkreipkite dėmesį į šiuos demonstracinių atvaizdų apribojimus:\n* Jų
-  nereikėtų naudoti diegimui ar atnaujinimui. Geriau naudokite diegimo laikmeną\n
-  * Jų paketų ir tvarkyklių pasirinkimas yra ribotas, todėl jie negali būti laikomi
+  nereikėtų naudoti diegimui ar atnaujinimui. Geriau naudokite diegimo laikmeną\n\
+  \ * Jų paketų ir tvarkyklių pasirinkimas yra ribotas, todėl jie negali būti laikomi
   tinkamu pavyzdžiu, ar platinimasis paketas veiks jūsų aparatinėje įrangoje.\n* Branduolio
   ir initrd negalima atnaujinti, todėl jie neturėtų būti naudojami nuolatiniam diegimui\n"
-leap_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš\n
-  DVD/USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
+leap_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš\n\
+  \ DVD/USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
   internetu“ keliomis komandomis.\n"
 requirements_cpu_desc: bent 2 Ghz dviejų branduolių procesorius
-requirements_mem_desc: $value fizinės RAM + papildomos atminties darbinei apkrovai
-tw_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš\n
-  DVD arba USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
+requirements_mem_desc: $value fizinės RAM + papildomos atminties darbinei 
+  apkrovai
+tw_switch_p1: "Jei jau naudojate openSUSE, galite atnaujinti arba paleisdami iš\n\
+  \ DVD arba USB ir pasirinkdami „Atnaujinti“ įdiegtą sistemą, arba\ndarydami „Atnaujinimą
   internetu“ keliomis komandomis.\n"
 requirements_dvd_desc: DVD skaitytuvas arba USB lizdas diegimo laikmenai įdėti
 verify_download_p3: "Parsisiųstųjų rinkmenų vientisumo patikrinimui galite naudoti
   sha256sum, kad patikrintumėte kontrolinę sumą, ir gpgv, kad patikrintumėte parašą.\n"
 software_get: Parsisiųsti programinę įrangą
-verify_download_p1: "Dauguma programų gali patikrinti atsisiuntimo kontrolinę sumą.
-  \nPatikrinti atsisiuntimą gali būti svarbu, nes taip įsitikinsite, ar tikrai \n
-  gavote norėtą atsisiųsti ISO rinkmeną, o ne kokią nors sugadintą versiją.\n"
+verify_download_p1: "Dauguma programų gali patikrinti atsisiuntimo kontrolinę sumą.\
+  \ \nPatikrinti atsisiuntimą gali būti svarbu, nes taip įsitikinsite, ar tikrai \n\
+  \ gavote norėtą atsisiųsti ISO rinkmeną, o ne kokią nors sugadintą versiją.\n"
 index: openSUSE platinamieji paketai
-desktop_tumbleweed_p1: Programuotojams, openSUSE talkininkams, žaidėjams ir Linux
-  bei nemokamos laisvos programinės įrangos mėgėjams
+desktop_tumbleweed_p1: Programuotojams, openSUSE talkininkams, žaidėjams ir 
+  Linux bei nemokamos laisvos programinės įrangos mėgėjams
 points_transparent: Viskas skaidru
 zypper: Zypper yra jūsų nauja mylima paketų tvarkytuvė
-desktop_tumbleweed_p2: Nuolatinio atnaujinimo laida su naujausiais openSUSE projekto
-  siūlomais paketais.
+desktop_tumbleweed_p2: Nuolatinio atnaujinimo laida su naujausiais openSUSE 
+  projekto siūlomais paketais.
 index_server_p1: Platinamųjų paketų pasirinkimas naudojimui serveriuose
 index_full: Arba eikite tiesiai į platinamųjų paketų parsisiuntimo puslapius
 desktop: openSUSE platinamieji paketai su darbalaukiais
-server_tumbleweed_p2: Nuolatinio atnaujinimo laida su naujausiais openSUSE projekto
-  siūlomais paketais.
-leap_ovw_desc: openSUSE Leap pagrindas yra toks pat kaip SUSE Linux Enterprise (SLE),
-  tad lyginant su kitais Linux platinamaisiais paketais pasižymi išskirtiniu stabilumu,
-  tačiau kartu įtraukia bendruomenės darbus tam, kad naudotojams, programuotojams
-  ir sistemų administratoriams suteiktų pačią geriausią stabilią aplinką.
+server_tumbleweed_p2: Nuolatinio atnaujinimo laida su naujausiais openSUSE 
+  projekto siūlomais paketais.
+leap_ovw_desc: openSUSE Leap pagrindas yra toks pat kaip SUSE Linux Enterprise 
+  (SLE), tad lyginant su kitais Linux platinamaisiais paketais pasižymi 
+  išskirtiniu stabilumu, tačiau kartu įtraukia bendruomenės darbus tam, kad 
+  naudotojams, programuotojams ir sistemų administratoriams suteiktų pačią 
+  geriausią stabilią aplinką.
 cloud_images: Debesijai
-microos_desc: Operacinė sistema „openSUSE Tumbleweed“ pagrindu, teikianti transakcinius
-  (atominius) atnaujinimus tik skaitymui skirtoje btrfs šakninėje rinkmenų sistemoje
+microos_desc: Operacinė sistema „openSUSE Tumbleweed“ pagrindu, teikianti 
+  transakcinius (atominius) atnaujinimus tik skaitymui skirtoje btrfs šakninėje 
+  rinkmenų sistemoje
 choosing_media_p1: "Paprastai rekomenduojame atvaizdį diegimui be tinklo, \nnes jame
   yra dauguma paketų ir diegiant nereikia \ninterneto ryšio.\n"
 desktop_p1: "Du platinamieji paketai (dabar žali!)\n"
@@ -192,7 +199,8 @@ desktops: Daug darbalaukių, trys pagrindiniai
 snapper: Sistema susigadina? Tai nebėra problema
 software: Programinės įrangos diegimas ypač paprastas
 yast_fonts: Šriftai
-index_desktop_p1: Platinamųjų paketų pasirinkimas asmeniniam kompiuteriui su darbalaukiu
+index_desktop_p1: Platinamųjų paketų pasirinkimas asmeniniam kompiuteriui su 
+  darbalaukiu
 server: openSUSE platinamieji paketai serveriams
 download: Parsisiųsti
 selfinstall_image: Savaime įsidiegiantis atvaizdis
@@ -201,13 +209,13 @@ index_p1: Staliniams kompiuteriams, serveriams ir kitkam
 index_server: Serveriui
 server_p1: "Keturi patogiai nuobodūs platinamieji paketai – tokie, kokie ir turėtų
   būti\n"
-server_tumbleweed_p1: Programuotojams, openSUSE talkininkams, žaidėjams ir Linux bei
-  nemokamos laisvos programinės įrangos mėgėjams
-server_leap_p2: Įprasta laida, turinti tiek įmonės lygio inžinerijos, tiek bendruomenės
-  kuriamų naujovių privalumų.
+server_tumbleweed_p1: Programuotojams, openSUSE talkininkams, žaidėjams ir Linux
+  bei nemokamos laisvos programinės įrangos mėgėjams
+server_leap_p2: Įprasta laida, turinti tiek įmonės lygio inžinerijos, tiek 
+  bendruomenės kuriamų naujovių privalumų.
 server_microos_p1: Vienos paskirties serverio programoms
-server_microos_p2: Sukurta talpinti konteinerių darbus su automatizuotu administravimu
-  ir pataisomis
+server_microos_p2: Sukurta talpinti konteinerių darbus su automatizuotu 
+  administravimu ir pataisomis
 new_version_testing: Jau galite parsisiųsti ir testuoti $distro_name
 new_version_available: Jau galite parsisiųsti $distro_name
 kvm_sdboot_image: KVM atvaizdis su systemd-boot
@@ -223,8 +231,9 @@ pine_image: Pine64
 pine_ch_image: Pine64 konteinerinis serveris
 openstack_ch_image: OpenStack-Cloud konteinerinis serveris
 jeos_images: JeOS
-jeos_info: Minimalūs VM atvaizdžiai. Apie Arm JeOS atvaizdžius skaitykite <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
-  viki puslapyje</a>
+jeos_info: Minimalūs VM atvaizdžiai. Apie Arm JeOS atvaizdžius skaitykite <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm viki
+  puslapyje</a>
 server_aarch64: UEFI Arm 64 bitų serveriams ir plokštėms (aarch64)
 server_x86_64: Intel ir AMD 64 bitų serveriams (x86_64)
 vm_images: Virtualiai mašinai
@@ -242,25 +251,28 @@ requirements_rec: Rekomenduojami
 requirements_hdd: Vieta diske
 requirements_hdd_desc: Bent 40 GB laisvos atminties standžiajame diske
 requirements_hdd_var: /var skaidinyje
-requirements_hdd_swap_info: mainų sritis išjungta tam, kad kubernetes veiktų tinkamai
+requirements_hdd_swap_info: mainų sritis išjungta tam, kad kubernetes veiktų 
+  tinkamai
 requirements_hdd_ssd_info: didelį įrašymo greitį palaikantis SSD
-requirements_net_desc: Interneto ryšys naudingas, o diegimo per tinklą atveju – būtinas
+requirements_net_desc: Interneto ryšys naudingas, o diegimo per tinklą atveju – 
+  būtinas
 tw_switch_instructions: Atnaujinimo instrukcijos.
 verify_download_p2: "Kiekvienam ISO atvaizdžiui pateikiame atitinkamą SHA256 kontrolinę
   sumą ir parašo rinkmeną.\n"
 verify_download_pubkey: Ji turėtų būti
-verify_download_help: Norėdami daugiau sužinoti apie atsisiuntimų tikrinimą, skaitykite
+verify_download_help: Norėdami daugiau sužinoti apie atsisiuntimų tikrinimą, 
+  skaitykite
 installation: Įdiekite sau priimtinu būdu
 points_welcoming: Laukiame talkininkų
 transactional: Transakcinis serveris
 yast_firewall: Užkarda
 yast_sound: Garsas
-desktop_leap_p1: Įprastiems naudotojams namuose, sistemų administratoriams, įmonių
-  programuotojams
-desktop_leap_p2: Įprasta laida, turinti tiek įmonės lygio inžinerijos, tiek bendruomenės
-  kuriamų naujovių privalumų.
-server_leap_p1: Sistemų administratoriams, įmonių programuotojams ir įprastiems naudotojams
-  namuose
+desktop_leap_p1: Įprastiems naudotojams namuose, sistemų administratoriams, 
+  įmonių programuotojams
+desktop_leap_p2: Įprasta laida, turinti tiek įmonės lygio inžinerijos, tiek 
+  bendruomenės kuriamų naujovių privalumų.
+server_leap_p1: Sistemų administratoriams, įmonių programuotojams ir įprastiems 
+  naudotojams namuose
 ppc64: PowerPC serveriams, mažėjančių baitų (ppc64)
 overview: Apžvalga
 MicroOS_features:
@@ -270,52 +282,57 @@ MicroOS_features:
     name: Filosofija
     description: "### Yra nuspėjama\n* Nėra keičiama vykdymo metu \n* Kiekvieną kartą
       paleidžiant kompiuterį bus nuosekliai paleisti tie patys artefaktai\n\n### Galima
-      padauginti \n* Nebereikia konfigūruoti atskirų egzempliorių paleidimo metu \n
-      * Galima lengvai pakartotinai naudoti ir gauti nuspėjamą rezultatą\n\n### Yra
-      patikima \n* Automatinis atstatymas po netinkamų atnaujinimų\n"
+      padauginti \n* Nebereikia konfigūruoti atskirų egzempliorių paleidimo metu \n\
+      \ * Galima lengvai pakartotinai naudoti ir gauti nuspėjamą rezultatą\n\n###
+      Yra patikima \n* Automatinis atstatymas po netinkamų atnaujinimų\n"
   tool:
     name: Derinimas
   update:
     name: Atominiai atnaujinimai
-server_leapmicro_p1: Skirta nišinėms, įterptinėms, daiktų interneto ir kitoms diegimo
-  sritims
+server_leapmicro_p1: Skirta nišinėms, įterptinėms, daiktų interneto ir kitoms 
+  diegimo sritims
 view_distro: Rodyti $distro_name
-x86_64: Intel ir AMD 64 bitų staliniams bei nešiojamiesiems kompiuteriams ir serveriams
-  (x86_64)
-armv7l: UEFI Arm 32 bitų serveriams, staliniams bei nešiojamiesiems kompiuteriams,
-  plokštėms (armv7l)
+x86_64: Intel ir AMD 64 bitų staliniams bei nešiojamiesiems kompiuteriams ir 
+  serveriams (x86_64)
+armv7l: UEFI Arm 32 bitų serveriams, staliniams bei nešiojamiesiems 
+  kompiuteriams, plokštėms (armv7l)
 alternative_downloads: papildomus atvaizdžius
 alternative_downloads_desc: 'Kiti atvaizdžių tipai: $options. Peržiūrėkite $alternative_downloads!'
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-desktops_p1: "Galimybė prisidėti prie „openSUSE“ palengvina darbalaukio kūrimą visiems
-  \nnaudotojams. Naudotojams suteikiama galimybė pasirinkti norimą darbalaukio \n
-  aplinką iš trijų diegimo programoje pateiktų parinkčių, o dar daugiau jų galima
-  \nrasti išplėstiniame programinės įrangos rodinyje.\n"
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+desktops_p1: "Galimybė prisidėti prie „openSUSE“ palengvina darbalaukio kūrimą visiems\
+  \ \nnaudotojams. Naudotojams suteikiama galimybė pasirinkti norimą darbalaukio \n\
+  \ aplinką iš trijų diegimo programoje pateiktų parinkčių, o dar daugiau jų galima\
+  \ \nrasti išplėstiniame programinės įrangos rodinyje.\n"
 installation_p1: "„openSUSE“ diegimo metu pateikiamos visos parinktys, kurių\njums
   galėtų prireikti. Norite įdiegti sistemą naudodamiesi pele ir\nklaviatūra? Paleiskite
   diegimo programą grafinėje veiksenoje. \nNeturite pelės po ranka? Įsijunkite terminalą
-  ir įdiekite taip. \nNeturite fizinės prieigos prie kompiuterio? Prisijunkite prie
-  \ndiegimo programos nuotoliu ir pradėkite diegimą. Tai paprasta.\n"
+  ir įdiekite taip. \nNeturite fizinės prieigos prie kompiuterio? Prisijunkite prie\
+  \ \ndiegimo programos nuotoliu ir pradėkite diegimą. Tai paprasta.\n"
 snapper_p1: "Rinkmenų sistemos momentinių kopijų funkcija užtikrina, kad jūsų rinkmenų
-  sistema \nbus prižiūrėta dėl sistemingų atsarginių kopijų, kurios kuriamos automatiškai
-  \ndiegiant programinę įrangą ir atnaujinimus. Tiesiog paleiskite kompiuterį iš ankstesnės
-  \nmomentinės nuotraukos ir per kelias minutes grąžinsite sistemą į veikiančią būseną.\n"
-zypper_p1: "Ją galima greitai ir lengvai išmokti. Pateikiamas zypper-apt, suderinamumo
-  \nsluoksnis, skirtas naudoti su apt ir apt-get komandomis. Jos pagrindas yra \n
-  libsolv, kuri užtikrina greitą ir atkartojamą priklausomybių radimą. \nSąsaja yra
-  aiški ir atitinkamai nuspalvinta tam, būtų lengva skaityti. \nTai tobula, ką dar
-  galima pasakyti?\n"
+  sistema \nbus prižiūrėta dėl sistemingų atsarginių kopijų, kurios kuriamos automatiškai\
+  \ \ndiegiant programinę įrangą ir atnaujinimus. Tiesiog paleiskite kompiuterį iš
+  ankstesnės \nmomentinės nuotraukos ir per kelias minutes grąžinsite sistemą į veikiančią
+  būseną.\n"
+zypper_p1: "Ją galima greitai ir lengvai išmokti. Pateikiamas zypper-apt, suderinamumo\
+  \ \nsluoksnis, skirtas naudoti su apt ir apt-get komandomis. Jos pagrindas yra \n\
+  \ libsolv, kuri užtikrina greitą ir atkartojamą priklausomybių radimą. \nSąsaja
+  yra aiški ir atitinkamai nuspalvinta tam, būtų lengva skaityti. \nTai tobula, ką
+  dar galima pasakyti?\n"
 transactional_p1: "Diegimo programa dabar palaiko naują sistemos vaidmenį „Transakcinis
   serveris“,\nkuris yra „openSUSE Kubic“ pastangų rezultatas. Šis sistemos vaidmuo
-  turi\nnaują atnaujinimo sistemą, kuri atnaujinimus taiko atomiškai (kaip vientisą\n
-  operaciją) ir leidžia juos lengvai atšaukti, jei to prireiktų. Šios funkcijos pagrįstos
-  \npaketų valdymo priemonėmis, kuriomis remiasi visi kiti SUSE ir openSUSE \nplatinamieji
-  paketai. Tai reiškia, kad didžioji dauguma RPM paketų, kurie veikia \nsu kitais
-  sistemos vaidmenimis openSUSE platinamuosiuose paketuose, taip pat \nveiks ir su
-  sistemos vaidmeniu „Transakcinis serveris“.\n"
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+  turi\nnaują atnaujinimo sistemą, kuri atnaujinimus taiko atomiškai (kaip vientisą\n\
+  \ operaciją) ir leidžia juos lengvai atšaukti, jei to prireiktų. Šios funkcijos
+  pagrįstos \npaketų valdymo priemonėmis, kuriomis remiasi visi kiti SUSE ir openSUSE\
+  \ \nplatinamieji paketai. Tai reiškia, kad didžioji dauguma RPM paketų, kurie veikia\
+  \ \nsu kitais sistemos vaidmenimis openSUSE platinamuosiuose paketuose, taip pat\
+  \ \nveiks ir su sistemos vaidmeniu „Transakcinis serveris“.\n"
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 preconfigured_image: Iš anksto sukonfigūruotas atvaizdis (raw)
 preconfigured_qcow_image: Iš anksto sukonfigūruotas atvaizdis (qcow)
 software_p1: "Jei tektų pereiti per visas internetines svetaines, kad susirinktume
@@ -328,33 +345,36 @@ choosing_media_micro_p1: "Naująjį savaiminio diegimo atvaizdį gali naudoti di
   iki disko dydžio.\n <br>\nJei turite „Raspberry Pi“ ar panašų įrenginį, kuris neturi
   galimybės paleisti USB, iš anksto sukonfigūruotą atvaizdį galite įrašyti tiesiai
   į SD kortelę.\nNaudotojams, kurie norėtų labiau kontroliuoti diegimą, siūloma galimybę
-  naudoti <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n
-  <br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
+  naudoti <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\">Combustion</a>.\n\
+  \ <br>\nDiegimo „Combustion“ pagrindu pavyzdį rasite <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
   >čia</a>.\n<br>\nBe to, naudotojams, nesukonfigūravusiems savo sistemoje naudoti
   \"Combustion\", bus paraginta „jeos-firstboot“.\n"
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements_net_conn: Visapusiškas ryšys tarp visų klasterio kompiuterių
 requirements_net_mac: Unikalus kiekvieno mazgo kompiuterio vardas ir MAC adresas
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-points_transparent_p1: "Kiekvieno paketo, kuris įtraukiamas į platinamuosius paketus,
-  \npirminiai tekstai ir sukūrimo scenarijai yra atvirai matomi visiems.\nAbejojate
+points_transparent_p1: "Kiekvieno paketo, kuris įtraukiamas į platinamuosius paketus,\
+  \ \npirminiai tekstai ir sukūrimo scenarijai yra atvirai matomi visiems.\nAbejojate
   dėl šaltinio? Tiesiog patikrinkite jį kūrimo paslaugoje.\n"
-points_free_p1: "Paketai platinamuosiuose paketuose suskirstyti į atviro kodo ir uždaro
-  \nkodo saugyklas. Nenorite naudoti nelaisvų paketų? Galite lengvai \nišjungti uždaro
-  kodo saugyklą. Tai jūsų, o ne mūsų pasirinkimas.\n"
+points_free_p1: "Paketai platinamuosiuose paketuose suskirstyti į atviro kodo ir uždaro\
+  \ \nkodo saugyklas. Nenorite naudoti nelaisvų paketų? Galite lengvai \nišjungti
+  uždaro kodo saugyklą. Tai jūsų, o ne mūsų pasirinkimas.\n"
 points_welcoming_p1: "Stengiamės kuo labiau įtikti bendruomenei ir galime tai padaryti
   tik\nkai bendruomenė išreiškia savo nuomonę apie tai, ko jai reikia. \nTodėl mes
   užtikriname, kad prisidėti būtų kuo paprasčiau.\n"
 preconfigured_rt_image: Iš anksto sukonfigūruotas RealTime atvaizdis (raw)
 yast_p1: "Vienas didžiausių sistemos konfigūravimo įrankių padeda jums – naudotojams
-  – \nkonfigūruoti kiekvieną savo sistemos dalį. Jums nebereikia paleidinėti daugybės
-  \nkonfigūravimo scenarijų ar įvesti abejotinų komandų tam, kad sistema būtų \nsuderinta
-  taip, kaip jums reikia.\n"
+  – \nkonfigūruoti kiekvieną savo sistemos dalį. Jums nebereikia paleidinėti daugybės\
+  \ \nkonfigūravimo scenarijų ar įvesti abejotinų komandų tam, kad sistema būtų \n\
+  suderinta taip, kaip jums reikia.\n"
 selfinstall_rt_image: Savaime įsidiegiantis RealTime atvaizdis
-packages_image_desc: Laikmena su paketais, kurią galite kaip saugyklą neturėdami interneto
+packages_image_desc: Laikmena su paketais, kurią galite kaip saugyklą neturėdami
+  interneto
 packages_image: Paketų atvaizdis
 encrypted_image: Pilnai užšifruotas disko atvaizdis (raw)
 leap_156_ovw_video_desc: Leap 15.6 išleidimas tiesiogiai
