@@ -52,18 +52,24 @@ documentation_startup_guide: openSUSE-ის დამწყების სა�
 leap_switch_instructions: ონლაინ-განახლების ინსტრუქციები.
 requirements_net: ქსელი
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
-upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
-upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 requirements_hdd_var: დანაყოფი /var
 upgrade_table_windows: Windows-დან
 requirements_hdd_root: / (root) დანაყოფი
 upgrade_table_mac: OS X-დან
 verify_download_pubkey: უნდა იყოს
-verify_download_checksums_help_link: https://en.opensuse.org/SDB:Download_help#Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
 verify_download_checksums_help: დახმარება საკონტროლო ჯამების შესახებ
 points_welcoming: მივესალმებით მოხალისეებს
 selfinstall_image: თვით-დაყენებადი დისკის ასლი
