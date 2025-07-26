@@ -34,20 +34,27 @@ upgrade_table_linux: Vanaf een oudere versie of andere Linux-distributie
 upgrade_table_windows: Vanuit Windows
 upgrade_table_mac: Vanuit OS X
 upgrade_table_linux_dvd: Hoe een DVD op Linux te branden.
-upgrade_table_linux_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Using_Linux
+upgrade_table_linux_dvd_link: 
+  https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Using_Linux
 upgrade_table_windows_dvd: Hoe een DVD op Windows te branden.
-upgrade_table_windows_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_Microsoft_Windows
+upgrade_table_windows_dvd_link: 
+  https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_Microsoft_Windows
 upgrade_table_mac_dvd: Hoe een DVD op OS X te branden.
-upgrade_table_mac_dvd_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_MacOS_X_.2810.3_en_hoger.29
+upgrade_table_mac_dvd_link: 
+  https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_MacOS_X_.2810.3_en_hoger.29
 upgrade_table_linux_usb: Hoe een opstartbare USB-stick op Linux aan te maken.
 upgrade_table_linux_usb_link: https://nl.opensuse.org/SDB:Live_USB_stick
-upgrade_table_windows_usb: Hoe een opstartbare USB-stick op Windows aan te maken.
-upgrade_table_windows_usb_link: https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table_windows_usb: Hoe een opstartbare USB-stick op Windows aan te 
+  maken.
+upgrade_table_windows_usb_link: 
+  https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: Hoe een opstartbare USB-stick op OS X aan te maken.
-upgrade_table__mac_usb_link: https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+upgrade_table__mac_usb_link: 
+  https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifieer uw download alvorens deze te gebruiken
 verify_download_checksums_help: Hulp bij controlesommen
-verify_download_checksums_help_link: https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Controlesommen_.28Checksums.29
+verify_download_checksums_help_link: 
+  https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Controlesommen_.28Checksums.29
 index_desktop: Desktop
 site_copyright: © 2025 openSUSE bijdragers
 iso_image: ISO image
@@ -96,12 +103,15 @@ transactional: Transactionele server
 view_distro: Bekijk $distro_name
 ppc64le: PowerPC servers, little-endian (ppc64le)
 alternative_downloads: Alternatieve Downloads
-alternative_downloads_desc: We hebben ook $options images. Check onze $alternative_downloads!
-minimal_vm_info: Vergelijkbaar met de SUSE Linux Enterprise Server Minimale-VM images.
-  Voor Arm JeOS images, ga alstublieft naar <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm
+alternative_downloads_desc: We hebben ook $options images. Check onze 
+  $alternative_downloads!
+minimal_vm_info: Vergelijkbaar met de SUSE Linux Enterprise Server Minimale-VM 
+  images. Voor Arm JeOS images, ga alstublieft naar <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki
+  page</a>
+jeos_info: Minimale VM images. Voor de JeOS Arm images, ga alstublieft naar de 
+  <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 
   wiki page</a>
-jeos_info: Minimale VM images. Voor de JeOS Arm images, ga alstublieft naar de <a
-  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal_vm_images: Minimale Virtuele Machine
 live_info: "Houd er alstublieft rekening met de beperkingen van de live images:\n\
   \ * Ze moeten niet gebruikt worden om te installeren of upgraden. Gebruikt hiervoor
@@ -124,7 +134,8 @@ desktops_p1: "Het proces van bijdragen bij openSUSE zorgt voor bureaublad ontwik
 points_free_p1: "Pakketten in de distributies zijn verdeeld in vrije en niet-vrije
   opslagruimtes\nWilt u alleen vrije pakketten? U kunt dan de niet-vrije opslagruimte
   eenvoudig\nuitzetten. Aan u de keus.\n"
-requirements_net_conn: Volledige connectiviteit tussen alle machines in het cluster
+requirements_net_conn: Volledige connectiviteit tussen alle machines in het 
+  cluster
 snapper_p1: "De bestandssysteem snapshots houden uw bestandssysteem onder controle\n\
   \ Doordat er continue automatische backups worden gemaakt wanneer men \nsoftware
   en updates installeert. Boot van een eerder snapshot en breng uw\nsysteem weer in
@@ -141,17 +152,17 @@ transactional_p1: "De installer ondersteunt nu een nieuwe systeem rol, transacti
   op vertrouwen. Dit betekent dat de\novergrote meerderheid van RPM-pakketten dat
   werken met eerdere\nsysteemrollen van openSUSE distributies ook werken met de rol
   van\ntransactionele server.\n"
-server_leap_p2: Reguliere release met de voordelen van enterprise standaard engineering
-  en community ontwikkelde innovatie.
+server_leap_p2: Reguliere release met de voordelen van enterprise standaard 
+  engineering en community ontwikkelde innovatie.
 index_p1: Voor desktops, servers en alles ertussenin
 index_desktop_p1: Selectie van distributies voor desktop gebruik
 index_server_p1: Selectie van distributies voor server gebruik
 desktop_p1: "De twee distributies om ze allen te regeren (nu in groen!)\n"
 s390x: IBM zSystems en LinuxONE (s390x)
-desktop_tumbleweed_p2: Rollende release met de nieuwste pakketten geleverd door het
-  openSUSE project.
-microos_desc: openSUSE Tumbleweed gebaseerd OS met transactionele (Atomic) updates
-  op een alleen-lezen btrfs root bestandssysteem
+desktop_tumbleweed_p2: Rollende release met de nieuwste pakketten geleverd door 
+  het openSUSE project.
+microos_desc: openSUSE Tumbleweed gebaseerd OS met transactionele (Atomic) 
+  updates op een alleen-lezen btrfs root bestandssysteem
 choosing_media_p1: "Het Offline image is het meest aan te raden omdat het de meeste
   pakketten \nin de distributie bevat die nodig zijn en waarvoor geen netwerkverbinding\
   \ \nnodig is tijdens de installatie.\n"
@@ -184,11 +195,13 @@ requirements_hdd: Opslag
 requirements_hdd_desc: Meer dan 40 GB vrije schijfruimte
 requirements_hdd_root: / (root) partitie
 requirements_hdd_var: /var partitie
-requirements_hdd_swap_info: swap ruimte uitgeschakeld in verband met goede werking
-  Kubernetes
+requirements_hdd_swap_info: swap ruimte uitgeschakeld in verband met goede 
+  werking Kubernetes
 requirements_hdd_ssd_info: SSD met hoge schrijfsnelheid
-requirements_dvd_desc: Ofwel een DVD drive of een USB poort voor de installatiemedia
-requirements_net_desc: Internet toegang is handig, en vereist voor de netwerk installer
+requirements_dvd_desc: Ofwel een DVD drive of een USB poort voor de 
+  installatiemedia
+requirements_net_desc: Internet toegang is handig, en vereist voor de netwerk 
+  installer
 requirements_net_mac: Unieke hostnaam en MAC adres voor elke node
 tw_switch_p1: "Als u openSUSE al gebruikt kunt u upgraden door op te starten van de
   DVD/USB\nen kiezen voor upgrade, of een online upgrade uitvoeren met een paar commando's.\n"
@@ -200,7 +213,8 @@ verify_download_p2: "Voor elk ISO-bestand bieden we een controlesom bestand met 
   corresponderende SHA256 som en een ondertekeningsbestand met een cryptografische
   ondertekening.\n"
 verify_download_pubkey: Deze zou moeten zijn
-verify_download_help: Voor meer hulp bij het controleren van uw download, lees alstublieft
+verify_download_help: Voor meer hulp bij het controleren van uw download, lees 
+  alstublieft
 installation: Installeer het zoals je wilt
 installation_p1: "Het openSUSE installatieproces biedt u alle opties die u maar enigszins\n\
   \ nodig heeft. Wilt u uw systeem installeren met muis en toetsenbord? Laad \nde
@@ -236,21 +250,23 @@ zypper_p1: "Het is snel en makkelijk te leren. Het bevat zypper-apt, een compati
 index_server: Server
 index_full: Of ga direct naar de downloadpagina's van de distributies
 desktop: De openSUSE Desktop distributies
-desktop_tumbleweed_p1: Voor ontwikkelaars, openSUSE bijdragers, Gamers en Linux/FOSS
-  enthousiastelingen
-desktop_leap_p1: Voor sysadmins, enterprise ontwikkelaar, en 'gewone' desktop gebruikers
-desktop_leap_p2: Reguliere release met de voordelen van enterprise-standaard engineering
-  en community ontwikkelde innovatie.
+desktop_tumbleweed_p1: Voor ontwikkelaars, openSUSE bijdragers, Gamers en 
+  Linux/FOSS enthousiastelingen
+desktop_leap_p1: Voor sysadmins, enterprise ontwikkelaar, en 'gewone' desktop 
+  gebruikers
+desktop_leap_p2: Reguliere release met de voordelen van enterprise-standaard 
+  engineering en community ontwikkelde innovatie.
 server: openSUSE server distributies
 server_p1: "Vier comfortabele, saaie distributies, zoals het altijd zou moeten zijn\n"
-server_tumbleweed_p1: Voor ontwikkelaars, openSUSE bijdragers, gamers en Linux/FOSS
-  enthousiatelingen
-server_tumbleweed_p2: Rollende release met de nieuwste pakketten geleverd door het
-  openSUSE project.
-server_leap_p1: Voor sysadmins, enterprise ontwikkelaars en 'gewone' server gebruikers
+server_tumbleweed_p1: Voor ontwikkelaars, openSUSE bijdragers, gamers en 
+  Linux/FOSS enthousiatelingen
+server_tumbleweed_p2: Rollende release met de nieuwste pakketten geleverd door 
+  het openSUSE project.
+server_leap_p1: Voor sysadmins, enterprise ontwikkelaars en 'gewone' server 
+  gebruikers
 server_microos_p1: Voor server applicaties met een enkel doel
-server_microos_p2: Ontworpen om container werklasten te kunnen verwerken met geautomatiseerde
-  administratie en updates
+server_microos_p2: Ontworpen om container werklasten te kunnen verwerken met 
+  geautomatiseerde administratie en updates
 new_version_available: $distro_name is nu beschikbaar om te downloaden
 new_version_testing: $distro_name is nu beschikbaar om te downloaden en testen
 x86_64: Intel of AMD 64-bit desktops, laptops en servers (x86_64)
@@ -362,50 +378,58 @@ Tumbleweed_features:
       aspect voor vloeiende, presterende en probleemvrije ervaringen met uw favoriete
       games.\n"
 tumbleweed_ovw_title: Modern bureaublad en server besturinfsysteem
-leap_micro_ovw_video_desc: Leap Micro 6.1 installatiedemo met volledige versleuteling
-  van de schijf en een twee-factor authenticatie in cockpit.
-microos_ovw_desc_p2: MicroOS biedt een offline image. Het hoofdverschil tussen de
-  offline en zichzelf installerende/raw images is dat de offline image een installatieprogramma
-  heeft. Raw en zichzelf installeren biedt aanpassen via combustion of handmatig in
-  de image nadat het is naar het opslagapparaat is geschreven. Er is een optie voor
-  een realtime kernel.
+leap_micro_ovw_video_desc: Leap Micro 6.1 installatiedemo met volledige 
+  versleuteling van de schijf en een twee-factor authenticatie in cockpit.
+microos_ovw_desc_p2: MicroOS biedt een offline image. Het hoofdverschil tussen 
+  de offline en zichzelf installerende/raw images is dat de offline image een 
+  installatieprogramma heeft. Raw en zichzelf installeren biedt aanpassen via 
+  combustion of handmatig in de image nadat het is naar het opslagapparaat is 
+  geschreven. Er is een optie voor een realtime kernel.
 cloud_images: Cloud
 packages_image: Images van pakketten
 packages_image_desc: Media die een offline opslagruimte bevatten met pakketten.
-leap_ovw_title: Een gloednieuwe manier van openSUSE bouwen en een nieuw type hybride
-  Linux distributie
-microos_ovw_title: Micro Service OS die Transactioneel (Atomic) bijwerken levert op
-  een alleen-lezen btrfs root bestandssysteem
-microos_ovw_desc_p1: Ontworpen om container werklasten te bevatten met geautomatiseerd
-  beheer & patching. Door openSUSE MicroOS te installeren krijgt u een snelle, kleine
-  omgeving voor containers, gebruiken of elke andere werklast die voordeel heeft van
-  transactioneel bijwerken. Zoals rollende uitgave distributie waar de software altijd
-  bijgewerkt is.
+leap_ovw_title: Een gloednieuwe manier van openSUSE bouwen en een nieuw type 
+  hybride Linux distributie
+microos_ovw_title: Micro Service OS die Transactioneel (Atomic) bijwerken levert
+  op een alleen-lezen btrfs root bestandssysteem
+microos_ovw_desc_p1: Ontworpen om container werklasten te bevatten met 
+  geautomatiseerd beheer & patching. Door openSUSE MicroOS te installeren krijgt
+  u een snelle, kleine omgeving voor containers, gebruiken of elke andere 
+  werklast die voordeel heeft van transactioneel bijwerken. Zoals rollende 
+  uitgave distributie waar de software altijd bijgewerkt is.
 preconfigured_qcow_image: Voorgeconfigureerde image (qcow)
-leap_micro_ovw_desc_p2: Leap Micro biedt sinds 6.0 een zichzelf installerende image,
-  een ruwe image en een dvd met pakketten, die kan dienen als een offline opslagruimte.
-  De zichzelf installerende image is onze aanbeveling voor elke op USB gebaseerde
-  installatie omdat we niet langer traditionele installatieprogramma's gebruiken.
-  Gebruikers kunnen hun installatie automatiseren en aanpassen met ofwel <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a>
-  of <a href="https://github.com/openSUSE/combustion">Combustion</a> of de jeos-firstboot
-  assistent gebruiken. Probeer het op <a href="https://opensuse.github.io/fuel-ignition/">Fuel
-  Ignition</a> onze online Ignition configuratie generator.
-tumbleweed_ovw_desc: Met Tumbleweed hoeft u geen moeilijke beslissing te nemen over
-  dingen die u waardevol vindt, ofwel vrijheid of veiligheid, ofwel controle of beveiliging,
-  technologie of stabiliteit -- Tumbleweed geeft u het lekkers en laat u het ook eten!
-leap_micro_ovw_title: Leap Micro is een uiterst betrouwbaar, lichtgewicht besturingssysteem
-  gebouwd voor werklasten in containers en gevirtualiseerd.
-leap_micro_ovw_desc_p1: Deze versie van de gemeenschap is gebaseerd op SUSE Linux
-  Micro, die u de macht geeft van de in de onderneming geharde beveiliging en naleving
-  van componenten van SUSE Linux Enterprise. Deze menging van technologie levert een
-  modern, niet te veranderen, vriendelijk voor ontwikkelaars OS-platform.
+leap_micro_ovw_desc_p2: Leap Micro biedt sinds 6.0 een zichzelf installerende 
+  image, een ruwe image en een dvd met pakketten, die kan dienen als een offline
+  opslagruimte. De zichzelf installerende image is onze aanbeveling voor elke op
+  USB gebaseerde installatie omdat we niet langer traditionele 
+  installatieprogramma's gebruiken. Gebruikers kunnen hun installatie 
+  automatiseren en aanpassen met ofwel <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> of <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> of de 
+  jeos-firstboot assistent gebruiken. Probeer het op <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> onze online
+  Ignition configuratie generator.
+tumbleweed_ovw_desc: Met Tumbleweed hoeft u geen moeilijke beslissing te nemen 
+  over dingen die u waardevol vindt, ofwel vrijheid of veiligheid, ofwel 
+  controle of beveiliging, technologie of stabiliteit -- Tumbleweed geeft u het 
+  lekkers en laat u het ook eten!
+leap_micro_ovw_title: Leap Micro is een uiterst betrouwbaar, lichtgewicht 
+  besturingssysteem gebouwd voor werklasten in containers en gevirtualiseerd.
+leap_micro_ovw_desc_p1: Deze versie van de gemeenschap is gebaseerd op SUSE 
+  Linux Micro, die u de macht geeft van de in de onderneming geharde beveiliging
+  en naleving van componenten van SUSE Linux Enterprise. Deze menging van 
+  technologie levert een modern, niet te veranderen, vriendelijk voor 
+  ontwikkelaars OS-platform.
 server_leapmicro_p1: Voor gebruik aan de rand, ingebed, IoT en andere
-leap_micro_ovw_desc_p3: Probeer Leap Micro in VM's die draaien op ofwel <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  of KVM. Een Raspberry Pi of ander Systeem op Chip hardware kan de voorgeconfigureerde
-  image gebruiken. Zowel voorgeconfigureerde als zichzelf installerende images zijn
-  bedoeld om gebruikt te worden met <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  geschreven naar een USB, die aangedreven wordt om bij elke eerste keer opstarten
-  configeren te bieden, met de optie voor standaard beveiligde wachtwoord wijzigingen.
+leap_micro_ovw_desc_p3: Probeer Leap Micro in VM's die draaien op ofwel <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> of KVM. Een 
+  Raspberry Pi of ander Systeem op Chip hardware kan de voorgeconfigureerde 
+  image gebruiken. Zowel voorgeconfigureerde als zichzelf installerende images 
+  zijn bedoeld om gebruikt te worden met <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  geschreven naar een USB, die aangedreven wordt om bij elke eerste keer 
+  opstarten configeren te bieden, met de optie voor standaard beveiligde 
+  wachtwoord wijzigingen.
 leap_156_ovw_video_desc: Een Leap 15.6 uitgave livestream
 kvm_sdboot_image: KVM image met systemd-boot
 choosing_media_micro_p2: "Leap Micro komt niet langer met een traditioneel installatieprogramma,
@@ -423,19 +447,24 @@ choosing_media_micro_p1: "De nieuwe zichzelf installerende image is de keuze op 
   is te zien op <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">here</a>.\n\
   \ <br>\nDe jeos-firstboot zal diegenen begroeten die hun systeem niet hebben geconfigureerd
   door Combustion te gebruiken.\n"
-server_leapmicro_p2: Extreem betrouwbaar, lichtgewicht besturingssysteem gebouwd voor
-  werklasten in containers en gevirtualiseerd.
-leap_ovw_desc: Leap gebruikt broncode uit SUSE Linux Enterprise (SLE), die Leap een
-  niveau van stabiliteit geeft ongeëvenaard door andere Linux distributies en combineert
-  dat met ontwikkelingen uit de gemeenschap om gebruikers, ontwikkelaars en systeembeheerders
-  de beste stabiele beschikbare Linux ervaring te geven.
-microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a>
-  of KVM draaien.  Een Raspberry Pi of ander Systeem op Chip hardware gebruiken kan
-  de voorgeconfigureerde imagegebruiken samen met de functionalteit <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  voor het opstartproces. Zowel voorgeconfigureerd als zichzelf installerende images
-  zijn bedoeld om gebruikt te worden met <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>
-  geschreven naar een USB, die is gemaakt om configuratie te bieden bij elke eerste
-  keer opstarten, met de standaard optie voor beschermde wijziging van het wachtwoord.
+server_leapmicro_p2: Extreem betrouwbaar, lichtgewicht besturingssysteem gebouwd
+  voor werklasten in containers en gevirtualiseerd.
+leap_ovw_desc: Leap gebruikt broncode uit SUSE Linux Enterprise (SLE), die Leap 
+  een niveau van stabiliteit geeft ongeëvenaard door andere Linux distributies 
+  en combineert dat met ontwikkelingen uit de gemeenschap om gebruikers, 
+  ontwikkelaars en systeembeheerders de beste stabiele beschikbare Linux 
+  ervaring te geven.
+microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> of KVM draaien.  
+  Een Raspberry Pi of ander Systeem op Chip hardware gebruiken kan de 
+  voorgeconfigureerde imagegebruiken samen met de functionalteit <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> voor 
+  het opstartproces. Zowel voorgeconfigureerd als zichzelf installerende images 
+  zijn bedoeld om gebruikt te worden met <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  geschreven naar een USB, die is gemaakt om configuratie te bieden bij elke 
+  eerste keer opstarten, met de standaard optie voor beschermde wijziging van 
+  het wachtwoord.
 signature: Ondetekening
 encrypted_image: Volledig versleutelde schijf-image (raw)
 leap_16_coming_soon: "De release van Leap 16.0, de opvolger van Leap 15.6, wordt verwacht
