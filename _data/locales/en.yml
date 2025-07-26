@@ -163,18 +163,18 @@ tw_switch_instructions: Upgrade Instructions.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: From an older version or other Linux distro
 upgrade_table_windows: From Windows
-upgrade_table_mac: From OS X
+upgrade_table_mac: From macOS
 upgrade_table_linux_dvd: How to burn a DVD on Linux.
 upgrade_table_linux_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: How to burn a DVD on Windows.
 upgrade_table_windows_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: How to burn a DVD on OS X.
+upgrade_table_mac_dvd: How to burn a DVD on macOS.
 upgrade_table_mac_dvd_link: https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: How to create a bootable USB stick on Linux.
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: How to create a Bootable USB stick on Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: How to create a bootable USB stick on OS X.
+upgrade_table__mac_usb: How to create a bootable USB stick on macOS.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verify Your Download Before Use
 verify_download_p1: "Many applications can verify the checksum of a download. To verify\n\
