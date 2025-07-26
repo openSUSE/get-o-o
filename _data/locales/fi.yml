@@ -46,8 +46,8 @@ site_copyright: © 2024 openSUSE avustajat
 offline_updated_desc: "Offline-asennuslevykuva viimeisimmillä päivityksillä.\nSopii
   sekä asennukseen että päivittämiseen.\n"
 offline_updated_image: Päivitetty offline-levykuva
-offline_desc: "Sisältää suuren määrän ohjelmistoja työasema- ja palvelinkäyttöön.\n
-  Sopii sekä asennukseen että päivittämiseen.\n"
+offline_desc: "Sisältää suuren määrän ohjelmistoja työasema- ja palvelinkäyttöön.\n\
+  \ Sopii sekä asennukseen että päivittämiseen.\n"
 kvm_image: KVM ja XEN levykuva
 iso_image: ISO-levykuva
 tw_switch_instructions: Päivitysohjeet.
