@@ -32,14 +32,14 @@ tw_switch: Gemakkelijke manieren om over te schakelen naar openSUSE Tumbleweed
 tw_switch_instructions_link: https://nl.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Vanaf een oudere versie of andere Linux-distributie
 upgrade_table_windows: Vanuit Windows
-upgrade_table_mac: Vanuit OS X
+upgrade_table_mac: Uit macOS
 upgrade_table_linux_dvd: Hoe een DVD op Linux te branden.
 upgrade_table_linux_dvd_link: 
   https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Using_Linux
 upgrade_table_windows_dvd: Hoe een DVD op Windows te branden.
 upgrade_table_windows_dvd_link: 
   https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_Microsoft_Windows
-upgrade_table_mac_dvd: Hoe een DVD op OS X te branden.
+upgrade_table_mac_dvd: Hoe eenDVD te branden op macOS.
 upgrade_table_mac_dvd_link: 
   https://nl.opensuse.org/SDB:Hulp_bij_downloaden#Met_MacOS_X_.2810.3_en_hoger.29
 upgrade_table_linux_usb: Hoe een opstartbare USB-stick op Linux aan te maken.
@@ -48,7 +48,7 @@ upgrade_table_windows_usb: Hoe een opstartbare USB-stick op Windows aan te
   maken.
 upgrade_table_windows_usb_link: 
   https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Hoe een opstartbare USB-stick op OS X aan te maken.
+upgrade_table__mac_usb: Hoe een opstartbare USB-stick op macOS aan te maken.
 upgrade_table__mac_usb_link: 
   https://nl.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifieer uw download alvorens deze te gebruiken
@@ -455,8 +455,8 @@ leap_ovw_desc: Leap gebruikt broncode uit SUSE Linux Enterprise (SLE), die Leap
   ontwikkelaars en systeembeheerders de beste stabiele beschikbare Linux 
   ervaring te geven.
 microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a 
-  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> of KVM draaien.  
-  Een Raspberry Pi of ander Systeem op Chip hardware gebruiken kan de 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> of KVM draaien. Een
+  Raspberry Pi of ander Systeem op Chip hardware gebruiken kan de 
   voorgeconfigureerde imagegebruiken samen met de functionalteit <a 
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> voor 
   het opstartproces. Zowel voorgeconfigureerd als zichzelf installerende images 
@@ -475,3 +475,8 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   is het nieuwe installatieprogramma dat gebruikt kan worden om Leap 16 en Tumbleweed
   te installeren.\nEr is een plan om offline installatie in Agama te ondersteunen.
   Andere installatiemedia zoals zelfinstallatie-image zallater worden toegevoegd.\n"
+requirements_cpu_slfo_x86_64: 'Voor x86_64: microarchitectuurnivau x86-64-v2 og hoger'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Voor ppc64le: POWER9 of hoger'
+requirements_cpu_slfo_s390x: 'Voor s390x: z14 of hoger'
