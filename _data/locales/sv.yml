@@ -23,13 +23,13 @@ requirements_dvd: Antingen en DVD-spelare eller en USB-kontakt för
 tw_switch: Enkla sätt att byta till openSUSE Tumbleweed
 upgrade_table_linux: Från en äldre version eller annan Linux distro
 upgrade_table_windows: Från Windows
-upgrade_table_mac: Från OS X
+upgrade_table_mac: Från macOS
 upgrade_table_linux_dvd: Hur man bränner en DVD med Linux.
 upgrade_table_windows_dvd: Hur man bränner en DVD med Windows.
-upgrade_table_mac_dvd: Hur man bränner en DVD med OS X.
+upgrade_table_mac_dvd: Hur man bränner en DVD på macOS.
 upgrade_table_linux_usb: Hur man skapar ett bootbart USB minne med Linux.
 upgrade_table_windows_usb: Hur man skapar ett bootbart USB minne med Windows.
-upgrade_table__mac_usb: Hur man skapar ett bootbart USB minne med OS X.
+upgrade_table__mac_usb: Hur man skapar ett bootbart USB minne på macOS.
 verify_download_checksums_help: Hjälp för kontrollsummor
 yast_software: Programvara
 index_desktop: Skrivbord
