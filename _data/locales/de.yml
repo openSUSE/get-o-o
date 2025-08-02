@@ -70,14 +70,14 @@ tw_switch_instructions_link: https://de.opensuse.org/openSUSE:Tumbleweed-Upgrade
 upgrade_table_linux: Von einer älteren Version oder einer anderen Linux 
   Distribution
 upgrade_table_windows: Von Windows
-upgrade_table_mac: Von OS X
+upgrade_table_mac: Von macOS
 upgrade_table_linux_dvd: Wie man eine DVD unter Linux brennt.
 upgrade_table_linux_dvd_link: 
   https://de.opensuse.org/SDB:Download-Hilfe#Unter_Linux_2
 upgrade_table_windows_dvd: Wie man eine DVD unter Windows brennt.
 upgrade_table_windows_dvd_link: 
   https://de.opensuse.org/SDB:Download-Hilfe#Unter_Microsoft.C2.AE_Windows.C2.AE_2
-upgrade_table_mac_dvd: Wie man eine DVD unter OS X brennt.
+upgrade_table_mac_dvd: Wie man eine DVD unter macOS brennt.
 upgrade_table_mac_dvd_link: 
   https://de.opensuse.org/SDB:Download-Hilfe#Unter_MacOS_X_10.3_und_neuer
 upgrade_table_linux_usb: Wie man einen bootbaren USB Stick unter Linux erstellt.
@@ -86,7 +86,7 @@ upgrade_table_windows_usb: Wie man einen bootbaren USB Stick unter Windows
   erstellt.
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Wie man einen bootbaren USB Stick unter OS X erstellt.
+upgrade_table__mac_usb: Wie man einen bootbaren USB-Stick unter macOS erstellt.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Überprüfen Sie vor der Benutzung Ihre heruntergeladenen Dateien
