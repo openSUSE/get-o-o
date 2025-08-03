@@ -82,14 +82,14 @@ tw_switch_instructions: Instruções de atualização.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: De uma versão mais antiga ou outra distribuição Linux
 upgrade_table_windows: Do Windows
-upgrade_table_mac: Do OS X
+upgrade_table_mac: Do macOS
 upgrade_table_linux_dvd: Como gravar um DVD no Linux.
 upgrade_table_linux_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Como gravar um DVD no Windows.
 upgrade_table_windows_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Como gravar um DVD no OS X.
+upgrade_table_mac_dvd: Como gravar um DVD no macOS.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Como criar um pendrive USB inicializável no Linux.
@@ -97,7 +97,7 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Como criar uma memória USB inicializável no Windows.
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Como criar um pendrive USB inicializável no OS X.
+upgrade_table__mac_usb: Como criar um pendrive USB inicializável no macOS.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifique seu download antes de usar
@@ -228,11 +228,11 @@ Tumbleweed_features:
       os próximos lançamentos.\n"
   home:
     name: Estável
-    description: "As atualizações são testadas exaustivamente em relação aos padrões
-      de qualidade do nível da indústria, aproveitando um serviço de compilação que
-      outras distribuições Linux nos invejam. Não apenas cada nova versão de um pacote
-      é testada individualmente, mas diferentes grupos de versões são testados entre
-      si, garantindo que seu sistema seja internamente consistente.\n"
+    description: "As atualizações são exaustivamente testadas de acordo com os padrões
+      de qualidade da indústria, aproveitando um serviço de compilação que outras
+      distribuições Linux nos invejam. Não só cada nova versão de um pacote é testada
+      individualmente, como também diferentes conjuntos de versões são testados entre
+      si, garantindo que o seu sistema seja internamente consistente.\n"
   update:
     description: "Você instala uma vez e aproveita para sempre. Você não precisa mais
       se preocupar a cada seis meses com atualizações massivas do sistema que correm
@@ -467,8 +467,8 @@ leap_micro_ovw_desc_p3: Experimente o Leap Micro em VMs executadas em <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   gravado em um USB, que é acionado para permitir configuração em qualquer 
   primeira inicialização, com a opção de alterações protegidas por senha padrão.
-leap_micro_ovw_video_desc: Uma demonstração de instalação do Short Leap Micro 
-  com combustão e cockpit.
+leap_micro_ovw_video_desc: Demonstração da instalação do Leap Micro 6.1 com 
+  Criptografia Completa do Disco e autenticação de dois fatores no cockpit.
 microos_ovw_desc_p2: MicroOS oferece uma imagem offline. A principal diferença 
   entre as imagens offline e de auto-instalação/brutas é que a imagem offline 
   possui um instalador. A instalação bruta e automática permite a personalização
@@ -479,10 +479,16 @@ signature: Assinatura
 encrypted_image: Imagem de disco totalmente criptografada (bruta)
 leap_16_coming_soon: "O lançamento público do Leap 16.0, um sucessor do Leap 15.6,
   pode ser esperado no outono de 2025. Não há planos para fazer o Leap 15.7.<br/>\n\
-  \ Verifique regularmente as atualizações em nosso<a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  Verifique regularmente as atualizações em nosso <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
   >roteiro</a> e <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   para mais informações.\n"
 choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
   é o novo instalador que pode ser usado para instalar o Leap 16 e o Tumbleweed.\n\
   \ Há um plano para dar suporte à instalação offline no Agama. Outras mídias de instalação,
   como a imagem de autoinstalação, serão adicionadas posteriormente.\n"
+requirements_cpu_slfo_x86_64: 'Para x86_64: nível de microarquitetura x86-64-v2 ou
+  superior'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 ou superior'
+requirements_cpu_slfo_s390x: 'Para s390x: z14 ou superior'
