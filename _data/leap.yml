@@ -2,6 +2,8 @@
 - version: 16.0
   order: 10
   releases:
+  - date: '2025-08-04 12:00:00 UTC'
+    state: 'RC'
   - date: '2025-04-30 12:00:00 UTC'
     state: 'Beta'
   - date: '2025-01-15 12:00:00 UTC'
