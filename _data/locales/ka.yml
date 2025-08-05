@@ -66,7 +66,7 @@ upgrade_table__mac_usb_link:
 requirements_hdd_var: დანაყოფი /var
 upgrade_table_windows: Windows-დან
 requirements_hdd_root: / (root) დანაყოფი
-upgrade_table_mac: OS X-დან
+upgrade_table_mac: macOS-დან
 verify_download_pubkey: უნდა იყოს
 verify_download_checksums_help_link: 
   https://en.opensuse.org/SDB:Download_help#Checksums
