@@ -500,6 +500,6 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   se añadirán otros medios de instalación, como la imagen de autoinstalación.\n"
 requirements_cpu_slfo_x86_64_link: 
   https://en.opensuse.org/X86-64_microarchitecture_levels
-requirements_cpu_slfo_x86_64: 'Para x86_64: microarquitectura nivel x86-64-v2 o mayor'
-requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 o mayor'
-requirements_cpu_slfo_s390x: 'Para s390x: z14 o mayor'
+requirements_cpu_slfo_x86_64: 'Para x86_64: microarquitectura nivel x86-64-v2 o superior'
+requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 o superior'
+requirements_cpu_slfo_s390x: 'Para s390x: z14 o superior'
