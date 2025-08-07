@@ -12,15 +12,15 @@ cd_desc: Para CD y memorias USB
 dvd_desc: Para DVD y memorias USB
 usb_desc: Para memoria USB
 metalink: Metalink
-pick_mirror: Escoger un servidor de réplica
+pick_mirror: Escoger un servidor réplica
 checksum: Suma de verificación
 torrent_file: Archivo torrent
-offline_image: Imagen fuera de línea
+offline_image: Imagen sin conexión
 offline_desc: "Contiene una amplia colección de software para uso en equipos de escritorio
   o servidores.\nIndicado para instalación o actualización.\n"
 network_image: Imagen de red
-network_desc: "Descarga el sistema de instalación y todos los paquetes desde repositorios\n\
-  \ en línea. Indicado para instalación o actualización.\n"
+network_desc: "Descarga el sistema de instalación y todos los paquetes de repositorios\n\
+  con conexión. Indicado para instalación o actualización.\n"
 kvm_image: imagen KVM y XEN
 kvm_desc: Para uso en KVE o hipervisores XEN HVM
 xen_image: XEN
@@ -50,9 +50,9 @@ microos_desc: Sistema operativo basado en openSUSE Tumbleweed que ofrece
   actualizaciones transaccionales (Atomic) sobre un sistema de archivos raíz 
   brtfs de solo lectura
 choosing_media: Escoger qué medio descargar
-choosing_media_p1: "La imagen fuera de línea es recomendada normalmente ya que contiene
-  la mayoría de\npaquetes disponibles en la distribución y no requiere de una conexión
-  a la red\ndurante la instalación.\n"
+choosing_media_p1: "Se suele recomendar la imagen sin conexión ya que incluye la mayoría
+  de\npaquetes disponibles en la distribución y no requiere una conexión de red\n\
+  durante la instalación.\n"
 choosing_media_p2: "La imagen de red está recomendada para los usuarios que tienen
   un ancho de banda limitado \nen sus conexiones de internet, ya que sólo descarga
   los \npaquetes que eligen instalar, y que probablemente sean \nmucho menores a 4,7GB.\n"
@@ -63,10 +63,10 @@ documentation_license: Licencia
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentación completa
 leap_switch: Maneras sencillas de cambiar a openSUSE Leap
-leap_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando \n\
-  \ desde la unidad de DVD/USB y escogiendo la opción de actualizar, o realizar una
-  actualización en línea \ncon unos pocos comandos.\n"
-leap_switch_instructions: Instrucciones para actualizar en línea.
+leap_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando\ndesde
+  la unidad de DVD/USB y escogiendo la opción de actualizar, o realizar una actualización
+  con conexión\ncon unos pocos comandos.\n"
+leap_switch_instructions: Instrucciones para actualizarse con conexión.
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 requirements: Requisitos del sistema
 requirements_cpu: Procesador
@@ -77,8 +77,8 @@ requirements_dvd: Tanto una unidad de DVD o puerto USB para el medio de
 requirements_net: Red
 tw_switch: Maneras sencillas de cambiar a openSUSE Tumbleweed
 tw_switch_p1: "Si ya tiene openSUSE instalado, puede actualizarlo arrancando desde
-  la \nunidad de DVD/USB y escogiendo la opción de actualizar, o realizar una actualización
-  en línea con unos pocos \ncomandos.\n"
+  la\nunidad de DVD/USB y escogiendo la opción de actualizar, o realizar una actualización
+  con conexión con unos\npocos comandos.\n"
 tw_switch_instructions: Instrucciones para actualizar.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Desde una versión anterior u otra distribución de Linux
@@ -402,7 +402,7 @@ minimal_vm_info: Similar a las imágenes SUSE Linux Enterprise Server para VM
   página en la Wiki sobre Arm</a>
 signature: Firma
 offline_updated_image: Imagen sin conexión actualizada
-choosing_media_micro_p2: "Leap Micro ya no viene con un instalador tradicional, los
+choosing_media_micro_p2: "Leap Micro ya no viene con un instalador tradicional. Los
   usuarios deberán usar medios autoinstalables en su lugar.\nLa nueva imagen de paquetes
   es sólo un volcado sin conexión del repositorio rpm de Leap Micro para aquellos
   con entornos aislados.\n"
@@ -443,10 +443,11 @@ leap_micro_ovw_desc_p1: Esta versión comunitaria está basada en SUSE Linux
   para empresas por SUSE Linux Enterprise. Esta mezcla de tecnologías provee una
   plataforma de SO moderna, inmutable y apta para desarrolladores.
 microos_ovw_desc_p2: MicroOS ofrece una imagen sin conexión. La diferencia 
-  principal entre las imágenes autoinstalables/raw y las sin conexión es que la 
-  imagen sin conexión tiene un instalador. Las autoinstalables y raw permiten la
-  personalización utilizando combustion o manualmente en la imagen luego de ser 
-  grabada en el disco. Existe una opción para un kernel en tiempo real.
+  principal entre las imágenes autoinstalables/sin procesar y las de sin 
+  conexión es que la imagen sin conexión tiene un instalador. Las de sin 
+  procesar y las autoinstalables se pueden personalizar utilizando combustion o 
+  manualmente en la imagen después de grabarla en el disco. Existe una opción 
+  para un kernel en tiempo real.
 leap_ovw_desc: Leap usa como fuente SUSE Linux Enterprise (SLE), lo que le da a 
   Leap un nivel de estabilidad inigualable por otras distribuciones de Linux, y 
   lo combina con desarrollos de la comunidad para brindar a los usuarios, 
@@ -464,16 +465,16 @@ microos_ovw_desc_p3: Pruebe Leap Micro en Máquinas Virtuales (VMs) funcionando
   cualquier primer arranque, con la opción de realizar cambios protegidos con 
   contraseña predeterminada.
 leap_micro_ovw_desc_p2: Leap Micro, desde la versión 6.0, ofrece una imagen 
-  autoinstalable, una imagen sin procesar (raw), y un DVD de Paquetes que puede 
-  funcionar como repositorio sin conexión. La imagen autoinstalable es nuestra 
+  autoinstalable, una imagen sin procesar (raw), y un DVD con paquetes que se 
+  puede usar como repositorio sin conexión. La imagen autoinstalable es nuestra 
   recomendación para cualquier instalación basada en USB debido a que ya no 
   utilizamos instaladores tradicionales. Los usuarios pueden automatizar y 
-  personalizar su instalación con <a 
+  personalizar la instalación con <a 
   href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> o <a 
   href="https://github.com/openSUSE/combustion">Combustion</a> , o usando el 
   asistente jeos-firstboot. Pruebe <a 
-  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>, nuetro 
-  generador de configuración Ignition en línea.
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>, nuestro 
+  generador Ignition de configuraciones (con conexión).
 leap_micro_ovw_desc_p3: Pruebe Leap Micro en Máquinas Virtuales (VMs) 
   funcionando con <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> 
   o KVM. Si utiliza una Raspberry Pi u otro hardware de Sistema en Chip, puede 
