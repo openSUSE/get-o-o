@@ -385,7 +385,7 @@ live_info: "Por favor tenga en cuenta las siguientes limitaciones de las imágen
 selfinstalling_ch_image: Hospedaje de contenedor auto instalable
 selfinstall_rt_image: Imagen en tiempo real auto instalable
 selfinstalling_k3s_image: Host k3s auto instalable
-preconfigured_rt_image: Imagen de Tiempo Real Preconfigurada (raw)
+preconfigured_rt_image: Imagen preconfigurada de tiempo real (raw)
 ppc64: Servidores PowerPC, big-endian (ppc64)
 server_x86_64: servidores Intel o AMD 64-bit (x86_64)
 packages_image_desc: Medios que contienen un repositorio sin conexión a la red 
@@ -393,8 +393,8 @@ packages_image_desc: Medios que contienen un repositorio sin conexión a la red
 minimal_vm_images: Máquina Virtual Mínima
 cloud_image: imagen Cloud
 cloud_minimal_desc: imagen Mínima KVM y Xen con cloud-init
-packages_image: Imagen de Paquetes
-preconfigured_qcow_image: Imagen Preconfigurada (qcow)
+packages_image: Imagen de paquetes
+preconfigured_qcow_image: Imagen preconfigurada (qcow)
 kvm_sdboot_image: imagen KVM con systemd-boot
 minimal_vm_info: Similar a las imágenes SUSE Linux Enterprise Server para VM 
   Mínima. Para imágenes JeOS para Arm, por favor visite <a 
@@ -403,13 +403,13 @@ minimal_vm_info: Similar a las imágenes SUSE Linux Enterprise Server para VM
 signature: Firma
 offline_updated_image: Imagen sin conexión actualizada
 choosing_media_micro_p2: "Leap Micro ya no viene con un instalador tradicional, los
-  usuarios deberán usar medios autoinstalables en su lugar.\nLa nueva Imagen de Paquetes
-  es nada más un volcado fuera de línea del repositorio rpm de Leap Micro para aquellos
+  usuarios deberán usar medios autoinstalables en su lugar.\nLa nueva imagen de paquetes
+  es sólo un volcado sin conexión del repositorio rpm de Leap Micro para aquellos
   con entornos aislados.\n"
 offline_updated_desc: "Imagen de instalación sin conexión con las últimas actualizaciones.\n\
   \ Apto para instalación o actualización.\n"
 server_aarch64: servidores y placas UEFI Arm 64-bit (aarch64)
-encrypted_image: Imagen de Disco Completamente Cifrada (raw)
+encrypted_image: Imagen completamente cifrada de disco (raw)
 choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferida
   para instalaciones basadas en USB o DVD.\nUn sencillo asistente de autoinstalación
   descarga una imagen preconfigurada al disco, y aumenta la partición al tamaño del
@@ -420,17 +420,17 @@ choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferi
   <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aquí</a>.\n<br>\nEl jeos-firstboot
   saludará a aquellos que no configuraron su sistema usando Combustion.\n"
 server_leapmicro_p1: Para edge, embebidos, IoT y otros despliegues
-server_leapmicro_p2: Sistema operativo liviano y ultra confiable construido para
-  cargas de trabajo virtualizadas y contenedores.
+server_leapmicro_p2: Sistema operativo ultrafiable y ligero diseñado para cargas
+  de trabajo virtualizadas y en contenedores.
 leap_ovw_title: Una nueva forma de crear openSUSE y un nuevo tipo de 
   distribución híbrida de Linux
 tumbleweed_ovw_title: Sistema operativo de escritorio y servidor de última 
   generación
-leap_micro_ovw_title: Leap Micro es un sistema operativo ultra confiable y 
-  liviano hecho para cargas de trabajo virtualizadas y contenedores.
+leap_micro_ovw_title: Leap Micro es un sistema operativo ligero y ultrafiable 
+  diseñado para cargas de trabajo virtualizadas y en contenedores.
 leap_micro_ovw_video_desc: Demostración de instalación de Leap Micro 6.1 con 
   encriptado completo del disco y autenticación en dos pasos en Cockpit.
-leap_156_ovw_video_desc: Transmisión en vivo del lanzamiento de Leap 15.6
+leap_156_ovw_video_desc: Retransmisión en directo del lanzamiento de Leap 15.6
 microos_ovw_title: Sistema Operativo de Microservicios proporcionando 
   Actualizaciones Transaccionales (Atómicas) sobre un sistema de archivos btrfs 
   de sólo lectura
@@ -441,7 +441,7 @@ tumbleweed_ovw_desc: Con Tumbleweed no tiene que tomar decisiones difíciles
 leap_micro_ovw_desc_p1: Esta versión comunitaria está basada en SUSE Linux 
   Micro, que aprovecha los componentes de seguridad y cumplimiento reforzados 
   para empresas por SUSE Linux Enterprise. Esta mezcla de tecnologías provee una
-  plataforma de SO moderna, inmutable y amigable para desarrolladores.
+  plataforma de SO moderna, inmutable y apta para desarrolladores.
 microos_ovw_desc_p2: MicroOS ofrece una imagen sin conexión. La diferencia 
   principal entre las imágenes autoinstalables/raw y las sin conexión es que la 
   imagen sin conexión tiene un instalador. Las autoinstalables y raw permiten la
