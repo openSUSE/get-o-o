@@ -83,14 +83,14 @@ tw_switch_instructions: Instrucciones para actualizar.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Desde una versión anterior u otra distribución de Linux
 upgrade_table_windows: Desde Windows
-upgrade_table_mac: Desde OS X
+upgrade_table_mac: Desde macOS
 upgrade_table_linux_dvd: Cómo grabar un DVD en Linux.
 upgrade_table_linux_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Cómo grabar un DVD en Windows.
 upgrade_table_windows_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Cómo grabar un DVD en OS X.
+upgrade_table_mac_dvd: Cómo grabar un DVD en macOS.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Cómo crear en Linux una memoria USB capaz de arrancar 
@@ -100,8 +100,7 @@ upgrade_table_windows_usb: Cómo crear en Windows una memoria USB capaz de
   arrancar openSUSE.
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Cómo crear en OS X una memoria USB capaz de arrancar 
-  openSUSE.
+upgrade_table__mac_usb: Cómo crear una memoria USB de arranque en macOS.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Comprobar su descarga antes de utilizarla
@@ -282,12 +281,12 @@ MicroOS_features:
     name: Depuración
   update:
     description: "### Actualizaciones transaccionales\n\n#### Único\nAl usar Btrfs
-      con instantáneas, MicroOS usa el espacio eficientemente \npara almacenar el
-      historial del sistema de archivos. Todos los archivos \nde configuración de
-      `/etc` forman parte de la instantánea y de la reversión.\n\n#### Flexible\n\
-      \ * No es necesario un nuevo formato de paquete, use el RPM estándar de \nopenSUSE.\n\
-      \ * No existe límite de tamaño, ni para las particiones ni para el sistema\n\
-      operativo.\n * Fácil de mejorar.\n"
+      con instantáneas, MicroOS usa el espacio eficientemente\npara almacenar el historial
+      del sistema de archivos. Todos los archivos\nde configuración de `/etc` forman
+      parte de la instantánea y de la reversión.\n\n#### Flexible\n* No es necesario
+      un nuevo formato de paquete, use el RPM estándar de openSUSE.\n* No existe límite
+      de tamaño, ni para las particiones ni para el sistema operativo.\n* Fácil de
+      mejorar.\n"
     name: Actualizaciones atómicas
   shield:
     name: Retroceso
