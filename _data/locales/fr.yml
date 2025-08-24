@@ -2,7 +2,7 @@ site_title: Obtenir openSUSE
 site_title_short: Obtenir
 site_description: En apprendre plus sur les distributions openSUSE et les 
   télécharger gratuitement
-site_copyright: © 2022 Contributeurs openSUSE
+site_copyright: © 2025 Contributeurs openSUSE
 search: Recherche
 translate: Traduire
 source_code: Code source
@@ -78,14 +78,14 @@ tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Depuis une version plus ancienne ou une autre distribution 
   Linux
 upgrade_table_windows: Depuis Windows
-upgrade_table_mac: Depuis OS X
+upgrade_table_mac: Depuis macOS
 upgrade_table_linux_dvd: Comment graver un DVD sur Linux.
 upgrade_table_linux_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Comment graver un DVD sur Windows.
 upgrade_table_windows_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Comment graver un DVD sur OS X.
+upgrade_table_mac_dvd: Comment graver un DVD sur macOS.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Comment créer une clé USB amorçable sur Linux.
@@ -93,14 +93,16 @@ upgrade_table_linux_usb_link: https://fr.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Comment créer un clé USB amorçable sur Windows.
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Comment créer un clé USB amorçable sur OS X.
+upgrade_table__mac_usb: Comment créer une clé USB amorçable sur macOS.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Vérifier votre téléchargement avant utilisation
 verify_download_p2: "Pour chaque ISO, nous fournissons un fichier contenant la somme
-  de contrôle SHA256 correspondante.\n"
-verify_download_p3: "Pour encore plus de sécurité, vous pouvez utiliser sha256sum
-  pour vérifier qui a signé ces fichiers .sha256. \n"
+  de contrôle SHA256 correspondante, et un fichier de signature avec une signature
+  cryptographique.\n"
+verify_download_p3: "Pour assurer l’intégrité du fichier téléchargé, vous pouvez utiliser
+  sha256sum pour vérifier la somme de contrôle, et gpgv pour vérifier la signature
+  cryptographique.\n"
 verify_download_pubkey: Ce devrait être
 verify_download_help: Pour plus d'aide sur la vérification de votre 
   téléchargement, veuillez lire
@@ -362,6 +364,12 @@ Tumbleweed_features:
       plus à vous préoccuper tous les six mois des mises à jour massives qui risquent
       de bloquer votre système.\n"
     name: Mise à jour continue
+  gamepad:
+    name: Gaming (jeu)
+    description: "Tumbleweed fournit aux utilisateurs le dernier logiciel lié au jeu.
+      Avec la prise en charge de Linux pour le jeu qui s’améliore rapidement, c’est
+      un aspect important pour une expérience fluide, performante et sans problème
+      dans vos jeux préférés.\n"
 alternative_downloads_desc: Nous avons aussi des images $options. Consultez les 
   $alternative_downloads !
 alternative_downloads: Téléchargements alternatifs
@@ -381,8 +389,8 @@ jeos_info: Images VM minimales. Pour les images JeOS Arm, veuillez vous reporter
   pour systèmes Arm</a>
 selfinstall_image: Image d'auto-installation
 selfinstall_rt_image: Image d'auto-installation Temps-Réel
-preconfigured_image: Image préconfigurée
-preconfigured_rt_image: Image préconfigurée avec noyau Temps-Réel
+preconfigured_image: Image préconfigurée (brute)
+preconfigured_rt_image: Image RealTime préconfigurée (brute)
 live_info: "Veuillez prendre en compte les limitations suivantes des images live :\n\
   \ * Elles ne doivent pas être utilisées pour installer ou mettre à niveau. Veuillez
   utiliser le support d'installation à la place\n* Elles ont une sélection limitée
@@ -400,3 +408,102 @@ offline_updated_desc: "Image d'installation hors ligne avec les dernières mises
   jours.\nConvient pour installation ou mise à jour.\n"
 server_aarch64: Serveurs et cartes UEFI Arm 64-bit (aarch64)
 ppc64: Serveurs PowerPC « big-endian » (ppc64)
+leap_16_coming_soon: "La sortie publique de Leap 16.0, un successeur de Leap 15.6,
+  peut être attendue à l’automne 2025. Il n’y a pas de plan pour faire Leap 15.7.
+  <br/>\nVérifiez régulièrement les mises à jour sur notre <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> et <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  pour davantage d'information.\n"
+signature: Signature
+selfinstalling_ch_image: Hôte conteneur à installation automatique
+selfinstalling_k3s_image: Hôte k3s à installation automatique
+encrypted_image: Image disque entièrement cryptée (brute)
+kvm_sdboot_image: Image KVM avec systemd-boot
+packages_image: Image des paquets
+packages_image_desc: Média contenant un dépôt hors ligne avec des paquets.
+minimal_vm_info: Similaire aux images SUSE Linux Enterprise Server Minimal-VM. 
+  Pour les images Arm JeOS, veuillez aller sur la <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">page 
+  wiki Arm</a>
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  est le nouvel installateur qui peut être utilisé pour installer Leap 16 et Tumbleweed.\n\
+  Il existe un plan pour prendre en charge dans Agama l’installation hors ligne. D’autres
+  supports d’installation tels que l’image auto-installable seront ajoutés ultérieurement.\n"
+choosing_media_micro_p1: "La nouvelle image auto-installable est le choix idéal pour
+  les installations depuis USB ou DVD.\nUn assistant simple d’auto-installation transfère
+  une image préconfigurée sur le lecteur et agrandit la partition à la taille du disque.\n\
+  <br>\nLes utilisateurs avec Raspberry Pi et similaire sans support usb-boot peuvent
+  directement écrire l’image pré-configurée sur la carte SD.\nLes utilisateurs cherchant
+  à mieux contrôler le déploiement sont invités à utiliser <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
+  >Combustion</a>.\n<br>\nUne démo d’un déploiement basé sur Combustion peut être
+  vue <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">ici</a>.\n<br>\nLe jeos-firstboot
+  accueillera ceux qui n’ont pas configuré leur système en utilisant Combustion.\n"
+choosing_media_micro_p2: "Leap Micro n’est plus livré avec un installateur traditionnel,
+  les utilisateurs doivent utiliser le support d’auto-installation à la place.\nLa
+  nouvelle image des paquets est juste un vidage hors ligne du dépôt rpm de Leap Micro
+  destiné à ceux qui ont un environnement isolé.\n"
+requirements_cpu_slfo_x86_64: 'Pour x86_64 : niveau de microarchitecture x86-64-v2
+  ou supérieur'
+requirements_cpu_slfo_ppc64le: 'Pour ppc64le : POWER9 ou supérieur'
+requirements_cpu_slfo_s390x: 'Pour s390x : z14 ou supérieur'
+preconfigured_qcow_image: Image préconfigurée (qcow)
+server_leapmicro_p1: Pour les déploiements edge, embarqués, IoT et autres
+server_leapmicro_p2: Système d’exploitation ultra-fiable et léger conçu pour les
+  charges de travail conteneurisées et virtualisées.
+leap_ovw_title: Une toute nouvelle façon de construire openSUSE et un nouveau 
+  type de distribution Linux hybride
+leap_ovw_desc: Leap utilise les sources de SUSE Linux Enterprise (SLE), ce qui 
+  donne à Leap un niveau de stabilité inégalé par les autres distributions 
+  Linux, et combine cela avec des développements communautaires pour offrir aux 
+  utilisateurs, développeurs et administrateurs système la meilleure expérience 
+  Linux stable disponible.
+tumbleweed_ovw_title: Système d’exploitation de bureau et de serveur à la pointe
+  de la technologie
+tumbleweed_ovw_desc: Avec Tumbleweed, vous n’avez pas à prendre des décisions 
+  difficiles sur les choses que vous appréciez, que ce soit la liberté ou la 
+  sécurité, le contrôle ou la sécurité, la technologie ou la stabilité -- 
+  Tumbleweed vous laisse la cerise sur le gâteau !
+leap_micro_ovw_title: Leap Micro est un système d’exploitation ultra-fiable et 
+  léger conçu pour les charges de travail conteneurisées et virtualisées.
+leap_micro_ovw_desc_p1: Cette version communautaire est basée sur SUSE Linux 
+  Micro, qui exploite les composants de sécurité et de conformité durcis pour 
+  l’entreprise par SUSE Linux Enterprise. Cette fusion de technologies fournit 
+  une plateforme OS moderne, immuable et conviviale pour les développeurs.
+leap_micro_ovw_desc_p2: Leap Micro depuis 6.0 propose une image 
+  auto-installable, une image brute et un DVD Paquetages qui peut servir de 
+  référentiel hors ligne. L’image auto-installable est notre recommandation pour
+  toute installation basée sur USB puisque nous n’utilisons plus d’installateurs
+  traditionnels. Les utilisateurs peuvent automatiser et personnaliser leur 
+  installation avec soit <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ou <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> ou en utilisant 
+  l’assistant jeos-firstboot. Essayez donc <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> notre 
+  générateur de configuration en ligne Ignition.
+leap_micro_ovw_desc_p3: Essayez Leap Micro dans les VM fonctionnant sur <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ou KVM. 
+  L’utilisteur d’un Raspberry Pi ou d’un autre matériel System on Chip peut 
+  employer l’image préconfigurée. Les images préconfigurées et auto-installées 
+  sont destinées à être utilisées avec <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  écrites vers une USB, qui est piloté pour autoriser la configuration lors de 
+  tout premier démarrage, avec l’option par défaut des modifications protégées 
+  par mot de passe.
+leap_micro_ovw_video_desc: Démonstration d’installation de Leap Micro 6.1 avec 
+  un chiffrement complet du disque et une authentification à deux facteurs dans 
+  Cockpit.
+leap_156_ovw_video_desc: La sortie d'une version Leap 15.6 en live stream
+microos_ovw_title: Micro Service OS fournissant des mises à jour 
+  transactionnelles (Atomic) sur un système de fichiers racine en lecture seule 
+  Btrfs
+microos_ovw_desc_p1: Conçu pour héberger des charges de travail en conteneur 
+  avec administration et correction automatisées. En installant openSUSE 
+  MicroOS, vous obtenez un petit environnement rapide pour déployer des 
+  conteneurs ou toute autre charge de travail qui bénéficie des mises à jour 
+  transactionnelles. En tant que distribution de version continue, le logiciel 
+  est toujours à jour.
+microos_ovw_desc_p2: MicroOS propose une image hors ligne. La principale 
+  différence entre les images hors ligne et les images auto-installées/brutes 
+  réside dans le fait que l’image hors ligne dispose d’un installateur. Les 
+  installations Brutes et les auto-installation permettent la personnalisation 
+  via Combustion ou manuellement dans l’image après qu’elle soit écrite sur le 
+  disque. Il y a une option pour un noyau en temps réel.
