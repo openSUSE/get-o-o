@@ -81,14 +81,14 @@ tw_switch_instructions: Instruksi Pemutakhiran.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Dari versi yang lebih lama atau distro Linux lainnya
 upgrade_table_windows: Dari Windows
-upgrade_table_mac: Dari OS X
+upgrade_table_mac: Dari macOS
 upgrade_table_linux_dvd: Cara membakar DVD pada Linux.
 upgrade_table_linux_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Cara membakar DVD pada Windows.
 upgrade_table_windows_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Cara membakar DVD pada OS X.
+upgrade_table_mac_dvd: Cara membakar DVD pada macOS.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Cara membuat stik USB Bootable pada Linux.
@@ -96,7 +96,7 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Cara membuat stik USB Bootable pada Windows.
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Cara membuat stik USB Bootable pada OS X.
+upgrade_table__mac_usb: Cara membuat stik USB Bootable pada macOS.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verifikasi Unduhan Anda Sebelum Digunakan
