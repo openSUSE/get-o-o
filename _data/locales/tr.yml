@@ -280,17 +280,17 @@ tw_switch_instructions: Yükseltme Talimatları.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Eski bir sürümden veya başka bir Linux dağıtımından
 upgrade_table_windows: Windows'tan
-upgrade_table_mac: OS X'ten
+upgrade_table_mac: macOS'dan
 upgrade_table_linux_dvd: Linux'ta DVD nasıl yazılır.
 upgrade_table_windows_dvd: Windows'ta DVD nasıl yazılır.
 upgrade_table_windows_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: OS X'te DVD nasıl yazılır.
+upgrade_table_mac_dvd: macOS'ta DVD nasıl yazılır.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_windows_usb: Windows'ta Önyüklenebilir bir USB bellek nasıl 
   oluşturulur.
-upgrade_table__mac_usb: OS X'te önyüklenebilir bir USB bellek nasıl oluşturulur.
+upgrade_table__mac_usb: macOS'ta önyüklenebilir USB bellek nasıl oluşturulur.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: İndirmenizi Kullanmadan Önce Doğrulayın
