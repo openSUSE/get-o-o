@@ -507,3 +507,14 @@ microos_ovw_desc_p2: MicroOS propose une image hors ligne. La principale
   installations Brutes et les auto-installation permettent la personnalisation 
   via Combustion ou manuellement dans l’image après qu’elle soit écrite sur le 
   disque. Il y a une option pour un noyau en temps réel.
+microos_ovw_desc_p3: Essayez MicroOS dans des VM fonctionnant sur <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ou KVM. En 
+  utilisant un Raspberry Pi ou autre matériel de système sur puce, il est 
+  possible d’utiliser l’image préconfigurée avec la fonctionnalité <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> pour 
+  le processus de démarrage. Les images préconfigurées et auto-installées sont 
+  destinées à être utilisées avec  <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  
+  écrites sur une USB, qui est pilotée pour autoriser la configuration lors de 
+  tout premier démarrage, avec l’option par défaut de modifications protégées 
+  par mot de passe.
