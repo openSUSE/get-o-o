@@ -1,3 +1,15 @@
+- version: 6.2
+  order:  6
+  releases:
+  - date: '2025-10-01 12:00:00 UTC'
+    state: 'Stable'
+  - date: '2025-08-04 12:00:00 UTC'
+    state: 'RC'
+  - date: '2025-04-30 12:00:00 UTC'
+    state: 'Beta'
+  - date: '2025-01-15 12:00:00 UTC'
+    state: 'Alpha'
+
 - version: 6.1
   order:  6
   releases:
@@ -21,6 +33,8 @@
     state: 'RC'
   - date: '2024-06-25 12:00:00 UTC'
     state: 'Stable'
+  - date: '2025-10-01 12:00:00 UTC'
+    state: 'EOL'
 
 - version: 5.5
   order:  4
@@ -35,6 +49,8 @@
     state: 'Stable'
   - date: '2024-11-11 12:00:00 UTC'
     state: 'Stable'
+  - date: '2024-06-25 12:00:00 UTC'
+    state: 'EOL'
 
 - version: 5.4
   order:  3
