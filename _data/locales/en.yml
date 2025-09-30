@@ -28,6 +28,12 @@ offline_desc: |
 offline_updated_desc: |
   Offline install image with latest updates.
   Suitable for installation or upgrade.
+oem_images: OEM Images for Hardware Vendors.
+oem_images_info: Both options install the same system image.<br>Use the RAW file with manual tools (e.g. dd), or the bootable self-install ISO for a guided deployment.
+oem_preconfigured_image: OEM Preconfigured Image (raw)
+oem_preconfigured_image_desc: OEM Images for Hardware Vendors.
+oem_image: OEM Self-install Image (iso)
+oem_image_desc: OEM Self-install Image
 network_image: Network Image
 network_desc: |
   Downloads the installation system and all packages from online
@@ -216,6 +222,7 @@ points_welcoming_p1: |
   happen when the community is vocal about what they need. That's why we
   ensure contributing is as easy as possible.
 preconfigured_image: Preconfigured Image (raw)
+preconfigured_image_desc: Preconfigured Image (raw)
 preconfigured_qcow_image: Preconfigured Image (qcow)
 preconfigured_rt_image: Preconfigured RealTime Image (raw)
 selfinstall_image: Self-install Image
