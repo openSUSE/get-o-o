@@ -114,9 +114,11 @@
           </div>
         {% endfor %}
         {% if distro.downloads.size > 1 %}
+          <div class="card-box alert alert-{{ distro.name | downcase | replace: ' ', '-' }}">
           {% capture alternative_downloads %}<a href="#" data-toggle="modal" data-target="#downloadModal">{{ locale.alternative_downloads }}</a>{% endcapture %}
           {% capture options %}<b>{% for tab in distro.downloads offset: 1 %}<span {% if tab.display %}class="not-{{ tab.display }}"{% endif %}>{{ locale[tab.name] }}{% if forloop.last == false %}, {% endif %}</span>{% endfor %}</b>{% endcapture %}
           <div class="lead">{{ locale.alternative_downloads_desc | replace: '$alternative_downloads', alternative_downloads | replace: '$options', options }}</div>
+          </div>
         {% endif %}
       </div>
     </section>
