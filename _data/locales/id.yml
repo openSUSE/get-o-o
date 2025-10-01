@@ -485,3 +485,12 @@ requirements_cpu_slfo_x86_64_link:
   https://en.opensuse.org/X86-64_microarchitecture_levels
 requirements_cpu_slfo_ppc64le: 'Untuk ppc64le: POWER9 atau yang lebih tinggi'
 requirements_cpu_slfo_s390x: 'Untuk s390x: z14 atau yang lebih tinggi'
+oem_images: Citra OEM untuk Vendor Perangkat Keras.
+oem_images_info: Kedua opsi memasang citra sistem yang sama.<br>Gunakan berkas 
+  RAW dengan alat manual (misalnya dd), atau berkas ISO bootable yang dapat 
+  diinstal sendiri untuk deployment yang terarah.
+oem_preconfigured_image: Citra Prakonfigurasi OEM (mentah)
+oem_preconfigured_image_desc: Citra OEM untuk vendor perangkat keras.
+oem_image: Citra Instalasi Mandiri OEM (ISO)
+oem_image_desc: Citra Instalasi Mandiri OEM
+preconfigured_image_desc: Citra Prakonfigurasi (mentah)
