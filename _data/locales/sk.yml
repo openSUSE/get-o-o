@@ -398,13 +398,13 @@ server_leapmicro_p1: Pre hraničné, zabudované, IoT a iné nasadenia
 server_leapmicro_p2: Mimoriadne spoľahlivý, nenáročný operačný systém vytvorený 
   pre kontajnerizované a virtualizované pracovné zaťaženia.
 kvm_sdboot_image: Obraz KVM so systemd-boot
-leap_ovw_title: Úplne nový spôsob zostavovania openSUSE a nový typ hybridnej 
-  distribúcie Linuxu
-leap_ovw_desc: Leap využíva zdrojový kód SUSE Linux Enterprise (SLE), ktorý 
-  poskytuje systému Leap úroveň stability neporovnateľnú s inými distribúciami 
-  Linuxu, a kombinuje ju s komunitnými vývojmi, aby používateľom, vývojárom a 
-  systémovým administrátorom poskytol najlepšiu dostupnú skúsenosť so stabilným 
-  Linuxom.
+leap_ovw_title: Úplne nový spôsob zostavovania openSUSE s dlhším životným cyklom
+leap_ovw_desc: Leap 16.0 stavia na hybridnom prístupe kombinujúcom zdrojový kód 
+  SUSE Linux Enterprise (SLE) s vývojom komunity, čím poskytuje úroveň 
+  stability, ktorú žiadna iná distribúcia Linuxu nedokáže ponúknuť. S novou 
+  <strong>predĺženou podporou na 24 mesiacov</strong> poskytuje Leap 
+  používateľom, vývojárom a systémovým administrátorom jednu z najlepších a 
+  najspoľahlivejších linuxových skúseností, aké sú k dispozícii.
 tumbleweed_ovw_title: Najmodernejší operačný systém pre stolové počítače a 
   servery
 leap_micro_ovw_title: Leap Micro je mimoriadne spoľahlivý, nenáročný operačný 
@@ -478,3 +478,4 @@ requirements_cpu_slfo_ppc64le: 'Pre ppc64le: POWER9 alebo vyššie'
 requirements_cpu_slfo_s390x: 'Pre s390x: z14 alebo vyššie'
 requirements_cpu_slfo_x86_64: 'Pre x86_64: úroveň mikroarchitektúry x86-64-v2 alebo
   vyššia'
+oem_images: OEM obrazy pre dodávateľov hardvéru.
