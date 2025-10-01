@@ -325,9 +325,11 @@ leap_micro_ovw_video_desc: 完全なディスク暗号化と Cockpit による�
 leap_micro_ovw_title: Leap Micro は非常に信頼性の高い軽量型オペレーティングシステムで、主にコンテナ化や仮想化の環境で有用です。
 microos_ovw_title: Micro Service OS は、読み込み専用の btrfs ファイルシステムを利用してトランザクション型の 
   (アトミックな) 更新を行います
-leap_ovw_title: 新たにハイブリッド型の Linux ディストリビューションとなった openSUSE とその全く新しい構築手法
-leap_ovw_desc: Leap では SUSE Linux Enterprise (SLE) 
-  との間でソースコードを共有しているため、ユーザや開発者、そしてシステム管理者に対して、他のディストリビューションでは見られないような安定性と、コミュニティによる先進性の両方を兼ね備えています。
+leap_ovw_title: さらにサポート提供期間が長くなった全く新しい openSUSE
+leap_ovw_desc: Leap 16.0 では SUSE Linux Enterprise (SLE) 
+  の提供するソースコードにコミュニティ開発のソースコードを組み合わせて構築しているため、他の Linux 
+  ディストリビューションでは見られないようなレベルの安定性を提供しています。また、サポート期間も <strong>24 ヶ月に延長され</strong> 
+  、ユーザや開発者、そしてシステム管理者に対して、最も品質の高い、信頼できる Linux 体験を提供します。
 tumbleweed_ovw_desc: Tumbleweed 
   を利用することで、お使いの環境を構成するのに難しい選択は不要となります。自由と安全性、制御性とセキュリティ、先進性と安定性など、 Tumbleweed 
   では両方を実現することができます！
@@ -377,7 +379,7 @@ requirements_cpu_slfo_x86_64_link:
 requirements_cpu_slfo_ppc64le: 'ppc64le の場合: POWER9 もしくはそれ以降'
 requirements_cpu_slfo_s390x: 's390x の場合: z14 もしくはそれ以降'
 requirements_cpu_slfo_x86_64: 'x86_64 の場合: マイクロアーキテクチャレベル x86-64-v2 もしくはそれ以上'
-oem_images: ハードウエア製造元向けの OEM イメージです。
+oem_images: ハードウエア製造元向けの OEM イメージ
 oem_images_info: どちらのオプションを選択しても同じシステムイメージがインストールされます。<br>dd のようなツールを利用して配置する場合は
   RAW ファイルを、ガイド表示付きでインストールしたい場合は ISO ファイルをそれぞれ選択してください。
 oem_preconfigured_image: OEM 事前構築済みイメージ (raw)
@@ -385,3 +387,4 @@ oem_preconfigured_image_desc: ハードウエア製造元向けの OEM イメー
 oem_image: OEM 自己インストールイメージ (iso)
 oem_image_desc: OEM 自己インストールイメージ
 preconfigured_image_desc: 事前構築済みイメージ (raw)
+leap_160_ovw_video_desc: Leap 16.0 リリースライブストリーム
