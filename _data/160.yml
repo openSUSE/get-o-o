@@ -24,8 +24,8 @@ downloads:
         url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.sha256.asc"
-#      - name: torrent_file # Torrents only for GM boo#1231361
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.torrent"
+      - name: torrent_file # Torrents only for GM boo#1231361
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-x86_64.install.iso.torrent"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64.install.iso"
@@ -38,8 +38,8 @@ downloads:
         url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64.install.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64.install.iso.sha256.asc"
-#      - name: torrent_file # Torrents only for GM boo#1231361
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64.install.iso.torrent"
+      - name: torrent_file # Torrents only for GM boo#1231361
+        url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-x86_64.install.iso.torrent"
   - name: aarch64
     types:
     - name: offline_image
@@ -54,8 +54,8 @@ downloads:
         url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.sha256.asc"
-#      - name: torrent_file # Torrents only for GM boo#1231361
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.torrent"
+      - name: torrent_file # Torrents only for GM boo#1231361
+        url: "/distribution/leap/16.0/offline/Leap-16.0-offline-installer-aarch64.install.iso.torrent"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-aarch64.install.iso"
@@ -68,8 +68,8 @@ downloads:
         url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-aarch64.install.iso.sha256"
       - name: signature
         url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-aarch64.install.iso.sha256.asc"
-#      - name: torrent_file
-#        url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-aarch64.install.iso.torrent"
+      - name: torrent_file
+        url: "/distribution/leap/16.0/offline/Leap-16.0-online-installer-aarch64.install.iso.torrent"
   - name: ppc64le
     types:
     - name: offline_image
