@@ -505,3 +505,12 @@ requirements_cpu_slfo_x86_64_link:
   https://en.opensuse.org/X86-64_microarchitecture_levels
 requirements_cpu_slfo_ppc64le: 'Per a ppc64le: POWER9 o superior'
 requirements_cpu_slfo_s390x: 'Per a s390x: z14 o superior'
+oem_images: Imatges d'OEM per a proveïdors de maquinari
+oem_images_info: Ambdues opcions instal·len la mateixa imatge del 
+  sistema.<br>Useu el fitxer RAW amb eines manuals (per exemple, dd) o la imatge
+  ISO d'autoinstal·lació d'arrencada per a una implementació guiada.
+oem_preconfigured_image: Imatge preconfigurada d'OEM (en brut)
+oem_preconfigured_image_desc: Imatges d'OEM per a proveïdors de maquinari
+oem_image: Imatge d'autoinstal·lació d'OEM (iso)
+oem_image_desc: Imatge d'autoinstal·lació d'OEM
+preconfigured_image_desc: Imatge preconfigurada (en brut)
