@@ -408,7 +408,7 @@ microos_ovw_desc_p3: Wypróbuj MicroOS na maszynach wirtualnych <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> dla 
   procesu uruchamiania. Zarówno prekonfigurowane, jak i samodzielnie 
   zainstalowane obrazy są przeznaczone do użytku z   <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   zapisanym na pendrive, który umożliwia konfigurację podczas pierwszego 
   uruchomienia, z opcją zmian chronionych hasłem.
 microos_ovw_title: Micro Service OS oferujący Transakcyjne (Atomowe) 
