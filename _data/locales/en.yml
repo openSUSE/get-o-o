@@ -418,8 +418,8 @@ Tumbleweed_features:
     name: Gaming
     description: |
      Tumbleweed provides users with the latest gaming-related software. With the Linux support for gaming improving rapidly, that's an important aspect for smooth, performant and problem free experience in your favorite games.
-leap_ovw_title: A brand new way of building openSUSE and a new type of a hybrid Linux distribution
-leap_ovw_desc: Leap uses source from SUSE Linux Enterprise (SLE), which gives Leap a level of stability unmatched by other Linux distributions, and combines that with community developments to give users, developers and sysadmins the best stable Linux experience available.
+leap_ovw_title: A brand new way of building openSUSE with a longer lifecycle
+leap_ovw_desc: Leap 16.0 builds on its hybrid approach of combining source from SUSE Linux Enterprise (SLE) with community developments, delivering a level of stability unmatched by other Linux distributions. With a newly <strong>extended support period of 24 months</strong>, Leap gives users, developers, and sysadmins one of the best and most reliable Linux experiences available.
 tumbleweed_ovw_title: State-of-the-art desktop and server operating system
 tumbleweed_ovw_desc: With Tumbleweed you don't have to take difficult decisions about things you value, either freedom or safety, either control or security, technology or stability -- Tumbleweed lets you have your cake and eat it too!
 leap_micro_ovw_title: Leap Micro is an ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
@@ -428,6 +428,7 @@ leap_micro_ovw_desc_p2: Leap Micro since 6.0 offers a self-install image, a raw 
 leap_micro_ovw_desc_p3: Try Leap Micro in VMs running on either <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> or KVM. Using a Raspberry Pi or other System on Chip hardware may use the preconfigured image. Both preconfigured and self-installed images are intended to be used with <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> written to a USB, which is driven to allow configuration on any first boot, with the option for default password protected changes.
 leap_micro_ovw_video_desc: Leap Micro 6.1 installation demo with a Full Disk Encryption and a two factor authentication in cockpit.
 leap_156_ovw_video_desc: A Leap 15.6 release live stream
+leap_160_ovw_video_desc: A Leap 16.0 release live stream
 microos_ovw_title: Micro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem
 microos_ovw_desc_p1: Designed to host container workloads with automated administration & patching. Installing openSUSE MicroOS you get a quick, small environment for deploying Containers, or any other workload that benefits from Transactional Updates. As rolling release distribution the software is always up-to-date.
 microos_ovw_desc_p2: MicroOS offers an offline image. The main difference between the offline and self-install/raw images are that the offline image has an installer. Raw and self-install allows for customization via combustion or manually in the image after it is written to the disk. There is an option for a real-time kernel.
