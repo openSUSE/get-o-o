@@ -377,3 +377,11 @@ requirements_cpu_slfo_x86_64_link:
 requirements_cpu_slfo_ppc64le: 'ppc64le の場合: POWER9 もしくはそれ以降'
 requirements_cpu_slfo_s390x: 's390x の場合: z14 もしくはそれ以降'
 requirements_cpu_slfo_x86_64: 'x86_64 の場合: マイクロアーキテクチャレベル x86-64-v2 もしくはそれ以上'
+oem_images: ハードウエア製造元向けの OEM イメージです。
+oem_images_info: どちらのオプションを選択しても同じシステムイメージがインストールされます。<br>dd のようなツールを利用して配置する場合は
+  RAW ファイルを、ガイド表示付きでインストールしたい場合は ISO ファイルをそれぞれ選択してください。
+oem_preconfigured_image: OEM 事前構築済みイメージ (raw)
+oem_preconfigured_image_desc: ハードウエア製造元向けの OEM イメージです。
+oem_image: OEM 自己インストールイメージ (iso)
+oem_image_desc: OEM 自己インストールイメージ
+preconfigured_image_desc: 事前構築済みイメージ (raw)
