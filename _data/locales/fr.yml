@@ -514,7 +514,7 @@ microos_ovw_desc_p3: Essayez MicroOS dans des VM fonctionnant sur <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> pour 
   le processus de démarrage. Les images préconfigurées et auto-installées sont 
   destinées à être utilisées avec  <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   écrites sur une USB, qui est pilotée pour autoriser la configuration lors de 
   tout premier démarrage, avec l’option par défaut de modifications protégées 
   par mot de passe.
