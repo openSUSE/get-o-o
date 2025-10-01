@@ -410,7 +410,7 @@ tumbleweed_ovw_title: Najmodernejší operačný systém pre stolové počítač
 leap_micro_ovw_title: Leap Micro je mimoriadne spoľahlivý, nenáročný operačný 
   systém vytvorený pre kontajnerizované a virtualizované pracovné zaťaženia.
 leap_micro_ovw_desc_p2: Leap Micro od verzie 6.0 ponúka samoinštalačný obraz, 
-  surový obraz a DVD balíkov, ktoré môže slúžiť ako offline repozitár. 
+  obraz raw a DVD balíkov, ktoré môže slúžiť ako offline repozitár. 
   Samoinštalačný obraz je naše odporúčanie pre akúkoľvek inštaláciu založenú na 
   USB, pretože už nepoužívame tradičné inštalátory. Používatelia môžu 
   automatizovať a prispôsobiť svoju inštaláciu pomocou <a 
@@ -479,3 +479,12 @@ requirements_cpu_slfo_s390x: 'Pre s390x: z14 alebo vyššie'
 requirements_cpu_slfo_x86_64: 'Pre x86_64: úroveň mikroarchitektúry x86-64-v2 alebo
   vyššia'
 oem_images: OEM obrazy pre dodávateľov hardvéru.
+oem_images_info: Obe možnosti nainštalujú rovnaký systémový obraz.<br>Použite 
+  súbor RAW s manuálnymi nástrojmi (napr. dd) alebo spustiteľné samoinštalačné 
+  ISO pre nasadenie s pomocou sprievodcu.
+oem_preconfigured_image: OEM predkonfigurovaný obraz (raw)
+oem_preconfigured_image_desc: OEM obrazy pre dodávateľov hardvéru.
+oem_image: OEM samoinštalačný obraz (iso)
+oem_image_desc: OEM samoinštalačný obraz
+preconfigured_image_desc: Predkonfigurovaný obraz (raw)
+leap_160_ovw_video_desc: Priamy prenos vydania Leap 16.0
