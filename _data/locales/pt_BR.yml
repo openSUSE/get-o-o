@@ -62,7 +62,7 @@ documentation_release_notes: Notas de lançamento
 documentation_license: Licença
 documentation_license_link: https://en.opensuse.org/openSUSE:License
 documentation_full_documentation: Documentação completa
-leap_switch: Maneiras fáceis de mudar para o openSUSE Leap
+leap_switch: Formas simples de mudar para o openSUSE Leap
 leap_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando
   a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’
   em alguns\ncomandos.\n"
@@ -74,7 +74,7 @@ requirements_mem: Memória
 requirements_hd: Mais de 40 GB de espaço livre no disco rígido
 requirements_dvd: Uma unidade de DVD ou porta USB para a mídia de instalação
 requirements_net: Rede
-tw_switch: Maneiras fáceis de mudar para openSUSE Tumbleweed
+tw_switch: Formas simples de mudar para o openSUSE Tumbleweed
 tw_switch_p1: "Se você já estiver executando o openSUSE, pode atualizar inicializando
   a partir do\nDVD/USB e escolhendo a atualização, ou faça uma ‘Atualização online’
   em alguns\ncomandos.\n"
@@ -303,7 +303,7 @@ MicroOS_features:
   update:
     name: Atualizações atômicas
     description: "###  Atualizações transacionais\n\n#### Único\nAo usar btrfs com
-      instantâneos, o MicroOS usa o espaço de maneira\nmuito eficiente para armazenar
+      instantâneos, o MicroOS usa o espaço de forma\nmuito eficiente para armazenar
       o histórico do sistema de arquivos.\nTodos os arquivos de configuração no '/etc'
       são parte do instantâneo\ne da reversão.\n\n#### Flexível\n* Nenhum formato
       de pacotes novo é necessário, são utilizados os RPMs\npadrão do openSUSE\n*
@@ -409,8 +409,8 @@ choosing_media_micro_p1: "A nova imagem de autoinstalação é a escolha ideal p
 server_leapmicro_p1: Para implantações de borda, incorporadas, IoT e outras
 server_leapmicro_p2: Sistema operacional leve e ultraconfiável desenvolvido para
   cargas de trabalho em contêineres e virtualizadas.
-leap_ovw_title: Uma nova maneira de construir o openSUSE e um novo tipo de 
-  distribuição Linux híbrida
+leap_ovw_title: Uma nova forma de construir o openSUSE com um ciclo de vida mais
+  longo
 tumbleweed_ovw_title: Sistema operacional de desktop e servidor de última 
   geração
 microos_ovw_title: Micro Service OS fornecendo atualizações transacionais 
@@ -434,11 +434,13 @@ microos_ovw_desc_p3: Experimente o MicroOS em VMs executadas em <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   gravado em um USB, que é acionado para permitir configuração em qualquer 
   primeira inicialização, com a opção de alterações protegidas por senha padrão.
-leap_ovw_desc: O Leap usa fonte do SUSE Linux Enterprise (SLE), que dá ao Leap 
-  um nível de estabilidade incomparável com outras distribuições Linux, e 
-  combina isso com desenvolvimentos da comunidade para oferecer aos usuários, 
-  desenvolvedores e administradores de sistemas a melhor experiência Linux 
-  estável disponível.
+leap_ovw_desc: O Leap 16.0 baseia-se em sua abordagem híbrida de combinar o 
+  código-fonte do SUSE Linux Enterprise (SLE) com os desenvolvimentos da 
+  comunidade, oferecendo um nível de estabilidade inigualável por outras 
+  distribuições Linux. Com um novo <strong>período de suporte estendido de 24 
+  meses</strong>, o Leap proporciona aos usuários, desenvolvedores e 
+  administradores de sistemas uma das melhores e mais confiáveis experiências 
+  Linux disponíveis.
 leap_micro_ovw_desc_p1: Esta versão da comunidade é baseada no SUSE Linux Micro,
   que aproveita os componentes de segurança e conformidade reforçados para 
   empresas do SUSE Linux Enterprise. Essa fusão de tecnologias proporciona uma 
@@ -492,3 +494,13 @@ requirements_cpu_slfo_x86_64_link:
   https://en.opensuse.org/X86-64_microarchitecture_levels
 requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 ou superior'
 requirements_cpu_slfo_s390x: 'Para s390x: z14 ou superior'
+oem_images: Imagens OEM para fabricantes de hardware.
+oem_images_info: 'Ambas opções instalam a mesma imagem do siste.<b> Use o arquivo
+  bruto (RAW) com ferramentas manuais (ex.: dd) ou a ISO inicializável de auto-instalação
+  para uma implantação guiada.'
+oem_preconfigured_image: Imagem OEM pré-configurada (bruto)
+oem_preconfigured_image_desc: Imagens OEM para fabricantes de hardware.
+oem_image: Imagem OEM de auto-instalação (ISO)
+oem_image_desc: Imagem OEM de auto-instalação
+preconfigured_image_desc: Imagem pré-configurada (bruto)
+leap_160_ovw_video_desc: Live do lançamento do Leap 16.0
