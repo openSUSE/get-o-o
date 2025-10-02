@@ -419,13 +419,14 @@ server_leapmicro_p1: Per a desplegaments punters, encastats, IoT i altres
 server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a 
   càrregues de treball virtualitzades i en contenidors.
 kvm_sdboot_image: Imatge de KVM amb arrencada de systemd
-leap_ovw_title: Una nova manera de construir l'openSUSE i un nou tipus de 
-  distribució híbrida de Linux
-leap_ovw_desc: La versió Leap usa la font de SUSE Linux Enterprise (SLE), que li
-  proporciona al Leap un nivell d'estabilitat incomparable amb altres 
-  distribucions de Linux i ho combina amb els desenvolupaments de la comunitat 
-  per oferir als usuaris, desenvolupadors i administradors de sistemes la millor
-  experiència estable de Linux disponible.
+leap_ovw_title: Una manera nova de construir openSUSE amb un cicle de vida més 
+  llarg
+leap_ovw_desc: El Leap 16.0 es basa en un enfocament híbrid de combinar el codi 
+  font de SUSE Linux Enterprise (SLE) amb els desenvolupaments de la comunitat 
+  per oferir un nivell d'estabilitat inigualable per altres distribucions de 
+  Linux. Amb un <strong>període de suport ampliat de 24 mesos</strong>, el Leap 
+  ofereix als usuaris, desenvolupadors i administradors de sistemes una de les 
+  millors i més fiables experiències de Linux disponibles.
 tumbleweed_ovw_title: Sistema operatiu d'escriptori i servidor d'última 
   generació
 tumbleweed_ovw_desc: "Amb la versió Tumbleweed no cal que prengueu decisions difícils
@@ -514,3 +515,5 @@ oem_preconfigured_image_desc: Imatges d'OEM per a proveïdors de maquinari
 oem_image: Imatge d'autoinstal·lació d'OEM (iso)
 oem_image_desc: Imatge d'autoinstal·lació d'OEM
 preconfigured_image_desc: Imatge preconfigurada (en brut)
+leap_160_ovw_video_desc: Una transmissió en directe de la publicació del Leap 
+  16.0
