@@ -388,8 +388,8 @@ microos_ovw_desc_p2: MicroOS biedt een offline image. Het hoofdverschil tussen
 cloud_images: Cloud
 packages_image: Images van pakketten
 packages_image_desc: Media die een offline opslagruimte bevatten met pakketten.
-leap_ovw_title: Een gloednieuwe manier van openSUSE bouwen en een nieuw type 
-  hybride Linux distributie
+leap_ovw_title: Een gloednieuwe manier van openSUSE bouwen met een langere 
+  levensduur
 microos_ovw_title: Micro Service OS die Transactioneel (Atomic) bijwerken levert
   op een alleen-lezen btrfs root bestandssysteem
 microos_ovw_desc_p1: Ontworpen om container werklasten te bevatten met 
@@ -449,11 +449,12 @@ choosing_media_micro_p1: "De nieuwe zichzelf installerende image is de keuze op 
   door Combustion te gebruiken.\n"
 server_leapmicro_p2: Extreem betrouwbaar, lichtgewicht besturingssysteem gebouwd
   voor werklasten in containers en gevirtualiseerd.
-leap_ovw_desc: Leap gebruikt broncode uit SUSE Linux Enterprise (SLE), die Leap 
-  een niveau van stabiliteit geeft ongeëvenaard door andere Linux distributies 
-  en combineert dat met ontwikkelingen uit de gemeenschap om gebruikers, 
-  ontwikkelaars en systeembeheerders de beste stabiele beschikbare Linux 
-  ervaring te geven.
+leap_ovw_desc: Leap 16.0 is gebouwd op een hybride benadering van broncode uit 
+  SUSE Linux Enterprise (SLE) met ontwikkelingen uit de gemeenschap, die een 
+  niveau van stabiliteit levert ongeëvenaard door andere Linux distributies. Met
+  een nieuwe <strong>uitgebreide ondersteuningsperiode van 24 maanden</strong>, 
+  geeft Leap gebruikers, ontwikkelaars en systeembeheerders de meest betrouwbare
+  Linux ervaring die beschikbaar is.
 microos_ovw_desc_p3: Probeer MicroOS in VM's die ofwel onder <a 
   href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> of KVM draaien. Een
   Raspberry Pi of ander Systeem op Chip hardware gebruiken kan de 
@@ -480,3 +481,13 @@ requirements_cpu_slfo_x86_64_link:
   https://en.opensuse.org/X86-64_microarchitecture_levels
 requirements_cpu_slfo_ppc64le: 'Voor ppc64le: POWER9 of hoger'
 requirements_cpu_slfo_s390x: 'Voor s390x: z14 of hoger'
+oem_images: OEM-images voor verkopers van hardware.
+oem_images_info: Beide opties installeren hetzelfde systeemimage.<br>Gebruik het
+  RAW bestand met handmatige hulpmiddelen (bijv. dd) of de te booten zelf 
+  installerende ISO voor een begeleid gebruik.
+oem_preconfigured_image: OEM vooraf geconfigureerde image (raw)
+oem_preconfigured_image_desc: OEM-images voor verkopers van hardware.
+oem_image: OEM zelf te installeren image (iso)
+oem_image_desc: OEM zelf te installeren image
+preconfigured_image_desc: Vooraf geconfigureerde image (raw)
+leap_160_ovw_video_desc: Een livestream van de Leap 16.0 uitgave
