@@ -402,8 +402,8 @@ server_leapmicro_p1: Untuk penggelaran edge, embedded, IoT, dan lainnya
 server_leapmicro_p2: Sistem operasi yang sangat andal dan ringan yang dibuat 
   untuk beban kerja dalam kontainer dan tervirtualisasi.
 kvm_sdboot_image: Citra KVM dengan systemd-boot
-leap_ovw_title: Sebuah cara baru dalam membangun openSUSE dan distribusi Linux 
-  hibrida tipe baru
+leap_ovw_title: Cara baru dalam membangun openSUSE dengan siklus hidup yang 
+  lebih panjang
 tumbleweed_ovw_title: Sistem operasi destop dan peladen yang canggih
 tumbleweed_ovw_desc: Dengan Tumbleweed Anda tidak perlu mengambil keputusan 
   sulit mengenai hal-hal yang Anda hargai, baik kebebasan atau keselamatan, baik
@@ -433,11 +433,13 @@ leap_micro_ovw_desc_p1: Versi komunitas ini didasarkan pada SUSE Linux Micro,
   yang memanfaatkan komponen keamanan dan kepatuhan perusahaan yang ditingkatkan
   dari SUSE Linux Enterprise. Penggabungan teknologi ini menghasilkan platform 
   OS yang modern, tidak dapat diubah, dan ramah pengembang.
-leap_ovw_desc: Leap menggunakan sumber dari SUSE Linux Enterprise (SLE), yang 
-  memberikan Leap tingkat stabilitas yang tak tertandingi oleh distribusi Linux 
-  lainnya, dan menggabungkannya dengan pengembangan komunitas untuk memberikan 
-  pengalaman Linux stabil terbaik yang tersedia kepada pengguna, pengembang, dan
-  sysadmin.
+leap_ovw_desc: Leap 16.0 dibangun berdasarkan pendekatan hibridnya yang 
+  menggabungkan sumber dari SUSE Linux Enterprise (SLE) dengan pengembangan 
+  komunitas, memberikan tingkat stabilitas yang tidak tertandingi oleh 
+  distribusi Linux lainnya. Dengan periode dukungan yang <strong>diperpanjang 
+  menjadi 24 bulan</strong>, Leap memberikan kepada pengguna, pengembang, dan 
+  administrator sistem salah satu pengalaman Linux terbaik dan paling andal yang
+  tersedia.
 microos_ovw_desc_p1: Dirancang untuk menampung beban kerja kontainer dengan 
   administrasi & penambalan otomatis. Dengan memasang openSUSE MicroOS Anda 
   mendapatkan lingkungan yang cepat dan kecil untuk menggelar Kontainer, atau 
@@ -494,3 +496,4 @@ oem_preconfigured_image_desc: Citra OEM untuk vendor perangkat keras.
 oem_image: Citra Instalasi Mandiri OEM (ISO)
 oem_image_desc: Citra Instalasi Mandiri OEM
 preconfigured_image_desc: Citra Prakonfigurasi (mentah)
+leap_160_ovw_video_desc: Siaran Langsung Rilis Leap 16.0
