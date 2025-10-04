@@ -470,7 +470,7 @@ microos_ovw_title: OS Micro Service menyediakan Pemutakhiran Transaksional
 packages_image: Image Paket
 packages_image_desc: Media yang berisi repositori luring dengan paket-paket.
 leap_156_ovw_video_desc: Siaran langsung perilisan Leap 15.6
-encrypted_image: Fully Encrypted Disk Image (raw)
+encrypted_image: Citra Cakram Terenkripsi Penuh (raw)
 leap_16_coming_soon: "Rilis publik Leap 16.0, penerus Leap 15.6, dapat diharapkan
   pada Musim Gugur 2025. Tidak ada rencana untuk membuat Leap 15.7.<br/>\nPeriksa
   pembaruan secara berkala di <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
