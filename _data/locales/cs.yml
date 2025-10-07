@@ -76,14 +76,14 @@ tw_switch_instructions: Pokyny k upgradu.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: Ze starší verze nebo jiné distribuce Linuxu
 upgrade_table_windows: Z Windows
-upgrade_table_mac: Z MacOS X
+upgrade_table_mac: Z macOS
 upgrade_table_linux_dvd: Jak vypálit DVD na Linuxu.
 upgrade_table_linux_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Jak vypálit DVD na Windows.
 upgrade_table_windows_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
-upgrade_table_mac_dvd: Jak vypálit DVD na MacOS X.
+upgrade_table_mac_dvd: Jak vypálit DVD na macOS.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Jak vytvořit zaváděcí USB paměť v systému Linux.
@@ -91,7 +91,7 @@ upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb: Jak vytvořit zaváděcí USB paměť v systému Windows.
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Jak vytvořit zaváděcí USB paměť v OS X.
+upgrade_table__mac_usb: Jak vytvořit zaváděcí USB paměť v macOS.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Před použitím ověřte ssprávnost staženého obrazu
