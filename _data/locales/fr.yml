@@ -7,7 +7,7 @@ search: Recherche
 translate: Traduire
 source_code: Code source
 license: Licence
-learn_more: En apprendre plus
+learn_more: En savoir plus
 cd_desc: Pour CD et clé USB
 dvd_desc: Pour DVD et clé USB
 usb_desc: Pour clé USB
@@ -408,11 +408,11 @@ offline_updated_desc: "Image d'installation hors ligne avec les dernières mises
   jours.\nConvient pour installation ou mise à jour.\n"
 server_aarch64: Serveurs et cartes UEFI Arm 64-bit (aarch64)
 ppc64: Serveurs PowerPC « big-endian » (ppc64)
-leap_16_coming_soon: "La sortie publique de Leap 16.0, un successeur de Leap 15.6,
-  peut être attendue à l’automne 2025. Il n’y a pas de plan pour faire Leap 15.7.
-  <br/>\nVérifiez régulièrement les mises à jour sur notre <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
-  >roadmap</a> et <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
-  pour davantage d'information.\n"
+leap_16_coming_soon: "La version publique de Leap 16.0, successeur de Leap 15.6, est
+  attendue pour l'automne 2025. Il n'est pas prévu de sortir une version Leap 15.7.<br/>\n\
+  Consultez régulièrement notre <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >feuille de route</a> et <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+  pour plus d'informations.\n"
 signature: Signature
 selfinstalling_ch_image: Hôte conteneur à installation automatique
 selfinstalling_k3s_image: Hôte k3s à installation automatique
@@ -449,13 +449,14 @@ preconfigured_qcow_image: Image préconfigurée (qcow)
 server_leapmicro_p1: Pour les déploiements edge, embarqués, IoT et autres
 server_leapmicro_p2: Système d’exploitation ultra-fiable et léger conçu pour les
   charges de travail conteneurisées et virtualisées.
-leap_ovw_title: Une toute nouvelle façon de construire openSUSE et un nouveau 
-  type de distribution Linux hybride
-leap_ovw_desc: Leap utilise les sources de SUSE Linux Enterprise (SLE), ce qui 
-  donne à Leap un niveau de stabilité inégalé par les autres distributions 
-  Linux, et combine cela avec des développements communautaires pour offrir aux 
-  utilisateurs, développeurs et administrateurs système la meilleure expérience 
-  Linux stable disponible.
+leap_ovw_title: Une toute nouvelle façon de construire openSUSE avec un cycle de
+  vie plus long
+leap_ovw_desc: Leap 16.0 s’appuie sur son approche hybride consistant à combiner
+  les sources de SUSE Linux Enterprise (SLE) avec les développements 
+  communautaires, offrant un niveau de stabilité inégalé par les autres 
+  distributions Linux. Avec une nouvelle <strong>période de support prolongée de
+  24 mois</strong>, Leap offre aux utilisateurs, développeurs et administrateurs
+  système l’une des meilleures expériences Linux disponibles.
 tumbleweed_ovw_title: Système d’exploitation de bureau et de serveur à la pointe
   de la technologie
 tumbleweed_ovw_desc: Avec Tumbleweed, vous n’avez pas à prendre des décisions 
@@ -518,3 +519,13 @@ microos_ovw_desc_p3: Essayez MicroOS dans des VM fonctionnant sur <a
   écrites sur une USB, qui est pilotée pour autoriser la configuration lors de 
   tout premier démarrage, avec l’option par défaut de modifications protégées 
   par mot de passe.
+oem_images: Images OEM pour les fournisseurs de matériel.
+oem_images_info: Les deux options installent la même image système. <br>Utilisez
+  le fichier RAW avec des outils manuels (par exemple dd), ou l’ISO 
+  auto-installable pour un déploiement guidé.
+oem_preconfigured_image: Image préconfigurée OEM (brute)
+oem_preconfigured_image_desc: Images OEM pour les fournisseurs de matériel.
+oem_image: Image OEM à installer soi-même (iso)
+oem_image_desc: Image d’auto-installation OEM
+preconfigured_image_desc: Image préconfigurée (brute)
+leap_160_ovw_video_desc: Un flux en direct concernant la sortie de Leap 16.0
