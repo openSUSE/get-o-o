@@ -127,27 +127,26 @@ installation_p1: "Proses Pemasangan openSUSE memberi Anda semua opsi yang\nAnda 
   dan pasang seperti itu. Tidak memiliki\nakses fisik ke mesin? Sambungkan ke pemasang
   dari jarak jauh dan\nlanjutkan pemasangan. Sesederhana itu.\n"
 points_transparent: Semuanya transparan
-points_transparent_p1: "Dari awal hingga akhir, setiap paket yang masuk ke distribusi\n\
-  \ memiliki semua sumber dan skrip bangun yang terlihat secara terbuka untuk semua
-  orang\nuntuk melihat. Meragukan sumber? Periksa hanya pada layanan bangun.\n"
-points_free: Perangkat lunak gratis? Pilihan Anda
-points_free_p1: "Paket dalam distribusi dibagi menjadi repositori gratis dan\ntidak
-  gratis. Tidak ingin menggunakan paket non-gratis? Anda dapat dengan mudah\nnonaktifkan
-  repositori yang tidak gratis. Itu pilihanmu, bukan pilihan kita.\n"
+points_transparent_p1: "Dari awal hingga akhir, setiap paket yang masuk ke dalam distribusi
+  memiliki sumber kode dan skrip pembangunannya yang terbuka untuk siapa pun. Ragu
+  dengan sumbernya? Silakan periksa langsung di layanan build.\n"
+points_free: Perangkat lunak bebas? Anda yang menentukan
+points_free_p1: "Paket-paket dalam distribusi dibagi dalam repositori bebas dan non-bebas.\n\
+  Tidak ingin menggunakan paket non-bebas? Tinggal nonaktifkan repositorinya — semudah
+  itu!.\nItu pilihanmu, bukan kami.\n"
 points_welcoming: Menyambut kontribusi
-points_welcoming_p1: "Kami mencoba yang terbaik untuk menyenangkan komunitas, dan
-  kami hanya bisa membuat ini\nterjadi ketika komunitas vokal tentang apa yang mereka
-  butuhkan. Itu sebabnya kami\nmemastikan berkontribusi semudah mungkin.\n"
-snapper: Sistemnya rusak? Tidak masalah lagi
+points_welcoming_p1: "Kami berkomitmen menghadirkan yang terbaik untuk komunitas.
+  Dan itu hanya bisa tercapai saat komunitas aktif menyuarakan kebutuhannya. Itulah
+  mengapa kami membuat proses kontribusi semudah mungkin.\n"
+snapper: Sistem rusak? Tak perlu khawatir lagi
 snapper_p1: "Fitur Sistem Berkas Snapshot membuat sistem berkas Anda tetap terkendali\n\
   \ memiliki pencadangan berkelanjutan yang dilakukan secara otomatis saat memasang\n\
   \ perangkat lunak dan pemutakhiran. Cukup boot dari snapshot sebelumnya dan bawa\n\
   \ sistem Anda ke keadaan kerja dalam hitungan menit.\n"
-software: Mendapatkan perangkat lunak tidak bisa lebih mudah
-software_p1: "Di antara kita, harus melalui setiap situs web untuk mendapatkan semua\n\
-  \ perangkat lunak yang mungkin Anda butuhkan adalah banyak pekerjaan. Pusat perangkat
-  lunak daring\nmembuat cara ini lebih mudah, dengan menggabungkan perangkat lunak
-  dari sejumlah besar\nsumber di satu tempat.\n"
+software: Mendapatkan perangkat lunak tidak pernah semudah ini
+software_p1: "Terus terang saja, mencari perangkat lunak yang Anda butuhkan dari berbagai
+  situs bisa sangat merepotkan. Software Center daring membuat semuanya jauh lebih
+  mudah, dengan mengumpulkan berbagai sumber perangkat lunak di satu tempat.\n"
 software_get: Dapatkan Perangkat Lunak
 transactional: Peladen Transaksional (Transactional Server)
 transactional_p1: "Pemasang sekarang mendukung peran sistem baru Peladen Transaksional,\n\
@@ -157,7 +156,7 @@ transactional_p1: "Pemasang sekarang mendukung peran sistem baru Peladen Transak
   pada perkakas manajemen paket\nbahwa semua distribusi SUSE dan openSUSE lainnya
   bergantung. Ini berarti\nbahwa sebagian besar paket RPM yang bekerja dengan peran
   sistem\ndistribusi openSUSE lain juga bekerja dengan peran sistem\nServer Transaksional.\n"
-yast: YaST, pilihan terbaik untuk pengguna ~~bertenaga~~
+yast: YaST, pilihan terbaik bagi pengguna ~~tingkat lanjut~~
 yast_p1: "Salah satu perkakas konfigurasi sistem terbesar membantu Anda, pengguna,
   untuk\nmengatur setiap aspek sistem Anda. Anda tidak perlu lagi pergi\nmelalui sejumlah
   besar skrip konfigurasi atau masukkan perintah yang meragukan\nuntuk mendapatkan
@@ -184,7 +183,7 @@ index_server: Peladen
 index_server_p1: Pemilihan distribusi untuk penggunaan peladen
 index_full: Atau langsung masuk ke halaman unduhan untuk distribusi
 desktop: Distribusi destop openSUSE
-desktop_p1: "Dua distribusi untuk semua (sekarang dalam warna hijau!)\n"
+desktop_p1: "Dua distribusi yang menguasai segalanya (kini dalam warna hijau!)\n"
 desktop_tumbleweed_p1: Untuk Pengembang, Kontributor openSUSE, Pemain Permainan 
   dan Penggemar Linux/FOSS
 desktop_tumbleweed_p2: Rilis bergulir dengan paket terbaru yang disediakan oleh 
