@@ -390,8 +390,7 @@ Tumbleweed_features:
     description: "Tumbleweed uporabnikom ponuja najnovejšo programsko opremo za računalniške
       igre. S hitrim razvojem Linuxove podpore za računalniške igre je to pomemben
       aspekt tekoče in zmogljive izkušnje v vaših najbolj priljubljenih igrah.\n"
-leap_ovw_title: Povsem nov način gradnje openSUSE in nova vrsta hibridne 
-  distribucije GNU/Linux
+leap_ovw_title: Povsem nov način gradnje openSUSE z daljšo življenjsko dobo.
 tumbleweed_ovw_title: Višek razvoja operacijskih sistemov za namizje in strežnik
 tumbleweed_ovw_desc: 'S Tumbleweed vam ni potrebno sprejemati težkih odločitev glede
   stvari, ki jih cenite: svoboda ali zanesljivost, nadzor ali varnost, tehnologija
@@ -400,10 +399,12 @@ leap_micro_ovw_title: Leap Micro je ultra-zanesljiv, lahek operacijski sistem,
   ki je zgrajen za uporabe v vsebnikih in navideznih računalnikih.
 leap_micro_ovw_video_desc: Predstavitev namestitve Leap Micro 6.1 s šifriranjem 
   celotnega diska in dvo-delnim overjanjem v Cockpit-u.
-leap_ovw_desc: Leap uporablja izvorno kodo iz SUSE Linux Enterprise (SLE), kar 
-  Leap daje stopnjo stabilnosti, ki je druge distribucije GNU/Linux ne dosegajo.
-  To združuje z razvojem iz skupnosti in tako uporabnikom, razvijalcem in 
-  sistemskim skrbnikom ponuja najboljšo stabilno izkušnjo.
+leap_ovw_desc: Leap 16.0 gradi na hibridnem pristopu združevanja izvorne kode iz
+  SUSE Linux Enterprise (SLE) z razvojem s strani skupnosti. To prinaša stopnjo 
+  stabilnosti, ki je druge distribucije GNU/Linux ne dosegajo. Z novim 
+  <strong>podaljšanim obdobjem podpore 24 mesecev</strong> Leap uporabnikom, 
+  razvijalcem in sistemskim skrbnikom ponuja eno izmed najboljših in 
+  najzanesljivejših izkušenj z GNU/Linux.
 leap_156_ovw_video_desc: Prenos v živo ob izidu Leap 15.6
 microos_ovw_desc_p3: Poskusite MicroOS v navideznih računalnikih, ki tečejo na 
   <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ali KVM. Za 
@@ -465,3 +466,13 @@ requirements_cpu_slfo_x86_64_link:
   https://en.opensuse.org/X86-64_microarchitecture_levels
 requirements_cpu_slfo_ppc64le: 'Za ppc64le: POWER9 ali višje'
 requirements_cpu_slfo_s390x: 'Za s390x: z14 ali višje'
+oem_images_info: Obe možnosti namestita isti odtis sistema.<br>Uporabite 
+  datoteko RAW z orodji, kot je dd; ali datoteko ISO za zagonsko samo-namestitev
+  za vodeno uvedbo.
+preconfigured_image_desc: Vnaprej nastavljen odtis (surov)
+oem_image_desc: Odtis za samo-namestitev (OEM)
+oem_preconfigured_image_desc: Odtis za prodajalce strojne opreme (OEM).
+oem_image: Odtis za samo-namestitev (ISO, OEM)
+oem_images: Odtisi za prodajalce strojne opreme (OEM).
+oem_preconfigured_image: Vnaprej nastavljen odtis (surov, OEM)
+leap_160_ovw_video_desc: Pretok v živo ob izidu Leap 16.0
