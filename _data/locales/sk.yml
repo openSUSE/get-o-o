@@ -488,3 +488,7 @@ oem_image: OEM samoinštalačný obraz (iso)
 oem_image_desc: OEM samoinštalačný obraz
 preconfigured_image_desc: Predkonfigurovaný obraz (raw)
 leap_160_ovw_video_desc: Priamy prenos vydania Leap 16.0
+oem_preconfigured_image_gnome: Predkonfigurovaný obraz OEM s GNOME (raw)
+oem_preconfigured_image_kde: Predkonfigurovaný obraz OEM s KDE (raw)
+oem_image_gnome: OEM samoinštalačný obraz s GNOME (iso)
+oem_image_kde: OEM samoinštalačný obraz s KDE (iso)
