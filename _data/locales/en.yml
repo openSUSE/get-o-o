@@ -297,10 +297,8 @@ desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop
 desktop_leap_p2:
   Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
-desktop_slowroll_p1: For users wanting newer software than Leap but more stability than Tumbleweed
-desktop_slowroll_p2:
-  Monthly updates taken from Tumbleweed with in-between updates for bug
-  fixes and security patches.
+desktop_slowroll_p1: For Users who want newer software than Leap offers, but with a lower update cadence than Tumbleweed.
+desktop_slowroll_p2: Monthly snapshots derived from Tumbleweed, supplemented by interim updates for bug fixes and security patches.
 desktop_kalpa_p1:
 desktop_kalpa_p2:
 server: openSUSE Server Distributions
@@ -323,7 +321,7 @@ server_microos_p2:
 server_leapmicro_p1: For edge, embedded, IoT and other deployments
 server_leapmicro_p2: Ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
 server_slowroll_p1: For servers that need that sweet spot between stability and freshness
-server_slowroll_p2: Monthly updates taken from Tumbleweed with in-between updates for bug fixes and security patches.
+server_slowroll_p2: Monthly snapshots derived from Tumbleweed, supplemented by interim updates for bug fixes and security patches.
 new_version_available: $distro_name is now available for download
 new_version_testing: $distro_name is now available for download and testing
 view_distro: View $distro_name
