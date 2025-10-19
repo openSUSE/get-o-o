@@ -30,9 +30,11 @@ offline_updated_desc: |
   Suitable for installation or upgrade.
 oem_images: OEM Images for Hardware Vendors.
 oem_images_info: Both options install the same system image.<br>Use the RAW file with manual tools (e.g. dd), or the bootable self-install ISO for a guided deployment.
-oem_preconfigured_image: OEM Preconfigured Image (raw)
+oem_preconfigured_image_gnome: OEM Preconfigured Image with GNOME (raw)
+oem_preconfigured_image_kde: OEM Preconfigured Image with KDE(raw)
 oem_preconfigured_image_desc: OEM Images for Hardware Vendors.
-oem_image: OEM Self-install Image (iso)
+oem_image_gnome: OEM Self-install Image with GNOME (iso)
+oem_image_kde: OEM Self-install Image with KDE (iso)
 oem_image_desc: OEM Self-install Image
 network_image: Network Image
 network_desc: |

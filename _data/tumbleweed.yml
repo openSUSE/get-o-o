@@ -338,3 +338,38 @@ downloads:
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.sha256"
       - name: signature
         url: "/ports/aarch64/tumbleweed/iso/openSUSE-Tumbleweed-Rescue-CD-aarch64-Current.iso.sha256.asc"
+- name: oem_images
+  display: desktop
+  info: oem_images_info
+  arches:
+  - name: server_x86_64
+    types: 
+    - name: oem_image_gnome
+      short: oem_image_desc
+      primary_link: "/tumbleweed/appliances/iso//Tumbleweed-OEM.x86_64-GNOME.iso"
+      links:
+      - name: metalink
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-GNOME.iso.meta4"
+      - name: pick_mirror
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-GNOME.iso?mirrorlist"
+      - name: checksum
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-GNOME.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-GNOME.iso.sha256.asc"
+  #        - name: torrent_file
+  #          url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-GNOME.iso.torrent"
+
+    - name: oem_preconfigured_image_gnome
+      short: oem_preconfigured_image_desc
+      primary_link: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz"
+      links:
+      - name: metalink
+        url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz.sha256.asc"
+#        - name: torrent_file
+#          url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz.torrent"
