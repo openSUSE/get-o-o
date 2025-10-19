@@ -454,15 +454,15 @@ microos_ovw_desc_p2: MicroOS offers an offline image. The main difference betwee
 microos_ovw_desc_p3: Try MicroOS in VMs running on either <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> or KVM. Using a Raspberry Pi or other System on Chip hardware may use the preconfigured image together with the <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> functionality for the boot process. Both preconfigured and self-installed images are intended to be used with  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  written to a USB, which is driven to allow configuration on any first boot, with the option for default password protected changes.
 slowroll_ovw_title: A stable rolling release distribution positioned between Leap and Tumbleweed
 slowroll_ovw_desc: |
-  Slowroll is designed for users who want newer software than Leap but more stability than Tumbleweed.
-  It achieves this by monthly distribution updates taken from Tumbleweed and then a set of in-between updates for bug fixes and security patches.
+  Slowroll provides a stable rolling-release experience by combining monthly snapshots of Tumbleweed and in-between updates for bug fixes and security patches.
+
+  It’s designed for users who don’t want the very bleeding edge of openSUSE Tumbleweed, yet don’t want to wait 12 months or more for major updates as with openSUSE Leap.
 
 Slowroll_features:
-  idea:
-    name: Rolling Release without Surprises
-    description: >
-      Slowroll provides a stable rolling-release experience by combining monthly snapshots of Tumbleweed and in-between updates for bug fixes and security patches.
-      It’s designed for users who don’t want the very bleeding edge of openSUSE Tumbleweed, yet don’t want to wait 12 months or more for major updates as with openSUSE Leap.
+  alert:
+    name: "Note: Experimental Phase"
+    description: |
+      Currently Slowroll is still listed in an experimental or beta state, therefore while more stable than full rolling for many users, you should still be mindful of potential issues (especially with third-party repos) until it matures.
   plant:
     name: Bandwidth Friendly
     description: |
@@ -483,14 +483,6 @@ Slowroll_features:
     name: Built-in Snapshot Protection
     description: |
       Leveraging the underlying openSUSE infrastructure (with Btrfs snapshots, etc.), Slowroll allows you to rollback if something does go wrong — giving extra peace of mind for less frequent but bulkier updates.
-  scale:
-    name: Balanced Choice for Many Users
-    description: |
-      If you feel that Tumbleweed is too rapid and Leap is too static, Slowroll hits a sweet-spot: you get rolling updates but with a buffer.
-  alert:
-    name: "Note: Experimental Phase"
-    description: |
-      Currently Slowroll is still listed in an experimental or beta state, therefore while more stable than full rolling for many users, you should still be mindful of potential issues (especially with third-party repos) until it matures.
 
 kalpa_ovw_title:
 kalpa_ovw_desc:
