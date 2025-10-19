@@ -25,12 +25,6 @@ navbar_links:
   -
     link: microos/
     text: MicroOS
-  -
-    link: aeon/
-    text: Aeon
-#   -
-#     link: kalpa/
-#     text: Kalpa
   - locales
 
 footer_links:
