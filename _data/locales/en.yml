@@ -458,15 +458,41 @@ slowroll_ovw_title: A stable rolling release distribution positioned between Lea
 slowroll_ovw_desc: |
   Slowroll is designed for users who want newer software than Leap but more stability than Tumbleweed.
   It achieves this by monthly distribution updates taken from Tumbleweed and then a set of in-between updates for bug fixes and security patches.
-slowroll_features:
-  pause:
-    name: Controlled Rolling
+
+Slowroll_features:
+  idea:
+    name: Rolling Release without Surprises
+    description: >
+      Slowroll provides a stable rolling-release experience by combining monthly snapshots of Tumbleweed and in-between updates for bug fixes and security patches.
+      It’s designed for users who don’t want the very bleeding edge of openSUSE Tumbleweed, yet don’t want to wait 12 months or more for major updates as with openSUSE Leap.
+  plant:
+    name: Bandwidth Friendly
     description: |
-      Slowroll provides a controlled rolling release experience by delivering updates on a monthly basis. This approach allows users to benefit from the latest software advancements while maintaining system stability.
-  bridge:
-    name: Stability Bridge
+      Slowroll reduces bandwidth consumption by limiting updates to monthly snapshots plus essential patches, making it ideal for users with limited internet access.
+  consistency:
+    name: Tested Snapshot Base
     description: |
-      Slowroll serves as a bridge between the stability of Leap and the cutting-edge nature of Tumbleweed. It offers a balanced environment for users who seek a middle ground between these two distributions.
+      By using snapshots of Tumbleweed that have already undergone testing, Slowroll lowers the risk of major regressions compared to truly instantaneous rolling updates.
+  flexibility:
+    name: Modern Software with Stability
+    description: |
+      Get access to more up-to-date packages than in a traditional fixed-release (Leap) while maintaining more conservatism than full rolling. Great for desktops where you want current features but less frequent upheaval.
+  alarm:
+    name: Defined Update Cadence
+    description: |
+      Slowroll uses a predictable update schedule – big updates approximately once a month, plus security/bug‐fix updates as needed. That predictability makes planning easier for users and administrators.
+  rescue:
+    name: Built-in Snapshot Protection
+    description: |
+      Leveraging the underlying openSUSE infrastructure (with Btrfs snapshots, etc.), Slowroll allows you to rollback if something does go wrong — giving extra peace of mind for less frequent but bulkier updates.
+  scale:
+    name: Balanced Choice for Many Users
+    description: |
+      If you feel that Tumbleweed is too rapid and Leap is too static, Slowroll hits a sweet-spot: you get rolling updates but with a buffer.
+  alert:
+    name: "Note: Experimental Phase"
+    description: |
+      Currently Slowroll is still listed in an experimental or beta state, therefore while more stable than full rolling for many users, you should still be mindful of potential issues (especially with third-party repos) until it matures.
 
 kalpa_ovw_title:
 kalpa_ovw_desc:
