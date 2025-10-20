@@ -391,4 +391,4 @@ leap_160_ovw_video_desc: Leap 16.0 リリースライブストリーム
 oem_preconfigured_image_gnome: GNOME 版の OEM 事前構築済みイメージ (raw 形式)
 oem_preconfigured_image_kde: KDE 版の OEM 事前構築済みイメージ (raw 形式)
 oem_image_gnome: GNOME 版の OEM 自己インストールイメージ (iso 形式)
-oem_image_kde: KDE 版の OEM 事前設定済みイメージ (raw)
+oem_image_kde: KDE 版の OEM 自己インストールイメージ (iso 形式)
