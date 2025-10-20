@@ -517,3 +517,7 @@ oem_image_desc: Imatge d'autoinstal·lació d'OEM
 preconfigured_image_desc: Imatge preconfigurada (en brut)
 leap_160_ovw_video_desc: Una transmissió en directe de la publicació del Leap 
   16.0
+oem_preconfigured_image_gnome: Imatge preconfigurada d'OEM amb GNOME (crua)
+oem_preconfigured_image_kde: Imatge preconfigurada d'OEM amb KDE (crua)
+oem_image_gnome: Imatge d'autoinstal·lació d'OEM amb GNOME (iso)
+oem_image_kde: Imatge d'autoinstal·lació d'OEM amb KDE (iso)
