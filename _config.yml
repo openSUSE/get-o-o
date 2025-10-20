@@ -25,6 +25,9 @@ navbar_links:
   -
     link: microos/
     text: MicroOS
+  -
+    link: kalpa/
+    text: Kalpa
   - locales
 
 footer_links:

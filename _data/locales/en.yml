@@ -299,8 +299,8 @@ desktop_leap_p2:
   and community-developed innovation.
 desktop_slowroll_p1: For Users who want newer software than Leap offers, but with a lower update cadence than Tumbleweed.
 desktop_slowroll_p2: Monthly snapshots derived from Tumbleweed, supplemented by interim updates for bug fixes and security patches.
-desktop_kalpa_p1:
-desktop_kalpa_p2:
+desktop_kalpa_p1: For Users who want an atomic and immutable desktop experience based on KDE Plasma.
+desktop_kalpa_p2: Kalpa provides an easy to use, reliable, and secure desktop operating system with automatic updates and rollback capabilities.
 server: openSUSE Server Distributions
 server_p1: |
   Five comfortably boring distributions, how it always should be
@@ -322,6 +322,7 @@ server_leapmicro_p1: For edge, embedded, IoT and other deployments
 server_leapmicro_p2: Ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
 server_slowroll_p1: For servers that need that sweet spot between stability and freshness
 server_slowroll_p2: Monthly snapshots derived from Tumbleweed, supplemented by interim updates for bug fixes and security patches.
+immutable_distributions: Immutable Distributions
 new_version_available: $distro_name is now available for download
 new_version_testing: $distro_name is now available for download and testing
 view_distro: View $distro_name
@@ -462,7 +463,7 @@ Slowroll_features:
   alert:
     name: "Note: Experimental Phase"
     description: |
-      Currently Slowroll is still listed in an experimental or beta state, therefore while more stable than full rolling for many users, you should still be mindful of potential issues (especially with third-party repos) until it matures.
+      Currently Slowroll is still in a beta state, therefore while it could be more stable than full rolling for many users, you should still be mindful of potential issues (especially with third-party repos) until it matures.
   plant:
     name: Bandwidth Friendly
     description: |
@@ -484,5 +485,24 @@ Slowroll_features:
     description: |
       Leveraging the underlying openSUSE infrastructure (with Btrfs snapshots, etc.), Slowroll allows you to rollback if something does go wrong — giving extra peace of mind for less frequent but bulkier updates.
 
-kalpa_ovw_title:
-kalpa_ovw_desc:
+kalpa_ovw_title: A KDE Plasma based atomic and immutable desktop experience
+kalpa_ovw_desc: Kalpa is an atomic and immutable Linux desktop from the openSUSE Project that offers the KDE Plasma Desktop Environment, with its desktop derived from Tumbleweed and its base system derived from MicroOS.
+Kalpa_features:
+  idea:
+    name: Immutable Desktop, Simplified
+    description: Kalpa provides a modern immutable desktop experience built on openSUSE MicroOS, designed for users who want a reliable, low-maintenance system with automatic transactional updates.
+  plant:
+    name: Built on MicroOS
+    description: Kalpa is powered by openSUSE MicroOS, using a read-only root filesystem and transactional updates, ensuring system stability and integrity even after major updates.
+  kde:
+    name: KDE Plasma Experience
+    description: Kalpa offers a streamlined KDE desktop tailored for an atomic setup — minimal, clean, and optimized for users who want a modern and consistent interface.
+  tool:
+    name: Reboot-to-Update Simplicity
+    description: Updates are applied automatically in the background and activated upon reboot, reducing downtime and eliminating update interruptions.
+  shield:
+    name: Enhanced Security by Design
+    description: The immutable base system minimizes the attack surface and prevents accidental system damage, making Kalpa a secure choice for everyday computing.
+  consistency:
+    name: Transactional System Integrity
+    description: Every system change is transactional — meaning you can roll back easily if something goes wrong, ensuring consistency across updates and configurations.
