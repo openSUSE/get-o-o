@@ -463,7 +463,7 @@ Slowroll_features:
   alert:
     name: "Note: Experimental Phase"
     description: |
-      Currently Slowroll is still in a beta state, therefore while it could be more stable than full rolling for many users, you should still be mindful of potential issues (especially with third-party repos) until it matures.
+      Currently Slowroll is still in an experimental phase, therefore you should be mindful of potential issues (especially with third-party repos) until it matures.
   plant:
     name: Bandwidth Friendly
     description: |
