@@ -526,6 +526,10 @@ oem_images_info: Les deux options installent la même image système. <br>Utilis
 oem_preconfigured_image: Image préconfigurée OEM (brute)
 oem_preconfigured_image_desc: Images OEM pour les fournisseurs de matériel.
 oem_image: Image OEM à installer soi-même (iso)
-oem_image_desc: Image d’auto-installation OEM
+oem_image_desc: Image OEM auto-installable
 preconfigured_image_desc: Image préconfigurée (brute)
 leap_160_ovw_video_desc: Un flux en direct concernant la sortie de Leap 16.0
+oem_preconfigured_image_gnome: Image OEM préconfigurée avec GNOME (brute)
+oem_preconfigured_image_kde: Image OEM préconfigurée avec KDE (brute)
+oem_image_gnome: Image OEM auto-installable avec GNOME (iso)
+oem_image_kde: Image OEM auto-installable avec KDE (iso)
