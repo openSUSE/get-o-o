@@ -17,8 +17,14 @@ navbar_links:
     link: tumbleweed/
     text: Tumbleweed
   -
+    link: slowroll/
+    text: Slowroll
+  -
     link: leapmicro/
     text: Leap Micro
+  -
+    link: kalpa/
+    text: Kalpa
   -
     link: microos/
     text: MicroOS
