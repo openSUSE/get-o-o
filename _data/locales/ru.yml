@@ -498,3 +498,8 @@ oem_image: OEM-образ самостоятельной установки (iso
 oem_image_desc: OEM-образ самостоятельной установки
 preconfigured_image_desc: Предварительно настроенный образ (raw)
 leap_160_ovw_video_desc: Прямая трансляция выпуска Leap 16.0
+oem_preconfigured_image_gnome: Предварительно настроенный OEM-образ с GNOME 
+  (raw)
+oem_preconfigured_image_kde: Предварительно настроенный OEM-образ с KDE (raw)
+oem_image_gnome: OEM-образ для самостоятельной установки с GNOME (iso)
+oem_image_kde: OEM-образ для самостоятельной установки с KDE (iso)
