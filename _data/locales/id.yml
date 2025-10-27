@@ -496,3 +496,7 @@ oem_image: Citra Instalasi Mandiri OEM (ISO)
 oem_image_desc: Citra Instalasi Mandiri OEM
 preconfigured_image_desc: Citra Prakonfigurasi (mentah)
 leap_160_ovw_video_desc: Siaran Langsung Rilis Leap 16.0
+oem_preconfigured_image_gnome: Citra Prakonfigurasi OEM dengan GNOME (mentah)
+oem_preconfigured_image_kde: Citra Prakonfigurasi OEM dengan KDE (mentah)
+oem_image_gnome: Citra Instalasi Mandiri OEM dengan GNOME (ISO)
+oem_image_kde: Citra Instalasi Mandiri OEM dengan KDE (ISO)
