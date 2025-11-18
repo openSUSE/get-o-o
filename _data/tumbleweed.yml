@@ -373,3 +373,34 @@ downloads:
         url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz.sha256.asc"
 #        - name: torrent_file
 #          url: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-GNOME.raw.xz.torrent"
+
+    - name: oem_image_kde
+      short: oem_image_desc
+      primary_link: "/tumbleweed/appliances/iso//Tumbleweed-OEM.x86_64-KDE.iso"
+      links:
+      - name: metalink
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-KDE.iso.meta4"
+      - name: pick_mirror
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-KDE.iso?mirrorlist"
+      - name: checksum
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-KDE.iso.sha256"
+      - name: signature
+        url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-KDE.iso.sha256.asc"
+  #        - name: torrent_file
+  #          url: "/tumbleweed/appliances/iso/Tumbleweed-OEM.x86_64-KDE.iso.torrent"
+
+    - name: oem_preconfigured_image_kde
+      short: oem_preconfigured_image_desc
+      primary_link: "/tumbleweed/appliances/Tumbleweed-OEM.x86_64-KDE.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-OEM.x86_64-KDE.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-OEM.x86_64-KDE.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-OEM.x86_64-KDE.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-OEM.x86_64-KDE.raw.xz.sha256.asc"
+#        - name: torrent_file
+#          url: "/distribution/leap/16.0/appliances/Leap-16.0-OEM.x86_64-KDE.raw.xz.torrent"
+
