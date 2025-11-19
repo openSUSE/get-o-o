@@ -492,3 +492,18 @@ oem_preconfigured_image_gnome: Predkonfigurovaný obraz OEM s GNOME (raw)
 oem_preconfigured_image_kde: Predkonfigurovaný obraz OEM s KDE (raw)
 oem_image_gnome: OEM samoinštalačný obraz s GNOME (iso)
 oem_image_kde: OEM samoinštalačný obraz s KDE (iso)
+encrypted_rt_image: Plne šifrovaný RealTime obraz (raw)
+preconfigured_base_image: Základný predkonfigurovaný obraz (raw)
+encrypted_base_image: Základný plne šifrovaný obraz (raw)
+preconfigured_base_qcow_image: Základný predkonfigurovaný obraz (qcow)
+vmware_base_image: Základný VMware obraz
+selfinstall_base_image: Základný samoinštalačný obraz
+preconfigured_base_64k_image: Základný predkonfigurovaný 64k obraz (raw)
+encrypted_base_64k_image: Základný plne šifrovaný 64k obraz (raw)
+selfinstall_base_encrypted_64k_image: Základný plne šifrovaný samoinštalačný 64k
+  obraz (iso)
+selfinstall_base_64k_image: Základný samoinštalačný 64k obraz (iso)
+preconfigured_64k_image: Predkonfigurovaný 64k obraz (raw)
+encrypted_64k_image: Plne šifrovaný 64k obraz (raw)
+selfinstall_64k_image: Samoinštalačný 64k obraz (iso)
+selfinstall_encrypted_64k_image: Plne šifrovaný samoinštalačný 64k obraz (iso)
