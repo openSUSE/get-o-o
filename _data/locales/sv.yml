@@ -430,9 +430,9 @@ leap_ovw_title: Ett helt nytt sätt att bygga openSUSE med en längre livscykel
 leap_ovw_desc: Leap 16.0 bygger vidare på sin hybridstrategi att kombinera 
   källkod från SUSE Linux Enterprise (SLE) med gemenskaps utvecklingar, vilket 
   ger en stabilitetsnivå som inte matchas av andra Linux-distributioner. Med en 
-  nyligen **förlängd supportperiod på 24 månader** ger Leap användare, 
-  utvecklare och systemadministratörer en av de bästa och mest pålitliga 
-  Linux-upplevelserna som finns tillgänglig.
+  nyligen <strong>förlängd supportperiod på 24 månader</strong>, ger Leap 
+  användare, utvecklare och systemadministratörer en av de bästa och mest 
+  pålitliga Linux-upplevelserna som finns tillgänglig.
 tumbleweed_ovw_title: Toppmodernt operativsystem för stationära datorer och 
   servrar
 leap_micro_ovw_title: Leap Micro är ett extremt pålitligt, lättviktigt 
@@ -489,3 +489,19 @@ oem_image_kde: OEM självinstallerandeavbildning med KDE (iso)
 oem_image_desc: OEM självinstallerandeavbildning
 preconfigured_image_desc: Förkonfigurerad avbild (rå)
 leap_160_ovw_video_desc: En livestream av lanseringen av Leap 16.0
+encrypted_rt_image: Helt krypterad realtidsavbild (rå)
+preconfigured_base_image: Förkonfigurerad grundavbild (rå)
+encrypted_base_image: Basavbild med fullständig kryptering (rå)
+preconfigured_base_qcow_image: Basförkonfigurerad avbild (qcow)
+vmware_base_image: Bas VMWare avbild
+selfinstall_base_image: Bas självinstallerande avbild
+preconfigured_base_64k_image: Bas förkonfigurerad 64k avbild (rå)
+encrypted_base_64k_image: Basavbild med fullständig kryptering 64k avbild (rå)
+selfinstall_base_encrypted_64k_image: Basavbild för helt krypterad 
+  självinstallation 64k avbild (iso)
+selfinstall_base_64k_image: Basavbild för självinstallation 64k avbild (iso)
+preconfigured_64k_image: Förkonfigurerad 64k-avbild (rå)
+encrypted_64k_image: Helt krypterad 64k-avbild (rå)
+selfinstall_64k_image: Självinstallerad 64k-avbild (iso)
+selfinstall_encrypted_64k_image: Helt krypterad självinstallerad 64k-avbild 
+  (iso)
