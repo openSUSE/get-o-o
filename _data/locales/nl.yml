@@ -495,3 +495,19 @@ oem_preconfigured_image_gnome: OEM Vooraf geconfigureerde image met GNOME (raw)
 oem_preconfigured_image_kde: OEM Vooraf geconfigureerde image met KDE(raw)
 oem_image_gnome: OEM Zelf installerende image met GNOME (iso)
 oem_image_kde: OEM Zelf installerende image met KDE (iso)
+encrypted_rt_image: Volledig versleutelde realtime image (raw)
+preconfigured_base_image: Basis voorgeconfigureerde image (raw)
+encrypted_base_image: Basis volledig versleutelde image (raw)
+preconfigured_base_qcow_image: Basis voor geconfigureerde image (qcow)
+vmware_base_image: Basis VMware image
+selfinstall_base_image: Basis zelf installerende image
+preconfigured_base_64k_image: Basis voorgeconfigureerde 64k image (raw)
+encrypted_base_64k_image: Basis volledig versleutelde 64k image (raw)
+selfinstall_base_encrypted_64k_image: Basis volledig versleutelde zelf 
+  installerende 64k image (iso)
+selfinstall_base_64k_image: Basis zelf installerende 64k image (iso)
+preconfigured_64k_image: Voorgeconfigureerde 64k image (raw)
+encrypted_64k_image: Volledig versleutelde 64k image (raw)
+selfinstall_64k_image: Zelf installerende 64k image (iso)
+selfinstall_encrypted_64k_image: Volledig versleutelde zelf installerende 64k 
+  image (iso)
