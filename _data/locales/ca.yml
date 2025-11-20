@@ -434,11 +434,11 @@ tumbleweed_ovw_desc: "Amb la versió Tumbleweed no cal que prengueu decisions di
   la seguretat, la tecnologia o l'estabilitat: el Tumbleweed us permet tenir la dona
   borratxa i el vi al celler!"
 leap_micro_ovw_desc_p2: El Leap Micro, des de la versió 6.0, ofereix una imatge 
-  d'autoinstal·lació, una imatge en brut i un DVD de paquets que pot servir com 
-  a repositori fora de línia. La imatge d'autoinstal·lació és la nostra 
+  d'autoinstal·lació, una imatge en cru i un DVD de paquets que pot servir com a
+  repositori fora de línia. La imatge d'autoinstal·lació és la nostra 
   recomanació per a qualsevol instal·lació basada en USB, ja que ja no fem 
   servir instal·ladors tradicionals. Els usuaris poden automatitzar i 
-  personalitzar la seva instal·lació amb <a 
+  personalitzar la instal·lació amb <a 
   href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> o amb <a 
   href="https://github.com/ openSUSE/combustion">Combustió</a> o usant 
   l'assistent jeos-firstboot. Proveu <a 
@@ -480,8 +480,8 @@ leap_micro_ovw_desc_p3: Proveu el Leap Micro en màquines virtuals que s'execute
   en un USB, que s'activa per permetre la configuració en qualsevol primera 
   arrencada, amb l'opció de canvis protegits amb contrasenya per defecte.
 microos_ovw_desc_p2: El MicroSO ofereix una imatge fora de línia. La principal 
-  diferència entre les imatges fora de línia i les d'autoinstal·lació / en brut 
-  és que la imatge fora de línia té un instal·lador. La instal·lació en brut i 
+  diferència entre les imatges fora de línia i les d'autoinstal·lació / en cru 
+  és que la imatge fora de línia té un instal·lador. La instal·lació en cru i 
   automàtica permet la personalització mitjançant Combustió o manualment a la 
   imatge després d'escriure-la al disc. Hi ha una opció per a un nucli en temps 
   real.
@@ -514,10 +514,26 @@ oem_preconfigured_image: Imatge preconfigurada d'OEM (en brut)
 oem_preconfigured_image_desc: Imatges d'OEM per a proveïdors de maquinari
 oem_image: Imatge d'autoinstal·lació d'OEM (iso)
 oem_image_desc: Imatge d'autoinstal·lació d'OEM
-preconfigured_image_desc: Imatge preconfigurada (en brut)
+preconfigured_image_desc: Imatge preconfigurada (en cru)
 leap_160_ovw_video_desc: Una transmissió en directe de la publicació del Leap 
   16.0
 oem_preconfigured_image_gnome: Imatge preconfigurada d'OEM amb GNOME (crua)
 oem_preconfigured_image_kde: Imatge preconfigurada d'OEM amb KDE (crua)
 oem_image_gnome: Imatge d'autoinstal·lació d'OEM amb GNOME (iso)
 oem_image_kde: Imatge d'autoinstal·lació d'OEM amb KDE (iso)
+encrypted_rt_image: Imatge en temps real totalment encriptada (en cru)
+preconfigured_base_image: Imatge de base preconfigurada (en cru)
+encrypted_base_image: Imatge de base totalment encriptada (en cru)
+preconfigured_base_qcow_image: Imatge de base preconfigurada (qcow)
+vmware_base_image: Imatge de base de VMware
+selfinstall_base_image: Imatge de base d'autoinstal·lació
+preconfigured_base_64k_image: Imatge de base preconfigurada de 64k (en cru)
+encrypted_base_64k_image: Imatge de base totalment encriptada de 64k (en cru)
+selfinstall_base_encrypted_64k_image: Imatge de base totalment encriptada 
+  d'autoinstal·lació de 64k (iso)
+selfinstall_base_64k_image: Imatge de base d'autoinstal·lació de 64k (iso)
+preconfigured_64k_image: Imatge preconfigurada de 64k (en cru)
+encrypted_64k_image: Imatge de 64k totalment encriptada (en cru)
+selfinstall_64k_image: Imatge de 64k d'autoinstal·lació (iso)
+selfinstall_encrypted_64k_image: Imatge de 64k totalment encriptada i 
+  d'autoinstal·lació (iso)
