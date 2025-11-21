@@ -287,13 +287,13 @@ jeos_info: 最小限のパッケージのみをインストールしたイメー
   ページ</a> をご覧ください
 preconfigured_rt_image: 事前構築済みのリアルタイム版イメージ (raw 形式)
 preconfigured_image: 事前構築済みイメージ (raw 形式)
-selfinstall_image: 自己インストールイメージ
+selfinstall_image: 自己インストール型イメージ
 selfinstall_rt_image: 自己インストール型のリアルタイム版イメージ
 live_info: "ライブイメージには下記のような制限があることに注意してください:\n* インストールやアップグレードには使用しないでください。インストールやアップグレードを行う場合は、インストールメディアをお使いください。\n\
   \ * パッケージやドライバの同梱数が少ないので、インストールを行った場合と比べて性能や機能が制限されます。そのため、ハードウエアの対応可否の調査には不適切となることに留意してください。\n\
   \ * カーネルと initrd の更新はできません。そのため、恒久的なインストールとして使用すべきではありません。\n"
 selfinstalling_ch_image: 自己インストール型コンテナホスト
-selfinstalling_images: 自己インストールイメージ
+selfinstalling_images: 自己インストール型イメージ
 selfinstalling_k3s_image: 自己インストール型 k3s ホスト
 offline_updated_desc: "最新の更新が適用されているオフラインインストールイメージです。\nインストールやアップグレードにお使いいただけます。\n"
 offline_updated_image: 更新済みオフラインイメージ
@@ -392,3 +392,17 @@ oem_preconfigured_image_gnome: GNOME 版の OEM 事前構築済みイメージ (
 oem_preconfigured_image_kde: KDE 版の OEM 事前構築済みイメージ (raw 形式)
 oem_image_gnome: GNOME 版の OEM 自己インストールイメージ (iso 形式)
 oem_image_kde: KDE 版の OEM 自己インストールイメージ (iso 形式)
+encrypted_rt_image: 完全暗号化済みリアルタイムイメージ (raw 形式)
+preconfigured_64k_image: 事前構築済み 64k イメージ (raw 形式)
+encrypted_64k_image: 完全暗号化済み 64k イメージ (raw 形式)
+selfinstall_64k_image: 自己インストール型 64k イメージ (iso 形式)
+preconfigured_base_image: 基本設定済みイメージ (raw 形式)
+encrypted_base_image: 基本完全暗号化済みイメージ (raw 形式)
+preconfigured_base_qcow_image: 基本設定済みイメージ (qcow 形式)
+vmware_base_image: 基本 VMware イメージ
+selfinstall_base_image: 基本自己インストール型イメージ
+preconfigured_base_64k_image: 基本設定済み 64k イメージ (raw 形式)
+encrypted_base_64k_image: 基本完全暗号化済み 64k イメージ (raw 形式)
+selfinstall_base_encrypted_64k_image: 基本完全暗号化済み自己インストール 64k イメージ (iso 形式)
+selfinstall_base_64k_image: 基本自己インストール型 64k イメージ (iso 形式)
+selfinstall_encrypted_64k_image: 完全暗号化済み自己インストール 64k イメージ (iso 形式)
