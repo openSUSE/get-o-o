@@ -47,8 +47,6 @@
     state: 'RC'
   - date: '2023-10-12 12:00:00 UTC'
     state: 'Stable'
-  - date: '2024-11-11 12:00:00 UTC'
-    state: 'Stable'
   - date: '2024-06-25 12:00:00 UTC'
     state: 'EOL'
 
