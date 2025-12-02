@@ -500,3 +500,19 @@ oem_preconfigured_image_gnome: Citra Prakonfigurasi OEM dengan GNOME (mentah)
 oem_preconfigured_image_kde: Citra Prakonfigurasi OEM dengan KDE (mentah)
 oem_image_gnome: Citra Instalasi Mandiri OEM dengan GNOME (ISO)
 oem_image_kde: Citra Instalasi Mandiri OEM dengan KDE (ISO)
+encrypted_rt_image: Citra Waktu Nyata Sepenuhnya Terenkripsi (mentah)
+preconfigured_base_image: Citra Dasar Pra-konfigurasi (mentah)
+encrypted_base_image: Citra Dasar Sepenuhnya Terenkripsi (mentah)
+preconfigured_base_qcow_image: Citra Dasar Pra-konfigurasi (qcow)
+vmware_base_image: Citra Dasar VMware
+selfinstall_base_image: Citra Dasar Instalasi Mandiri
+preconfigured_base_64k_image: Citra Dasar Pra-konfigurasi 64k (mentah)
+encrypted_base_64k_image: Citra Dasar Sepenuhnya Terenkripsi 64k (mentah)
+selfinstall_base_encrypted_64k_image: Citra Dasar Instalasi Mandiri Sepenuhnya 
+  Terenkripsi 64k (iso)
+selfinstall_base_64k_image: Citra Dasar Instalasi Mandiri 64k (iso)
+preconfigured_64k_image: Citra Pra-konfigurasi 64k (mentah)
+encrypted_64k_image: Citra Sepenuhnya Terenkripsi 64k (mentah)
+selfinstall_64k_image: Citra Instalasi Mandiri 64k (iso)
+selfinstall_encrypted_64k_image: Citra Instalasi Mandiri Sepenuhnya Terenkripsi 
+  64k (iso)
