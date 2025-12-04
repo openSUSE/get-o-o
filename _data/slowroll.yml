@@ -12,13 +12,13 @@ downloads:
         types:
           - name: offline_image
             desc: offline_desc
-            primary_link: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build39.4-Media.iso"
+            primary_link: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso"
             links:
             - name: metalink
-              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build39.4-Media.iso.meta4"
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso.meta4"
             - name: pick_mirror
-              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build39.4-Media.iso?mirrorlist"
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso?mirrorlist"
             - name: checksum
-              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build39.4-Media.iso.sha256"
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso.sha256"
             - name: signature
-              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Build39.4-Media.iso.sha256.asc"
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso.sha256.asc"
