@@ -122,3 +122,10 @@ oem_images_info: Двете опции ја инсталираат истата 
   системот.<br>Користете го RAW фајлот со рачни алатки (на пр. dd) или 
   бутабилното самоинсталирање ISO за водено распоредување.
 oem_preconfigured_image_gnome: OEM претходно конфигурирана слика со GNOME (raw)
+oem_preconfigured_image_kde: OEM пре-конфигурирана слика со KDE(raw)
+oem_preconfigured_image_desc: ОЕМ слики за продавачи на хардвер.
+oem_image_gnome: OEM слика за самоинсталација со GNOME (iso)
+oem_image_kde: OEM слика за самоинсталација со KDE (iso)
+oem_image_desc: OEM слика за самоинсталација
+encrypted_image: Целосно шифрирана слика од диск (raw)
+packages_image: Слика од пакети
