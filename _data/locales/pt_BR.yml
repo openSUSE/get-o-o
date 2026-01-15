@@ -17,7 +17,7 @@ checksum: Soma de verificação
 torrent_file: Arquivo de torrent
 offline_image: Imagem offline
 offline_desc: "Contém uma grande coleção de software para uso em desktop ou servidor.\n\
-  \ Adequado para instalação ou atualização.\n"
+  Adequado para instalação ou atualização.\n"
 network_image: Imagem de Rede
 network_desc: "Baixa o sistema de instalação e todos os pacotes online\nrepositórios.
   Adequado para instalação ou atualização.\n"
@@ -37,8 +37,8 @@ ports_info: "Portes do openSUSE Leap para arquiteturas diferentes do PC são\nma
   por equipes comunitárias separadas, com recursos limitados.\n"
 jeos_images: JeOS
 live_images: Live
-gnome_cd: LiveCD do GNOME
-kde_cd: LiveCD do KDE
+gnome_cd: LiveCD com GNOME
+kde_cd: LiveCD com KDE
 xfce_cd: LiveCD do Xfce
 rescue_cd: LiveCD de recuperação
 tumbleweed_live_info: "Esteja ciente das seguintes limitações das imagens ao vivo:\n\
@@ -366,9 +366,9 @@ jeos_info: Imagens mínimas de máquina virtual. Para as imagens do JeOS Arm, v�
   para a <a 
   href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página 
   wiki do Arm</a>
-preconfigured_image: Imagem pré-configurada (raw)
-preconfigured_rt_image: Imagem pré-configurada com RealTime (raw)
-selfinstall_rt_image: Autoinstalação com RealTime
+preconfigured_image: Imagem pré-configurada (bruta)
+preconfigured_rt_image: Imagem pré-configurada com RealTime (bruta)
+selfinstall_rt_image: Imagem de autoinstalação com RealTime
 selfinstall_image: Imagem de autoinstalação
 live_info: "Tenha em mente as seguintes limitações das imagens live:\n* Elas não devem
   ser usadas para instalação ou atualização. Use a mídia de instalação ao invés\n\
@@ -381,7 +381,7 @@ selfinstalling_ch_image: Host de contêiner de autoinstalação
 selfinstalling_k3s_image: Host k3s de autoinstalação
 offline_updated_image: Imagem atualizada offline
 offline_updated_desc: "Imagem de instalação offline com as últimas atualizações.\n\
-  \ Adequada para instalação ou atualização.\n"
+  Adequada para instalação ou atualização.\n"
 ppc64: Servidores PowerPC, big-endian (ppc64)
 minimal_vm_images: Máquina virtual mínima
 minimal_vm_info: Similar as imagens do SUSE Linux Enterprise Server Minimal-VM. 
@@ -394,7 +394,7 @@ cloud_image: Imagem com nuvem
 cloud_minimal_desc: Imagem mínima KVM e Xen com cloud-init
 preconfigured_qcow_image: Imagem pré-configurada (qcow)
 choosing_media_micro_p2: "O Leap Micro não vem mais com um instalador tradicional;
-  os usuários devem usar a mídia de auto-instalação.\nA nova imagem de pacotes é apenas
+  os usuários devem usar a mídia de autoinstalação.\nA nova imagem de pacotes é apenas
   um dump offline do repositório Leap Micro rpm para aqueles com ambiente isolado.\n"
 choosing_media_micro_p1: "A nova imagem de autoinstalação é a escolha ideal para instalações
   baseadas em USB ou DVD.\nUm assistente de autoinstalação simples despeja uma imagem
@@ -429,8 +429,8 @@ microos_ovw_desc_p3: Experimente o MicroOS em VMs executadas em <a
   Raspberry Pi ou outro hardware System on Chip pode usar a imagem 
   pré-configurada junto com a funcionalidade <a 
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> para o
-  processo de inicialização . Ambas as imagens pré-configuradas e 
-  auto-instaladas devem ser usadas com <a 
+  processo de inicialização . Ambas as imagens pré-configuradas e autoinstaladas
+  devem ser usadas com <a 
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   gravado em um USB, que é acionado para permitir configuração em qualquer 
   primeira inicialização, com a opção de alterações protegidas por senha padrão.
@@ -452,8 +452,8 @@ microos_ovw_desc_p1: Projetado para hospedar cargas de trabalho de contêiner co
   qualquer outra carga de trabalho que se beneficie de Atualizações 
   Transacionais. Como distribuição contínua, o software está sempre atualizado.
 leap_micro_ovw_desc_p2: Leap Micro desde 6.0 oferece uma imagem de 
-  auto-instalação, uma imagem bruta e um DVD de pacotes que pode servir como 
-  repositório offline. A imagem de auto-instalação é nossa recomendação para 
+  autoinstalação, uma imagem bruta e um DVD de pacotes que pode servir como 
+  repositório offline. A imagem de autoinstalação é nossa recomendação para 
   qualquer instalação baseada em USB, já que não usamos mais instaladores 
   tradicionais. Os usuários podem automatizar e personalizar sua instalação com 
   <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ou <a 
@@ -464,7 +464,7 @@ leap_micro_ovw_desc_p2: Leap Micro desde 6.0 oferece uma imagem de
 leap_micro_ovw_desc_p3: Experimente o Leap Micro em VMs executadas em <a 
   href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ou KVM. Usar um 
   Raspberry Pi ou outro hardware System on Chip pode usar a imagem 
-  pré-configurada. Ambas as imagens pré-configuradas e auto-instaladas devem ser
+  pré-configurada. Ambas as imagens pré-configuradas e autoinstaladas devem ser 
   usadas com <a 
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   gravado em um USB, que é acionado para permitir configuração em qualquer 
@@ -472,7 +472,7 @@ leap_micro_ovw_desc_p3: Experimente o Leap Micro em VMs executadas em <a
 leap_micro_ovw_video_desc: Demonstração da instalação do Leap Micro 6.1 com 
   Criptografia Completa do Disco e autenticação de dois fatores no cockpit.
 microos_ovw_desc_p2: MicroOS oferece uma imagem offline. A principal diferença 
-  entre as imagens offline e de auto-instalação/brutas é que a imagem offline 
+  entre as imagens offline e de autoinstalação/brutas é que a imagem offline 
   possui um instalador. A instalação bruta e automática permite a personalização
   via combustão ou manualmente na imagem após ela ser gravada no disco. Existe 
   uma opção para um kernel em tempo real.
@@ -495,12 +495,34 @@ requirements_cpu_slfo_x86_64_link:
 requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 ou superior'
 requirements_cpu_slfo_s390x: 'Para s390x: z14 ou superior'
 oem_images: Imagens OEM para fabricantes de hardware.
-oem_images_info: 'Ambas opções instalam a mesma imagem do siste.<b> Use o arquivo
-  bruto (RAW) com ferramentas manuais (ex.: dd) ou a ISO inicializável de auto-instalação
+oem_images_info: 'Ambas opções instalam a mesma imagem do sistema.<b> Use o arquivo
+  bruto (RAW) com ferramentas manuais (ex.: dd) ou a ISO inicializável de autoinstalação
   para uma implantação guiada.'
 oem_preconfigured_image: Imagem OEM pré-configurada (bruto)
 oem_preconfigured_image_desc: Imagens OEM para fabricantes de hardware.
 oem_image: Imagem OEM de auto-instalação (ISO)
-oem_image_desc: Imagem OEM de auto-instalação
-preconfigured_image_desc: Imagem pré-configurada (bruto)
+oem_image_desc: Imagem OEM de autoinstalação
+preconfigured_image_desc: Imagem pré-configurada (bruta)
 leap_160_ovw_video_desc: Live do lançamento do Leap 16.0
+oem_preconfigured_image_gnome: Imagem OEM pré-configurada com GNOME (bruta)
+oem_preconfigured_image_kde: Imagem OEM pré-configurada com KDE (bruta)
+encrypted_rt_image: Imagem de disco totalmente criptografada com RealTime 
+  (bruta)
+preconfigured_base_image: Imagem base pré-configurada (bruta)
+encrypted_base_image: Imagem base totalmente criptografada pré-configurada 
+  (bruta)
+preconfigured_base_64k_image: Imagem base 64k pré-configurada (bruta)
+encrypted_base_64k_image: Imagem base 64k totalmente criptografada (bruta)
+preconfigured_64k_image: Imagem 64k pré-configurada (bruta)
+encrypted_64k_image: Imagem 64k totalmente criptografada (bruta)
+selfinstall_base_encrypted_64k_image: Imagem base 64k de autoinstalação 
+  totalmente criptografada (ISO)
+selfinstall_base_64k_image: Imagem base 64k de autoinstalação (ISO)
+selfinstall_64k_image: Imagem 64k de autoinstalação (ISO)
+selfinstall_encrypted_64k_image: Imagem 64k de autoinstalação totalmente 
+  criptografada (ISO)
+oem_image_gnome: Imagem OEM de autoinstalação com GNOME (ISO)
+oem_image_kde: Imagem OEM de autoinstalação com KDE(ISO)
+preconfigured_base_qcow_image: Imagem base pré-configurada (qcow)
+vmware_base_image: Imagem base VMware
+selfinstall_base_image: Imagem base de autoinstalação

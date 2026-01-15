@@ -230,6 +230,7 @@ preconfigured_image: Preconfigured Image (raw)
 preconfigured_image_desc: Preconfigured Image (raw)
 preconfigured_qcow_image: Preconfigured Image (qcow)
 preconfigured_rt_image: Preconfigured RealTime Image (raw)
+encrypted_rt_image: Fully Encrypted RealTime Image (raw)
 selfinstall_image: Self-install Image
 selfinstall_rt_image: Self-install RealTime Image
 snapper: System got corrupted? Not a problem anymore
@@ -506,3 +507,21 @@ Kalpa_features:
   consistency:
     name: Transactional System Integrity
     description: Every system change is transactional — meaning you can roll back easily if something goes wrong, ensuring consistency across updates and configurations.
+
+preconfigured_base_image: Base Preconfigured Image (raw)
+encrypted_base_image: Base Fully Encrypted Image (raw)
+preconfigured_base_qcow_image: Base Preconfigured Image (qcow)
+vmware_base_image: Base VMware Image
+selfinstall_base_image: Base Self-install Image
+
+preconfigured_base_64k_image: Base Preconfigured 64k Image (raw)
+encrypted_base_64k_image: Base Fully Encrypted 64k Image (raw)
+selfinstall_base_encrypted_64k_image: Base Fully Encrypted Self-install 64k Image (iso)
+
+selfinstall_base_64k_image: Base Self-install 64k Image (iso)
+
+preconfigured_64k_image: Preconfigured 64k Image (raw)
+encrypted_64k_image: Fully Encrypted 64k Image (raw)
+
+selfinstall_64k_image: Self-install 64k Image (iso)
+selfinstall_encrypted_64k_image: Fully Encrypted Self-install 64k Image (iso)

@@ -421,8 +421,7 @@ choosing_media_micro_p1: "La nueva imagen autoinstalable es la elección preferi
 server_leapmicro_p1: Para edge, embebidos, IoT y otros despliegues
 server_leapmicro_p2: Sistema operativo ultrafiable y ligero diseñado para cargas
   de trabajo virtualizadas y en contenedores.
-leap_ovw_title: Una nueva forma de crear openSUSE y un nuevo tipo de 
-  distribución híbrida de Linux
+leap_ovw_title: Una nueva forma de crear openSUSE con un ciclo de vida más largo
 tumbleweed_ovw_title: Sistema operativo de escritorio y servidor de última 
   generación
 leap_micro_ovw_title: Leap Micro es un sistema operativo ligero y ultrafiable 
@@ -447,11 +446,12 @@ microos_ovw_desc_p2: MicroOS ofrece una imagen sin conexión. La diferencia
   procesar y las autoinstalables se pueden personalizar utilizando combustion o 
   manualmente en la imagen después de grabarla en el disco. Existe una opción 
   para un kernel en tiempo real.
-leap_ovw_desc: Leap usa como fuente SUSE Linux Enterprise (SLE), lo que le da a 
-  Leap un nivel de estabilidad inigualable por otras distribuciones de Linux, y 
-  lo combina con desarrollos de la comunidad para brindar a los usuarios, 
-  desarrolladores y administradores de sistemas la mejor experiencia estable de 
-  Linux disponible.
+leap_ovw_desc: Leap 16.0 se basa en su enfoque híbrido de combinar código fuente
+  de SUSE Linux Enterprise (SLE) con desarrollos de la comunidad, ofreciendo un 
+  nivel de estabilidad inigualable por otras distribuciones de Linux. Con el 
+  nuevo <strong>período de soporte extendido de 24 meses</strong>, Leap brinda a
+  los usuarios, desarrolladores y administradores de sistemas una de las mejores
+  y más confiables experiencias Linux disponibles.
 microos_ovw_desc_p3: Pruebe Leap Micro en Máquinas Virtuales (VMs) funcionando 
   con <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> o KVM. Si 
   utiliza una Raspberry Pi u otro hardware de Sistema en Chip, puede utilizar la
@@ -503,3 +503,30 @@ requirements_cpu_slfo_x86_64_link:
 requirements_cpu_slfo_x86_64: 'Para x86_64: microarquitectura nivel x86-64-v2 o superior'
 requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 o superior'
 requirements_cpu_slfo_s390x: 'Para s390x: z14 o superior'
+oem_images: Imágenes OEM para proveedores de hardware.
+oem_images_info: Ambas opciones instalan la misma imagen del sistema.<br>Utilize
+  el archivo RAW con herramientas manuales (ej. dd) o el ISO arrancable de 
+  autoinstalación para un despliegue guiado.
+oem_preconfigured_image_gnome: Imagen OEM preconfigurada con GNOME (raw)
+oem_preconfigured_image_kde: Imagen OEM preconfigurada con KDE (raw)
+oem_preconfigured_image_desc: Imágenes OEM para proveedores de hardware.
+oem_image_gnome: Imagen OEM autoinstalable con GNOME (iso)
+oem_image_kde: Imagen OEM autoinstalable con KDE (iso)
+oem_image_desc: Imagen OEM autoinstalable
+preconfigured_image_desc: Imagen preconfigurada (raw)
+encrypted_rt_image: Imagen RealTime completamente cifrada
+leap_160_ovw_video_desc: Transmisión en vivo del lanzamiento de Leap 16.0
+preconfigured_base_image: Imagen base preconfigurada (raw)
+encrypted_base_image: Imagen base completamente cifrada (raw)
+preconfigured_base_qcow_image: Imagen base preconfigurada (qcow)
+vmware_base_image: Imagen base VMware
+selfinstall_base_image: Imagen base autoinstalable
+preconfigured_base_64k_image: Imagen base 64k preconfigurada (raw)
+encrypted_base_64k_image: Imagen base 64k completamente cifrada (raw)
+selfinstall_base_encrypted_64k_image: Imagen base 64k autoinstalable 
+  completamente cifrada (iso)
+selfinstall_base_64k_image: Imagen base 64k autoinstalable (iso)
+preconfigured_64k_image: Imagen 64k preconfigurada (raw)
+encrypted_64k_image: Imagen 64k completamente cifrada (raw)
+selfinstall_64k_image: Imagen 64k autoinstalable (iso)
+selfinstall_encrypted_64k_image: Imagen 64k autoinstalable completamente cifrada

@@ -34,17 +34,17 @@ requirements_net: Rede
 tw_switch: Modo sinxelo de cambiar a openSUSE Tumbleweed
 upgrade_table_linux: Desde unha versión máis antiga doutra distribución de Linux
 upgrade_table_windows: Desde Windows
-upgrade_table_mac: Desde OS X
+upgrade_table_mac: Desde macOS
 upgrade_table_linux_dvd: Como gravar un DVD en Linux.
 upgrade_table_windows_dvd: Como gravar un DVD en Windows.
-upgrade_table_mac_dvd: Como gravar un DVD en OS X.
+upgrade_table_mac_dvd: Como gravar un DVD en macOS.
 upgrade_table_mac_dvd_link: 
   http://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Como crear en Linux unha memoria USB capaz de arrancar 
   openSUSE.
 upgrade_table_windows_usb: Como crear en Windows unha memoria USB capaz de 
   arrancar openSUSE.
-upgrade_table__mac_usb: Como crear en OS X unha memoria USB capaz de arrancar 
+upgrade_table__mac_usb: Como crear en macOS unha memoria USB de arranque 
   openSUSE.
 verify_download: Comprobe a súa descarga antes de usar
 verify_download_checksums_help: Axuda sobre as sumas de comprobación
@@ -91,7 +91,7 @@ usb_desc: Para memoria USB
 learn_more: Aprenda máis
 source_code: Código Fonte
 translate: Traducir
-site_copyright: © 2024 contribuidores de openSUSE
+site_copyright: © 2025 contribuidores de openSUSE
 site_description: Aprenda acerca das distribucións openSUSE e descárgueas de 
   balde
 site_title_short: Obter
@@ -165,8 +165,8 @@ selfinstalling_k3s_image: Host k3s de instalación automática
 signature: Sinatura
 leap_16_coming_soon: "A publicación de Leap 16.0, sucesora de Leap 15.6, está prevista
   para o outono do 2025. Non está previsto o desenvolvemento de Leap 15.7.<br/>\n\
-  \ Consulte periodicamente as actualizacións da nosa <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
-  >folla de ruta</a> ye<a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
+  Consulte periodicamente as actualizacións da nosa <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >folla de ruta</a>  e <a href=\"https://news.opensuse.org/tag/leap\" >news.opensuse.org</a>
   para máis información.\n"
 selfinstalling_images: Imaxes de instalacións automáticas
 Tumbleweed_features:
@@ -240,7 +240,7 @@ microos_ovw_desc_p3: Probe MicroOS en máquinas virtuais (VMs) executadas en  <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> para o
   proceso de arranque. Tanto as imaxes preconfiguradas como as autoinstaladas 
   están pensadas para ser usadas con <a 
-  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>   
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   gravado nunha USB, que está deseñado para permitir a configuración en calquera
   primeiro arranque, coa opción de cambios predeterminados protexidos por 
   contrasinal predeterminada.
@@ -267,3 +267,29 @@ jeos_info: Imaxes de VM mínimas. Para imaxes de JeOS para Arm, visite a <a
   wiki de Arm</a>
 encrypted_image: Imaxe de disco completamente cifrada (raw)
 server_x86_64: Servidores Intel ou AMD 64-bit (x86_64)
+oem_images: Imaxes OEM para fabricantes de hardware.
+oem_preconfigured_image_gnome: Imaxe OEM preconfigurada con GNOME (raw)
+oem_preconfigured_image_kde: Imaxe OEM preconfigurada con KDE (raw)
+oem_preconfigured_image_desc: Imaxes OEM para fabricantes de hardware.
+oem_image_gnome: Imaxe OEM coa instalación automática de GNOME (iso)
+oem_image_kde: Imaxe OEM coa instalación automática de KDE (iso)
+oem_image_desc: Imaxe OEM de instalación automática
+live_info: "Teña en conta as seguintes limitacións das imaxes live:\n* Non se deberían
+  empregar para instalar ou actualizar. Use os medios de instalación no seu lugar.\n\
+  * Teñen unha selección limitada de paquetes e controladores, polo tanto non deben
+  ser considerados indicados para ver se a distribución vai funcionar ou non no seu
+  hardware.\n* O kernel e initrd non se poden actualizar, por isto non poden seren
+  empregados como instalación persistente.\n"
+choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Agama</a>
+  é o novo instalador que se pode utilizar para instalar Leap 16 e Tumbleweed.\nHai
+  un plan para admitir a instalación sen conexión en Agama. Outros medios de instalación,
+  como imaxes de instalación automática, engadiranse máis tarde.\n"
+choosing_media_micro_p2: "Leap Micro xa non vén cun instalador tradicional. Os usuarios
+  deberán usar medios de instalación automática.\nA nova imaxe de paquetes non é máis
+  ca un volcado sen conexión do repositorio rpm de Leap Micro para aqueles con ambientes
+  illados.\n"
+requirements_cpu_slfo_x86_64: 'Para x86_64: microarquitectura nivel x86-64-v2 ou superior'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Para ppc64le: POWER9 ou superior'
+requirements_cpu_slfo_s390x: 'Para s390x: z14 ou superior'

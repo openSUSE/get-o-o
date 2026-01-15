@@ -426,12 +426,13 @@ microos_ovw_desc_p3: Prova Leap Micro i Virtuella maskiner antingen <a
   href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
   skrivet till en USB, som drivs för att tillåta konfiguration vid första 
   uppstart, med möjlighet för standard lösenordsskyddade ändringar.
-leap_ovw_title: Ett helt nytt sätt att bygga openSUSE och en ny typ av hybrid 
-  Linux-distribution
-leap_ovw_desc: Leap använder källkod från SUSE Linux Enterprise (SLE), vilket 
-  ger Leap en stabilitetsnivå oöverträffad av andra Linux-distributioner, och 
-  kombinerar det med gemenskapsutveckling för att ge användare, utvecklare och 
-  systemadministratörer den bästa stabila Linux-upplevelsen som finns.
+leap_ovw_title: Ett helt nytt sätt att bygga openSUSE med en längre livscykel
+leap_ovw_desc: Leap 16.0 bygger vidare på sin hybridstrategi att kombinera 
+  källkod från SUSE Linux Enterprise (SLE) med gemenskaps utvecklingar, vilket 
+  ger en stabilitetsnivå som inte matchas av andra Linux-distributioner. Med en 
+  nyligen <strong>förlängd supportperiod på 24 månader</strong>, ger Leap 
+  användare, utvecklare och systemadministratörer en av de bästa och mest 
+  pålitliga Linux-upplevelserna som finns tillgänglig.
 tumbleweed_ovw_title: Toppmodernt operativsystem för stationära datorer och 
   servrar
 leap_micro_ovw_title: Leap Micro är ett extremt pålitligt, lättviktigt 
@@ -476,3 +477,31 @@ requirements_cpu_slfo_x86_64_link:
   https://en.opensuse.org/X86-64_microarchitecture_levels
 requirements_cpu_slfo_ppc64le: 'För ppc64le: POWER9 eller högre'
 requirements_cpu_slfo_s390x: 'För s390x: z14 eller högre'
+oem_images: OEM-avbilder för hårdvaruleverantörer.
+oem_images_info: Båda alternativen installerar samma systemavbildning.<br>Använd
+  RÅ-filen med manuella verktyg (t.ex. dd), eller den uppstartsbara 
+  självinstallerade ISO-filen för en guidad utrullning.
+oem_preconfigured_image_gnome: OEM-förkonfigurerad avbildning med GNOME (rå)
+oem_preconfigured_image_kde: OEM-förkonfigurerad avbildning med KDE (rå)
+oem_preconfigured_image_desc: OEM-avbilder för hårdvaruleverantörer.
+oem_image_gnome: OEM självinstallerandeavbildning med GNOME (iso)
+oem_image_kde: OEM självinstallerandeavbildning med KDE (iso)
+oem_image_desc: OEM självinstallerandeavbildning
+preconfigured_image_desc: Förkonfigurerad avbild (rå)
+leap_160_ovw_video_desc: En livestream av lanseringen av Leap 16.0
+encrypted_rt_image: Helt krypterad realtidsavbild (rå)
+preconfigured_base_image: Förkonfigurerad grundavbild (rå)
+encrypted_base_image: Basavbild med fullständig kryptering (rå)
+preconfigured_base_qcow_image: Basförkonfigurerad avbild (qcow)
+vmware_base_image: Bas VMWare avbild
+selfinstall_base_image: Bas självinstallerande avbild
+preconfigured_base_64k_image: Bas förkonfigurerad 64k avbild (rå)
+encrypted_base_64k_image: Basavbild med fullständig kryptering 64k avbild (rå)
+selfinstall_base_encrypted_64k_image: Basavbild för helt krypterad 
+  självinstallation 64k avbild (iso)
+selfinstall_base_64k_image: Basavbild för självinstallation 64k avbild (iso)
+preconfigured_64k_image: Förkonfigurerad 64k-avbild (rå)
+encrypted_64k_image: Helt krypterad 64k-avbild (rå)
+selfinstall_64k_image: Självinstallerad 64k-avbild (iso)
+selfinstall_encrypted_64k_image: Helt krypterad självinstallerad 64k-avbild 
+  (iso)

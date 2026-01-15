@@ -287,13 +287,13 @@ jeos_info: 最小限のパッケージのみをインストールしたイメー
   ページ</a> をご覧ください
 preconfigured_rt_image: 事前構築済みのリアルタイム版イメージ (raw 形式)
 preconfigured_image: 事前構築済みイメージ (raw 形式)
-selfinstall_image: 自己インストールイメージ
+selfinstall_image: 自己インストール型イメージ
 selfinstall_rt_image: 自己インストール型のリアルタイム版イメージ
 live_info: "ライブイメージには下記のような制限があることに注意してください:\n* インストールやアップグレードには使用しないでください。インストールやアップグレードを行う場合は、インストールメディアをお使いください。\n\
   \ * パッケージやドライバの同梱数が少ないので、インストールを行った場合と比べて性能や機能が制限されます。そのため、ハードウエアの対応可否の調査には不適切となることに留意してください。\n\
   \ * カーネルと initrd の更新はできません。そのため、恒久的なインストールとして使用すべきではありません。\n"
 selfinstalling_ch_image: 自己インストール型コンテナホスト
-selfinstalling_images: 自己インストールイメージ
+selfinstalling_images: 自己インストール型イメージ
 selfinstalling_k3s_image: 自己インストール型 k3s ホスト
 offline_updated_desc: "最新の更新が適用されているオフラインインストールイメージです。\nインストールやアップグレードにお使いいただけます。\n"
 offline_updated_image: 更新済みオフラインイメージ
@@ -307,7 +307,7 @@ server_aarch64: UEFI Arm 64 ビットサーバおよびシングルボード (aa
 server_x86_64: Intel または AMD の 64 ビットサーバ (x86_64)
 cloud_image: クラウドイメージ
 cloud_minimal_desc: cloud-init を含む KVM および Xen 対応最小限イメージ
-choosing_media_micro_p1: "新しい自己インストール型のイメージは、 USB メモリや DVD からのインストールに利用できます。\nこのイメージは、シンプルなインストールウイザードがドライブ内に事前設定済みのイメージを展開したあと、ディスクサイズに合わせてパーティションサイズの拡張を行います。\n\
+choosing_media_micro_p1: "新しい自己インストール型のイメージは、 USB メモリや DVD からのインストールに利用できます。\nこのイメージは、シンプルなインストールウイザードがドライブ内に事前構築済みのイメージを展開したあと、ディスクサイズに合わせてパーティションサイズの拡張を行います。\n\
   \ <br>\nRaspberry Pi 等の機器をご利用で、 USB からの起動に対応していない場合は、 SD カード内に事前設定済みのイメージを直接書き込んで利用することもできます。\n\
   \ インストールに対してより細かい制御を行いたい場合は、 <a href=\"https://ja.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a> をお使いになることをお勧めします。\n<br>\nCombustion ベースでのインストールのデモは <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\"\
@@ -386,5 +386,23 @@ oem_preconfigured_image: OEM 事前構築済みイメージ (raw)
 oem_preconfigured_image_desc: ハードウエア製造元向けの OEM イメージです。
 oem_image: OEM 自己インストールイメージ (iso)
 oem_image_desc: OEM 自己インストールイメージ
-preconfigured_image_desc: 事前構築済みイメージ (raw)
+preconfigured_image_desc: 事前構築済みイメージ (raw 形式)
 leap_160_ovw_video_desc: Leap 16.0 リリースライブストリーム
+oem_preconfigured_image_gnome: GNOME 版の OEM 事前構築済みイメージ (raw 形式)
+oem_preconfigured_image_kde: KDE 版の OEM 事前構築済みイメージ (raw 形式)
+oem_image_gnome: GNOME 版の OEM 自己インストールイメージ (iso 形式)
+oem_image_kde: KDE 版の OEM 自己インストールイメージ (iso 形式)
+encrypted_rt_image: 完全暗号化済みリアルタイムイメージ (raw 形式)
+preconfigured_64k_image: 事前構築済み 64k イメージ (raw 形式)
+encrypted_64k_image: 完全暗号化済み 64k イメージ (raw 形式)
+selfinstall_64k_image: 自己インストール型 64k イメージ (iso 形式)
+preconfigured_base_image: 基本設定済みイメージ (raw 形式)
+encrypted_base_image: 基本完全暗号化済みイメージ (raw 形式)
+preconfigured_base_qcow_image: 基本設定済みイメージ (qcow 形式)
+vmware_base_image: 基本 VMware イメージ
+selfinstall_base_image: 基本自己インストール型イメージ
+preconfigured_base_64k_image: 基本設定済み 64k イメージ (raw 形式)
+encrypted_base_64k_image: 基本完全暗号化済み 64k イメージ (raw 形式)
+selfinstall_base_encrypted_64k_image: 基本完全暗号化済み自己インストール 64k イメージ (iso 形式)
+selfinstall_base_64k_image: 基本自己インストール型 64k イメージ (iso 形式)
+selfinstall_encrypted_64k_image: 完全暗号化済み自己インストール 64k イメージ (iso 形式)
