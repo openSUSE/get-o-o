@@ -1,8 +1,40 @@
 <p class="lead font-weight-normal">
 <div class="videowrapper">
-<!-- live stream of 16.0 GA -->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/twTi-yKy0oY?si=lnZ0BoVbYJiquEyh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<!-- live stream of 16.0 GA (YouTube link only, no embedded third-party assets) -->
 <p>{{ locale.leap_160_ovw_video_desc }}</p>
+<div id="leap160-video">
+  <button type="button" class="btn btn-outline-primary" id="leap160-video-load">
+    Watch on YouTube
+  </button>
+  <noscript>
+    <p>
+      <a class="btn btn-outline-primary" href="https://www.youtube.com/watch?v=twTi-yKy0oY" target="_blank" rel="noopener noreferrer">
+        Watch on YouTube (external website)
+      </a>
+    </p>
+  </noscript>
+</div>
+<script>
+  (function () {
+    var btn = document.getElementById('leap160-video-load');
+    var container = document.getElementById('leap160-video');
+    if (!btn || !container) return;
+
+    btn.addEventListener('click', function () {
+      var iframe = document.createElement('iframe');
+      iframe.width = '560';
+      iframe.height = '315';
+      iframe.src = 'https://www.youtube-nocookie.com/embed/twTi-yKy0oY';
+      iframe.title = 'YouTube video player';
+      iframe.frameBorder = '0';
+      iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+      iframe.allowFullscreen = true;
+
+      container.innerHTML = '';
+      container.appendChild(iframe);
+    }, { once: true });
+  })();
+</script>
 </div>
 </p>
 
