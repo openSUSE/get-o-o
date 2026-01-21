@@ -27,40 +27,66 @@
 <div class="bg-wallpaper">
   <div class="container">
     <div class="row">
-      <a href="{{ '/tumbleweed/' | prefix_locale }}" class="col bg-tumbleweed-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/tumbleweed.svg %}</div>
-        <h4>Tumbleweed</h4>
+      <a href="{{ '/tumbleweed/' | prefix_locale }}" class="col bg-tumbleweed-tint text-white text-center d-flex">
+        <div class="w-100 my-auto">
+          <div class="w-50 m-auto">{% include logos/tumbleweed.svg %}</div>
+          <h4>Tumbleweed</h4>
+        </div>
       </a>
       {% if site.releases.leap.current != nil %}
-      <a href="{{ '/leap/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-        <h4>Leap {{ site.releases.leap[site.releases.leap.current].version }}</h4>
+      <a href="{{ '/leap/' | prefix_locale }}" class="col bg-leap-tint text-white text-center d-flex">
+        <div class="w-100 my-auto">
+          <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
+          <h4>Leap {{ site.releases.leap[site.releases.leap.current].version }}</h4>
+        </div>
       </a>
       {% endif %}
       {% if site.releases.leap.testing %}
-        <a href="{{ '/testing/' | prefix_locale }}" class="col bg-leap-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
-          {% assign leap_id = site.releases.leap.testing %}
-          <h4>Leap {{ site.releases.leap[leap_id].version }} <sup>{{ site.releases.leap[leap_id].state }}</sup></h4>
+        <a href="{{ '/testing/' | prefix_locale }}" class="col bg-leap-tint text-white text-center d-flex">
+          <div class="w-100 my-auto">
+            <div class="w-50 m-auto">{% include logos/leap.svg %}</div>
+            {% assign leap_id = site.releases.leap.testing %}
+            <h4>Leap {{ site.releases.leap[leap_id].version }} <sup>{{ site.releases.leap[leap_id].state }}</sup></h4>
+          </div>
         </a>
       {% endif %}
       {% if site.releases.leap_micro.current != nil %}
-        <a href="{{ '/leapmicro/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
-          <h4>Leap Micro {{ site.releases.leap_micro[site.releases.leap_micro.current].version }}</h4>
+        <a href="{{ '/leapmicro/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center d-flex">
+          <div class="w-100 my-auto">
+            <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
+            <h4>Leap Micro {{ site.releases.leap_micro[site.releases.leap_micro.current].version }}</h4>
+          </div>
         </a>
       {% endif %}
       {% if site.releases.leap_micro.testing %}
-        <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center">
-          <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
-          {% assign leap_micro_id = site.releases.leap_micro.testing %}
-          <h4>Leap Micro {{ site.releases.leap_micro[leap_micro_id].version }} <sup>{{ site.releases.leap_micro[leap_micro_id].state }}</sup></h4>
+        <a href="{{ '/leapmicro_testing/' | prefix_locale }}" class="col bg-leapmicro-tint text-white text-center d-flex">
+          <div class="w-100 my-auto">
+            <div class="w-50 m-auto">{% include logos/leapmicro.svg %}</div>
+            {% assign leap_micro_id = site.releases.leap_micro.testing %}
+            <h4>Leap Micro {{ site.releases.leap_micro[leap_micro_id].version }} <sup>{{ site.releases.leap_micro[leap_micro_id].state }}</sup></h4>
+          </div>
         </a>
       {% endif %}
-      <a href="{{ '/microos/' | prefix_locale }}" class="col bg-microos-tint text-white text-center">
-        <div class="w-50 m-auto">{% include logos/microos.svg %}</div>
-        <h4>MicroOS</h4>
+      <a href="{{ '/slowroll/' | prefix_locale }}" class="col bg-slowroll-tint text-white text-center d-flex">
+        <div class="w-100 my-auto">
+          <div class="w-50 m-auto">{% include logos/slowroll.svg %}</div>
+          <h4>Slowroll</h4>
+        </div>
       </a>
+      <a href="{{ '/microos/' | prefix_locale }}" class="col bg-microos-tint text-white text-center d-flex">
+        <div class="w-100 my-auto">
+          <div class="w-50 m-auto">{% include logos/microos.svg %}</div>
+          <h4>MicroOS</h4>
+        </div>
+      </a>
+<!--
+     <a href="{{ '/kalpa/' | prefix_locale }}" class="col bg-kalpa-tint text-white text-center d-flex">
+        <div class="w-100 my-auto">
+          <div class="w-50 m-auto">{% include logos/kalpa.svg %}</div>
+          <h4>Kalpa</h4>
+        </div>
+      </a>
+-->
     </div>
   </div>
 </div>
