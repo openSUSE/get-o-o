@@ -1,9 +1,8 @@
----
 site_title: openSUSE letöltése
 search: Keresés
-pick_mirror: Mirror kiválasztása
-checksum: 'md5-ellenőrzőösszeg:'
-torrent_file: BitTorrent
+pick_mirror: Szerver választása
+checksum: 'Ellenőrzőösszeg'
+torrent_file: Torrent fájl
 network_image: Hálózat
 installation_images: Telepítőkészlet
 live_images: Live KDE
@@ -14,13 +13,54 @@ documentation_startup_guide: Letöltés
 documentation_release_notes: Megjelent verzió
 documentation_full_documentation: Dokumentáció
 leap_switch_instructions_link: http://en.opensuse.org/Derivatives
-tw_switch_instructions_link: http://en.opensuse.org/openSUSE:Submitting_bug_reports
+tw_switch_instructions_link: 
+  http://en.opensuse.org/openSUSE:Submitting_bug_reports
 upgrade_table_linux_dvd_link: http://en.opensuse.org/SDB:Download_help
 upgrade_table_windows_dvd_link: http://en.opensuse.org/SDB:Download_help
-upgrade_table_mac_dvd_link: http://en.opensuse.org/SDB:Download_help#Burn_the_ISO_image.28s.29
+upgrade_table_mac_dvd_link: 
+  http://en.opensuse.org/SDB:Download_help#Burn_the_ISO_image.28s.29
 upgrade_table_linux_usb_link: http://en.opensuse.org/Derivatives
 upgrade_table_windows_usb_link: http://en.opensuse.org/Derivatives
 upgrade_table__mac_usb_link: http://en.opensuse.org/Derivatives
 verify_download: Letöltés ellenőrzése használat előtt
 verify_download_checksums_help_link: http://en.opensuse.org/SDB:Download_help
 yast_software: Programok
+index: openSUSE disztribúciók
+index_p1: Asztali gépekhez, szerverekhez és minden egyéb feladathoz
+index_desktop_p1: Választható disztribúciók asztali használatra
+index_server: Szerver
+index_server_p1: Választható disztribúciók szerveroldali felhasználásra
+index_full: Vagy lépj közvetlenül a disztribúciók letöltési oldalaira
+desktop: openSUSE asztali disztribúciók
+yast_printer: Nyomtató
+yast_scanner: Lapolvasó
+yast_sound: Hang
+zypper: Zypper, az új kedvenc csomagkezelőd
+site_description: Ismerd meg és töltsd le ingyen az openSUSE disztribúciókat
+site_copyright: © 2025 az openSUSE közreműködői
+translate: Fordítás
+source_code: Forráskód
+license: Licenc
+learn_more: Tudj meg többet
+cd_desc: CD-hez és USB-meghajtóhoz
+dvd_desc: DVD-hez és USB-meghajtóhoz
+usb_desc: USB-meghajtóhoz
+signature: Aláírás
+offline_updated_image: Frissített offline telepítőkészlet
+offline_image: Offline telepítőkészlet
+iso_image: ISO lemezkép
+offline_desc: |
+  Szoftverek széles választékát tartalmazza asztali vagy szerveroldali használatra.
+  Alkalmas telepítéshez vagy frissítéshez.
+offline_updated_desc: |
+  Offline telepítőkészlet a legújabb frissítésekkel.
+  Alkalmas telepítéshez vagy frissítéshez.
+oem_images: OEM-rendszerképek hardvergyártók számára.
+oem_images_info: Mindkét opció ugyanazt a rendszerképet telepíti.<br>Használja a
+  RAW-fájlt manuális eszközökkel (pl. dd), vagy az indítható, öntelepítő ISO-t 
+  az irányított telepítéshez.
+oem_preconfigured_image_gnome: Előre konfigurált OEM-rendszerkép GNOME 
+  felülettel (raw)
+oem_preconfigured_image_kde: Előre konfigurált OEM-rendszerkép KDE felülettel 
+  (raw)
+oem_preconfigured_image_desc: OEM-rendszerképek hardvergyártók számára.
