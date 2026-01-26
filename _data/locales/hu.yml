@@ -3,7 +3,7 @@ search: Keresés
 pick_mirror: Szerver választása
 checksum: 'Ellenőrzőösszeg'
 torrent_file: Torrent fájl
-network_image: Hálózat
+network_image: Hálózati telepítőkészlet
 installation_images: Telepítőkészlet
 live_images: Live KDE
 rescue_cd: Mentőrendszer
@@ -64,3 +64,4 @@ oem_preconfigured_image_gnome: Előre konfigurált OEM-rendszerkép GNOME
 oem_preconfigured_image_kde: Előre konfigurált OEM-rendszerkép KDE felülettel 
   (raw)
 oem_preconfigured_image_desc: OEM-rendszerképek hardvergyártók számára.
+xen_image: XEN
