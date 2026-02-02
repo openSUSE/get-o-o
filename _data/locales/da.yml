@@ -41,3 +41,62 @@ upgrade_table__mac_usb: Opret en opstartsbar USB-pen på OS X.
 verify_download: Verificér din download inden brug
 verify_download_checksums_help: Hjælp med tjeksummer
 index_desktop: Skrivebord
+site_title_short: Hent
+site_description: Lær om openSUSE distributioner og hent dem gratis
+site_copyright: © 2025 openSUSE bidragydere
+translate: Oversæt
+source_code: Kildekode
+learn_more: Lær mere
+leap_16_coming_soon: |
+  Offentlig udgivelse af Leap 16.0, en efterfølger til Leap 15.6, kan forventes i efteråret 2025. Der er ingen planer om at lave Leap 15.7.<br/>
+  Tjek regelmæssigt for opdateringer på vores <a href="https://en.opensuse.org/openSUSE:Roadmap">køreplan</a> og <a href="https://news.opensuse.org/tag/leap">news.opensuse.org</a> for mere information.
+usb_desc: Til USB-stick
+metalink: Metalink
+signature: Underskrift
+offline_updated_image: Opdateret offline aftryk
+offline_image: Offline aftryk
+iso_image: ISO aftryk
+offline_desc: |
+  Indeholder en stor samling af software til desktop- eller serverbrug.
+  Velegnet til installation eller opgradering.
+offline_updated_desc: |
+  Offline installationsbillede med de seneste opdateringer.
+  Velegnet til installation eller opgradering.
+oem_images: OEM-billeder til hardwareleverandører.
+oem_images_info: Begge muligheder installerer det samme systembillede.<br>Brug 
+  RAW-filen med manuelle værktøjer (f.eks. dd) eller den bootbare 
+  selvinstallerende ISO-fil til en guidet installation.
+oem_preconfigured_image_gnome: OEM prækonfigureret billede med GNOME (raw)
+oem_preconfigured_image_kde: OEM prækonfigureret billede med KDE (raw)
+oem_preconfigured_image_desc: OEM aftryk for hardware-leverandører.
+oem_image_gnome: OEM selvinstallerende aftryk med GNOME (iso)
+oem_image_kde: OEM selvinstallerende aftryk med KDE (iso)
+oem_image_desc: OEM selvinstallerende aftryk
+network_desc: |
+  Downloader installationssystemet og alle pakker fra online-arkiv. 
+  Velegnet til installation eller opgradering.
+selfinstalling_images: Selvinstallerende aftryk
+selfinstalling_ch_image: Selvinstallerende container host
+selfinstalling_k3s_image: Selvinstallerende k3s host
+encrypted_image: Fuldt krypteret disk aftryk (raw)
+kvm_image: KVM og XEN aftryk
+kvm_sdboot_image: KVM aftryk med systemd-boot
+kvm_ch_image: KVM og XEN container host
+xen_image: XEN
+hyperv_image: MS HyperV aftryk
+hyperv_ch_image: MS HyperV Container aftryk
+vmware_image: VMware aftryk
+vmware_ch_image: VMware Container Host
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX Container Host
+vagrant_image: Vagrant
+vagrant_ch_image: Vagrant Container Host
+rpi_image: RaspberryPi
+rpi_ch_image: RaspberryPi Container Host
+pine_image: Pine64
+pine_ch_image: Pine64 Container Host
+live_info: |
+  Vær opmærksom på følgende begrænsninger for live-aftrykkene:
+  * De bør ikke bruges til at installere eller opgradere. Brug i stedet installationsmediet.
+  * De har et begrænset udvalg af pakker og drivere, så de kan ikke betragtes som en præcis afspejling af, om distributionen vil fungere på din hardware eller ej.
+  * Kernel og initrd kan ikke opdateres, så de bør ikke bruges som en persistent installation.
