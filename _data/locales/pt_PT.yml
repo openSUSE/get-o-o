@@ -35,14 +35,14 @@ requirements_net: Rede
 tw_switch: Maneiras Fáceis de Mudar para o openSUSE Tumbleweed
 upgrade_table_linux: De uma versão antiga ou de outra distribuição Linux
 upgrade_table_windows: Do Windows
-upgrade_table_mac: Do OS X
+upgrade_table_mac: Do macOS
 upgrade_table_linux_dvd: Como gravar um DVD no Linux.
 upgrade_table_linux_dvd_link: 
   https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Linux_2
 upgrade_table_windows_dvd: Como gravar um DVD no Windows.
 upgrade_table_windows_dvd_link: 
   https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_Microsoft_Windows
-upgrade_table_mac_dvd: Como gravar um DVD no OS X.
+upgrade_table_mac_dvd: Como gravar um DVD no macOS.
 upgrade_table_mac_dvd_link: 
   https://pt.opensuse.org/SDB:Ajuda_de_download#Usando_OS_Mac_X_.2810.3_e_mais_recentes.29
 upgrade_table_linux_usb: Como criar uma pen USB de arranque no Linux.
@@ -50,7 +50,7 @@ upgrade_table_linux_usb_link: https://pt.opensuse.org/SDB:Live_USB
 upgrade_table_windows_usb: Como criar uma pen USB de arranque no Windows.
 upgrade_table_windows_usb_link: 
   https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Microsoft_Windows
-upgrade_table__mac_usb: Como criar uma pen USB de arranque no OS X.
+upgrade_table__mac_usb: Como criar uma pen USB de arranque no macOS.
 upgrade_table__mac_usb_link: 
   https://pt.opensuse.org/SDB:Crie_um_dispositivo_Live_USB_usando_Mac_OS_X
 verify_download: Verifique a Sua Transferência Antes de Usar
@@ -58,7 +58,7 @@ verify_download_checksums_help: Ajuda Checksums
 verify_download_checksums_help_link: 
   https://pt.opensuse.org/SDB:Ajuda_de_download#Verifica.C3.A7.C3.A3o_de_somas
 index_desktop: Computador
-site_copyright: © 2022 Contribuidores do openSUSE
+site_copyright: © 2025 Contribuidores do openSUSE
 requirements_hdd_swap_info: Espaço de SWAP desativado para que o Kubernetes 
   funcione corretamente
 requirements_hdd_ssd_info: SSD de elevada frequência de escrita
@@ -75,10 +75,10 @@ offline_desc: "Contém uma grande coleção de software para uso no desktop ou n
   \ Indicada para instalação ou atualização.\n"
 network_desc: "Transfere a instalação do sistema e todos os pacotes dos\nrepositórios
   online. Indicada para instalação ou atualização.\n"
-kvm_image: KVM e XEN
-hyperv_image: MS HyperV
-vmware_image: VMware
-jeos_info: Para Imagens ARM do JeOS, por favor vá para a <a 
+kvm_image: KVM e XEN image
+hyperv_image: MS HyperV image
+vmware_image: VMware image
+jeos_info: Imagens VM mínimas. Para Imagens ARM do JeOS, por favor vá para a <a 
   href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">página 
   da wiki sobre ARM</a>
 cloud_images: Nuvem
@@ -128,3 +128,18 @@ verify_download_p1: "Muitas aplicações podem verificar o CHECKSUM da transfer�
   tem \na Imagem ISO que pretendia transferir e não uma versão corrompida.\n"
 translate: Traduzir
 xen_image: XEN
+offline_updated_desc: |
+  Instalação de imagem offline com as últimas atualizações.
+  Apto para instalação ou atualização.
+oem_images_info: Ambas as opções instalam a mesma imagem do sistema.<br>Usa o 
+  ficheiro RAW com ferramentas manuais (e.g.dd), ou a ISO auto-instalável para 
+  uma implementação guiada.
+signature: Assinatura
+offline_updated_image: Imagem Offline Atualizada
+requirements_net_conn: Conectividade completa entre máquinas no grupo
+requirements_net_mac: Nome do host único e endreço MAC para cada nó
+verify_download_pubkey: Deveria ser
+verify_download_help: Para mais ajuda a verificar o download por favor ler
+installation: Instala como quiseres
+points_transparent: Tudo é transparente
+points_free: Software gratuito? A decisão é tua
