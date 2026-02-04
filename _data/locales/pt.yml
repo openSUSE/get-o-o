@@ -220,3 +220,6 @@ jeos_info: Para Imagens ARM do JeOS, vá à <a
   wiki sobre ARM</a>
 live_info: ''
 iso_image: Imagem ISO
+signature: Assinatura
+offline_updated_image: Imagem Offline Atualizada
+encrypted_image: Imagem de Disco Completamente Encriptada (raw)
