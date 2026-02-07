@@ -501,5 +501,22 @@ leap_160_ovw_video_desc: Прямая трансляция выпуска Leap 1
 oem_preconfigured_image_gnome: Предварительно настроенный OEM-образ с GNOME 
   (raw)
 oem_preconfigured_image_kde: Предварительно настроенный OEM-образ с KDE (raw)
-oem_image_gnome: OEM-образ для самостоятельной установки с GNOME (iso)
-oem_image_kde: OEM-образ для самостоятельной установки с KDE (iso)
+oem_image_gnome: OEM-образ самостоятельной установки с GNOME (iso)
+oem_image_kde: OEM-образ самостоятельной установки с KDE (iso)
+encrypted_rt_image: Полностью зашифрованный образ с ядром реального времени 
+  (raw)
+preconfigured_base_image: Базовый предварительно настроенный образ (raw)
+encrypted_base_image: Базовый полностью зашифрованный образ (raw)
+preconfigured_base_qcow_image: Базовый предварительно настроенный образ (qcow)
+vmware_base_image: Базовый образ VMware
+selfinstall_base_image: Базовый образ самостоятельной установки
+preconfigured_base_64k_image: Базовый предварительно настроенный образ 64k (raw)
+encrypted_base_64k_image: Базовый полностью зашифрованный образ 64k (raw)
+selfinstall_base_encrypted_64k_image: Базовый полностью зашифрованный образ 
+  самостоятельной установки 64k (iso)
+selfinstall_base_64k_image: Базовый образ самостоятельной установки 64k (iso)
+preconfigured_64k_image: Предварительно настроенный образ 64k (raw)
+encrypted_64k_image: Полностью зашифрованный образ 64k (raw)
+selfinstall_64k_image: Образ самостоятельной установки 64k (iso)
+selfinstall_encrypted_64k_image: Полностью зашифрованный образ самостоятельной 
+  установки 64k (iso)
