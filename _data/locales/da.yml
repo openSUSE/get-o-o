@@ -100,3 +100,72 @@ live_info: |
   * De bør ikke bruges til at installere eller opgradere. Brug i stedet installationsmediet.
   * De har et begrænset udvalg af pakker og drivere, så de kan ikke betragtes som en præcis afspejling af, om distributionen vil fungere på din hardware eller ej.
   * Kernel og initrd kan ikke opdateres, så de bør ikke bruges som en persistent installation.
+microos_ovw_desc_p2: MicroOS tilbyder et offline-aftryk. Den væsentligste 
+  forskel på offline-aftrykket og selvinstallerende/raw-aftryk er, at 
+  offline-aftrykket indeholder et installationsprogram. Raw- og 
+  selvinstallerende aftryk giver mulighed for tilpasning via Combustion eller 
+  manuelt i aftrykket, efter det er blevet skrevet til disken. Der er mulighed 
+  for at vælge en realtidskerne.
+microos_ovw_desc_p3: Prøv MicroOS i virtuelle maskiner (VM'er), der kører på 
+  enten <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> eller KVM.
+  Ved brug af en Raspberry Pi eller anden System on Chip-hardware (SoC) kan man 
+  bruge det prækonfigurerede aftryk sammen med <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>-funktionaliteten
+  til opstartsprocessen. Både prækonfigurerede og selvinstallerede aftryk er 
+  beregnet til at blive brugt med <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  skrevet til en USB-enhed, hvilket gør det muligt at foretage konfiguration ved
+  første opstart, med mulighed for standardadgangskodebeskyttede ændringer.
+leap_ovw_title: En helt ny måde at bygge openSUSE med en længere livscyklus
+leap_ovw_desc: Leap 16.0 bygger videre på sin hybrid-tilgang, der kombinerer 
+  kildekode fra SUSE Linux Enterprise (SLE) med fællesskabsdrevet udvikling, 
+  hvilket leverer et stabilitetsniveau, der er uovertruffet af andre 
+  Linux-distributioner. Med en nyligt <strong>forlænget supportperiode på 24 
+  måneder</strong> giver Leap brugere, udviklere og systemadministratorer en af 
+  de bedste og mest pålidelige Linux-oplevelser på markedet.
+tumbleweed_ovw_title: Avanceret operativsystem til arbejdsstationer og servere
+tumbleweed_ovw_desc: Med Tumbleweed behøver du ikke at træffe svære valg mellem 
+  de ting, du værdsætter – enten frihed eller sikkerhed, kontrol eller tryghed, 
+  teknologi eller stabilitet. Tumbleweed lader dig både blæse og have mel i 
+  munden!
+leap_micro_ovw_title: Leap Micro er et ultra-pålideligt, letvægts operativsystem
+  bygget til containeriserede og virtualiserede opgaver.
+leap_micro_ovw_desc_p1: Denne fællesskabsversion er baseret på SUSE Linux Micro,
+  som udnytter de sikkerheds- og overholdelseskomponenter fra SUSE Linux 
+  Enterprise, der er hærdet til erhvervsbrug. Denne sammensmeltning af 
+  teknologier giver en moderne, uforanderlig og udviklervenlig 
+  operativsystem-platform.
+leap_micro_ovw_desc_p2: Siden version 6.0 har Leap Micro tilbudt et 
+  selvinstallerende aftryk, et raw-aftryk og en pakke-DVD, der kan fungere som 
+  et offline-arkiv. Vi anbefaler det selvinstallerende aftryk til alle 
+  USB-baserede installationer, da vi ikke længere bruger traditionelle 
+  installationsprogrammer. Brugere kan automatisere og tilpasse deres 
+  installation med enten <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> eller <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a>, eller ved at 
+  bruge konfigurationsguiden jeos-firstboot. Prøv også <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a>, vores 
+  online-generator til Ignition-konfigurationer.
+leap_micro_ovw_desc_p3: Prøv Leap Micro i VM'er, der kører på enten <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> eller KVM. Ved brug
+  af en Raspberry Pi eller anden System on Chip-hardware kan man bruge det 
+  prækonfigurerede aftryk. Både prækonfigurerede og selvinstallerede aftryk er 
+  beregnet til at blive brugt med <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  skrevet til en USB-enhed, hvilket gør det muligt at foretage konfiguration ved
+  første opstart, med mulighed for standardadgangskodebeskyttede ændringer.
+leap_micro_ovw_video_desc: Installations-demo af Leap Micro 6.1 med fuld 
+  disk-kryptering og to-faktor-godkendelse i Cockpit.
+leap_156_ovw_video_desc: En Leap 15.6 udgivelse live stream
+leap_160_ovw_video_desc: En Leap 16.0 udgivelse live stream
+microos_ovw_title: Micro Service OS, der tilbyder transaktionelle (atomiske) 
+  opdateringer på et skrivebeskyttet btrfs-rodfilsystem
+microos_ovw_desc_p1: Designet til at være vært for container-opgaver med 
+  automatiseret administration og patching. Ved at installere openSUSE MicroOS 
+  får du et hurtigt, lille miljø til udrulning af containere eller enhver anden 
+  opgave, der drager fordel af transaktionelle opdateringer. Som en rolling 
+  release-distribution er softwaren altid opdateret.
+Tumbleweed_features:
+  gamepad:
+    description: |
+      Tumbleweed giver brugerne den nyeste gaming-relaterede software. Da Linux-understøttelsen af gaming forbedres lynhurtigt, er det et vigtigt aspekt for at få en glidende, højtydende og problemfri oplevelse i dine yndlingsspil.
