@@ -21,23 +21,22 @@ documentation_release_notes: Udgivelsesnoter
 documentation_license: Licens
 documentation_full_documentation: Fuld dokumentation
 leap_switch: Lette måder at skifte til openSUSE Leap
-requirements: Anbefalede systemkrav
-requirements_cpu: 2 Ghz dual core-processor eller bedre
-requirements_mem: 2 GB systemhukommelse
+requirements: Systemkrav
+requirements_cpu: CPU
+requirements_mem: Hukommelse
 requirements_hd: Over 40 GB ledig harddiskplads
 requirements_dvd: Enten et DVD-drev eller USB-port til installationsmediet
-requirements_net: Internetadgang er nyttig og kræves af 
-  netværksinstallationsprogrammet
+requirements_net: Netværk
 tw_switch: Lette måder at skifte til openSUSE Tumbleweed
 upgrade_table_linux: Fra en ældre version eller anden Linux-distrio
 upgrade_table_windows: Fra Windows
-upgrade_table_mac: Fra OS X
+upgrade_table_mac: Fra macOS
 upgrade_table_linux_dvd: Brænd en DVD i Linux.
 upgrade_table_windows_dvd: Brænd en DVD i Windows.
-upgrade_table_mac_dvd: Brænd en DVD i OS X.
+upgrade_table_mac_dvd: Sådan brændes en DVD i macOS.
 upgrade_table_linux_usb: Opret en opstartsbar USB-pen på Linux.
 upgrade_table_windows_usb: Opret en opstartsbar USB-pen på Windows.
-upgrade_table__mac_usb: Opret en opstartsbar USB-pen på OS X.
+upgrade_table__mac_usb: Sådan laves en boot-USB nøgle på macOS.
 verify_download: Verificér din download inden brug
 verify_download_checksums_help: Hjælp med tjeksummer
 index_desktop: Skrivebord
@@ -169,3 +168,160 @@ Tumbleweed_features:
   gamepad:
     description: |
       Tumbleweed giver brugerne den nyeste gaming-relaterede software. Da Linux-understøttelsen af gaming forbedres lynhurtigt, er det et vigtigt aspekt for at få en glidende, højtydende og problemfri oplevelse i dine yndlingsspil.
+preconfigured_base_image: Basis prækonfigureret aftryk (raw)
+encrypted_base_image: Basis fuldt krypteret aftryk (raw)
+preconfigured_base_qcow_image: Basis prækonfigureret aftryk (qcow)
+vmware_base_image: Basis VMware aftryk
+selfinstall_base_image: Basis selv-installerende aftryk
+preconfigured_base_64k_image: Basis prækonfigureret 64k aftryk (raw)
+encrypted_base_64k_image: Basis fuldt krypteret 64k aftryk (raw)
+selfinstall_base_encrypted_64k_image: Basis fuldt krypteret self-installerende 
+  64k aftryk (iso)
+selfinstall_base_64k_image: Basis selv-installerende 64k aftryk (iso)
+preconfigured_64k_image: Prækonfigureret 64k aftryk (raw)
+encrypted_64k_image: Fuldt krypteret 64k aftryk (raw)
+selfinstall_64k_image: Selv-installerende 64k aftryk (iso)
+selfinstall_encrypted_64k_image: Fuldt krypteret selv-installerende 64k aftryk 
+  (iso)
+packages_image: Aftryk med pakker
+packages_image_desc: Medie som indeholder en offline kilde med pakker.
+openstack_image: OpenStack-Cloud
+openstack_ch_image: OpenStack-Cloud Container Host
+virtualbox_image: VirtualBox
+installation_images: Installation
+ports_info: |
+  Porteringer af openSUSE Leap til andre arkitekturer end pc'en
+  vedligeholdes af separate community-teams med begrænsede ressourcer.
+jeos_images: JeOS
+jeos_info: Minimale VM-billeder. For Arm JeOS-billeder, gå venligst til <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 
+  wiki-siden</a>
+minimal_vm_images: Minimal Virtuel Maskine
+minimal_vm_info: Ligner SUSE Linux Enterprise Server Minimal-VM-billederne. For 
+  Arm JeOS-billeder, gå venligst til <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm 
+  wiki-siden</a>
+server_aarch64: UEFI Arm 64-bit servere og enheder (aarch64)
+server_x86_64: Intel eller AMD 64-bit servere (x86_64)
+live_images: Live
+vm_images: Virtuel Maskine
+cloud_images: Sky
+cloud_image: Aftryk til skyen
+cloud_minimal_desc: Minimal KVM og Xen aftryk med cloud-init
+hardware_images: Hardware
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+microos_desc: openSUSE Tumbleweed-baseret operativsystem, der leverer 
+  transaktionelle (atomiske) opdateringer på et skrivebeskyttet 
+  btrfs-rodfilsystem
+choosing_media_p1: |
+  Offline-aftrykket anbefales typisk, da det indeholder de fleste
+  af de pakker, der er tilgængelige i distributionen, og ikke kræver
+  en netværksforbindelse under installationen.
+choosing_media_agama_p1: |
+  <a href="https://github.com/agama-project/agama">Agama</a> er det nye installationsprogram, der kan bruges til at installere Leap 16 og Tumbleweed.
+  Der er en plan om at understøtte offlineinstallation i Agama. Andre installationsmedier, såsom selvinstallationsbillede, vil blive tilføjet senere.
+choosing_media_micro_p1: |
+  Det nye selvinstallationsbillede er det foretrukne valg til USB- eller DVD-baserede installationer.
+  En simpel selvinstallationsguide dumper et forudkonfigureret billede til drevet og udvider partitionen til diskens størrelse.
+  <br>
+  Brugere med Raspberry Pi og lignende uden understøttelse af USB-boot kan direkte skrive det forudkonfigurerede billede til SD-kortet.
+  Brugere, der ønsker mere kontrol over implementeringen, rådes til at bruge <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+  <br>
+  En demo af en combustion-baseret implementering kan ses <a href="https://www.youtube.com/watch?v=ANh5FHZDOxo">her</a>.
+  <br>
+  jeos-firstboot vil hilse dem, der ikke har konfigureret deres system ved hjælp af Combustion, velkommen.
+choosing_media_p2: |
+  Netværksbilledet anbefales til brugere med begrænset båndbredde på deres internetforbindelser, da det kun downloader de pakker, de vælger at installere, hvilket sandsynligvis vil være betydeligt mindre end 4,7 GB.
+choosing_media_micro_p2: |
+  Leap Micro leveres ikke længere med et traditionelt installationsprogram. Brugere skal i stedet bruge selvinstallerende medier.
+  Det nye Packages Image er blot en offline dump af Leap Micro rpm-arkivet til dem med isolerede miljøer.
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_p1: |
+  Hvis du allerede kører openSUSE, kan du opgradere ved at boote fra 
+  DVD/USB og vælge opgradering, eller udføre en 'Online-opgradering' 
+  med et par kommandoer.
+leap_switch_instructions: Online Upgrade Instruktioner.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_min: Minimum
+requirements_rec: Anbefalet
+requirements_cpu_desc: 2 Ghz dual core processor eller bedre
+requirements_cpu_slfo_x86_64: 'For x86_64: microarchitecture level x86-64-v2 eller
+  senere'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'For ppc64le: POWER9 eller senere'
+requirements_cpu_slfo_s390x: 'For s390x: z14 eller senere'
+requirements_mem_desc: $value fysisk RAM + yderligere hukommelse til dine 
+  opgaver
+requirements_hdd: Lager
+requirements_hdd_desc: Over 40GB fri plads på harddisk
+requirements_hdd_root: / (root) partition
+requirements_hdd_var: /var partition
+requirements_hdd_size_desc: $value ledig disk-plads
+requirements_hdd_swap_info: swap afbrudt for at kubernetes kan fungere korrekt
+requirements_hdd_ssd_info: SSD med høj skrivehastighed
+requirements_dvd_desc: Enten et DVD drev eller USB port til installationsmediet
+requirements_net_desc: Internetadgang er nyttig og er nødvendig for 
+  netværksinstallation
+requirements_net_conn: Fuld forbindelse mellem alle maskiner i cluster
+requirements_net_mac: Unikt værtsnavn og MAC-adressse for alle noder
+tw_switch_p1: |
+  Hvis du allerede kører openSUSE, kan du opgradere ved at boote
+  fra DVD/USB og vælge opgradering, eller udføre en
+  'Online-opgradering' med et par kommandoer.
+tw_switch_instructions: Instruktioner for opgradering.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_p1: |
+  Mange applikationer kan verificere checksummen for en download. Det kan
+  være vigtigt at verificere din download, da det bekræfter, at du virkelig har den
+  ISO-fil, du ønskede at downloade, og ikke en eller anden ødelagt version.
+verify_download_p2: |
+  For hver ISO tilbyder vi en checksumfil med den tilsvarende SHA256-sum og en signaturfil med en kryptografisk signatur.
+verify_download_p3: |
+  For at sikre integriteten af den downloadede fil kan du bruge sha256sum til at verificere checksummen og gpgv til at verificere den kryptografiske signatur.
+verify_download_pubkey: Det skulle være
+verify_download_help: For mere hjælp med at verificere din download, læs
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: Mange skriveborde, tre som standard
+desktops_p1: |
+  openSUSE-bidragsprocessen muliggør desktopudvikling for alle,
+  så du har mulighed for at vælge din favorit i installationsprogrammet.
+  Vi præsenterer aktivt tre skrivebordsmiljøer og tilbyder endnu flere
+  i den udvidede softwarevisning i installationsprogrammet.
+installation: Installer det som du vil have det
+installation_p1: |
+  openSUSE-installationsprocessen giver dig alle de muligheder,
+  du muligvis har brug for. Vil du installere dit system med mus og
+  tastatur? Indlæs installationsprogrammet i grafisk tilstand. Har du ikke en mus
+  ved hånden? Aktiver terminalklienten og installer den på den måde. Har du ikke
+  fysisk adgang til maskinen? Opret forbindelse til installationsprogrammet eksternt og
+  forsæt med installationen. Så enkelt er det.
+points_transparent: Alt er transparent
+points_transparent_p1: |
+  Fra start til slut har hver pakke, der går ind i distributionerne, 
+  alle sine kildekoder og byggeskripter åbent synlige for alle.
+  Tvivler du på kildekoden? Bare tjek den ud på byggetjenesten.
+points_free: Fri software? Dit valg
+points_free_p1: |
+  Pakker i distributionerne er opdelt i frie og ikke-frie
+  kilder. Vil du ikke bruge ikke-frie pakker? Du kan nemt
+  deaktivere de ikke-frie kilder. Det er dit valg, ikke vores.
+points_welcoming: Bidrag er velkomne
+points_welcoming_p1: |
+  Vi gør vores bedste for udvikler-miljøet, og vi kan kun gøre det
+  muligt når de fortæller, hvad de har brug for. Derfor sikrer vi, at
+  det er så let som muligt at bidrage.
