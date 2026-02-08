@@ -325,3 +325,81 @@ points_welcoming_p1: |
   Vi gør vores bedste for udvikler-miljøet, og vi kan kun gøre det
   muligt når de fortæller, hvad de har brug for. Derfor sikrer vi, at
   det er så let som muligt at bidrage.
+preconfigured_image: Prækonfigureret aftryk (raw)
+preconfigured_image_desc: Prækonfigureret aftryk (raw)
+preconfigured_qcow_image: Prækonfigureret aftryk (qcow)
+preconfigured_rt_image: Prækonfigureret realtids-aftryk (raw)
+encrypted_rt_image: Fuldt krypteret realtids-aftryk (raw)
+selfinstall_image: Selvinstallerende aftryk
+selfinstall_rt_image: Selvinstallerende realtids-aftryk
+snapper: Blev systemet korrupt? Ikke noget problem længere
+snapper_p1: |
+  Funktionen Filsystem-snapshots holder styr på dit filsystem ved at
+  lade løbende sikkerhedskopier udføres automatisk, når du installerer
+  software og opdateringer. Du skal blot starte fra et tidligere snapshot, og
+  dit system kan nu fungere på få minutter.
+software: Det kunne ikke være lettere at få software
+software_p1: |
+  Mellem os er det et stort arbejde at skulle gennemgå alle hjemmesider
+  for at få al den software, du måtte have brug for. Online softwarecenteret
+  gør det nemmere ved at integrere software fra et væld af kilder på ét sted.
+software_get: Få software
+transactional: Transaktionsserver
+transactional_p1: |
+  Installationsprogrammet understøtter nu en ny systemrolle, Transactional Server,
+  som er et resultat af openSUSE Kubic-indsatsen. Denne systemrolle
+  har et nyt opdateringssystem, der anvender opdateringer atomart (som en
+  enkelt operation) og gør dem nemme at rulle tilbage, hvis det bliver
+  nødvendigt. Disse funktioner er baseret på de pakkehåndteringsværktøjer,
+  som alle andre SUSE- og openSUSE-distributioner er afhængige af. Det betyder,
+  at langt de fleste RPM-pakker, der fungerer med andre systemroller i
+  openSUSE-distributioner, også fungerer med systemrollen Transactional Server.
+yast: YaST, det bedste valg for ~~ekspert~~brugere
+yast_p1: |
+  Et af de bedste systemkonfigurationsværktøjer hjælper dig, brugeren, med at
+  opsætte alle aspekter af dit system. Du behøver ikke længere at
+  gå igennem et væld af konfigurationsscripts eller indtaste tvivlsomme kommandoer
+  for at få systemet opsat, som du har brug for det.
+yast_firewall: Firewall
+yast_fonts: Skrifttyper
+yast_hardware: Hardware
+yast_printer: Printer
+yast_scanner: Scanner
+yast_sound: Lyd
+yast_software: Software
+zypper: Zypper, din nye favorit-pakkehåndtering
+zypper_p1: |
+  Det er hurtigt og nemt at lære. Indeholder zypper-apt, et kompatibilitetslag
+  til brug med apt- og apt-get-kommandoer. Det er baseret på libsolv,
+  som garanterer både hastighed og reproducerbar løsning af
+  afhængigheder. Grænsefladen er klar og har passende farver for
+  at være nem at læse. Det er perfekt, hvad mere kan man sige?
+index: openSUSE Distributioner
+index_p1: Til skrivebord, server og alt derimellem
+index_desktop_p1: Valg af distributioner til brug som skrivebord
+index_server: Server
+index_server_p1: Valg af distributioner til brug som server
+index_full: Eller gå direkte til download-siden for distributionerne
+desktop: openSUSE Skrivbordsdistributioner
+desktop_p1: |
+  De to distributioner som hersker over dem alle (nu i grønt!)
+desktop_tumbleweed_p1: For udviklere, openSUSE bidragsydere, spillere og 
+  Linux/FOSS-entusiaster
+desktop_tumbleweed_p2: Rullende udgivelse med de seneste pakker fra openSUSE 
+  projektet.
+desktop_leap_p1: For systemadministratorer, enterprise-udviklere og "normale" 
+  brugere
+desktop_leap_p2: Regelmæssig udgivelse med fordelene fra både enterprise-klasse 
+  stabilitet og innovation fra udvikler-miljøet.
+server: openSUSE Server distributioner
+server_p1: |
+  Fire komfortabelt kedelige distributioner, som det altid burde være
+server_tumbleweed_p1: For udviklere, openSUSE bidragsydere, spillere og 
+  Linux/FOSS-entusiaster
+server_tumbleweed_p2: Rullende udgivelse med de seneste pakker fra openSUSE 
+  projektet.
+server_leap_p1: For systemadministratorer, enterprise-udviklere og "almindelige"
+  server-brugere
+server_leap_p2: Regelmæssig udgivelse med fordelene fra både enterprise-klasse 
+  stabilitet og innovation fra udvikler-miljøet.
+server_microos_p1: For serverapplikationer med et enkelt formål
