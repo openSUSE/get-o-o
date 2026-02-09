@@ -168,6 +168,43 @@ Tumbleweed_features:
   gamepad:
     description: |
       Tumbleweed giver brugerne den nyeste gaming-relaterede software. Da Linux-understøttelsen af gaming forbedres lynhurtigt, er det et vigtigt aspekt for at få en glidende, højtydende og problemfri oplevelse i dine yndlingsspil.
+    name: Spil
+  update:
+    name: Kontinuerligt opdateret
+    description: |
+      Du installerer det én gang og har glæde af det for altid. Du behøver ikke længere bekymre dig hvert halve år om massive systemopgraderinger, der risikerer at ødelægge dit system.
+  knife:
+    name: På forkant
+    description: |
+      Du modtager hyppige opdateringer, der ikke kun lukker sikkerhedshuller eller retter fejl, men som også bringer de nyeste funktioner og tiltag direkte til dig – herunder de nyeste kerner, opdaterede drivere og de seneste versioner af skrivebordsmiljøer.
+  home:
+    name: Stabil
+    description: |
+      Opdateringerne testes grundigt efter industrielle kvalitetsstandarder ved hjælp af en build-service, som andre Linux-distributioner misunder os for. Ikke nok med at hver ny version af en pakke testes individuelt; forskellige klynger af versioner testes også mod hinanden for at sikre, at dit system er internt konsistent.
+  user:
+    name: Let at bruge
+    description: |
+      Med en enkelt kommando kan du opdatere tusindvis af pakker, rulle tilbage til sidste uges snapshot, spole frem igen og endda få et smugkig på kommende udgivelser.
+  cpu:
+    name: Fungerer fint sammen med din hardware
+    description: |
+      Takket være dens banebrydende og gennemtestede natur understøtter Tumbleweed din hardware og dine enheder som få andre Linux-distributioner, hvilket gør den til en fantastisk installation på både stationære og bærbare computere.
+  key:
+    name: Pålidelig
+    description: |
+      Skulle der opstå noget uønsket, kan du altid rulle tilbage til en tidligere tilstand og finde dine filer og programmer nøjagtigt, som de var før en ujævn opdatering.
+  shield:
+    name: Sikker
+    description: |
+      Bygget på de nyeste kerne-udgivelser, kompileret med de seneste rettelser mod Spectre- og Meltdown-sårbarheder og med firewall og stramme sikkerhedspolitikker aktiveret som standard – din sikkerhed er dækket ind fra første sekund.
+  power:
+    name: Kraftig
+    description: |
+      Ved at udnytte teknologier som openSUSE er berømt for – såsom filsystemet Btrfs, kommandolinjeværktøjet snapper samt det gennemtestede ”kontrolpanel” YaST – giver Tumbleweed dig fuld kontrol over dit system, så du kan definere dine indstillinger én gang for alle. Du skal ikke længere bekymre dig om et system, der forstyrrer din arbejdsgang.
+  plant:
+    name: Står på fast grund
+    description: |
+      Tumbleweed bygger på årtiers brug, test og fejlfinding foretaget af hundredvis af superbrugere, udviklere, systemadministratorer og krævende brugere, der ikke har råd til at sætte deres arbejdsgang på spil. Tumbleweeds robusthed er indlejret i mange af de centrale pakker, hvis DNA stammer fra den hæderkronede SUSE Linux Enterprise Server.
 preconfigured_base_image: Basis prækonfigureret aftryk (raw)
 encrypted_base_image: Basis fuldt krypteret aftryk (raw)
 preconfigured_base_qcow_image: Basis prækonfigureret aftryk (qcow)
@@ -403,3 +440,82 @@ server_leap_p1: For systemadministratorer, enterprise-udviklere og "almindelige"
 server_leap_p2: Regelmæssig udgivelse med fordelene fra både enterprise-klasse 
   stabilitet og innovation fra udvikler-miljøet.
 server_microos_p1: For serverapplikationer med et enkelt formål
+yast_partitioner: Partitionerer
+server_microos_p2: Designet til at være vært for containere, med automatisk 
+  administration og vedligehold
+server_leapmicro_p1: For edge, embedded, IoT og andre installationer
+server_leapmicro_p2: Super pålideligt letvægts-operativsystem, bygget til at 
+  køre containere og virtuelle maskiner.
+new_version_available: $distro_name er nu tilgængeligt for download
+new_version_testing: $distro_name er nu tilgængeligt for download og test
+view_distro: Vis $distro_name
+x86_64: Intel eller AMD 64-bit stationære, bærbare og servere (x86_64)
+i686: Intel eller AMD 32-bit stationære, bærbare og servere (i686)
+aarch64: UEFI Arm 64-bit servere, stationære, bærbare og SBC'er (aarch64)
+armv7l: UEFI Arm 32-bit servere, stationære, bærbare og SBC'er (armv7l)
+ppc64le: PowerPC servere, little-endian (ppc64le)
+s390x: IBM zSystems og LinuxONE (s390x)
+overview: Overblik
+download: Download
+alternative_downloads: Alternative downloads
+alternative_downloads_desc: Vi har også $options aftryk. Se på 
+  $alternative_downloads!
+MicroOS_features:
+  idea:
+    name: Filosofi
+    description: |
+      ### Er forudsigeligt
+      * Ændres ikke under kørsel
+      * Kører de samme artefakter konsistent ved hver opstart
+
+      ### Er skalerbart
+      * Eliminerer arbejdet med at konfigurere enkelte instanser under kørsel
+      * Kan nemt rulles ud gentagne gange med et forudsigeligt resultat
+
+      ### Er pålideligt
+      * Automatisk gendannelse efter fejlbehæftede opdateringer
+  update:
+    name: Atomiske opdateringer
+    description: |
+      ### Transaktionelle opdateringer
+
+      #### Unik
+      Ved at bruge btrfs med snapshots udnytter MicroOS en meget
+      pladseffektiv måde at gemme filsystemets historik på. Alle
+      konfigurationsfilerne i /etc er en del af både snapshot og rollback.
+
+      #### Fleksibel
+      * Der kræves intet nyt pakkearformat; brug standard openSUSE RPM'er
+      * Ingen størrelsesbegrænsning, hverken for partitioner eller operativsystemet
+      * Nem at udvide
+  shield:
+    name: Rollback
+    description: |
+      ### MicroOS er et Immutable OS, rollback er simpelt
+      * Immutable: Ingen ændringer på disken
+      * Rollback ved at genstarte til et gammelt BTRFS-snapshot
+  key:
+    name: Sikre opdateringer
+    description: |
+      * Hent dine opdateringer via HTTPS
+      * Pakker og repositories er signeret af vores build-system
+      * Pakker bliver verificeret
+      * Der udføres ingen opdateringer i tilfælde af afhængighedskonflikter
+      * Intet spild af plads: Filsystem-snapshots slettes i tilfælde af mislykkede opdateringer
+  work:
+    name: Arbejdslaster
+    description: |
+      Applikationer installeres i containere fremfor i rodfilsystemet:
+      * Isoleret fra kernefilsystemet
+      * Reduceret mulighed for at ondsindede applikationer kan kompromittere systemet
+      * Ny installation uden genstart
+      * Opdatering på atomisk vis er muligt (opret ny, dræb gammel)
+      * Nem rollback
+  tool:
+    name: Fejlsøgning
+    description: |
+      ### Værktøjskasse-container til fejlfinding
+      * Starter en privilegeret container
+      * Rodfilsystemet er tilgængeligt under /media/root
+      * Brug zypper til at installere de nødvendige værktøjer; tilgængelige uden genstart
+      * Persistent mellem brug
