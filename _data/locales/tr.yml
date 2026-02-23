@@ -14,7 +14,7 @@ offline_image: Çevrimdışı Kurulan İmaj
 translate: Çeviri yap
 iso_image: ISO imajı
 network_image: Ağdan Kurulan İmaj
-site_title: openSUSE Edinin
+site_title: openSUSE'yi Edinin
 site_description: OpenSuse Dağıtımları hakkında bilgi edinin ve ücretsiz olarak 
   indirin
 kde_cd: KDE Çalışan CD
@@ -402,8 +402,8 @@ armv7l: UEFI Arm 32-bit sunucular, masaüstü bilgisayarlar, dizüstü bilgisaya
 ppc64le: PowerPC sunucuları, little-endian (ppc64le)
 s390x: IBM zSystems ve LinuxONE (s390x)
 tumbleweed_ovw_title: Son teknoloji masaüstü ve sunucu işletim sistemi
-leap_ovw_title: OpenSUSE'yi oluşturmanın yepyeni bir yolu ve yeni bir tür hibrit
-  Linux dağıtımı
+leap_ovw_title: OpenSUSE'yi kurmanın yepyeni ve daha uzun  bir yaşam döngüsü 
+  sağlayan yolu
 leap_micro_ovw_video_desc: Cockpit Tam Disk Şifreleme ve iki faktörlü kimlik 
   doğrulama ile Leap Micro 6.1 kurulum demosu.
 packages_image: Paketler İmajı
@@ -433,10 +433,12 @@ leap_micro_ovw_desc_p1: Bu topluluk sürümü, SUSE Linux Enterprise'ın kurumsa
   düzeyde güçlendirilmiş güvenlik ve uyumluluk bileşenlerinden yararlanan SUSE 
   Linux Micro'ya dayanmaktadır. Bu teknolojilerin birleştirilmesi, modern, 
   değiştirilemez ve geliştirici dostu bir işletim sistemi platformu sağlar.
-leap_ovw_desc: Leap, diğer Linux dağıtımlarının ulaşamadığı bir kararlılık 
-  düzeyi sağlayan SUSE Linux Enterprise (SLE) kaynak kodunu kullanır ve bunu 
-  topluluk geliştirmeleriyle birleştirerek kullanıcılara, geliştiricilere ve 
-  sistem yöneticilerine mümkün olan en kararlı Linux deneyimini sunar.
+leap_ovw_desc: Leap 16.0, SUSE Linux Enterprise (SLE) kaynaklarını topluluk 
+  geliştirmeleriyle birleştiren hibrit yaklaşımını temel alarak, diğer Linux 
+  dağıtımlarının ulaşamadığı bir istikrar düzeyi sunar. Yeni <strong>24 aylık 
+  uzatılmış destek süresi</strong> ile Leap, kullanıcılara, geliştiricilere ve 
+  sistem yöneticilerine mevcut en iyi ve en güvenilir Linux deneyimlerinden 
+  birini sunar.
 leap_micro_ovw_desc_p2: Leap Micro 6.0'dan beri kendi kendine kurulum imajı, ham
   imaj ve çevrimdışı bir depo görevi görebilen bir Paketler DVD'si sunuyor. 
   Artık geleneksel yükleyicileri kullanmadığımız için kendi kendine kurulum 
@@ -483,3 +485,30 @@ requirements_cpu_slfo_x86_64_link:
 requirements_cpu_slfo_ppc64le: 'ppc64le için: POWER9 veya üzeri'
 requirements_cpu_slfo_s390x: 's390x için: z14 veya üzeri'
 requirements_cpu_slfo_x86_64: 'x86_64 için: mikro mimari düzeyi x86-64-v2 veya üzeri'
+oem_images: Donanım sağlayıcıları için OEM yansıları.
+oem_images_info: Her iki seçenek de aynı sistem görüntüsünü yükler.<br>Manuel 
+  araçlarla (ör. dd) RAW dosyasını veya kılavuzlu dağıtım için önyüklenebilir 
+  kendi kendine yükleme ISO'sunu kullanın.
+oem_preconfigured_image_gnome: GNOME ile önceden ayarlanmış yansı (raw)
+oem_preconfigured_image_kde: KDE ile OEM önceden yapılandırılmış görüntü (raw)
+oem_preconfigured_image_desc: Donanım sağlayıcıları için OEM yansıları.
+oem_image_gnome: GNOME ile Oto-kurulum Yansısı (iso)
+oem_image_kde: KDE ile Oto-kurulum Yansısı (iso)
+oem_image_desc: OEM Oto-kurulum yansısı
+preconfigured_image_desc: Önceden ayarlanmış Yansı (raw)
+encrypted_rt_image: Tamamen Şifreli Gerçek Zamanlı Yansı (raw)
+leap_160_ovw_video_desc: Leap 16.0 çıkışı canlı yayını
+preconfigured_base_image: Temel Önceden ayarlanmış Yansı (raw)
+encrypted_base_image: Temel Tamamen Şifreli Yansı (raw)
+preconfigured_base_qcow_image: Temel Önceden Ayarlanmış Yansı (qcow)
+vmware_base_image: Temel VMware Yansısı
+selfinstall_base_image: Temel Oto-kurulum Yansısı
+preconfigured_base_64k_image: Temel Önceden Ayarlanmış 64k Yansısı (raw)
+encrypted_base_64k_image: Temel Tamamen Şifreli 64k Yansısı (raw)
+selfinstall_base_encrypted_64k_image: Temel Tamamen Şifreli Oto-kurulum 64k 
+  Yansısı (iso)
+selfinstall_base_64k_image: Temel Oto-kurulum 64k Yansısı
+preconfigured_64k_image: Önceden Ayarlanmış 64k Yansısı (raw)
+encrypted_64k_image: Tamamen Şifreli 64k Yansısı (raw)
+selfinstall_64k_image: Oto-kurulum 64k Yansısı (iso)
+selfinstall_encrypted_64k_image: Tamamen Şifreli Oto-kurulum 64k Yansısı (iso)
