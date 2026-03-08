@@ -87,8 +87,12 @@ Tumbleweed_features:
       kompiuteriams, tiek įvairiausiems nešiojamiesiems kompiuteriams.\n"
   power:
     name: Galinga
+    description: |
+      Pasitelkdamas technologijas, kuriomis garsėja openSUSE, tokias kaip `Btrfs` failų sistema, `snapper` komandų eilutės įrankis, taip pat kovose užgrūdintas „YaST“ valdymo centras, „Tumbleweed“ suteikia jums visišką sistemos kontrolę, leisdamas nusistatyti norimus parametrus ir tuo užbaigti. Daugiau nebereikia nerimauti, kad sistema kišis į jūsų darbo eigą.
   home:
     name: Stabili
+    description: |
+      Atnaujinimai yra kruopščiai testuojami pagal pramonės lygio kokybės standartus, pasinaudojant kūrimo paslauga, kurios mums pavydi kiti Linux platinimai. Testuojama ne tik kiekviena nauja paketo versija atskirai, bet ir skirtingos versijų grupės tarpusavyje, taip užtikrinant, kad jūsų sistema būtų viduje suderinta.
   key:
     name: Patikima
     description: "Jei nutiktų kas nors nepageidaujamo, visada galite grįžti į ankstesnę
@@ -96,6 +100,8 @@ Tumbleweed_features:
       nepavykusį naujinimą.\n"
   plant:
     name: Stovinti ant tvirto pagrindo
+    description: |
+      „Tumbleweed“ remiasi dešimtmečius kaupta naudojimo patirtimi, testavimu ir klaidų šalinimu, kuriuos atliko šimtai pažengusių naudotojų, kūrėjų, sistemų administratorių ir reiklių profesionalų, negalinčių rizikuoti savo darbo eiga. „Tumbleweed“ tvirtumą įkūnija daugelis pagrindinių paketų, kurių DNR kyla iš gerbiamo „SUSE Linux Enterprise Server“.
   update:
     name: Nuolat atnaujinama
     description: "Ją įdiegsite vieną kartą ir galėsite ja naudotis amžinai. Jums nebereikės
@@ -278,6 +284,12 @@ overview: Apžvalga
 MicroOS_features:
   key:
     name: Saugūs atnaujinimai
+    description: |
+      * Gaukite atnaujinimus per HTTPS  
+      * Paketus ir saugyklas pasirašo mūsų kūrimo sistema  
+      * Paketai yra patikrinami  
+      * Esant priklausomybių konfliktams, atnaujinimai neatliekami  
+      * Nešvaistoma vieta: nesėkmingų atnaujinimų atveju failų sistemos momentinės kopijos ištrinamos
   idea:
     name: Filosofija
     description: "### Yra nuspėjama\n* Nėra keičiama vykdymo metu \n* Kiekvieną kartą
@@ -287,8 +299,39 @@ MicroOS_features:
       Yra patikima \n* Automatinis atstatymas po netinkamų atnaujinimų\n"
   tool:
     name: Derinimas
+    description: |
+      ### Derinimo įrankinės konteineris  
+      * Paleidžia privilegijuotą konteinerį  
+      * Šakninė failų sistema pasiekiama kataloge `/media/root`  
+      * `zypper` galima įdiegti reikalingus įrankius, jie pasiekiami be perkrovimo  
+      * Išlieka tarp naudojimų
   update:
     name: Atominiai atnaujinimai
+    description: |
+      ###    Transakciniai atnaujinimai
+
+      Unikalūs
+      Naudojant btrfs su momentinėmis kopijomis, „MicroOS“ naudoja labai vietą taupantį būdą saugoti failų sistemos istoriją. Visi konfigūracijos failai, esantys /etc, yra momentinės kopijos dalis ir įtraukiami į grąžinimą.
+
+      #### Lankstūs
+      * Nereikia naujo paketų formato, naudokite standartinius openSUSE RPM
+      *  Nėra dydžio apribojimų nei skaidiniams, nei operacinei sistemai
+      *  Lengva išplėsti
+  shield:
+    name: Grąžinimas (į ankstesnę būseną)
+    description: |
+      ### „MicroOS“ yra nekintama operacinė sistema, todėl grąžinimas paprastas  
+      * Nekintama: diske neatliekami jokie pakeitimai  
+      * Grąžinimas iš naujo paleidžiant sistemą į senesnę BTRFS momentinę kopiją
+  work:
+    name: Darbo krūviai
+    description: |
+      Programos diegiamos konteineriuose, o ne šakninėje failų sistemoje:  
+      * Atskirtos nuo pagrindinės failų sistemos  
+      * Sumažinta galimybė kenkėjiškoms programoms kompromituoti sistemą  
+      * Naujas diegimas be perkrovimo  
+      * Galimas atnaujinimas atominiu būdu (sukurti naują, nutraukti seną)  
+      * Paprastas grąžinimas (rollback)
 server_leapmicro_p1: Skirta nišinėms, įterptinėms, daiktų interneto ir kitoms 
   diegimo sritims
 view_distro: Rodyti $distro_name
@@ -379,3 +422,99 @@ packages_image: Paketų atvaizdis
 encrypted_image: Pilnai užšifruotas disko atvaizdis (raw)
 leap_156_ovw_video_desc: Leap 15.6 išleidimas tiesiogiai
 signature: Parašas
+leap_16_coming_soon: |
+  Tikimasi, kad viešas „Leap 16.0“, „Leap 15.6“ įpėdinio, leidimas įvyks 2025 m. rudenį. Nėra planų išleisti „Leap 15.7“.<br/>
+  Reguliariai tikrinkite atnaujinimus mūsų <a href="https://en.opensuse.org/openSUSE:Roadmap">kelrodžyje</a> ir <a href="https://news.opensuse.org/tag/leap">news.opensuse.org</a>, kad sužinotumėte daugiau informacijos.
+oem_images: OEM atvaizdžiai aparatinės įrangos tiekėjams.
+oem_images_info: Abi parinktys įdiegia tą patį sistemos atvaizdį.<br>Naudokite 
+  RAW failą su rankiniais įrankiais (pvz., dd), arba įkraunamą, savarankiškai 
+  įdiegiamą ISO, skirtą vedamam diegimui.
+oem_preconfigured_image_gnome: OEM iš anksto sukonfigūruotas atvaizdis su GNOME 
+  (raw)
+oem_preconfigured_image_kde: OEM iš anksto sukonfigūruotas atvaizdis su KDE 
+  (raw)
+oem_preconfigured_image_desc: OEM atvaizdžiai aparatinės įrangos tiekėjams.
+oem_image_gnome: OEM savarankiško diegimo atvaizdis su GNOME (iso)
+oem_image_kde: OEM savarankiško diegimo atvaizdis su KDE (iso)
+oem_image_desc: OEM savarankiško diegimo atvaizdis
+choosing_media_agama_p1: |
+  <a href="https://github.com/agama-project/agama">Agama</a> yra nauja diegimo programa, kurią galima naudoti diegiant „Leap 16“ ir „Tumbleweed“.
+  Yra planas „Agama“ programoje palaikyti diegimą neprisijungus. Kitos diegimo laikmenos, pavyzdžiui, savarankiško diegimo atvaizdis, bus pridėtos vėliau.
+requirements_cpu_slfo_x86_64: 'Skirta x86_64 Architektūrai: mikroarchitektūros lygis
+  x86-64-v2 arba aukštesnis'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Skirta ppc64le: POWER9 arba naujesnis'
+requirements_cpu_slfo_s390x: 'Skirta s390x: z14 arba naujesnis'
+preconfigured_image_desc: Iš anksto sukonfigūruotas atvaizdis (raw)
+encrypted_rt_image: Pilnai šifruotas realaus laiko atvaizdis (raw)
+leap_micro_ovw_title: „Leap Micro“ yra itin patikima, lengva operacinė sistema, 
+  sukurta konteinerizuotiems ir virtualizuotiems darbo krūviams.
+leap_micro_ovw_desc_p1: Ši bendruomeninė versija yra pagrįsta „SUSE Linux 
+  Micro“, kuri išnaudoja įmonių aplinkai užgrūdintus „SUSE Linux Enterprise“ 
+  saugumo ir atitikties reikalavimams komponentus. Toks technologijų sujungimas 
+  suteikia modernią, nekintamą ir kūrėjams draugišką OS platformą.
+leap_micro_ovw_desc_p2: „Leap Micro“ nuo 6.0 siūlo savarankiško diegimo 
+  atvaizdį, RAW atvaizdį ir Paketų DVD, kuris gali būti naudojamas kaip 
+  neprisijungus pasiekiama saugykla. Savarankiško diegimo atvaizdis yra mūsų 
+  rekomendacija diegimui iš USB laikmenos, nes tradicinių diegiklių 
+  nebenaudojame. Naudotojai gali automatizuoti ir pritaikyti diegimą naudodami 
+  <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> arba <a
+  href="https://github.com/openSUSE/combustion">Combustion</a>, arba 
+  pasitelkdami `jeos-firstboot` vedlį. Išbandykite <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> – mūsų 
+  internetinį „Ignition“ konfigūracijos generatorių.
+leap_micro_ovw_desc_p3: „Leap Micro“ išbandykite VM aplinkoje, veikiančioje su 
+  <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> arba KVM. 
+  Naudojant „Raspberry Pi“ ar kitą „System on Chip“ aparatinę įrangą, galima 
+  rinktis iš anksto sukonfigūruotą atvaizdį. Tiek iš anksto sukonfigūruoti, tiek
+  savarankiškai įdiegiami atvaizdžiai yra skirti naudoti su <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>, 
+  įrašytu į USB laikmeną, kuri naudojama tam, kad per pirmąjį sistemos paleidimą
+  būtų galima atlikti konfigūraciją bet kurioje sistemoje, su galimybe taikyti 
+  numatytuoju slaptažodžiu apsaugotus pakeitimus.
+leap_micro_ovw_video_desc: '### „Leap Micro 6.1“ diegimo demonstracija su pilnu disko
+  šifravimu ir dviejų faktorių autentifikavimu „Cockpit“'
+leap_160_ovw_video_desc: '### „Leap 16.0“ išleidimo tiesioginė transliacija'
+microos_ovw_title: Mikropaslaugų operacinė sistema, teikianti transakcinius 
+  (atominius) atnaujinimus, naudojant tik skaitymui skirtą `btrfs` šakninę failų
+  sistemą
+microos_ovw_desc_p1: Sukurta talpinti konteinerių darbo krūvius su automatizuotu
+  administravimu ir pataisų diegimu. Įsidiegę openSUSE MicroOS gaunate greitą, 
+  mažą aplinką konteineriams diegti arba bet kuriam kitam darbo krūviui, kuriam 
+  naudingi transakciniai (atomini) atnaujinimai. Kaip nuolat atnaujinamas 
+  (rolling release) platinimas, programinė įranga visada yra naujausios 
+  versijos.
+microos_ovw_desc_p2: „MicroOS“ siūlo **neprisijungusį (offline) atvaizdį**. 
+  Pagrindinis skirtumas tarp **offline** ir **self-install/raw** atvaizdžių yra 
+  tas, kad **offline atvaizdis turi diegiklį**. Tuo tarpu **raw** ir 
+  **self-install** leidžia atlikti pritaikymą naudojant **Combustion** arba 
+  **rankiniu būdu pačiame atvaizde** po to, kai jis įrašomas į diską. Taip pat 
+  yra galimybė pasirinkti **realiojo laiko (real-time) branduolį**.
+microos_ovw_desc_p3: „MicroOS“ išbandykite VM aplinkoje, veikiančioje su <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> arba KVM. Naudojant
+  „Raspberry Pi“ ar kitą „System on Chip“ aparatinę įrangą, galima naudoti iš 
+  anksto sukonfigūruotą atvaizdį kartu su <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  funkcionalumu paleidimo metu. Tiek iš anksto sukonfigūruoti, tiek 
+  savarankiškai įdiegiami atvaizdžiai yra skirti naudoti su <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>, 
+  įrašytu į USB laikmeną, kuri naudojama tam, kad per pirmąjį sistemos paleidimą
+  būtų galima atlikti konfigūraciją bet kurioje sistemoje, su galimybe taikyti 
+  numatytuoju slaptažodžiu apsaugotus pakeitimus.
+preconfigured_base_image: Bazinis iš anksto sukonfigūruotas atvaizdis (raw)
+encrypted_base_image: Bazinis pilnai šifruotas atvaizdis (raw)
+preconfigured_base_qcow_image: Bazinis iš anksto sukonfigūruotas atvaizdis 
+  (qcow)
+vmware_base_image: Bazinis „VMware“ atvaizdis
+selfinstall_base_image: Bazinis savarankiško diegimo atvaizdis
+preconfigured_base_64k_image: '**Bazinis iš anksto sukonfigūruotas 64k atvaizdis (raw)**'
+encrypted_base_64k_image: Bazinis pilnai šifruotas 64k atvaizdis (raw)
+selfinstall_base_encrypted_64k_image: '### Bazinis pilnai šifruotas savarankiško diegimo
+  64k atvaizdis (iso)'
+selfinstall_base_64k_image: Bazinis savarankiško diegimo 64k atvaizdis (iso)
+preconfigured_64k_image: Iš anksto sukonfigūruotas 64k atvaizdis (raw)
+encrypted_64k_image: Bazinis pilnai šifruotas 64k atvaizdis (raw)
+selfinstall_64k_image: Savarankiško diegimo 64k atvaizdis (ISO)
+selfinstall_encrypted_64k_image: Pilnai šifruotas savarankiško diegimo 64k 
+  atvaizdis (ISO)
