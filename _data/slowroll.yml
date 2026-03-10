@@ -1,0 +1,24 @@
+---
+name: Slowroll
+bg-color: slowroll
+fg-color: white
+logo: logos/slowroll.svg
+choosing-media: true
+downloads:
+  - name: installation_images
+    display: all
+    arches:
+      - name: x86_64
+        types:
+          - name: offline_image
+            desc: offline_desc
+            primary_link: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso"
+            links:
+            - name: metalink
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso.meta4"
+            - name: pick_mirror
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso?mirrorlist"
+            - name: checksum
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso.sha256"
+            - name: signature
+              url: "/slowroll/iso/openSUSE-Slowroll-DVD-x86_64-Media.iso.sha256.asc"

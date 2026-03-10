@@ -96,7 +96,8 @@ live_info: |
   * They should not be used to install or upgrade. Please use the installation media instead
   * They have a limited package and driver selection, so cannot be considered an accurate reflection as to whether the distribution will work on your hardware or not
   * Kernel and initrd can't be updated, so they shouldn't be used as a persistent installation
-microos_desc: openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
+microos_desc:
+  openSUSE Tumbleweed based OS providing Transactional (Atomic) Updates
   upon a read-only btrfs root filesystem
 choosing_media: Choosing Which Media to Download
 choosing_media_p1: |
@@ -185,7 +186,8 @@ upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_st
 upgrade_table__mac_usb: How to create a bootable USB stick on macOS.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Verify Your Download Before Use
-verify_download_p1: "Many applications can verify the checksum of a download. To verify\n\
+verify_download_p1:
+  "Many applications can verify the checksum of a download. To verify\n\
   your download can be important as it verifies you really have got the\nISO file\
   \ you wanted to download and not some broken version.\n"
 verify_download_p2: |
@@ -203,7 +205,8 @@ desktops_p1: |
   installer. We actively feature three desktop environments, and offer
   even more in the expanded software view within the installer.
 installation: Install it how you want it
-installation_p1: "The openSUSE Installation process provides you with all the options\n\
+installation_p1:
+  "The openSUSE Installation process provides you with all the options\n\
   you would possibly need. Want to install your system with mouse and\nkeyboard? Load\
   \ up the installer in graphical mode. Don't have a mouse\non hand? Enable the terminal\
   \ client and install it that way. Don't have\nphysical access to the machine? Connect\
@@ -231,7 +234,8 @@ encrypted_rt_image: Fully Encrypted RealTime Image (raw)
 selfinstall_image: Self-install Image
 selfinstall_rt_image: Self-install RealTime Image
 snapper: System got corrupted? Not a problem anymore
-snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\
+snapper_p1:
+  "The Filesystem Snapshots feature keeps your filesystem in check by\n\
   having continuous backups performed automatically when installing\nsoftware and\
   \ updates. Just boot from an earlier snapshot and bring\nyour system to a working\
   \ state in the matter of minutes.\n"
@@ -283,29 +287,43 @@ index_server_p1: Selection of distributions for server use
 index_full: Or go straight to the download pages for the distributions
 desktop: openSUSE Desktop Distributions
 desktop_p1: |
-  The two distributions to rule them all (now in green!)
-desktop_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
+  The four distributions to rule them all (now in green!)
+desktop_tumbleweed_p1:
+  For Developers, openSUSE Contributors, Gamers and Linux/FOSS
   Enthusiasts
-desktop_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
+desktop_tumbleweed_p2:
+  Rolling release with the latest packages provided by the openSUSE
   Project.
 desktop_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ Desktop Users
-desktop_leap_p2: Regular release with the benefits of both enterprise-grade engineering
+desktop_leap_p2:
+  Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
+desktop_slowroll_p1: For Users who want newer software than Leap offers, but with a lower update cadence than Tumbleweed.
+desktop_slowroll_p2: Monthly snapshots derived from Tumbleweed, supplemented by interim updates for bug fixes and security patches.
+desktop_kalpa_p1: For Users who want an atomic and immutable desktop experience based on KDE Plasma.
+desktop_kalpa_p2: Kalpa provides an easy to use, reliable, and secure desktop operating system with automatic updates and rollback capabilities.
 server: openSUSE Server Distributions
 server_p1: |
-  Four comfortably boring distributions, how it always should be
-server_tumbleweed_p1: For Developers, openSUSE Contributors, Gamers and Linux/FOSS
+  Five comfortably boring distributions, how it always should be
+server_tumbleweed_p1:
+  For Developers, openSUSE Contributors, Gamers and Linux/FOSS
   Enthusiasts
-server_tumbleweed_p2: Rolling release with the latest packages provided by the openSUSE
+server_tumbleweed_p2:
+  Rolling release with the latest packages provided by the openSUSE
   Project.
 server_leap_p1: For Sysadmins, Enterprise Developers, and ‘Regular’ server Users
-server_leap_p2: Regular release with the benefits of both enterprise-grade engineering
+server_leap_p2:
+  Regular release with the benefits of both enterprise-grade engineering
   and community-developed innovation.
 server_microos_p1: For single purpose server applications
-server_microos_p2: Designed to host container workloads with automated administration
+server_microos_p2:
+  Designed to host container workloads with automated administration
   & patching
 server_leapmicro_p1: For edge, embedded, IoT and other deployments
 server_leapmicro_p2: Ultra-reliable, lightweight operating system built for containerized and virtualized workloads.
+server_slowroll_p1: For servers that need that sweet spot between stability and freshness
+server_slowroll_p2: Monthly snapshots derived from Tumbleweed, supplemented by interim updates for bug fixes and security patches.
+immutable_distributions: Immutable Distributions
 new_version_available: $distro_name is now available for download
 new_version_testing: $distro_name is now available for download and testing
 view_distro: View $distro_name
@@ -420,7 +438,7 @@ Tumbleweed_features:
   gamepad:
     name: Gaming
     description: |
-     Tumbleweed provides users with the latest gaming-related software. With the Linux support for gaming improving rapidly, that's an important aspect for smooth, performant and problem free experience in your favorite games.
+      Tumbleweed provides users with the latest gaming-related software. With the Linux support for gaming improving rapidly, that's an important aspect for smooth, performant and problem free experience in your favorite games.
 leap_ovw_title: A brand new way of building openSUSE with a longer lifecycle
 leap_ovw_desc: Leap 16.0 builds on its hybrid approach of combining source from SUSE Linux Enterprise (SLE) with community developments, delivering a level of stability unmatched by other Linux distributions. With a newly <strong>extended support period of 24 months</strong>, Leap gives users, developers, and sysadmins one of the best and most reliable Linux experiences available.
 tumbleweed_ovw_title: State-of-the-art desktop and server operating system
@@ -436,6 +454,59 @@ microos_ovw_title: Micro Service OS providing Transactional (Atomic) Updates upo
 microos_ovw_desc_p1: Designed to host container workloads with automated administration & patching. Installing openSUSE MicroOS you get a quick, small environment for deploying Containers, or any other workload that benefits from Transactional Updates. As rolling release distribution the software is always up-to-date.
 microos_ovw_desc_p2: MicroOS offers an offline image. The main difference between the offline and self-install/raw images are that the offline image has an installer. Raw and self-install allows for customization via combustion or manually in the image after it is written to the disk. There is an option for a real-time kernel.
 microos_ovw_desc_p3: Try MicroOS in VMs running on either <a href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> or KVM. Using a Raspberry Pi or other System on Chip hardware may use the preconfigured image together with the <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> functionality for the boot process. Both preconfigured and self-installed images are intended to be used with  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>  written to a USB, which is driven to allow configuration on any first boot, with the option for default password protected changes.
+slowroll_ovw_title: A stable rolling release distribution positioned between Leap and Tumbleweed
+slowroll_ovw_desc: |
+  Slowroll provides a stable rolling-release experience by combining monthly snapshots of Tumbleweed and in-between updates for bug fixes and security patches.
+
+  It’s designed for users who don’t want the very bleeding edge of openSUSE Tumbleweed, yet don’t want to wait 12 months or more for major updates as with openSUSE Leap.
+
+Slowroll_features:
+  alert:
+    name: "Note: Experimental Phase"
+    description: |
+      Currently Slowroll is still in an experimental phase, therefore you should be mindful of potential issues (especially with third-party repos) until it matures.
+  plant:
+    name: Bandwidth Friendly
+    description: |
+      Slowroll reduces bandwidth consumption by limiting updates to monthly snapshots plus essential patches, making it ideal for users with limited internet access.
+  consistency:
+    name: Tested Snapshot Base
+    description: |
+      By using snapshots of Tumbleweed that have already undergone testing, Slowroll lowers the risk of major regressions compared to truly instantaneous rolling updates.
+  flexibility:
+    name: Modern Software with Stability
+    description: |
+      Get access to more up-to-date packages than in a traditional fixed-release (Leap) while maintaining more conservatism than full rolling. Great for desktops where you want current features but less frequent upheaval.
+  alarm:
+    name: Defined Update Cadence
+    description: |
+      Slowroll uses a predictable update schedule – big updates approximately once a month, plus security/bug‐fix updates as needed. That predictability makes planning easier for users and administrators.
+  rescue:
+    name: Built-in Snapshot Protection
+    description: |
+      Leveraging the underlying openSUSE infrastructure (with Btrfs snapshots, etc.), Slowroll allows you to rollback if something does go wrong — giving extra peace of mind for less frequent but bulkier updates.
+
+kalpa_ovw_title: A KDE Plasma based atomic and immutable desktop experience
+kalpa_ovw_desc: Kalpa is an atomic and immutable Linux desktop from the openSUSE Project that offers the KDE Plasma Desktop Environment, with its desktop derived from Tumbleweed and its base system derived from MicroOS.
+Kalpa_features:
+  idea:
+    name: Immutable Desktop, Simplified
+    description: Kalpa provides a modern immutable desktop experience built on openSUSE MicroOS, designed for users who want a reliable, low-maintenance system with automatic transactional updates.
+  plant:
+    name: Built on MicroOS
+    description: Kalpa is powered by openSUSE MicroOS, using a read-only root filesystem and transactional updates, ensuring system stability and integrity even after major updates.
+  kde:
+    name: KDE Plasma Experience
+    description: Kalpa offers a streamlined KDE desktop tailored for an atomic setup — minimal, clean, and optimized for users who want a modern and consistent interface.
+  tool:
+    name: Reboot-to-Update Simplicity
+    description: Updates are applied automatically in the background and activated upon reboot, reducing downtime and eliminating update interruptions.
+  shield:
+    name: Enhanced Security by Design
+    description: The immutable base system minimizes the attack surface and prevents accidental system damage, making Kalpa a secure choice for everyday computing.
+  consistency:
+    name: Transactional System Integrity
+    description: Every system change is transactional — meaning you can roll back easily if something goes wrong, ensuring consistency across updates and configurations.
 
 preconfigured_base_image: Base Preconfigured Image (raw)
 encrypted_base_image: Base Fully Encrypted Image (raw)
