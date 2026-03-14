@@ -474,3 +474,14 @@ choosing_media_agama_p1: "<a href=\"https://github.com/agama-project/agama\">Aga
   \ È prevista l’introduzione del supporto per l’installazione offline in Agama, mentre
   altri tipi di supporti di installazione, come l’immagine self-install, saranno aggiunti
   successivamente.\n"
+oem_preconfigured_image_gnome: Immagine OEM preconfigurtata con GNOME (raw)
+oem_preconfigured_image_kde: Immagine OEM preconfigurtata con KDE (raw)
+oem_preconfigured_image_desc: Immagini OEM per i fornitori di hardware.
+oem_image_gnome: Immagine OEM auto installante con GNOME (iso)
+oem_image_kde: Immagine OEM auto installante con KDE (iso)
+oem_image_desc: Immagine OEM auto installante
+packages_image_desc: Supporto contenente un repository offline con i pacchetti.
+requirements_cpu_slfo_ppc64le: 'Per ppc64le: POWER9 o superiore'
+requirements_cpu_slfo_s390x: 'Per s390x: z14 o superiore'
+preconfigured_image_desc: Immagine preconfigurata (raw)
+selfinstall_64k_image: Immagine auto installante a 64k (iso)
