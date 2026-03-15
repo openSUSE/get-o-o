@@ -187,8 +187,8 @@ desktop_tumbleweed_p2: Rolujúce vydanie s najnovšími balíkmi poskytovanými
   projektom openSUSE.
 desktop_leap_p1: Pre administrátorov, podnikových vývojárov a 'bežných' 
   používateľov počítačov
-desktop_leap_p2: Normálne vydanie openSUSE s výhodami inžinieringu podnikovej 
-  akosti a inovácií vyvinutých komunitou.
+desktop_leap_p2: Pravidelné vydanie s výhodami inžinieringu podnikovej akosti a 
+  inovácií vyvinutých komunitou.
 server: Serverové distribúcie openSUSE
 server_p1: "Štyri pohodlne nudné distribúcie, ako by to vždy malo byť\n"
 server_tumbleweed_p1: Pre vývojárov, prispievateľov openSUSE, hráčov a nadšencov
@@ -197,8 +197,8 @@ server_tumbleweed_p2: Rolujúce vydanie s najnovšími balíkmi poskytovanými
   projektom openSUSE.
 server_leap_p1: Pre administrátorov, podnikových vývojárov a 'bežných' 
   používateľov serverov
-server_leap_p2: Normálne vydanie openSUSE s výhodami inžinieringu podnikovej 
-  akosti a inovácií vyvinutých komunitou.
+server_leap_p2: Pravidelné vydanie s výhodami inžinieringu podnikovej akosti a 
+  inovácií vyvinutých komunitou.
 server_microos_p1: Pre jednoúčelové serverové aplikácie
 server_microos_p2: Navrhnuté na hosťovanie kontajnerových pracovných úloh s 
   automatizovanou správou a opravami
