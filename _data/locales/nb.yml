@@ -22,8 +22,8 @@ live_images: Live
 vmware_desc: For å kjøre virtuelle maskiner på VMware
 gnome_cd: GNOME LiveCD
 offline_image: Offlinebilde
-network_desc: "Laster ned installasjonssystemet og alle pakker fra pakkebrønner\n
-  på nett. Passer for installasjon eller oppgradering.\n"
+network_desc: "Laster ned installasjonssystemet og alle pakker fra pakkebrønner\n\
+  \ på nett. Passer for installasjon eller oppgradering.\n"
 selfinstalling_images: Selvinstallerende bilder
 kvm_desc: For bruk i KVM eller XEN HVM-hypervisorer
 rescue_cd: Rescue LiveCD
@@ -36,7 +36,8 @@ cloud_minimal_desc: Minimal KVM og Xen-bilde med cloud-init
 xfce_cd: Xfce LiveCD
 kde_cd: KDE LiveCD
 jeos_images: JeOS
-jeos_info: Minimale VM-bilder. For ARM-baserte JeOS-bilder, vennligst gå til <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wikisiden
+jeos_info: Minimale VM-bilder. For ARM-baserte JeOS-bilder, vennligst gå til <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wikisiden
   for ARM</a>
 packages_image_desc: Medium som inneholder en offlinepakkebrønne med pakker.
 openstack_desc: For å kjøre virtuelle maskiner i OpenStack
@@ -60,8 +61,8 @@ choosing_media_p1: "Offline-bildet er oftest anbefalt siden det inneholder meste
   under installasjonen.\n"
 vagrant_image: Vagrant
 signature: Signatur
-offline_desc: "Inkluderer en stor samling av programvare for skrivebord- og serverbruk.\n
-  Passer for installasjon eller oppgradering.\n"
+offline_desc: "Inkluderer en stor samling av programvare for skrivebord- og serverbruk.\n\
+  \ Passer for installasjon eller oppgradering.\n"
 offline_updated_desc: "Offline installasjonsbilde med de siste oppdateringene.\nPasser
   for installasjon eller oppgradering.\n"
 network_image: Nettverksbilde
@@ -69,8 +70,9 @@ selfinstalling_ch_image: Selvinstallerende kontainervert
 selfinstalling_k3s_image: Selvinstallerende k3s-vert
 xen_image: XEN
 encrypted_image: Helkryptert diskbilde (rå)
-minimal_vm_info: Ligner på SUSE Linux Enterprise Server Minimal-VM-bildene. For ARM-baserte
-  JeOS-bilder, vennligst gå til <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wikisiden
+minimal_vm_info: Ligner på SUSE Linux Enterprise Server Minimal-VM-bildene. For 
+  ARM-baserte JeOS-bilder, vennligst gå til <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">wikisiden
   for ARM</a>
 hardware_images: Maskinvare
 live_info: "Vennligst bemerk deg de følgende begrensninger av live-bildene:\n* De
@@ -82,13 +84,14 @@ live_info: "Vennligst bemerk deg de følgende begrensninger av live-bildene:\n* 
 pine_ch_image: Pine64-kontainervert
 openstack_ch_image: OpenStack-Cloud-kontainervert
 vm_images: Virtuell maskin
-microos_desc: Operativsystem basert på openSUSE Tumbleweed som tilbyr transaksjonelle
-  (atomiske) oppdateringer på et skrivebeskyttet btrfs-rotfilsystem
+microos_desc: Operativsystem basert på openSUSE Tumbleweed som tilbyr 
+  transaksjonelle (atomiske) oppdateringer på et skrivebeskyttet 
+  btrfs-rotfilsystem
 choosing_media: Velg hvilket medium til å laste ned
-leap_16_coming_soon: "Offentlig lansering av Leap 16.0, en etterfølger til Leap 15.6,
-  kan bli forventet i høst 2025. Det er ingen planer om å lage Leap 15.7.<br/>\nSjekk
-  ofte for oppdateringer på vår <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
-  >roadmap</a> og <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
+leap_16_coming_soon: "Den offentlige lanseringen av Leap 16.0, en etterfølger til
+  Leap 15.6, kan bli forventet i høst 2025. Det er ingen planer om å lage Leap 15.7.<br/>\n\
+  Sjekk ofte for oppdateringer på vår <a href=\"https://en.opensuse.org/openSUSE:Roadmap\"\
+  >roadmap</a> og på <a href=\"https://news.opensuse.org/tag/leap\">news.opensuse.org</a>
   for mer informasjon.\n"
 iso_image: ISO-bilde
 xen_desc: For bruk i XEN PV-hypervisorer
@@ -105,14 +108,14 @@ rpi_ch_image: RaspberryPi-kontainervert
 pine_image: Pine64
 choosing_media_micro_p1: "Det nye selvinstallerende bildet er anbefalt for USB eller
   DVD-baserte installasjoner.\nEn enkel selvinstallasjonsveiviser dumper en ferdigkonfigurert
-  bilde til disken, og øker partisjonens størrelse til størrelsen av disken.\n<br>\n
-  Brukere med Raspberry Pi og lignende uten støtte for USB-oppstart kan skrive det
+  bilde til disken, og øker partisjonens størrelse til størrelsen av disken.\n<br>\n\
+  \ Brukere med Raspberry Pi og lignende uten støtte for USB-oppstart kan skrive det
   ferdigkonfigurerte bildet til SD-kortet.\nBrukere som ønsker mer kontroll over implementering
   er anbefalt til å bruke <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustion</a>.\n<br>\nEn demonstrasjon av en Combustion-basert implementasjon
-  kan bli sett <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">her</a>.\n
-  <br>\njeos-firstboot vil bli vist til de som ikke konfigurerte systemet deres med
-  Combustion.\n"
+  kan bli sett <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">her</a>.\n\
+  \ <br>\njeos-firstboot vil bli vist til de som ikke konfigurerte systemet deres
+  med Combustion.\n"
 requirements_hdd_desc: Over 40 GB av ledig plass på disken
 requirements_hdd: Lagring
 requirements: Systemkrav
@@ -134,12 +137,123 @@ documentation_license: Lisens
 requirements_mem_desc: $value fysisk RAM + ekstra minne for dine arbeidsoppgaver
 requirements_hdd_var: /var-partisjon
 requirements_hdd_size_desc: $value tilgjengelig lagringsplass
-requirements_hdd_swap_info: swaprom deaktivert for at Kubernetes skal fungere riktig
+requirements_hdd_swap_info: swaprom deaktivert for at Kubernetes skal fungere 
+  riktig
 requirements_hdd_root: / (root) partisjon
 documentation: Dokumentasjon
 leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
 leap_switch_instructions: Instruksjoner for oppgradering fra nett.
 leap_switch_p1: "Hvis du allerede bruker openSUSE, kan du oppgradere med å starte
-  fra\nDVD/USB-en og velge Oppgrader, eller kjøre en \"Online-oppdatering\" med\n
-  noen få kommandoer.\n"
+  fra\nDVD/USB-en og velge Oppgrader, eller kjøre en \"Online-oppdatering\" med\n\
+  \ noen få kommandoer.\n"
 requirements_hdd_ssd_info: SSD med høy skrivehastighet
+oem_images_info: Begge valg installerer det samme systembildet.<br>Bruk 
+  RAW-filen med manuelle verktøy (f.eks. dd), eller bruk den kjørbare 
+  selvinstallasjonsbildet (ISO-filen) for en veiledet utrulling.
+oem_preconfigured_image_gnome: Forhåndskonfigurert systembilde med 
+  GNOME-skrivebordet for OEM-er (raw)
+oem_preconfigured_image_kde: Forhåndskonfigurert systembilde med 
+  KDE-skrivebordet for OEM-er (raw)
+oem_preconfigured_image_desc: OEM-systembilder for leverandører.
+choosing_media_p2: |
+  Nettverkbildet er anbefalt for brukere med begrenset
+  båndbredde på sine nettverk, siden den kommer kun
+  til å laste ned de pakkene som brukeren ønsker,
+  som mest sannsynlig kommer til å være mye mindre enn 4.7 GB.
+requirements_dvd_desc: Enten en DVD-spiller eller en USB-inngang for 
+  installasjonsmediet
+requirements_net: Nettverk
+requirements_net_desc: Tilgang til Internett er nyttig, og påkrevd for 
+  Nettverksbildet
+requirements_net_mac: Unike vertsnavn og MAC-adresser for hver node
+tw_switch: Enkle måter å bytte til openSUSE Tumbleweed
+tw_switch_instructions: Instruksjoner for oppgradering.
+upgrade_table_linux: Fra en eldre versjon eller en annen Linux-distribusjon
+upgrade_table_windows: Fra Windows
+upgrade_table_mac: Fra macOS
+upgrade_table_linux_dvd: Hvordan brenne en DVD på Linux.
+upgrade_table_windows_dvd: Hvordan brenne en DVD på Windows.
+upgrade_table_mac_dvd: Hvordan brenne en DVD på macOS.
+upgrade_table_linux_usb: Hvordan lage en oppstartbar minnepenn på Linux.
+verify_download: Verifiser nedlastingen før du bruker den
+verify_download_p1: |
+  Det finnes mange applikasjoner som kan verifisere sjekksunmen av en nedlastning.
+  Å verifisere nedlastingen er viktig ettersom at det
+  bekrefter at du har fått ISO-filen du ønsket
+  og ikke en ødelagt fil.
+verify_download_p2: |
+  Vi tilbyr en sjekksumsfil med SHA-256-summen og en signaturfil med en kryptografisk signatur for hver ISO-bilde.
+verify_download_p3: |
+  For å sikre integriteten til den nedlastede filen kan du bruke sha256sum for å verifisere sjekksummen og gpgv for å verifisere filens kryptografiske signatur.
+verify_download_pubkey: Det bør være
+verify_download_help: Hvis du trenger mer hjelp med å verifisere nedlastingen, 
+  les
+verify_download_checksums_help: Hjelp til sjekksummer
+desktops: Mange skrivebord, tre som standard
+installation: Installer det slik du ønsker
+points_transparent: Alt kan gjennomskues
+points_free: Fri programvare? Ditt valg
+points_welcoming: Bidrag er velkomne
+snapper: Gikk systemet korrupt? Ikke et problem nå lenger
+software: Å få tak i programvare kunne ikke blitt enklere
+software_get: Skaff programvare
+yast: YaST, det beste valget for ~~ekspert~~brukeren
+yast_firewall: Brannmur
+yast_fonts: Skrifttyper
+yast_hardware: Maskinvare
+yast_printer: Skriver
+yast_scanner: Skanner
+yast_sound: Lyd
+yast_software: Programvare
+zypper: Pakkebehandleren Zypper, din nye favoritt
+index: openSUSE-distribusjoner
+index_desktop: Skrivebord
+index_desktop_p1: Et utvalg av distribusjoner for skrivebordsbruk
+index_server: Server
+index_server_p1: Et utvalg av distribusjoner ment for serverbruk
+index_full: Eller gå rett til sidene for nedlastning av distribusjonene
+desktop: openSUSE-skrivebordsdistrubusjoner
+desktop_p1: |
+  De to distribusjonene som hersker dem alle (nå i grønt!)
+desktop_leap_p1: For systemadministratorer, bedriftsutviklere og vanlige 
+  skrivebordsbrukere
+server_p1: |
+  Fire komfortable og kjedelige distribusjoner, slik det alltid bør være
+server_leap_p1: For systemadministratorer, bedriftsutviklere og "vanlige" 
+  serverbrukere
+server_microos_p1: For serverapplikasjoner med ett enkelt behov
+server_microos_p2: Skapet for å kjøre kontainer-baserte løsninger med automatisk
+  administrasjon og patching
+server_leapmicro_p2: Ekstremt pålitelig og lettvektig operativsystem laget for 
+  kontaineriserte og virtualiserte tjenester.
+new_version_available: $distro_name er nå tilgjengelig for nedlasting
+new_version_testing: $distro_name er nå tilgjengelig for nedlasting og testing
+view_distro: Se $distro_name
+overview: Oversikt
+download: Last ned
+alternative_downloads: Alternative nedlastinger
+alternative_downloads_desc: Vi har også bilder for $options. Sjekk 
+  $alternative_downloads!
+MicroOS_features:
+  idea:
+    name: Filosofi
+  update:
+    name: Atomiske oppdateringer
+  key:
+    name: Trygge oppdateringer
+Tumbleweed_features:
+  update:
+    description: |
+      Du installerer det kun en gang, så kan du nyte det for alltid.
+      Du trenger ikke lenger å bekymre deg hver 6. måned om massive oppdateringer som risikerer å ødelegge systemet ditt.
+  home:
+    name: Stabilt
+  user:
+    name: Enkel å bruke
+  cpu:
+    name: Fungerer godt med din maskinvare
+  key:
+    name: Trygt
+  power:
+    name: Kraftig
+tumbleweed_ovw_title: Et ledende operativsystem for skrivebord og servere
