@@ -1,4 +1,9 @@
 ---
+- version: 16.1
+  order: 11
+  releases:
+  - date: '2026-01-01 12:00:00 UTC'
+    state: 'Alpha'
 - version: 16.0
   order: 10
   releases:
