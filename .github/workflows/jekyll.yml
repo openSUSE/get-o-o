@@ -1,4 +1,4 @@
-name: Jekyll site CI
+name: Jekyll site CI - build only
 
 on:
   push:
@@ -10,17 +10,17 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: opensuse/leap:16.0
 
     steps:
-    - uses: actions/checkout@v3
-    - uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.1'
-        bundler-cache: true
+    - name: Install system dependencies
+      run: zypper -n install gcc-c++ git-core make ruby-devel 'rubygem(bundler)'
 
-    - name: Prepare image sizes
-      run: bundler exec rake
+    - uses: actions/checkout@v6
 
+    - name: Install random dependencies
+      run: bundle install
 
-    - name: Run build
-      run: bundler exec jekyll build --future
+    - name: Build site
+      run: jekyll build --future

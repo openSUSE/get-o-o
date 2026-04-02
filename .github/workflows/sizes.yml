@@ -1,4 +1,4 @@
-name: Sizes CI
+name: Jekyll site CI - build and test
 
 on:
   push:
@@ -10,11 +10,20 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
+    container:
+      image: opensuse/leap:16.0
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build the site in the jekyll/builder container
-      run: |
-        docker run \
-        -v ${{ github.workspace }}:/srv/jekyll \
-        jekyll/builder:latest /bin/bash -c "chmod a+w /srv/jekyll/Gemfile.lock && chmod 777 /srv/jekyll && bundler install && rake test"
+    - name: Install system dependencies
+      run: zypper -n install gcc-c++ git-core make ruby-devel 'rubygem(bundler)'
+
+    - uses: actions/checkout@v6
+
+    - name: Install random dependencies
+      run: bundle install
+
+    - name: Build site
+      run: jekyll build --future
+
+    - name: Run tests
+      run: rake test
