@@ -443,7 +443,7 @@ microos_ovw_desc_p1: Navrhnutý na hosťovanie kontajnerových pracovných záť
   automatizovanou administráciou a opravami. Inštaláciou openSUSE MicroOS 
   získate rýchle, malé prostredie na nasadenie kontajnerov alebo akéhokoľvek 
   iného pracovného zaťaženia, ktoré využíva výhody transakčných aktualizácií. 
-  Vzhľadom na distribúciu s rolujúcim vydaním je softvér vždy aktuálny.
+  Ako distribúcia s rolujúcim vydaním je softvér vždy aktuálny.
 microos_ovw_desc_p2: MicroOS ponúka offline obraz. Hlavný rozdiel medzi offline 
   a samoinštalačnými/surovými obrazmi je ten, že offline obraz má inštalátor. 
   Surový a samoinštalačný umožňuje prispôsobenie cez combustion alebo ručne v 
