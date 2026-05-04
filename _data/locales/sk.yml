@@ -507,3 +507,4 @@ preconfigured_64k_image: Predkonfigurovaný 64k obraz (raw)
 encrypted_64k_image: Plne šifrovaný 64k obraz (raw)
 selfinstall_64k_image: Samoinštalačný 64k obraz (iso)
 selfinstall_encrypted_64k_image: Plne šifrovaný samoinštalačný 64k obraz (iso)
+harvester_cloud_image: Obraz Harvester a Cloud
