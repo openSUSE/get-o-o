@@ -192,7 +192,7 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.sha256"
       - name: signature
         url: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-VMware.vmdk.sha256.asc"
-    - name: cloud_image
+    - name: harvester_cloud_image
       short: cloud_minimal_desc
       primary_link: "/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.x86_64-Cloud.qcow2"
       links:
@@ -230,7 +230,7 @@ downloads:
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256"
       - name: signature
         url: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256.asc"
-    - name: cloud_image
+    - name: harvester_cloud_image
       short: cloud_minimal_desc
       primary_link: "/ports/aarch64/tumbleweed/appliances/openSUSE-Tumbleweed-Minimal-VM.aarch64-Cloud.qcow2"
       links:
