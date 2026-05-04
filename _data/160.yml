@@ -169,7 +169,7 @@ downloads:
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-VMware.vmdk.sha256"
       - name: signature
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-VMware.vmdk.sha256.asc"
-    - name: cloud_image
+    - name: harvester_cloud_image
       short: cloud_minimal_desc
       primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-Cloud.qcow2"
       links:
@@ -212,7 +212,7 @@ downloads:
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha256"
       - name: signature
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha256.asc"
-    - name: cloud_image
+    - name: harvester_cloud_image
       short: cloud_minimal_desc
       primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-Cloud.qcow2"
       links:
