@@ -85,6 +85,7 @@ live_images: Live
 vm_images: Virtual Machine
 cloud_images: Cloud
 cloud_image: Cloud image
+harvester_cloud_image: Harvester and Cloud image
 cloud_minimal_desc: Minimal KVM and Xen image with cloud-init
 hardware_images: Hardware
 gnome_cd: GNOME LiveCD

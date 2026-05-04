@@ -169,6 +169,14 @@ downloads:
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-VMware.vmdk.sha256"
       - name: signature
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-VMware.vmdk.sha256.asc"
+    - name: harvester_cloud_image
+      short: cloud_minimal_desc
+      primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-Cloud.qcow2"
+      links:
+      - name: checksum
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-Cloud.qcow2.sha256.asc"
 
   - name: server_aarch64
     types:
@@ -204,6 +212,15 @@ downloads:
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha256"
       - name: signature
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha256.asc"
+    - name: harvester_cloud_image
+      short: cloud_minimal_desc
+      primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-Cloud.qcow2"
+      links:
+      - name: checksum
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-Cloud.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-Cloud.qcow2.sha256.asc"
+
 
   - name: ppc64le
     types:
