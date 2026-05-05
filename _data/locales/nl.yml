@@ -190,7 +190,7 @@ leap_switch_instructions: Instructies voor online upgrade.
 requirements_min: Minimum
 requirements_mem_desc: $value fysiek RAM + extra geheugen voor uw werklast
 requirements_rec: Aanbevolen
-requirements_cpu_desc: Dubbele processorkern 2 GHz of beter
+requirements_cpu_desc: Dubbele processorkernen van 2 GHz of beter
 requirements_hdd: Opslag
 requirements_hdd_desc: Meer dan 40 GB vrije schijfruimte
 requirements_hdd_root: / (root) partitie
@@ -511,3 +511,4 @@ encrypted_64k_image: Volledig versleutelde 64k image (raw)
 selfinstall_64k_image: Zelf installerende 64k image (iso)
 selfinstall_encrypted_64k_image: Volledig versleutelde zelf installerende 64k 
   image (iso)
+harvester_cloud_image: Oogsten en cloud-image
