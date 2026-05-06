@@ -505,3 +505,4 @@ encrypted_64k_image: Helt krypterad 64k-avbild (rå)
 selfinstall_64k_image: Självinstallerad 64k-avbild (iso)
 selfinstall_encrypted_64k_image: Helt krypterad självinstallerad 64k-avbild 
   (iso)
+harvester_cloud_image: Harvester och molnavbilder
