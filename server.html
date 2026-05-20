@@ -7,10 +7,10 @@ permalink: /server/
   <h1 class="display-3">{{ locale.server }}</h1>
   <p class="lead">{{ locale.server_p1 }}</p>
 </div>
-<div class="container-fluid bg-wallpaper text-white">
+<div class="bg-wallpaper text-white">
   <div class="container">
     <div class="row">
-      <div class="col-md-6 py-2 px-5 py-md-5 bg-tumbleweed-tint">
+      <div class="col-md-4 py-2 px-5 py-md-5 bg-tumbleweed-tint">
         <div class="row h-100">
           <div class="col-auto">
             <div class="distribution-logo">
@@ -28,7 +28,25 @@ permalink: /server/
           </div>
         </div>
       </div>
-      <div class="col-md-6 py-2 px-5 py-md-5 bg-leap-tint">
+      <div class="col-md-4 py-2 px-5 py-md-5 bg-slowroll-tint">
+        <div class="row h-100">
+          <div class="col-auto">
+            <div class="distribution-logo">
+            {% include logos/slowroll.svg %}
+            </div>
+          </div>
+          <div class="col d-flex flex-column">
+            <div class="mb-md-auto">
+              <h2>Slowroll</h2>
+              <h6>{{ locale.server_slowroll_p1 }}</h6>
+              <p>{{ locale.server_slowroll_p2 }}</p>
+            </div>
+            <a href="{{ '/slowroll/?type=server' | prefix_locale }}" class="btn btn-light mb-2">{{ locale.learn_more }}</a>
+            <a href="{{ '/slowroll/?type=server#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-2 px-5 py-md-5 bg-leap-tint">
         <div class="row h-100">
           <div class="col-auto">
             <div class="distribution-logo">
@@ -47,6 +65,9 @@ permalink: /server/
             <a href="{{ '/leap/' | append: leap_version | append: '/?type=server#download' | prefix_locale }}" class="btn btn-light">{{ locale.download }}</a>
           </div>
         </div>
+      </div>
+      <div class="col-12 text-center pt-3">
+        <h2 class="font-weight-bold">{{ locale.immutable_distributions }}</h2>
       </div>
       <div class="col-md-6 py-2 px-5 py-md-5 bg-microos-tint">
         <div class="row h-100">
