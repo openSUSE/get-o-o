@@ -89,7 +89,7 @@ vmware_ch_image: VMware Container Host
 vmware_vmx_image: VMware VMX
 vmware_vmx_ch_image: VMware VMX Container Host
 vagrant_image: Vagrant
-vagrant_ch_image: Vagrant Container Host
+vagrant_ch_image: Vagrant Container-host
 rpi_image: RaspberryPi
 rpi_ch_image: RaspberryPi Container Host
 pine_image: Pine64
@@ -519,3 +519,4 @@ MicroOS_features:
       * Rodfilsystemet er tilgængeligt under /media/root
       * Brug zypper til at installere de nødvendige værktøjer; tilgængelige uden genstart
       * Persistent mellem brug
+harvester_cloud_image: Harvester og cloud-aftryk
