@@ -265,8 +265,8 @@ MicroOS_features:
   shield:
     name: Retour en arrière
     description: "### MicroOS est un système d'exploitation immuable, le retour en
-      arrière est simple.\n* Immuable : Pas de changement sur le disque\n* Restauration
-      d'un ancien snapshot BTRFS en redémarrant.\n"
+      arrière est simple.\n* Immuable : pas de changement sur le disque\n* Restauration
+      par redémarrage vers un ancien instantané BTRFS.\n"
   work:
     description: "Les applications sont installées dans des conteneurs plutôt que
       dans le système de fichiers racine :\n* Isolation du système de fichiers principal\n\
@@ -533,3 +533,5 @@ oem_preconfigured_image_gnome: Image OEM préconfigurée avec GNOME (brute)
 oem_preconfigured_image_kde: Image OEM préconfigurée avec KDE (brute)
 oem_image_gnome: Image OEM auto-installable avec GNOME (iso)
 oem_image_kde: Image OEM auto-installable avec KDE (iso)
+harvester_cloud_image: Image Harvester et Cloud
+encrypted_rt_image: Image RealTime entièrement cryptée (raw)
