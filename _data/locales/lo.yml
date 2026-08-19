@@ -1,1 +1,506 @@
-{}
+site_title: ດາວໂຫຼດ openSUSE
+site_title_short: ດາວໂຫຼດ
+site_description: ຮຽນຮູ້ກ່ຽວກັບເວີຊັນຕ່າງໆຂອງ openSUSE ແລະ ດາວໂຫຼດໄດ້ຟຣີ
+site_copyright: © 2025 ຜູ້ຮ່ວມພັດທະນາ openSUSE
+search: ຄົ້ນຫາ
+translate: ແປພາສາ
+source_code: ຊອດໂຄ້ດ
+license: ໃບອະນຸຍາດ
+learn_more: ຮຽນຮູ້ເພີ່ມເຕີມ
+leap_16_coming_soon: |
+  ການເປີດຕົວ Leap 16.0 ຢ່າງເປັນທາງການ, ເຊິ່ງເປັນລຸ້ນຕໍ່ຈາກ Leap 15.6, ຄາດວ່າຈະມີຂຶ້ນໃນລະດູໃບໄມ້ຫຼົ່ນ ປີ 2025. ບໍ່ມີແຜນທີ່ຈະສ້າງ Leap 15.7.<br/>
+  ກວດເບິ່ງການອັບເດດໄດ້ເປັນປະຈຳທີ່ <a href="https://en.opensuse.org/openSUSE:Roadmap">ແຜນການດຳເນີນງານ</a> ແລະ <a href="https://news.opensuse.org/tag/leap">news.opensuse.org</a> ສຳລັບຂໍ້ມູນເພີ່ມເຕີມ.
+cd_desc: ສຳລັບ CD ແລະ USB stick
+dvd_desc: ສຳລັບ DVD ແລະ USB stick
+usb_desc: ສຳລັບ USB stick
+metalink: Metalink
+pick_mirror: ເລືອກແມ່ຂ່າຍດາວໂຫຼດ (Mirror)
+checksum: ຄ່າກວດສອບ (Checksum)
+signature: ລາຍເຊັນ
+torrent_file: ໄຟລ໌ Torrent
+offline_updated_image: ຮູບແບບຕິດຕັ້ງແບບອອບລາຍ (ມີການອັບເດດແລ້ວ)
+offline_image: ຮູບແບບຕິດຕັ້ງແບບອອບລາຍ
+iso_image: ຮູບແບບ ISO
+offline_desc: |
+  ລວມມີຊອບແວຈຳນວນຫຼາຍສຳລັບຄອມພິວເຕີຕັ້ງໂຕະ ຫຼື ເຊີເວີ.
+  ເໝາະສຳລັບການຕິດຕັ້ງ ຫຼື ອັບເກຣດ.
+offline_updated_desc: |
+  ຮູບແບບຕິດຕັ້ງແບບອອບລາຍ ທີ່ມີການອັບເດດຫຼ້າສຸດ.
+  ເໝາະສຳລັບການຕິດຕັ້ງ ຫຼື ອັບເກຣດ.
+oem_images: ຮູບແບບ OEM ສຳລັບຜູ້ຜະລິດຮາດແວ.
+oem_images_info: 'ທັງສອງຕົວເລືອກຈະຕິດຕັ້ງລະບົບຄືກັນ.<br>ໃຊ້ໄຟລ໌ RAW ກັບເຄື່ອງມືຕ່າງໆ
+  (ເຊັ່ນ: dd), ຫຼື ໃຊ້ ISO ທີ່ຕິດຕັ້ງເອງໄດ້ ເພື່ອຄວາມສະດວກ.'
+oem_preconfigured_image_gnome: ຮູບແບບ OEM ທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ ພ້ອມ GNOME (raw)
+oem_preconfigured_image_kde: ຮູບແບບ OEM ທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ ພ້ອມ KDE (raw)
+oem_preconfigured_image_desc: ຮູບແບບ OEM ສຳລັບຜູ້ຜະລິດຮາດແວ.
+oem_image_gnome: ຮູບແບບ OEM ຕິດຕັ້ງເອງອັດຕະໂນມັດ ພ້ອມ GNOME (iso)
+oem_image_kde: ຮູບແບບ OEM ຕິດຕັ້ງເອງອັດຕະໂນມັດ ພ້ອມ KDE (iso)
+oem_image_desc: ຮູບແບບ OEM ຕິດຕັ້ງເອງອັດຕະໂນມັດ
+network_image: ຮູບແບບຕິດຕັ້ງຜ່ານເຄືອຂ່າຍ
+network_desc: |
+  ດາວໂຫຼດລະບົບຕິດຕັ້ງ ແລະ ແພັກເກດທັງໝົດຈາກຄັງເກັບຊອບແວອອນລາຍ.
+  ເໝາະສຳລັບການຕິດຕັ້ງ ຫຼື ອັບເກຣດ.
+selfinstalling_images: ຮູບແບບຕິດຕັ້ງເອງອັດຕະໂນມັດ
+selfinstalling_ch_image: Container Host ຕິດຕັ້ງເອງອັດຕະໂນມັດ
+selfinstalling_k3s_image: k3s Host ຕິດຕັ້ງເອງອັດຕະໂນມັດ
+encrypted_image: ຮູບແບບດິດທີ່ເຂົ້າລະຫັດທັງໝົດ (raw)
+kvm_image: ຮູບແບບສຳລັບ KVM ແລະ XEN
+kvm_sdboot_image: ຮູບແບບ KVM ພ້ອມ systemd-boot
+kvm_ch_image: KVM ແລະ XEN Container Host
+kvm_desc: ສຳລັບໃຊ້ໃນ KVM ຫຼື XEN HVM hypervisors
+xen_image: XEN
+xen_desc: ສຳລັບໃຊ້ໃນ XEN PV hypervisors
+hyperv_image: ຮູບແບບ MS HyperV
+hyperv_ch_image: MS HyperV Container Host
+hyperv_desc: ສຳລັບໃຊ້ງານ Virtual Machines ເທິງ MS HyperV
+vmware_image: ຮູບແບບ VMware
+vmware_ch_image: VMware Container Host
+vmware_desc: ສຳລັບໃຊ້ງານ Virtual Machines ໃນ VMware
+vmware_vmx_image: VMware VMX
+vmware_vmx_ch_image: VMware VMX Container Host
+vagrant_image: Vagrant
+vagrant_ch_image: Vagrant Container Host
+rpi_image: RaspberryPi
+rpi_ch_image: RaspberryPi Container Host
+pine_image: Pine64
+pine_ch_image: Pine64 Container Host
+packages_image: ຮູບແບບລວມແພັກເກດ
+packages_image_desc: ສື່ທີ່ບັນຈຸຄັງເກັບແພັກເກດແບບອອບລາຍ.
+openstack_image: OpenStack-Cloud
+openstack_ch_image: OpenStack-Cloud Container Host
+openstack_desc: ສຳລັບໃຊ້ງານ Virtual Machines ໃນ OpenStack
+virtualbox_image: VirtualBox
+installation_images: ການຕິດຕັ້ງ
+ports_images: ເວີຊັນສຳລັບສະຖາປັດຕະຍະກຳອື່ນໆ (Ports)
+ports_info: |
+  openSUSE Leap ເວີຊັນສຳລັບສະຖາປັດຕະຍະກຳອື່ນໆ ນອກຈາກ PC ແມ່ນ
+  ດູແລໂດຍທີມງານຊຸມຊົນແຍກຕ່າງຫາກ ດ້ວຍຊັບພະຍາກອນທີ່ຈຳກັດ.
+jeos_images: JeOS
+jeos_info: ຮູບແບບ VM ຂະໜາດນ້ອຍທີ່ສຸດ. ສຳລັບຮູບແບບ Arm JeOS, ກະລຸນາເຂົ້າໄປທີ່ <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">ໜ້າ Wiki
+  ຂອງ Arm</a>
+minimal_vm_images: Virtual Machine ຂະໜາດນ້ອຍທີ່ສຸດ
+minimal_vm_info: ຄ້າຍຄືກັບຮູບແບບ Minimal-VM ຂອງ SUSE Linux Enterprise Server. 
+  ສຳລັບຮູບແບບ Arm JeOS, ກະລຸນາເຂົ້າໄປທີ່ <a 
+  href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">ໜ້າ Wiki
+  ຂອງ Arm</a>
+server_aarch64: ເຊີເວີ ແລະ ບອດ UEFI Arm 64-ບິດ (aarch64)
+server_x86_64: ເຊີເວີ Intel ຫຼື AMD 64-ບິດ (x86_64)
+live_images: Live
+vm_images: Virtual Machine
+cloud_images: ຄລາວ (Cloud)
+cloud_image: ຮູບແບບຄລາວ
+harvester_cloud_image: ຮູບແບບ Harvester ແລະ ຄລາວ
+cloud_minimal_desc: ຮູບແບບ KVM ແລະ Xen ຂະໜາດນ້ອຍ ພ້ອມ cloud-init
+hardware_images: ຮາດແວ
+gnome_cd: GNOME LiveCD
+kde_cd: KDE LiveCD
+xfce_cd: Xfce LiveCD
+rescue_cd: LiveCD ສຳລັບກູ້ຄືນລະບົບ
+live_info: |
+  ກະລຸນາຮັບຊາບກ່ຽວກັບຂໍ້ຈຳກັດຂອງຮູບແບບ Live ດັ່ງນີ້:
+  * ບໍ່ຄວນໃຊ້ເພື່ອຕິດຕັ້ງ ຫຼື ອັບເກຣດ. ກະລຸນາໃຊ້ສື່ສຳລັບຕິດຕັ້ງໂດຍສະເພາະແທນ
+  * ມີແພັກເກດ ແລະ ໄດເວີທີ່ຈຳກັດ, ຈຶ່ງອາດຈະບໍ່ສາມາດທົດສອບໄດ້ຢ່າງເຕັມທີ່ວ່າຈະໃຊ້ກັບຮາດແວຂອງທ່ານໄດ້ຫຼືບໍ່
+  * ບໍ່ສາມາດອັບເດດ Kernel ແລະ initrd ໄດ້, ຈຶ່ງບໍ່ຄວນໃຊ້ເປັນການຕິດຕັ້ງແບບຖາວອນ
+microos_desc: ລະບົບປະຕິບັດການທີ່ພັດທະນາຈາກ openSUSE Tumbleweed 
+  ທີ່ຮອງຮັບການອັບເດດແບບ Transactional (Atomic) ເທິງລະບົບໄຟລ໌ btrfs 
+  ແບບອ່ານຢ່າງດຽວ
+choosing_media: ການເລືອກສື່ທີ່ຈະດາວໂຫຼດ
+choosing_media_p1: |
+  ແນະນຳໃຫ້ໃຊ້ຮູບແບບ Offline Image ເພາະລວມມີແພັກເກດສ່ວນໃຫຍ່
+  ທີ່ມີໃນເວີຊັນນັ້ນ ແລະ ບໍ່ຈຳເປັນຕ້ອງເຊື່ອມຕໍ່ອິນເຕີເນັດ
+  ໃນລະຫວ່າງການຕິດຕັ້ງ.
+choosing_media_agama_p1: |
+  <a href="https://github.com/agama-project/agama">Agama</a> ແມ່ນຕົວຕິດຕັ້ງໃໝ່ທີ່ສາມາດໃຊ້ຕິດຕັ້ງ Leap 16 ແລະ Tumbleweed.
+  ມີແຜນທີ່ຈະຮອງຮັບການຕິດຕັ້ງແບບອອບລາຍໃນ Agama. ສື່ຕິດຕັ້ງອື່ນໆ ເຊັ່ນ ຮູບແບບຕິດຕັ້ງເອງອັດຕະໂນມັດ ຈະຖືກເພີ່ມເຂົ້າມາພາຍຫຼັງ.
+choosing_media_micro_p1: |
+  ຮູບແບບຕິດຕັ້ງເອງອັດຕະໂນມັດໃໝ່ ແມ່ນຕົວເລືອກຫຼັກສຳລັບການຕິດຕັ້ງຜ່ານ USB ຫຼື DVD.
+  ຕົວຊ່ວຍຕິດຕັ້ງຈະນຳເອົາຮູບແບບທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າລົງໃນໄດຣຟ໌ ແລະ ຂະຫຍາຍພື້ນທີ່ພາທິຊັນໃຫ້ເຕັມຂະໜາດຂອງດິດ.
+  <br>
+  ຜູ້ໃຊ້ Raspberry Pi ຫຼື ອຸປະກອນທີ່ບໍ່ຮອງຮັບ usb-boot ສາມາດຂຽນຮູບແບບທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າລົງໃນ SD card ໄດ້ໂດຍກົງ.
+  ຜູ້ໃຊ້ທີ່ຕ້ອງການຄວບຄຸມການຕິດຕັ້ງຫຼາຍຂຶ້ນ ແນະນຳໃຫ້ໃຊ້ <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+  <br>
+  ສາມາດເບິ່ງຕົວຢ່າງການຕິດຕັ້ງດ້ວຍ combustion ໄດ້ <a href="https://www.youtube.com/watch?v=ANh5FHZDOxo">ທີ່ນີ້</a>.
+  <br>
+  jeos-firstboot ຈະສະແດງຂຶ້ນສຳລັບຜູ້ທີ່ບໍ່ໄດ້ຕັ້ງຄ່າລະບົບດ້ວຍ Combustion.
+choosing_media_p2: |
+  ແນະນຳ Network Image ສຳລັບຜູ້ທີ່ມີຄວາມໄວອິນເຕີເນັດຈຳກັດ
+  ເພາະມັນຈະດາວໂຫຼດສະເພາະແພັກເກດທີ່ທ່ານເລືອກຕິດຕັ້ງ,
+  ເຊິ່ງມັກຈະມີຂະໜາດໜ້ອຍກວ່າ 4.7GB ຫຼາຍ.
+choosing_media_micro_p2: |
+  Leap Micro ບໍ່ມີຕົວຕິດຕັ້ງແບບເກົ່າອີກຕໍ່ໄປ, ຜູ້ໃຊ້ຄວນໃຊ້ສື່ຕິດຕັ້ງແບບ Self-install ແທນ.
+  Packages Image ໃໝ່ ແມ່ນພຽງແຕ່ຄັງເກັບແພັກເກດ rpm ຂອງ Leap Micro ແບບອອບລາຍ ສຳລັບຜູ້ທີ່ຢູ່ໃນສະພາບແວດລ້ອມທີ່ບໍ່ມີອິນເຕີເນັດ.
+documentation: ເອກະສານແນະນຳ
+documentation_startup_guide: ຄູ່ມືການເລີ່ມຕົ້ນ openSUSE
+documentation_release_notes: ຂໍ້ມູນການປ່ອຍເວີຊັນ
+documentation_license: ໃບອະນຸຍາດ
+documentation_license_link: https://en.opensuse.org/openSUSE:License
+documentation_full_documentation: ເອກະສານແນະນຳທັງໝົດ
+leap_switch: ວິທີງ່າຍໆໃນການປ່ຽນມາໃຊ້ openSUSE Leap
+leap_switch_p1: |
+  ຖ້າທ່ານກຳລັງໃຊ້ openSUSE ຢູ່ແລ້ວ, ທ່ານສາມາດອັບເກຣດໄດ້ໂດຍການບູດຈາກ
+  DVD/USB ແລ້ວເລືອກ upgrade, ຫຼື ໃຊ້ວິທີ ‘Online Upgrade’ 
+  ດ້ວຍຄຳສັ່ງພຽງບໍ່ເທົ່າໃດ.
+leap_switch_instructions: ຄຳແນະນຳການອັບເກຣດອອນລາຍ.
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements: ຄວາມຕ້ອງການຂອງລະບົບ
+requirements_min: ຂັ້ນຕ່ຳ
+requirements_rec: ແນະນຳ
+requirements_cpu: CPU
+requirements_cpu_desc: ໂປຣເຊດເຊີ dual core 2 ghz ຫຼື ສູງກວ່າ
+requirements_cpu_slfo_x86_64: 'ສຳລັບ x86_64: ລະດັບ microarchitecture x86-64-v2 ຫຼື
+  ສູງກວ່າ'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'ສຳລັບ ppc64le: POWER9 ຫຼື ສູງກວ່າ'
+requirements_cpu_slfo_s390x: 'ສຳລັບ s390x: z14 ຫຼື ສູງກວ່າ'
+requirements_mem: ໜ່ວຍຄວາມຈຳ
+requirements_mem_desc: RAM $value + ໜ່ວຍຄວາມຈຳເພີ່ມເຕີມສຳລັບວຽກຂອງທ່ານ
+requirements_hdd: ພື້ນທີ່ຈັດເກັບຂໍ້ມູນ
+requirements_hdd_desc: ພື້ນທີ່ວ່າງໃນຮາດດິດຫຼາຍກວ່າ 40GB
+requirements_hdd_root: ພາທິຊັນ / (root)
+requirements_hdd_var: ພາທິຊັນ /var
+requirements_hdd_size_desc: ພື້ນທີ່ດິດທີ່ໃຊ້ໄດ້ $value
+requirements_hdd_swap_info: ຕ້ອງປິດ swap space ເພື່ອໃຫ້ kubernetes 
+  ເຮັດວຽກໄດ້ຢ່າງຖືກຕ້ອງ
+requirements_hdd_ssd_info: SSD ທີ່ມີຄວາມໄວໃນການຂຽນສູງ
+requirements_dvd_desc: ໄດຣຟ໌ DVD ຫຼື ພອດ USB ສຳລັບສື່ຕິດຕັ້ງ
+requirements_net: ເຄືອຂ່າຍ
+requirements_net_desc: ການເຂົ້າເຖິງອິນເຕີເນັດມີປະໂຫຍດ ແລະ ຈຳເປັນສຳລັບ Network 
+  Installer
+requirements_net_conn: ການເຊື່ອມຕໍ່ເຕັມຮູບແບບລະຫວ່າງເຄື່ອງທັງໝົດໃນຄລັດສະເຕີ 
+  (cluster)
+requirements_net_mac: ຊື່ໂຮສ (hostname) ແລະ ໝາຍເລກ MAC ທີ່ບໍ່ຊ້ຳກັນສຳລັບທຸກໆ ໂນດ
+  (node)
+tw_switch: ວິທີງ່າຍໆໃນການປ່ຽນມາໃຊ້ openSUSE Tumbleweed
+tw_switch_p1: |
+  ຖ້າທ່ານກຳລັງໃຊ້ openSUSE ຢູ່ແລ້ວ, ທ່ານສາມາດອັບເກຣດໄດ້ໂດຍການບູດຈາກ
+  DVD/USB ແລ້ວເລືອກ upgrade, ຫຼື ໃຊ້ວິທີ ‘Online Upgrade’ 
+  ດ້ວຍຄຳສັ່ງພຽງບໍ່ເທົ່າໃດ.
+tw_switch_instructions: ຄຳແນະນຳການອັບເກຣດ.
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux: ຈາກເວີຊັນເກົ່າ ຫຼື ຈາກ Linux ເວີຊັນອື່ນ
+upgrade_table_windows: ຈາກ Windows
+upgrade_table_mac: ຈາກ macOS
+upgrade_table_linux_dvd: ວິທີເບີນ DVD ເທິງ Linux.
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd: ວິທີເບີນ DVD ເທິງ Windows.
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd: ວິທີເບີນ DVD ເທິງ macOS.
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb: ວິທີສ້າງ USB ບູດເທິງ Linux.
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb: ວິທີສ້າງ USB ບູດເທິງ Windows.
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb: ວິທີສ້າງ USB ບູດເທິງ macOS.
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download: ກວດສອບຄວາມຖືກຕ້ອງຂອງໄຟລ໌ກ່ອນໃຊ້ງານ
+verify_download_p1: |
+  ມີຫຼາຍໂປຣແກຣມທີ່ສາມາດກວດສອບຄ່າ checksum ຂອງໄຟລ໌ທີ່ດາວໂຫຼດມາ. ການກວດສອບ
+  ແມ່ນມີຄວາມສຳຄັນຫຼາຍ ເພາະມັນຈະຊ່ວຍຢືນຢັນວ່າທ່ານໄດ້ຮັບໄຟລ໌ ISO ທີ່ຖືກຕ້ອງ
+  ແລະ ບໍ່ແມ່ນໄຟລ໌ທີ່ເສຍຫາຍ.
+verify_download_p2: |
+  ສຳລັບແຕ່ລະ ISO, ພວກເຮົາໄດ້ກຽມໄຟລ໌ checksum ພ້ອມຄ່າ SHA256 ແລະ ໄຟລ໌ລາຍເຊັນດິຈິຕອນໄວ້ໃຫ້.
+verify_download_p3: |
+  ເພື່ອຄວາມໝັ້ນໃຈໃນຄວາມສົມບູນຂອງໄຟລ໌, ທ່ານສາມາດໃຊ້ sha256sum ເພື່ອກວດສອບຄ່າ checksum ແລະ ໃຊ້ gpgv ເພື່ອກວດສອບລາຍເຊັນດິຈິຕອນ.
+verify_download_pubkey: ມັນຄວນຈະເປັນ
+verify_download_help: ສຳລັບຄວາມຊ່ວຍເຫຼືອເພີ່ມເຕີມໃນການກວດສອບໄຟລ໌ ກະລຸນາອ່ານ
+verify_download_checksums_help: ຄວາມຊ່ວຍເຫຼືອກ່ຽວກັບ Checksums
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
+desktops: ມີຫຼາຍເດດທັອບໃຫ້ເລືອກ, ໂດຍມີ 3 ຕົວເລືອກຫຼັກ
+desktops_p1: |
+  ຂະບວນການຮ່ວມມືຂອງ openSUSE ຊ່ວຍຊຸກຍູ້ການພັດທະນາເດດທັອບສຳລັບທຸກຄົນ,
+  ທ່ານຈຶ່ງສາມາດເລືອກຕົວທີ່ມັກໄດ້ໃນລະຫວ່າງການຕິດຕັ້ງ. ພວກເຮົາສະເໜີ 3 
+  ສະພາບແວດລ້ອມເດດທັອບຫຼັກ ແລະ ຍັງມີຕົວເລືອກອື່ນໆ ອີກໃນໜ້າການເລືອກຊອບແວ.
+installation: ຕິດຕັ້ງໃນແບບທີ່ທ່ານຕ້ອງການ
+installation_p1: |
+  ຂະບວນການຕິດຕັ້ງ openSUSE ມີທຸກຕົວເລືອກທີ່ທ່ານຕ້ອງການ.
+  ຕ້ອງການຕິດຕັ້ງດ້ວຍເມົາສ໌ ແລະ ຄີບອດບໍ? ໃຊ້ຕົວຕິດຕັ້ງແບບກຣາຟິກ.
+  ບໍ່ມີເມົາສ໌ບໍ? ໃຊ້ຕົວຕິດຕັ້ງແບບເທີມີນໍ (terminal).
+  ບໍ່ສາມາດເຂົ້າເຖິງເຄື່ອງໂດຍກົງບໍ? ເຊື່ອມຕໍ່ເຂົ້າໄປຕິດຕັ້ງແບບໄລຍະໄກ.
+  ທຸກຢ່າງມັນງ່າຍດາຍແບບນັ້ນເລີຍ.
+points_transparent: ທຸກຢ່າງມີຄວາມໂປ່ງໃສ
+points_transparent_p1: |
+  ຕັ້ງແຕ່ເລີ່ມຈົນຈົບ, ທຸກໆ ແພັກເກດໃນແຕ່ລະເວີຊັນຈະມີຊອດໂຄ້ດ ແລະ 
+  ສະຄຣິບການສ້າງທີ່ເປີດເຜີຍໃຫ້ທຸກຄົນກວດສອບໄດ້. ຫາກສົງໄສໃນແຫຼ່ງທີ່ມາ?
+  ພຽງແຕ່ເຂົ້າໄປເບິ່ງໄດ້ທີ່ build service.
+points_free: ຊອບແວຟຣີ? ທ່ານເລືອກໄດ້ເອງ
+points_free_p1: |
+  ແພັກເກດຕ່າງໆ ຈະຖືກແບ່ງອອກເປັນຄັງເກັບແບບຟຣີ ແລະ ບໍ່ຟຣີ.
+  ຫາກທ່ານບໍ່ຕ້ອງການໃຊ້ຊອບແວທີ່ບໍ່ຟຣີ? ທ່ານສາມາດປິດຄັງເກັບນັ້ນໄດ້
+  ຢ່າງງ່າຍດາຍ. ມັນແມ່ນການຕັດສິນໃຈຂອງທ່ານເອງ.
+points_welcoming: ຍິນດີຮັບການຮ່ວມມືຈາກທຸກຄົນ
+points_welcoming_p1: |
+  ພວກເຮົາພະຍາຍາມຢ່າງເຕັມທີ່ເພື່ອຊຸມຊົນ, ແລະ ພວກເຮົາຈະເຮັດໃຫ້ມັນສຳເລັດໄດ້
+  ກໍຕໍ່ເມື່ອຄົນໃນຊຸມຊົນບອກໃນສິ່ງທີ່ເຂົາເຈົ້າຕ້ອງການ. ນັ້ນຄືເຫດຜົນທີ່ພວກເຮົາ
+  ເຮັດໃຫ້ການມີສ່ວນຮ່ວມນັ້ນງ່າຍທີ່ສຸດເທົ່າທີ່ຈະເປັນໄປໄດ້.
+preconfigured_image: ຮູບແບບທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (raw)
+preconfigured_image_desc: ຮູບແບບທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (raw)
+preconfigured_qcow_image: ຮູບແບບທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (qcow)
+preconfigured_rt_image: ຮູບແບບ RealTime ທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (raw)
+encrypted_rt_image: ຮູບແບບ RealTime ທີ່ເຂົ້າລະຫັດທັງໝົດ (raw)
+selfinstall_image: ຮູບແບບຕິດຕັ້ງເອງອັດຕະໂນມັດ
+selfinstall_rt_image: ຮູບແບບ RealTime ຕິດຕັ້ງເອງອັດຕະໂນມັດ
+snapper: ລະບົບເສຍຫາຍບໍ? ບໍ່ແມ່ນບັນຫາອີກຕໍ່ໄປ
+snapper_p1: |
+  ຟີເຈີ Filesystem Snapshots ຈະຊ່ວຍດູແລລະບົບໄຟລ໌ຂອງທ່ານໂດຍການ
+  ສຳຮອງຂໍ້ມູນອັດຕະໂນມັດເມື່ອມີການຕິດຕັ້ງຊອບແວ ຫຼື ອັບເດດ.
+  ພຽງແຕ່ບູດຈາກ snapshot ກ່ອນໜ້າ, ລະບົບຂອງທ່ານກໍຈະກັບມາໃຊ້ງານໄດ້
+  ປົກກະຕິພາຍໃນບໍ່ເທົ່າໃດນາທີ.
+software: ການຄົ້ນຫາຊອບແວຈະບໍ່ແມ່ນເລື່ອງຍາກອີກຕໍ່ໄປ
+software_p1: |
+  ການທີ່ຕ້ອງເຂົ້າເບິ່ງທຸກເວັບໄຊເພື່ອຫາຊອບແວທີ່ຕ້ອງການນັ້ນເປັນເລື່ອງທີ່ເມື່ອຍ.
+  ສູນລວມຊອບແວອອນລາຍຈະຊ່ວຍໃຫ້ມັນງ່າຍຂຶ້ນ, ໂດຍການລວມຊອບແວ
+  ຈາກຫຼາຍໆ ແຫຼ່ງມາໄວ້ໃນບ່ອນດຽວ.
+software_get: ດາວໂຫຼດຊອບແວ
+transactional: ເຊີເວີແບບ Transactional
+transactional_p1: |
+  ຕົວຕິດຕັ້ງໃນປັດຈຸບັນຮອງຮັບລະບົບແບບ Transactional Server,
+  ເຊິ່ງເປັນຜົນມາຈາກໂຄງການ openSUSE Kubic. ລະບົບນີ້ມີຈຸດເດັ່ນຄື
+  ການອັບເດດແບບ atomic (ເຮັດວຽກຄັ້ງດຽວສຳເລັດທັງໝົດ) ແລະ 
+  ສາມາດຍ້ອນກັບ (revert) ໄດ້ງ່າຍຫາກຈຳເປັນ. ຟີເຈີເຫຼົ່ານີ້ພັດທະນາຈາກ
+  ເຄື່ອງມືຈັດການແພັກເກດທີ່ SUSE ແລະ openSUSE ໃຊ້ຢູ່ແລ້ວ.
+  ນັ້ນໝາຍຄວາມວ່າແພັກເກດ RPM ສ່ວນໃຫຍ່ທີ່ໃຊ້ກັບລະບົບອື່ນໆ ຂອງ 
+  openSUSE ກໍສາມາດໃຊ້ກັບ Transactional Server ໄດ້ເຊັ່ນກັນ.
+yast: YaST, ຕົວເລືອກທີ່ດີທີ່ສຸດສຳລັບຜູ້ໃຊ້
+yast_p1: |
+  ໜຶ່ງໃນເຄື່ອງມືຕັ້ງຄ່າລະບົບທີ່ດີທີ່ສຸດ ທີ່ຈະຊ່ວຍໃຫ້ທ່ານຕັ້ງຄ່າທຸກພາກສ່ວນ
+  ຂອງລະບົບໄດ້. ທ່ານບໍ່ຈຳເປັນຕ້ອງໄປໄລ່ແກ້ສະຄຣິບ ຫຼື ພິມຄຳສັ່ງທີ່ຊັບຊ້ອນ
+  ເພື່ອໃຫ້ໄດ້ລະບົບໃນແບບທີ່ທ່ານຕ້ອງການ.
+yast_firewall: ໄຟວໍ (Firewall)
+yast_fonts: ຟອນ (Fonts)
+yast_hardware: ຮາດແວ
+yast_partitioner: ເຄື່ອງມືຈັດການພາທິຊັນ
+yast_printer: ເຄື່ອງພິມ
+yast_scanner: ເຄື່ອງສະແກນ
+yast_sound: ສຽງ
+yast_software: ຊອບແວ
+zypper: Zypper, ເຄື່ອງມືຈັດການແພັກເກດທີ່ທ່ານຈະປະທັບໃຈ
+zypper_p1: |
+  ມັນໄວ ແລະ ຮຽນຮູ້ໄດ້ງ່າຍ. ມີ zypper-apt ເພື່ອໃຫ້ໃຊ້ຄຳສັ່ງ apt ແລະ apt-get ໄດ້.
+  ພັດທະນາບົນ libsolv ເຊິ່ງຮັບປະກັນທັງຄວາມໄວ ແລະ ການຈັດການຄວາມກ່ຽວພັນ
+  ຂອງແພັກເກດ (dependencies) ທີ່ຖືກຕ້ອງ. ໜ້າຕາການໃຊ້ງານຈະແຈ້ງ ແລະ 
+  ມີສີສັນທີ່ອ່ານງ່າຍ. ມັນສົມບູນແບບທີ່ສຸດແລ້ວ.
+index: openSUSE ເວີຊັນຕ່າງໆ
+index_p1: ສຳລັບເດດທັອບ, ເຊີເວີ ແລະ ວຽກງານທຸກຮູບແບບ
+index_desktop: ເດດທັອບ (Desktop)
+index_desktop_p1: ລວມເວີຊັນຕ່າງໆ ທີ່ເໝາະສຳລັບການໃຊ້ງານທົ່ວໄປ
+index_server: ເຊີເວີ (Server)
+index_server_p1: ລວມເວີຊັນຕ່າງໆ ທີ່ເໝາະສຳລັບການໃຊ້ງານເປັນເຊີເວີ
+index_full: ຫຼື ໄປທີ່ໜ້າດາວໂຫຼດຂອງແຕ່ລະເວີຊັນໂດຍກົງ
+desktop: openSUSE ເວີຊັນສຳລັບເດດທັອບ
+desktop_p1: |
+  ສອງເວີຊັນຫຼັກທີ່ຕອບໂຈດທຸກການໃຊ້ງານ (ມາໃນຮູບແບບສີຂຽວ!)
+desktop_tumbleweed_p1: ສຳລັບນັກພັດທະນາ, ຜູ້ຮ່ວມສ້າງ openSUSE, ນັກຫຼິ້ນເກມ ແລະ 
+  ຜູ້ທີ່ມັກ Linux/FOSS
+desktop_tumbleweed_p2: ເວີຊັນ Rolling release ທີ່ມາພ້ອມແພັກເກດຫຼ້າສຸດຈາກໂຄງການ 
+  openSUSE.
+desktop_leap_p1: ສຳລັບຜູ້ດູແລລະບົບ, ນັກພັດທະນາລະດັບອົງກອນ ແລະ ຜູ້ໃຊ້ທົ່ວໄປ
+desktop_leap_p2: ເວີຊັນປົກກະຕິ ທີ່ລວມເອົາຄວາມໝັ້ນຄົງລະດັບອົງກອນ ແລະ 
+  ນະວັດຕະກຳຈາກຊຸມຊົນເຂົ້າກັນ.
+server: openSUSE ເວີຊັນສຳລັບເຊີເວີ
+server_p1: |
+  ສີ່ເວີຊັນທີ່ໝັ້ນຄົງ ແລະ ໄວ້ໃຈໄດ້ ຕາມທີ່ມັນຄວນຈະເປັນ
+server_tumbleweed_p1: ສຳລັບນັກພັດທະນາ, ຜູ້ຮ່ວມສ້າງ openSUSE, ນັກຫຼິ້ນເກມ ແລະ 
+  ຜູ້ທີ່ມັກ Linux/FOSS
+server_tumbleweed_p2: ເວີຊັນ Rolling release ທີ່ມາພ້ອມແພັກເກດຫຼ້າສຸດຈາກໂຄງການ 
+  openSUSE.
+server_leap_p1: ສຳລັບຜູ້ດູແລລະບົບ, ນັກພັດທະນາລະດັບອົງກອນ ແລະ ຜູ້ໃຊ້ເຊີເວີທົ່ວໄປ
+server_leap_p2: ເວີຊັນປົກກະຕິ ທີ່ລວມເອົາຄວາມໝັ້ນຄົງລະດັບອົງກອນ ແລະ 
+  ນະວັດຕະກຳຈາກຊຸມຊົນເຂົ້າກັນ.
+server_microos_p1: ສຳລັບການໃຊ້ງານເຊີເວີສະເພາະທາງ
+server_microos_p2: ອອກແບບມາສຳລັບ Container ພ້ອມລະບົບຈັດການ ແລະ ລົງແພັດ 
+  (patching) ອັດຕະໂນມັດ
+server_leapmicro_p1: ສຳລັບ Edge, Embedded, IoT ແລະ ການຕິດຕັ້ງໃນຮູບແບບອື່ນໆ
+server_leapmicro_p2: ລະບົບປະຕິບັດການທີ່ໝັ້ນຄົງສູງ ແລະ ນ້ຳໜັກເບົາ ອອກແບບມາສຳລັບ 
+  Container ແລະ Virtualization.
+new_version_available: $distro_name ພ້ອມໃຫ້ດາວໂຫຼດແລ້ວ
+new_version_testing: $distro_name ພ້ອມໃຫ້ດາວໂຫຼດ ແລະ ທົດສອບແລ້ວ
+view_distro: ເບິ່ງ $distro_name
+x86_64: ຄອມພິວເຕີ, ແລັບທັອບ ແລະ ເຊີເວີ Intel ຫຼື AMD 64-ບິດ (x86_64)
+i686: ຄອມພິວເຕີ, ແລັບທັອບ ແລະ ເຊີເວີ Intel ຫຼື AMD 32-ບິດ (i686)
+aarch64: ເຊີເວີ, ຄອມພິວເຕີ, ແລັບທັອບ ແລະ ບອດ UEFI Arm 64-ບິດ (aarch64)
+armv7l: ເຊີເວີ, ຄອມພິວເຕີ, ແລັບທັອບ ແລະ ບອດ UEFI Arm 32-ບິດ (armv7l)
+ppc64le: ເຊີເວີ PowerPC, little-endian (ppc64le)
+s390x: IBM zSystems ແລະ LinuxONE (s390x)
+overview: ພາບລວມ
+download: ດາວໂຫຼດ
+alternative_downloads: ທາງເລືອກໃນການດາວໂຫຼດອື່ນໆ
+alternative_downloads_desc: ພວກເຮົາຍັງມີຮູບແບບ $options ໃຫ້ເລືອກ. 
+  ເຂົ້າໄປເບິ່ງໄດ້ທີ່ $alternative_downloads!
+MicroOS_features:
+  idea:
+    name: ແນວຄິດຫຼັກ
+    description: |
+      ### ຄາດການໄດ້
+      * ລະບົບຈະບໍ່ຖືກປ່ຽນແປງໃນລະຫວ່າງການເຮັດວຽກ
+      * ຈະເຮັດວຽກຄືເກົ່າຢ່າງສະໝ່ຳສະເໝີໃນທຸກໆ ການບູດ
+
+      ### ຂະຫຍາຍຕົວໄດ້ງ່າຍ
+      * ຫຼຸດຜ່ອນການຕັ້ງຄ່າແຍກແຕ່ລະເຄື່ອງໃນລະຫວ່າງໃຊ້ງານ
+      * ສາມາດຕິດຕັ້ງຊ້ຳໄດ້ງ່າຍ ແລະ ໄດ້ຜົນລັດທີ່ແນ່ນອນ
+
+      ### ໄວ້ໃຈໄດ້
+      * ມີລະບົບກູ້ຄືນອັດຕະໂນມັດຫາກການອັບເດດມີບັນຫາ
+  update:
+    name: ການອັບເດດແບບ Atomic
+    description: |
+      ### ການອັບເດດແບບ Transactional
+
+      #### ໂດດເດັ່ນ
+      MicroOS ໃຊ້ btrfs ພ້ອມກັບ snapshots ເພື່ອປະຢັດພື້ນທີ່
+      ໃນການຈັດເກັບປະຫວັດຂອງລະບົບໄຟລ໌. ທຸກໆ ໄຟລ໌ຕັ້ງຄ່າ
+      ໃນ `/etc` ຈະຖືກລວມເຂົ້າໃນ snapshot ແລະ ສາມາດ rollback ໄດ້.
+
+      #### ຢືດຢຸ່ນ
+      * ບໍ່ຕ້ອງໃຊ້ຮູບແບບແພັກເກດໃໝ່, ສາມາດໃຊ້ openSUSE RPM ມາດຕະຖານໄດ້
+      * ບໍ່ມີຂໍ້ຈຳກັດດ້ານຂະໜາດ ທັງພາທິຊັນ ແລະ ລະບົບປະຕິບັດການ
+      * ພັດທະນາຕໍ່ຍອດໄດ້ງ່າຍ
+  shield:
+    name: ການຍ້ອນກັບ (Rollback)
+    description: |
+      ### MicroOS ແມ່ນລະບົບທີ່ບໍ່ມີການປ່ຽນແປງ (Immutable OS), ການຍ້ອນກັບຈຶ່ງງ່າຍດາຍ
+      * Immutable: ບໍ່ມີການປ່ຽນແປງຂໍ້ມູນໃນດິດ
+      * Rollback ງ່າຍໆ ພຽງແຕ່ບູດໄປຫາ snapshot ຂອງ BTRFS ອັນເກົ່າ
+  key:
+    name: ການອັບເດດທີ່ປອດໄພ
+    description: |
+      * ອັບເດດຜ່ານ HTTPS
+      * ແພັກເກດ ແລະ ຄັງເກັບໄດ້ຮັບການເຊັນຢືນຢັນຈາກລະບົບຂອງພວກເຮົາ
+      * ແພັກເກດທຸກອັນຖືກກວດສອບຄວາມຖືກຕ້ອງ
+      * ຈະບໍ່ມີການອັບເດດຫາກພົບວ່າແພັກເກດມີຄວາມຂັດແຍ້ງກັນ
+      * ບໍ່ເປືອງພື້ນທີ່: snapshot ຈະຖືກລົບຖິ້ມຫາກການອັບເດດບໍ່ສຳເລັດ
+  work:
+    name: ການຈັດການວຽກ (Workloads)
+    description: |
+      ແອັບພລິເຄຊັນຈະຖືກຕິດຕັ້ງໃນ container ແທນທີ່ຈະຕິດຕັ້ງໃນລະບົບໄຟລ໌ຫຼັກ:
+      * ແຍກອອກຈາກລະບົບໄຟລ໌ຫຼັກຢ່າງຊັດເຈນ
+      * ຫຼຸດຄວາມສ່ຽງຈາກແອັບພລິເຄຊັນທີ່ເປັນອັນຕະລາຍ
+      * ຕິດຕັ້ງໃໝ່ໄດ້ໂດຍບໍ່ຕ້ອງບູດເຄື່ອງ
+      * ອັບເດດແບບ atomic (ສ້າງອັນໃໝ່, ປິດອັນເກົ່າ)
+      * Rollback ໄດ້ງ່າຍ
+  tool:
+    name: ການແກ້ໄຂຈຸດບົກພ່ອງ (Debugging)
+    description: |
+      ### Debugging Toolbox Container
+      * ເປີດໃຊ້ງານ container ທີ່ມີສິດສູງສຸດ
+      * ສາມາດເຂົ້າເຖິງ root filesystem ໄດ້ທີ່ `/media/root`
+      * ໃຊ້ zypper ຕິດຕັ້ງເຄື່ອງມືທີ່ຈຳເປັນໄດ້ທັນທີໂດຍບໍ່ຕ້ອງບູດເຄື່ອງ
+      * ຂໍ້ມູນຈະຄົງຢູ່ຕະຫຼອດການໃຊ້ງານ
+Tumbleweed_features:
+  update:
+    name: ອັບເດດຢ່າງຕໍ່ເນື່ອງ
+    description: |
+      ຕິດຕັ້ງຄັ້ງດຽວ ແລະ ໃຊ້ໄດ້ຕະຫຼອດໄປ. ທ່ານບໍ່ຕ້ອງກັງວົນກ່ຽວກັບການອັບເກຣດລະບົບຄັ້ງໃຫຍ່ທຸກໆ 6 ເດືອນ ທີ່ອາດຈະເຮັດໃຫ້ລະບົບມີບັນຫາ.
+  knife:
+    name: ທັນສະໄໝທີ່ສຸດ
+    description: |
+      ທ່ານຈະໄດ້ຮັບການອັບເດດເປັນປະຈຳ ເຊິ່ງບໍ່ພຽງແຕ່ແກ້ໄຂຊ່ອງໂຫວ່ ຫຼື ບັກເທົ່ານັ້ນ, ແຕ່ຍັງລວມເຖິງຟີເຈີໃໝ່ໆ, ເຄີເນິລ (kernel) ໃໝ່, ໄດເວີໃໝ່ ແລະ ເດດທັອບເວີຊັນຫຼ້າສຸດ.
+  home:
+    name: ໝັ້ນຄົງ
+    description: |
+      ການອັບເດດທຸກຄັ້ງໄດ້ຮັບການທົດສອບຕາມມາດຕະຖານຄຸນນະພາບລະດັບອຸດສາຫະກຳ ໂດຍໃຊ້ build service ທີ່ໂດດເດັ່ນ. ບໍ່ພຽງແຕ່ທົດສອບແຕ່ລະແພັກເກດແຍກກັນ, ແຕ່ຍັງທົດສອບການເຮັດວຽກຮ່ວມກັນຂອງທຸກແພັກເກດ ເພື່ອໃຫ້ໝັ້ນໃຈວ່າລະບົບຂອງທ່ານຈະເຮັດວຽກໄດ້ຢ່າງສະໝ່ຳສະເໝີ.
+  user:
+    name: ໃຊ້ງານງ່າຍ
+    description: |
+      ດ້ວຍຄຳສັ່ງພຽງອັນດຽວ, ທ່ານສາມາດອັບເດດແພັກເກດນັບພັນ, ຍ້ອນກັບໄປໃຊ້ snapshot ຂອງອາທິດກ່ອນ, ຫຼື ແມ່ນແຕ່ເບິ່ງຕົວຢ່າງເວີຊັນທີ່ກຳລັງຈະມາເຖິງ.
+  cpu:
+    name: ເຂົ້າກັບຮາດແວຂອງທ່ານໄດ້ເປັນຢ່າງດີ
+    description: |
+      ດ້ວຍຄວາມທັນສະໄໝ ແລະ ການທົດສອບທີ່ດີ, Tumbleweed ຮອງຮັບຮາດແວ ແລະ ອຸປະກອນຕ່າງໆ ໄດ້ດີກວ່າ Linux ເວີຊັນອື່ນໆ, ເໝາະສຳລັບທັງ Workstation, ແລັບທັອບ ແລະ ໂນດບຸກ.
+  key:
+    name: ປອດໄພ
+    description: |
+      ຫາກເກີດບັນຫາທີ່ບໍ່ຄາດຄິດ, ທ່ານສາມາດ rollback ກັບໄປສະພາວະກ່ອນໜ້າໄດ້ສະເໝີ ໂດຍທີ່ໄຟລ໌ ແລະ ໂປຣແກຣມຂອງທ່ານຈະຍັງຄືເກົ່າກ່ອນທີ່ຈະມີການອັບເດດ.
+  shield:
+    name: ລະບົບຄວາມປອດໄພສູງ
+    description: |
+      ສ້າງຈາກເຄີເນິລຫຼ້າສຸດ, ພ້ອມແພັດປ້ອງກັນ Spectre / Meltdown, ແລະ ມີການເປີດໃຊ້ໄຟວໍ ພ້ອມນະໂຍບາຍຄວາມປອດໄພທີ່ເຂັ້ມງວດມາໃຫ້ຕັ້ງແຕ່ເລີ່ມຕົ້ນ.
+  power:
+    name: ຊົງພະລັງ
+    description: |
+      ດ້ວຍເຕັກໂນໂລຊີທີ່ໂດດເດັ່ນຂອງ openSUSE ເຊັ່ນ ລະບົບໄຟລ໌ `Btrfs`, ເຄື່ອງມື `snapper` ແລະ ແຜງຄວບຄຸມ `YaST` ທີ່ໄວ້ໃຈໄດ້, Tumbleweed ຊ່ວຍໃຫ້ທ່ານຄວບຄຸມລະບົບໄດ້ຢ່າງເຕັມທີ່ ແລະ ຕັ້ງຄ່າທຸກຢ່າງໄດ້ຕາມຕ້ອງການ ໂດຍບໍ່ຕ້ອງກັງວົນວ່າລະບົບຈະມາກວນການເຮັດວຽກຂອງທ່ານ.
+  plant:
+    name: ພື້ນຖານທີ່ແຂງແກ່ນ
+    description: |
+      Tumbleweed ພັດທະນາຈາກປະສົບການການໃຊ້ງານ ແລະ ການທົດສອບມາຫຼາຍສິບປີ ໂດຍນັກພັດທະນາ ແລະ ຜູ້ດູແລລະບົບມືອາຊີບ. ຄວາມແຂງແກ່ນຂອງ Tumbleweed ມາຈາກແພັກເກດຫຼັກທີ່ມີພື້ນຖານດຽວກັນກັບ SUSE Linux Enterprise Server.
+  gamepad:
+    name: ການຫຼິ້ນເກມ
+    description: |
+      Tumbleweed ໃຫ້ບໍລິການຊອບແວທີ່ກ່ຽວກັບການຫຼິ້ນເກມເວີຊັນຫຼ້າສຸດ. ດ້ວຍການພັດທະນາຂອງ Linux ທີ່ຮອງຮັບການຫຼິ້ນເກມໄດ້ດີຂຶ້ນເລື້ອຍໆ, ທ່ານຈະໄດ້ຮັບປະສົບການທີ່ລື່ນໄຫຼ ແລະ ມີປະສິດທິພາບໃນເກມທີ່ທ່ານມັກ.
+leap_ovw_title: ວິທີໃໝ່ໃນການສ້າງ openSUSE ທີ່ມາພ້ອມໄລຍະເວລາການຊັບພອດທີ່ດົນກວ່າ
+leap_ovw_desc: Leap 16.0 ໃຊ້ແນວທາງແບບໄຮບຣິດ ໂດຍລວມເອົາຊອດໂຄ້ດຈາກ SUSE Linux 
+  Enterprise (SLE) ເຂົ້າກັບການພັດທະນາຈາກຊຸມຊົນ, ເຮັດໃຫ້ມີຄວາມໝັ້ນຄົງສູງ. ດ້ວຍ 
+  <strong>ໄລຍະເວລາການຊັບພອດທີ່ຍາວເຖິງ 24 ເດືອນ</strong>, Leap 
+  ຈຶ່ງເປັນທາງເລືອກທີ່ດີທີ່ສຸດສຳລັບຜູ້ໃຊ້, ນັກພັດທະນາ ແລະ ຜູ້ດູແລລະບົບ.
+tumbleweed_ovw_title: ລະບົບປະຕິບັດການສຳລັບເດດທັອບ ແລະ ເຊີເວີ ທີ່ທັນສະໄໝທີ່ສຸດ
+tumbleweed_ovw_desc: ດ້ວຍ Tumbleweed, ທ່ານບໍ່ຕ້ອງເລືອກລະຫວ່າງສິ່ງທີ່ທ່ານຕ້ອງການ,
+  ບໍ່ວ່າຈະເປັນອິດສະຫຼະພາບ ຫຼື ຄວາມປອດໄພ, ການຄວບຄຸມ ຫຼື ຄວາມໝັ້ນຄົງ, ເຕັກໂນໂລຊີ 
+  ຫຼື ສະຖຽນລະພາບ -- ເພາະ Tumbleweed ໃຫ້ທ່ານໄດ້ທຸກຢ່າງໃນບ່ອນດຽວ!
+leap_micro_ovw_title: Leap Micro ແມ່ນລະບົບປະຕິບັດການທີ່ໝັ້ນຄົງສູງ ແລະ ນ້ຳໜັກເບົາ
+  ອອກແບບມາສຳລັບ Container ແລະ Virtualization.
+leap_micro_ovw_desc_p1: ເວີຊັນຊຸມຊົນນີ້ພັດທະນາຈາກ SUSE Linux Micro, 
+  ເຊິ່ງໃຊ້ເຕັກໂນໂລຊີຄວາມປອດໄພລະດັບອົງກອນຈາກ SUSE Linux Enterprise. 
+  ການລວມຕົວຂອງເຕັກໂນໂລຊີເຫຼົ່ານີ້ເຮັດໃຫ້ໄດ້ແພລັດຟອມທີ່ທັນສະໄໝ, ບໍ່ມີການປ່ຽນແປງ 
+  (immutable) ແລະ ເປັນມິດກັບນັກພັດທະນາ.
+leap_micro_ovw_desc_p2: Leap Micro ຕັ້ງແຕ່ເວີຊັນ 6.0 ມີໃຫ້ເລືອກທັງແບບ 
+  self-install, raw image ແລະ Packages DVD ທີ່ໃຊ້ເປັນຄັງເກັບແບບອອບລາຍໄດ້. 
+  ພວກເຮົາແນະນຳໃຫ້ໃຊ້ Self-install image ສຳລັບການຕິດຕັ້ງຜ່ານ USB. 
+  ຜູ້ໃຊ້ສາມາດຕັ້ງຄ່າອັດຕະໂນມັດໄດ້ດ້ວຍ <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ຫຼື <a 
+  href="https://github.com/openSUSE/combustion">Combustion</a> ຫຼື ໃຊ້ 
+  jeos-firstboot. ສາມາດທົດລອງໃຊ້ <a 
+  href="https://opensuse.github.io/fuel-ignition/">Fuel Ignition</a> 
+  ເພື່ອສ້າງໄຟລ໌ຕັ້ງຄ່າອອນລາຍໄດ້.
+leap_micro_ovw_desc_p3: ທົດລອງໃຊ້ Leap Micro ໃນ VM ເທິງ <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ຫຼື KVM. ສຳລັບ 
+  Raspberry Pi ຫຼື ບອດ SoC ອື່ນໆ ສາມາດໃຊ້ຮູບແບບທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າໄດ້. ທັງຮູບແບບ
+  preconfigured ແລະ self-installed ແມ່ນອອກແບບມາໃຫ້ໃຊ້ຮ່ວມກັບ <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> ຜ່ານ 
+  USB ເພື່ອຕັ້ງຄ່າລະບົບໃນການບູດຄັ້ງທຳອິດ.
+leap_micro_ovw_video_desc: ຕົວຢ່າງການຕິດຕັ້ງ Leap Micro 6.1 
+  ພ້ອມການເຂົ້າລະຫັດດິດທັງໝົດ ແລະ ການຢືນຢັນຕົວຕົນສອງຊັ້ນໃນ cockpit.
+leap_156_ovw_video_desc: ວິດີໂອໄລຟ໌ສົດການເປີດຕົວ Leap 15.6
+leap_160_ovw_video_desc: ວິດີໂອໄລຟ໌ສົດການເປີດຕົວ Leap 16.0
+microos_ovw_title: Micro Service OS ທີ່ຮອງຮັບການອັບເດດແບບ Transactional (Atomic)
+  ເທິງລະບົບໄຟລ໌ btrfs ແບບອ່ານຢ່າງດຽວ
+microos_ovw_desc_p1: ອອກແບບມາສຳລັບ Container ພ້ອມລະບົບຈັດການ ແລະ 
+  ລົງແພັດອັດຕະໂນມັດ. ການຕິດຕັ້ງ openSUSE MicroOS 
+  ຈະຊ່ວຍໃຫ້ທ່ານໄດ້ສະພາບແວດລ້ອມທີ່ນ້ອຍ ແລະ ວ່ອງໄວສຳລັບ Container ຫຼື 
+  ວຽກງານທີ່ຕ້ອງການການອັບເດດແບບ Transactional. ໃນຖານະທີ່ເປັນ Rolling release, 
+  ຊອບແວຈະທັນສະໄໝຢູ່ສະເໝີ.
+microos_ovw_desc_p2: MicroOS ມີຮູບແບບອອບລາຍໃຫ້ເລືອກ. 
+  ຄວາມແຕກຕ່າງຫຼັກຄືຮູບແບບອອບລາຍຈະມີຕົວຕິດຕັ້ງມາໃຫ້. ສ່ວນແບບ Raw ແລະ Self-install
+  ຈະເນັ້ນການຕັ້ງຄ່າຜ່ານ combustion ຫຼື ຕັ້ງຄ່າດ້ວຍຕົນເອງຫຼັງຈາກຂຽນລົງດິດແລ້ວ. 
+  ນອກຈາກນີ້ຍັງມີຕົວເລືອກ real-time kernel ອີກດ້ວຍ.
+microos_ovw_desc_p3: ທົດລອງໃຊ້ MicroOS ໃນ VM ທີ່ເຮັດວຽກຢູ່ເທິງ <a 
+  href="https://www.suse.com/c/happened-kernel-xen/">Xen</a> ຫຼື KVM. ການໃຊ້ 
+  Raspberry Pi ຫຼື ຮາດແວ System on Chip ອື່ນໆ ອາດໃຊ້ ອິເມຈທີ່ກຳນົດຄ່າມາລ່ວງໜ້າ 
+  ຮ່ວມກັບຟັງຊັນ <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  ສຳລັບຂະບວນການບູດ. ທັງອິເມຈທີ່ກຳນົດຄ່າມາລ່ວງໜ້າ ແລະ ອິເມຈທີ່ຕິດຕັ້ງດ້ວຍຕົນເອງ 
+  ແມ່ນມີຈຸດປະສົງເພື່ອໃຊ້ຮ່ວມກັບ <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  ທີ່ຂຽນລົງໃນ USB, ເຊິ່ງຈະຊ່ວຍໃຫ້ສາມາດຕັ້ງຄ່າໃນການບູດເຄື່ອງຄັ້ງທຳອິດ, 
+  ພ້ອມກັບຕົວເລືອກໃນການປ່ຽນແປງທີ່ປ້ອງກັນດ້ວຍລະຫັດຜ່ານເລີ່ມຕົ້ນ.
+preconfigured_base_image: ຮູບແບບພື້ນຖານທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (raw)
+encrypted_base_image: ຮູບແບບພື້ນຖານທີ່ເຂົ້າລະຫັດທັງໝົດ (raw)
+preconfigured_base_qcow_image: ຮູບແບບພື້ນຖານທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (qcow)
+vmware_base_image: ຮູບແບບພື້ນຖານ VMware
+selfinstall_base_image: ຮູບແບບພື້ນຖານຕິດຕັ້ງເອງອັດຕະໂນມັດ
+preconfigured_base_64k_image: ຮູບແບບພື້ນຖານ 64k ທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (raw)
+encrypted_base_64k_image: ຮູບແບບພື້ນຖານ 64k ທີ່ເຂົ້າລະຫັດທັງໝົດ (raw)
+selfinstall_base_encrypted_64k_image: ຮູບແບບພື້ນຖານ 64k ຕິດຕັ້ງເອງອັດຕະໂນມັດ ແລະ
+  ເຂົ້າລະຫັດທັງໝົດ (iso)
+selfinstall_base_64k_image: ຮູບແບບພື້ນຖານ 64k ຕິດຕັ້ງເອງອັດຕະໂນມັດ (iso)
+preconfigured_64k_image: ຮູບແບບ 64k ທີ່ຕັ້ງຄ່າມາລ່ວງໜ້າ (raw)
+encrypted_64k_image: ຮູບແບບ 64k ທີ່ເຂົ້າລະຫັດທັງໝົດ (raw)
+selfinstall_64k_image: ຮູບແບບ 64k ຕິດຕັ້ງເອງອັດຕະໂນມັດ (iso)
+selfinstall_encrypted_64k_image: ຮູບແບບ 64k ຕິດຕັ້ງເອງອັດຕະໂນມັດ ແລະ 
+  ເຂົ້າລະຫັດທັງໝົດ (iso)
