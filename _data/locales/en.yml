@@ -254,20 +254,6 @@ transactional_p1: |
   that the vast majority of RPM packages that work with other system
   roles of openSUSE distributions also work with the system role
   Transactional Server.
-yast: YaST, the best choice for the ~~power~~ user
-yast_p1: |
-  One of the greatest system configuration tools helps you, the user, to
-  setup every single aspect of your system. You no longer need to go
-  through a plethora of configuration scripts or enter dubious commands
-  to get the system setup as you need it.
-yast_firewall: Firewall
-yast_fonts: Fonts
-yast_hardware: Hardware
-yast_partitioner: Partitioner
-yast_printer: Printer
-yast_scanner: Scanner
-yast_sound: Sound
-yast_software: Software
 zypper: Zypper, your new favourite package manager
 zypper_p1: |
   It's quick and easy to learn. Provides zypper-apt, a compatibilty
