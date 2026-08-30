@@ -27,13 +27,13 @@ requirements_net: Мережа
 tw_switch: Легкі способи перейти на openSUSE Tumbleweed
 upgrade_table_linux: Із старішої версії або іншого дистрибутиву Linux
 upgrade_table_windows: Із Windows
-upgrade_table_mac: Із OS X
+upgrade_table_mac: Із macOS
 upgrade_table_linux_dvd: Як записати DVD в Linux.
 upgrade_table_windows_dvd: Як записати DVD в Windows.
-upgrade_table_mac_dvd: Як записати DVD в OS X.
+upgrade_table_mac_dvd: Як записати DVD в macOS.
 upgrade_table_linux_usb: Як створити завантажувальний USB-носій в Linux.
 upgrade_table_windows_usb: Як створити завантажувальний USB-носій в Windows.
-upgrade_table__mac_usb: Як створити завантажувальний USB-носій в OS X.
+upgrade_table__mac_usb: Як створити завантажувальний USB-носій в macOS.
 verify_download: Перевірка вашого звантаження перед використанням
 verify_download_checksums_help: Довідка з контрольних сум
 yast_software: Програми
@@ -277,9 +277,10 @@ requirements_net_desc: Доступ в інтернет не завадить, �
   необхідний
 tw_switch_instructions: Інструкції з оновлення.
 verify_download_p2: "Для кожного ISO образу ми пропонуємо файл контрольної суми з
-  відповідною SHA256 сумою.\n"
-verify_download_p3: "Для додаткової безпеки ви можете використати sha256sum для перевірки
-  підписувача цих .sha256 файлів. \n"
+  відповідною SHA256 сумою та файл з криптографічним підписом.\n"
+verify_download_p3: "Щоб переконатися в цілісності завантаженого файлу, Ви можете
+  скористатися командою sha256sum для перевірки контрольної суми та командою gpgv
+  для перевірки криптографічного підпису.\n"
 desktops: Багато середовищ, три за замовчуванням
 installation: Встановлюйте так, як ви хочете
 points_transparent: Все прозоро
@@ -320,3 +321,26 @@ choosing_media_micro_p1: |
   <br>
   Програма jeos-firstboot зустріне тих, хто не налаштував свою систему за допомогою Combustion.
 requirements_cpu_slfo_x86_64: 'Для x86_64: рівень мікроархітектури x86-64-v2 або вище'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Для ppc64le: POWER9 або вище'
+requirements_cpu_slfo_s390x: 'Для s390x: z14 або вище'
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+upgrade_table_linux_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Linux
+upgrade_table_windows_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_Microsoft_Windows
+upgrade_table_mac_dvd_link: 
+  https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
+upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
+upgrade_table_windows_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
+upgrade_table__mac_usb_link: 
+  https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+verify_download_checksums_help_link: 
+  https://en.opensuse.org/SDB:Download_help#Checksums
+preconfigured_image: Попередньо налаштований образ (raw)
+preconfigured_image_desc: Попередньо налаштований образ (raw)
+preconfigured_qcow_image: Попередньо налаштований образ (qcow)
+preconfigured_rt_image: Налаштовані образи з ядром реального часу (raw)
+encrypted_rt_image: Повністю зашифрований образ із ядром реального часу (raw)
