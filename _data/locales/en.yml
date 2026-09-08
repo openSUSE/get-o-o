@@ -79,6 +79,8 @@ jeos_images: JeOS
 jeos_info: Minimal VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal_vm_images: Minimal Virtual Machine
 minimal_vm_info: Similar to the SUSE Linux Enterprise Server Minimal-VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
+immutable_images: Immutable
+immutable_images_info: Leap Immutable is a transactionally updated, read-only root filesystem variant of Leap, replacing Leap Micro from Leap 16.1 on. The self-install images are our recommendation for USB-based installations. Configure the system on first boot with either <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> or <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
 server_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
 server_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
@@ -227,9 +229,20 @@ points_welcoming_p1: |
 preconfigured_image: Preconfigured Image (raw)
 preconfigured_image_desc: Preconfigured Image (raw)
 preconfigured_qcow_image: Preconfigured Image (qcow)
+preconfigured_dasd_image: Preconfigured Image for DASD (raw)
+preconfigured_dasd_desc: For IBM zSystems and LinuxONE with ECKD DASD storage
+preconfigured_fba_image: Preconfigured Image for FBA (raw)
+preconfigured_fba_desc: For IBM zSystems and LinuxONE with FBA DASD storage
+preconfigured_fcp_image: Preconfigured Image for FCP (raw)
+preconfigured_fcp_desc: For IBM zSystems and LinuxONE with FCP attached SCSI storage
 preconfigured_rt_image: Preconfigured RealTime Image (raw)
 encrypted_rt_image: Fully Encrypted RealTime Image (raw)
 selfinstall_image: Self-install Image
+selfinstall_immutable_image: Immutable Self-install Image
+selfinstall_immutable_desc: |
+  Immutable variant with a read-only root filesystem and transactional
+  updates. Successor of Leap Micro. Configure it on first boot with
+  Ignition or Combustion.
 selfinstall_rt_image: Self-install RealTime Image
 snapper: System got corrupted? Not a problem anymore
 snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\

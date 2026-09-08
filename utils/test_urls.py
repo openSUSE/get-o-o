@@ -111,7 +111,7 @@ def main():
     
     if failures:
         print("\nFailed URLs:")
-        for url, success, msg, expected in failures:
+        for url, success, msg, expected in sorted(failures):
             print(f" - {url} ({msg})")
         sys.exit(1)
     else:
