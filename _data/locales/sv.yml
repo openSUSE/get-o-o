@@ -506,3 +506,23 @@ selfinstall_64k_image: Självinstallerad 64k-avbild (iso)
 selfinstall_encrypted_64k_image: Helt krypterad självinstallerad 64k-avbild 
   (iso)
 harvester_cloud_image: Harvester och molnavbilder
+immutable_images: Oföränderlig
+immutable_images_info: Leap Immutable är en transaktionellt uppdaterad, 
+  skrivskyddad rootfilsystemvariant av Leap, som ersätter Leap Micro från och 
+  med Leap 16.1. Självinstallationsavbildningarna är vår rekommendation för 
+  USB-baserade installationer. Konfigurera systemet vid första uppstart med 
+  antingen <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> eller <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+preconfigured_dasd_image: Förkonfigurerad avbild för DASD (rå)
+preconfigured_dasd_desc: För IBM zSystems och LinuxONE med ECKD DASD-lagring
+preconfigured_fba_image: Förkonfigurerad avbild för FBA (rå)
+preconfigured_fba_desc: För IBM zSystems och LinuxONE med FBA DASD-lagring
+preconfigured_fcp_image: Förkonfigurerad avbild för FCP (rå)
+preconfigured_fcp_desc: För IBM zSystems och LinuxONE med FCP-ansluten 
+  SCSI-lagring
+selfinstall_immutable_image: Oföränderlig Självinstallerande avbild
+selfinstall_immutable_desc: |
+  Oföränderlig variant med ett skrivskyddat rootfilsystem och transaktionella
+  uppdateringar. Efterföljaren till Leap Micro. Konfigurera den vid första uppstart med
+  Ignition eller Combustion.
