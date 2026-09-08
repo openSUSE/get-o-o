@@ -40,6 +40,19 @@ downloads:
         url: "/distribution/leap/16.1/offline/Leap-16.1-online-installer-x86_64.install.iso.sha512.asc"
       - name: torrent_file # Torrents only for GM boo#1231361
         url: "/distribution/leap/16.1/offline/Leap-16.1-online-installer-x86_64.install.iso.torrent"
+    # Immutable self-install, the remaining Immutable media are in immutable_images
+    - name: selfinstall_immutable_image
+      short: selfinstall_immutable_desc
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso.sha256.asc"
   - name: aarch64
     types:
     - name: offline_image
@@ -70,6 +83,19 @@ downloads:
         url: "/distribution/leap/16.1/offline/Leap-16.1-online-installer-aarch64.install.iso.sha512.asc"
       - name: torrent_file
         url: "/distribution/leap/16.1/offline/Leap-16.1-online-installer-aarch64.install.iso.torrent"
+    # Immutable self-install, the remaining Immutable media are in immutable_images
+    - name: selfinstall_immutable_image
+      short: selfinstall_immutable_desc
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso.sha256.asc"
   - name: ppc64le
     types:
     - name: offline_image
@@ -259,6 +285,265 @@ downloads:
         url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-Cloud.qcow2.sha512"
       - name: signature
         url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-Cloud.qcow2.sha512.asc"
+
+# ================================
+# Leap Immutable images, they replace Leap Micro starting with Leap 16.1
+# Note: unlike the installer media these are only published with sha256
+# ================================
+- name: immutable_images
+  display: server
+  info: immutable_images_info
+  arches:
+  - name: server_x86_64
+    types:
+    - name: selfinstall_image
+      short: selfinstall_image
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-SelfInstall.iso.sha256.asc"
+    - name: preconfigured_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base.raw.xz.sha256.asc"
+    - name: encrypted_image
+      short: encrypted_image
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-encrypted.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-encrypted.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-encrypted.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-encrypted.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-encrypted.raw.xz.sha256.asc"
+    - name: preconfigured_qcow_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-qcow.qcow2"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-qcow.qcow2.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-qcow.qcow2?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-qcow.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-qcow.qcow2.sha256.asc"
+    - name: vmware_image
+      short: vmware_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-VMware.ova"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-VMware.ova.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-VMware.ova?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-VMware.ova.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-VMware.ova.sha256.asc"
+    - name: selfinstall_rt_image
+      short: selfinstall_rt_image
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-RT-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-RT-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-RT-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-RT-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.x86_64-Base-RT-SelfInstall.iso.sha256.asc"
+    - name: preconfigured_rt_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT.raw.xz.sha256.asc"
+    - name: encrypted_rt_image
+      short: encrypted_rt_image
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT-encrypted.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT-encrypted.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT-encrypted.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT-encrypted.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.x86_64-Base-RT-encrypted.raw.xz.sha256.asc"
+
+  - name: server_aarch64
+    types:
+    - name: selfinstall_image
+      short: selfinstall_image
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-SelfInstall.iso.sha256.asc"
+    - name: preconfigured_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base.raw.xz.sha256.asc"
+    - name: preconfigured_qcow_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-qcow.qcow2"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-qcow.qcow2.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-qcow.qcow2?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-qcow.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-qcow.qcow2.sha256.asc"
+    # 64kB page size images
+    - name: selfinstall_64k_image
+      short: selfinstall_64k_image
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-64kb-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-64kb-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-64kb-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-64kb-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-64kb-SelfInstall.iso.sha256.asc"
+    - name: preconfigured_64k_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb.raw.xz.sha256.asc"
+    - name: encrypted_64k_image
+      short: encrypted_64k_image
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb-encrypted.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb-encrypted.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb-encrypted.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb-encrypted.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-64kb-encrypted.raw.xz.sha256.asc"
+    # RealTime images
+    - name: selfinstall_rt_image
+      short: selfinstall_rt_image
+      primary_link: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-RT-SelfInstall.iso"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-RT-SelfInstall.iso.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-RT-SelfInstall.iso?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-RT-SelfInstall.iso.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-Immutable.aarch64-Base-RT-SelfInstall.iso.sha256.asc"
+    - name: preconfigured_rt_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-RT.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-RT.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-RT.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-RT.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.aarch64-Base-RT.raw.xz.sha256.asc"
+
+  - name: s390x
+    types:
+    - name: preconfigured_qcow_image
+      short: kvm_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-qcow.qcow2"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-qcow.qcow2.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-qcow.qcow2?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-qcow.qcow2.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-qcow.qcow2.sha256.asc"
+    - name: preconfigured_dasd_image
+      short: preconfigured_dasd_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-dasd.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-dasd.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-dasd.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-dasd.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-dasd.raw.xz.sha256.asc"
+    - name: preconfigured_fba_image
+      short: preconfigured_fba_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fba.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fba.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fba.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fba.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fba.raw.xz.sha256.asc"
+    - name: preconfigured_fcp_image
+      short: preconfigured_fcp_desc
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fcp.raw.xz"
+      links:
+      - name: metalink
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fcp.raw.xz.meta4"
+      - name: pick_mirror
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fcp.raw.xz?mirrorlist"
+      - name: checksum
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fcp.raw.xz.sha256"
+      - name: signature
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Immutable.s390x-Base-fcp.raw.xz.sha256.asc"
 
 - name: oem_images
   display: desktop
