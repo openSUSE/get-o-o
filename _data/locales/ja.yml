@@ -231,8 +231,8 @@ MicroOS_features:
       \ * 依存関係に問題がある場合には更新が行われないようになっています\n* 容量の無駄使いもありません。更新失敗時には、該当するファイルシステムのスナップショットは削除されます\n"
     name: 更新時の機密保持
   shield:
-    description: "### MicroOS は不変の OS です。巻き戻しも簡単です\n* 巻き戻しの際にディスクに書き込む必要はありません\n*
-      巻き戻しは単純に古い btrfs スナップショットを参照することによって行われます\n"
+    description: "### MicroOS は不変型の OS です。巻き戻しも簡単です\n* 不変型: ディスクに随時変更を書き込むことはありません\n\
+      * 巻き戻しは単純に古い btrfs スナップショットを参照することによって行われます\n"
     name: 巻き戻し (ロールバック)
   update:
     description: "###  トランザクション型更新\n\n#### 唯一性\nスナップショット機能の搭載された btrfs を使用する MicroOS
@@ -335,7 +335,7 @@ tumbleweed_ovw_desc: Tumbleweed
   では両方を実現することができます！
 leap_micro_ovw_desc_p1: このコミュニティ版は SUSE Linux Micro をベースにしていて、 SUSE Linux 
   Enterprise 
-  におけるエンタープライズ向けの強化されたセキュリティと標準準拠レベルの両方を達成しています。このような技術の統合により、モダンで不可変、そして開発者にも優しい
+  におけるエンタープライズ向けの強化されたセキュリティと標準準拠レベルの両方を達成しています。このような技術の統合により、モダンで不変型、そして開発者にも優しい
   OS プラットフォームになっています。
 leap_micro_ovw_desc_p2: Leap Micro バージョン 6.0 
   もしくはそれ以降では、自己インストールイメージのほか、純粋イメージとオフラインリポジトリとして利用できるパッケージ DVD 
@@ -407,3 +407,22 @@ selfinstall_base_encrypted_64k_image: 基本完全暗号化済み自己インス
 selfinstall_base_64k_image: 基本自己インストール型 64k イメージ (iso 形式)
 selfinstall_encrypted_64k_image: 完全暗号化済み自己インストール 64k イメージ (iso 形式)
 harvester_cloud_image: Harvester およびクラウドイメージ
+immutable_images: Immutable
+immutable_images_info: Leap Immutable 
+  はトランザクション型の更新機能を提供する、読み込み専用のルートファイルシステムを使用する Leap です。 Leap 16.1 およびそれ以降において、 
+  Leap Micro を置き換える存在となっています。 USB 
+  メモリからのインストールを行いたい場合は、自己インストール型イメージがお勧めです。初回の起動時に、 <a 
+  href="https://ja.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> もしくは <a 
+  href="https://ja.opensuse.org/Portal:MicroOS/Combustion">Combustion</a> 
+  のいずれかを利用してシステムを設定します。
+selfinstall_immutable_image: 不変型自己インストールイメージ
+selfinstall_immutable_desc: |
+  読み込み専用のルートファイルシステムを使用し、トランザクション型の更新機能を提供する不変型の仕組みです。
+  Leap Micro の後継として提供されています。
+  初回の起動時に Ignition もしくは Combustion を利用して設定を行います。
+preconfigured_dasd_image: DASD 向け事前構築済みイメージ (raw 形式)
+preconfigured_dasd_desc: ECKD DASD ストレージを搭載した IBM zSystems および LinuxONE 向け
+preconfigured_fba_image: FBA 向け事前構築済みイメージ (raw 形式)
+preconfigured_fba_desc: FBA DASD ストレージを搭載した IBM zSystems および LinuxONE 向け
+preconfigured_fcp_image: FCP 向け事前構築済みイメージ (raw 形式)
+preconfigured_fcp_desc: FCP 接続の SCSI ストレージを搭載した IBM zSystems および LinuxONE 向け
