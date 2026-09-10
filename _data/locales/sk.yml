@@ -508,3 +508,22 @@ encrypted_64k_image: Plne šifrovaný 64k obraz (raw)
 selfinstall_64k_image: Samoinštalačný 64k obraz (iso)
 selfinstall_encrypted_64k_image: Plne šifrovaný samoinštalačný 64k obraz (iso)
 harvester_cloud_image: Obraz Harvester a Cloud
+immutable_images: Nemenný
+preconfigured_dasd_image: Predkonfigurovaný obraz pre DASD (raw)
+preconfigured_dasd_desc: Pre IBM zSystems a LinuxONE s úložiskom ECKD DASD
+preconfigured_fba_image: Predkonfigurovaný obraz pre FBA (raw)
+preconfigured_fba_desc: Pre IBM zSystems a LinuxONE s úložiskom FBA DASD
+preconfigured_fcp_image: Predkonfigurovaný obraz pre FCP (raw)
+preconfigured_fcp_desc: Pre IBM zSystems a LinuxONE s úložiskom SCSI pripojeným 
+  FCP
+selfinstall_immutable_image: Nemenný samoinštalačný obraz
+immutable_images_info: Leap Immutable je varianta Leap s koreňovým súborovým 
+  systémom len na čítanie, aktualizovaná transakčne, ktorá od verzie Leap 16.1 
+  nahrádza Leap Micro. Pre inštalácie z USB odporúčame samoinštalačné obrazy. 
+  Nakonfigurujte systém pri prvom spustení buď s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> alebo <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+selfinstall_immutable_desc: |
+  Nemenná varianta s koreňovým súborovým systémom len na čítanie
+  a transakčnými aktualizáciami. Nástupca zariadenia Leap Micro.
+  Nakonfigurujte ho pri prvom spustení s Ignition alebo Combustion.
