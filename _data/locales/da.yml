@@ -520,3 +520,17 @@ MicroOS_features:
       * Brug zypper til at installere de nødvendige værktøjer; tilgængelige uden genstart
       * Persistent mellem brug
 harvester_cloud_image: Harvester og cloud-aftryk
+immutable_images: Uforanderlig
+immutable_images_info: Leap Immutable er en variant af Leap med et 
+  transaktionsopdateret, skrivebeskyttet root-filsystem, som erstatter Leap 
+  Micro fra og med Leap 16.1. Self-install-aftrykkene er vores anbefaling til 
+  USB-baserede installationer. Konfigurer systemet ved første opstart med enten 
+  <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> eller 
+  <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+preconfigured_dasd_image: Prækonfigureret aftryk for DASD (raw)
+preconfigured_dasd_desc: Til IBM zSystems og LinuxONE med ECKD DASD lager
+preconfigured_fba_image: Prækonfigureret aftryk for FBA (raw)
+preconfigured_fba_desc: Til IBM zSystems og LinuxONE med FBA DASD lager
+preconfigured_fcp_image: Prækonfigureret aftryk for FCP (raw)
+preconfigured_fcp_desc: Til IBM zSystems og LinuxONE med FCP tilkoblet SCSI 
+  lager
