@@ -534,3 +534,8 @@ preconfigured_fba_desc: Til IBM zSystems og LinuxONE med FBA DASD lager
 preconfigured_fcp_image: Prækonfigureret aftryk for FCP (raw)
 preconfigured_fcp_desc: Til IBM zSystems og LinuxONE med FCP tilkoblet SCSI 
   lager
+selfinstall_immutable_image: Uforanderligt selvinstallerende aftryk
+selfinstall_immutable_desc: |
+  Uforanderlig variant med et skrivebeskyttet root-filsystem og 
+  transaktionsopdateringer. Efterfølger til Leap Micro. Konfigurer det ved
+  første opstart med Ignition eller Combustion.
