@@ -2,6 +2,8 @@
 - version: 16.1
   order: 11
   releases:
+  - date: '2026-09-24 12:00:00 UTC'
+    state: 'RC'
   - date: '2026-06-08 12:00:00 UTC'
     state: 'Beta'
   - date: '2026-01-01 12:00:00 UTC'
