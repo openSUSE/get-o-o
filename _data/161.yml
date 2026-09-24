@@ -168,41 +168,41 @@ downloads:
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_minimal_desc
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-MS-HyperV.vhdx.xz"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: encrypted_image
       short: encrypted_image
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2.sha256.asc"
     - name: vmware_image
       short: vmware_minimal_desc
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-VMware.vmdk"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-VMware.vmdk.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-VMware.vmdk.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-VMware.vmdk.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-VMware.vmdk.sha256.asc"
     - name: harvester_cloud_image
       short: cloud_minimal_desc
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-Cloud.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-Cloud.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-Cloud.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-Cloud.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.x86_64-Cloud.qcow2.sha256.asc"
   - name: server_aarch64
     types:
     - name: kvm_image
@@ -210,41 +210,41 @@ downloads:
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_minimal_desc
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-MS-HyperV.vhdx.xz"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256.asc"
     - name: encrypted_image
       short: encrypted_image
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm-encrypt.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm-encrypt.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm-encrypt.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm-encrypt.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-kvm-encrypt.qcow2.sha256.asc"
     - name: rpi_image
       short: rpi_image
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-Image.aarch64-RaspberryPi.raw.xz"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-Image.aarch64-RaspberryPi.raw.xz.sha256.asc"
     - name: harvester_cloud_image
       short: cloud_minimal_desc
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-Cloud.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-Cloud.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-Cloud.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-Cloud.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.aarch64-Cloud.qcow2.sha256.asc"
 
 
 
@@ -255,17 +255,17 @@ downloads:
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-qcow2.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-qcow2.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-qcow2.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-qcow2.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-qcow2.qcow2.sha256.asc"
     - name: preconfigured_image
       short: preconfigured_image_desc
-      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-raw.raw.xz"
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-raw.raw.xz"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-raw.raw.xz.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-raw.raw.xz.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-ppc64le-4096-raw.raw.xz.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.ppc64le-raw.raw.xz.sha256.asc"
 
   - name: s390x
     types:
@@ -274,17 +274,17 @@ downloads:
       primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-kvm.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-kvm.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-kvm.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-kvm.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-kvm.qcow2.sha256.asc"
     - name: cloud_image
       short: cloud_minimal_desc
-      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-Cloud.qcow2"
+      primary_link: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-Cloud.qcow2"
       links:
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-Cloud.qcow2.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-Cloud.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-s390x-Cloud.qcow2.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-Minimal-VM.s390x-Cloud.qcow2.sha256.asc"
 
 # ================================
 # Leap Immutable images, they replace Leap Micro starting with Leap 16.1
@@ -560,9 +560,9 @@ downloads:
       - name: pick_mirror
         url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-GNOME.iso?mirrorlist"
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-GNOME.iso.sha512"
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-GNOME.iso.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-GNOME.iso.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-GNOME.iso.sha256.asc"
   #        - name: torrent_file
   #          url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-GNOME.iso.torrent"
 
@@ -575,9 +575,9 @@ downloads:
       - name: pick_mirror
         url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-GNOME.raw.xz?mirrorlist"
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-GNOME.raw.xz.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-GNOME.raw.xz.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-GNOME.raw.xz.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-GNOME.raw.xz.sha256.asc"
 #        - name: torrent_file
 #          url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-GNOME.raw.xz.torrent"
 
@@ -590,9 +590,9 @@ downloads:
       - name: pick_mirror
         url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-KDE.iso?mirrorlist"
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-KDE.iso.sha512"
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-KDE.iso.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-KDE.iso.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-KDE.iso.sha256.asc"
   #        - name: torrent_file
   #          url: "/distribution/leap/16.1/appliances/iso/Leap-16.1-OEM.x86_64-KDE.iso.torrent"
 
@@ -605,8 +605,8 @@ downloads:
       - name: pick_mirror
         url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-KDE.raw.xz?mirrorlist"
       - name: checksum
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-KDE.raw.xz.sha512"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-KDE.raw.xz.sha256"
       - name: signature
-        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-KDE.raw.xz.sha512.asc"
+        url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-KDE.raw.xz.sha256.asc"
 #        - name: torrent_file
 #          url: "/distribution/leap/16.1/appliances/Leap-16.1-OEM.x86_64-KDE.raw.xz.torrent"
