@@ -153,14 +153,6 @@ downloads:
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256"
       - name: signature
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-MS-HyperV.vhdx.xz.sha256.asc"
-    - name: encrypted_image
-      short: encrypted_image
-      primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2"
-      links:
-      - name: checksum
-        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2.sha512"
-      - name: signature
-        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-kvm-and-xen-encrypt.qcow2.sha512.asc"
     - name: vmware_image
       short: vmware_minimal_desc
       primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.x86_64-VMware.vmdk"
@@ -196,14 +188,6 @@ downloads:
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256"
       - name: signature
         url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-MS-HyperV.vhdx.xz.sha256.asc"
-    - name: encrypted_image
-      short: encrypted_image
-      primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-kvm-encrypt.qcow2"
-      links:
-      - name: checksum
-        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-kvm-encrypt.qcow2.sha512"
-      - name: signature
-        url: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-VM.aarch64-kvm-encrypt.qcow2.sha512.asc"
     - name: rpi_image
       short: rpi_image
       primary_link: "/distribution/leap/16.0/appliances/Leap-16.0-Minimal-Image.aarch64-RaspberryPi.raw.xz"

@@ -411,9 +411,9 @@ choosing_media_micro_p1: "La nova imatge d'autoinstal·lació és la millor opci
   USB poden escriure directament la imatge preconfigurada a la targeta SD.\nEs recomana
   als usuaris que busquen més control sobre el desplegament que usin <a href=\"https://en.opensuse.org/Portal:MicroOS/Combustion\"\
   >Combustió</a>.\n <br>\nEs pot veure una demostració d'un desplegament basat en
-  la Combustió <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aquí</a>.\n\
-  \ <br>\nEl jeos-firstboot s'oferirà com a benvinguda a qui no hagi configurat el
-  sistema mitjançant Combustió.\n"
+  Combustió <a href=\"https://www.youtube.com/watch?v=ANh5FHZDOxo\">aquí</a>.\n <br>\n\
+  El jeos-firstboot s'oferirà com a benvinguda a qui no hagi configurat el sistema
+  mitjançant Combustió.\n"
 preconfigured_qcow_image: Imatge preconfigurada (qcow)
 server_leapmicro_p1: Per a desplegaments punters, encastats, IoT i altres
 server_leapmicro_p2: Sistema operatiu ultrafiable i lleuger dissenyat per a 
@@ -538,3 +538,25 @@ selfinstall_64k_image: Imatge de 64k d'autoinstal·lació (iso)
 selfinstall_encrypted_64k_image: Imatge de 64k totalment encriptada i 
   d'autoinstal·lació (iso)
 harvester_cloud_image: Imatge de Recol·lector i Núvol
+immutable_images: Immutable
+immutable_images_info: El Leap Immutable és una variant del Leap amb un sistema 
+  de fitxers d'arrel de només lectura i actualització transaccional, que 
+  substitueix el Leap Micro a partir de la versió Leap 16.1. Les imatges 
+  autoinstal·lables són la nostra recomanació per a instal·lacions mitjançant 
+  USB. Configureu el sistema durant la primera arrencada amb <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> o <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+preconfigured_dasd_image: Imatge preconfigurada per a DASD (en brut)
+preconfigured_dasd_desc: Per a IBM zSystems i LinuxONE amb emmagatzematge ECKD 
+  DASD
+preconfigured_fba_image: Imatge preconfigurada per a FBA (en brut)
+preconfigured_fba_desc: Per a IBM zSystems i LinuxONE amb emmagatzematge FBA 
+  DASD
+preconfigured_fcp_image: Imatge preconfigurada per a FCP (en brut)
+preconfigured_fcp_desc: Per a IBM zSystems i LinuxONE amb emmagatzematge SCSI 
+  amb FCP
+selfinstall_immutable_image: Imatge d'autoinstal·lació immutable
+selfinstall_immutable_desc: |
+  Variant immutable amb un sistema de fitxers d'arrel de només lectura
+  i actualitzacions transaccionals. Successora del Leap Micro. Configureu-la
+  durant la primera arrencada amb Ignition o Combustion.

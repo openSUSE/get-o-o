@@ -533,3 +533,25 @@ encrypted_64k_image: Повністю зашифрований образ 64k (r
 selfinstall_64k_image: Образ для самостійної інсталяції 64k (iso)
 selfinstall_encrypted_64k_image: Повністю зашифрований образ для самостійної 
   інсталяції 64k (iso)
+selfinstall_immutable_desc: |
+  Незмінний варіант із кореневою файловою системою, доступною лише для читання, та транзакційними
+  оновленнями. Наступник Leap Micro. Налаштуйте його під час першого запуску за допомогою
+  Ignition або Combustion.
+immutable_images: Незмінний
+immutable_images_info: Leap Immutable — це варіант кореневої файлової системи 
+  Leap, що оновлюється транзакційно та призначений лише для читання, який 
+  замінює Leap Micro, починаючи з версії Leap 16.1. Для встановлення з USB-носія
+  ми рекомендуємо використовувати образи для самостійного встановлення. 
+  Налаштуйте систему під час першого запуску за допомогою <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> або <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+preconfigured_dasd_image: Попередньо налаштований образ для DASD (raw)
+preconfigured_dasd_desc: Для систем IBM zSystems та LinuxONE із системами 
+  зберігання даних ECKD DASD
+preconfigured_fba_image: Попередньо налаштований образ для FBA (raw)
+preconfigured_fba_desc: Для систем IBM zSystems та LinuxONE із системами 
+  зберігання даних FBA DASD
+preconfigured_fcp_image: Попередньо налаштований образ для FCP (raw)
+preconfigured_fcp_desc: Для IBM zSystems та LinuxONE із SCSI-системами 
+  зберігання даних, підключеними через FCP
+selfinstall_immutable_image: Незмінний самовстановлюваний образ
