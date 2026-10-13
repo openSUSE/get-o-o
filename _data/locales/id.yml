@@ -517,7 +517,7 @@ selfinstall_64k_image: Citra Instalasi Mandiri 64k (iso)
 selfinstall_encrypted_64k_image: Citra Instalasi Mandiri Sepenuhnya Terenkripsi 
   64k (iso)
 harvester_cloud_image: Citra Harvester dan Cloud
-immutable_images: Immutable
+immutable_images: Imutabel
 immutable_images_info: Leap Immutable adalah varian sistem berkas root 
   hanya-baca yang diperbarui secara transaksional, sebagai bagian dari Leap, dan
   menggantikan Leap Micro mulai Leap 16.1. Image self-install direkomendasikan 
@@ -536,4 +536,6 @@ preconfigured_fcp_desc: Untuk IBM zSystems dan LinuxONE dengan penyimpanan SCSI
   yang terhubung melalui FCP
 selfinstall_immutable_image: Image Self-install Immutable
 selfinstall_immutable_desc: |
-  Varian Immutable dengan sistem berkas root hanya-baca dan pembaruan transaksional. Penerus Leap Micro. Konfigurasikan saat boot pertama menggunakan Ignition atau Combustion.
+  Varian Immutable dengan sistem berkas root hanya-baca dan pembaruan
+   transaksional. Penerus Leap Micro. Konfigurasikan saat boot pertama
+   menggunakan Ignition atau Combustion.
