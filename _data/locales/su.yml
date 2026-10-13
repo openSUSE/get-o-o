@@ -117,3 +117,21 @@ choosing_media_p1: |
   Gambar Offline ilaharna dianjurkeun sabab ngandung lolobana the
   packages sadia dina distribusi jeung teu merlukeun network
   connection salila instalasi.
+choosing_media_agama_p1: |
+  <a href="https://github.com/agama-project/agama">Agama</a> nyaéta pamasang anyar anu bisa dipaké pikeun masang Leap 16 jeung Tumbleweed.
+  Aya rencana pikeun ngarojong pamasangan offline dina Agama. Média pamasangan séjénna saperti citra pasang-mandiri bakal ditambahkeun engké.
+choosing_media_micro_p1: |
+  Gambar pasang-mandiri anyar téh pilihan utama pikeun pamasangan maké USB atawa DVD.
+  Wizard pasang-mandiri anu basajan bakal nulis gambar anu geus dikonfigurasi saméméhna kana drive, tuluy ngagedékeun partisi nepi ka ukuran disk.
+  <br>
+  Pamaké Raspberry Pi jeung alat sarupa anu teu ngarojong usb-boot bisa langsung nulis gambar anu geus dikonfigurasi saméméhna kana kartu SD.
+  Pamaké anu hayang leuwih loba kontrol kana pamasangan disarankeun maké <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+  <br>
+  Démo pamasangan dumasar kana Combustion bisa ditingali <a href="https://www.youtube.com/watch?v=ANh5FHZDOxo">di dieu</a>.
+  <br>
+  jeos-firstboot bakal ngabagéakeun pamaké anu teu ngonpigurasi sistemna maké Combustion.
+choosing_media_p2: |
+  Gambar Jaringan disarankeun pikeun pangguna anu ngagaduhan bandwidth terbatas 
+  dina konéksi internétna, sabab éta ngan ukur bakal ngaunduh paket
+  pakét anu aranjeunna pilih dipasang, anu kamungkinanna
+   kirang langkung 4.7GB.
