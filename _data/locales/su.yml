@@ -2,7 +2,7 @@ site_title: Kéngingkeun openSUSE
 site_title_short: Kéngingkeun
 site_description: Diajar ngeunaan distribusi openSUSE sareng unduh gratis
 site_copyright: © 2025 Kontributor openSUSE
-search: Pilarian
+search: Pilari
 translate: Tarjamahkeun
 source_code: Kodeu Sumber
 license: Lisensi
@@ -145,3 +145,17 @@ documentation_license: Lisénsi
 documentation_full_documentation: Dokuméntasi Lengkep
 leap_switch: Cara Gampang Pindah ka openSUSE Leap
 documentation_license_link: https://en.opensuse.org/openSUSE:License
+leap_switch_instructions_link: https://en.opensuse.org/SDB:System_upgrade
+requirements_rec: Direkomendasikeun
+requirements_cpu: CPU
+requirements_cpu_desc: Prosésor inti ganda 2 Ghz atawa nu leuwih alus
+requirements_cpu_slfo_x86_64: 'Kanggé x86_64: mikroarsitektur level x86-64-v2 atawa
+  saluhureun'
+requirements_cpu_slfo_x86_64_link: 
+  https://en.opensuse.org/X86-64_microarchitecture_levels
+requirements_cpu_slfo_ppc64le: 'Kanggé ppc64le: POWER9 atawa saluhureun'
+requirements_cpu_slfo_s390x: 'Kanggé s390x: z14 atawa saluhureun'
+requirements_mem: Memori
+requirements_hdd: Panyimpenan
+requirements_hdd_var: Partisi /var
+requirements_min: Minimal
