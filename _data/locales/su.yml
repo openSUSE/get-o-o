@@ -159,3 +159,4 @@ requirements_mem: Memori
 requirements_hdd: Panyimpenan
 requirements_hdd_var: Partisi /var
 requirements_min: Minimal
+requirements: Sarat Sistem
