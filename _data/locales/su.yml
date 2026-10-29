@@ -160,3 +160,9 @@ requirements_hdd: Panyimpenan
 requirements_hdd_var: Partisi /var
 requirements_min: Minimal
 requirements: Sarat Sistem
+leap_switch_instructions: Patuduh Pamutahiran Daring.
+requirements_hdd_root: Partisi / (root)
+upgrade_table_windows: Ti Windows
+upgrade_table_mac: Ti macOS
+tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
+tw_switch_instructions: Patuduh Pamutahiran.
