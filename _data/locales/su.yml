@@ -166,3 +166,6 @@ upgrade_table_windows: Ti Windows
 upgrade_table_mac: Ti macOS
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 tw_switch_instructions: Patuduh Pamutahiran.
+requirements_net: Jaringan
+upgrade_table_linux: Tina vérsi nu leuwih heubeul atawa distro Linux séjén
+requirements_hdd_size_desc: $value ruang disk nu sadia
