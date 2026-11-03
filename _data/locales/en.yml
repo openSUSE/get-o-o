@@ -256,6 +256,15 @@ software_p1: |
   makes this way easier, by incorporating software from a plethora of
   sources in one place.
 software_get: Get Software
+immutable_mode: Immutable Mode
+immutable_mode_p1: |
+  Starting with Leap 16.1, the Agama installer can set up Leap in
+  Immutable Mode. The root filesystem is read-only and updates are
+  applied transactionally: each update goes into a new snapshot as a
+  single operation, so the running system is never left half-updated and
+  an update can easily be rolled back. Immutable Mode is the direct
+  successor of Leap Micro. The mode is chosen during installation and
+  cannot be changed afterwards.
 zypper: Zypper, your new favourite package manager
 zypper_p1: |
   It's quick and easy to learn. Provides zypper-apt, a compatibilty
