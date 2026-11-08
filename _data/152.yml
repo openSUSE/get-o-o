@@ -22,8 +22,6 @@ downloads:
         url: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-DVD-x86_64.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-DVD-x86_64.iso.sha256"
-      - name: signature
-        url: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-DVD-x86_64.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-NET-x86_64.iso"
@@ -34,8 +32,6 @@ downloads:
         url: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-NET-x86_64.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-NET-x86_64.iso.sha256"
-      - name: signature
-        url: "/distribution/leap/15.2/iso/openSUSE-Leap-15.2-NET-x86_64.iso.sha256.asc"
 - name: ports_images
   info: ports_info
   arches:
