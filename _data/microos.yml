@@ -131,10 +131,6 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.meta4"
       - name: pick_mirror
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx?mirrorlist"
-      - name: checksum
-        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.sha256"
-      - name: signature
-        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-VMware.vmx.sha256.asc"
     - name: vmware_ch_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmdk"
@@ -155,10 +151,6 @@ downloads:
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.meta4"
       - name: pick_mirror
         url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx?mirrorlist"
-      - name: checksum
-        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.sha256"
-      - name: signature
-        url: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-ContainerHost-VMware.vmx.sha256.asc"
     - name: vagrant_image
       desc: microos_desc
       primary_link: "/tumbleweed/appliances/openSUSE-MicroOS.x86_64-Vagrant.box"
