@@ -80,7 +80,7 @@ downloads:
       - name: pick_mirror
         url: /distribution/leap-micro/6.2/product/iso/openSUSE-Leap-Micro-6.2-x86_64.iso?mirrorlist
       - name: checksum
-        url: /distribution/leap-micro/6.2/product/iso/openSUSE-Leap-Micro-6.2-x86_64.iso.sha256
+        url: /distribution/leap-micro/6.2/product/iso/openSUSE-Leap-Micro-6.2-x86_64.iso.sha512
 
 
   # ================================
@@ -166,7 +166,7 @@ downloads:
       - name: pick_mirror
         url: /distribution/leap-micro/6.2/product/iso/openSUSE-Leap-Micro-6.2-aarch64.iso?mirrorlist
       - name: checksum
-        url: /distribution/leap-micro/6.2/product/iso/openSUSE-Leap-Micro-6.2-aarch64.iso.sha256
+        url: /distribution/leap-micro/6.2/product/iso/openSUSE-Leap-Micro-6.2-aarch64.iso.sha512
 
 # ================================
 # Base images (display: false)
