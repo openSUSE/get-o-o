@@ -4,12 +4,12 @@
 <p>{{ locale.leap_160_ovw_video_desc }}</p>
 <div id="leap160-video">
   <button type="button" class="btn btn-outline-primary" id="leap160-video-load">
-    Watch on YouTube
+    {{ locale.watch_on_youtube }}
   </button>
   <noscript>
     <p>
       <a class="btn btn-outline-primary" href="https://www.youtube.com/watch?v=twTi-yKy0oY" target="_blank" rel="noopener noreferrer">
-        Watch on YouTube (external website)
+        {{ locale.watch_on_youtube_external }}
       </a>
     </p>
   </noscript>
@@ -25,7 +25,7 @@
       iframe.width = '560';
       iframe.height = '315';
       iframe.src = 'https://www.youtube-nocookie.com/embed/twTi-yKy0oY';
-      iframe.title = 'YouTube video player';
+      iframe.title = {{ locale.youtube_video_player | jsonify }};
       iframe.frameBorder = '0';
       iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
       iframe.allowFullscreen = true;
