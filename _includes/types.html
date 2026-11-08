@@ -18,7 +18,7 @@
   <div class="btn-group">
     <a href="https://download.opensuse.org{{type.primary_link}}" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }}">{{ locale.download }}</a>
     <button type="button" class="btn btn-{{ distro.bg-color }} text-{{ distro.fg-color }} dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      <span class="sr-only">Toggle Dropdown</span>
+      <span class="sr-only">{{ locale.toggle_dropdown }}</span>
     </button>
     <div class="dropdown-menu dropdown-menu-right">
       {% for link in type.links %}

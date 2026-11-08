@@ -7,6 +7,9 @@ translate: Translate
 source_code: Source Code
 license: License
 learn_more: Learn More
+toggle_dropdown: Toggle Dropdown
+close: Close
+redirect: Redirect
 leap_16_coming_soon: |
   Public release of Leap 16.0, a successor to Leap 15.6, can be expected in Fall 2025. There is no plan to make Leap 15.7.<br/>
   Check regularly for updates on our <a href="https://en.opensuse.org/openSUSE:Roadmap">roadmap</a> and <a href="https://news.opensuse.org/tag/leap">news.opensuse.org</a> for more information.
@@ -206,6 +209,7 @@ desktops_p1: |
   installer. We actively feature three desktop environments, and offer
   even more in the expanded software view within the installer.
 installation: Install it how you want it
+installation_alt: Installer screenshot
 installation_p1: "The openSUSE Installation process provides you with all the options\n\
   you would possibly need. Want to install your system with mouse and\nkeyboard? Load\
   \ up the installer in graphical mode. Don't have a mouse\non hand? Enable the terminal\
@@ -245,11 +249,13 @@ selfinstall_immutable_desc: |
   Ignition or Combustion.
 selfinstall_rt_image: Self-install RealTime Image
 snapper: System got corrupted? Not a problem anymore
+snapper_alt: YaST Snapper Module screenshot
 snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\
   having continuous backups performed automatically when installing\nsoftware and\
   \ updates. Just boot from an earlier snapshot and bring\nyour system to a working\
   \ state in the matter of minutes.\n"
 software: Getting software couldn't be easier
+software_alt: Shopping bag
 software_p1: |
   Between us, having to go through every website to get all the
   software you might need is a lot of work. The online software center
@@ -268,6 +274,7 @@ transactional_p1: |
   roles of openSUSE distributions also work with the system role
   Transactional Server.
 zypper: Zypper, your new favourite package manager
+zypper_alt: zypper screenshot
 zypper_p1: |
   It's quick and easy to learn. Provides zypper-apt, a compatibilty
   layer for usage with apt and apt-get commands. It's based on libsolv,
@@ -432,6 +439,9 @@ leap_micro_ovw_desc_p3: Try Leap Micro in VMs running on either <a href="https:/
 leap_micro_ovw_video_desc: Leap Micro 6.1 installation demo with a Full Disk Encryption and a two factor authentication in cockpit.
 leap_156_ovw_video_desc: A Leap 15.6 release live stream
 leap_160_ovw_video_desc: A Leap 16.0 release live stream
+watch_on_youtube: Watch on YouTube
+watch_on_youtube_external: Watch on YouTube (external website)
+youtube_video_player: YouTube video player
 microos_ovw_title: Micro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem
 microos_ovw_desc_p1: Designed to host container workloads with automated administration & patching. Installing openSUSE MicroOS you get a quick, small environment for deploying Containers, or any other workload that benefits from Transactional Updates. As rolling release distribution the software is always up-to-date.
 microos_ovw_desc_p2: MicroOS offers an offline image. The main difference between the offline and self-install/raw images are that the offline image has an installer. Raw and self-install allows for customization via combustion or manually in the image after it is written to the disk. There is an option for a real-time kernel.
