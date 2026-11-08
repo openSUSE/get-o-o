@@ -1,4 +1,4 @@
-FILES ?= _data/160.yml _data/161.yml
+FILES ?= _data/*.yml
 
 .PHONY: test-urls
 
