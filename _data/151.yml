@@ -78,9 +78,9 @@ downloads:
       - name: pick_mirror
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz?mirrorlist"
       - name: checksum
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.zx.sha256"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.zx.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz.sha256.asc"
     - name: vmware_image
       short: vmware_desc
       primary_link: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-VMware-Current.vmdk.xz"
