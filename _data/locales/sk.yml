@@ -527,3 +527,4 @@ selfinstall_immutable_desc: |
   Nemenná varianta s koreňovým súborovým systémom len na čítanie
   a transakčnými aktualizáciami. Nástupca zariadenia Leap Micro.
   Nakonfigurujte ho pri prvom spustení s Ignition alebo Combustion.
+toggle_dropdown: Prepnúť rozbaľovací zoznam
