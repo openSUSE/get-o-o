@@ -560,3 +560,13 @@ selfinstall_immutable_desc: |
   Variant immutable amb un sistema de fitxers d'arrel de només lectura
   i actualitzacions transaccionals. Successora del Leap Micro. Configureu-la
   durant la primera arrencada amb Ignition o Combustion.
+toggle_dropdown: Commuta el menú desplegable
+close: Tanca
+redirect: Redirecciona
+installation_alt: Captura de pantalla de l'instal·lador
+snapper_alt: Captura de pantalla del mòdul Snapper del YaST
+software_alt: Bossa de la compra
+zypper_alt: Captura de pantalla del zypper
+watch_on_youtube: Mireu-ho al YouTube
+watch_on_youtube_external: Mireu-ho al YouTube (lloc web extern)
+youtube_video_player: Reproductor de vídeo del YouTube
