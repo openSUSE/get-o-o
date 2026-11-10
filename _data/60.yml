@@ -20,6 +20,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/iso/openSUSE-Leap-Micro.x86_64-Default-SelfInstall.iso.sha256.asc
     - name: preconfigured_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz
@@ -30,6 +32,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default.raw.xz.sha256.asc
     - name: encrypted_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw
@@ -40,6 +44,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-encrypted.raw.sha256.asc
     - name: preconfigured_qcow_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2
@@ -50,6 +56,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-qcow.qcow2.sha256.asc
     - name: vmware_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-VMware.vmdk
@@ -60,6 +68,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-VMware.vmdk?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-VMware.vmdk.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.x86_64-Default-VMware.vmdk.sha256.asc
     - name: packages_image
       desc: packages_image_desc
       primary_link: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-x86_64.iso
@@ -70,6 +80,8 @@ downloads:
         url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-x86_64.iso?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-x86_64.iso.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-x86_64.iso.sha256.asc
     
 
   - name: aarch64
@@ -84,6 +96,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/iso/openSUSE-Leap-Micro.aarch64-Default-SelfInstall.iso.sha256.asc
     - name: preconfigured_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz
@@ -94,6 +108,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default.raw.xz.sha256.asc
     - name: preconfigured_qcow_image
       desc: kvm_desc
       primary_link: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2
@@ -104,6 +120,8 @@ downloads:
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/appliances/openSUSE-Leap-Micro.aarch64-Default-qcow.qcow2.sha256.asc
     - name: packages_image
       desc: packages_image_desc
       primary_link: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-aarch64.iso
@@ -114,4 +132,6 @@ downloads:
         url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-aarch64.iso?mirrorlist
       - name: checksum
         url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-aarch64.iso.sha256
+      - name: signature
+        url: /distribution/leap-micro/6.0/product/iso/openSUSE-Leap-Micro-6.0-aarch64.iso.sha256.asc
     
