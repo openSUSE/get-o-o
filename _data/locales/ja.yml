@@ -426,3 +426,13 @@ preconfigured_fba_image: FBA 向け事前構築済みイメージ (raw 形式)
 preconfigured_fba_desc: FBA DASD ストレージを搭載した IBM zSystems および LinuxONE 向け
 preconfigured_fcp_image: FCP 向け事前構築済みイメージ (raw 形式)
 preconfigured_fcp_desc: FCP 接続の SCSI ストレージを搭載した IBM zSystems および LinuxONE 向け
+toggle_dropdown: ドロップダウンの切り替え
+close: 閉じる
+redirect: リダイレクト
+installation_alt: インストーラのスクリーンショット
+snapper_alt: YaST snapper モジュールのスクリーンショット
+software_alt: ショッピングバッグ
+zypper_alt: zypper のスクリーンショット
+watch_on_youtube: YouTube で閲覧
+watch_on_youtube_external: YouTube (外部 Web サイト) で閲覧
+youtube_video_player: YouTube ビデオプレーヤ
