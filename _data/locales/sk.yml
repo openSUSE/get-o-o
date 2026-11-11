@@ -528,3 +528,12 @@ selfinstall_immutable_desc: |
   a transakčnými aktualizáciami. Nástupca zariadenia Leap Micro.
   Nakonfigurujte ho pri prvom spustení s Ignition alebo Combustion.
 toggle_dropdown: Prepnúť rozbaľovací zoznam
+close: Zavrieť
+redirect: Presmerovať
+installation_alt: Snímka obrazovky inštalátora
+snapper_alt: Snímka obrazovky modulu YaST Snapper
+software_alt: Nákupná taška
+zypper_alt: snímka obrazovky zypper
+watch_on_youtube: Pozrite si na YouTube
+watch_on_youtube_external: Pozrite si na YouTube (externá webová stránka)
+youtube_video_player: YouTube video prehrávač
