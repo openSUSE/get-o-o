@@ -22,8 +22,6 @@ downloads:
         url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-x86_64.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-x86_64.iso.sha256"
-      - name: signature
-        url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-x86_64.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-x86_64.iso.torrent"
     - name: network_image
@@ -36,8 +34,6 @@ downloads:
         url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-x86_64.iso?mirrorlist"
       - name: checksum
         url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-x86_64.iso.sha256"
-      - name: signature
-        url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-x86_64.iso.sha256.asc"
       - name: torrent_file
         url: "/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-x86_64.iso.torrent"
 - name: jeos_images
@@ -78,9 +74,9 @@ downloads:
       - name: pick_mirror
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz?mirrorlist"
       - name: checksum
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.zx.sha256"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.zx.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz.sha256.asc"
     - name: vmware_image
       short: vmware_desc
       primary_link: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-VMware-Current.vmdk.xz"
@@ -158,8 +154,6 @@ downloads:
         url: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-aarch64-Media.iso.sha256"
-      - name: signature
-        url: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-aarch64-Media.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-aarch64-Media.iso"
@@ -170,8 +164,6 @@ downloads:
         url: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-aarch64-Media.iso?mirrorlist"
       - name: checksum
         url: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-aarch64-Media.iso.sha256"
-      - name: signature
-        url: "/ports/aarch64/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-aarch64-Media.iso.sha256.asc"
   - name: ppc64le
     types:
     - name: offline_image
@@ -184,8 +176,6 @@ downloads:
         url: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-ppc64le-Media.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-ppc64le-Media.iso.sha256"
-      - name: signature
-        url: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-DVD-ppc64le-Media.iso.sha256.asc"
     - name: network_image
       desc: network_desc
       primary_link: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-ppc64le-Media.iso"
@@ -196,5 +186,3 @@ downloads:
         url: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-ppc64le-Media.iso?mirrorlist"
       - name: checksum
         url: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-ppc64le-Media.iso.sha256"
-      - name: signature
-        url: "/ports/ppc/distribution/leap/15.1/iso/openSUSE-Leap-15.1-NET-ppc64le-Media.iso.sha256.asc"

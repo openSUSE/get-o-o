@@ -39,6 +39,11 @@
   margin: 30px;
 }
 
+.container-fluid.bg-wallpaper,
+.container-fluid.bg-server {
+  width: calc(100% - 60px);
+}
+
 .bg-tumbleweed-tint {
   background: rgba(var(--tumbleweed), 0.3)
 }

@@ -7,6 +7,9 @@ translate: Translate
 source_code: Source Code
 license: License
 learn_more: Learn More
+toggle_dropdown: Toggle Dropdown
+close: Close
+redirect: Redirect
 leap_16_coming_soon: |
   Public release of Leap 16.0, a successor to Leap 15.6, can be expected in Fall 2025. There is no plan to make Leap 15.7.<br/>
   Check regularly for updates on our <a href="https://en.opensuse.org/openSUSE:Roadmap">roadmap</a> and <a href="https://news.opensuse.org/tag/leap">news.opensuse.org</a> for more information.
@@ -79,6 +82,8 @@ jeos_images: JeOS
 jeos_info: Minimal VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
 minimal_vm_images: Minimal Virtual Machine
 minimal_vm_info: Similar to the SUSE Linux Enterprise Server Minimal-VM images. For Arm JeOS images, please go to the <a href="https://en.opensuse.org/Portal:Arm#Release_supported_platforms">Arm wiki page</a>
+immutable_images: Immutable
+immutable_images_info: Leap Immutable is a transactionally updated, read-only root filesystem variant of Leap, replacing Leap Micro from Leap 16.1 on. The self-install images are our recommendation for USB-based installations. Configure the system on first boot with either <a href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> or <a href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
 server_aarch64: UEFI Arm 64-bit servers and boards (aarch64)
 server_x86_64: Intel or AMD 64-bit servers (x86_64)
 live_images: Live
@@ -204,6 +209,7 @@ desktops_p1: |
   installer. We actively feature three desktop environments, and offer
   even more in the expanded software view within the installer.
 installation: Install it how you want it
+installation_alt: Installer screenshot
 installation_p1: "The openSUSE Installation process provides you with all the options\n\
   you would possibly need. Want to install your system with mouse and\nkeyboard? Load\
   \ up the installer in graphical mode. Don't have a mouse\non hand? Enable the terminal\
@@ -227,16 +233,29 @@ points_welcoming_p1: |
 preconfigured_image: Preconfigured Image (raw)
 preconfigured_image_desc: Preconfigured Image (raw)
 preconfigured_qcow_image: Preconfigured Image (qcow)
+preconfigured_dasd_image: Preconfigured Image for DASD (raw)
+preconfigured_dasd_desc: For IBM zSystems and LinuxONE with ECKD DASD storage
+preconfigured_fba_image: Preconfigured Image for FBA (raw)
+preconfigured_fba_desc: For IBM zSystems and LinuxONE with FBA DASD storage
+preconfigured_fcp_image: Preconfigured Image for FCP (raw)
+preconfigured_fcp_desc: For IBM zSystems and LinuxONE with FCP attached SCSI storage
 preconfigured_rt_image: Preconfigured RealTime Image (raw)
 encrypted_rt_image: Fully Encrypted RealTime Image (raw)
 selfinstall_image: Self-install Image
+selfinstall_immutable_image: Immutable Self-install Image
+selfinstall_immutable_desc: |
+  Immutable variant with a read-only root filesystem and transactional
+  updates. Successor of Leap Micro. Configure it on first boot with
+  Ignition or Combustion.
 selfinstall_rt_image: Self-install RealTime Image
 snapper: System got corrupted? Not a problem anymore
+snapper_alt: YaST Snapper Module screenshot
 snapper_p1: "The Filesystem Snapshots feature keeps your filesystem in check by\n\
   having continuous backups performed automatically when installing\nsoftware and\
   \ updates. Just boot from an earlier snapshot and bring\nyour system to a working\
   \ state in the matter of minutes.\n"
 software: Getting software couldn't be easier
+software_alt: Shopping bag
 software_p1: |
   Between us, having to go through every website to get all the
   software you might need is a lot of work. The online software center
@@ -254,21 +273,8 @@ transactional_p1: |
   that the vast majority of RPM packages that work with other system
   roles of openSUSE distributions also work with the system role
   Transactional Server.
-yast: YaST, the best choice for the ~~power~~ user
-yast_p1: |
-  One of the greatest system configuration tools helps you, the user, to
-  setup every single aspect of your system. You no longer need to go
-  through a plethora of configuration scripts or enter dubious commands
-  to get the system setup as you need it.
-yast_firewall: Firewall
-yast_fonts: Fonts
-yast_hardware: Hardware
-yast_partitioner: Partitioner
-yast_printer: Printer
-yast_scanner: Scanner
-yast_sound: Sound
-yast_software: Software
 zypper: Zypper, your new favourite package manager
+zypper_alt: zypper screenshot
 zypper_p1: |
   It's quick and easy to learn. Provides zypper-apt, a compatibilty
   layer for usage with apt and apt-get commands. It's based on libsolv,
@@ -433,6 +439,9 @@ leap_micro_ovw_desc_p3: Try Leap Micro in VMs running on either <a href="https:/
 leap_micro_ovw_video_desc: Leap Micro 6.1 installation demo with a Full Disk Encryption and a two factor authentication in cockpit.
 leap_156_ovw_video_desc: A Leap 15.6 release live stream
 leap_160_ovw_video_desc: A Leap 16.0 release live stream
+watch_on_youtube: Watch on YouTube
+watch_on_youtube_external: Watch on YouTube (external website)
+youtube_video_player: YouTube video player
 microos_ovw_title: Micro Service OS providing Transactional (Atomic) Updates upon a read-only btrfs root filesystem
 microos_ovw_desc_p1: Designed to host container workloads with automated administration & patching. Installing openSUSE MicroOS you get a quick, small environment for deploying Containers, or any other workload that benefits from Transactional Updates. As rolling release distribution the software is always up-to-date.
 microos_ovw_desc_p2: MicroOS offers an offline image. The main difference between the offline and self-install/raw images are that the offline image has an installer. Raw and self-install allows for customization via combustion or manually in the image after it is written to the disk. There is an option for a real-time kernel.

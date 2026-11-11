@@ -2,6 +2,10 @@
 - version: 16.1
   order: 11
   releases:
+  - date: '2026-11-03 12:00:00 UTC'
+    state: 'Stable'
+  - date: '2026-09-24 12:00:00 UTC'
+    state: 'RC'
   - date: '2026-06-08 12:00:00 UTC'
     state: 'Beta'
   - date: '2026-01-01 12:00:00 UTC'
@@ -30,6 +34,8 @@
     state: 'RC'
   - date: '2024-06-12 12:00:00 UTC'
     state: 'Stable'
+  - date: '2026-04-30 12:00:00 UTC'
+    state: 'EOL'
 - version: 15.5
   order: 8
   releases:

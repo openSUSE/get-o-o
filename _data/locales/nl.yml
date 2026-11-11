@@ -512,3 +512,24 @@ selfinstall_64k_image: Zelf installerende 64k image (iso)
 selfinstall_encrypted_64k_image: Volledig versleutelde zelf installerende 64k 
   image (iso)
 harvester_cloud_image: Oogsten en cloud-image
+immutable_images: Onveranderlijk
+immutable_images_info: Leap onveranderlijk is variant van Leap en een 
+  alleen-lezen root-bestandssysteem dat via transacties wordt bijgewerkt, Die 
+  Leap Micro uit Leap 16.1 en later vervangt. De zelf-installeer images zijn 
+  onze aanbevelingen voor op USB gebaseerde installaties. Configureer het 
+  systeem bij de eerste keer opstarten met ofwel <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> of <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+preconfigured_dasd_image: Voorgeconfigureerde image voor DASD (raw)
+preconfigured_dasd_desc: Voor IBM zSystems en LinuxONE met ECKD DASD 
+  opslagsysteem
+preconfigured_fba_image: Voorgeconfigureerde image voor FBA (raw)
+preconfigured_fba_desc: Voor IBM zSystems en LinuxONE met FBA DASD opslagsysteem
+preconfigured_fcp_image: Voorgeconfigureerde image voor FCP (raw)
+preconfigured_fcp_desc: Voor IBM zSystems en LinuxONE met FCP aangekoppeld SCSI 
+  opslagsysteem
+selfinstall_immutable_image: Onveranderlijk zelf-installeer image
+selfinstall_immutable_desc: |
+  Onveranderlijke variant met een allee-lezen rootbestabdssysteem en bijwerken
+  via transacties. Opvolger van Leap Micro. Configureer het bij eerste keer opstarten met
+  Ignition of Combustion.
