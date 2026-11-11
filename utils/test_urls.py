@@ -2,9 +2,13 @@
 import sys
 import glob
 import yaml
+import urllib.parse
 import urllib.request
 import urllib.error
 import concurrent.futures
+
+# Leap 15.3's *-Current.* names need two hops: to *-3-*-Media, then to the build.
+MAX_REDIRECTS = 2
 
 class NoRedirectHandler(urllib.request.HTTPRedirectHandler):
     def redirect_request(self, req, fp, code, msg, headers, newurl):
@@ -25,28 +29,46 @@ def extract_urls(data):
 
 def test_url(url, opener):
     full_url = url if url.startswith('http') else 'https://download.opensuse.org' + url
-    req = urllib.request.Request(full_url, method='HEAD')
-    
+    host = urllib.parse.urlsplit(full_url).hostname
+
     is_sha = any(ext in full_url.lower() for ext in ['.sha256', '.sha512'])
-    expected_status = '200' if is_sha else '200/301/302'
+    expected_status = '200' if is_sha else '200 or a redirect to a mirror'
 
-    try:
-        res = opener.open(req, timeout=10)
-        status = res.status
-    except urllib.error.HTTPError as e:
-        status = e.code
-    except urllib.error.URLError as e:
-        return url, False, f"Network Error: {e.reason}", expected_status
-    except Exception as e:
-        return url, False, f"Error: {str(e)}", expected_status
+    # A redirect to the same host resolves an alias such as Tumbleweed's
+    # *-Current.* names, so check where it leads. A redirect to another host
+    # hands the download to a mirror and is accepted as before.
+    target = full_url
+    to_mirror = False
+    for _ in range(MAX_REDIRECTS + 1):
+        req = urllib.request.Request(target, method='HEAD')
+        location = None
+        try:
+            with opener.open(req, timeout=10) as res:
+                status = res.status
+        except urllib.error.HTTPError as e:
+            status = e.code
+            location = e.headers.get('Location')
+            e.close()
+        except urllib.error.URLError as e:
+            return url, False, f"Network Error: {e.reason}", expected_status
+        except Exception as e:
+            return url, False, f"Error: {str(e)}", expected_status
 
-    if is_sha:
-        success = (status == 200)
-        msg = f"Got {status} (Expected 200)"
+        if status != 302 or not location:
+            break
+        next_url = urllib.parse.urljoin(target, location)
+        if urllib.parse.urlsplit(next_url).hostname != host:
+            to_mirror = True
+            break
+        target = next_url
     else:
-        success = (status in (200, 301, 302))
-        msg = f"Got {status} (Expected 200/301/302)"
-        
+        return url, False, f"Too many redirects (next: {target})", expected_status
+
+    success = status == 200 or (to_mirror and not is_sha)
+    msg = f"Got {status} (Expected {expected_status})"
+    if target != full_url:
+        msg += f" from {target}"
+
     return url, success, msg, expected_status
 
 def main():
