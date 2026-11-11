@@ -539,3 +539,13 @@ selfinstall_immutable_desc: |
   Varian Immutable dengan sistem berkas root hanya-baca dan pembaruan
    transaksional. Penerus Leap Micro. Konfigurasikan saat boot pertama
    menggunakan Ignition atau Combustion.
+toggle_dropdown: Buka/Tutup Menu Dropdown
+close: Tutup
+redirect: Alihkan
+installation_alt: Tangkapan layar penginstal
+snapper_alt: Tangkapan layar Modul Snapper YaST
+software_alt: Tas belanja
+zypper_alt: Tangkapan layar zypper
+watch_on_youtube: Tonton di YouTube
+watch_on_youtube_external: Tonton di YouTube (situs web eksternal)
+youtube_video_player: Pemutar video YouTube
