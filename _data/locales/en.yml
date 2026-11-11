@@ -190,6 +190,10 @@ upgrade_table_windows_usb: How to create a Bootable USB stick on Windows.
 upgrade_table_windows_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
 upgrade_table__mac_usb: How to create a bootable USB stick on macOS.
 upgrade_table__mac_usb_link: https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
+wsl: openSUSE on Windows
+wsl_p1: "Install openSUSE in the Windows Subsystem for Linux (WSL) from PowerShell:"
+wsl_instructions: More about openSUSE on WSL.
+wsl_instructions_link: https://en.opensuse.org/openSUSE:WSL
 verify_download: Verify Your Download Before Use
 verify_download_p1: "Many applications can verify the checksum of a download. To verify\n\
   your download can be important as it verifies you really have got the\nISO file\

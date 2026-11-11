@@ -1,0 +1,18 @@
+{% if distro.wsl %}
+<section class="py-3">
+  <div class="container">
+    <h3 id="opensuse-on-windows">
+      {{ locale.wsl }}
+    </h3>
+    <p>
+      {{ locale.wsl_p1 }}
+    </p>
+    <pre><code>wsl --install -d {{ distro.wsl }}</code></pre>
+    <p>
+      <a href="{{ locale.wsl_instructions_link }}">
+        {{ locale.wsl_instructions }}
+      </a>
+    </p>
+  </div>
+</section>
+{% endif %}
