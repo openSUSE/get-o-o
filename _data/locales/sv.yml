@@ -526,3 +526,13 @@ selfinstall_immutable_desc: |
   Oföränderlig variant med ett skrivskyddat rootfilsystem och transaktionella
   uppdateringar. Efterföljaren till Leap Micro. Konfigurera den vid första uppstart med
   Ignition eller Combustion.
+toggle_dropdown: Växla rullgardinsmeny
+close: Stäng
+redirect: Omdirigera
+installation_alt: Skärmdump av installationsprogrammet
+snapper_alt: Skärmdump av YaST Snapper modul
+software_alt: Shoppingväska
+zypper_alt: skärmdump av zypper
+watch_on_youtube: Titta på YouTube
+watch_on_youtube_external: Titta på YouTube (extern webbplats)
+youtube_video_player: YouTube videospelare
