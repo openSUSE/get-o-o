@@ -247,11 +247,11 @@ tw_switch_instructions: Navodila za nadgradnjo.
 tw_switch_instructions_link: https://en.opensuse.org/openSUSE:Tumbleweed_upgrade
 upgrade_table_linux: S starejše različice ali druge distribucije GNU/Linux
 upgrade_table_windows: Z Windows
-upgrade_table_mac: Z OS X
+upgrade_table_mac: Z macOS
 upgrade_table_linux_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_Linux
 upgrade_table_windows_dvd: Kako zapisatu DVD na Windows-ih.
-upgrade_table_mac_dvd: Kako zapisati DVD na OS X-u.
+upgrade_table_mac_dvd: Kako zapisati DVD na macOS-u.
 upgrade_table_mac_dvd_link: 
   https://en.opensuse.org/SDB:Download_help#Using_MacOS_X_.2810.3_and_above.29
 upgrade_table_linux_usb: Kako ustvariti ključek USB, ki se da zagnati, na 
@@ -259,7 +259,8 @@ upgrade_table_linux_usb: Kako ustvariti ključek USB, ki se da zagnati, na
 upgrade_table_linux_usb_link: https://en.opensuse.org/SDB:Live_USB_stick
 upgrade_table_windows_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Windows
-upgrade_table__mac_usb: Kako ustvariti ključek USB, ki se da zagnati, na OS X-u.
+upgrade_table__mac_usb: Kako ustvariti ključek USB, ki se da zagnati, na 
+  macOS-u.
 upgrade_table__mac_usb_link: 
   https://en.opensuse.org/SDB:Create_a_Live_USB_stick_using_Mac_OS_x
 verify_download: Pred uporabo preverite prejeto
@@ -476,3 +477,52 @@ oem_image: Odtis za samo-namestitev (ISO, OEM)
 oem_images: Odtisi za prodajalce strojne opreme (OEM).
 oem_preconfigured_image: Vnaprej nastavljen odtis (surov, OEM)
 leap_160_ovw_video_desc: Pretok v živo ob izidu Leap 16.0
+toggle_dropdown: Preklopi spustni seznam
+close: Zapri
+redirect: Preusmeri
+oem_preconfigured_image_gnome: Vnaprej nastavljen odtis OEM z GNOME (surov)
+oem_preconfigured_image_kde: Vnaprej nastavljen odtis OEM s KDE Plasma (surov)
+oem_image_gnome: Samo-namestitveni odtis OEM z GNOME (ISO)
+oem_image_kde: Samo-namestitveni odtis OEM s KDE Plasma (ISO)
+immutable_images: Nespremenljivi
+immutable_images_info: Nespremenljivi Leap je izpeljanka, ki se posodablja 
+  transakcijsko in ima korenski datotečni sistem, ki je samo za branje. Od Leap 
+  16.1 dalje nadomešča Leap Micro. Za namestitve z USB priporočamo 
+  samo-namestitvene odtise. Sistem nastavite ob prvem zagonu z <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Ignition">Ignition</a> ali s <a 
+  href="https://en.opensuse.org/Portal:MicroOS/Combustion">Combustion</a>.
+harvester_cloud_image: Odtis za Harvester in oblak
+installation_alt: Zaslonski posnetek namestilnika
+preconfigured_dasd_image: Vnaprej nastavljen odtis za DASD (surov)
+preconfigured_dasd_desc: Za IBM zSystem in LinuxONE s hrambo ECKD DASD
+preconfigured_fba_image: Vnaprej nastavljen odtis za FBA (surov)
+preconfigured_fba_desc: Za IBM zSystem in LinuxONE s hrambo FBA DASD
+preconfigured_fcp_image: Vnaprej nastavljen odtis za FCP (surov)
+preconfigured_fcp_desc: Za IBM zSystem in LinuxONE s hrambo SCSI priključeno na 
+  FCP
+encrypted_rt_image: Polno šifriran odtis RealTime (surov)
+selfinstall_immutable_image: Nespremenljiv samo-namestitven odtis
+selfinstall_immutable_desc: |
+  Nespremenljiva izpeljanka s korenskim datotečnim sistemom samo 
+  za branje in transakcijskimi posodobitvami. Naslednik Leap Micro. 
+  Nastavite ga ob prvem zagonu z Ignition ali s Combustion.
+snapper_alt: Zaslonski posnetek modula YaST za posnetke
+software_alt: Nakupovalna vreča
+zypper_alt: Zaslonski posnetek orodja zypper
+watch_on_youtube: Glejte na YouTube-u
+watch_on_youtube_external: Glejte na YouTube-u (zunanja spletna stran)
+youtube_video_player: Predvajalnik videov YouTube
+preconfigured_base_image: Osnovni vnaprej nastavljen odtis (surov)
+encrypted_base_image: Osnovni polno šifriran odtis (surov)
+preconfigured_base_qcow_image: Osnovni vnaprej nastavljen odtis (qcow)
+vmware_base_image: Osnovni odtis VMWare
+selfinstall_base_image: Osnovni samo-namestitveni odtis
+preconfigured_base_64k_image: Osnovni vnaprej nastavljen odtis 64k (surov)
+encrypted_base_64k_image: Osnovni polno šifriran odtis 64k (surov)
+selfinstall_base_encrypted_64k_image: Osnovni polno šifriran samo-namestitven 
+  odtis 64k (ISO)
+selfinstall_base_64k_image: Osnovni samo-namestitven odtis 64k (ISO)
+preconfigured_64k_image: Vnaprej nastavljen odtis 64k (surov)
+encrypted_64k_image: Polno šifriran odtis 64k (surov)
+selfinstall_64k_image: Samo-namestitven odtis 64k (ISO)
+selfinstall_encrypted_64k_image: Polno šifriran samo-namestitven odtis 64k (ISO)
