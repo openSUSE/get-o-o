@@ -6,6 +6,7 @@ fg-color: black
 logo: logos/leap.svg
 choosing-media: true
 leap-switch: true
+wsl: openSUSE-Leap-16.1
 downloads:
 - name: installation_images
   display: all
