@@ -513,3 +513,7 @@ encrypted_64k_image: Tamamen Şifreli 64k Yansısı (raw)
 selfinstall_64k_image: Oto-kurulum 64k Yansısı (iso)
 selfinstall_encrypted_64k_image: Tamamen Şifreli Oto-kurulum 64k Yansısı (iso)
 harvester_cloud_image: Harvester ve Bulut imajı
+toggle_dropdown: Açılır menüyü aç/kapat
+close: Kapat
+redirect: Yönlendir
+immutable_images: Değiştirilemez
