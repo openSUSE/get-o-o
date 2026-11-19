@@ -52,7 +52,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-kvm-and-xen-Current.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-kvm-and-xen-Current.qcow2.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-kvm-and-xen-Snapshot8.12.236.qcow2.sha256.asc"
     - name: xen_image
       short: xen_desc
       primary_link: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-XEN-Current.qcow2"
@@ -64,7 +64,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-XEN-Current.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-XEN-Current.qcow2.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-XEN-Snapshot8.12.236.qcow2.sha256.asc"
     - name: hyperv_image
       short: hyperv_desc
       primary_link: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz"
@@ -76,7 +76,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Current.vhdx.xz.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-MS-HyperV-Snapshot8.12.236.vhdx.xz.sha256.asc"
     - name: vmware_image
       short: vmware_desc
       primary_link: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-VMware-Current.vmdk.xz"
@@ -88,7 +88,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-VMware-Current.vmdk.xz.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-VMware-Current.vmdk.xz.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-VMware-Snapshot8.12.236.vmdk.xz.sha256.asc"
     - name: openstack_image
       short: openstack_desc
       primary_link: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-OpenStack-Cloud-Current.qcow2"
@@ -100,7 +100,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-OpenStack-Cloud-Current.qcow2.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-OpenStack-Cloud-Current.qcow2.sha256.asc"
+        url: "/distribution/leap/15.1/jeos/openSUSE-Leap-15.1-JeOS.x86_64-15.1.0-OpenStack-Cloud-Snapshot8.12.236.qcow2.sha256.asc"
 - name: live_images
   display: desktop
   arches:
@@ -116,7 +116,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-GNOME-Live-x86_64-Current.iso.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-GNOME-Live-x86_64-Current.iso.sha256.asc"
+        url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-GNOME-Live-x86_64-Snapshot8.12.236-Media.iso.sha256.asc"
     - name: kde_cd
       primary_link: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-KDE-Live-x86_64-Current.iso"
       links:
@@ -127,7 +127,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-KDE-Live-x86_64-Current.iso.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-KDE-Live-x86_64-Current.iso.sha256.asc"
+        url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-KDE-Live-x86_64-Snapshot8.12.236-Media.iso.sha256.asc"
     - name: rescue_cd
       primary_link: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-Rescue-CD-x86_64-Current.iso"
       links:
@@ -138,7 +138,7 @@ downloads:
       - name: checksum
         url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-Rescue-CD-x86_64-Current.iso.sha256"
       - name: signature
-        url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-Rescue-CD-x86_64-Current.iso.sha256.asc"
+        url: "/distribution/leap/15.1/live/openSUSE-Leap-15.1-Rescue-CD-x86_64-Snapshot8.12.236-Media.iso.sha256.asc"
 - name: ports_images
   info: ports_info
   arches:
