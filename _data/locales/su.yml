@@ -169,3 +169,5 @@ tw_switch_instructions: Patuduh Pamutahiran.
 requirements_net: Jaringan
 upgrade_table_linux: Tina vérsi nu leuwih heubeul atawa distro Linux séjén
 requirements_hdd_size_desc: $value ruang disk nu sadia
+close: Tutup
+redirect: Alihan
