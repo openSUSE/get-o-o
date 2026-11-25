@@ -555,3 +555,13 @@ preconfigured_fcp_image: Попередньо налаштований обра�
 preconfigured_fcp_desc: Для IBM zSystems та LinuxONE із SCSI-системами 
   зберігання даних, підключеними через FCP
 selfinstall_immutable_image: Незмінний самовстановлюваний образ
+toggle_dropdown: Перемкнути випадаючий список
+close: Закрити
+redirect: Переспрямування
+installation_alt: Знімок інсталятора
+snapper_alt: Знімок екрана модуля YaST Snapper
+software_alt: Корзина покупця
+zypper_alt: знімок zypper
+watch_on_youtube: Дивитися на YouTube
+watch_on_youtube_external: Дивитися на YouTube (зовнішній вебсайт)
+youtube_video_player: Відеопрогравач YouTube
