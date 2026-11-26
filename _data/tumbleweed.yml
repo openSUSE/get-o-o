@@ -4,6 +4,7 @@ bg-color: tumbleweed
 fg-color: black
 logo: logos/tumbleweed.svg
 choosing-media: true
+wsl: openSUSE-Tumbleweed
 downloads:
 - name: installation_images
   display: all
